@@ -45,3 +45,43 @@ jobs:
         run: npm test
       - name: Build
         run: npm run build
+
+  # Exercises the README's Quick Start verbatim, from the repo root with no
+  # `cd backend` — the exact way a first-time user runs it. Catches
+  # regressions in packaging (e.g. a missing [build-system] table) that
+  # `pytest` alone cannot see, because pytest sets its own import path and
+  # never proves `acide` is importable the way a real install is.
+  packaging:
+    name: Quick Start (fresh install, repo root)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Editable install, exactly as the README instructs
+        run: |
+          python3 -m venv backend/.venv
+          backend/.venv/bin/pip install -e backend/
+      - name: python -m acide resolves from the repo root
+        run: backend/.venv/bin/python -m acide --help
+      - name: the acide console script resolves from the repo root
+        run: backend/.venv/bin/acide --help
+      - name: the server boots and answers a request
+        run: |
+          ACIDE_DATA_DIR=/tmp/acide-ci-data backend/.venv/bin/acide --host 127.0.0.1 --port 8099 &
+          ok=0
+          for i in $(seq 1 15); do
+            # `if curl ...; then` — not a bare `curl && exit`, which under
+            # this shell's `set -e` would abort the whole script on the
+            # first failed attempt instead of retrying.
+            if curl -sf http://127.0.0.1:8099/api/health; then
+              ok=1
+              break
+            fi
+            sleep 1
+          done
+          if [ "$ok" != "1" ]; then
+            echo "server never answered /api/health" >&2
+            exit 1
+          fi

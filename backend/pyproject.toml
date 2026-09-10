@@ -3,6 +3,23 @@ name = "acide-watch"
 version = "2.0.0"
 description = "Self-hosted job portal and automated career-scouting engine"
 requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+# `pip install -e backend/` puts `acide` on the interpreter's path
+# permanently, so `acide` / `python -m acide` work from any directory —
+# not just from inside backend/. Without this table, `pip install -e .`
+# silently has nothing to build against.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+acide = "acide.__main__:main"
+
+[tool.setuptools.dynamic]
+# Single source of truth for runtime deps — requirements.txt, not a
+# second copy pasted into this file.
+dependencies = { file = ["requirements.txt"] }
 
 [tool.setuptools.packages.find]
 include = ["acide*"]

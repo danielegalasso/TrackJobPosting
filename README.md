@@ -36,16 +36,22 @@ The portal shows both numbers on every card and lets you filter on either.
 git clone https://github.com/danielegalasso/TrackJobPosting.git
 cd TrackJobPosting
 
-# 1. Backend
+# 1. Backend — editable install, so `acide` works from any directory
 python3 -m venv backend/.venv
-backend/.venv/bin/pip install -r backend/requirements.txt
+backend/.venv/bin/pip install -e backend/
 
 # 2. Portal
 cd frontend && npm install && npm run build && cd ..
 
 # 3. Run — serves the API and the portal from one process
-backend/.venv/bin/python -m acide
+backend/.venv/bin/acide
 ```
+
+`pip install -e backend/` (not `-r backend/requirements.txt`) is what makes
+step 3 work from the repo root: it installs the runtime dependencies *and*
+registers `acide` as an importable package and a console script, rather than
+leaving it importable only from inside `backend/`. `backend/.venv/bin/python
+-m acide` works the same way, from anywhere.
 
 Open <http://127.0.0.1:8000>, go to **Settings**, and fill in:
 
@@ -173,8 +179,8 @@ Gmail needs an **app password**, not your account password.
 ## Development
 
 ```bash
-# Backend: tests and lint
-backend/.venv/bin/pip install -r backend/requirements-dev.txt
+# Backend: editable install + dev deps, tests and lint
+backend/.venv/bin/pip install -e backend/ -r backend/requirements-dev.txt
 cd backend && .venv/bin/python -m pytest && .venv/bin/ruff check .
 
 # Portal: tests, typecheck, dev server with hot reload
@@ -186,10 +192,11 @@ npm run dev       # http://localhost:5173, proxying /api to the backend
 
 Both suites run on every push via `.github/workflows/ci.yml`.
 
-Run the API separately while developing the portal:
+Run the API separately while developing the portal — works from any
+directory once `acide` is installed:
 
 ```bash
-backend/.venv/bin/python -m acide --reload
+backend/.venv/bin/acide --reload
 ```
 
 ### Layout
