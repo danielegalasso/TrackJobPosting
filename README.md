@@ -177,9 +177,14 @@ Gmail needs an **app password**, not your account password.
 backend/.venv/bin/pip install -r backend/requirements-dev.txt
 cd backend && .venv/bin/python -m pytest && .venv/bin/ruff check .
 
-# Portal: dev server with hot reload, proxying /api to the backend
-cd frontend && npm run dev        # http://localhost:5173
+# Portal: tests, typecheck, dev server with hot reload
+cd frontend
+npm test          # vitest
+npm run typecheck
+npm run dev       # http://localhost:5173, proxying /api to the backend
 ```
+
+Both suites run on every push via `.github/workflows/ci.yml`.
 
 Run the API separately while developing the portal:
 
@@ -210,14 +215,24 @@ frontend/src/
 
 ### Tests
 
-98 backend tests cover the filter query builder, compensation maths, all three
-connectors (against recorded board payloads), the evaluator's handling of
-malformed model output, alert deduplication, and the HTTP surface. The two
-bugs that only appear in a real process — the SPA catch-all route and connector
-registration — have regression guards.
+**171 tests: 98 backend, 73 portal.**
+
+The backend suite covers the filter query builder, compensation maths, all
+three connectors (against recorded board payloads), the evaluator's handling of
+malformed model output, alert deduplication, and the HTTP surface.
+
+The portal suite covers query serialisation, every filter control, the card's
+dual-vector rendering, dialog behaviour, the alert flow, the live SSE console,
+and App-level integration against a stateful fake backend.
+
+Three bugs that only appear when the whole thing runs have regression guards:
+the SPA catch-all route (invisible to tests until a build exists), connector
+registration (an empty registry outside the test process), and grid staleness
+on a query-cache hit.
 
 ```bash
 cd backend && .venv/bin/python -m pytest -q
+cd frontend && npm test
 ```
 
 ---
