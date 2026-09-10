@@ -156,3 +156,20 @@ def test_strip_html_produces_readable_text():
 )
 def test_iso_date_normalises_ats_shapes(value, expected):
     assert iso_date(value) == expected
+
+
+def test_every_connector_registers_on_package_import():
+    """Regression guard: the registry is built by import side effect.
+
+    A production process imports `acide.spider` and nothing else, so if the
+    connector modules are not imported there the registry is empty and every
+    configured target fails with "unknown source type".
+    """
+    import importlib
+
+    import acide.spider as spider_package
+
+    importlib.reload(spider_package)
+    assert set(spider_package.CONNECTORS) == {"greenhouse", "lever", "ashby"}
+    for source_type in ("greenhouse", "lever", "ashby"):
+        assert spider_package.get_connector(source_type).source_type == source_type

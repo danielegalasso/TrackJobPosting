@@ -200,3 +200,44 @@ def test_purge_jobs_clears_the_index(client):
     seed(external_id="1")
     assert client.post("/api/config/purge-jobs").json()["deleted"] == 1
     assert client.get("/api/jobs").json()["total"] == 0
+
+
+def test_single_page_app_is_served_when_built(tmp_path, monkeypatch):
+    """The SPA catch-all only registers once a build exists.
+
+    Regression guard: the route is added at import time inside
+    `_mount_frontend`, so a test run against a repo with no `dist/` never
+    exercises it. This builds a stand-in dist and mounts a fresh app.
+    """
+    import importlib
+
+    from fastapi.testclient import TestClient
+
+    dist = tmp_path / "dist"
+    (dist / "assets").mkdir(parents=True)
+    (dist / "index.html").write_text("<!doctype html><title>ACIDE-Watch</title>")
+    (dist / "assets" / "app.js").write_text("console.log('acide');")
+
+    from acide import main as main_module
+    from acide import paths
+
+    monkeypatch.setattr(paths, "FRONTEND_DIST", dist)
+    reloaded = importlib.reload(main_module)
+
+    with TestClient(reloaded.app) as spa_client:
+        index = spa_client.get("/")
+        assert index.status_code == 200
+        assert "ACIDE-Watch" in index.text
+
+        # A client-side route falls through to index.html…
+        assert spa_client.get("/settings").status_code == 200
+        # …a real asset is served as itself…
+        assert "acide" in spa_client.get("/assets/app.js").text
+        # …and an unknown API path stays a JSON 404.
+        assert spa_client.get("/api/nope").status_code == 404
+        # The API still answers through the catch-all app.
+        assert spa_client.get("/api/health").json()["status"] == "ok"
+
+    # Restore the module for any test that runs after this one.
+    monkeypatch.undo()
+    importlib.reload(main_module)

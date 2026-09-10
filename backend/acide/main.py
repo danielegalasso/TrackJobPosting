@@ -136,7 +136,9 @@ def _mount_frontend() -> None:
     if assets.is_dir():
         app.mount("/assets", StaticFiles(directory=assets), name="assets")
 
-    @app.get("/{full_path:path}", include_in_schema=False)
+    # response_model=None: the return is a Response union, which FastAPI must
+    # not try to turn into a response model.
+    @app.get("/{full_path:path}", include_in_schema=False, response_model=None)
     def spa(full_path: str) -> FileResponse | JSONResponse:
         # Any unmatched API path is a genuine 404, not an SPA route.
         if full_path.startswith("api/"):

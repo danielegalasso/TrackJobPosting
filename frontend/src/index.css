@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-white text-gray-800 antialiased;
+    font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
+      sans-serif;
+  }
+}
+
+@layer components {
+  /* The filter matrix control: a compact bordered input with a trailing icon. */
+  .control {
+    @apply w-full rounded-md border border-gray-300 bg-white py-2 pl-3 pr-9 text-sm
+           text-gray-700 placeholder-gray-400 transition
+           focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand;
+  }
+  .control-icon {
+    @apply pointer-events-none absolute right-3 top-2.5 h-4 w-4 text-gray-400;
+  }
+  .chip {
+    @apply rounded px-2 py-0.5 text-xs font-medium;
+  }
+}
+
+/* Respect a reduced-motion preference for the spinner and card transitions. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
