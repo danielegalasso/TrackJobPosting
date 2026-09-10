@@ -2,7 +2,18 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { Check, Loader2, Plus, Trash2, Upload, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { api } from '../lib/api';
-import type { AlertSubscription, AppConfig, HandshakeResult, SpiderTarget } from '../types';
+import {
+  REASONING_EFFORTS,
+  type AlertSubscription,
+  type AppConfig,
+  type HandshakeResult,
+  type ReasoningEffort,
+  type SpiderTarget,
+} from '../types';
+import { ModelPicker } from './ModelPicker';
+
+/** Mirrors the probe the backend sends; shown so the test is not a black box. */
+const PROBE_PROMPT = 'Rispondi solo con: OK';
 
 /** Render only the filters a subscription actually set. */
 function describeFilters(filters: Record<string, unknown>): string {
@@ -23,14 +34,43 @@ function Section({ title, hint, children }: { title: string; hint?: string; chil
   );
 }
 
-function Field({ label, children, hint }: { label: string; children: React.ReactNode; hint?: string }) {
-  return (
-    <label className="block">
+function Field({
+  label,
+  children,
+  hint,
+  htmlFor,
+}: {
+  label: string;
+  children: React.ReactNode;
+  hint?: string;
+  /**
+   * Set for composite widgets. A wrapping `<label>` forwards every click
+   * inside it to its control, so a combobox's own dropdown items would
+   * refocus the input and reopen the list instead of selecting. Pointing at
+   * the input by id keeps the label association without that capture.
+   */
+  htmlFor?: string;
+}) {
+  const body = (
+    <>
       <span className="mb-1 block text-xs font-semibold text-gray-700">{label}</span>
       {children}
       {hint && <span className="mt-1 block text-[11px] text-gray-400">{hint}</span>}
-    </label>
+    </>
   );
+
+  if (htmlFor) {
+    return (
+      <div className="block">
+        <label htmlFor={htmlFor} className="contents">
+          <span className="mb-1 block text-xs font-semibold text-gray-700">{label}</span>
+        </label>
+        {children}
+        {hint && <span className="mt-1 block text-[11px] text-gray-400">{hint}</span>}
+      </div>
+    );
+  }
+  return <label className="block">{body}</label>;
 }
 
 function Handshake({ result }: { result?: HandshakeResult }) {
@@ -61,7 +101,9 @@ export function SettingsPanel() {
   const [saved, setSaved] = useState(false);
   const [saveError, setSaveError] = useState('');
   const [openRouterTest, setOpenRouterTest] = useState<HandshakeResult>();
+  const [testingOpenRouter, setTestingOpenRouter] = useState(false);
   const [smtpTest, setSmtpTest] = useState<HandshakeResult>();
+  const [testingSmtp, setTestingSmtp] = useState(false);
   const [resumeNote, setResumeNote] = useState('');
 
   useEffect(() => {
@@ -247,20 +289,56 @@ export function SettingsPanel() {
             placeholder="sk-or-v1-…"
           />
         </Field>
-        <div className="grid grid-cols-2 gap-3">
-          <Field label="Model">
-            <input
-              type="text"
-              value={draft.openrouter.model}
+        <Field
+          label="Model"
+          htmlFor="model-search"
+          hint="Type to filter OpenRouter's catalogue; ↑ ↓ and Enter also work."
+        >
+          <ModelPicker
+            value={draft.openrouter.model}
+            reasoningRequested={draft.openrouter.reasoning_effort !== 'none'}
+            onChange={(model) =>
+              patch((next) => {
+                next.openrouter.model = model;
+              })
+            }
+          />
+        </Field>
+
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+          <Field label="Reasoning effort" hint="Sent as reasoning.effort.">
+            <select
+              value={draft.openrouter.reasoning_effort}
               onChange={(event) =>
                 patch((next) => {
-                  next.openrouter.model = event.target.value;
+                  next.openrouter.reasoning_effort = event.target.value as ReasoningEffort;
                 })
               }
-              className="control pr-3 font-mono text-xs"
+              className="control pr-3"
+            >
+              {REASONING_EFFORTS.map((item) => (
+                <option key={item.value} value={item.value}>
+                  {item.label} — {item.hint}
+                </option>
+              ))}
+            </select>
+          </Field>
+          <Field label="Max tokens" hint="Thinking spends this budget before the answer starts.">
+            <input
+              type="number"
+              min={256}
+              max={200000}
+              step={1000}
+              value={draft.openrouter.max_tokens}
+              onChange={(event) =>
+                patch((next) => {
+                  next.openrouter.max_tokens = Number(event.target.value);
+                })
+              }
+              className="control pr-3"
             />
           </Field>
-          <Field label="Concurrent evaluations" hint="Higher is faster and costs the same per posting.">
+          <Field label="Concurrent evaluations" hint="Faster; costs the same per posting.">
             <input
               type="number"
               min={1}
@@ -275,12 +353,36 @@ export function SettingsPanel() {
             />
           </Field>
         </div>
-        <button
-          onClick={async () => setOpenRouterTest(await api.testOpenRouter())}
-          className="rounded border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:bg-gray-50"
-        >
-          Test connection
-        </button>
+
+        <div className="flex flex-wrap items-center gap-3">
+          <button
+            onClick={async () => {
+              setOpenRouterTest(undefined);
+              setTestingOpenRouter(true);
+              try {
+                // The probe reads the saved file, so an unsaved key or
+                // model would silently test the previous one.
+                await save.mutateAsync(draft);
+                setOpenRouterTest(await api.testOpenRouter());
+              } catch (error) {
+                setOpenRouterTest({
+                  ok: false,
+                  detail: error instanceof Error ? error.message : 'Test failed',
+                });
+              } finally {
+                setTestingOpenRouter(false);
+              }
+            }}
+            disabled={testingOpenRouter}
+            className="flex items-center gap-2 rounded border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:bg-gray-50 disabled:opacity-60"
+          >
+            {testingOpenRouter && <Loader2 className="h-3.5 w-3.5 animate-spin" aria-hidden />}
+            <span>Test connection</span>
+          </button>
+          <span className="text-[11px] text-gray-400">
+            Saves, then sends “{PROBE_PROMPT}” and expects <code>OK</code> back.
+          </span>
+        </div>
         <Handshake result={openRouterTest} />
       </Section>
 
@@ -312,17 +414,29 @@ export function SettingsPanel() {
               placeholder="smtp.gmail.com"
             />
           </Field>
-          <Field label="Port">
-            <input
-              type="number"
-              value={draft.email.smtp_port}
+          <Field label="Port" hint="587 = STARTTLS · 465 = implicit TLS · 25 = plaintext.">
+            <select
+              value={[25, 465, 587].includes(draft.email.smtp_port) ? draft.email.smtp_port : 0}
               onChange={(event) =>
                 patch((next) => {
-                  next.email.smtp_port = Number(event.target.value);
+                  const port = Number(event.target.value);
+                  if (port === 0) return;
+                  next.email.smtp_port = port;
+                  // 465 is TLS from the first byte; 587 negotiates it with
+                  // STARTTLS. Keeping the flag in step removes the single
+                  // most common way to misconfigure Gmail.
+                  next.email.use_tls = port !== 25;
                 })
               }
               className="control pr-3"
-            />
+            >
+              <option value={587}>587 — STARTTLS (Gmail)</option>
+              <option value={465}>465 — implicit TLS</option>
+              <option value={25}>25 — plaintext</option>
+              {![25, 465, 587].includes(draft.email.smtp_port) && (
+                <option value={0}>{draft.email.smtp_port} — custom</option>
+              )}
+            </select>
           </Field>
           <Field label="Sender address">
             <input
@@ -336,7 +450,10 @@ export function SettingsPanel() {
               className="control pr-3"
             />
           </Field>
-          <Field label="Password" hint="Gmail requires an app password, not your account password.">
+          <Field
+            label="Password"
+            hint="Gmail: a 16-character app password, not your account password. Spaces are fine."
+          >
             <input
               type="password"
               value={draft.email.sender_password}
@@ -349,12 +466,36 @@ export function SettingsPanel() {
             />
           </Field>
         </div>
-        <button
-          onClick={async () => setSmtpTest(await api.testSmtp())}
-          className="rounded border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:bg-gray-50"
-        >
-          Test connection
-        </button>
+
+        <div className="flex flex-wrap items-center gap-3">
+          <button
+            onClick={async () => {
+              setSmtpTest(undefined);
+              setTestingSmtp(true);
+              try {
+                // The test reads the saved file, so an unsaved password
+                // would silently test the previous one.
+                await save.mutateAsync(draft);
+                setSmtpTest(await api.testSmtp());
+              } catch (error) {
+                setSmtpTest({
+                  ok: false,
+                  detail: error instanceof Error ? error.message : 'Test failed',
+                });
+              } finally {
+                setTestingSmtp(false);
+              }
+            }}
+            disabled={testingSmtp}
+            className="flex items-center gap-2 rounded border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:bg-gray-50 disabled:opacity-60"
+          >
+            {testingSmtp && <Loader2 className="h-3.5 w-3.5 animate-spin" aria-hidden />}
+            <span>Save &amp; test connection</span>
+          </button>
+          <span className="text-[11px] text-gray-400">
+            Logs in without sending anything.
+          </span>
+        </div>
         <Handshake result={smtpTest} />
       </Section>
 

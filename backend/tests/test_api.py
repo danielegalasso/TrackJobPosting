@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+import httpx
+import pytest
+import respx
 from test_filters import seed
 
 from acide import db
@@ -241,3 +244,135 @@ def test_single_page_app_is_served_when_built(tmp_path, monkeypatch):
     # Restore the module for any test that runs after this one.
     monkeypatch.undo()
     importlib.reload(main_module)
+
+
+def _catalogue(*ids: str) -> dict:
+    return {
+        "data": [
+            {
+                "id": model_id,
+                "name": model_id.replace("/", ": "),
+                "context_length": 128000,
+                "pricing": {"prompt": "0.0000002", "completion": "0.0000012"},
+                "supported_parameters": ["max_tokens", "reasoning"],
+            }
+            for model_id in ids
+        ]
+    }
+
+
+@pytest.fixture
+def _clear_model_cache():
+    """The catalogue cache is process-wide; tests must not inherit it."""
+    from acide.api import config as config_api
+
+    config_api._model_cache = None
+    config_api._model_cache_at = 0.0
+    yield
+    config_api._model_cache = None
+    config_api._model_cache_at = 0.0
+
+
+@respx.mock
+def test_models_endpoint_lists_and_filters(client, _clear_model_cache):
+    respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(
+            200, json=_catalogue("openai/gpt-5.6-luna", "google/gemini-2.5-flash")
+        )
+    )
+    everything = client.get("/api/config/models").json()
+    assert [item["id"] for item in everything] == [
+        "openai/gpt-5.6-luna",
+        "google/gemini-2.5-flash",
+    ]
+    assert everything[0]["supports_reasoning"] is True
+
+    filtered = client.get("/api/config/models", params={"q": "gemini"}).json()
+    assert [item["id"] for item in filtered] == ["google/gemini-2.5-flash"]
+
+
+@respx.mock
+def test_models_endpoint_caches_between_keystrokes(client, _clear_model_cache):
+    route = respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(200, json=_catalogue("openai/gpt-5.6-luna"))
+    )
+    for query in ("g", "gp", "gpt"):
+        client.get("/api/config/models", params={"q": query})
+    # Filtering as the user types must not re-fetch the catalogue each time.
+    assert route.call_count == 1
+
+    client.get("/api/config/models", params={"refresh": True})
+    assert route.call_count == 2
+
+
+@respx.mock
+def test_models_endpoint_reports_an_unreachable_gateway(client, _clear_model_cache):
+    respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(503)
+    )
+    response = client.get("/api/config/models")
+    assert response.status_code == 502
+    assert "503" in response.json()["detail"]
+
+
+@respx.mock
+def test_models_endpoint_serves_a_stale_catalogue_over_an_error(client, _clear_model_cache):
+    route = respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(200, json=_catalogue("openai/gpt-5.6-luna"))
+    )
+    assert len(client.get("/api/config/models").json()) == 1
+
+    # Once something is cached, a later blip must not empty the picker.
+    route.mock(return_value=httpx.Response(503))
+    assert len(client.get("/api/config/models", params={"refresh": True}).json()) == 1
+
+
+def test_config_round_trips_reasoning_effort_and_max_tokens(client):
+    saved = client.put(
+        "/api/config",
+        json={
+            "openrouter": {
+                "api_key": "sk-test",
+                "model": "openai/gpt-5.6-luna",
+                "reasoning_effort": "max",
+                "max_tokens": 12000,
+            }
+        },
+    ).json()
+    assert saved["openrouter"]["reasoning_effort"] == "max"
+    assert saved["openrouter"]["max_tokens"] == 12000
+    assert saved["openrouter"]["model"] == "openai/gpt-5.6-luna"
+
+
+def test_config_rejects_an_out_of_range_max_tokens(client):
+    response = client.put("/api/config", json={"openrouter": {"max_tokens": 10}})
+    assert response.status_code == 422
+
+
+@respx.mock
+def test_openrouter_test_button_reports_the_probe_result(client):
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(
+            200,
+            json={
+                "model": "openai/gpt-5.6-luna",
+                "choices": [{"message": {"content": "OK"}}],
+                "usage": {"total_tokens": 18, "cost": 0.0000086},
+            },
+        )
+    )
+    client.put("/api/config", json={"openrouter": {"api_key": "sk-test"}})
+    body = client.post("/api/config/test/openrouter").json()
+    assert body["ok"] is True
+    assert "replied OK" in body["detail"]
+
+
+@respx.mock
+def test_openrouter_test_button_reports_a_failure_without_raising(client):
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(401, json={"error": "no"})
+    )
+    client.put("/api/config", json={"openrouter": {"api_key": "sk-bad"}})
+    body = client.post("/api/config/test/openrouter").json()
+    assert body["ok"] is False
+    assert "401" in body["detail"]

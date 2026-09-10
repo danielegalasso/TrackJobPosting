@@ -7,6 +7,12 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 
+// jsdom implements no layout, so it omits scrollIntoView. Real browsers all
+// have it; the picker uses it to keep the highlighted row visible.
+if (!Element.prototype.scrollIntoView) {
+  Element.prototype.scrollIntoView = vi.fn();
+}
+
 // jsdom has no EventSource; the inspector console opens one on mount.
 class MockEventSource {
   static instances: MockEventSource[] = [];

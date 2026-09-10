@@ -21,7 +21,7 @@ from typing import Any
 
 import httpx
 
-from .models import JobEvaluation, RawPosting, SetupConfig
+from .models import JobEvaluation, ModelInfo, RawPosting, SetupConfig
 
 RESPONSE_SCHEMA: dict[str, Any] = {
     "type": "object",
@@ -104,8 +104,71 @@ Published: {date_posted}
 Return ONLY the JSON object."""
 
 
+#: The settings screen's test button sends exactly this and expects "OK".
+PROBE_PROMPT = "Rispondi solo con: OK"
+
+
 class InferenceError(RuntimeError):
     """The gateway refused, timed out, or returned something unusable."""
+
+
+def _normalise_probe(reply: str) -> str:
+    """Strip the punctuation and markup a model wraps a one-word answer in."""
+    return reply.strip().strip("*_`.!\"' \n\t").upper()
+
+
+def _empty_content_reason(payload: dict[str, Any]) -> str:
+    """Explain an empty completion, which usually means the budget ran out."""
+    usage = payload.get("usage") or {}
+    reasoning_tokens = (usage.get("completion_tokens_details") or {}).get("reasoning_tokens")
+    if reasoning_tokens:
+        return (
+            f"the model spent all {reasoning_tokens} of its output tokens on reasoning and "
+            "returned no answer — raise Max tokens or lower the reasoning effort"
+        )
+    finish = (payload.get("choices") or [{}])[0].get("finish_reason")
+    if finish == "length":
+        return "the reply was cut off by the token limit — raise Max tokens"
+    return "OpenRouter returned an empty completion"
+
+
+def _price(pricing: dict[str, Any], key: str) -> float | None:
+    """OpenRouter quotes prices as strings of USD per token."""
+    try:
+        return float(pricing[key])
+    except (KeyError, TypeError, ValueError):
+        return None
+
+
+def _parse_model(entry: dict[str, Any]) -> ModelInfo:
+    pricing = entry.get("pricing") or {}
+    supported = entry.get("supported_parameters") or []
+    return ModelInfo(
+        id=str(entry.get("id") or ""),
+        name=str(entry.get("name") or entry.get("id") or ""),
+        context_length=entry.get("context_length"),
+        prompt_price=_price(pricing, "prompt"),
+        completion_price=_price(pricing, "completion"),
+        # Only models advertising the parameter honour `reasoning.effort`.
+        supports_reasoning="reasoning" in supported,
+    )
+
+
+def filter_models(models: list[ModelInfo], query: str) -> list[ModelInfo]:
+    """Case-insensitive substring match over id and display name.
+
+    This is the `select(contains(...))` of the equivalent jq one-liner, over
+    both fields so "gpt 5" finds "openai/gpt-5" by its name too.
+    """
+    needle = query.strip().lower()
+    if not needle:
+        return models
+    terms = needle.split()
+    return [
+        model
+        for model in models
+        if all(term in f"{model.id} {model.name}".lower() for term in terms)
+    ]
 
 
 def _headers(config: SetupConfig) -> dict[str, str]:
@@ -174,24 +237,42 @@ class OpenRouterClient:
         if self._owns_client:
             self._client.close()
 
-    def complete(self, messages: list[dict[str, str]], **overrides: Any) -> str:
+    def complete_raw(
+        self,
+        messages: list[dict[str, str]],
+        *,
+        structured: bool = True,
+        **overrides: Any,
+    ) -> dict[str, Any]:
+        """POST one completion and return the whole payload.
+
+        `structured=False` drops the JSON schema, for calls whose answer is
+        prose rather than an evaluation.
+        """
         if not self.config.openrouter.api_key:
             raise InferenceError("no OpenRouter API key configured")
+        settings = self.config.openrouter
         body: dict[str, Any] = {
-            "model": self.config.openrouter.model,
+            "model": settings.model,
             "messages": messages,
-            "temperature": self.config.openrouter.temperature,
-            "response_format": {
+            "temperature": settings.temperature,
+            "max_tokens": settings.max_tokens,
+        }
+        if structured:
+            body["response_format"] = {
                 "type": "json_schema",
                 "json_schema": {
                     "name": "job_evaluation",
                     "strict": True,
                     "schema": RESPONSE_SCHEMA,
                 },
-            },
-        }
+            }
+        if settings.reasoning_effort != "none":
+            # Models without a thinking mode ignore this; sending it to them
+            # is not an error, so there is nothing to gate on here.
+            body["reasoning"] = {"effort": settings.reasoning_effort}
         body.update(overrides)
-        url = f"{self.config.openrouter.base_url.rstrip('/')}/chat/completions"
+        url = f"{settings.base_url.rstrip('/')}/chat/completions"
         try:
             response = self._client.post(url, headers=_headers(self.config), json=body)
         except httpx.HTTPError as exc:
@@ -209,12 +290,20 @@ class OpenRouterClient:
             )
 
         payload = response.json()
-        if "error" in payload and payload["error"]:
+        if payload.get("error"):
             raise InferenceError(str(payload["error"])[:300])
+        return payload
+
+    def complete(self, messages: list[dict[str, str]], **overrides: Any) -> str:
+        """The assistant text of one completion."""
+        payload = self.complete_raw(messages, **overrides)
         try:
-            return payload["choices"][0]["message"]["content"]
+            content = payload["choices"][0]["message"]["content"]
         except (KeyError, IndexError, TypeError) as exc:
             raise InferenceError("OpenRouter response had no completion content") from exc
+        if content is None:
+            raise InferenceError(_empty_content_reason(payload))
+        return content
 
     def evaluate(self, posting: RawPosting, cv_text: str) -> JobEvaluation:
         """Score one posting on both fit vectors."""
@@ -227,20 +316,67 @@ class OpenRouterClient:
         return JobEvaluation(**parse_response(content))
 
     def handshake(self) -> str:
-        """Verify credentials cheaply, for the settings screen's test button."""
-        if not self.config.openrouter.api_key:
-            raise InferenceError("no OpenRouter API key configured")
-        url = f"{self.config.openrouter.base_url.rstrip('/')}/key"
+        """Send a real completion and check the model answers with `OK`.
+
+        A credentials-only check passes for a model the account cannot
+        actually call, a reasoning budget the model rejects, or a
+        `max_tokens` so small the answer never survives the thinking phase.
+        Round-tripping one tiny prompt exercises the whole configured path.
+        """
+        payload = self.complete_raw(
+            [{"role": "user", "content": PROBE_PROMPT}], structured=False
+        )
         try:
-            response = self._client.get(url, headers=_headers(self.config), timeout=20.0)
+            message = payload["choices"][0]["message"]
+        except (KeyError, IndexError, TypeError) as exc:
+            raise InferenceError("OpenRouter response had no completion content") from exc
+
+        reply = (message.get("content") or "").strip()
+        if not reply:
+            raise InferenceError(_empty_content_reason(payload))
+        # Models embellish ("OK.", "**OK**"); only a wholly different answer
+        # means the configured path is broken.
+        if _normalise_probe(reply) != "OK":
+            raise InferenceError(
+                f"model answered {reply[:80]!r} instead of 'OK' — "
+                "the call worked, but this model may not follow instructions well"
+            )
+
+        settings = self.config.openrouter
+        usage = payload.get("usage") or {}
+        detail = [f"'{payload.get('model') or settings.model}' replied OK"]
+        if provider := payload.get("provider"):
+            detail.append(f"via {provider}")
+        if settings.reasoning_effort != "none":
+            detail.append(f"reasoning={settings.reasoning_effort}")
+        if total := usage.get("total_tokens"):
+            reasoning_tokens = (usage.get("completion_tokens_details") or {}).get(
+                "reasoning_tokens"
+            )
+            suffix = f" ({reasoning_tokens} reasoning)" if reasoning_tokens else ""
+            detail.append(f"{total} tokens{suffix}")
+        if (cost := usage.get("cost")) is not None:
+            detail.append(f"${float(cost):.6f}")
+        return " · ".join(detail)
+
+    def list_models(self, query: str = "") -> list[ModelInfo]:
+        """The catalogue, optionally narrowed to ids/names containing `query`."""
+        url = f"{self.config.openrouter.base_url.rstrip('/')}/models"
+        try:
+            # The catalogue is public; the key is sent when present but is
+            # not required, so the picker still works before one is saved.
+            response = self._client.get(url, headers=_headers(self.config), timeout=30.0)
         except httpx.HTTPError as exc:
             raise InferenceError(f"could not reach OpenRouter: {exc}") from exc
-        if response.status_code == 401:
-            raise InferenceError("OpenRouter rejected the API key (401)")
         if response.status_code >= 400:
             raise InferenceError(f"OpenRouter returned HTTP {response.status_code}")
-        data = response.json().get("data", {})
-        limit = data.get("limit")
-        usage = data.get("usage")
-        budget = "unlimited" if limit is None else f"{usage or 0:.4f} of {limit} used"
-        return f"Key accepted by OpenRouter; model '{self.config.openrouter.model}' ({budget})."
+        try:
+            entries = response.json()["data"]
+        except (KeyError, TypeError, ValueError) as exc:
+            raise InferenceError(
+                "OpenRouter model catalogue was not in the expected shape"
+            ) from exc
+
+        models = [_parse_model(entry) for entry in entries if isinstance(entry, dict)]
+        models = [model for model in models if model.id]
+        return filter_models(models, query)

@@ -2,20 +2,27 @@
 
 from __future__ import annotations
 
+import time
 from typing import Any
 
-from fastapi import APIRouter, Body, File, HTTPException, Response, UploadFile
+from fastapi import APIRouter, Body, File, HTTPException, Query, Response, UploadFile
 from pydantic import ValidationError
 
 from .. import config as config_module
 from .. import db, resume
-from ..llm import InferenceError, OpenRouterClient
+from ..llm import InferenceError, OpenRouterClient, filter_models
 from ..mailer import MailError
 from ..mailer import handshake as smtp_handshake
-from ..models import HandshakeResult, SetupConfig
+from ..models import HandshakeResult, ModelInfo, SetupConfig
 from ..spider.base import CONNECTORS
 
 router = APIRouter(prefix="/api/config", tags=["config"])
+
+#: The catalogue is ~300 entries and changes on OpenRouter's schedule, not
+#: ours, so it is fetched once and reused across keystrokes.
+_MODEL_CACHE_TTL = 600.0
+_model_cache: list[ModelInfo] | None = None
+_model_cache_at = 0.0
 
 
 @router.get("", response_model=dict)
@@ -71,8 +78,35 @@ def delete_resume() -> Response:
     return Response(status_code=204)
 
 
+@router.get("/models", response_model=list[ModelInfo])
+def list_models(
+    q: str = Query("", description="Substring filter over model id and name"),
+    refresh: bool = Query(False, description="Bypass the catalogue cache"),
+) -> list[ModelInfo]:
+    """OpenRouter's model catalogue, for the settings model picker.
+
+    Cached in-process: the picker filters as the user types, and the
+    catalogue changes far more slowly than that.
+    """
+    global _model_cache, _model_cache_at
+
+    now = time.monotonic()
+    if refresh or _model_cache is None or now - _model_cache_at > _MODEL_CACHE_TTL:
+        config = config_module.load(refresh=True)
+        try:
+            with OpenRouterClient(config) as client:
+                _model_cache = client.list_models()
+                _model_cache_at = now
+        except InferenceError as exc:
+            # A stale catalogue beats an empty picker when the gateway blips.
+            if _model_cache is None:
+                raise HTTPException(status_code=502, detail=str(exc)) from exc
+    return filter_models(_model_cache, q)
+
+
 @router.post("/test/openrouter", response_model=HandshakeResult)
 def test_openrouter() -> HandshakeResult:
+    """Send one real completion through the configured model and settings."""
     config = config_module.load(refresh=True)
     try:
         with OpenRouterClient(config) as client:

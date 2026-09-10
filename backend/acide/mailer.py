@@ -26,20 +26,100 @@ class MailError(RuntimeError):
     """Delivery failed; the caller decides whether to retry."""
 
 
+GMAIL_HINT = (
+    "For Gmail: turn on 2-Step Verification, create a 16-character app password "
+    "at myaccount.google.com/apppasswords, and set the sender address to that "
+    "same Gmail account. Your normal account password will always be rejected."
+)
+
+
+def _quietly_close(server: smtplib.SMTP | smtplib.SMTP_SSL) -> None:
+    with contextlib.suppress(OSError, smtplib.SMTPException):
+        server.quit()
+
+
 def _connect(config: EmailConfig) -> smtplib.SMTP | smtplib.SMTP_SSL:
-    if not config.smtp_server:
+    """Open a connection, choosing implicit or negotiated TLS by port.
+
+    Port 465 is implicit TLS: the handshake happens before any SMTP verb, so
+    it must never be spoken to in plaintext, whatever the `use_tls` box says.
+    Treating that box as authoritative on 465 produced a plaintext socket
+    against a TLS-only port, which hangs until the timeout.
+    """
+    host = config.smtp_server.strip()
+    if not host:
         raise MailError("no SMTP server configured")
+
     try:
-        if config.smtp_port == 465 and not config.use_tls:
-            return smtplib.SMTP_SSL(config.smtp_server, config.smtp_port, timeout=30)
-        server = smtplib.SMTP(config.smtp_server, config.smtp_port, timeout=30)
+        if config.smtp_port == 465:
+            context = ssl.create_default_context()
+            return smtplib.SMTP_SSL(host, config.smtp_port, timeout=30, context=context)
+
+        server = smtplib.SMTP(host, config.smtp_port, timeout=30)
         server.ehlo()
         if config.use_tls:
-            server.starttls(context=ssl.create_default_context())
+            try:
+                server.starttls(context=ssl.create_default_context())
+            except smtplib.SMTPNotSupportedError as exc:
+                _quietly_close(server)
+                raise MailError(
+                    f"{host}:{config.smtp_port} does not offer STARTTLS — "
+                    "use port 465 for implicit TLS, or untick TLS for a plaintext relay"
+                ) from exc
             server.ehlo()
         return server
+    except MailError:
+        raise
+    except ssl.SSLError as exc:
+        raise MailError(
+            f"TLS handshake with {host}:{config.smtp_port} failed: {exc}. "
+            "Port 587 expects STARTTLS (TLS ticked); port 465 expects implicit TLS."
+        ) from exc
     except (OSError, smtplib.SMTPException) as exc:
-        raise MailError(f"could not connect to {config.smtp_server}: {exc}") from exc
+        raise MailError(f"could not connect to {host}:{config.smtp_port}: {exc}") from exc
+
+
+def _auth_error(exc: smtplib.SMTPAuthenticationError, *, retried: bool) -> MailError:
+    """Surface the server's own refusal rather than a generic sentence."""
+    detail = getattr(exc, "smtp_error", b"") or b""
+    if isinstance(detail, bytes):
+        detail = detail.decode("utf-8", errors="replace")
+    code = getattr(exc, "smtp_code", "") or ""
+    reason = " ".join(str(detail).split())[:300]
+    note = " (also retried without the spaces)" if retried else ""
+    return MailError(f"SMTP authentication failed ({code}){note}: {reason} — {GMAIL_HINT}")
+
+
+def _authenticate(config: EmailConfig) -> smtplib.SMTP | smtplib.SMTP_SSL:
+    """Connect and log in, returning a live authenticated server."""
+    password = config.sender_password
+    attempts = [password]
+    compact = "".join(password.split())
+    if compact and compact != password:
+        # Google shows app passwords as "abcd efgh ijkl mnop". The spaces are
+        # display formatting and the server rejects them, so a pasted password
+        # fails for a reason nothing in the UI explains. A genuine passphrase
+        # containing spaces still wins, because it is tried first.
+        attempts.append(compact)
+
+    failure: MailError | None = None
+    for index, candidate in enumerate(attempts):
+        # A fresh connection per attempt: some servers drop the session after
+        # a failed AUTH, and reusing that socket reports a misleading error.
+        server = _connect(config)
+        if not candidate:
+            return server
+        try:
+            server.login(config.sender_email.strip(), candidate)
+            return server
+        except smtplib.SMTPAuthenticationError as exc:
+            _quietly_close(server)
+            failure = _auth_error(exc, retried=index > 0)
+        except (OSError, smtplib.SMTPException) as exc:
+            _quietly_close(server)
+            raise MailError(f"SMTP login failed: {exc}") from exc
+
+    raise failure or MailError("SMTP authentication failed")
 
 
 def send(config: EmailConfig, to_address: str, subject: str, html_body: str, text_body: str) -> None:
@@ -58,38 +138,25 @@ def send(config: EmailConfig, to_address: str, subject: str, html_body: str, tex
     message.set_content(text_body)
     message.add_alternative(html_body, subtype="html")
 
-    server = _connect(config)
+    server = _authenticate(config)
     try:
-        if config.sender_password:
-            server.login(config.sender_email, config.sender_password)
         server.send_message(message)
-    except smtplib.SMTPAuthenticationError as exc:
-        raise MailError(
-            "SMTP authentication failed — for Gmail use an app password, not the account password"
-        ) from exc
     except (OSError, smtplib.SMTPException) as exc:
         raise MailError(f"SMTP delivery failed: {exc}") from exc
     finally:
-        with contextlib.suppress(OSError, smtplib.SMTPException):
-            server.quit()
+        _quietly_close(server)
 
 
 def handshake(config: EmailConfig) -> str:
     """Open a connection and authenticate without sending anything."""
-    server = _connect(config)
-    try:
-        if config.sender_password:
-            server.login(config.sender_email, config.sender_password)
-    except smtplib.SMTPAuthenticationError as exc:
-        raise MailError(
-            "SMTP authentication failed — for Gmail use an app password, not the account password"
-        ) from exc
-    except (OSError, smtplib.SMTPException) as exc:
-        raise MailError(f"SMTP handshake failed: {exc}") from exc
-    finally:
-        with contextlib.suppress(OSError, smtplib.SMTPException):
-            server.quit()
-    return f"Connected and authenticated to {config.smtp_server}:{config.smtp_port}."
+    if not config.sender_email.strip():
+        raise MailError("no sender address configured")
+    server = _authenticate(config)
+    _quietly_close(server)
+
+    mode = "implicit TLS" if config.smtp_port == 465 else ("STARTTLS" if config.use_tls else "plaintext")
+    who = f" as {config.sender_email.strip()}" if config.sender_password else " (no authentication)"
+    return f"Connected to {config.smtp_server.strip()}:{config.smtp_port} over {mode}{who}."
 
 
 def _money(job: Job) -> str:

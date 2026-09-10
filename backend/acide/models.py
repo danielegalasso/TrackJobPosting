@@ -31,6 +31,12 @@ CATEGORY_TYPE_VALUES: tuple[str, ...] = (
 # ---------------------------------------------------------------------------
 # Configuration (setup.json)
 # ---------------------------------------------------------------------------
+#: Reasoning budgets OpenRouter accepts on the `reasoning.effort` field.
+#: "none" is ours, not theirs — it means omit the block entirely, which is
+#: what a model without a thinking mode needs.
+REASONING_EFFORTS: tuple[str, ...] = ("none", "minimal", "low", "medium", "high", "max")
+
+
 class OpenRouterConfig(BaseModel):
     """Credentials and routing for the inference gateway."""
 
@@ -39,8 +45,30 @@ class OpenRouterConfig(BaseModel):
     base_url: str = "https://openrouter.ai/api/v1"
     max_concurrency: int = Field(default=4, ge=1, le=32)
     temperature: float = Field(default=0.1, ge=0.0, le=2.0)
+    reasoning_effort: str = "none"
+    #: Generous by default: a reasoning model spends this budget on thinking
+    #: before it writes a single token of the answer, and a truncated reply
+    #: fails the JSON parse rather than degrading gracefully.
+    max_tokens: int = Field(default=10000, ge=256, le=200_000)
     referer: str = "http://localhost:8000"
     title: str = "ACIDE-Watch Portal"
+
+    @field_validator("reasoning_effort", mode="before")
+    @classmethod
+    def _coerce_effort(cls, value: Any) -> str:
+        text = str(value or "none").strip().lower()
+        return text if text in REASONING_EFFORTS else "none"
+
+
+class ModelInfo(BaseModel):
+    """One entry from OpenRouter's catalogue, trimmed to what the picker shows."""
+
+    id: str
+    name: str = ""
+    context_length: int | None = None
+    prompt_price: float | None = None
+    completion_price: float | None = None
+    supports_reasoning: bool = False
 
 
 class EmailConfig(BaseModel):

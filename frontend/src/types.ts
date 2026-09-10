@@ -126,6 +126,8 @@ export interface AppConfig {
     base_url: string;
     max_concurrency: number;
     temperature: number;
+    reasoning_effort: ReasoningEffort;
+    max_tokens: number;
     referer: string;
     title: string;
   };
@@ -151,6 +153,28 @@ export interface AppConfig {
   interests: string[];
   targets: SpiderTarget[];
   source_types: string[];
+}
+
+/** `none` means "omit the reasoning block", for models with no thinking mode. */
+export type ReasoningEffort = 'none' | 'minimal' | 'low' | 'medium' | 'high' | 'max';
+
+export const REASONING_EFFORTS: { value: ReasoningEffort; label: string; hint: string }[] = [
+  { value: 'none', label: 'None', hint: 'No reasoning block sent' },
+  { value: 'minimal', label: 'Minimal', hint: 'Fastest, cheapest' },
+  { value: 'low', label: 'Low', hint: 'Light deliberation' },
+  { value: 'medium', label: 'Medium', hint: 'Balanced' },
+  { value: 'high', label: 'High', hint: 'Slower, more thorough' },
+  { value: 'max', label: 'Max', hint: 'Largest budget, highest cost' },
+];
+
+/** One entry of OpenRouter's catalogue, as the picker shows it. */
+export interface ModelInfo {
+  id: string;
+  name: string;
+  context_length: number | null;
+  prompt_price: number | null;
+  completion_price: number | null;
+  supports_reasoning: boolean;
 }
 
 export interface HandshakeResult {

@@ -9,6 +9,7 @@ import type {
   JobFacets,
   JobPage,
   LogLine,
+  ModelInfo,
   SpiderStatus,
 } from '../types';
 
@@ -103,6 +104,13 @@ export const api = {
     );
   },
   deleteResume: () => request<void>('/api/config/resume', { method: 'DELETE' }),
+  models: (q = '', refresh = false) => {
+    const params = new URLSearchParams();
+    if (q) params.set('q', q);
+    if (refresh) params.set('refresh', 'true');
+    const query = params.toString();
+    return request<ModelInfo[]>(`/api/config/models${query ? `?${query}` : ''}`);
+  },
   testOpenRouter: () => request<HandshakeResult>('/api/config/test/openrouter', { method: 'POST' }),
   testSmtp: () => request<HandshakeResult>('/api/config/test/smtp', { method: 'POST' }),
 

@@ -2,12 +2,28 @@
 
 from __future__ import annotations
 
+import json
+
 import httpx
 import pytest
 import respx
 
-from acide.llm import InferenceError, OpenRouterClient, build_prompt, parse_response
-from acide.models import JobEvaluation, OpenRouterConfig, RawPosting, ScoringConfig, SetupConfig
+from acide.llm import (
+    PROBE_PROMPT,
+    InferenceError,
+    OpenRouterClient,
+    build_prompt,
+    filter_models,
+    parse_response,
+)
+from acide.models import (
+    JobEvaluation,
+    ModelInfo,
+    OpenRouterConfig,
+    RawPosting,
+    ScoringConfig,
+    SetupConfig,
+)
 
 VALID = {
     "seniority": "Senior",
@@ -152,11 +168,184 @@ def test_missing_api_key_is_caught_before_the_request():
 
 
 @respx.mock
-def test_handshake_reports_the_active_model():
-    respx.get("https://openrouter.ai/api/v1/key").mock(
-        return_value=httpx.Response(200, json={"data": {"limit": None, "usage": 0.42}})
+def test_handshake_sends_the_probe_and_accepts_ok():
+    """The test button runs a real completion, not a credentials check."""
+    route = respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(
+            200,
+            json={
+                "model": "openai/gpt-5.6-luna",
+                "provider": "OpenAI",
+                "choices": [{"message": {"content": "OK"}, "finish_reason": "stop"}],
+                "usage": {"total_tokens": 18, "cost": 0.0000086},
+            },
+        )
     )
-    with OpenRouterClient(_config(model="google/gemini-2.5-flash")) as client:
+    with OpenRouterClient(_config(model="openai/gpt-5.6-luna")) as client:
         detail = client.handshake()
-    assert "google/gemini-2.5-flash" in detail
-    assert "unlimited" in detail
+
+    body = json.loads(route.calls[0].request.content)
+    assert body["messages"] == [{"role": "user", "content": PROBE_PROMPT}]
+    # The probe asks for prose, so the evaluation schema must not be attached.
+    assert "response_format" not in body
+    assert "openai/gpt-5.6-luna" in detail
+    assert "OpenAI" in detail
+    assert "18 tokens" in detail
+    assert "$0.000009" in detail
+
+
+@respx.mock
+@pytest.mark.parametrize("reply", ["OK", " ok ", "**OK.**", "`OK`"])
+def test_handshake_tolerates_a_decorated_ok(reply):
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(200, json={"choices": [{"message": {"content": reply}}]})
+    )
+    with OpenRouterClient(_config()) as client:
+        assert "replied OK" in client.handshake()
+
+
+@respx.mock
+def test_handshake_fails_when_the_model_answers_something_else():
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(
+            200, json={"choices": [{"message": {"content": "Certainly! Here you go."}}]}
+        )
+    )
+    with OpenRouterClient(_config()) as client, pytest.raises(InferenceError, match="instead of 'OK'"):
+        client.handshake()
+
+
+@respx.mock
+def test_handshake_explains_a_reply_eaten_by_reasoning_tokens():
+    """A reasoning model can spend the whole budget before answering."""
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(
+            200,
+            json={
+                "choices": [{"message": {"content": ""}, "finish_reason": "length"}],
+                "usage": {
+                    "total_tokens": 512,
+                    "completion_tokens_details": {"reasoning_tokens": 500},
+                },
+            },
+        )
+    )
+    with OpenRouterClient(_config()) as client, pytest.raises(InferenceError, match="raise Max tokens"):
+        client.handshake()
+
+
+@respx.mock
+def test_reasoning_effort_is_sent_only_when_set():
+    route = respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(200, json={"choices": [{"message": {"content": "OK"}}]})
+    )
+    with OpenRouterClient(_config(reasoning_effort="none")) as client:
+        client.handshake()
+    assert "reasoning" not in json.loads(route.calls[0].request.content)
+
+    with OpenRouterClient(_config(reasoning_effort="max")) as client:
+        client.handshake()
+    body = json.loads(route.calls[1].request.content)
+    assert body["reasoning"] == {"effort": "max"}
+
+
+@respx.mock
+def test_max_tokens_is_sent_on_every_call():
+    route = respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(200, json={"choices": [{"message": {"content": "OK"}}]})
+    )
+    with OpenRouterClient(_config(max_tokens=4096)) as client:
+        client.handshake()
+    assert json.loads(route.calls[0].request.content)["max_tokens"] == 4096
+
+
+@respx.mock
+def test_evaluation_carries_the_reasoning_settings_too():
+    """Scoring must use the same configured budget as the test button."""
+    route = respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(
+            200, json={"choices": [{"message": {"content": json.dumps(VALID)}}]}
+        )
+    )
+    with OpenRouterClient(_config(reasoning_effort="high", max_tokens=8000)) as client:
+        client.evaluate(_posting(), "cv")
+
+    body = json.loads(route.calls[0].request.content)
+    assert body["reasoning"] == {"effort": "high"}
+    assert body["max_tokens"] == 8000
+    # Evaluations keep the strict schema; only the probe drops it.
+    assert body["response_format"]["type"] == "json_schema"
+
+
+@respx.mock
+def test_list_models_maps_the_catalogue():
+    respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(
+            200,
+            json={
+                "data": [
+                    {
+                        "id": "openai/gpt-5.6-luna",
+                        "name": "OpenAI: GPT-5.6 Luna",
+                        "context_length": 400000,
+                        "pricing": {"prompt": "0.0000002", "completion": "0.0000012"},
+                        "supported_parameters": ["max_tokens", "reasoning"],
+                    },
+                    {
+                        "id": "google/gemini-2.5-flash",
+                        "name": "Google: Gemini 2.5 Flash",
+                        "context_length": 1048576,
+                        "pricing": {"prompt": "0.0000003", "completion": "0.0000025"},
+                        "supported_parameters": ["max_tokens"],
+                    },
+                ]
+            },
+        )
+    )
+    with OpenRouterClient(_config()) as client:
+        models = client.list_models()
+
+    assert [model.id for model in models] == ["openai/gpt-5.6-luna", "google/gemini-2.5-flash"]
+    assert models[0].supports_reasoning is True
+    assert models[1].supports_reasoning is False
+    assert models[0].context_length == 400000
+    assert models[0].prompt_price == pytest.approx(0.0000002)
+
+
+@respx.mock
+def test_list_models_filters_like_the_jq_one_liner():
+    respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(
+            200,
+            json={
+                "data": [
+                    {"id": "openai/gpt-5.6-luna", "name": "OpenAI: GPT-5.6 Luna"},
+                    {"id": "google/gemini-2.5-flash", "name": "Google: Gemini 2.5 Flash"},
+                    {"id": "anthropic/claude-opus-5", "name": "Anthropic: Claude Opus 5"},
+                ]
+            },
+        )
+    )
+    with OpenRouterClient(_config()) as client:
+        assert [m.id for m in client.list_models("gpt")] == ["openai/gpt-5.6-luna"]
+        assert [m.id for m in client.list_models("CLAUDE")] == ["anthropic/claude-opus-5"]
+        assert len(client.list_models("")) == 3
+
+
+def test_filter_models_matches_id_and_name_across_terms():
+    models = [
+        ModelInfo(id="openai/gpt-5.6-luna", name="OpenAI: GPT-5.6 Luna"),
+        ModelInfo(id="openai/gpt-5.6-mini", name="OpenAI: GPT-5.6 Mini"),
+        ModelInfo(id="google/gemini-2.5-flash", name="Google: Gemini 2.5 Flash"),
+    ]
+    # Every term must match, so two words narrow rather than widen.
+    assert [m.id for m in filter_models(models, "gpt mini")] == ["openai/gpt-5.6-mini"]
+    # A name-only term still finds the model whose id does not contain it.
+    assert [m.id for m in filter_models(models, "google")] == ["google/gemini-2.5-flash"]
+    assert filter_models(models, "nonexistent") == []
+
+
+def test_reasoning_effort_falls_back_on_an_unknown_value():
+    assert OpenRouterConfig(reasoning_effort="MAX").reasoning_effort == "max"
+    assert OpenRouterConfig(reasoning_effort="turbo").reasoning_effort == "none"
+    assert OpenRouterConfig().reasoning_effort == "none"
