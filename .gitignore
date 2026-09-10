@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# --- ACIDE-Watch runtime state (contains secrets & personal data) ---
+setup.json
+acide_storage.db
+acide_storage.db-journal
+acide_storage.db-wal
+acide_storage.db-shm
+data/
+cv.pdf
+cv.md
+cv.txt
+*.log
+
+# --- OS / editor ---
+.DS_Store
+.idea/
+.vscode/

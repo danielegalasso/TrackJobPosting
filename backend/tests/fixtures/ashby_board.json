@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": "c0ffee00-2222-4aaa-bbbb-cccccccccccc",
+      "title": "Machine Learning Engineer",
+      "jobUrl": "https://jobs.ashbyhq.com/exampleashby/c0ffee00",
+      "publishedAt": "2026-09-07T11:30:00.000Z",
+      "location": "London, United Kingdom",
+      "secondaryLocations": [{"location": "Dublin, Ireland"}],
+      "isRemote": false,
+      "descriptionPlain": "Own model training pipelines end to end.",
+      "compensation": {
+        "compensationTiers": [
+          {
+            "components": [
+              {
+                "compensationType": "Salary",
+                "interval": "YEARLY",
+                "currencyCode": "GBP",
+                "minValue": 95000,
+                "maxValue": 125000
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "openrouter": {
+    "api_key": "sk-or-v1-REPLACE_ME",
+    "model": "google/gemini-2.5-flash",
+    "base_url": "https://openrouter.ai/api/v1",
+    "max_concurrency": 4,
+    "temperature": 0.1,
+    "referer": "http://localhost:8000",
+    "title": "ACIDE-Watch Portal"
+  },
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "use_tls": true,
+    "sender_email": "you@example.com",
+    "sender_password": "REPLACE_WITH_APP_PASSWORD",
+    "sender_name": "ACIDE-Watch"
+  },
+  "scoring": {
+    "experience_threshold": 75,
+    "interest_threshold": 75
+  },
+  "spider": {
+    "enabled": false,
+    "interval_minutes": 360,
+    "request_delay_seconds": 1.5,
+    "max_jobs_per_source": 120,
+    "user_agent": "ACIDE-Watch/2.0 (self-hosted job alert agent; +https://github.com/danielegalasso/TrackJobPosting)"
+  },
+  "admin_email": "you@example.com",
+  "resume_filename": "",
+  "interests": [
+    "Cloud security and detection engineering",
+    "Embedded systems moving toward platform work",
+    "Roles with a strong open-source component"
+  ],
+  "targets": [
+    { "company": "Stripe",     "source_type": "greenhouse", "board_token": "stripe",  "enabled": true },
+    { "company": "Ramp",       "source_type": "lever",      "board_token": "ramp",    "enabled": true },
+    { "company": "Linear",     "source_type": "ashby",      "board_token": "linear",  "enabled": false }
+  ]
+}

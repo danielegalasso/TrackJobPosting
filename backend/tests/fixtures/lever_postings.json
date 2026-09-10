@@ -1,0 +1,20 @@
+[
+  {
+    "id": "9f3c1a7e-1111-4d2b-9a55-abc123456789",
+    "text": "Senior Backend Engineer",
+    "hostedUrl": "https://jobs.lever.co/examplelever/9f3c1a7e",
+    "applyUrl": "https://jobs.lever.co/examplelever/9f3c1a7e/apply",
+    "createdAt": 1788739200000,
+    "workplaceType": "hybrid",
+    "categories": {
+      "location": "Rome, Italy",
+      "allLocations": ["Rome, Italy", "Milan, Italy"],
+      "team": "Engineering",
+      "commitment": "Full-time"
+    },
+    "descriptionPlain": "We are hiring a senior backend engineer. Salary EUR 85,000 per year.",
+    "lists": [
+      {"text": "Requirements", "content": "<li>7 years Python</li><li>Kubernetes</li>"}
+    ]
+  }
+]
