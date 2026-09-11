@@ -312,3 +312,41 @@ def test_merging_is_idempotent():
     once = merge_targets([], [resolution])
     twice = merge_targets(once, [resolution])
     assert len(twice) == 1
+
+
+# ---------------------------------------------------------------------------
+# CLI argument handling
+# ---------------------------------------------------------------------------
+def test_a_missing_file_explains_where_it_looked(tmp_path, capsys, monkeypatch):
+    """"[Errno 2]" alone leaves the reader guessing which directory was used."""
+    from acide.__main__ import main
+
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setattr("sys.argv", ["acide", "import-companies", "companies.json"])
+
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 1
+
+    message = capsys.readouterr().err
+    assert "no such file" in message
+    assert str(tmp_path) in message, "it must say which directory it looked in"
+    assert "full path" in message
+
+
+def test_a_tilde_path_is_expanded(tmp_path, capsys, monkeypatch):
+    """`~/Downloads/companies.json` is what people actually type."""
+    from acide.__main__ import main
+
+    home = tmp_path / "home"
+    (home / "Downloads").mkdir(parents=True)
+    (home / "Downloads" / "companies.json").write_text("[]")
+    monkeypatch.setenv("HOME", str(home))
+    monkeypatch.setattr("sys.argv", ["acide", "import-companies", "~/Downloads/companies.json"])
+
+    with pytest.raises(SystemExit) as caught:
+        main()
+    # The file was found and read; it is simply empty, which is a different
+    # failure from "no such file".
+    assert "no such file" not in capsys.readouterr().err
+    assert caught.value.code == 1

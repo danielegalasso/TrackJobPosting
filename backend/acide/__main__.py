@@ -21,10 +21,23 @@ def _import_companies(args: argparse.Namespace) -> int:
     from . import paths
     from .watchlist import load_organizations, merge_targets, resolve_all
 
+    source = Path(args.file).expanduser()
+    if not source.exists():
+        # A bare "[Errno 2]" leaves the reader guessing; the usual cause is a
+        # relative path resolved against the wrong directory.
+        print(
+            f"no such file: {source}\n"
+            f"  looked relative to {Path.cwd()}\n"
+            "  pass the full path to your list, e.g. "
+            "acide import-companies ~/Downloads/companies.json",
+            file=sys.stderr,
+        )
+        return 1
+
     try:
-        organizations = load_organizations(args.file)
+        organizations = load_organizations(source)
     except (OSError, ValueError) as exc:
-        print(f"could not read {args.file}: {exc}", file=sys.stderr)
+        print(f"could not read {source}: {exc}", file=sys.stderr)
         return 1
 
     if args.category:
