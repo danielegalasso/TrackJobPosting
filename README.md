@@ -82,6 +82,41 @@ company handle in its job-board URL:
 | `lever` | `jobs.lever.co/ramp` | `ramp` |
 | `ashby` | `jobs.ashbyhq.com/linear` | `linear` |
 
+### Importing a list of companies
+
+If you already have a curated list, hand it over instead of typing tokens:
+
+```bash
+backend/.venv/bin/acide import-companies companies.json          # report only
+backend/.venv/bin/acide import-companies companies.json --apply  # add the feeds
+```
+
+The file is a JSON array of `{organization, category, website, careers_page}`.
+A careers page is *not* a board endpoint, so each one is fetched once and read
+for the ATS it is wired to — one polite request per company. Anything that
+resolves is verified against the board's own API before being written, so a
+stale link never becomes a target that 404s on every run.
+
+Everything else is written to `data/import-report.json` with the reason,
+grouped by platform, so the list stays a worklist rather than silently
+shrinking. The summary names what the rest are running on — `workday`,
+`successfactors`, `taleo`, `eu-careers` and so on — which tells you which
+connector would unlock the most companies next, instead of just "unresolved".
+
+Expect a minority to resolve. Large primes, EU agencies and research
+institutes mostly run Workday, SuccessFactors or bespoke portals, none of
+which have a connector yet; startups and scale-ups are where Greenhouse,
+Lever and Ashby cluster.
+
+Useful flags: `--category "Defense Tech,Space Economy"` to work in batches,
+`--limit` to try a handful first, `-v` to see each company, and `--guess` to
+also probe likely board tokens when a page gives nothing away. Guessing is
+off by default because it turns one request per company into several, nearly
+all of them 404s against somebody else's API.
+
+Re-running is safe: existing targets are never overwritten, so a token you
+corrected or a company you disabled by hand stays that way.
+
 ### Scope of the inspector
 
 ACIDE-Watch reads each provider's **own published job-board API** — the same
@@ -205,6 +240,8 @@ backend/.venv/bin/acide --reload
 backend/acide/
   main.py          FastAPI app; serves the API, the SPA and the legal docs
   models.py        Pydantic schemas shared by every layer
+  discovery.py     Reads a careers page to find which ATS it runs on
+  watchlist.py     Imports a curated company list into career feeds
   db.py            SQLite storage + the one query builder behind all filtering
   compensation.py  Rate/currency normalisation and salary parsing
   llm.py           OpenRouter client and the dual-vector evaluator
@@ -222,11 +259,13 @@ frontend/src/
 
 ### Tests
 
-**171 tests: 98 backend, 73 portal.**
+**280 tests: 185 backend, 95 portal.**
 
 The backend suite covers the filter query builder, compensation maths, all
 three connectors (against recorded board payloads), the evaluator's handling of
-malformed model output, alert deduplication, and the HTTP surface.
+malformed model output, alert deduplication, company-list import, and the HTTP
+surface. The mailer is exercised against a real SMTP server running
+in-process — no test contacts an external provider.
 
 The portal suite covers query serialisation, every filter control, the card's
 dual-vector rendering, dialog behaviour, the alert flow, the live SSE console,
