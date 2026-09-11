@@ -116,6 +116,97 @@ def _import_companies(args: argparse.Namespace) -> int:
     return 0
 
 
+def _check_urls(args: argparse.Namespace) -> int:
+    """Check every careers URL and propose a replacement for the dead ones."""
+    import json
+
+    from . import paths
+    from .linkcheck import repair_all
+    from .watchlist import load_organizations, organizations_from_report
+
+    source = Path(args.file).expanduser()
+    if not source.exists():
+        print(f"no such file: {source}\n  looked relative to {Path.cwd()}", file=sys.stderr)
+        return 1
+
+    try:
+        if args.retry_report:
+            organizations = organizations_from_report(source)
+        else:
+            organizations = load_organizations(source)
+    except (OSError, ValueError) as exc:
+        print(f"could not read {source}: {exc}", file=sys.stderr)
+        return 1
+
+    if args.category:
+        wanted = {item.strip().lower() for item in args.category.split(",")}
+        organizations = [org for org in organizations if org.category.lower() in wanted]
+    if args.limit:
+        organizations = organizations[: args.limit]
+
+    print(f"Checking {len(organizations)} careers page(s).")
+    print("Dead links are repaired from the site's own navigation where possible.")
+    print()
+
+    repairs = repair_all(
+        organizations, workers=args.workers, on_log=print if args.verbose else None
+    )
+
+    counts: dict[str, int] = {}
+    for repair in repairs:
+        counts[repair.verdict] = counts.get(repair.verdict, 0) + 1
+    print()
+    for verdict in ("working", "moved", "repaired", "broken"):
+        if counts.get(verdict):
+            print(f"  {counts[verdict]:4}  {verdict}")
+
+    paths.ensure_dirs()
+    report_path = Path(args.report) if args.report else paths.DATA_DIR / "url-check.json"
+    report_path.write_text(
+        json.dumps(
+            [
+                {
+                    "organization": r.organization,
+                    "category": r.category,
+                    "website": r.website,
+                    "original": r.original,
+                    "verdict": r.verdict,
+                    "status": r.status,
+                    "suggested": r.suggested,
+                    "how": r.how,
+                    "note": r.note,
+                }
+                for r in repairs
+            ],
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    print(f"\nReport written to {report_path}")
+
+    if args.write:
+        fixed = Path(args.write).expanduser()
+        by_name = {r.organization: r for r in repairs}
+        entries = []
+        for org in organizations:
+            repair = by_name.get(org.organization)
+            entries.append(
+                {
+                    "organization": org.organization,
+                    "category": org.category,
+                    "website": org.website,
+                    # Only a URL actually seen to work replaces the original.
+                    "careers_page": (repair.suggested if repair and repair.suggested
+                                     else org.careers_page),
+                }
+            )
+        fixed.write_text(json.dumps(entries, indent=2), encoding="utf-8")
+        print(f"Corrected list written to {fixed}")
+    else:
+        print("\nNothing was rewritten. Use --write FILE to save a corrected list.")
+    return 0
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="acide", description="Run the ACIDE-Watch portal.")
     subparsers = parser.add_subparsers(dest="command")
@@ -183,6 +274,30 @@ def main() -> None:
         "--delay", type=float, default=2.0, help="seconds between pages (default 2)"
     )
     importer.set_defaults(func=_import_companies)
+
+    checker = subparsers.add_parser(
+        "check-urls",
+        help="check careers URLs and repair the dead ones",
+        description=(
+            "Fetches every careers page. Dead links are repaired by following "
+            "redirects, reading the site's own navigation, and finally by "
+            "trying conventional paths — each candidate verified before it is "
+            "proposed."
+        ),
+    )
+    checker.add_argument("file", help="companies JSON, or an import report with --retry-report")
+    checker.add_argument("--write", help="write a corrected companies list to this path")
+    checker.add_argument("--report", help="where to write the JSON check report")
+    checker.add_argument("--category", help="only these categories, comma separated")
+    checker.add_argument("--limit", type=int, help="stop after this many organizations")
+    checker.add_argument("--workers", type=int, default=6, help="concurrent requests (default 6)")
+    checker.add_argument(
+        "--retry-report",
+        action="store_true",
+        help="treat FILE as an import report and check only its unresolved entries",
+    )
+    checker.add_argument("-v", "--verbose", action="store_true", help="log each organization")
+    checker.set_defaults(func=_check_urls)
 
     args = parser.parse_args()
     handler = getattr(args, "func", _serve)

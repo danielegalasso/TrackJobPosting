@@ -153,6 +153,28 @@ all of them 404s against somebody else's API.
 Re-running is safe: existing targets are never overwritten, so a token you
 corrected or a company you disabled by hand stays that way.
 
+### When the list itself has rotted
+
+A hand-researched list decays. On a real 631-entry list, 136 careers URLs
+answered 404 and 20 domains no longer resolved. `check-urls` finds where
+those pages went:
+
+```bash
+backend/.venv/bin/acide check-urls companies.json -v \
+    --write companies.fixed.json
+```
+
+For each dead link it follows redirects, then reads the **site's own
+navigation** for the link a visitor would click — multilingual, because this
+kind of list is full of `lavora-con-noi`, `karriere`, `carrieres` and
+`vacatures` — and only then falls back to guessing conventional paths. Every
+candidate is fetched and checked before it is proposed, so a suggestion is
+never just a plausible-looking URL.
+
+`--write` produces a corrected copy of your list; the original is untouched.
+A 403 is reported rather than repaired: a WAF refusing a script does not
+mean the page moved.
+
 ### Scope of the inspector
 
 The recurring inspector reads each provider's **own published job-board
@@ -282,6 +304,7 @@ backend/acide/
   discovery.py     Reads a careers page to find which ATS it runs on
   browser_discovery.py  The same, for pages that need JavaScript to run
   watchlist.py     Imports a curated company list into career feeds
+  linkcheck.py     Checks careers URLs and repairs the dead ones
   db.py            SQLite storage + the one query builder behind all filtering
   compensation.py  Rate/currency normalisation and salary parsing
   llm.py           OpenRouter client and the dual-vector evaluator
@@ -299,7 +322,7 @@ frontend/src/
 
 ### Tests
 
-**295 tests: 200 backend, 95 portal.**
+**316 tests: 221 backend, 95 portal.**
 
 The backend suite covers the filter query builder, compensation maths, all
 three connectors (against recorded board payloads), the evaluator's handling of
