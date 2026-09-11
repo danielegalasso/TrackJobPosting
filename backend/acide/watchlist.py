@@ -279,6 +279,97 @@ def resolve_all(
     return ImportReport(resolutions=resolutions)
 
 
+def resolve_all_with_browser(
+    organizations: Sequence[Organization],
+    *,
+    cdp_url: str | None = None,
+    headless: bool = True,
+    settle_ms: int = 2500,
+    delay_seconds: float = 2.0,
+    executable_path: str | None = None,
+    client: httpx.Client | None = None,
+    on_log: Callable[[str], None] | None = None,
+) -> ImportReport:
+    """Resolve through a real browser, for pages that only exist after JS.
+
+    The browser finds the board; the board's own JSON API still confirms it,
+    exactly as in the plain-HTTP path — a rendered link is evidence, not
+    proof.
+    """
+    from .browser_discovery import BrowserSession, resolve_with_browser
+
+    owns_client = client is None
+    client = client or httpx.Client(
+        timeout=DEFAULT_TIMEOUT,
+        headers={"User-Agent": BROWSER_UA, "Accept": "application/json"},
+        follow_redirects=True,
+    )
+    try:
+        with BrowserSession(
+            cdp_url=cdp_url,
+            headless=headless,
+            settle_ms=settle_ms,
+            executable_path=executable_path,
+        ) as session:
+            visits = resolve_with_browser(
+                session,
+                organizations,
+                on_log=on_log,
+                delay_seconds=delay_seconds,
+            )
+
+        resolutions: list[Resolution] = []
+        for org, page_result in visits:
+            resolution = Resolution(
+                organization=org.organization,
+                category=org.category,
+                careers_page=org.careers_page,
+            )
+            found = page_result.discovery
+            if found.supported:
+                count = verify_token(client, found.source_type or "", found.board_token or "")
+                if count is not None:
+                    resolution.source_type = found.source_type
+                    resolution.board_token = found.board_token
+                    resolution.job_count = count
+                    resolution.status = "resolved"
+                    resolution.detail = f"found in the browser · {_plural(count, 'posting')}"
+                    resolutions.append(resolution)
+                    continue
+                resolution.detail = (
+                    f"page uses {found.source_type}:{found.board_token}, "
+                    "but that board did not answer"
+                )
+            else:
+                resolution.other_ats = found.other_ats
+                resolution.detail = found.note
+            resolutions.append(resolution)
+        return ImportReport(resolutions=resolutions)
+    finally:
+        if owns_client:
+            client.close()
+
+
+def organizations_from_report(path: Path | str) -> list[Organization]:
+    """The unresolved entries of an earlier report, to retry.
+
+    Re-running a whole list through a browser to revisit the few hundred
+    that failed would be wasteful and impolite.
+    """
+    payload = json.loads(Path(path).read_text("utf-8"))
+    entries = payload.get("unresolved", []) if isinstance(payload, dict) else []
+    return [
+        Organization(
+            organization=entry.get("organization", ""),
+            category=entry.get("category", ""),
+            website=entry.get("website", ""),
+            careers_page=entry.get("careers_page", ""),
+        )
+        for entry in entries
+        if entry.get("organization")
+    ]
+
+
 def merge_targets(
     existing: Iterable[TargetSource], resolved: Iterable[Resolution]
 ) -> list[TargetSource]:

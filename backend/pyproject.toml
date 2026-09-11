@@ -13,6 +13,11 @@ dynamic = ["dependencies"]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
+[project.optional-dependencies]
+# Browser mode is opt-in: it is only needed to resolve careers pages that
+# render their board with JavaScript, and it pulls a browser with it.
+browser = ["playwright>=1.40"]
+
 [project.scripts]
 acide = "acide.__main__:main"
 

@@ -19,7 +19,13 @@ def _import_companies(args: argparse.Namespace) -> int:
     """Resolve a curated organization list into indexable career feeds."""
     from . import config as config_module
     from . import paths
-    from .watchlist import load_organizations, merge_targets, resolve_all
+    from .watchlist import (
+        load_organizations,
+        merge_targets,
+        organizations_from_report,
+        resolve_all,
+        resolve_all_with_browser,
+    )
 
     source = Path(args.file).expanduser()
     if not source.exists():
@@ -35,7 +41,10 @@ def _import_companies(args: argparse.Namespace) -> int:
         return 1
 
     try:
-        organizations = load_organizations(source)
+        if args.retry_report:
+            organizations = organizations_from_report(source)
+        else:
+            organizations = load_organizations(source)
     except (OSError, ValueError) as exc:
         print(f"could not read {source}: {exc}", file=sys.stderr)
         return 1
@@ -50,17 +59,38 @@ def _import_companies(args: argparse.Namespace) -> int:
         print("nothing to import — the filters matched no organizations", file=sys.stderr)
         return 1
 
-    print(f"Resolving {len(organizations)} organization(s); one careers-page request each.")
-    if args.guess:
-        print("Guessing is on: unresolved names are also probed against the three ATS APIs.")
-    print()
+    if args.browser:
+        where = f"your Chrome at {args.cdp_url}" if args.cdp_url else "a bundled Chromium"
+        print(f"Resolving {len(organizations)} organization(s) in {where}.")
+        print("Pages are visited one at a time; this is slower than the HTTP pass by design.")
+        print()
+        from .browser_discovery import BrowserUnavailable
 
-    report = resolve_all(
-        organizations,
-        guess=args.guess,
-        workers=args.workers,
-        on_log=print if args.verbose else None,
-    )
+        try:
+            report = resolve_all_with_browser(
+                organizations,
+                cdp_url=args.cdp_url,
+                headless=not args.show_browser,
+                settle_ms=args.settle_ms,
+                delay_seconds=args.delay,
+                executable_path=args.chrome_path,
+                on_log=print if args.verbose else None,
+            )
+        except BrowserUnavailable as exc:
+            print(str(exc), file=sys.stderr)
+            return 1
+    else:
+        print(f"Resolving {len(organizations)} organization(s); one careers-page request each.")
+        if args.guess:
+            print("Guessing is on: unresolved names are also probed against the three ATS APIs.")
+        print()
+
+        report = resolve_all(
+            organizations,
+            guess=args.guess,
+            workers=args.workers,
+            on_log=print if args.verbose else None,
+        )
 
     print()
     print(f"  resolved   {len(report.resolved):4} — these can be indexed now")
@@ -119,6 +149,39 @@ def main() -> None:
     importer.add_argument("--workers", type=int, default=6, help="concurrent requests (default 6)")
     importer.add_argument("--report", help="where to write the JSON report")
     importer.add_argument("-v", "--verbose", action="store_true", help="log each organization")
+    importer.add_argument(
+        "--retry-report",
+        action="store_true",
+        help="treat FILE as a previous import report and retry only its unresolved entries",
+    )
+    browser_group = importer.add_argument_group(
+        "browser mode",
+        "For careers pages that only render their board once JavaScript has run — "
+        "roughly half of a typical list. Slower, and visits one page at a time.",
+    )
+    browser_group.add_argument(
+        "--browser", action="store_true", help="resolve in a real browser instead of plain HTTP"
+    )
+    browser_group.add_argument(
+        "--cdp-url",
+        help=(
+            "attach to a Chrome you started yourself, e.g. http://localhost:9222 "
+            "(start it with --remote-debugging-port=9222)"
+        ),
+    )
+    browser_group.add_argument(
+        "--chrome-path",
+        help="drive a browser binary you already have, e.g. /usr/bin/google-chrome",
+    )
+    browser_group.add_argument(
+        "--show-browser", action="store_true", help="run headed, so you can watch it"
+    )
+    browser_group.add_argument(
+        "--settle-ms", type=int, default=2500, help="wait per page for scripts to finish"
+    )
+    browser_group.add_argument(
+        "--delay", type=float, default=2.0, help="seconds between pages (default 2)"
+    )
     importer.set_defaults(func=_import_companies)
 
     args = parser.parse_args()

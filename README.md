@@ -103,10 +103,46 @@ shrinking. The summary names what the rest are running on — `workday`,
 `successfactors`, `taleo`, `eu-careers` and so on — which tells you which
 connector would unlock the most companies next, instead of just "unresolved".
 
-Expect a minority to resolve. Large primes, EU agencies and research
-institutes mostly run Workday, SuccessFactors or bespoke portals, none of
-which have a connector yet; startups and scale-ups are where Greenhouse,
-Lever and Ashby cluster.
+Expect the plain HTTP pass to resolve only a minority — around 4% on a
+real 631-entry list. The dominant reason is not a missing connector: it is
+that roughly **half of careers pages are JavaScript applications**, and the
+board link simply is not in the HTML a plain fetch receives. Another fifth
+are stale URLs that 404.
+
+### Browser mode, for the pages that need JavaScript
+
+```bash
+pip install -e 'backend/[browser]' && playwright install chromium
+
+# retry only what failed last time, in a browser
+backend/.venv/bin/acide import-companies data/import-report.json \
+    --retry-report --browser -v
+```
+
+The page is opened in a real browser, and the board token is read from two
+places: the **network requests** the page makes while rendering (to show a
+board it must call the ATS, token and all — no guessing), and the DOM once
+scripts have run. Stale URLs also get a second chance at the usual careers
+paths on the same domain.
+
+To use your own Chrome — your profile, your logins, your cookies — start it
+with remote debugging and attach:
+
+```bash
+google-chrome --remote-debugging-port=9222 --user-data-dir="$HOME/chrome-agent-profile"
+backend/.venv/bin/acide import-companies companies.json --browser --cdp-url http://localhost:9222
+```
+
+`--chrome-path /usr/bin/google-chrome` drives an installed browser without
+CDP; `--show-browser` runs it headed so you can watch.
+
+**What browser mode does not do.** It renders public pages you could open
+yourself, one at a time, with a pause between them, and it honours
+`robots.txt`. It does not spoof fingerprints, patch `navigator.webdriver`,
+solve challenges or rotate addresses — a 403 or 429 is recorded as the
+answer, not something to get around. The browser is only used for
+*discovery*: once a board token is known, the ordinary JSON connector takes
+over, so no browser is involved in recurring indexing.
 
 Useful flags: `--category "Defense Tech,Space Economy"` to work in batches,
 `--limit` to try a handful first, `-v` to see each company, and `--guess` to
@@ -241,6 +277,7 @@ backend/acide/
   main.py          FastAPI app; serves the API, the SPA and the legal docs
   models.py        Pydantic schemas shared by every layer
   discovery.py     Reads a careers page to find which ATS it runs on
+  browser_discovery.py  The same, for pages that need JavaScript to run
   watchlist.py     Imports a curated company list into career feeds
   db.py            SQLite storage + the one query builder behind all filtering
   compensation.py  Rate/currency normalisation and salary parsing
@@ -259,7 +296,7 @@ frontend/src/
 
 ### Tests
 
-**280 tests: 185 backend, 95 portal.**
+**295 tests: 200 backend, 95 portal.**
 
 The backend suite covers the filter query builder, compensation maths, all
 three connectors (against recorded board payloads), the evaluator's handling of
