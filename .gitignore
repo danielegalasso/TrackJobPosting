@@ -15,6 +15,13 @@ frontend/.vite/
 *.tsbuildinfo
 
 # --- ACIDE-Watch runtime state (contains secrets & personal data) ---
+# The operator's own target list and any report derived from it: this is
+# private research, and the repository it sits in may well be public.
+companies*.json
+*companies*.csv
+careers-page-verdicts.csv
+import-report.json
+url-check.json
 setup.json
 acide_storage.db
 acide_storage.db-journal
