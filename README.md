@@ -155,12 +155,15 @@ corrected or a company you disabled by hand stays that way.
 
 ### Scope of the inspector
 
-ACIDE-Watch reads each provider's **own published job-board API** — the same
-documented JSON endpoint the employer's careers page calls. That is a
-deliberate boundary:
+The recurring inspector reads each provider's **own published job-board
+API** — the same documented JSON endpoint the employer's careers page calls.
+That is a deliberate boundary:
 
-- It does **not** drive a headless browser.
-- It does **not** attempt to bypass bot defences, challenges, or rate limits.
+- The scheduled indexing **never** drives a browser. A browser is used only
+  once, during import, to discover which board a careers page belongs to;
+  after that the JSON API does all the work.
+- It does **not** attempt to bypass bot defences, challenges, or rate limits,
+  in either mode.
 - A source that declines to serve us is logged as an error and skipped.
 
 Requests are spaced out (`request_delay_seconds`, default 1.5s), capped per
