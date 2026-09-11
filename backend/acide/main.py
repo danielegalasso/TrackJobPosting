@@ -122,6 +122,29 @@ def legal(document: str) -> PlainTextResponse:
 
 
 # --- Static portal -----------------------------------------------------------
+def _warn_if_stale(dist: Path) -> None:
+    """Say so when the served bundle predates the source it was built from.
+
+    `frontend/dist` is not in git, so `git pull` updates the sources and
+    leaves the built portal untouched. Without this, the browser silently
+    shows the previous release and the new settings appear to be missing.
+    """
+    source = paths.REPO_ROOT / "frontend" / "src"
+    if not source.is_dir():
+        return
+    try:
+        newest_source = max(item.stat().st_mtime for item in source.rglob("*") if item.is_file())
+        built_at = (dist / "index.html").stat().st_mtime
+    except (OSError, ValueError):  # pragma: no cover - unreadable tree
+        return
+    if newest_source > built_at:
+        logger.warning(
+            "the built portal in %s is older than frontend/src — "
+            "run `npm run build` in frontend/ to pick up the latest changes",
+            dist,
+        )
+
+
 def _mount_frontend() -> None:
     dist: Path = paths.FRONTEND_DIST
     index = dist / "index.html"
@@ -131,6 +154,7 @@ def _mount_frontend() -> None:
             dist,
         )
         return
+    _warn_if_stale(dist)
 
     assets = dist / "assets"
     if assets.is_dir():

@@ -5,7 +5,7 @@ from __future__ import annotations
 from datetime import datetime
 from typing import Any, Literal
 
-from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator
+from pydantic import BaseModel, ConfigDict, EmailStr, Field, field_validator, model_validator
 
 Rate = Literal["Hourly", "Daily", "Monthly", "Yearly"]
 CategoryType = Literal["Direct Match", "Pivot / Growth Opportunity", "Unrelated"]
@@ -71,16 +71,35 @@ class ModelInfo(BaseModel):
     supports_reasoning: bool = False
 
 
+#: How the connection is encrypted. Stated outright rather than inferred
+#: from the port, so a relay on a non-standard port still works.
+SMTP_SECURITY: tuple[str, ...] = ("starttls", "ssl", "none")
+
+
 class EmailConfig(BaseModel):
     """SMTP relay used to deliver alert digests."""
 
     enabled: bool = False
     smtp_server: str = ""
-    smtp_port: int = 587
+    smtp_port: int = Field(default=587, ge=1, le=65535)
+    #: Legacy flag, kept so an existing setup.json keeps working.
     use_tls: bool = True
+    security: str = ""
     sender_email: str = ""
     sender_password: str = ""
     sender_name: str = "ACIDE-Watch"
+
+    @model_validator(mode="after")
+    def _derive_security(self) -> EmailConfig:
+        """Fill in `security` from the older port/use_tls pair when absent."""
+        if self.security not in SMTP_SECURITY:
+            if self.smtp_port == 465:
+                self.security = "ssl"
+            else:
+                self.security = "starttls" if self.use_tls else "none"
+        # Keep the legacy flag agreeing with the explicit setting.
+        self.use_tls = self.security != "none"
+        return self
 
 
 class ScoringConfig(BaseModel):

@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import json
+
 import httpx
 import pytest
 import respx
@@ -376,3 +378,107 @@ def test_openrouter_test_button_reports_a_failure_without_raising(client):
     body = client.post("/api/config/test/openrouter").json()
     assert body["ok"] is False
     assert "401" in body["detail"]
+
+
+@respx.mock
+def test_openrouter_can_be_tested_without_saving_first(client):
+    """The reported bug: settings had to be saved before Test would work."""
+    route = respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(
+            200, json={"choices": [{"message": {"content": "OK"}}], "usage": {"total_tokens": 18}}
+        )
+    )
+    # Nothing is on disk yet.
+    assert client.get("/api/config").json()["has_openrouter_key"] is False
+
+    body = client.post(
+        "/api/config/test/openrouter",
+        json={
+            "openrouter": {
+                "api_key": "sk-typed-just-now",
+                "model": "openai/gpt-5.6-luna",
+                "max_concurrency": 4,
+            }
+        },
+    ).json()
+    assert body["ok"] is True
+
+    sent = json.loads(route.calls[0].request.content)
+    assert sent["model"] == "openai/gpt-5.6-luna"
+    assert route.calls[0].request.headers["Authorization"] == "Bearer sk-typed-just-now"
+
+    # Testing must not write anything to disk.
+    assert client.get("/api/config").json()["has_openrouter_key"] is False
+
+
+@respx.mock
+def test_a_masked_key_falls_back_to_the_stored_one(client):
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(200, json={"choices": [{"message": {"content": "OK"}}]})
+    )
+    client.put("/api/config", json={"openrouter": {"api_key": "sk-stored"}})
+
+    saved = client.get("/api/config").json()
+    assert saved["has_openrouter_key"] is True
+    # The form echoes the mask back; the stored key must be used.
+    body = client.post("/api/config/test/openrouter", json=saved).json()
+    assert body["ok"] is True
+
+
+def test_config_reports_whether_secrets_exist(client):
+    empty = client.get("/api/config").json()
+    assert empty["has_openrouter_key"] is False
+    assert empty["has_smtp_password"] is False
+
+    client.put(
+        "/api/config",
+        json={
+            "openrouter": {"api_key": "sk-x"},
+            "email": {"smtp_server": "smtp.gmail.com", "sender_password": "app pw"},
+        },
+    )
+    saved = client.get("/api/config").json()
+    assert saved["has_openrouter_key"] is True
+    assert saved["has_smtp_password"] is True
+    # The values themselves still never leave the host.
+    assert saved["openrouter"]["api_key"] == "••••••••"
+    assert saved["email"]["sender_password"] == "••••••••"
+
+
+def test_a_secret_can_be_forgotten(client):
+    client.put("/api/config", json={"openrouter": {"api_key": "sk-x"}})
+    assert client.delete("/api/config/secret/openrouter_api_key").json()["cleared"] is True
+    assert client.get("/api/config").json()["has_openrouter_key"] is False
+
+
+def test_forgetting_an_unknown_secret_is_a_404(client):
+    assert client.delete("/api/config/secret/nonsense").status_code == 404
+
+
+def test_smtp_can_be_tested_without_saving_first(client):
+    body = client.post(
+        "/api/config/test/smtp",
+        json={
+            "email": {
+                "smtp_server": "smpt.gmail.com",
+                "smtp_port": 587,
+                "sender_email": "candidate@gmail.com",
+                "sender_password": "abcd efgh ijkl mnop",
+            }
+        },
+    ).json()
+    # Unreachable here, but the draft was used and the typo was caught.
+    assert body["ok"] is False
+    assert "smtp.gmail.com" in body["detail"]
+    assert client.get("/api/config").json()["has_smtp_password"] is False
+
+
+def test_read_only_fields_cannot_be_written_back(client):
+    """The client echoes the whole document back, flags included."""
+    saved = client.get("/api/config").json()
+    saved["has_openrouter_key"] = True
+    saved["source_types"] = ["nonsense"]
+    response = client.put("/api/config", json=saved)
+    assert response.status_code == 200
+    # The flag is derived from the stored secret, not from what was sent.
+    assert client.get("/api/config").json()["has_openrouter_key"] is False

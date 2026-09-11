@@ -24,21 +24,32 @@ _MODEL_CACHE_TTL = 600.0
 _model_cache: list[ModelInfo] | None = None
 _model_cache_at = 0.0
 
+#: Server-derived keys the client echoes back but must never write.
+_READ_ONLY_FIELDS = frozenset(
+    {"source_types", "has_openrouter_key", "has_smtp_password", "resume_filename"}
+)
+
 
 @router.get("", response_model=dict)
 def read_config() -> dict[str, Any]:
     """Current settings, with the API key and SMTP password masked."""
-    data = config_module.redacted()
+    stored = config_module.load()
+    data = config_module.redacted(stored)
     active = resume.active_path()
     data["resume_filename"] = active.name if active else ""
     data["source_types"] = sorted(CONNECTORS)
+    # The secrets themselves never leave the host, so the form needs to be
+    # told whether one exists — otherwise a blank field is indistinguishable
+    # from "nothing saved".
+    data["has_openrouter_key"] = bool(stored.openrouter.api_key)
+    data["has_smtp_password"] = bool(stored.email.sender_password)
     return data
 
 
 @router.put("", response_model=dict)
 def write_config(payload: dict[str, Any] = Body(...)) -> dict[str, Any]:
     """Save settings. Masked secrets are preserved rather than overwritten."""
-    payload.pop("source_types", None)
+    payload = {key: value for key, value in payload.items() if key not in _READ_ONLY_FIELDS}
     merged = config_module.merge_secrets(payload)
     try:
         config = SetupConfig(**merged)
@@ -104,10 +115,26 @@ def list_models(
     return filter_models(_model_cache, q)
 
 
+def _draft_config(payload: dict[str, Any] | None) -> SetupConfig:
+    """Build a config from unsaved form values, without writing anything.
+
+    The test buttons act on what is on screen, so a key or password typed a
+    second ago can be verified before committing it to disk. Secrets left
+    masked or blank fall back to the stored ones, exactly as on save.
+    """
+    if not payload:
+        return config_module.load(refresh=True)
+    draft = {key: value for key, value in payload.items() if key not in _READ_ONLY_FIELDS}
+    try:
+        return SetupConfig(**config_module.merge_secrets(draft))
+    except ValidationError as exc:
+        raise HTTPException(status_code=422, detail=exc.errors()) from exc
+
+
 @router.post("/test/openrouter", response_model=HandshakeResult)
-def test_openrouter() -> HandshakeResult:
-    """Send one real completion through the configured model and settings."""
-    config = config_module.load(refresh=True)
+def test_openrouter(payload: dict[str, Any] | None = Body(default=None)) -> HandshakeResult:
+    """Send one real completion through the supplied (or saved) settings."""
+    config = _draft_config(payload)
     try:
         with OpenRouterClient(config) as client:
             return HandshakeResult(ok=True, detail=client.handshake())
@@ -116,12 +143,29 @@ def test_openrouter() -> HandshakeResult:
 
 
 @router.post("/test/smtp", response_model=HandshakeResult)
-def test_smtp() -> HandshakeResult:
-    config = config_module.load(refresh=True)
+def test_smtp(payload: dict[str, Any] | None = Body(default=None)) -> HandshakeResult:
+    """Log in to the supplied (or saved) SMTP relay without sending anything."""
+    config = _draft_config(payload)
     try:
         return HandshakeResult(ok=True, detail=smtp_handshake(config.email))
     except MailError as exc:
         return HandshakeResult(ok=False, detail=str(exc))
+
+
+@router.delete("/secret/{name}", response_model=dict)
+def clear_secret(name: str) -> dict[str, bool]:
+    """Forget a stored secret, since a blank field means 'keep' on save."""
+    fields = {
+        "openrouter_api_key": ("openrouter", "api_key"),
+        "smtp_password": ("email", "sender_password"),
+    }
+    if name not in fields:
+        raise HTTPException(status_code=404, detail=f"unknown secret: {name}")
+    section, field = fields[name]
+    config = config_module.load(refresh=True)
+    setattr(getattr(config, section), field, "")
+    config_module.save(config)
+    return {"cleared": True}
 
 
 @router.post("/purge-jobs", response_model=dict)

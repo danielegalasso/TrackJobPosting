@@ -42,8 +42,9 @@ VALID = {
 
 
 def _config(**overrides) -> SetupConfig:
+    overrides.setdefault("api_key", "sk-test")
     return SetupConfig(
-        openrouter=OpenRouterConfig(api_key="sk-test", **overrides),
+        openrouter=OpenRouterConfig(**overrides),
         interests=["Cloud security", "Detection engineering"],
     )
 
@@ -349,3 +350,39 @@ def test_reasoning_effort_falls_back_on_an_unknown_value():
     assert OpenRouterConfig(reasoning_effort="MAX").reasoning_effort == "max"
     assert OpenRouterConfig(reasoning_effort="turbo").reasoning_effort == "none"
     assert OpenRouterConfig().reasoning_effort == "none"
+
+
+@respx.mock
+def test_the_catalogue_loads_before_any_key_is_saved():
+    """Regression: an empty key built "Bearer ", which httpx refuses.
+
+    The catalogue is public and the picker is opened before a key exists, so
+    this made the model list unreachable on exactly the first run.
+    """
+    route = respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(200, json={"data": [{"id": "openai/gpt-5.6-luna"}]})
+    )
+    with OpenRouterClient(SetupConfig()) as client:
+        assert [model.id for model in client.list_models()] == ["openai/gpt-5.6-luna"]
+
+    assert "Authorization" not in route.calls[0].request.headers
+
+
+@respx.mock
+def test_a_saved_key_is_still_sent():
+    route = respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(200, json={"data": []})
+    )
+    with OpenRouterClient(_config(api_key="sk-test")) as client:
+        client.list_models()
+    assert route.calls[0].request.headers["Authorization"] == "Bearer sk-test"
+
+
+@respx.mock
+def test_surrounding_whitespace_on_a_pasted_key_is_trimmed():
+    route = respx.get("https://openrouter.ai/api/v1/models").mock(
+        return_value=httpx.Response(200, json={"data": []})
+    )
+    with OpenRouterClient(_config(api_key="  sk-test\n")) as client:
+        client.list_models()
+    assert route.calls[0].request.headers["Authorization"] == "Bearer sk-test"

@@ -9,8 +9,10 @@ is spam.
 from __future__ import annotations
 
 import contextlib
+import difflib
 import html
 import smtplib
+import socket
 import ssl
 from collections.abc import Sequence
 from email.message import EmailMessage
@@ -33,31 +35,59 @@ GMAIL_HINT = (
 )
 
 
+#: Relays common enough that a near miss is almost certainly a typo.
+KNOWN_SMTP_HOSTS: tuple[str, ...] = (
+    "smtp.gmail.com",
+    "smtp.office365.com",
+    "smtp-mail.outlook.com",
+    "smtp.mail.yahoo.com",
+    "smtp.sendgrid.net",
+    "smtp.postmarkapp.com",
+    "smtp.mailgun.org",
+    "smtp-relay.brevo.com",
+    "smtp.zoho.com",
+    "smtp.fastmail.com",
+    "smtp.resend.com",
+)
+
+
 def _quietly_close(server: smtplib.SMTP | smtplib.SMTP_SSL) -> None:
     with contextlib.suppress(OSError, smtplib.SMTPException):
         server.quit()
 
 
+def suggest_host(host: str) -> str | None:
+    """The relay a misspelled hostname most likely meant.
+
+    `smpt.gmail.com` fails with a bare "Name or service not known", which
+    says nothing about the transposed letters that caused it.
+    """
+    matches = difflib.get_close_matches(host.lower(), KNOWN_SMTP_HOSTS, n=1, cutoff=0.8)
+    if matches and matches[0] != host.lower():
+        return matches[0]
+    return None
+
+
 def _connect(config: EmailConfig) -> smtplib.SMTP | smtplib.SMTP_SSL:
-    """Open a connection, choosing implicit or negotiated TLS by port.
+    """Open a connection using the configured encryption mode.
 
     Port 465 is implicit TLS: the handshake happens before any SMTP verb, so
-    it must never be spoken to in plaintext, whatever the `use_tls` box says.
-    Treating that box as authoritative on 465 produced a plaintext socket
-    against a TLS-only port, which hangs until the timeout.
+    it must never be spoken to in plaintext. That used to be inferred from a
+    checkbox, which got it backwards on 465 and could not describe a relay
+    on a non-standard port at all, so the mode is now stated outright.
     """
     host = config.smtp_server.strip()
     if not host:
         raise MailError("no SMTP server configured")
 
     try:
-        if config.smtp_port == 465:
+        if config.security == "ssl":
             context = ssl.create_default_context()
             return smtplib.SMTP_SSL(host, config.smtp_port, timeout=30, context=context)
 
         server = smtplib.SMTP(host, config.smtp_port, timeout=30)
         server.ehlo()
-        if config.use_tls:
+        if config.security == "starttls":
             try:
                 server.starttls(context=ssl.create_default_context())
             except smtplib.SMTPNotSupportedError as exc:
@@ -70,6 +100,11 @@ def _connect(config: EmailConfig) -> smtplib.SMTP | smtplib.SMTP_SSL:
         return server
     except MailError:
         raise
+    except socket.gaierror as exc:
+        # DNS could not resolve the name at all — nearly always a typo.
+        suggestion = suggest_host(host)
+        hint = f" — did you mean {suggestion}?" if suggestion else " — check it for typos"
+        raise MailError(f"could not resolve the SMTP server '{host}'{hint}") from exc
     except ssl.SSLError as exc:
         raise MailError(
             f"TLS handshake with {host}:{config.smtp_port} failed: {exc}. "
@@ -154,7 +189,7 @@ def handshake(config: EmailConfig) -> str:
     server = _authenticate(config)
     _quietly_close(server)
 
-    mode = "implicit TLS" if config.smtp_port == 465 else ("STARTTLS" if config.use_tls else "plaintext")
+    mode = {"ssl": "implicit TLS", "starttls": "STARTTLS", "none": "plaintext"}[config.security]
     who = f" as {config.sender_email.strip()}" if config.sender_password else " (no authentication)"
     return f"Connected to {config.smtp_server.strip()}:{config.smtp_port} over {mode}{who}."
 

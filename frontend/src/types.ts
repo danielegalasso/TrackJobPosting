@@ -136,6 +136,7 @@ export interface AppConfig {
     smtp_server: string;
     smtp_port: number;
     use_tls: boolean;
+    security: SmtpSecurity;
     sender_email: string;
     sender_password: string;
     sender_name: string;
@@ -153,6 +154,9 @@ export interface AppConfig {
   interests: string[];
   targets: SpiderTarget[];
   source_types: string[];
+  /** Server-derived: a secret exists on disk, though it is never sent here. */
+  has_openrouter_key: boolean;
+  has_smtp_password: boolean;
 }
 
 /** `none` means "omit the reasoning block", for models with no thinking mode. */
@@ -168,6 +172,9 @@ export const REASONING_EFFORTS: { value: ReasoningEffort; label: string; hint: s
 ];
 
 /** One entry of OpenRouter's catalogue, as the picker shows it. */
+/** How the SMTP connection is encrypted, stated rather than inferred. */
+export type SmtpSecurity = 'starttls' | 'ssl' | 'none';
+
 export interface ModelInfo {
   id: string;
   name: string;

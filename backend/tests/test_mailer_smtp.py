@@ -217,3 +217,37 @@ def test_sending_uses_the_same_authentication_path(smtp):
 def test_sending_is_refused_when_email_is_disabled():
     with pytest.raises(mailer.MailError, match="disabled"):
         mailer.send(_config(enabled=False), "a@b.c", "s", "<p>h</p>", "h")
+
+
+def test_a_misspelled_gmail_host_names_the_likely_intent():
+    """`smpt.gmail.com` fails with a DNS error that explains nothing."""
+    assert mailer.suggest_host("smpt.gmail.com") == "smtp.gmail.com"
+    assert mailer.suggest_host("smtp.gmial.com") == "smtp.gmail.com"
+    assert mailer.suggest_host("stmp.gmail.com") == "smtp.gmail.com"
+
+
+def test_a_correct_or_private_host_gets_no_suggestion():
+    assert mailer.suggest_host("smtp.gmail.com") is None
+    assert mailer.suggest_host("mail.internal.example") is None
+
+
+def test_dns_failure_reports_the_typo(monkeypatch):
+    import socket as socket_module
+
+    def unresolvable(*args, **kwargs):
+        raise socket_module.gaierror(-2, "Name or service not known")
+
+    monkeypatch.setattr(smtplib, "SMTP", unresolvable)
+    with pytest.raises(mailer.MailError, match="did you mean smtp.gmail.com"):
+        mailer.handshake(_config(smtp_server="smpt.gmail.com"))
+
+
+def test_dns_failure_on_an_unknown_host_still_says_what_happened(monkeypatch):
+    import socket as socket_module
+
+    def unresolvable(*args, **kwargs):
+        raise socket_module.gaierror(-2, "Name or service not known")
+
+    monkeypatch.setattr(smtplib, "SMTP", unresolvable)
+    with pytest.raises(mailer.MailError, match="could not resolve.*check it for typos"):
+        mailer.handshake(_config(smtp_server="mail.nonexistent.invalid"))

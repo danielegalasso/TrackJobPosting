@@ -172,13 +172,20 @@ def filter_models(models: list[ModelInfo], query: str) -> list[ModelInfo]:
 
 
 def _headers(config: SetupConfig) -> dict[str, str]:
-    return {
-        "Authorization": f"Bearer {config.openrouter.api_key}",
+    headers = {
         "Content-Type": "application/json",
         # OpenRouter uses these for attribution on their model leaderboards.
         "HTTP-Referer": config.openrouter.referer,
         "X-Title": config.openrouter.title,
     }
+    # An empty key would build "Bearer ", which httpx rejects outright as an
+    # illegal header value — so the public model catalogue became unreachable
+    # before a key was ever saved, which is exactly when the picker is first
+    # opened. No key simply means no Authorization header.
+    key = config.openrouter.api_key.strip()
+    if key:
+        headers["Authorization"] = f"Bearer {key}"
+    return headers
 
 
 def build_prompt(posting: RawPosting, config: SetupConfig, cv_text: str) -> str:

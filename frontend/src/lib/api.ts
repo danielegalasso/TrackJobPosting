@@ -111,8 +111,20 @@ export const api = {
     const query = params.toString();
     return request<ModelInfo[]>(`/api/config/models${query ? `?${query}` : ''}`);
   },
-  testOpenRouter: () => request<HandshakeResult>('/api/config/test/openrouter', { method: 'POST' }),
-  testSmtp: () => request<HandshakeResult>('/api/config/test/smtp', { method: 'POST' }),
+  // The draft is posted so the buttons test what is on screen, not what
+  // was last written to disk.
+  testOpenRouter: (draft?: AppConfig) =>
+    request<HandshakeResult>('/api/config/test/openrouter', {
+      method: 'POST',
+      body: JSON.stringify(draft ?? null),
+    }),
+  testSmtp: (draft?: AppConfig) =>
+    request<HandshakeResult>('/api/config/test/smtp', {
+      method: 'POST',
+      body: JSON.stringify(draft ?? null),
+    }),
+  clearSecret: (name: 'openrouter_api_key' | 'smtp_password') =>
+    request<{ cleared: boolean }>(`/api/config/secret/${name}`, { method: 'DELETE' }),
 
   spiderStatus: () => request<SpiderStatus>('/api/spider/status'),
   runSpider: () => request<{ started: boolean; detail: string }>('/api/spider/run', { method: 'POST' }),

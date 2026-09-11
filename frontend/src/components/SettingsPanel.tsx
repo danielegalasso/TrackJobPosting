@@ -8,12 +8,16 @@ import {
   type AppConfig,
   type HandshakeResult,
   type ReasoningEffort,
+  type SmtpSecurity,
   type SpiderTarget,
 } from '../types';
 import { ModelPicker } from './ModelPicker';
 
 /** Mirrors the probe the backend sends; shown so the test is not a black box. */
 const PROBE_PROMPT = 'Rispondi solo con: OK';
+
+/** What the server sends in place of a stored secret. */
+const MASK = '••••••••';
 
 /** Render only the filters a subscription actually set. */
 function describeFilters(filters: Record<string, unknown>): string {
@@ -51,26 +55,90 @@ function Field({
    */
   htmlFor?: string;
 }) {
-  const body = (
-    <>
-      <span className="mb-1 block text-xs font-semibold text-gray-700">{label}</span>
-      {children}
-      {hint && <span className="mt-1 block text-[11px] text-gray-400">{hint}</span>}
-    </>
-  );
+  const caption = <span className="mb-1 block text-xs font-semibold text-gray-700">{label}</span>;
 
-  if (htmlFor) {
-    return (
-      <div className="block">
-        <label htmlFor={htmlFor} className="contents">
-          <span className="mb-1 block text-xs font-semibold text-gray-700">{label}</span>
+  // The hint lives outside the <label> so it does not become part of the
+  // control's accessible name, which should be the label alone.
+  return (
+    <div className="block">
+      {htmlFor ? (
+        <>
+          <label htmlFor={htmlFor}>{caption}</label>
+          {children}
+        </>
+      ) : (
+        <label className="block">
+          {caption}
+          {children}
         </label>
-        {children}
-        {hint && <span className="mt-1 block text-[11px] text-gray-400">{hint}</span>}
-      </div>
-    );
-  }
-  return <label className="block">{body}</label>;
+      )}
+      {hint && <span className="mt-1 block text-[11px] text-gray-400">{hint}</span>}
+    </div>
+  );
+}
+
+/**
+ * A password input that never displays a stored secret.
+ *
+ * The server returns a mask rather than the real value, so rendering that
+ * mask as the field's text showed eight bullets regardless of the real
+ * password's length and looked like a value that had been typed. The field
+ * is blank instead, with an explicit "saved" state beside it.
+ */
+function SecretField({
+  id,
+  label,
+  hint,
+  placeholder,
+  value,
+  hasStored,
+  onChange,
+  onClear,
+}: {
+  id: string;
+  label: string;
+  hint?: string;
+  placeholder?: string;
+  value: string;
+  hasStored: boolean;
+  onChange: (value: string) => void;
+  onClear: () => void;
+}) {
+  const stored = hasStored && (value === MASK || value === '');
+  const typed = value !== MASK && value !== '';
+
+  // htmlFor rather than a wrapping label: the status row below holds a
+  // button, and a label would forward clicks on it to the input.
+  return (
+    <Field label={label} hint={hint} htmlFor={id}>
+      <input
+        id={id}
+        type="password"
+        autoComplete="new-password"
+        value={value === MASK ? '' : value}
+        placeholder={stored ? 'Saved — type to replace' : placeholder}
+        onChange={(event) => onChange(event.target.value || MASK)}
+        className="control pr-3 font-mono"
+      />
+      <span className="mt-1 flex items-center gap-2 text-[11px]">
+        {typed ? (
+          <span className="text-amber-700">Not saved yet</span>
+        ) : stored ? (
+          <>
+            <span className="flex items-center gap-1 text-emerald-700">
+              <Check className="h-3 w-3" aria-hidden />
+              Saved on this host
+            </span>
+            <button type="button" onClick={onClear} className="text-red-600 hover:underline">
+              Forget
+            </button>
+          </>
+        ) : (
+          <span className="text-gray-400">Nothing saved</span>
+        )}
+      </span>
+    </Field>
+  );
 }
 
 function Handshake({ result }: { result?: HandshakeResult }) {
@@ -276,19 +344,22 @@ export function SettingsPanel() {
       </Section>
 
       <Section title="OpenRouter" hint="The inference gateway that scores each posting.">
-        <Field label="API key">
-          <input
-            type="password"
-            value={draft.openrouter.api_key}
-            onChange={(event) =>
-              patch((next) => {
-                next.openrouter.api_key = event.target.value;
-              })
-            }
-            className="control pr-3 font-mono"
-            placeholder="sk-or-v1-…"
-          />
-        </Field>
+        <SecretField
+          id="openrouter-api-key"
+          label="API key"
+          placeholder="sk-or-v1-…"
+          value={draft.openrouter.api_key}
+          hasStored={draft.has_openrouter_key}
+          onChange={(value) =>
+            patch((next) => {
+              next.openrouter.api_key = value;
+            })
+          }
+          onClear={async () => {
+            await api.clearSecret('openrouter_api_key');
+            queryClient.invalidateQueries({ queryKey: ['config'] });
+          }}
+        />
         <Field
           label="Model"
           htmlFor="model-search"
@@ -306,8 +377,9 @@ export function SettingsPanel() {
         </Field>
 
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
-          <Field label="Reasoning effort" hint="Sent as reasoning.effort.">
+          <Field label="Reasoning effort" htmlFor="reasoning-effort" hint="Sent as reasoning.effort.">
             <select
+              id="reasoning-effort"
               value={draft.openrouter.reasoning_effort}
               onChange={(event) =>
                 patch((next) => {
@@ -360,10 +432,9 @@ export function SettingsPanel() {
               setOpenRouterTest(undefined);
               setTestingOpenRouter(true);
               try {
-                // The probe reads the saved file, so an unsaved key or
-                // model would silently test the previous one.
-                await save.mutateAsync(draft);
-                setOpenRouterTest(await api.testOpenRouter());
+                // The draft goes with the request, so what is on screen is
+                // what gets tested — no save required.
+                setOpenRouterTest(await api.testOpenRouter(draft));
               } catch (error) {
                 setOpenRouterTest({
                   ok: false,
@@ -380,7 +451,8 @@ export function SettingsPanel() {
             <span>Test connection</span>
           </button>
           <span className="text-[11px] text-gray-400">
-            Saves, then sends “{PROBE_PROMPT}” and expects <code>OK</code> back.
+            Sends “{PROBE_PROMPT}” with the settings above and expects <code>OK</code> back.
+            No need to save first.
           </span>
         </div>
         <Handshake result={openRouterTest} />
@@ -414,28 +486,45 @@ export function SettingsPanel() {
               placeholder="smtp.gmail.com"
             />
           </Field>
-          <Field label="Port" hint="587 = STARTTLS · 465 = implicit TLS · 25 = plaintext.">
-            <select
-              value={[25, 465, 587].includes(draft.email.smtp_port) ? draft.email.smtp_port : 0}
+          <Field label="Port" hint="587 STARTTLS · 465 implicit TLS · 25 plaintext · anything else is fine.">
+            <input
+              type="number"
+              min={1}
+              max={65535}
+              value={draft.email.smtp_port}
               onChange={(event) =>
                 patch((next) => {
                   const port = Number(event.target.value);
-                  if (port === 0) return;
                   next.email.smtp_port = port;
-                  // 465 is TLS from the first byte; 587 negotiates it with
-                  // STARTTLS. Keeping the flag in step removes the single
-                  // most common way to misconfigure Gmail.
-                  next.email.use_tls = port !== 25;
+                  // Follow the port only while it matches a well-known one,
+                  // so a custom port keeps whatever mode was chosen.
+                  if (port === 465) next.email.security = 'ssl';
+                  else if (port === 587) next.email.security = 'starttls';
+                  else if (port === 25) next.email.security = 'none';
+                })
+              }
+              className="control pr-3"
+            />
+          </Field>
+          <Field
+            label="Encryption"
+            htmlFor="smtp-security"
+            hint="Stated outright, so a relay on any port works."
+          >
+            <select
+              id="smtp-security"
+              value={draft.email.security}
+              onChange={(event) =>
+                patch((next) => {
+                  next.email.security = event.target.value as SmtpSecurity;
+                  next.email.use_tls = event.target.value !== 'none';
                 })
               }
               className="control pr-3"
             >
-              <option value={587}>587 — STARTTLS (Gmail)</option>
-              <option value={465}>465 — implicit TLS</option>
-              <option value={25}>25 — plaintext</option>
-              {![25, 465, 587].includes(draft.email.smtp_port) && (
-                <option value={0}>{draft.email.smtp_port} — custom</option>
-              )}
+              <option value="starttls">STARTTLS (Gmail, port 587)</option>
+              <option value="ssl">Implicit TLS (port 465)</option>
+              <option value="none">None (plaintext)</option>
             </select>
           </Field>
           <Field label="Sender address">
@@ -450,21 +539,22 @@ export function SettingsPanel() {
               className="control pr-3"
             />
           </Field>
-          <Field
+          <SecretField
+            id="smtp-password"
             label="Password"
             hint="Gmail: a 16-character app password, not your account password. Spaces are fine."
-          >
-            <input
-              type="password"
-              value={draft.email.sender_password}
-              onChange={(event) =>
-                patch((next) => {
-                  next.email.sender_password = event.target.value;
-                })
-              }
-              className="control pr-3 font-mono"
-            />
-          </Field>
+            value={draft.email.sender_password}
+            hasStored={draft.has_smtp_password}
+            onChange={(value) =>
+              patch((next) => {
+                next.email.sender_password = value;
+              })
+            }
+            onClear={async () => {
+              await api.clearSecret('smtp_password');
+              queryClient.invalidateQueries({ queryKey: ['config'] });
+            }}
+          />
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
@@ -473,10 +563,7 @@ export function SettingsPanel() {
               setSmtpTest(undefined);
               setTestingSmtp(true);
               try {
-                // The test reads the saved file, so an unsaved password
-                // would silently test the previous one.
-                await save.mutateAsync(draft);
-                setSmtpTest(await api.testSmtp());
+                setSmtpTest(await api.testSmtp(draft));
               } catch (error) {
                 setSmtpTest({
                   ok: false,
@@ -490,10 +577,10 @@ export function SettingsPanel() {
             className="flex items-center gap-2 rounded border border-gray-300 px-3 py-1.5 text-xs font-medium text-gray-700 transition hover:bg-gray-50 disabled:opacity-60"
           >
             {testingSmtp && <Loader2 className="h-3.5 w-3.5 animate-spin" aria-hidden />}
-            <span>Save &amp; test connection</span>
+            <span>Test connection</span>
           </button>
           <span className="text-[11px] text-gray-400">
-            Logs in without sending anything.
+            Logs in with the settings above without sending anything, or saving them.
           </span>
         </div>
         <Handshake result={smtpTest} />
