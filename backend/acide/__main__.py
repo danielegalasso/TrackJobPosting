@@ -19,6 +19,20 @@ def _serve(args: argparse.Namespace) -> int:
     return 0
 
 
+def _shared_pages(resolutions: list) -> dict[str, list[str]]:
+    """Careers URLs claimed by more than one organization.
+
+    A curated list repeats itself: corporate groups run one careers site for
+    every division, which is fine, while unrelated bodies sharing a portal
+    usually means the specific page was never found.
+    """
+    by_url: dict[str, list[str]] = {}
+    for item in resolutions:
+        if item.careers_page:
+            by_url.setdefault(item.careers_page, []).append(item.organization)
+    return {url: names for url, names in by_url.items() if len(names) > 1}
+
+
 def _import_companies(args: argparse.Namespace) -> int:
     """Resolve a curated organization list into indexable career feeds."""
     from . import config as config_module
@@ -165,6 +179,19 @@ def _import_companies(args: argparse.Namespace) -> int:
     print(f"  unresolved {len(report.unresolved):4}")
     for platform, count in report.by_other_ats().items():
         print(f"      {count:4}  {platform}")
+
+    shared = _shared_pages(report.resolutions)
+    if shared:
+        redundant = sum(len(names) - 1 for names in shared.values())
+        print(
+            f"\n  {len(shared)} careers page(s) are listed by more than one organization "
+            f"({redundant} fewer visits)."
+        )
+        print("  Each was visited once. Where a group really does run one careers")
+        print("  site this is correct; where it does not, give them separate URLs:")
+        for url, names in sorted(shared.items(), key=lambda kv: -len(kv[1]))[:5]:
+            print(f"      {len(names)}x {url}")
+            print(f"          {', '.join(names[:6])}{' …' if len(names) > 6 else ''}")
 
     report_path.write_text(report.to_json(), encoding="utf-8")
     print(f"\nFull report written to {report_path}")

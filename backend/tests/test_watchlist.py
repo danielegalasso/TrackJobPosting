@@ -489,3 +489,23 @@ def test_a_report_carries_the_website_so_a_retry_can_use_it(tmp_path):
     [org] = organizations_from_report(path)
     assert org.website == "https://acme.example"
     assert org.category == "Cybersecurity"
+
+
+def test_shared_careers_pages_are_reported_for_review():
+    """A group running one careers site is fine; unrelated bodies sharing a
+    portal usually means nobody found their actual page."""
+    from acide.__main__ import _shared_pages
+    from acide.watchlist import Resolution
+
+    resolutions = [
+        Resolution(organization="Thales Group", careers_page="https://careers.thales/global"),
+        Resolution(organization="Thales Alenia", careers_page="https://careers.thales/global"),
+        Resolution(organization="CINEA", careers_page="https://eu-careers.europa.eu/en"),
+        Resolution(organization="HaDEA", careers_page="https://eu-careers.europa.eu/en"),
+        Resolution(organization="Acme", careers_page="https://acme.example/careers"),
+        Resolution(organization="NoPage", careers_page=""),
+    ]
+    shared = _shared_pages(resolutions)
+    assert set(shared) == {"https://careers.thales/global", "https://eu-careers.europa.eu/en"}
+    assert shared["https://careers.thales/global"] == ["Thales Group", "Thales Alenia"]
+    assert "https://acme.example/careers" not in shared, "one owner is not shared"
