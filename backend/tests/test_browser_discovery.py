@@ -207,6 +207,39 @@ def test_fallbacks_are_empty_without_anything_to_go_on():
 # ---------------------------------------------------------------------------
 # robots.txt
 # ---------------------------------------------------------------------------
+class _RobotsSite:
+    """A host serving one robots.txt response, recording how it was asked."""
+
+    def __init__(self, status: int, body: str = ""):
+        self.status, self.body, self.agents = status, body, []
+        site = self
+
+        class Handler(BaseHTTPRequestHandler):
+            def do_GET(self):
+                site.agents.append(self.headers.get("User-Agent", ""))
+                if self.path != "/robots.txt":
+                    self.send_response(200)
+                    self.end_headers()
+                    self.wfile.write(b"<h1>Careers</h1>")
+                    return
+                self.send_response(site.status)
+                self.end_headers()
+                self.wfile.write(site.body.encode())
+
+            def log_message(self, *a):
+                pass
+
+        self.server = HTTPServer(("127.0.0.1", 0), Handler)
+        self.url = f"http://127.0.0.1:{self.server.server_port}"
+        threading.Thread(target=self.server.serve_forever, daemon=True).start()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        self.server.shutdown()
+
+
 def test_robots_is_respected(site):
     """A person is not bound by robots.txt; six hundred scripted visits are."""
     robots = RobotsCache()
@@ -220,9 +253,60 @@ def test_a_host_without_robots_is_allowed():
     assert robots.allowed("http://127.0.0.1:1/careers") is True
 
 
-def test_robots_is_fetched_once_per_host(site, monkeypatch):
-    robots = RobotsCache()
-    robots.allowed(f"{site}/spa")
-    cached = dict(robots._parsers)
-    robots.allowed(f"{site}/other")
-    assert dict(robots._parsers) == cached
+def test_robots_is_fetched_once_per_host():
+    """Six hundred pages must not mean six hundred robots.txt requests."""
+    with _RobotsSite(200, "User-agent: *\nAllow: /\n") as site:
+        robots = RobotsCache()
+        robots.allowed(f"{site.url}/careers")
+        robots.allowed(f"{site.url}/jobs")
+        robots.allowed(f"{site.url}/about/careers")
+    assert len(site.agents) == 1, "robots.txt was re-fetched for the same host"
+
+
+# ---------------------------------------------------------------------------
+# An unreadable robots.txt is not a refusal
+# ---------------------------------------------------------------------------
+def test_a_waf_blocking_robots_txt_is_not_a_refusal():
+    """The bug this replaces cost 125 of a real 631-entry list.
+
+    Security vendors run WAFs, WAFs reject `Python-urllib`, and
+    RobotFileParser treats a 403 as disallow-all — so the sites most likely
+    to block the fetch were exactly the ones reported as forbidding us,
+    having forbidden nothing. RFC 9309 §2.3.1.4 treats 4xx as "no
+    robots.txt applies".
+    """
+    with _RobotsSite(403) as site:
+        assert RobotsCache().allowed(f"{site.url}/careers") is True
+
+
+def test_robots_txt_is_fetched_with_an_agent_a_waf_will_answer():
+    with _RobotsSite(200, "User-agent: *\nAllow: /\n") as site:
+        RobotsCache().allowed(f"{site.url}/careers")
+    assert "Python-urllib" not in site.agents[0]
+    assert "ACIDE-Watch" in site.agents[0], "and still identifies itself"
+
+
+def test_a_robots_txt_that_can_be_read_is_still_obeyed():
+    """The boundary has not moved: a real refusal is a refusal."""
+    with _RobotsSite(200, "User-agent: *\nDisallow: /careers\n") as site:
+        decision = RobotsCache().check(f"{site.url}/careers")
+    assert decision.allowed is False
+    assert decision.note == "disallowed by robots.txt"
+
+
+def test_a_readable_robots_txt_that_permits_us_allows_the_visit():
+    with _RobotsSite(200, "User-agent: *\nDisallow: /admin\n") as site:
+        assert RobotsCache().allowed(f"{site.url}/careers") is True
+
+
+def test_a_server_error_on_robots_txt_is_treated_as_disallow():
+    """RFC 9309 does say to assume disallow when robots.txt is unreachable."""
+    with _RobotsSite(503) as site:
+        decision = RobotsCache().check(f"{site.url}/careers")
+    assert decision.allowed is False
+    assert "unreadable" in decision.note
+
+
+def test_a_missing_robots_txt_allows_everything():
+    with _RobotsSite(404) as site:
+        assert RobotsCache().allowed(f"{site.url}/careers") is True

@@ -28,6 +28,8 @@ recurring job indexing at all.
 from __future__ import annotations
 
 import contextlib
+import urllib.error
+import urllib.request
 import urllib.robotparser
 from collections.abc import Callable, Iterator, Sequence
 from dataclasses import dataclass
@@ -86,36 +88,92 @@ def fallback_urls(website: str, careers_page: str) -> list[str]:
     ]
 
 
+#: robots.txt is fetched with this. Identified, but browser-shaped: a WAF
+#: that blocks `Python-urllib` never lets us read robots.txt at all, and an
+#: unread robots.txt is not a refusal — see RobotsCache.
+ROBOTS_USER_AGENT = (
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/125.0 Safari/537.36 ACIDE-Watch/2.0 (+careers page discovery)"
+)
+
+
+@dataclass
+class RobotsDecision:
+    """Whether a URL may be visited, and why not when it may not."""
+
+    allowed: bool
+    note: str = ""
+
+
 class RobotsCache:
     """Per-host robots.txt, fetched once.
 
     A person opening a careers page is not bound by robots.txt; a script
     visiting six hundred of them is. Checking costs one request per host.
+
+    Two details matter, and getting either wrong turns a site that permits
+    us into one that appears to forbid us:
+
+    1. **It is fetched with a browser-shaped agent.** `urllib` defaults to
+       `Python-urllib/3.x`, which WAFs block on sight — so on exactly the
+       sites most likely to run one, robots.txt could never be read.
+    2. **An unreadable robots.txt is not a refusal.** `RobotFileParser`
+       follows the pre-RFC convention of treating 401/403 as disallow-all.
+       RFC 9309 §2.3.1.4 treats every 4xx as "no robots.txt applies": the
+       site has not forbidden anything, we simply could not ask. A 5xx is
+       different — the standard does say to assume disallow there, and that
+       is honoured.
+
+    What has not changed: a robots.txt we can actually read is obeyed.
     """
 
-    def __init__(self, user_agent: str = "*") -> None:
+    def __init__(self, user_agent: str = "*", fetch_as: str = ROBOTS_USER_AGENT) -> None:
         self.user_agent = user_agent
-        self._parsers: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+        self.fetch_as = fetch_as
+        self._cache: dict[str, tuple[urllib.robotparser.RobotFileParser | None, str]] = {}
 
-    def allowed(self, url: str) -> bool:
+    def _load(self, host: str) -> tuple[urllib.robotparser.RobotFileParser | None, str]:
+        """Returns (parser, refusal). A refusal short-circuits every URL."""
+        request = urllib.request.Request(
+            urljoin(host, "/robots.txt"),
+            headers={"User-Agent": self.fetch_as, "Accept": "text/plain,*/*"},
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=15) as response:
+                body = response.read(512_000).decode("utf-8", "replace")
+        except urllib.error.HTTPError as exc:
+            if exc.code >= 500:
+                return None, f"robots.txt unreadable (HTTP {exc.code}), so not visited"
+            # 4xx — including the 403 a WAF returns to any non-browser
+            # fetch. Nothing has been forbidden; there is simply no
+            # robots.txt we are able to read.
+            return None, ""
+        except Exception:
+            # Offline, DNS failure, timeout. The page visit will fail on its
+            # own and report its own reason, which is the honest one.
+            return None, ""
+        parser = urllib.robotparser.RobotFileParser()
+        parser.parse(body.splitlines())
+        return parser, ""
+
+    def check(self, url: str) -> RobotsDecision:
         parsed = urlparse(url)
         host = f"{parsed.scheme}://{parsed.netloc}"
-        if host not in self._parsers:
-            parser = urllib.robotparser.RobotFileParser()
-            parser.set_url(urljoin(host, "/robots.txt"))
-            try:
-                parser.read()
-            except Exception:
-                # No robots.txt, or it could not be read: nothing forbids us.
-                parser = None
-            self._parsers[host] = parser
-        parser = self._parsers[host]
+        if host not in self._cache:
+            self._cache[host] = self._load(host)
+        parser, refusal = self._cache[host]
+        if refusal:
+            return RobotsDecision(False, refusal)
         if parser is None:
-            return True
+            return RobotsDecision(True)
         try:
-            return parser.can_fetch(self.user_agent, url)
+            permitted = parser.can_fetch(self.user_agent, url)
         except Exception:  # pragma: no cover - malformed robots
-            return True
+            return RobotsDecision(True)
+        return RobotsDecision(permitted, "" if permitted else "disallowed by robots.txt")
+
+    def allowed(self, url: str) -> bool:
+        return self.check(url).allowed
 
 
 class BrowserSession:
@@ -297,8 +355,9 @@ def resolve_with_browser(
         for candidate in candidates:
             if not candidate:
                 continue
-            if not robots.allowed(candidate):
-                result = PageResult(Discovery(note="disallowed by robots.txt"))
+            decision = robots.check(candidate)
+            if not decision.allowed:
+                result = PageResult(Discovery(note=decision.note))
                 continue
             if index or candidate is not candidates[0]:
                 pause(delay_seconds)

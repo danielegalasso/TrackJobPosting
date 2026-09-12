@@ -152,7 +152,13 @@ backend/.venv/bin/acide import-companies data/import-report.json \
 
 **What browser mode does not do.** It renders public pages you could open
 yourself, one at a time, with a pause between them, and it honours
-`robots.txt`. It does not spoof fingerprints, patch `navigator.webdriver`,
+`robots.txt` — a `Disallow` it can read is obeyed. It does distinguish that
+from a `robots.txt` it could not read: a WAF answering the fetch with 403 has
+forbidden nothing, and RFC 9309 treats every 4xx as "no robots.txt applies".
+A 5xx is taken as the standard says, assume disallow. (Python's own
+`RobotFileParser` follows the older convention of reading 401/403 as
+disallow-all, which made the sites most likely to run a WAF look like the
+ones refusing us — 125 of a real 631-entry list.) It does not spoof fingerprints, patch `navigator.webdriver`,
 solve challenges or rotate addresses — a 403 or 429 is recorded as the
 answer, not something to get around. The browser is only used for
 *discovery*: once a board token is known, the ordinary JSON connector takes
