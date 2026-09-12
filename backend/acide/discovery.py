@@ -32,6 +32,34 @@ _ATS_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     # jobs.ashbyhq.com/name
     ("ashby", re.compile(r"jobs\.ashbyhq\.com/([A-Za-z0-9_.-]+)")),
     ("ashby", re.compile(r"api\.ashbyhq\.com/posting-api/job-board/([A-Za-z0-9_.-]+)")),
+    # Workday needs host *and* site to address its CXS endpoint, so the token
+    # is both: nxp.wd3.myworkdayjobs.com/careers. A locale segment may sit
+    # between them (…/en-US/careers) and is skipped.
+    (
+        "workday",
+        re.compile(
+            r"([a-z0-9-]+\.wd\d+\.myworkdayjobs\.com)"
+            r"(?:/[a-z]{2}-[A-Z]{2})?/([A-Za-z0-9_-]+)"
+        ),
+    ),
+    # <name>.teamtailor.com
+    ("teamtailor", re.compile(r"([A-Za-z0-9-]+)\.teamtailor\.com")),
+    # <name>.jobs.personio.de / .com
+    ("personio", re.compile(r"([A-Za-z0-9-]+)\.jobs\.personio\.(?:de|com)")),
+    # <name>.recruitee.com
+    ("recruitee", re.compile(r"([A-Za-z0-9-]+)\.recruitee\.com")),
+    # apply.workable.com/<slug>, and the legacy <slug>.workable.com
+    ("workable", re.compile(r"apply\.workable\.com/(?:j/)?([A-Za-z0-9_-]+)")),
+    ("workable", re.compile(r"([A-Za-z0-9-]+)\.workable\.com")),
+    # careers.smartrecruiters.com/<Company>, jobs.smartrecruiters.com/<Company>
+    (
+        "smartrecruiters",
+        re.compile(r"(?:careers|jobs)\.smartrecruiters\.com/([A-Za-z0-9_-]+)"),
+    ),
+    (
+        "smartrecruiters",
+        re.compile(r"api\.smartrecruiters\.com/v1/companies/([A-Za-z0-9_-]+)"),
+    ),
 )
 
 #: Tokens the patterns can match that are never a real board.
@@ -56,18 +84,23 @@ _NOT_TOKENS = frozenset(
 #: Other ATS platforms seen on these careers pages. Recognising them does not
 #: make them indexable — it explains *why* a company cannot be watched yet,
 #: which is more useful than "unresolved".
+#: Platforms still without a connector. The ones that have gained one —
+#: Workday, Teamtailor, Personio, Recruitee, Workable, SmartRecruiters — are
+#: matched by _ATS_PATTERNS above and no longer belong here; a page that
+#: names one but yields no token falls through to these as a last resort, so
+#: "runs on workday" still beats "no ATS link found".
 _KNOWN_OTHER_ATS: tuple[tuple[str, re.Pattern[str]], ...] = (
-    ("workday", re.compile(r"myworkdayjobs\.com|workday\.com")),
     ("successfactors", re.compile(r"successfactors\.(?:eu|com)|sapsf\.(?:eu|com)")),
     ("taleo", re.compile(r"taleo\.net")),
-    ("smartrecruiters", re.compile(r"smartrecruiters\.com")),
-    ("workable", re.compile(r"workable\.com")),
-    ("personio", re.compile(r"personio\.(?:de|com)|jobs\.personio")),
-    ("teamtailor", re.compile(r"teamtailor\.com")),
-    ("recruitee", re.compile(r"recruitee\.com")),
     ("icims", re.compile(r"icims\.com")),
     ("eu-careers", re.compile(r"eu-careers\.europa\.eu|epso\.europa\.eu")),
     ("oracle-cloud", re.compile(r"oraclecloud\.com/hcmUI|fa\.em\d+\.oraclecloud\.com")),
+    ("workday", re.compile(r"myworkdayjobs\.com|workday\.com")),
+    ("smartrecruiters", re.compile(r"smartrecruiters\.com")),
+    ("workable", re.compile(r"workable\.com")),
+    ("personio", re.compile(r"personio\.(?:de|com)")),
+    ("teamtailor", re.compile(r"teamtailor\.com")),
+    ("recruitee", re.compile(r"recruitee\.com")),
 )
 
 
@@ -106,8 +139,13 @@ def discover_in_html(html: str) -> Discovery:
 
     for source_type, pattern in _ATS_PATTERNS:
         for match in pattern.finditer(html):
-            token = match.group(1).strip().strip("/")
-            if token and token.lower() not in _NOT_TOKENS:
+            groups = [part.strip().strip("/") for part in match.groups() if part]
+            if not groups or any(part.lower() in _NOT_TOKENS for part in groups):
+                continue
+            # Workday alone needs two: its endpoint is addressed by host *and*
+            # career-site name, so the token carries both.
+            token = "/".join(groups)
+            if token:
                 return Discovery(source_type=source_type, board_token=token)
 
     for name, pattern in _KNOWN_OTHER_ATS:

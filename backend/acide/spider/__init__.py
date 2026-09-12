@@ -12,6 +12,12 @@ from .ashby import AshbyConnector
 from .base import CONNECTORS, Connector, ConnectorError, get_connector
 from .greenhouse import GreenhouseConnector
 from .lever import LeverConnector
+from .personio import PersonioConnector
+from .recruitee import RecruiteeConnector
+from .smartrecruiters import SmartRecruitersConnector
+from .teamtailor import TeamtailorConnector
+from .workable import WorkableConnector
+from .workday import WorkdayConnector
 
 __all__ = [
     "AshbyConnector",
@@ -20,5 +26,11 @@ __all__ = [
     "ConnectorError",
     "GreenhouseConnector",
     "LeverConnector",
+    "PersonioConnector",
+    "RecruiteeConnector",
+    "SmartRecruitersConnector",
+    "TeamtailorConnector",
+    "WorkableConnector",
+    "WorkdayConnector",
     "get_connector",
 ]

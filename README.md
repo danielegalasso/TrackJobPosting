@@ -81,6 +81,28 @@ company handle in its job-board URL:
 | `greenhouse` | `job-boards.greenhouse.io/stripe` | `stripe` |
 | `lever` | `jobs.lever.co/ramp` | `ramp` |
 | `ashby` | `jobs.ashbyhq.com/linear` | `linear` |
+| `teamtailor` | `acme.teamtailor.com` | `acme` |
+| `personio` | `acme.jobs.personio.de` | `acme` |
+| `recruitee` | `acme.recruitee.com` | `acme` |
+| `workable` | `apply.workable.com/acme` | `acme` |
+| `smartrecruiters` | `careers.smartrecruiters.com/Acme` | `Acme` |
+| `workday` | `nxp.wd3.myworkdayjobs.com/careers` | `nxp.wd3.myworkdayjobs.com/careers` |
+
+Every one of these is a **published feed the employer's own careers page
+reads**, without a key — the same boundary throughout: a documented public
+endpoint, never a scraped page.
+
+Workday is the odd one. Its endpoint is addressed by careers host *and*
+career-site name, so the token carries both; a full URL works too, locale
+segment and all. It answers a POST rather than a GET, which is why a Workday
+page looks empty to a plain fetch, and it silently returns nothing at all for
+a page size above 20 — so pages are requested at 20 and walked.
+
+Personio publishes XML rather than JSON, and some tenants live on
+`.jobs.personio.com` instead of `.de`; both are tried. SmartRecruiters and
+Workday carry no advert text in their listings, so each posting's own
+document is fetched for it — a posting whose advert cannot be read is still
+reported, with its title, rather than dropped.
 
 ### Importing a list of companies
 
@@ -247,7 +269,7 @@ part of the deal.
 
 ```
    ┌──────────────┐   public job-board APIs
-   │  Inspector   │──────────────────────────► Greenhouse / Lever / Ashby
+   │  Inspector   │──────────────────────────► 9 public ATS job feeds
    └──────┬───────┘   (rate limited, polite)
           │ postings not seen before
           ▼
@@ -359,7 +381,9 @@ backend/acide/
   alerts.py        Subscription matching and dispatch
   scheduler.py     Background loop for scheduled runs
   logbus.py        In-memory fan-out behind the live SSE console
-  spider/          Connectors: base, greenhouse, lever, ashby, runner
+  spider/          Connectors: base, greenhouse, lever, ashby, workday,
+                   teamtailor, personio, recruitee, workable,
+                   smartrecruiters, runner
   api/             Routers: jobs, alerts, config, spider
 frontend/src/
   App.tsx          View state, filters, infinite job query

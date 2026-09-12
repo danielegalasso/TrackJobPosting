@@ -170,6 +170,17 @@ def test_every_connector_registers_on_package_import():
     import acide.spider as spider_package
 
     importlib.reload(spider_package)
-    assert set(spider_package.CONNECTORS) == {"greenhouse", "lever", "ashby"}
-    for source_type in ("greenhouse", "lever", "ashby"):
+    expected = {
+        "greenhouse",
+        "lever",
+        "ashby",
+        "workday",
+        "teamtailor",
+        "personio",
+        "recruitee",
+        "workable",
+        "smartrecruiters",
+    }
+    assert set(spider_package.CONNECTORS) == expected
+    for source_type in expected:
         assert spider_package.get_connector(source_type).source_type == source_type

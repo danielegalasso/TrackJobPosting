@@ -67,11 +67,10 @@ def test_structural_path_segments_are_not_mistaken_for_tokens():
 @pytest.mark.parametrize(
     ("html", "platform"),
     [
-        ('<a href="https://leonardo.wd3.myworkdayjobs.com/careers">', "workday"),
         ('<a href="https://career5.successfactors.eu/career?company=x">', "successfactors"),
         ('<a href="https://eu-careers.europa.eu/en/job-opportunities">', "eu-careers"),
-        ('<a href="https://jobs.smartrecruiters.com/Acme">', "smartrecruiters"),
         ('<a href="https://acme.taleo.net/careersection/">', "taleo"),
+        ('<a href="https://acme.icims.com/jobs/">', "icims"),
     ],
 )
 def test_an_unsupported_platform_is_named_rather_than_shrugged_at(html, platform):
@@ -80,6 +79,38 @@ def test_an_unsupported_platform_is_named_rather_than_shrugged_at(html, platform
     assert found.supported is False
     assert found.other_ats == platform
     assert platform in found.note
+
+
+@pytest.mark.parametrize(
+    ("html", "source_type", "token"),
+    [
+        (
+            '<a href="https://leonardo.wd3.myworkdayjobs.com/careers">',
+            "workday",
+            "leonardo.wd3.myworkdayjobs.com/careers",
+        ),
+        (
+            '<a href="https://nxp.wd3.myworkdayjobs.com/en-US/careers">',
+            "workday",
+            "nxp.wd3.myworkdayjobs.com/careers",
+        ),
+        ('<a href="https://jobs.smartrecruiters.com/Acme">', "smartrecruiters", "Acme"),
+        ('<a href="https://acme.teamtailor.com/jobs">', "teamtailor", "acme"),
+        ('<a href="https://acme.jobs.personio.de/">', "personio", "acme"),
+        ('<a href="https://acme.recruitee.com/o/engineer">', "recruitee", "acme"),
+        ('<a href="https://apply.workable.com/acme/">', "workable", "acme"),
+    ],
+)
+def test_the_newer_platforms_now_yield_a_token(html, source_type, token):
+    """These were a worklist; they are feeds now.
+
+    Workday needs two values — its CXS endpoint is addressed by careers host
+    and site name — so its token carries both, with any locale segment
+    dropped.
+    """
+    found = discover_in_html(html)
+    assert found.supported is True
+    assert (found.source_type, found.board_token) == (source_type, token)
 
 
 def test_a_page_with_no_ats_says_so():

@@ -135,8 +135,14 @@ def test_config_rejects_an_unknown_source_type(client):
 
 
 def test_config_advertises_available_source_types(client):
+    """Whatever is registered is offered — the two must not drift apart."""
+    from acide.spider import CONNECTORS
+
     body = client.get("/api/config").json()
-    assert set(body["source_types"]) == {"greenhouse", "lever", "ashby"}
+    assert set(body["source_types"]) == set(CONNECTORS)
+    # The originals are still there, and the newer feeds are offered too.
+    assert {"greenhouse", "lever", "ashby"} <= set(body["source_types"])
+    assert {"workday", "teamtailor", "personio"} <= set(body["source_types"])
 
 
 def test_resume_upload_extract_and_erase(client):

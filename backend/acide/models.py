@@ -109,11 +109,39 @@ class ScoringConfig(BaseModel):
     interest_threshold: int = Field(default=75, ge=0, le=100)
 
 
+#: Every ATS with a connector. All of them publish a job feed their own
+#: careers pages read, without a key — the same boundary as the original
+#: three: a documented public endpoint, never a scraped page.
+SOURCE_TYPES = (
+    "greenhouse",
+    "lever",
+    "ashby",
+    "workday",
+    "teamtailor",
+    "personio",
+    "recruitee",
+    "workable",
+    "smartrecruiters",
+)
+
+SourceType = Literal[
+    "greenhouse",
+    "lever",
+    "ashby",
+    "workday",
+    "teamtailor",
+    "personio",
+    "recruitee",
+    "workable",
+    "smartrecruiters",
+]
+
+
 class TargetSource(BaseModel):
     """One company career feed to index."""
 
     company: str
-    source_type: Literal["greenhouse", "lever", "ashby"]
+    source_type: SourceType
     board_token: str
     enabled: bool = True
 

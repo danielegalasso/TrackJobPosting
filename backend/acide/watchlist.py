@@ -146,6 +146,69 @@ _VERIFIERS: dict[str, Callable[[str], tuple[str, dict[str, str]]]] = {
         f"https://api.ashbyhq.com/posting-api/job-board/{token}",
         {},
     ),
+    "teamtailor": lambda token: (f"https://{token}.teamtailor.com/jobs.json", {}),
+    "recruitee": lambda token: (f"https://{token}.recruitee.com/api/offers/", {}),
+    "workable": lambda token: (
+        f"https://apply.workable.com/api/v1/widget/accounts/{token}",
+        {"details": "false"},
+    ),
+    "smartrecruiters": lambda token: (
+        f"https://api.smartrecruiters.com/v1/companies/{token}/postings",
+        {"limit": "1"},
+    ),
+}
+
+#: Personio publishes XML, not JSON, and Workday answers only a POST, so
+#: neither fits the GET-and-parse-JSON shape above. Both are verified by
+#: their own connector's URL builder instead.
+
+
+def _verify_personio(client: httpx.Client, token: str) -> int | None:
+    from .spider.personio import feed_urls
+
+    for url in feed_urls(token):
+        try:
+            response = client.get(url, params={"language": "en"})
+        except httpx.HTTPError:
+            continue
+        if response.status_code == 200 and "<position>" in response.text:
+            return response.text.count("<position>")
+    return None
+
+
+def _verify_workday(client: httpx.Client, token: str) -> int | None:
+    from .spider.base import ConnectorError
+    from .spider.workday import PAGE_SIZE, parse_board
+
+    try:
+        board = parse_board(token)
+    except ConnectorError:
+        return None
+    try:
+        response = client.post(
+            board.jobs_url,
+            json={"appliedFacets": {}, "limit": PAGE_SIZE, "offset": 0, "searchText": ""},
+        )
+    except httpx.HTTPError:
+        return None
+    if response.status_code != 200:
+        return None
+    try:
+        payload = response.json()
+    except ValueError:
+        return None
+    if not isinstance(payload, dict):
+        return None
+    total = payload.get("total")
+    if isinstance(total, int):
+        return total
+    postings = payload.get("jobPostings")
+    return len(postings) if isinstance(postings, list) else None
+
+
+_SPECIAL_VERIFIERS: dict[str, Callable[[httpx.Client, str], int | None]] = {
+    "personio": _verify_personio,
+    "workday": _verify_workday,
 }
 
 
@@ -156,9 +219,17 @@ def _plural(count: int, noun: str) -> str:
 def _count_postings(source_type: str, payload: object) -> int | None:
     if source_type == "lever":
         return len(payload) if isinstance(payload, list) else None
+    if isinstance(payload, list):
+        # A Teamtailor career site may answer with a bare array.
+        return len(payload)
     if isinstance(payload, dict):
-        jobs = payload.get("jobs")
-        return len(jobs) if isinstance(jobs, list) else None
+        # Each provider names the array differently; the first one present
+        # wins. `totalFound` is SmartRecruiters reporting a count directly.
+        for key in ("jobs", "offers", "content", "data", "positions"):
+            value = payload.get(key)
+            if isinstance(value, list):
+                total = payload.get("totalFound")
+                return total if isinstance(total, int) else len(value)
     return None
 
 
@@ -168,6 +239,9 @@ def verify_token(client: httpx.Client, source_type: str, token: str) -> int | No
     `None` means the board did not answer — a guessed token that belongs to
     nobody, or a provider refusing the request.
     """
+    special = _SPECIAL_VERIFIERS.get(source_type)
+    if special is not None:
+        return special(client, token)
     builder = _VERIFIERS.get(source_type)
     if builder is None:
         return None
