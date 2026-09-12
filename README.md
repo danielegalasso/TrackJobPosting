@@ -125,6 +125,18 @@ board it must call the ATS, token and all — no guessing), and the DOM once
 scripts have run. Stale URLs also get a second chance at the usual careers
 paths on the same domain.
 
+Each page is given a fair chance to render: the run waits for the page's own
+requests to go quiet, scrolls (a board below the fold does not fetch until it
+is reached), and only then reads it. If the careers page still names no ATS,
+**one link deeper is followed** — "See our open positions", "Offene Stellen",
+"Posizioni aperte" — because a landing page often never calls the ATS at all
+and the page behind its button does. That single shape was the largest
+failure on a real 631-entry list: 200 of them said "no ATS link found".
+
+A page shared by several organizations is fetched **once per run**. Eight
+Thales divisions list the same careers site, as do eight EU bodies; each
+organization still gets its own answer, from one visit rather than eight.
+
 To use your own Chrome — your profile, your logins, your cookies — start it
 with remote debugging and attach:
 
@@ -134,7 +146,14 @@ backend/.venv/bin/acide import-companies companies.json --browser --cdp-url http
 ```
 
 `--chrome-path /usr/bin/google-chrome` drives an installed browser without
-CDP; `--show-browser` runs it headed so you can watch.
+CDP; `--show-browser` runs it headed so you can watch; and `--profile-dir
+~/.acide-chrome` keeps a profile between runs, so cookie-consent choices
+persist instead of a banner covering the board on every visit.
+
+If pages are refusing you, reach for `--cdp-url` before anything else. A
+headless bundled Chromium is the configuration sites treat with most
+suspicion; your own Chrome, with your profile and your address, is not
+imitating a person's browser — it is one.
 
 **It saves as it goes.** Six hundred pages at human pace is well over an
 hour, so the report is written every ten organizations, and again if the run

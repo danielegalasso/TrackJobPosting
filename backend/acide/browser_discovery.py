@@ -32,7 +32,7 @@ import urllib.error
 import urllib.request
 import urllib.robotparser
 from collections.abc import Callable, Iterator, Sequence
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from urllib.parse import urljoin, urlparse
 
 from .discovery import Discovery, discover_in_html
@@ -56,6 +56,90 @@ FALLBACK_PATHS: tuple[str, ...] = (
 )
 
 
+#: Link text or paths that promise the list of roles itself rather than a
+#: careers landing page. On a real 631-entry list the single largest failure
+#: was "page rendered, no ATS link" — 200 of them — and a landing page whose
+#: board lives one click away accounts for a large share: the ATS is never
+#: called until you follow it.
+BOARD_LINK_WORDS: tuple[str, ...] = (
+    "open position",
+    "open role",
+    "current opening",
+    "current vacanc",
+    "all jobs",
+    "all openings",
+    "all vacanc",
+    "view jobs",
+    "view all",
+    "see jobs",
+    "see all",
+    "browse jobs",
+    "job opening",
+    "search jobs",
+    "vacanc",
+    "openings",
+    "offene stellen",     # de
+    "stellenangebote",    # de
+    "zu den jobs",        # de
+    "posizioni aperte",   # it
+    "offerte di lavoro",  # it
+    "offres",             # fr
+    "nos offres",         # fr
+    "postes",             # fr
+    "vacatures",          # nl
+    "ofertas",            # es
+    "empleo",             # es
+    "join-us",
+    "jobs",
+    "careers",
+)
+
+
+def deeper_board_links(html: str, page_url: str, limit: int = 3) -> list[str]:
+    """Same-host links on a careers page that lead to the roles themselves.
+
+    Ranked so an explicit "open positions" beats a generic "jobs", and a
+    deeper path beats the page we are already on.
+    """
+    from .linkcheck import _LINK_RE, _TAG_RE
+
+    here = page_url.rstrip("/")
+    host = urlparse(page_url).netloc.lower()
+    scored: list[tuple[int, str]] = []
+    seen: set[str] = set()
+
+    for href, inner in _LINK_RE.findall(html):
+        href = href.strip()
+        if not href or href.lower().startswith(("mailto:", "tel:", "javascript:")):
+            continue
+        absolute = urljoin(page_url, href).split("#")[0]
+        parsed = urlparse(absolute)
+        if parsed.scheme not in ("http", "https") or parsed.netloc.lower() != host:
+            continue
+        if absolute.rstrip("/") == here or absolute in seen:
+            continue
+
+        text = _TAG_RE.sub(" ", inner).strip().lower()
+        path = parsed.path.lower().replace("_", "-")
+        score = 0
+        for index, word in enumerate(BOARD_LINK_WORDS):
+            weight = 3 if index < 16 else 1  # the explicit phrases rank first
+            if word in text:
+                score += weight + 1
+            if word.replace(" ", "-") in path:
+                score += weight
+        if not score:
+            continue
+        # A path below the current one is usually the board; a sibling is not.
+        if path.startswith(urlparse(page_url).path.rstrip("/").lower() + "/"):
+            score += 2
+        seen.add(absolute)
+        scored.append((score, absolute))
+
+    scored.sort(key=lambda pair: (-pair[0], len(pair[1])))
+    return [url for _, url in scored[:limit]]
+
+
 class BrowserUnavailable(RuntimeError):
     """Playwright is not installed, or no browser could be attached."""
 
@@ -67,6 +151,10 @@ class PageResult:
     discovery: Discovery
     status: int | None = None
     final_url: str = ""
+    #: Same-host links that promise the actual list of roles. A careers
+    #: landing page is often one hop from the board, and the hop is where
+    #: the ATS call happens.
+    deeper_links: list[str] = field(default_factory=list)
 
 
 def fallback_urls(website: str, careers_page: str) -> list[str]:
@@ -186,6 +274,7 @@ class BrowserSession:
         headless: bool = True,
         settle_ms: int = DEFAULT_SETTLE_MS,
         executable_path: str | None = None,
+        user_data_dir: str | None = None,
     ) -> None:
         self.cdp_url = cdp_url
         self.headless = headless
@@ -193,6 +282,11 @@ class BrowserSession:
         #: A browser binary to drive instead of Playwright's own download —
         #: the operator's installed Chrome, or one already on the machine.
         self.executable_path = executable_path
+        #: A profile directory kept between runs. Cookie-consent choices and
+        #: sessions persist, so a site stops greeting every visit with an
+        #: interstitial that covers the board. This is ordinary browser
+        #: state, not disguise.
+        self.user_data_dir = user_data_dir
         self._playwright = None
         self._browser = None
         self._context = None
@@ -221,9 +315,14 @@ class BrowserSession:
                 launch_options: dict[str, object] = {"headless": self.headless}
                 if self.executable_path:
                     launch_options["executable_path"] = self.executable_path
-                self._browser = self._playwright.chromium.launch(**launch_options)
                 self._owns_browser = True
-                self._context = self._browser.new_context()
+                if self.user_data_dir:
+                    self._context = self._playwright.chromium.launch_persistent_context(
+                        self.user_data_dir, **launch_options
+                    )
+                else:
+                    self._browser = self._playwright.chromium.launch(**launch_options)
+                    self._context = self._browser.new_context()
         except Exception as exc:
             self.close()
             raise BrowserUnavailable(
@@ -281,6 +380,15 @@ class BrowserSession:
                     Discovery(note=f"careers page returned HTTP {status}"), status=status
                 )
 
+            # Give the page every honest chance to render its board: wait
+            # for its own requests to go quiet, then scroll, because a board
+            # below the fold does not fetch until it is reached.
+            with contextlib.suppress(Exception):
+                page.wait_for_load_state("networkidle", timeout=self.settle_ms * 2)
+            with contextlib.suppress(Exception):
+                for _ in range(3):
+                    page.mouse.wheel(0, 2000)
+                    page.wait_for_timeout(250)
             with contextlib.suppress(Exception):
                 page.wait_for_timeout(self.settle_ms)
 
@@ -304,11 +412,14 @@ class BrowserSession:
                     return PageResult(found, status=status, final_url=page.url)
 
             # Nothing supported. Fall back to naming the platform, looking at
-            # requests and DOM together so an XHR to Workday still counts.
+            # requests and DOM together so an XHR to Workday still counts,
+            # and note where the board might be one click away.
+            deeper: list[str] = []
             with contextlib.suppress(Exception):
-                combined = "\n".join(requested) + page.content()
-                found = discover_in_html(combined)
-            return PageResult(found, status=status, final_url=page.url)
+                markup = page.content()
+                found = discover_in_html("\n".join(requested) + markup)
+                deeper = deeper_board_links(markup, page.url)
+            return PageResult(found, status=status, final_url=page.url, deeper_links=deeper)
 
 
 def resolve_with_browser(
@@ -321,6 +432,7 @@ def resolve_with_browser(
     on_result: Callable[[object, PageResult], None] | None = None,
     sleep: Callable[[float], None] | None = None,
     delay_seconds: float = DEFAULT_DELAY_SECONDS,
+    follow_hops: int = 1,
 ) -> list[tuple[object, PageResult]]:
     """Visit each organization's careers page in a real browser.
 
@@ -337,8 +449,28 @@ def resolve_with_browser(
     robots = robots or RobotsCache()
     pause = sleep or time.sleep
     results: list[tuple[object, PageResult]] = []
+    #: One result per URL for the whole run. A curated list repeats itself —
+    #: eight Thales divisions and eight EU bodies each share one careers
+    #: site — and visiting the same page eight times is both slower and
+    #: ruder than visiting it once.
+    seen_pages: dict[str, PageResult] = {}
 
-    for index, org in enumerate(organizations):
+    def look_at(url: str) -> PageResult:
+        """Visit one URL once per run, honouring robots and the pause."""
+        key = url.rstrip("/")
+        if key in seen_pages:
+            return seen_pages[key]
+        decision = robots.check(url)
+        if not decision.allowed:
+            outcome = PageResult(Discovery(note=decision.note))
+        else:
+            if seen_pages:  # every fetch but the first is paced
+                pause(delay_seconds)
+            outcome = session.visit(url)
+        seen_pages[key] = outcome
+        return outcome
+
+    for org in organizations:
         careers = getattr(org, "careers_page", "") or ""
         website = getattr(org, "website", "") or ""
         name = getattr(org, "organization", "?")
@@ -355,15 +487,20 @@ def resolve_with_browser(
         for candidate in candidates:
             if not candidate:
                 continue
-            decision = robots.check(candidate)
-            if not decision.allowed:
-                result = PageResult(Discovery(note=decision.note))
-                continue
-            if index or candidate is not candidates[0]:
-                pause(delay_seconds)
-            result = session.visit(candidate)
+            result = look_at(candidate)
             if result.discovery.supported:
                 break
+
+            # The board is often one click past the careers landing page —
+            # "See open positions" — and the ATS is not called until then.
+            for hop in result.deeper_links[:follow_hops]:
+                deeper = look_at(hop)
+                if deeper.discovery.supported:
+                    result = deeper
+                    break
+            if result.discovery.supported:
+                break
+
             # Only a dead URL is worth retrying elsewhere; a page that loaded
             # and simply has no board is a real answer.
             if result.status not in (404, 403):

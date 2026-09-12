@@ -289,6 +289,7 @@ def resolve_all_with_browser(
     settle_ms: int = 2500,
     delay_seconds: float = 2.0,
     executable_path: str | None = None,
+    user_data_dir: str | None = None,
     client: httpx.Client | None = None,
     on_log: Callable[[str], None] | None = None,
     on_resolution: Callable[[Resolution], None] | None = None,
@@ -348,6 +349,7 @@ def resolve_all_with_browser(
             headless=headless,
             settle_ms=settle_ms,
             executable_path=executable_path,
+            user_data_dir=user_data_dir,
         ) as session:
             resolve_with_browser(
                 session,

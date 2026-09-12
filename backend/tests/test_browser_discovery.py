@@ -12,10 +12,16 @@ import json
 import os
 import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
+from types import SimpleNamespace
 
 import pytest
 
-from acide.browser_discovery import RobotsCache, fallback_urls
+from acide.browser_discovery import (
+    RobotsCache,
+    deeper_board_links,
+    fallback_urls,
+    resolve_with_browser,
+)
 from acide.discovery import discover_in_html
 
 # ---------------------------------------------------------------------------
@@ -37,6 +43,21 @@ XHR = (
     '<script src="/static/loader.js"></script></body></html>'
 )
 STATIC = '<!doctype html><html><body><a href="https://jobs.lever.co/staticcorp">Jobs</a></body></html>'
+
+# A careers landing page that says nothing about its ATS: the board is one
+# click away, behind "See our open positions". This shape is the single
+# largest failure mode on a real list — 200 of 631 "no ATS link found".
+LANDING = (
+    "<!doctype html><html><body><h1>Careers at Acme</h1>"
+    "<p>We are hiring across Europe.</p>"
+    '<a href="/about">About us</a>'
+    '<a href="/landing/open-positions">See our open positions</a>'
+    "</body></html>"
+)
+BOARD_PAGE = (
+    '<!doctype html><html><body><a href="https://boards.greenhouse.io/hopcorp">'
+    "Apply</a></body></html>"
+)
 
 
 def _make_handler(port: int):
@@ -68,6 +89,8 @@ def _make_handler(port: int):
                 "/spa": (SPA, "text/html", 200),
                 "/xhr": (XHR, "text/html", 200),
                 "/static": (STATIC, "text/html", 200),
+                "/landing": (LANDING, "text/html", 200),
+                "/landing/open-positions": (BOARD_PAGE, "text/html", 200),
                 "/blocked": ("<h1>Forbidden</h1>", "text/html", 403),
                 "/static/app.bundle.js": (BUNDLE, "application/javascript", 200),
                 "/static/loader.js": (loader, "application/javascript", 200),
@@ -310,3 +333,103 @@ def test_a_server_error_on_robots_txt_is_treated_as_disallow():
 def test_a_missing_robots_txt_allows_everything():
     with _RobotsSite(404) as site:
         assert RobotsCache().allowed(f"{site.url}/careers") is True
+
+
+# ---------------------------------------------------------------------------
+# The board one click past the careers page
+# ---------------------------------------------------------------------------
+def test_deeper_links_prefer_the_promise_of_actual_roles():
+    html = (
+        '<a href="/about">About us</a>'
+        '<a href="/careers/open-positions">See our open positions</a>'
+        '<a href="/news">Newsroom</a>'
+    )
+    links = deeper_board_links(html, "https://acme.com/careers")
+    assert links[0] == "https://acme.com/careers/open-positions"
+
+
+def test_deeper_links_stay_on_the_same_host():
+    """A LinkedIn mirror is not this company's board."""
+    html = (
+        '<a href="https://www.linkedin.com/company/acme/jobs/">Open positions</a>'
+        '<a href="/careers/vacancies">Open positions</a>'
+    )
+    links = deeper_board_links(html, "https://acme.com/careers")
+    assert links == ["https://acme.com/careers/vacancies"]
+
+
+def test_deeper_links_never_point_back_at_the_current_page():
+    html = '<a href="/careers">Careers</a><a href="/careers/">Jobs</a>'
+    assert deeper_board_links(html, "https://acme.com/careers") == []
+
+
+def test_deeper_links_are_empty_when_nothing_promises_roles():
+    html = '<a href="/about">About</a><a href="/press">Press</a>'
+    assert deeper_board_links(html, "https://acme.com/careers") == []
+
+
+def test_a_board_one_click_away_is_found(site):
+    """The landing page names no ATS; the page behind its button does."""
+    session = _browser_or_skip(settle_ms=600)
+    organizations = [SimpleNamespace(organization="Hop", careers_page=f"{site}/landing")]
+    try:
+        [(_, result)] = resolve_with_browser(
+            session, organizations, try_fallbacks=False, delay_seconds=0
+        )
+    finally:
+        session.close()
+    assert result.discovery.supported, result.discovery.note
+    assert result.discovery.source_type == "greenhouse"
+    assert result.discovery.board_token == "hopcorp"
+
+
+def test_the_hop_is_not_taken_when_the_page_already_answered(site):
+    session = _browser_or_skip(settle_ms=600)
+    visited: list[str] = []
+    organizations = [SimpleNamespace(organization="Static", careers_page=f"{site}/static")]
+    try:
+        real_visit = session.visit
+
+        def counting_visit(url):
+            visited.append(url)
+            return real_visit(url)
+
+        session.visit = counting_visit  # type: ignore[method-assign]
+        resolve_with_browser(session, organizations, try_fallbacks=False, delay_seconds=0)
+    finally:
+        session.close()
+    assert len(visited) == 1, "a page that resolved must not be followed further"
+
+
+# ---------------------------------------------------------------------------
+# One page, many organizations
+# ---------------------------------------------------------------------------
+def test_a_shared_careers_page_is_visited_once_for_the_whole_run(site):
+    """Eight Thales divisions share one careers site; so do eight EU bodies.
+
+    Visiting it once per division is slower and ruder for no new information.
+    """
+    session = _browser_or_skip(settle_ms=400)
+    shared = f"{site}/static"
+    organizations = [
+        SimpleNamespace(organization=f"Division {n}", careers_page=shared) for n in range(5)
+    ]
+    visited: list[str] = []
+    try:
+        real_visit = session.visit
+
+        def counting_visit(url):
+            visited.append(url)
+            return real_visit(url)
+
+        session.visit = counting_visit  # type: ignore[method-assign]
+        results = resolve_with_browser(
+            session, organizations, try_fallbacks=False, delay_seconds=0
+        )
+    finally:
+        session.close()
+
+    assert len(visited) == 1, f"the shared page was fetched {len(visited)} times"
+    # Every division still gets its own answer.
+    assert len(results) == 5
+    assert all(result.discovery.board_token == "staticcorp" for _, result in results)

@@ -122,6 +122,7 @@ def _import_companies(args: argparse.Namespace) -> int:
                 settle_ms=args.settle_ms,
                 delay_seconds=args.delay,
                 executable_path=args.chrome_path,
+                user_data_dir=args.profile_dir,
                 on_log=say if args.verbose else None,
                 on_resolution=checkpoint,
             )
@@ -365,6 +366,14 @@ def main() -> None:
     browser_group.add_argument(
         "--chrome-path",
         help="drive a browser binary you already have, e.g. /usr/bin/google-chrome",
+    )
+    browser_group.add_argument(
+        "--profile-dir",
+        help=(
+            "keep a browser profile between runs, e.g. ~/.acide-chrome — cookie "
+            "consent and sessions persist, so sites stop showing an interstitial "
+            "over the board on every visit"
+        ),
     )
     browser_group.add_argument(
         "--show-browser", action="store_true", help="run headed, so you can watch it"
