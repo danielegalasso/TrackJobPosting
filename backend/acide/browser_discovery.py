@@ -260,6 +260,7 @@ def resolve_with_browser(
     robots: RobotsCache | None = None,
     try_fallbacks: bool = True,
     on_log: Callable[[str], None] | None = None,
+    on_result: Callable[[object, PageResult], None] | None = None,
     sleep: Callable[[float], None] | None = None,
     delay_seconds: float = DEFAULT_DELAY_SECONDS,
 ) -> list[tuple[object, PageResult]]:
@@ -267,6 +268,11 @@ def resolve_with_browser(
 
     Returns the raw page results; verifying tokens against the board APIs is
     left to the caller, which already knows how.
+
+    `on_result` is called as each page finishes, so a caller can record
+    progress while the run is still going. A list of six hundred pages at
+    human pace takes over an hour, and a run that only reports at the end
+    loses all of it to one interruption.
     """
     import time
 
@@ -305,6 +311,8 @@ def resolve_with_browser(
                 break
 
         results.append((org, result))
+        if on_result:
+            on_result(org, result)
         if on_log:
             if result.discovery.supported:
                 found = result.discovery

@@ -136,6 +136,20 @@ backend/.venv/bin/acide import-companies companies.json --browser --cdp-url http
 `--chrome-path /usr/bin/google-chrome` drives an installed browser without
 CDP; `--show-browser` runs it headed so you can watch.
 
+**It saves as it goes.** Six hundred pages at human pace is well over an
+hour, so the report is written every ten organizations, and again if the run
+stops early — Ctrl-C, a browser crash, a closed laptop. The saved report
+lists the organizations that were never reached as well as the ones that
+failed, so resuming picks up the whole remainder rather than only the
+failures:
+
+```bash
+backend/.venv/bin/acide import-companies data/import-report.json \
+    --retry-report --browser -v
+```
+
+`-v` progress appears as it happens even when you redirect it to a file.
+
 **What browser mode does not do.** It renders public pages you could open
 yourself, one at a time, with a pause between them, and it honours
 `robots.txt`. It does not spoof fingerprints, patch `navigator.webdriver`,
@@ -171,9 +185,17 @@ kind of list is full of `lavora-con-noi`, `karriere`, `carrieres` and
 candidate is fetched and checked before it is proposed, so a suggestion is
 never just a plausible-looking URL.
 
-`--write` produces a corrected copy of your list; the original is untouched.
-A 403 is reported rather than repaired: a WAF refusing a script does not
-mean the page moved.
+`--write` produces a corrected copy of your list; the original is untouched,
+and every field it does not understand — an `id`, your own notes — is carried
+through unchanged. A 403 is reported rather than repaired: a WAF refusing a
+script does not mean the page moved.
+
+A redirect is trusted only when it lands somewhere that still looks like a
+careers page, by host or by path. Retiring `/careers` by pointing it at the
+homepage is common, and taking that at face value would swap a merely stale
+URL for a definitely wrong one — so those are repaired from the site's own
+navigation instead, and the redirect destination is kept only when nothing
+better exists. The summary says how many ended up in that last category.
 
 ### Scope of the inspector
 

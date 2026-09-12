@@ -48,6 +48,7 @@ class Resolution:
 
     organization: str
     category: str = ""
+    website: str = ""
     careers_page: str = ""
     source_type: str | None = None
     board_token: str | None = None
@@ -194,6 +195,7 @@ def resolve_one(
     result = Resolution(
         organization=org.organization,
         category=org.category,
+        website=org.website,
         careers_page=org.careers_page,
     )
 
@@ -289,12 +291,18 @@ def resolve_all_with_browser(
     executable_path: str | None = None,
     client: httpx.Client | None = None,
     on_log: Callable[[str], None] | None = None,
+    on_resolution: Callable[[Resolution], None] | None = None,
 ) -> ImportReport:
     """Resolve through a real browser, for pages that only exist after JS.
 
     The browser finds the board; the board's own JSON API still confirms it,
     exactly as in the plain-HTTP path — a rendered link is evidence, not
     proof.
+
+    Each organization is verified as its page finishes rather than in a
+    second pass at the end, and `on_resolution` is called with the outcome,
+    so a caller can checkpoint. If this raises part-way — a browser crash, a
+    killed process — everything handed to `on_resolution` is still good.
     """
     from .browser_discovery import BrowserSession, resolve_with_browser
 
@@ -304,6 +312,36 @@ def resolve_all_with_browser(
         headers={"User-Agent": BROWSER_UA, "Accept": "application/json"},
         follow_redirects=True,
     )
+    resolutions: list[Resolution] = []
+
+    def record(org: Organization, page_result: object) -> None:
+        resolution = Resolution(
+            organization=org.organization,
+            category=org.category,
+            website=org.website,
+            careers_page=org.careers_page,
+        )
+        found = page_result.discovery  # type: ignore[attr-defined]
+        if found.supported:
+            count = verify_token(client, found.source_type or "", found.board_token or "")
+            if count is not None:
+                resolution.source_type = found.source_type
+                resolution.board_token = found.board_token
+                resolution.job_count = count
+                resolution.status = "resolved"
+                resolution.detail = f"found in the browser · {_plural(count, 'posting')}"
+            else:
+                resolution.detail = (
+                    f"page uses {found.source_type}:{found.board_token}, "
+                    "but that board did not answer"
+                )
+        else:
+            resolution.other_ats = found.other_ats
+            resolution.detail = found.note
+        resolutions.append(resolution)
+        if on_resolution:
+            on_resolution(resolution)
+
     try:
         with BrowserSession(
             cdp_url=cdp_url,
@@ -311,39 +349,13 @@ def resolve_all_with_browser(
             settle_ms=settle_ms,
             executable_path=executable_path,
         ) as session:
-            visits = resolve_with_browser(
+            resolve_with_browser(
                 session,
                 organizations,
                 on_log=on_log,
+                on_result=record,
                 delay_seconds=delay_seconds,
             )
-
-        resolutions: list[Resolution] = []
-        for org, page_result in visits:
-            resolution = Resolution(
-                organization=org.organization,
-                category=org.category,
-                careers_page=org.careers_page,
-            )
-            found = page_result.discovery
-            if found.supported:
-                count = verify_token(client, found.source_type or "", found.board_token or "")
-                if count is not None:
-                    resolution.source_type = found.source_type
-                    resolution.board_token = found.board_token
-                    resolution.job_count = count
-                    resolution.status = "resolved"
-                    resolution.detail = f"found in the browser · {_plural(count, 'posting')}"
-                    resolutions.append(resolution)
-                    continue
-                resolution.detail = (
-                    f"page uses {found.source_type}:{found.board_token}, "
-                    "but that board did not answer"
-                )
-            else:
-                resolution.other_ats = found.other_ats
-                resolution.detail = found.note
-            resolutions.append(resolution)
         return ImportReport(resolutions=resolutions)
     finally:
         if owns_client:

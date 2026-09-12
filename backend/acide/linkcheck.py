@@ -177,6 +177,33 @@ def careers_links(html: str, base_url: str) -> list[str]:
     return [url for _, url in scored]
 
 
+def looks_like_careers_url(url: str) -> bool:
+    """Does this URL claim to be a careers page, by host or path?
+
+    Used to judge a redirect. `careers.thalesgroup.com/global/en` carries the
+    signal in its host and `nviso.eu/jobs` in its path; `acme.com/` carries
+    none, and a site root is never a careers page.
+    """
+    parsed = urlparse(url)
+    haystack = f"{parsed.netloc}{parsed.path}".lower().replace("_", "-")
+    return any(word in haystack for word in CAREERS_WORDS)
+
+
+def _give_up(result: Repair, redirect_fallback: str) -> Repair:
+    """Nothing better was found; keep the redirect destination if there is one.
+
+    It is a worse answer than a real careers page but a better one than
+    nothing: the site did send us there, and it does respond.
+    """
+    if redirect_fallback:
+        result.verdict = "moved"
+        result.suggested = redirect_fallback
+        result.how = "followed a redirect; no careers link found there"
+    else:
+        result.verdict = "broken"
+    return result
+
+
 def check_url(client: httpx.Client, url: str) -> UrlCheck:
     """Fetch one URL and report what happened."""
     try:
@@ -207,34 +234,47 @@ def repair_one(
         website=website,
         original=careers_page,
     )
+    #: Where a redirect landed, when it landed somewhere that is not a
+    #: careers page. Held back as a last resort rather than proposed.
+    redirect_fallback = ""
 
     if careers_page:
         first = check_url(client, careers_page)
         result.status = first.status
         result.tried.append(careers_page)
-        if first.ok:
-            if first.redirected:
-                result.verdict = "moved"
-                result.suggested = first.final_url
-                result.how = "followed a redirect"
+        if first.ok and not first.redirected:
             result.note = f"HTTP {first.status}"
             return result
-        result.note = first.error or f"HTTP {first.status}"
+        if first.ok and looks_like_careers_url(first.final_url):
+            result.verdict = "moved"
+            result.suggested = first.final_url
+            result.how = "followed a redirect"
+            result.note = f"HTTP {first.status}"
+            return result
+        if first.ok:
+            # Redirected somewhere carrying no careers signal at all. The
+            # usual cause is a retired path pointed at the homepage, and a
+            # homepage is not a careers page — taking it at face value would
+            # replace a merely stale URL with a definitely wrong one. Repair
+            # from the site instead, and keep this only if that finds nothing.
+            redirect_fallback = first.final_url
+            result.note = f"HTTP {first.status}, redirected to {first.final_url}"
+        else:
+            result.note = first.error or f"HTTP {first.status}"
     else:
         result.note = "no careers page given"
 
-    # The listed URL is dead. Ask the site itself where careers lives.
+    # The listed URL is dead, or led somewhere unconvincing. Ask the site
+    # itself where careers lives.
     root = _root(website) or _root(careers_page)
     if not root:
-        result.verdict = "broken"
-        return result
+        return _give_up(result, redirect_fallback)
 
     home = check_url(client, root)
     result.tried.append(root)
     if not home.ok:
-        result.verdict = "broken"
         result.note = f"{result.note}; homepage also unreachable ({home.error or home.status})"
-        return result
+        return _give_up(result, redirect_fallback)
 
     candidates: list[str] = []
     try:
@@ -256,12 +296,11 @@ def repair_one(
             result.verdict = "repaired"
             result.suggested = check.final_url or candidate
             result.how = how
-            result.note = f"{result.note} → {check.status}"
+            result.note = f"{result.note} \u2192 {check.status}"
             return result
 
-    result.verdict = "broken"
     result.note = f"{result.note}; no working careers page found"
-    return result
+    return _give_up(result, redirect_fallback)
 
 
 def repair_all(

@@ -350,3 +350,142 @@ def test_a_tilde_path_is_expanded(tmp_path, capsys, monkeypatch):
     # failure from "no such file".
     assert "no such file" not in capsys.readouterr().err
     assert caught.value.code == 1
+
+
+# ---------------------------------------------------------------------------
+# A long browser run must survive being interrupted
+# ---------------------------------------------------------------------------
+def _fake_browser(monkeypatch, behaviour):
+    """Stand in for Playwright so these tests need no browser.
+
+    `behaviour(org)` returns a PageResult, or raises to simulate a crash.
+    """
+    from acide import browser_discovery
+
+    class FakeSession:
+        def __init__(self, **kwargs):
+            pass
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *exc_info):
+            return None
+
+    def fake_resolve(session, organizations, *, on_result=None, on_log=None, **kwargs):
+        results = []
+        for org in organizations:
+            result = behaviour(org)
+            results.append((org, result))
+            if on_result:
+                on_result(org, result)
+        return results
+
+    monkeypatch.setattr(browser_discovery, "BrowserSession", FakeSession)
+    monkeypatch.setattr(browser_discovery, "resolve_with_browser", fake_resolve)
+
+
+def test_browser_resolutions_are_handed_over_as_each_page_finishes(monkeypatch):
+    """Not in one batch at the end: 631 pages at human pace take over an hour."""
+    from acide.browser_discovery import PageResult
+    from acide.discovery import Discovery
+    from acide.watchlist import resolve_all_with_browser
+
+    _fake_browser(monkeypatch, lambda org: PageResult(Discovery(note="no supported ATS")))
+
+    seen: list[str] = []
+    organizations = [Organization(organization=name) for name in ("A", "B", "C")]
+    report = resolve_all_with_browser(
+        organizations, on_resolution=lambda r: seen.append(r.organization)
+    )
+    assert seen == ["A", "B", "C"], "each result must arrive as it happens"
+    assert len(report.resolutions) == 3
+
+
+def test_a_crash_part_way_still_leaves_the_finished_work_in_hand(monkeypatch):
+    """A browser dying at organization 600 must not discard the first 599."""
+    from acide.browser_discovery import PageResult
+    from acide.discovery import Discovery
+    from acide.watchlist import resolve_all_with_browser
+
+    def behaviour(org):
+        if org.organization == "Boom":
+            raise RuntimeError("the browser died")
+        return PageResult(Discovery(note="no supported ATS"))
+
+    _fake_browser(monkeypatch, behaviour)
+
+    seen: list[str] = []
+    organizations = [Organization(organization=n) for n in ("A", "B", "Boom", "D")]
+    with pytest.raises(RuntimeError):
+        resolve_all_with_browser(
+            organizations, on_resolution=lambda r: seen.append(r.organization)
+        )
+    assert seen == ["A", "B"], "everything finished before the crash is still good"
+
+
+def test_an_interrupted_import_writes_a_report_that_resumes_the_remainder(
+    tmp_path, monkeypatch, capsys
+):
+    """--retry-report must pick up the unvisited, not just the failures."""
+    from acide.__main__ import main
+    from acide.browser_discovery import PageResult
+    from acide.discovery import Discovery
+    from acide.watchlist import organizations_from_report
+
+    def behaviour(org):
+        if org.organization == "C":
+            raise KeyboardInterrupt
+        return PageResult(Discovery(note="no supported ATS"))
+
+    _fake_browser(monkeypatch, behaviour)
+
+    source = tmp_path / "companies.json"
+    source.write_text(
+        json.dumps(
+            [
+                {"organization": name, "website": f"https://{name.lower()}.example"}
+                for name in ("A", "B", "C", "D", "E")
+            ]
+        )
+    )
+    report_path = tmp_path / "import-report.json"
+    monkeypatch.setattr(
+        "sys.argv",
+        ["acide", "import-companies", str(source), "--browser", "--report", str(report_path)],
+    )
+
+    with pytest.raises(SystemExit) as caught:
+        main()
+    # Ctrl-C is a decision, not a crash: 130 and no traceback.
+    assert caught.value.code == 130
+
+    assert report_path.exists(), "an interrupted run must leave its progress behind"
+    remaining = {org.organization for org in organizations_from_report(report_path)}
+    # A and B were visited and found nothing, so they are retried too; C, D
+    # and E were never reached and must not be silently dropped.
+    assert {"C", "D", "E"} <= remaining
+    assert "Resume with" in capsys.readouterr().err
+
+
+def test_a_report_carries_the_website_so_a_retry_can_use_it(tmp_path):
+    """fallback_urls needs the host; without it a retry has less to go on."""
+    from acide.watchlist import ImportReport, Resolution, organizations_from_report
+
+    path = tmp_path / "report.json"
+    path.write_text(
+        ImportReport(
+            resolutions=[
+                Resolution(
+                    organization="Acme",
+                    category="Cybersecurity",
+                    website="https://acme.example",
+                    careers_page="https://acme.example/careers",
+                )
+            ]
+        ).to_json()
+    )
+
+    [org] = organizations_from_report(path)
+    assert org.website == "https://acme.example"
+    assert org.category == "Cybersecurity"

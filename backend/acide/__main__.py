@@ -7,6 +7,10 @@ import os
 import sys
 from pathlib import Path
 
+#: How often the browser import writes its partial report. Ten organizations
+#: is well under two minutes of work to lose.
+CHECKPOINT_EVERY = 10
+
 
 def _serve(args: argparse.Namespace) -> int:
     import uvicorn
@@ -20,12 +24,43 @@ def _import_companies(args: argparse.Namespace) -> int:
     from . import config as config_module
     from . import paths
     from .watchlist import (
+        ImportReport,
+        Organization,
+        Resolution,
         load_organizations,
         merge_targets,
         organizations_from_report,
         resolve_all,
         resolve_all_with_browser,
     )
+
+    def say(line: str) -> None:
+        # Flushed. With stdout redirected to a file Python block-buffers it,
+        # so an hour-long run shows nothing at all until it finishes — which
+        # is indistinguishable from a hang.
+        print(line, flush=True)
+
+    def partial_report(
+        done: list[Resolution], everything: list[Organization]
+    ) -> ImportReport:
+        """What has been resolved, plus what was never reached.
+
+        The unreached are listed as unresolved so `--retry-report` picks up
+        the whole remainder, not just the failures among the part that ran.
+        """
+        seen = {item.organization for item in done}
+        pending = [
+            Resolution(
+                organization=org.organization,
+                category=org.category,
+                website=org.website,
+                careers_page=org.careers_page,
+                detail="not visited yet",
+            )
+            for org in everything
+            if org.organization not in seen
+        ]
+        return ImportReport(resolutions=[*done, *pending])
 
     source = Path(args.file).expanduser()
     if not source.exists():
@@ -59,12 +94,25 @@ def _import_companies(args: argparse.Namespace) -> int:
         print("nothing to import — the filters matched no organizations", file=sys.stderr)
         return 1
 
+    paths.ensure_dirs()
+    report_path = Path(args.report) if args.report else paths.DATA_DIR / "import-report.json"
+
     if args.browser:
         where = f"your Chrome at {args.cdp_url}" if args.cdp_url else "a bundled Chromium"
-        print(f"Resolving {len(organizations)} organization(s) in {where}.")
-        print("Pages are visited one at a time; this is slower than the HTTP pass by design.")
-        print()
+        say(f"Resolving {len(organizations)} organization(s) in {where}.")
+        say("Pages are visited one at a time; this is slower than the HTTP pass by design.")
+        say(f"Progress is saved to {report_path} as it goes; resume with --retry-report.")
+        say("")
         from .browser_discovery import BrowserUnavailable
+
+        done: list[Resolution] = []
+
+        def checkpoint(resolution: Resolution) -> None:
+            done.append(resolution)
+            if len(done) % CHECKPOINT_EVERY == 0:
+                report_path.write_text(
+                    partial_report(done, organizations).to_json(), encoding="utf-8"
+                )
 
         try:
             report = resolve_all_with_browser(
@@ -74,22 +122,41 @@ def _import_companies(args: argparse.Namespace) -> int:
                 settle_ms=args.settle_ms,
                 delay_seconds=args.delay,
                 executable_path=args.chrome_path,
-                on_log=print if args.verbose else None,
+                on_log=say if args.verbose else None,
+                on_resolution=checkpoint,
             )
         except BrowserUnavailable as exc:
             print(str(exc), file=sys.stderr)
             return 1
+        except (KeyboardInterrupt, Exception) as exc:
+            report_path.write_text(
+                partial_report(done, organizations).to_json(), encoding="utf-8"
+            )
+            remaining = len(organizations) - len(done)
+            print(
+                f"\nStopped after {len(done)} of {len(organizations)}; "
+                f"{remaining} not visited.\n"
+                f"Progress saved to {report_path}.\n"
+                f"Resume with:\n"
+                f"  acide import-companies {report_path} --retry-report --browser -v",
+                file=sys.stderr,
+            )
+            if isinstance(exc, KeyboardInterrupt):
+                # Ctrl-C is a decision, not a crash; a traceback here reads
+                # as one and buries the resume instructions above it.
+                return 130
+            raise
     else:
-        print(f"Resolving {len(organizations)} organization(s); one careers-page request each.")
+        say(f"Resolving {len(organizations)} organization(s); one careers-page request each.")
         if args.guess:
-            print("Guessing is on: unresolved names are also probed against the three ATS APIs.")
-        print()
+            say("Guessing is on: unresolved names are also probed against the three ATS APIs.")
+        say("")
 
         report = resolve_all(
             organizations,
             guess=args.guess,
             workers=args.workers,
-            on_log=print if args.verbose else None,
+            on_log=say if args.verbose else None,
         )
 
     print()
@@ -98,8 +165,6 @@ def _import_companies(args: argparse.Namespace) -> int:
     for platform, count in report.by_other_ats().items():
         print(f"      {count:4}  {platform}")
 
-    report_path = Path(args.report) if args.report else paths.DATA_DIR / "import-report.json"
-    paths.ensure_dirs()
     report_path.write_text(report.to_json(), encoding="utf-8")
     print(f"\nFull report written to {report_path}")
 
@@ -114,6 +179,30 @@ def _import_companies(args: argparse.Namespace) -> int:
     added = len(config.targets) - before
     print(f"\nsetup.json now has {len(config.targets)} targets ({added} added).")
     return 0
+
+
+def _raw_entries_by_name(source: Path) -> dict[str, dict]:
+    """The companies file as written, keyed by organization name.
+
+    Rewriting a curated list should give it back with only the one field
+    this tool is entitled to change.
+    """
+    import json
+
+    try:
+        raw = json.loads(source.read_text("utf-8"))
+    except (OSError, ValueError):
+        return {}
+    if not isinstance(raw, list):
+        return {}
+    entries: dict[str, dict] = {}
+    for entry in raw:
+        if not isinstance(entry, dict):
+            continue
+        name = str(entry.get("organization") or entry.get("company") or "").strip()
+        if name:
+            entries[name] = entry
+    return entries
 
 
 def _check_urls(args: argparse.Namespace) -> int:
@@ -144,21 +233,31 @@ def _check_urls(args: argparse.Namespace) -> int:
     if args.limit:
         organizations = organizations[: args.limit]
 
-    print(f"Checking {len(organizations)} careers page(s).")
-    print("Dead links are repaired from the site's own navigation where possible.")
-    print()
+    def say(line: str) -> None:
+        print(line, flush=True)
+
+    say(f"Checking {len(organizations)} careers page(s).")
+    say("Dead links are repaired from the site's own navigation where possible.")
+    say("")
 
     repairs = repair_all(
-        organizations, workers=args.workers, on_log=print if args.verbose else None
+        organizations, workers=args.workers, on_log=say if args.verbose else None
     )
 
     counts: dict[str, int] = {}
     for repair in repairs:
         counts[repair.verdict] = counts.get(repair.verdict, 0) + 1
-    print()
+    say("")
     for verdict in ("working", "moved", "repaired", "broken"):
         if counts.get(verdict):
-            print(f"  {counts[verdict]:4}  {verdict}")
+            say(f"  {counts[verdict]:4}  {verdict}")
+
+    # A redirect the site offered but which landed nowhere careers-like is
+    # the weakest answer here, and worth separating from the rest.
+    weak = sum(1 for r in repairs if "no careers link found there" in r.how)
+    if weak:
+        say(f"\n  {weak} of those redirect to a page with no careers signal —")
+        say("  usually a retired path pointed at the homepage. Worth a look.")
 
     paths.ensure_dirs()
     report_path = Path(args.report) if args.report else paths.DATA_DIR / "url-check.json"
@@ -187,19 +286,22 @@ def _check_urls(args: argparse.Namespace) -> int:
     if args.write:
         fixed = Path(args.write).expanduser()
         by_name = {r.organization: r for r in repairs}
+        # Start from the entries as they were written, so fields this tool
+        # knows nothing about — an id, a note, anything the operator keeps
+        # alongside — survive the round trip. Only careers_page is rewritten.
+        originals = _raw_entries_by_name(source) if not args.retry_report else {}
         entries = []
         for org in organizations:
             repair = by_name.get(org.organization)
-            entries.append(
-                {
-                    "organization": org.organization,
-                    "category": org.category,
-                    "website": org.website,
-                    # Only a URL actually seen to work replaces the original.
-                    "careers_page": (repair.suggested if repair and repair.suggested
-                                     else org.careers_page),
-                }
+            entry = dict(originals.get(org.organization) or {})
+            entry.setdefault("organization", org.organization)
+            entry.setdefault("category", org.category)
+            entry.setdefault("website", org.website)
+            # Only a URL actually seen to work replaces the original.
+            entry["careers_page"] = (
+                repair.suggested if repair and repair.suggested else org.careers_page
             )
+            entries.append(entry)
         fixed.write_text(json.dumps(entries, indent=2), encoding="utf-8")
         print(f"Corrected list written to {fixed}")
     else:
