@@ -20,6 +20,7 @@ from acide.browser_discovery import (
     RobotsCache,
     deeper_board_links,
     fallback_urls,
+    host_variant,
     resolve_with_browser,
 )
 from acide.discovery import discover_in_html
@@ -219,8 +220,14 @@ def test_fallbacks_do_not_repeat_the_url_that_already_failed():
 
 
 def test_fallbacks_use_the_website_host_not_the_dead_careers_host():
+    """The www variant of the website counts as the same site; the dead
+    careers host must not be chased at all, in either form."""
+    from urllib.parse import urlparse
+
     urls = fallback_urls("https://acme.com", "https://gone.example/careers")
-    assert all(url.startswith("https://acme.com") for url in urls)
+    hosts = {urlparse(url).netloc for url in urls}
+    assert hosts <= {"acme.com", "www.acme.com"}
+    assert not any("gone.example" in url for url in urls)
 
 
 def test_fallbacks_are_empty_without_anything_to_go_on():
@@ -433,3 +440,32 @@ def test_a_shared_careers_page_is_visited_once_for_the_whole_run(site):
     # Every division still gets its own answer.
     assert len(results) == 5
     assert all(result.discovery.board_token == "staticcorp" for _, result in results)
+
+
+# ---------------------------------------------------------------------------
+# The other host form
+# ---------------------------------------------------------------------------
+@pytest.mark.parametrize(
+    ("url", "expected"),
+    [
+        ("https://www.argotec.it/careers/", "https://argotec.it/careers/"),
+        ("https://dorbit.space/careers", "https://www.dorbit.space/careers"),
+        ("https://acme.com", "https://www.acme.com"),
+        ("", ""),
+    ],
+)
+def test_host_variant_toggles_www(url, expected):
+    """A certificate often covers one form and not the other."""
+    assert host_variant(url) == expected
+
+
+def test_fallbacks_try_the_other_host_form_first():
+    """It is the cheapest possible fix for a cert or DNS failure."""
+    candidates = fallback_urls("https://www.acme.com", "https://www.acme.com/careers")
+    assert candidates[0] == "https://acme.com/careers"
+    assert "https://acme.com" in candidates[:2]
+
+
+def test_fallbacks_do_not_repeat_a_url():
+    candidates = fallback_urls("https://acme.com", "https://acme.com/careers")
+    assert len(candidates) == len(set(url.rstrip("/") for url in candidates))

@@ -157,6 +157,29 @@ class PageResult:
     deeper_links: list[str] = field(default_factory=list)
 
 
+def _bare_host(netloc: str) -> str:
+    host = netloc.lower()
+    return host[4:] if host.startswith("www.") else host
+
+
+def host_variant(url: str) -> str:
+    """The same URL with `www.` added, or removed if it is already there.
+
+    Worth one request: a certificate frequently covers the bare domain but
+    not `www`, or the reverse, and a careers page that fails outright with
+    ERR_CERT_COMMON_NAME_INVALID on one form loads on the other. The same
+    holds for a DNS record that exists for only one of the two.
+    """
+    if not url:
+        return ""
+    parsed = urlparse(url if "://" in url else f"https://{url}")
+    host = parsed.netloc
+    if not host:
+        return ""
+    swapped = host[4:] if host.lower().startswith("www.") else f"www.{host}"
+    return parsed._replace(netloc=swapped).geturl()
+
+
 def fallback_urls(website: str, careers_page: str) -> list[str]:
     """Other places a careers page might live when the listed URL is dead.
 
@@ -169,11 +192,36 @@ def fallback_urls(website: str, careers_page: str) -> list[str]:
     parsed = urlparse(base if "://" in base else f"https://{base}")
     root = f"{parsed.scheme}://{parsed.netloc}"
     listed = urlparse(careers_page).path.rstrip("/") if careers_page else ""
-    return [
+
+    candidates: list[str] = []
+    # The cheapest fix first: the same page on the other host form. Only for
+    # a careers page on the company's own host — when it sits on some other
+    # host that is now dead, the website is the better lead and variants of
+    # the dead host are just two more wasted requests.
+    bare = _bare_host(parsed.netloc)
+    variants = [host_variant(root)]
+    if careers_page and _bare_host(urlparse(careers_page).netloc) == bare:
+        variants.insert(0, host_variant(careers_page))
+    for variant in variants:
+        if variant and variant.rstrip("/") not in (
+            careers_page.rstrip("/"),
+            root.rstrip("/"),
+        ):
+            candidates.append(variant)
+    candidates += [
         urljoin(root, path)
         for path in FALLBACK_PATHS
         if path.rstrip("/") != listed
     ]
+    # Preserve order while dropping anything already listed.
+    seen: set[str] = set()
+    unique: list[str] = []
+    for candidate in candidates:
+        key = candidate.rstrip("/")
+        if key and key not in seen:
+            seen.add(key)
+            unique.append(candidate)
+    return unique
 
 
 #: robots.txt is fetched with this. Identified, but browser-shaped: a WAF
