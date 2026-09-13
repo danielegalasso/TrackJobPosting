@@ -292,6 +292,30 @@ all of them 404s against somebody else's API.
 Re-running is safe: existing targets are never overwritten, so a token you
 corrected or a company you disabled by hand stays that way.
 
+### What is actually on the unresolved pages
+
+A browser pass over six hundred pages takes over an hour. Most of the question
+— is there anything readable here at all — is answerable over plain HTTP in a
+couple of minutes:
+
+```bash
+backend/.venv/bin/acide probe data/import-report.json -v
+```
+
+It re-judges each unresolved careers page with the current discovery rules and
+sorts them into four answers:
+
+| verdict | what it means |
+| --- | --- |
+| links a board we can read | a connector arrived since the last run; re-import |
+| publishes its own postings | schema.org JobPosting on the page — a `jsonld` target |
+| runs on *platform* | named, but no connector yet |
+| needs a browser | the list really is built by JavaScript |
+
+Nothing is written and no board is contacted — it is a dry run of discovery,
+and the last row is the only one a browser pass would help with. `--all` probes
+a whole companies list rather than only the unresolved entries of a report.
+
 ### When the list itself has rotted
 
 A hand-researched list decays. On a real 631-entry list, 136 careers URLs
@@ -459,6 +483,7 @@ backend/acide/
   alerts.py        Subscription matching and dispatch
   scheduler.py     Background loop for scheduled runs
   logbus.py        In-memory fan-out behind the live SSE console
+  probe.py         Dry run of discovery over plain HTTP
   spider/          Connectors: base, greenhouse, lever, ashby, workday,
                    breezy, jsonld,
                    teamtailor, personio, recruitee, workable,

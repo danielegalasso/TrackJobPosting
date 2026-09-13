@@ -347,6 +347,61 @@ def _check_urls(args: argparse.Namespace) -> int:
     return 0
 
 
+def _probe(args: argparse.Namespace) -> int:
+    """Say what the unresolved careers pages actually contain, without a browser."""
+    from . import paths
+    from .probe import probe_all
+    from .watchlist import load_organizations, organizations_from_report
+
+    source = Path(args.file).expanduser()
+    if not source.exists():
+        print(f"no such file: {source}\n  looked relative to {Path.cwd()}", file=sys.stderr)
+        return 1
+
+    try:
+        organizations = (
+            load_organizations(source) if args.all else organizations_from_report(source)
+        )
+    except (OSError, ValueError) as exc:
+        print(f"could not read {source}: {exc}", file=sys.stderr)
+        return 1
+
+    if args.limit:
+        organizations = organizations[: args.limit]
+    if not organizations:
+        print("nothing to probe", file=sys.stderr)
+        return 1
+
+    def say(line: str) -> None:
+        print(line, flush=True)
+
+    say(f"Probing {len(organizations)} careers page(s) over plain HTTP — no browser.")
+    say("This is a dry run: nothing is saved to setup.json and no board is contacted.")
+    say("")
+
+    report = probe_all(
+        organizations, workers=args.workers, on_log=say if args.verbose else None
+    )
+
+    say("")
+    say(f"  {report.summary_line()}")
+    say("")
+    for verdict, count in report.by_verdict().items():
+        say(f"  {count:4}  {verdict}")
+    by_type = report.by_source_type()
+    if by_type:
+        say("")
+        say("  of those that would resolve now:")
+        for source_type, count in by_type.items():
+            say(f"      {count:4}  {source_type}")
+
+    paths.ensure_dirs()
+    report_path = Path(args.report) if args.report else paths.DATA_DIR / "probe-report.json"
+    report_path.write_text(report.to_json(), encoding="utf-8")
+    say(f"\nReport written to {report_path}")
+    return 0
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="acide", description="Run the ACIDE-Watch portal.")
     subparsers = parser.add_subparsers(dest="command")
@@ -446,6 +501,29 @@ def main() -> None:
     )
     checker.add_argument("-v", "--verbose", action="store_true", help="log each organization")
     checker.set_defaults(func=_check_urls)
+
+    prober = subparsers.add_parser(
+        "probe",
+        help="say what unresolved careers pages actually contain (no browser)",
+        description=(
+            "Fetches each unresolved careers page over plain HTTP and reports "
+            "what discovery would now make of it: a board it can read, the "
+            "page's own schema.org postings, a platform with no connector, or "
+            "a page that genuinely needs a browser. Minutes rather than the "
+            "hour a browser pass costs, and nothing is saved."
+        ),
+    )
+    prober.add_argument("file", help="an import report, or a companies list with --all")
+    prober.add_argument(
+        "--all",
+        action="store_true",
+        help="treat FILE as a companies list and probe every entry, not only the unresolved",
+    )
+    prober.add_argument("--limit", type=int, help="stop after this many")
+    prober.add_argument("--workers", type=int, default=8, help="concurrent requests (default 8)")
+    prober.add_argument("--report", help="where to write the JSON report")
+    prober.add_argument("-v", "--verbose", action="store_true", help="log each page")
+    prober.set_defaults(func=_probe)
 
     args = parser.parse_args()
     handler = getattr(args, "func", _serve)
