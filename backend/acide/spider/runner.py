@@ -8,6 +8,7 @@ daemon.
 
 from __future__ import annotations
 
+import contextlib
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import UTC, datetime
@@ -81,12 +82,58 @@ def run_once(config: SetupConfig | None = None, *, send_alerts: bool = True) -> 
         _run_lock.release()
 
 
+class _RobotsAwareSession:
+    """Wraps a browser session so indexing honours robots.txt as well.
+
+    Discovery already checks it; rendering a page to read its postings is no
+    more permitted than rendering it to find its board, and the check would
+    otherwise be skipped on exactly the path that visits the most pages.
+    """
+
+    def __init__(self, session: object) -> None:
+        from ..browser_discovery import RobotsCache
+
+        self._session = session
+        self._robots = RobotsCache()
+
+    def render(self, url: str, *, expand: bool = False) -> str:
+        return self._session.render(url, expand=expand, robots=self._robots)  # type: ignore[attr-defined]
+
+
+@contextlib.contextmanager
+def _rendering_session(targets, config: SetupConfig):
+    """A browser, but only when a target actually asks to be rendered.
+
+    Every other source reads a published endpoint, and the scheduled run must
+    not start a browser for them. So one is started only if a `browser` target
+    is configured, and it is shared by all of them.
+    """
+    if not any(target.source_type == "browser" for target in targets):
+        yield None
+        return
+    try:
+        from ..browser_discovery import BrowserSession, BrowserUnavailable
+    except ImportError:  # pragma: no cover - defensive
+        yield None
+        return
+    try:
+        with BrowserSession(headless=True) as session:
+            bus.publish("browser started for rendered careers pages", "info")
+            yield session
+    except BrowserUnavailable as exc:
+        bus.publish(f"browser indexing unavailable: {exc}", "error")
+        yield None
+
+
 def _collect(targets, config: SetupConfig, summary: SpiderRunSummary) -> list[RawPosting]:
     """Fetch every enabled board and keep only postings we have not scored."""
     unseen: list[RawPosting] = []
     headers = {"User-Agent": config.spider.user_agent, "Accept": "application/json"}
 
-    with httpx.Client(timeout=DEFAULT_TIMEOUT, headers=headers, follow_redirects=True) as client:
+    with (
+        httpx.Client(timeout=DEFAULT_TIMEOUT, headers=headers, follow_redirects=True) as client,
+        _rendering_session(targets, config) as rendering,
+    ):
         for target in targets:
             try:
                 connector_cls = get_connector(target.source_type)
@@ -103,6 +150,9 @@ def _collect(targets, config: SetupConfig, summary: SpiderRunSummary) -> list[Ra
                 search_terms=target.search_terms or config.spider.search_terms,
                 on_log=bus.publish,
             )
+            # Only the rendered source has this attribute to set.
+            if getattr(connector, "session", "absent") is None:
+                connector.session = _RobotsAwareSession(rendering) if rendering else None
             try:
                 fetched = list(connector.fetch(target))
             except ConnectorError as exc:

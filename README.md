@@ -89,6 +89,7 @@ company handle in its job-board URL:
 | `workday` | `nxp.wd3.myworkdayjobs.com/careers` | `nxp.wd3.myworkdayjobs.com/careers` |
 | `breezy` | `acme.breezy.hr` | `acme` |
 | `jsonld` | *any careers page* | `https://acme.com/careers` |
+| `browser` | *any careers page, rendered* | `https://acme.com/careers` |
 
 Every one of these is a **published feed the employer's own careers page
 reads**, without a key — the same boundary throughout: a documented public
@@ -147,6 +148,46 @@ The honest limit: a page that builds its list with JavaScript and embeds no
 JSON-LD until it does is reported as empty rather than guessed at. Reading it
 would need a browser at indexing time, which scheduled indexing deliberately
 does not do.
+
+### Pages with an interface of their own
+
+Some employers have no ATS, no feed, and no structured data: the careers page
+renders a list with JavaScript, sometimes behind a "Load more" button, in a
+layout written for that company alone. On a real 631-entry list that is about
+250 organizations — the largest group left by a wide margin.
+
+`browser` indexes those. Its token is the careers page URL, and per page it:
+
+1. renders the page, waits for its requests to go quiet, scrolls, and clicks a
+   "load more" control while one keeps appearing (multilingual — *Mehr laden*,
+   *Carica altri*, *Voir plus*);
+2. finds the job list **generically**, by clustering links on the shape of
+   their URL. Every posting in a list shares a path prefix and differs only in
+   its last segment, which holds for Breezy, for a hand-built Vue page, and for
+   anything that gives one URL per role. A navigation bar shares a shape too,
+   so the link text must read like job titles, and a job-shaped path (`/p/`,
+   `/careers/jobs/`, `/vacatures/`) outranks a merely larger group — a newsroom
+   is routinely longer than the job list;
+3. opens each role and reads it: its own schema.org `JobPosting` first, then
+   Open Graph, then the visible heading. Which reading was used is recorded, so
+   a weak one is visible as weak.
+
+Search terms are applied to the **list**, before any role is opened, so
+narrowing costs one render rather than one per role.
+
+> **This is the only source that runs a browser while indexing.** Every other
+> connector reads a published endpoint, and a scheduled run starts no browser
+> unless a `browser` target is configured — then one is started and shared. It
+> is opt-in per target for that reason: rendering is slow, heavier, and a weaker
+> contract than an API.
+
+The boundary is unchanged: public pages, one at a time, at human pace,
+`robots.txt` honoured on every posting as well as the list, no fingerprint
+spoofing, no challenge solving. A refusal is recorded as the answer.
+
+A page whose roles are listed without linking each one is reported as such
+rather than guessed at. That residue — and only that — is where reading a page
+with a language model earns its cost.
 
 ### Narrowing a corporate board
 
@@ -483,9 +524,10 @@ backend/acide/
   alerts.py        Subscription matching and dispatch
   scheduler.py     Background loop for scheduled runs
   logbus.py        In-memory fan-out behind the live SSE console
+  pagestructure.py Find the job list on an unfamiliar page; read one posting
   probe.py         Dry run of discovery over plain HTTP
   spider/          Connectors: base, greenhouse, lever, ashby, workday,
-                   breezy, jsonld,
+                   breezy, jsonld, rendered,
                    teamtailor, personio, recruitee, workable,
                    smartrecruiters, runner
   api/             Routers: jobs, alerts, config, spider

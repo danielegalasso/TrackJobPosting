@@ -126,6 +126,9 @@ SOURCE_TYPES = (
     # Not an ATS: the page's own schema.org JobPosting markup, for employers
     # who publish their roles for Google for Jobs and nothing else.
     "jsonld",
+    # Not an ATS either, and the only source that renders while indexing: a
+    # careers page with an interface of its own and nothing machine readable.
+    "browser",
 )
 
 SourceType = Literal[
@@ -140,6 +143,7 @@ SourceType = Literal[
     "smartrecruiters",
     "breezy",
     "jsonld",
+    "browser",
 ]
 
 

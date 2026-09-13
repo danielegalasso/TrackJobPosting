@@ -16,6 +16,7 @@ from .jsonld import JsonLdConnector
 from .lever import LeverConnector
 from .personio import PersonioConnector
 from .recruitee import RecruiteeConnector
+from .rendered import RenderedConnector
 from .smartrecruiters import SmartRecruitersConnector
 from .teamtailor import TeamtailorConnector
 from .workable import WorkableConnector
@@ -32,6 +33,7 @@ __all__ = [
     "LeverConnector",
     "PersonioConnector",
     "RecruiteeConnector",
+    "RenderedConnector",
     "SmartRecruitersConnector",
     "TeamtailorConnector",
     "WorkableConnector",

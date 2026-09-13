@@ -431,6 +431,68 @@ class BrowserSession:
             with contextlib.suppress(Exception):
                 page.close()
 
+    def render(self, url: str, *, expand: bool = False, robots: RobotsCache | None = None) -> str:
+        """The page's HTML after its scripts have run, for reading rather than
+        for discovery.
+
+        `expand` clicks a "load more" control while one keeps appearing, which
+        is how a custom careers interface reveals the rest of its list. Each
+        click is followed by a settle, and the count is capped: a page that
+        wants more than that is not going to be read reliably anyway.
+
+        robots.txt is honoured here as everywhere else — indexing a page is no
+        more permitted than discovering one.
+        """
+        from .spider.rendered import MAX_EXPANSIONS, is_load_more
+
+        if robots is not None:
+            decision = robots.check(url)
+            if not decision.allowed:
+                raise PermissionError(decision.note or "disallowed by robots.txt")
+
+        with self._page() as page:
+            response = page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+            status = response.status if response else None
+            if status and status >= 400:
+                raise RuntimeError(f"HTTP {status}")
+
+            with contextlib.suppress(Exception):
+                page.wait_for_load_state("networkidle", timeout=self.settle_ms * 2)
+            with contextlib.suppress(Exception):
+                for _ in range(3):
+                    page.mouse.wheel(0, 2000)
+                    page.wait_for_timeout(200)
+
+            if expand:
+                for _ in range(MAX_EXPANSIONS):
+                    if not self._click_load_more(page, is_load_more):
+                        break
+
+            with contextlib.suppress(Exception):
+                page.wait_for_timeout(self.settle_ms)
+            return page.content()
+
+    @staticmethod
+    def _click_load_more(page: object, matches: object) -> bool:
+        """Click one "load more" control. True when something was clicked."""
+        with contextlib.suppress(Exception):
+            for element in page.query_selector_all(  # type: ignore[attr-defined]
+                "button, a[role=button], [class*=more], [class*=load]"
+            ):
+                if not element.is_visible():
+                    continue
+                label = (element.inner_text() or "").strip()
+                if not matches(label):  # type: ignore[operator]
+                    continue
+                element.click(timeout=5_000)
+                page.wait_for_timeout(1_200)  # type: ignore[attr-defined]
+                with contextlib.suppress(Exception):
+                    page.wait_for_load_state(  # type: ignore[attr-defined]
+                        "networkidle", timeout=5_000
+                    )
+                return True
+        return False
+
     def visit(self, url: str) -> PageResult:
         """Open one page and read the ATS out of it."""
         with self._page() as page:

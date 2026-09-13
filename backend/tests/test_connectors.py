@@ -182,6 +182,7 @@ def test_every_connector_registers_on_package_import():
         "smartrecruiters",
         "breezy",
         "jsonld",
+        "browser",
     }
     assert set(spider_package.CONNECTORS) == expected
     for source_type in expected:
