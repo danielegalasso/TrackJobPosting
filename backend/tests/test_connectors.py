@@ -184,3 +184,26 @@ def test_every_connector_registers_on_package_import():
     assert set(spider_package.CONNECTORS) == expected
     for source_type in expected:
         assert spider_package.get_connector(source_type).source_type == source_type
+
+
+@pytest.mark.parametrize(
+    ("raw", "expected"),
+    [
+        # RFC 822 with an offset — every RSS pubDate looks like this, and the
+        # Teamtailor feed is RSS. Without the %z form these all came back None.
+        ("Tue, 02 Jun 2026 08:00:00 +0200", "2026-06-02"),
+        ("Mon, 01 Jun 2026 23:30:00 -0700", "2026-06-01"),
+        ("Tue, 02 Jun 2026 08:00:00 GMT", "2026-06-02"),
+        ("Tue, 02 Jun 2026 08:00:00", "2026-06-02"),
+        # The shapes that already worked must keep working.
+        ("2026-06-02", "2026-06-02"),
+        ("2026-06-02T08:00:00+02:00", "2026-06-02"),
+        ("June 2, 2026", "2026-06-02"),
+        ("nonsense", None),
+        ("", None),
+    ],
+)
+def test_iso_date_handles_rss_and_json_date_shapes(raw, expected):
+    from acide.spider.base import iso_date
+
+    assert iso_date(raw) == expected

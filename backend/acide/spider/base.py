@@ -118,7 +118,15 @@ def iso_date(value: Any) -> str | None:
     match = re.match(r"(\d{4})-(\d{2})-(\d{2})", text)
     if match:
         return match.group(0)
-    for fmt in ("%Y-%m-%dT%H:%M:%S%z", "%a, %d %b %Y %H:%M:%S", "%B %d, %Y", "%d %b %Y"):
+    for fmt in (
+        "%Y-%m-%dT%H:%M:%S%z",
+        # RFC 822, as every RSS pubDate is — with an offset or a zone name.
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S %Z",
+        "%a, %d %b %Y %H:%M:%S",
+        "%B %d, %Y",
+        "%d %b %Y",
+    ):
         try:
             return time.strftime("%Y-%m-%d", time.strptime(text, fmt))
         except ValueError:

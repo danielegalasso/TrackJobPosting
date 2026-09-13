@@ -540,3 +540,61 @@ def test_shared_careers_pages_are_reported_for_review():
     assert set(shared) == {"https://careers.thales/global", "https://eu-careers.europa.eu/en"}
     assert shared["https://careers.thales/global"] == ["Thales Group", "Thales Alenia"]
     assert "https://acme.example/careers" not in shared, "one owner is not shared"
+
+
+# ---------------------------------------------------------------------------
+# Tokens a real run extracted that were not tokens at all
+# ---------------------------------------------------------------------------
+@pytest.mark.parametrize(
+    ("html", "why"),
+    [
+        (
+            '<script src="https://tt.teamtailor.com/build/app.js"></script>',
+            "tt.teamtailor.com is Teamtailor's own asset host, not a tenant",
+        ),
+        (
+            '<img src="https://careers-analytics.recruitee.com/pixel.gif">',
+            "an analytics subdomain is not a careers board",
+        ),
+    ],
+)
+def test_a_providers_own_infrastructure_is_not_taken_as_a_tenant(html, why):
+    found = discover_in_html(html)
+    assert found.board_token not in ("tt", "careers-analytics"), why
+
+
+def test_an_asset_host_with_a_build_timestamp_yields_the_tenant():
+    """`friendsofeurope-1721722951.teamtailor.com` is an asset host.
+
+    A real run wrote the whole label as the board token and it could not
+    answer; the tenant is the part before the epoch.
+    """
+    html = '<img src="https://friendsofeurope-1721722951.teamtailor.com/img/logo.png">'
+    found = discover_in_html(html)
+    assert found.board_token == "friendsofeurope"
+
+
+def test_a_percent_encoded_url_does_not_glue_the_encoding_to_the_token():
+    """A real run produced the token `2Fstark` from `%2Fstark.jobs.personio.de`."""
+    html = '<a href="/redirect?to=https%3A%2F%2Fstark.jobs.personio.de%2F">Jobs</a>'
+    found = discover_in_html(html)
+    assert found.source_type == "personio"
+    assert found.board_token == "stark"
+
+
+def test_a_teamtailor_site_on_its_own_domain_uses_that_host_as_the_token():
+    """Sateliot and SENER both run Teamtailor on their own domains.
+
+    The tenant appears nowhere in the markup, but the site's own host *is*
+    the feed host, so that is the token.
+    """
+    html = '<script src="https://tt.teamtailor.com/build/app.js"></script>'
+    found = discover_in_html(html, "https://careers.sateliot.com/jobs")
+    assert found.supported is True
+    assert (found.source_type, found.board_token) == ("teamtailor", "careers.sateliot.com")
+
+
+def test_a_teamtailor_tenant_in_the_markup_still_wins_over_the_page_host():
+    html = '<a href="https://acme.teamtailor.com/jobs">Jobs</a>'
+    found = discover_in_html(html, "https://careers.example.com/jobs")
+    assert found.board_token == "acme"

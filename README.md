@@ -81,7 +81,7 @@ company handle in its job-board URL:
 | `greenhouse` | `job-boards.greenhouse.io/stripe` | `stripe` |
 | `lever` | `jobs.lever.co/ramp` | `ramp` |
 | `ashby` | `jobs.ashbyhq.com/linear` | `linear` |
-| `teamtailor` | `acme.teamtailor.com` | `acme` |
+| `teamtailor` | `acme.teamtailor.com`, or `careers.acme.com` | `acme`, or the full host |
 | `personio` | `acme.jobs.personio.de` | `acme` |
 | `recruitee` | `acme.recruitee.com` | `acme` |
 | `workable` | `apply.workable.com/acme` | `acme` |
@@ -97,6 +97,14 @@ career-site name, so the token carries both; a full URL works too, locale
 segment and all. It answers a POST rather than a GET, which is why a Workday
 page looks empty to a plain fetch, and it silently returns nothing at all for
 a page size above 20 — so pages are requested at 20 and walked.
+
+Teamtailor is read through the RSS feed its own documentation describes
+(`/jobs.rss`), not the `jobs.json` that scraper vendors repeat and that does
+not exist — a real run found ten tenants through the latter and every one
+refused. RSS carries metadata rather than the whole advert, so Teamtailor
+descriptions are shorter than a JSON board's; that is the trade for an
+endpoint that answers. Many Teamtailor career sites run on the employer's own
+domain, so the token may be a full host.
 
 Personio publishes XML rather than JSON, and some tenants live on
 `.jobs.personio.com` instead of `.de`; both are tried. SmartRecruiters and

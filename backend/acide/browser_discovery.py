@@ -442,20 +442,20 @@ class BrowserSession:
 
             # 1. The request log is the strongest signal: a page that renders
             #    a board has to ask the ATS for it, token and all.
-            found = discover_in_html("\n".join(requested))
+            found = discover_in_html("\n".join(requested), page.url)
             if found.supported:
                 return PageResult(found, status=status, final_url=page.url)
 
             # 2. The DOM after scripts have run.
             with contextlib.suppress(Exception):
-                found = discover_in_html(page.content())
+                found = discover_in_html(page.content(), page.url)
                 if found.supported:
                     return PageResult(found, status=status, final_url=page.url)
 
             # 3. Frame URLs, for boards embedded in an iframe.
             with contextlib.suppress(Exception):
                 frame_urls = "\n".join(frame.url for frame in page.frames if frame.url)
-                found = discover_in_html(frame_urls)
+                found = discover_in_html(frame_urls, page.url)
                 if found.supported:
                     return PageResult(found, status=status, final_url=page.url)
 
@@ -465,7 +465,7 @@ class BrowserSession:
             deeper: list[str] = []
             with contextlib.suppress(Exception):
                 markup = page.content()
-                found = discover_in_html("\n".join(requested) + markup)
+                found = discover_in_html("\n".join(requested) + markup, page.url)
                 deeper = deeper_board_links(markup, page.url)
             return PageResult(found, status=status, final_url=page.url, deeper_links=deeper)
 

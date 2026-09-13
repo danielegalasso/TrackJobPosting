@@ -22,6 +22,7 @@ from acide.spider import (
     WorkdayConnector,
 )
 from acide.spider.base import ConnectorError
+from acide.spider.teamtailor import feed_url
 from acide.spider.workday import parse_board
 
 
@@ -98,44 +99,108 @@ def test_workable_reads_the_widget_feed():
 
 
 # ---------------------------------------------------------------------------
-# Teamtailor — the envelope varies between career-site versions
+# Teamtailor — the documented RSS feed
 # ---------------------------------------------------------------------------
+TEAMTAILOR_RSS = """<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+  <title>Jobs at Acme</title>
+  <item>
+    <title>Penetration Tester - Stockholm</title>
+    <link>https://acme.teamtailor.com/jobs/9001-penetration-tester</link>
+    <description>&lt;p&gt;Break in, politely.&lt;/p&gt;</description>
+    <pubDate>Tue, 02 Jun 2026 08:00:00 +0200</pubDate>
+    <guid>https://acme.teamtailor.com/jobs/9001-penetration-tester</guid>
+  </item>
+  <item>
+    <title>Head of Engineering - Platform</title>
+    <link>https://acme.teamtailor.com/jobs/9002-head-of-engineering</link>
+    <description>&lt;p&gt;Lead the team.&lt;/p&gt;</description>
+    <pubDate>Mon, 01 Jun 2026 08:00:00 +0200</pubDate>
+  </item>
+</channel></rss>
+"""
+
+
 @respx.mock
-@pytest.mark.parametrize("envelope", ["bare-list", "jobs", "jsonapi"])
-def test_teamtailor_accepts_every_envelope_shape(envelope):
-    job = {
-        "id": "9001",
-        "title": "Pentester",
-        "body": "<p>Break in, politely.</p>",
-        "location": "Stockholm",
-        "careersite-job-url": "https://acme.teamtailor.com/jobs/9001-pentester",
-        "created-at": "2026-06-02T08:00:00+02:00",
-    }
-    payloads = {
-        "bare-list": [job],
-        "jobs": {"jobs": [job]},
-        "jsonapi": {"data": [{
-            "id": "9001",
-            "attributes": {k: v for k, v in job.items() if k != "id"},
-        }]},
-    }
-    respx.get("https://acme.teamtailor.com/jobs.json").mock(
-        return_value=httpx.Response(200, json=payloads[envelope])
+def test_teamtailor_reads_the_documented_rss_feed():
+    """jobs.json is repeated everywhere and does not exist.
+
+    A real run found ten Teamtailor tenants through it and every one refused;
+    `.rss` is what Teamtailor's own documentation describes.
+    """
+    route = respx.get("https://acme.teamtailor.com/jobs.rss").mock(
+        return_value=httpx.Response(200, text=TEAMTAILOR_RSS)
+    )
+    first, second = _run(TeamtailorConnector, "acme")
+    assert route.called
+    assert first.external_id == "9001-penetration-tester"
+    assert first.title == "Penetration Tester - Stockholm"
+    assert first.apply_url == "https://acme.teamtailor.com/jobs/9001-penetration-tester"
+    assert first.date_posted == "2026-06-02"
+    assert "Break in" in first.description
+    # Titles are left whole and no location is inferred from them. "Role -
+    # City" is common enough to tempt, but "Head of Engineering - Platform"
+    # is not a place, and the portal filters on location: a guess would both
+    # show nonsense and match nothing.
+    assert second.title == "Head of Engineering - Platform"
+    assert first.location == "Not specified"
+    assert second.location == "Not specified"
+
+
+@respx.mock
+def test_teamtailor_uses_a_location_element_when_the_feed_has_one():
+    feed = """<?xml version="1.0" encoding="UTF-8"?>
+    <rss version="2.0" xmlns:tt="https://example.invalid/tt"><channel>
+      <item>
+        <title>SOC Analyst</title>
+        <link>https://acme.teamtailor.com/jobs/1</link>
+        <tt:location>Rotterdam</tt:location>
+      </item>
+    </channel></rss>
+    """
+    respx.get("https://acme.teamtailor.com/jobs.rss").mock(
+        return_value=httpx.Response(200, text=feed)
     )
     [posting] = _run(TeamtailorConnector, "acme")
-    assert posting.external_id == "9001"
-    assert posting.title == "Pentester"
-    assert posting.location == "Stockholm"
-    assert "Break in" in posting.description
-    assert posting.date_posted == "2026-06-02"
+    assert posting.location == "Rotterdam"
 
 
 @respx.mock
-def test_teamtailor_an_unknown_shape_is_empty_not_a_crash():
-    respx.get("https://acme.teamtailor.com/jobs.json").mock(
-        return_value=httpx.Response(200, json={"unexpected": True})
+def test_teamtailor_asks_for_a_full_page():
+    route = respx.get("https://acme.teamtailor.com/jobs.rss").mock(
+        return_value=httpx.Response(200, text=TEAMTAILOR_RSS)
     )
-    assert _run(TeamtailorConnector, "acme") == []
+    _run(TeamtailorConnector, "acme")
+    assert "per_page=200" in str(route.calls[0].request.url)
+
+
+@pytest.mark.parametrize(
+    ("token", "expected"),
+    [
+        ("acme", "https://acme.teamtailor.com/jobs.rss"),
+        # Many career sites run on the employer's own domain.
+        ("careers.sateliot.com", "https://careers.sateliot.com/jobs.rss"),
+        ("https://aerospace-jobs.sener/", "https://aerospace-jobs.sener/jobs.rss"),
+    ],
+)
+def test_teamtailor_accepts_a_tenant_or_a_custom_host(token, expected):
+    assert feed_url(token) == expected
+
+
+@respx.mock
+def test_teamtailor_a_site_without_a_feed_says_what_to_check():
+    respx.get("https://acme.teamtailor.com/jobs.rss").mock(return_value=httpx.Response(404))
+    with pytest.raises(ConnectorError, match="career-site host"):
+        _run(TeamtailorConnector, "acme")
+
+
+@respx.mock
+def test_teamtailor_malformed_rss_says_so():
+    respx.get("https://acme.teamtailor.com/jobs.rss").mock(
+        return_value=httpx.Response(200, text="<rss><channel><item>")
+    )
+    with pytest.raises(ConnectorError, match="not valid RSS"):
+        _run(TeamtailorConnector, "acme")
 
 
 # ---------------------------------------------------------------------------

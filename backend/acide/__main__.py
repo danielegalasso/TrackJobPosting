@@ -174,8 +174,18 @@ def _import_companies(args: argparse.Namespace) -> int:
             on_log=say if args.verbose else None,
         )
 
+    resolved = report.resolved
+    # Several organizations can share one board — eight Thales divisions do —
+    # and counting postings per organization multiplies them. On a real run
+    # that read 54,755 where the boards actually hold 23,129.
+    boards = {
+        (item.source_type, item.board_token): (item.job_count or 0) for item in resolved
+    }
     print()
-    print(f"  resolved   {len(report.resolved):4} — these can be indexed now")
+    print(f"  resolved   {len(resolved):4} — these can be indexed now")
+    if boards:
+        print(f"             {len(boards):4} distinct boards, "
+              f"{sum(boards.values()):,} postings between them")
     print(f"  unresolved {len(report.unresolved):4}")
     for platform, count in report.by_other_ats().items():
         print(f"      {count:4}  {platform}")

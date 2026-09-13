@@ -62,7 +62,11 @@ _ATS_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ),
 )
 
-#: Tokens the patterns can match that are never a real board.
+#: Tokens the patterns can match that are never a real board. The second
+#: group is a provider's own infrastructure appearing on its customers'
+#: pages: a real run found `tt.teamtailor.com` on two custom-domain career
+#: sites and `careers-analytics.recruitee.com` on a third, and wrote each as
+#: a board token that could not answer.
 _NOT_TOKENS = frozenset(
     {
         "embed",
@@ -78,8 +82,30 @@ _NOT_TOKENS = frozenset(
         "css",
         "images",
         "favicon.ico",
+        # Provider infrastructure, not a tenant.
+        "tt",
+        "cdn",
+        "media",
+        "content",
+        "app",
+        "analytics",
+        "careers-analytics",
+        "track",
+        "tracking",
+        "scripts",
+        "widget",
+        "embeds",
     }
 )
+
+#: An asset host suffixed with a build timestamp — `acme-1733915591.…` — is
+#: not a tenant, but `acme` is.
+_EPOCH_SUFFIX = re.compile(r"-1\d{9}$")
+
+#: Percent-encoded separators seen inside careers-page markup. Without
+#: decoding these, a URL embedded in a query string yields a token with the
+#: encoding glued on: `%2Fstark.jobs.personio.de` gave `2Fstark`.
+_ENCODED_SEPARATORS = (("%2F", "/"), ("%2f", "/"), ("%3A", ":"), ("%3a", ":"))
 
 #: Other ATS platforms seen on these careers pages. Recognising them does not
 #: make them indexable — it explains *why* a company cannot be watched yet,
@@ -132,14 +158,23 @@ class Discovery:
         return f"<Discovery unsupported={self.other_ats or 'unknown'}>"
 
 
-def discover_in_html(html: str) -> Discovery:
-    """Read the ATS a careers page is wired to out of its markup."""
+def discover_in_html(html: str, page_url: str = "") -> Discovery:
+    """Read the ATS a careers page is wired to out of its markup.
+
+    `page_url` is the address the markup came from. It is the fallback for a
+    career site on the employer's own domain — common with Teamtailor — where
+    the tenant appears nowhere and the site's own host *is* the feed host.
+    """
     if not html:
         return Discovery(note="empty page")
 
+    for original, decoded in _ENCODED_SEPARATORS:
+        if original in html:
+            html = html.replace(original, decoded)
+
     for source_type, pattern in _ATS_PATTERNS:
         for match in pattern.finditer(html):
-            groups = [part.strip().strip("/") for part in match.groups() if part]
+            groups = [_clean_token(part) for part in match.groups() if part]
             if not groups or any(part.lower() in _NOT_TOKENS for part in groups):
                 continue
             # Workday alone needs two: its endpoint is addressed by host *and*
@@ -150,9 +185,20 @@ def discover_in_html(html: str) -> Discovery:
 
     for name, pattern in _KNOWN_OTHER_ATS:
         if pattern.search(html):
+            # A Teamtailor site on the employer's own domain names no tenant.
+            # Its own host is the feed host, so that is the token.
+            if name == "teamtailor":
+                host = urlparse(page_url).netloc
+                if host and not host.lower().endswith("teamtailor.com"):
+                    return Discovery(source_type="teamtailor", board_token=host)
             return Discovery(other_ats=name, note=f"runs on {name}, which has no connector yet")
 
     return Discovery(note="no ATS link found on the page")
+
+
+def _clean_token(part: str) -> str:
+    token = part.strip().strip("/")
+    return _EPOCH_SUFFIX.sub("", token)
 
 
 def _strip_accents(text: str) -> str:

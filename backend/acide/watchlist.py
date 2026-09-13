@@ -146,7 +146,6 @@ _VERIFIERS: dict[str, Callable[[str], tuple[str, dict[str, str]]]] = {
         f"https://api.ashbyhq.com/posting-api/job-board/{token}",
         {},
     ),
-    "teamtailor": lambda token: (f"https://{token}.teamtailor.com/jobs.json", {}),
     "recruitee": lambda token: (f"https://{token}.recruitee.com/api/offers/", {}),
     "workable": lambda token: (
         f"https://apply.workable.com/api/v1/widget/accounts/{token}",
@@ -158,9 +157,10 @@ _VERIFIERS: dict[str, Callable[[str], tuple[str, dict[str, str]]]] = {
     ),
 }
 
-#: Personio publishes XML, not JSON, and Workday answers only a POST, so
-#: neither fits the GET-and-parse-JSON shape above. Both are verified by
-#: their own connector's URL builder instead.
+#: Personio publishes XML, Teamtailor RSS, and Workday answers only a
+#: POST, so none fits the GET-and-parse-JSON shape above. Each is
+#: verified through its own connector's URL builder instead, which also
+#: means a change of endpoint cannot leave the verifier behind.
 
 
 def _verify_personio(client: httpx.Client, token: str) -> int | None:
@@ -174,6 +174,18 @@ def _verify_personio(client: httpx.Client, token: str) -> int | None:
         if response.status_code == 200 and "<position>" in response.text:
             return response.text.count("<position>")
     return None
+
+
+def _verify_teamtailor(client: httpx.Client, token: str) -> int | None:
+    from .spider.teamtailor import feed_url
+
+    try:
+        response = client.get(feed_url(token), params={"per_page": "200"})
+    except httpx.HTTPError:
+        return None
+    if response.status_code != 200 or "<item" not in response.text:
+        return None
+    return response.text.count("<item")
 
 
 def _verify_workday(client: httpx.Client, token: str) -> int | None:
@@ -208,6 +220,7 @@ def _verify_workday(client: httpx.Client, token: str) -> int | None:
 
 _SPECIAL_VERIFIERS: dict[str, Callable[[httpx.Client, str], int | None]] = {
     "personio": _verify_personio,
+    "teamtailor": _verify_teamtailor,
     "workday": _verify_workday,
 }
 
