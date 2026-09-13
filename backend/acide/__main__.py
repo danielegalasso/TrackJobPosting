@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import os
 import sys
 from pathlib import Path
@@ -463,6 +464,83 @@ def _adopt_browser(args: argparse.Namespace) -> int:
     return 0
 
 
+def _inspect(args: argparse.Namespace) -> int:
+    """Run one inspection pass and exit — for an unattended batch.
+
+    The portal's Run button posts to the API, which needs the server up and a
+    browser tab open. A run over several hundred sources takes hours and wants
+    neither: this is the same pass, driven from a terminal, logging to stdout
+    so it can be redirected to a file and left overnight.
+    """
+    import logging
+
+    from . import config as config_module
+    from .spider import runner
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s  %(message)s",
+        datefmt="%H:%M:%S",
+        stream=sys.stdout,
+        force=True,
+    )
+    # Unbuffered, so a redirected log is readable while the run is going.
+    with contextlib.suppress(Exception):
+        sys.stdout.reconfigure(line_buffering=True)
+
+    config = config_module.load(refresh=True)
+    targets = [target for target in config.targets if target.enabled]
+    if args.source_type:
+        wanted = {name.strip() for name in args.source_type.split(",") if name.strip()}
+        targets = [target for target in targets if target.source_type in wanted]
+    if args.limit:
+        targets = targets[: args.limit]
+    if not targets:
+        print("no enabled targets match — nothing to inspect", file=sys.stderr)
+        return 1
+    config.targets = targets
+
+    kinds: dict[str, int] = {}
+    for target in targets:
+        kinds[target.source_type] = kinds.get(target.source_type, 0) + 1
+    print(f"Inspecting {len(targets)} source(s): "
+          + ", ".join(f"{count} {name}" for name, count in sorted(kinds.items())))
+    if not config.spider.search_terms and any(
+        target.source_type in ("workday", "smartrecruiters") for target in targets
+    ):
+        print(
+            "  note: spider.search_terms is empty, so a corporate board will spend "
+            "max_jobs_per_source on an arbitrary slice and every posting is billed "
+            "to the evaluator."
+        )
+    if kinds.get("browser"):
+        print(f"  {kinds['browser']} source(s) are rendered pages — expect hours, not minutes.")
+    print()
+
+    try:
+        summary = runner.run_once(config, send_alerts=not args.no_alerts)
+    except KeyboardInterrupt:
+        print(
+            "\nStopped. Everything scored before now is saved; re-running skips it.",
+            file=sys.stderr,
+        )
+        return 130
+
+    print()
+    print(f"  sources polled   {summary.sources_polled}")
+    print(f"  postings seen    {summary.postings_seen}")
+    print(f"  postings new     {summary.postings_new}")
+    print(f"  postings scored  {summary.postings_scored}")
+    print(f"  alert emails     {summary.alerts_sent}")
+    if summary.errors:
+        print(f"\n  {len(summary.errors)} error(s); the first few:")
+        for error in summary.errors[:15]:
+            print(f"      {error}")
+        if len(summary.errors) > 15:
+            print(f"      … and {len(summary.errors) - 15} more")
+    return 0
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="acide", description="Run the ACIDE-Watch portal.")
     subparsers = parser.add_subparsers(dest="command")
@@ -608,6 +686,27 @@ def main() -> None:
     )
     adopter.add_argument("--category", help=argparse.SUPPRESS)
     adopter.set_defaults(func=_adopt_browser)
+
+    inspector = subparsers.add_parser(
+        "inspect",
+        help="run one inspection pass and exit (for an unattended batch)",
+        description=(
+            "Fetches every enabled source, scores the new postings and exits. "
+            "The same pass the portal's Run button triggers, but without "
+            "needing the server or a browser tab — logs go to stdout, so it can "
+            "be redirected to a file and left to run. Each source is saved as it "
+            "finishes, so stopping costs at most the source in flight."
+        ),
+    )
+    inspector.add_argument(
+        "--no-alerts", action="store_true", help="do not send digest email at the end"
+    )
+    inspector.add_argument(
+        "--source-type",
+        help="only these source types, comma separated, e.g. browser or greenhouse,ashby",
+    )
+    inspector.add_argument("--limit", type=int, help="stop after this many sources")
+    inspector.set_defaults(func=_inspect)
 
     args = parser.parse_args()
     handler = getattr(args, "func", _serve)

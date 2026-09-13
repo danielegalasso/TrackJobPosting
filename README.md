@@ -189,6 +189,24 @@ A page whose roles are listed without linking each one is reported as such
 rather than guessed at. That residue — and only that — is where reading a page
 with a language model earns its cost.
 
+### Running a large pass unattended
+
+The portal's Run button posts to the API, which needs the server up and a tab
+open. A pass over several hundred sources takes hours and wants neither:
+
+```bash
+backend/.venv/bin/acide inspect --no-alerts
+```
+
+Same pass, driven from a terminal, logging to stdout — so redirect it to a file
+and leave it. `--source-type browser` runs only the rendered pages, which are
+the slow ones, so they can be separated from the APIs. `--limit` caps how many
+sources are touched.
+
+Each source is scored and written as it finishes, so Ctrl-C costs at most the
+source in flight and re-running skips what is already scored. The log numbers
+each source, which a run of several hundred needs to be readable at all.
+
 ### Narrowing a corporate board
 
 A corporate careers site is not a startup board. Thales, Airbus, Accenture and

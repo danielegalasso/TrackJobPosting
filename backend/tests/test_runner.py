@@ -277,3 +277,86 @@ def test_the_progress_log_numbers_each_source():
     runner.run_once(_config(), send_alerts=False)
     lines = [event["message"] for event in bus.history()]
     assert any("[1/1] ExampleCorp" in line for line in lines), lines
+
+
+# ---------------------------------------------------------------------------
+# `acide inspect` — one pass, no server
+# ---------------------------------------------------------------------------
+@respx.mock
+def test_inspect_runs_a_pass_and_reports_it(monkeypatch, capsys):
+    """An overnight batch cannot depend on the server and a browser tab."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    _mock_gateway()
+    config_module.save(_config())
+
+    monkeypatch.setattr("sys.argv", ["acide", "inspect", "--no-alerts"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 0
+
+    printed = capsys.readouterr().out
+    assert "Inspecting 1 source(s): 1 greenhouse" in printed
+    assert "postings scored" in printed
+
+
+@respx.mock
+def test_inspect_can_be_limited_to_one_source_type(monkeypatch, capsys):
+    """So the slow rendered pages can be run apart from the fast APIs."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    _mock_gateway()
+    config = _config()
+    config.targets = [
+        TargetSource(company="ExampleCorp", source_type="greenhouse", board_token="examplecorp"),
+        TargetSource(company="Rendered", source_type="browser",
+                     board_token="https://acme.example/careers"),
+    ]
+    config_module.save(config)
+
+    monkeypatch.setattr(
+        "sys.argv", ["acide", "inspect", "--no-alerts", "--source-type", "greenhouse"]
+    )
+    with pytest.raises(SystemExit):
+        main()
+    printed = capsys.readouterr().out
+    assert "Inspecting 1 source(s): 1 greenhouse" in printed
+    assert "Rendered" not in printed
+
+
+def test_inspect_warns_when_a_corporate_board_has_no_search_terms(monkeypatch, capsys):
+    """Without terms the cap is spent on an arbitrary slice and billed for."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    config = _config()
+    config.spider.search_terms = []
+    config.targets = [
+        TargetSource(company="Thales", source_type="workday",
+                     board_token="thales.wd3.myworkdayjobs.com/Careers")
+    ]
+    config_module.save(config)
+
+    # No board is mocked, so the run fails — the warning must precede it.
+    monkeypatch.setattr("sys.argv", ["acide", "inspect", "--no-alerts"])
+    with pytest.raises(SystemExit):
+        main()
+    assert "search_terms is empty" in capsys.readouterr().out
+
+
+def test_inspect_says_so_when_nothing_matches(monkeypatch, capsys):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    config_module.save(_config())
+    monkeypatch.setattr(
+        "sys.argv", ["acide", "inspect", "--source-type", "breezy"]
+    )
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 1
+    assert "nothing to inspect" in capsys.readouterr().err
