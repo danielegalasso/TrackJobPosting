@@ -147,6 +147,7 @@ _VERIFIERS: dict[str, Callable[[str], tuple[str, dict[str, str]]]] = {
         {},
     ),
     "recruitee": lambda token: (f"https://{token}.recruitee.com/api/offers/", {}),
+    "breezy": lambda token: (f"https://{token}.breezy.hr/json", {"verbose": "false"}),
     "workable": lambda token: (
         f"https://apply.workable.com/api/v1/widget/accounts/{token}",
         {"details": "false"},
@@ -188,6 +189,25 @@ def _verify_teamtailor(client: httpx.Client, token: str) -> int | None:
     return response.text.count("<item")
 
 
+def _verify_jsonld(client: httpx.Client, token: str) -> int | None:
+    """Count the JobPosting objects a careers page publishes about itself."""
+    from .spider.jsonld import blocks, posting_links, walk
+
+    url = token if "://" in token else f"https://{token}"
+    try:
+        response = client.get(url, headers={"Accept": "text/html"})
+    except httpx.HTTPError:
+        return None
+    if response.status_code != 200:
+        return None
+    found = sum(1 for document in blocks(response.text) for _ in walk(document))
+    if found:
+        return found
+    # An index page counts the postings it points at; each is read at
+    # indexing time, not here.
+    return len(posting_links(response.text, url, 200)) or None
+
+
 def _verify_workday(client: httpx.Client, token: str) -> int | None:
     from .spider.base import ConnectorError
     from .spider.workday import PAGE_SIZE, parse_board
@@ -222,6 +242,7 @@ _SPECIAL_VERIFIERS: dict[str, Callable[[httpx.Client, str], int | None]] = {
     "personio": _verify_personio,
     "teamtailor": _verify_teamtailor,
     "workday": _verify_workday,
+    "jsonld": _verify_jsonld,
 }
 
 

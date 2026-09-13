@@ -10,7 +10,9 @@ configured target fail with "unknown source type".
 # re-exported for convenience.
 from .ashby import AshbyConnector
 from .base import CONNECTORS, Connector, ConnectorError, get_connector
+from .breezy import BreezyConnector
 from .greenhouse import GreenhouseConnector
+from .jsonld import JsonLdConnector
 from .lever import LeverConnector
 from .personio import PersonioConnector
 from .recruitee import RecruiteeConnector
@@ -21,10 +23,12 @@ from .workday import WorkdayConnector
 
 __all__ = [
     "AshbyConnector",
+    "BreezyConnector",
     "CONNECTORS",
     "Connector",
     "ConnectorError",
     "GreenhouseConnector",
+    "JsonLdConnector",
     "LeverConnector",
     "PersonioConnector",
     "RecruiteeConnector",

@@ -28,6 +28,7 @@ recurring job indexing at all.
 from __future__ import annotations
 
 import contextlib
+import re
 import urllib.error
 import urllib.request
 import urllib.robotparser
@@ -63,6 +64,8 @@ FALLBACK_PATHS: tuple[str, ...] = (
 #: called until you follow it.
 BOARD_LINK_WORDS: tuple[str, ...] = (
     "open position",
+    "position",
+    "discover our",
     "open role",
     "current opening",
     "current vacanc",
@@ -95,6 +98,19 @@ BOARD_LINK_WORDS: tuple[str, ...] = (
 )
 
 
+#: Hosts that are a job board rather than a company's own site.
+_BOARD_HOSTS = re.compile(
+    r"(?:greenhouse\.io|lever\.co|ashbyhq\.com|breezy\.hr|teamtailor\.com"
+    r"|personio\.(?:de|com)|recruitee\.com|workable\.com|smartrecruiters\.com"
+    r"|myworkdayjobs\.com|bamboohr\.com|pinpointhq\.com|jobvite\.com)$",
+    re.IGNORECASE,
+)
+
+
+def _is_board_host(netloc: str) -> bool:
+    return bool(_BOARD_HOSTS.search(netloc.split(":")[0]))
+
+
 def deeper_board_links(html: str, page_url: str, limit: int = 3) -> list[str]:
     """Same-host links on a careers page that lead to the roles themselves.
 
@@ -114,7 +130,12 @@ def deeper_board_links(html: str, page_url: str, limit: int = 3) -> list[str]:
             continue
         absolute = urljoin(page_url, href).split("#")[0]
         parsed = urlparse(absolute)
-        if parsed.scheme not in ("http", "https") or parsed.netloc.lower() != host:
+        if parsed.scheme not in ("http", "https"):
+            continue
+        # Normally the hop stays on the company's own site, so a LinkedIn
+        # mirror is not mistaken for its board. A link straight to a
+        # recognised ATS host is the exception: that *is* the board.
+        if parsed.netloc.lower() != host and not _is_board_host(parsed.netloc):
             continue
         if absolute.rstrip("/") == here or absolute in seen:
             continue

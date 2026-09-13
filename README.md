@@ -87,6 +87,8 @@ company handle in its job-board URL:
 | `workable` | `apply.workable.com/acme` | `acme` |
 | `smartrecruiters` | `careers.smartrecruiters.com/Acme` | `Acme` |
 | `workday` | `nxp.wd3.myworkdayjobs.com/careers` | `nxp.wd3.myworkdayjobs.com/careers` |
+| `breezy` | `acme.breezy.hr` | `acme` |
+| `jsonld` | *any careers page* | `https://acme.com/careers` |
 
 Every one of these is a **published feed the employer's own careers page
 reads**, without a key — the same boundary throughout: a documented public
@@ -111,6 +113,40 @@ Personio publishes XML rather than JSON, and some tenants live on
 Workday carry no advert text in their listings, so each posting's own
 document is fetched for it — a posting whose advert cannot be read is still
 reported, with its title, rather than dropped.
+
+### Pages with no ATS at all
+
+`jsonld` is not an ATS. It reads a page's **own** postings out of its
+schema.org `JobPosting` markup — the structured data Google for Jobs consumes,
+which employers who want their roles found have every reason to publish. Title,
+description, location, posting date and salary all come from it, already
+structured, so this is not scraping a layout that changes next week.
+
+On a real 631-entry list, "page rendered, no ATS link" was 377 organizations —
+the largest failure by a wide margin. Two things account for much of it:
+
+- **A platform nobody recognised.** Telespazio Belgium's careers page names no
+  ATS, but its "Discover our positions here" button points at
+  `telespazio-be.breezy.hr`. Breezy is now a connector, so the link on the page
+  is enough — nothing has to be clicked. The same was true of BambooHR,
+  Pinpoint, HiBob, Werecruit and Jobvite, which are now at least named instead
+  of being reported as no ATS at all.
+- **The page publishing its own postings.** Those become `jsonld` targets,
+  whose token is the careers page URL.
+
+Two page shapes are read. Postings on the page are taken in one request. A page
+that is only an index — an `ItemList` of links — is followed to each posting,
+bounded by `max_jobs_per_source` and paced like any other request.
+
+A board API always wins over reading a page, so a careers page carrying both
+resolves to the board. But structured postings beat *naming* a platform with no
+connector: "runs on successfactors" is a worklist entry, while postings on the
+page are readable today.
+
+The honest limit: a page that builds its list with JavaScript and embeds no
+JSON-LD until it does is reported as empty rather than guessed at. Reading it
+would need a browser at indexing time, which scheduled indexing deliberately
+does not do.
 
 ### Narrowing a corporate board
 
@@ -424,6 +460,7 @@ backend/acide/
   scheduler.py     Background loop for scheduled runs
   logbus.py        In-memory fan-out behind the live SSE console
   spider/          Connectors: base, greenhouse, lever, ashby, workday,
+                   breezy, jsonld,
                    teamtailor, personio, recruitee, workable,
                    smartrecruiters, runner
   api/             Routers: jobs, alerts, config, spider

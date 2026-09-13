@@ -180,6 +180,8 @@ def test_every_connector_registers_on_package_import():
         "recruitee",
         "workable",
         "smartrecruiters",
+        "breezy",
+        "jsonld",
     }
     assert set(spider_package.CONNECTORS) == expected
     for source_type in expected:

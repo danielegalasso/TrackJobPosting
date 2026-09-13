@@ -60,6 +60,9 @@ _ATS_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
         "smartrecruiters",
         re.compile(r"api\.smartrecruiters\.com/v1/companies/([A-Za-z0-9_-]+)"),
     ),
+    # <name>.breezy.hr — the platform behind a "Discover our positions here"
+    # button on a careers page that otherwise names no ATS at all.
+    ("breezy", re.compile(r"([A-Za-z0-9-]+)\.breezy\.hr")),
 )
 
 #: Tokens the patterns can match that are never a real board. The second
@@ -127,6 +130,14 @@ _KNOWN_OTHER_ATS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("personio", re.compile(r"personio\.(?:de|com)")),
     ("teamtailor", re.compile(r"teamtailor\.com")),
     ("recruitee", re.compile(r"recruitee\.com")),
+    # Platforms seen on this kind of list with no connector yet. Naming them
+    # turns "no ATS link found" into a worklist entry.
+    ("bamboohr", re.compile(r"[A-Za-z0-9-]+\.bamboohr\.com")),
+    ("pinpoint", re.compile(r"[A-Za-z0-9-]+\.pinpointhq\.com")),
+    ("hibob", re.compile(r"careers\.hibob\.com|[A-Za-z0-9-]+\.hibob\.com")),
+    ("werecruit", re.compile(r"careers\.werecruit\.io")),
+    ("jobvite", re.compile(r"jobs\.jobvite\.com|[A-Za-z0-9-]+\.jobvite\.com")),
+    ("greenhouse-embed", re.compile(r"grnh\.se")),
 )
 
 
@@ -183,6 +194,15 @@ def discover_in_html(html: str, page_url: str = "") -> Discovery:
             if token:
                 return Discovery(source_type=source_type, board_token=token)
 
+    # No ATS board. The page may still publish its postings itself, as
+    # schema.org JobPosting in JSON-LD — the format Google for Jobs consumes,
+    # so employers who want their roles found have every reason to emit it.
+    # Checked before the unsupported-platform names below, because a page that
+    # mentions SuccessFactors *and* carries its own structured postings is
+    # readable today, and "runs on successfactors" is not.
+    if page_url and has_job_posting_markup(html):
+        return Discovery(source_type="jsonld", board_token=page_url)
+
     for name, pattern in _KNOWN_OTHER_ATS:
         if pattern.search(html):
             # A Teamtailor site on the employer's own domain names no tenant.
@@ -194,6 +214,19 @@ def discover_in_html(html: str, page_url: str = "") -> Discovery:
             return Discovery(other_ats=name, note=f"runs on {name}, which has no connector yet")
 
     return Discovery(note="no ATS link found on the page")
+
+
+def has_job_posting_markup(html: str) -> bool:
+    """Does this page carry at least one schema.org JobPosting?
+
+    Cheap string test first: parsing every JSON-LD block on every page of a
+    six-hundred-entry list would not pay for itself when almost none match.
+    """
+    if "jobposting" not in html.lower():
+        return False
+    from .spider.jsonld import blocks, walk
+
+    return any(True for document in blocks(html) for _ in walk(document))
 
 
 def _clean_token(part: str) -> str:
