@@ -207,6 +207,26 @@ Each source is scored and written as it finishes, so Ctrl-C costs at most the
 source in flight and re-running skips what is already scored. The log numbers
 each source, which a run of several hundred needs to be readable at all.
 
+To leave one running overnight, `scripts/overnight.sh` wraps that up:
+
+```bash
+scripts/overnight.sh                       # every enabled source
+scripts/overnight.sh --source-type browser # only the slow rendered pages
+scripts/overnight.sh --alerts              # send the digest at the end too
+```
+
+It checks everything before launching anything — the venv, `setup.json`, that
+targets are enabled, that Playwright is installed when a `browser` target is
+configured — because the failure worth avoiding is finding at breakfast that
+nothing ran. It reports the source breakdown and whether search terms are set,
+then detaches with `setsid` so closing the terminal does not kill the run, logs
+to `logs/overnight-<timestamp>.log`, and writes the pid to `logs/overnight.pid`.
+
+Sleep is inhibited where that is possible. Being on PATH is not enough to
+assume: `systemd-inhibit` without a systemd user bus exits immediately and takes
+the run with it, so it is tried for real first and skipped with a note if it
+does not work.
+
 ### Narrowing a corporate board
 
 A corporate careers site is not a startup board. Thales, Airbus, Accenture and
