@@ -387,3 +387,59 @@ def test_workday_never_asks_for_more_than_twenty_at_a_time():
     postings = _run(WorkdayConnector, "acme.wd1.myworkdayjobs.com/careers")
     assert seen_limits and all(limit <= 20 for limit in seen_limits)
     assert len(postings) == 25, "it must page rather than stop at the cap"
+
+
+@pytest.mark.parametrize(
+    ("token", "expected"),
+    [
+        # A tenant resolves to exactly one host.
+        ("acme", ["https://acme.teamtailor.com/jobs.rss"]),
+        # A custom domain does not. A real run proposed the company's own
+        # marketing host, which serves no feed; www is dropped and the two
+        # conventional career hosts are tried after it.
+        (
+            "www.exotrail.com",
+            [
+                "https://exotrail.com/jobs.rss",
+                "https://careers.exotrail.com/jobs.rss",
+                "https://jobs.exotrail.com/jobs.rss",
+            ],
+        ),
+        (
+            "careers.sateliot.com",
+            [
+                "https://careers.sateliot.com/jobs.rss",
+                "https://careers.careers.sateliot.com/jobs.rss",
+                "https://jobs.careers.sateliot.com/jobs.rss",
+            ],
+        ),
+        ("https://leaf.space/", [
+            "https://leaf.space/jobs.rss",
+            "https://careers.leaf.space/jobs.rss",
+            "https://jobs.leaf.space/jobs.rss",
+        ]),
+    ],
+)
+def test_teamtailor_tries_the_plausible_career_hosts(token, expected):
+    from acide.spider.teamtailor import feed_urls
+
+    assert feed_urls(token) == expected
+
+
+@respx.mock
+def test_teamtailor_falls_through_to_a_careers_subdomain():
+    """www.exotrail.com serves no feed; careers.exotrail.com does."""
+    respx.get("https://exotrail.com/jobs.rss").mock(return_value=httpx.Response(404))
+    respx.get("https://careers.exotrail.com/jobs.rss").mock(
+        return_value=httpx.Response(200, text=TEAMTAILOR_RSS)
+    )
+    postings = _run(TeamtailorConnector, "www.exotrail.com")
+    assert len(postings) == 2
+
+
+@respx.mock
+def test_teamtailor_reports_the_failure_when_no_host_serves_a_feed():
+    for host in ("acme.example", "careers.acme.example", "jobs.acme.example"):
+        respx.get(f"https://{host}/jobs.rss").mock(return_value=httpx.Response(404))
+    with pytest.raises(ConnectorError, match="career-site host"):
+        _run(TeamtailorConnector, "acme.example")

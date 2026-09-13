@@ -178,15 +178,16 @@ def _verify_personio(client: httpx.Client, token: str) -> int | None:
 
 
 def _verify_teamtailor(client: httpx.Client, token: str) -> int | None:
-    from .spider.teamtailor import feed_url
+    from .spider.teamtailor import feed_urls
 
-    try:
-        response = client.get(feed_url(token), params={"per_page": "200"})
-    except httpx.HTTPError:
-        return None
-    if response.status_code != 200 or "<item" not in response.text:
-        return None
-    return response.text.count("<item")
+    for url in feed_urls(token):
+        try:
+            response = client.get(url, params={"per_page": "200"})
+        except httpx.HTTPError:
+            continue
+        if response.status_code == 200 and "<item" in response.text:
+            return response.text.count("<item")
+    return None
 
 
 def _verify_jsonld(client: httpx.Client, token: str) -> int | None:

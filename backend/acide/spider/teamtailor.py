@@ -35,14 +35,41 @@ from .base import Connector, ConnectorError, iso_date, register, strip_html
 PAGE_SIZE = 200
 
 
-def feed_url(token: str) -> str:
-    """Where this career site's RSS lives."""
+def feed_urls(token: str) -> list[str]:
+    """Where this career site's RSS might live, most likely first.
+
+    A tenant resolves to exactly one host. A custom domain does not: when the
+    tenant appears nowhere in the markup, discovery falls back to the page's
+    own host — and that page is often the company's marketing site rather than
+    its career site. A real run proposed `www.exotrail.com` and
+    `www.aerospace-jobs.sener` this way, and neither serves the feed.
+
+    So `www.` is dropped and the two conventional career hosts are tried after
+    the given one. Three requests at worst, and every candidate is confirmed
+    before anything is written.
+    """
     host = token.strip().rstrip("/")
     if "://" in host:
         host = host.split("://", 1)[1]
+    host = host.split("/")[0]
     if "." not in host:
-        host = f"{host}.teamtailor.com"
-    return f"https://{host}/jobs.rss"
+        return [f"https://{host}.teamtailor.com/jobs.rss"]
+
+    if host.lower().startswith("www."):
+        host = host[4:]
+    candidates = [host, f"careers.{host}", f"jobs.{host}"]
+    seen: set[str] = set()
+    urls: list[str] = []
+    for candidate in candidates:
+        if candidate not in seen:
+            seen.add(candidate)
+            urls.append(f"https://{candidate}/jobs.rss")
+    return urls
+
+
+def feed_url(token: str) -> str:
+    """The most likely feed host for this token."""
+    return feed_urls(token)[0]
 
 
 @register
@@ -50,8 +77,7 @@ class TeamtailorConnector(Connector):
     source_type = "teamtailor"
     token_hint = "Career site host, e.g. acme (for acme.teamtailor.com) or careers.acme.com"
 
-    def fetch(self, target: TargetSource) -> Iterable[RawPosting]:
-        url = feed_url(target.board_token)
+    def _fetch_feed(self, url: str) -> str:
         self._throttle()
         try:
             response = self.client.get(url, params={"per_page": str(PAGE_SIZE)})
@@ -64,9 +90,24 @@ class TeamtailorConnector(Connector):
             )
         if response.status_code >= 400:
             raise ConnectorError(f"{url}: HTTP {response.status_code}")
+        return response.text
+
+    def fetch(self, target: TargetSource) -> Iterable[RawPosting]:
+        candidates = feed_urls(target.board_token)
+        last_error: ConnectorError | None = None
+        body, url = "", candidates[0]
+        for candidate in candidates:
+            try:
+                body = self._fetch_feed(candidate)
+                url = candidate
+                break
+            except ConnectorError as exc:
+                last_error = exc
+        if not body:
+            raise last_error or ConnectorError(f"{url}: empty feed")
 
         try:
-            root = ElementTree.fromstring(response.text)
+            root = ElementTree.fromstring(body)
         except ElementTree.ParseError as exc:
             raise ConnectorError(f"{url}: response was not valid RSS ({exc})") from exc
 
