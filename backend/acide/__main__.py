@@ -402,6 +402,67 @@ def _probe(args: argparse.Namespace) -> int:
     return 0
 
 
+def _adopt_browser(args: argparse.Namespace) -> int:
+    """Turn the pages a probe could not read into rendered targets."""
+    import json
+
+    from . import config as config_module
+    from .probe import browser_targets, report_from_json
+    from .watchlist import add_targets
+
+    source = Path(args.file).expanduser()
+    if not source.exists():
+        print(f"no such file: {source}\n  looked relative to {Path.cwd()}", file=sys.stderr)
+        return 1
+    try:
+        payload = json.loads(source.read_text("utf-8"))
+    except (OSError, ValueError) as exc:
+        print(f"could not read {source}: {exc}", file=sys.stderr)
+        return 1
+    if not isinstance(payload, dict) or "probes" not in payload:
+        print(
+            f"{source} is not a probe report. Run `acide probe` first:\n"
+            "  acide probe data/import-report.json",
+            file=sys.stderr,
+        )
+        return 1
+
+    candidates = list(
+        browser_targets(report_from_json(payload), include_refusals=not args.skip_refusals)
+    )
+    if args.category:
+        print("--category is not available here; a probe report carries no categories.",
+              file=sys.stderr)
+    if args.limit:
+        candidates = candidates[: args.limit]
+
+    if not candidates:
+        print("nothing to adopt — no page in that report needs rendering.")
+        return 0
+
+    print(f"{len(candidates)} careers page(s) would be indexed by rendering them:")
+    for target in candidates:
+        print(f"  {target.company}")
+        print(f"      {target.board_token}")
+
+    if not args.apply:
+        print(
+            "\nNothing was saved. Re-run with --apply to add these to setup.json."
+            "\nRendering is slow — try a handful first with --limit 5."
+        )
+        return 0
+
+    config = config_module.load(refresh=True)
+    before = len(config.targets)
+    config.targets = add_targets(config.targets, candidates)
+    config_module.save(config)
+    added = len(config.targets) - before
+    print(f"\nsetup.json now has {len(config.targets)} targets ({added} added).")
+    if added:
+        print("Install the browser if you have not: playwright install chromium")
+    return 0
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(prog="acide", description="Run the ACIDE-Watch portal.")
     subparsers = parser.add_subparsers(dest="command")
@@ -524,6 +585,29 @@ def main() -> None:
     prober.add_argument("--report", help="where to write the JSON report")
     prober.add_argument("-v", "--verbose", action="store_true", help="log each page")
     prober.set_defaults(func=_probe)
+
+    adopter = subparsers.add_parser(
+        "adopt-browser",
+        help="add rendered targets for the pages a probe could not read",
+        description=(
+            "Reads a probe report and configures the pages that need rendering "
+            "as `browser` targets. These are indexed by opening the careers "
+            "page in a browser and reading its job list, which is slower than "
+            "any API — try a handful with --limit first."
+        ),
+    )
+    adopter.add_argument("file", help="a probe report from `acide probe`")
+    adopter.add_argument(
+        "--apply", action="store_true", help="write the targets into setup.json"
+    )
+    adopter.add_argument("--limit", type=int, help="adopt only this many")
+    adopter.add_argument(
+        "--skip-refusals",
+        action="store_true",
+        help="only pages that need JavaScript, not those that refused a plain request",
+    )
+    adopter.add_argument("--category", help=argparse.SUPPRESS)
+    adopter.set_defaults(func=_adopt_browser)
 
     args = parser.parse_args()
     handler = getattr(args, "func", _serve)

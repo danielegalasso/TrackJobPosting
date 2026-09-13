@@ -506,10 +506,20 @@ def merge_targets(
     An existing target wins: the operator may have corrected a token or
     disabled a company deliberately, and an import should not undo that.
     """
+    return add_targets(existing, (item.as_target() for item in resolved))
+
+
+def add_targets(
+    existing: Iterable[TargetSource], incoming: Iterable[TargetSource]
+) -> list[TargetSource]:
+    """Append targets that are not already configured.
+
+    Keyed on source type and token, so the same careers page adopted twice —
+    or a board already reached another way — is not indexed twice.
+    """
     merged = list(existing)
     seen = {(target.source_type, target.board_token.lower()) for target in merged}
-    for item in resolved:
-        target = item.as_target()
+    for target in incoming:
         key = (target.source_type, target.board_token.lower())
         if key in seen:
             continue

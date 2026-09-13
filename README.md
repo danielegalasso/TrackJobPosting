@@ -357,6 +357,19 @@ Nothing is written and no board is contacted — it is a dry run of discovery,
 and the last row is the only one a browser pass would help with. `--all` probes
 a whole companies list rather than only the unresolved entries of a report.
 
+The last row is also what `browser` indexing is for, so the probe's own report
+feeds it:
+
+```bash
+backend/.venv/bin/acide adopt-browser data/probe-report.json --limit 5
+backend/.venv/bin/acide adopt-browser data/probe-report.json --limit 5 --apply
+```
+
+Only pages with no cheaper answer are offered: one that links a board should be
+re-imported instead, because an API beats rendering, and a dead page has no
+answer at all. It is a dry run until `--apply`, and adopting the same page twice
+adds nothing.
+
 ### When the list itself has rotted
 
 A hand-researched list decays. On a real 631-entry list, 136 careers URLs

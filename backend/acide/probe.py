@@ -203,3 +203,37 @@ def probe_all(
     finally:
         if owns_client:
             client.close()
+
+
+#: Verdicts worth handing to the rendering source. A page that links a board
+#: or publishes its own postings should be re-imported instead — it has a
+#: cheaper answer — and a dead page has no answer at all.
+ADOPTABLE = ("needs a browser", "refuses plain HTTP")
+
+
+def browser_targets(report: ProbeReport, *, include_refusals: bool = True):
+    """Rendered targets for the pages a probe could not read any other way.
+
+    A refusal is included by default: the page loads in a browser, which is
+    precisely what this source has.
+    """
+    from .models import TargetSource
+
+    wanted = ADOPTABLE if include_refusals else ("needs a browser",)
+    for probe in report.probes:
+        if probe.verdict in wanted and probe.careers_page:
+            yield TargetSource(
+                company=probe.organization,
+                source_type="browser",
+                board_token=probe.careers_page,
+                enabled=True,
+            )
+
+
+def report_from_json(payload: dict) -> ProbeReport:
+    """A ProbeReport read back from its own JSON."""
+    return ProbeReport(probes=[
+        Probe(**{key: entry.get(key) for key in Probe.__dataclass_fields__ if key in entry})
+        for entry in payload.get("probes", [])
+        if isinstance(entry, dict)
+    ])

@@ -241,3 +241,125 @@ def test_a_report_carries_the_previous_detail_into_the_probe(tmp_path):
     ]}))
     [org] = organizations_from_report(path)
     assert org.previous_detail == "no ATS link found on the page"
+
+
+# ---------------------------------------------------------------------------
+# Adopting the pages nothing else can read
+# ---------------------------------------------------------------------------
+def test_only_pages_with_no_cheaper_answer_are_adopted():
+    """A page that links a board should be re-imported, not rendered: an API
+    is cheaper and stronger. A dead page has no answer at all."""
+    from acide.probe import browser_targets
+
+    report = ProbeReport(probes=[
+        Probe(organization="Renders", careers_page="https://a/careers",
+              verdict="needs a browser"),
+        Probe(organization="Refuses", careers_page="https://b/careers",
+              verdict="refuses plain HTTP"),
+        Probe(organization="HasBoard", careers_page="https://c/careers",
+              verdict="links a board we can read", source_type="breezy", board_token="c"),
+        Probe(organization="Structured", careers_page="https://d/careers",
+              verdict="publishes its own postings", source_type="jsonld", board_token="https://d"),
+        Probe(organization="Dead", careers_page="https://e/careers", verdict="HTTP 404"),
+        Probe(organization="Platform", careers_page="https://f/careers",
+              verdict="runs on successfactors"),
+        Probe(organization="NoUrl", careers_page="", verdict="needs a browser"),
+    ])
+    targets = list(browser_targets(report))
+    assert [t.company for t in targets] == ["Renders", "Refuses"]
+    assert all(t.source_type == "browser" for t in targets)
+    assert targets[0].board_token == "https://a/careers"
+
+
+def test_refusals_can_be_left_out():
+    from acide.probe import browser_targets
+
+    report = ProbeReport(probes=[
+        Probe(organization="Renders", careers_page="https://a/c", verdict="needs a browser"),
+        Probe(organization="Refuses", careers_page="https://b/c", verdict="refuses plain HTTP"),
+    ])
+    assert [t.company for t in browser_targets(report, include_refusals=False)] == ["Renders"]
+
+
+def test_a_report_round_trips_through_its_own_json():
+    from acide.probe import report_from_json
+
+    original = ProbeReport(probes=[
+        Probe(organization="A", careers_page="https://a/c", verdict="needs a browser",
+              status=200, note="no ATS link found on the page"),
+    ])
+    back = report_from_json(json.loads(original.to_json()))
+    assert back.probes == original.probes
+
+
+def test_adopting_is_a_dry_run_until_apply(tmp_path, monkeypatch, capsys):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    report = tmp_path / "probe.json"
+    report.write_text(ProbeReport(probes=[
+        Probe(organization="Spazio", careers_page="https://spazio.example/careers",
+              verdict="needs a browser"),
+    ]).to_json())
+
+    monkeypatch.setattr("sys.argv", ["acide", "adopt-browser", str(report)])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 0
+    printed = capsys.readouterr().out
+    assert "Spazio" in printed
+    assert "Nothing was saved" in printed
+    assert config_module.load(refresh=True).targets == []
+
+    monkeypatch.setattr("sys.argv", ["acide", "adopt-browser", str(report), "--apply"])
+    with pytest.raises(SystemExit):
+        main()
+    [target] = config_module.load(refresh=True).targets
+    assert (target.company, target.source_type) == ("Spazio", "browser")
+    assert target.board_token == "https://spazio.example/careers"
+
+
+def test_adopting_twice_does_not_duplicate_a_target(tmp_path, monkeypatch):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    report = tmp_path / "probe.json"
+    report.write_text(ProbeReport(probes=[
+        Probe(organization="Spazio", careers_page="https://spazio.example/careers",
+              verdict="needs a browser"),
+    ]).to_json())
+    for _ in range(2):
+        monkeypatch.setattr("sys.argv", ["acide", "adopt-browser", str(report), "--apply"])
+        with pytest.raises(SystemExit):
+            main()
+    assert len(config_module.load(refresh=True).targets) == 1
+
+
+def test_the_limit_is_respected(tmp_path, monkeypatch, capsys):
+    from acide.__main__ import main
+
+    report = tmp_path / "probe.json"
+    report.write_text(ProbeReport(probes=[
+        Probe(organization=f"Co {n}", careers_page=f"https://c{n}.example/careers",
+              verdict="needs a browser")
+        for n in range(10)
+    ]).to_json())
+    monkeypatch.setattr(
+        "sys.argv", ["acide", "adopt-browser", str(report), "--limit", "3"]
+    )
+    with pytest.raises(SystemExit):
+        main()
+    assert "3 careers page(s)" in capsys.readouterr().out
+
+
+def test_an_import_report_is_rejected_with_the_command_to_run(tmp_path, monkeypatch, capsys):
+    """The two reports look similar enough to be confused."""
+    from acide.__main__ import main
+
+    wrong = tmp_path / "import-report.json"
+    wrong.write_text(json.dumps({"resolved": [], "unresolved": []}))
+    monkeypatch.setattr("sys.argv", ["acide", "adopt-browser", str(wrong)])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 1
+    assert "acide probe" in capsys.readouterr().err
