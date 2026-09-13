@@ -73,10 +73,14 @@ class ProbeReport:
         structured = sum(
             1 for probe in self.probes if probe.has_structured_postings
         )
-        return (
+        refusals = sum(1 for probe in self.probes if probe.verdict == "refuses plain HTTP")
+        line = (
             f"{resolvable} of {len(self.probes)} would resolve now "
             f"({structured} publish their own structured postings)"
         )
+        if refusals:
+            line += f"; {refusals} refused this plain request but load in a browser"
+        return line
 
     def to_json(self) -> str:
         return json.dumps(
@@ -93,7 +97,20 @@ class ProbeReport:
         )
 
 
-def probe_one(client: httpx.Client, organization: str, careers_page: str) -> Probe:
+#: Phrases in an earlier run's detail meaning the browser did fetch the page.
+_BROWSER_SAW_THE_PAGE = ("no ATS link found", "runs on ", "did not answer")
+
+
+def _browser_loaded_it(previous_detail: str) -> bool:
+    return any(mark in previous_detail for mark in _BROWSER_SAW_THE_PAGE)
+
+
+def probe_one(
+    client: httpx.Client,
+    organization: str,
+    careers_page: str,
+    previous_detail: str = "",
+) -> Probe:
     """Fetch one careers page and say what discovery would now make of it."""
     result = Probe(organization=organization, careers_page=careers_page)
     if not careers_page:
@@ -103,13 +120,26 @@ def probe_one(client: httpx.Client, organization: str, careers_page: str) -> Pro
     try:
         response = client.get(careers_page, headers={"Accept": "text/html"})
     except httpx.HTTPError as exc:
-        result.verdict = "unreachable"
+        result.verdict = (
+            "refuses plain HTTP" if _browser_loaded_it(previous_detail) else "unreachable"
+        )
         result.note = str(exc)[:160]
         return result
 
     result.status = response.status_code
     if response.status_code >= 400:
-        result.verdict = f"HTTP {response.status_code}"
+        # A 404 or 403 here is not proof the page is gone. Plenty of sites
+        # answer anything that is not a real browser with one — some with 404
+        # rather than 403, which reads as "deleted" and is not. When an
+        # earlier browser run did fetch this page, say which it was.
+        if _browser_loaded_it(previous_detail):
+            result.verdict = "refuses plain HTTP"
+            result.note = (
+                f"HTTP {response.status_code} to a plain request, but a browser "
+                "loaded this page — the page is there, the request was refused"
+            )
+        else:
+            result.verdict = f"HTTP {response.status_code}"
         return result
 
     html = response.text
@@ -158,6 +188,7 @@ def probe_all(
             client,
             getattr(org, "organization", "?"),
             getattr(org, "careers_page", "") or "",
+            getattr(org, "previous_detail", "") or "",
         )
         if on_log:
             if outcome.resolvable:

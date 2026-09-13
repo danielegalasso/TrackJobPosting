@@ -40,6 +40,10 @@ class Organization:
     website: str = ""
     careers_page: str = ""
     id: int | None = None
+    #: What an earlier run made of this entry, when it came from a report.
+    #: The probe uses it to tell a dead page from one that simply refuses a
+    #: request that is not a browser.
+    previous_detail: str = ""
 
 
 @dataclass
@@ -487,6 +491,7 @@ def organizations_from_report(path: Path | str) -> list[Organization]:
             category=entry.get("category", ""),
             website=entry.get("website", ""),
             careers_page=entry.get("careers_page", ""),
+            previous_detail=entry.get("detail", "") or "",
         )
         for entry in entries
         if entry.get("organization")

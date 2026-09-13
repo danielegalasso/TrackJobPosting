@@ -173,3 +173,71 @@ def test_probe_reads_an_import_report_and_writes_its_own(tmp_path, monkeypatch, 
     assert "no board is contacted" in printed, "it must say it is a dry run"
     payload = json.loads(out.read_text())
     assert payload["probes"][0]["board_token"] == "a-co"
+
+
+# ---------------------------------------------------------------------------
+# A refused request is not a dead page
+# ---------------------------------------------------------------------------
+@respx.mock
+@pytest.mark.parametrize("status", [403, 404, 429])
+def test_a_refusal_is_not_reported_as_a_dead_page(status):
+    """126 of a real 523-page probe answered 4xx on pages a browser had loaded.
+
+    Plenty of sites refuse anything that is not a real browser, and some do it
+    with 404 rather than 403 — which reads as "deleted" and is not.
+    """
+    respx.get("https://acme.example/careers").mock(return_value=httpx.Response(status))
+    with _client() as client:
+        result = probe_one(
+            client, "Acme", "https://acme.example/careers",
+            "no ATS link found on the page",
+        )
+    assert result.verdict == "refuses plain HTTP"
+    assert "a browser loaded this page" in result.note
+    assert str(status) in result.note
+
+
+@respx.mock
+def test_a_page_no_browser_ever_loaded_is_still_reported_as_dead():
+    respx.get("https://acme.example/careers").mock(return_value=httpx.Response(404))
+    with _client() as client:
+        result = probe_one(
+            client, "Acme", "https://acme.example/careers",
+            "careers page returned HTTP 404",
+        )
+    assert result.verdict == "HTTP 404"
+
+
+@respx.mock
+def test_a_connection_failure_on_a_page_the_browser_loaded_is_a_refusal_too():
+    respx.get("https://acme.example/careers").mock(
+        side_effect=httpx.ConnectError("handshake failed")
+    )
+    with _client() as client:
+        refused = probe_one(
+            client, "Acme", "https://acme.example/careers", "runs on successfactors"
+        )
+        genuine = probe_one(client, "Acme", "https://acme.example/careers", "")
+    assert refused.verdict == "refuses plain HTTP"
+    assert genuine.verdict == "unreachable"
+
+
+def test_the_summary_counts_refusals_separately():
+    report = ProbeReport(probes=[
+        Probe(organization="A", careers_page="u", verdict="refuses plain HTTP"),
+        Probe(organization="B", careers_page="v", verdict="needs a browser"),
+    ])
+    assert "1 refused this plain request but load in a browser" in report.summary_line()
+
+
+def test_a_report_carries_the_previous_detail_into_the_probe(tmp_path):
+    """Without it the probe cannot tell the two cases apart at all."""
+    from acide.watchlist import organizations_from_report
+
+    path = tmp_path / "report.json"
+    path.write_text(json.dumps({"resolved": [], "unresolved": [
+        {"organization": "Acme", "careers_page": "https://acme.example/careers",
+         "detail": "no ATS link found on the page"}
+    ]}))
+    [org] = organizations_from_report(path)
+    assert org.previous_detail == "no ATS link found on the page"
