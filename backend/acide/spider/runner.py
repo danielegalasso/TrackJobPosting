@@ -99,6 +99,8 @@ def _collect(targets, config: SetupConfig, summary: SpiderRunSummary) -> list[Ra
                 client,
                 request_delay=config.spider.request_delay_seconds,
                 max_jobs=config.spider.max_jobs_per_source,
+                # A per-target list wins; otherwise the global one applies.
+                search_terms=target.search_terms or config.spider.search_terms,
                 on_log=bus.publish,
             )
             try:

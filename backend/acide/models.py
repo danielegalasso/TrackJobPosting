@@ -144,6 +144,9 @@ class TargetSource(BaseModel):
     source_type: SourceType
     board_token: str
     enabled: bool = True
+    #: Overrides the global search terms for this board alone. Useful when one
+    #: employer's titles use a vocabulary of their own.
+    search_terms: list[str] = Field(default_factory=list)
 
 
 class SpiderConfig(BaseModel):
@@ -152,7 +155,17 @@ class SpiderConfig(BaseModel):
     enabled: bool = False
     interval_minutes: int = Field(default=360, ge=15)
     request_delay_seconds: float = Field(default=1.5, ge=0.5)
-    max_jobs_per_source: int = Field(default=120, ge=1, le=1000)
+    max_jobs_per_source: int = Field(default=120, ge=1, le=5000)
+    #: Only index postings whose title contains one of these, case-insensitive.
+    #: Empty means index everything.
+    #:
+    #: This is what makes a corporate board usable. Thales, Airbus, Accenture
+    #: and Booz Allen each publish two thousand roles worldwide; without terms,
+    #: max_jobs_per_source spends itself on an arbitrary slice and the
+    #: evaluator is billed for every one. With them, the board's *own* search
+    #: is used where the provider has one, so only relevant roles are ever
+    #: fetched.
+    search_terms: list[str] = Field(default_factory=list)
     user_agent: str = (
         "ACIDE-Watch/2.0 (self-hosted job alert agent; "
         "+https://github.com/danielegalasso/TrackJobPosting)"

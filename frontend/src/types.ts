@@ -147,6 +147,7 @@ export interface AppConfig {
     interval_minutes: number;
     request_delay_seconds: number;
     max_jobs_per_source: number;
+    search_terms: string[];
     user_agent: string;
   };
   admin_email: string;

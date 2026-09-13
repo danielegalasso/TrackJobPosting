@@ -27,6 +27,8 @@ class LeverConnector(Connector):
         postings: list[dict[str, Any]] = payload if isinstance(payload, list) else []
         self.log(f"lever/{target.board_token}: {len(postings)} postings listed")
 
+        postings = [item for item in postings if self.wanted(item.get("text") or "")]
+        self.note_truncation(f"lever/{target.board_token}", len(postings))
         for entry in postings[: self.max_jobs]:
             description = strip_html(
                 entry.get("descriptionPlain") or entry.get("description") or ""

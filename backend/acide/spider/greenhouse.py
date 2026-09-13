@@ -27,6 +27,8 @@ class GreenhouseConnector(Connector):
         jobs: list[dict[str, Any]] = payload.get("jobs", []) if isinstance(payload, dict) else []
         self.log(f"greenhouse/{target.board_token}: {len(jobs)} postings listed")
 
+        jobs = [item for item in jobs if self.wanted(item.get("title") or "")]
+        self.note_truncation(f"greenhouse/{target.board_token}", len(jobs))
         for entry in jobs[: self.max_jobs]:
             description = strip_html(entry.get("content", "") or "")
             amount, currency, rate = parse_compensation(description[:4000])

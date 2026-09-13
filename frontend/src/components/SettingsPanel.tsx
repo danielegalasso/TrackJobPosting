@@ -173,6 +173,10 @@ export function SettingsPanel() {
   const [smtpTest, setSmtpTest] = useState<HandshakeResult>();
   const [testingSmtp, setTestingSmtp] = useState(false);
   const [resumeNote, setResumeNote] = useState('');
+  // The comma-separated field keeps its raw text. Rendering the parsed list
+  // back into the input would strip each comma the moment it was typed, so
+  // the list could never be extended past its first term.
+  const [searchTermsText, setSearchTermsText] = useState<string | null>(null);
 
   useEffect(() => {
     if (data) setDraft(structuredClone(data));
@@ -614,6 +618,46 @@ export function SettingsPanel() {
               onChange={(event) =>
                 patch((next) => {
                   next.spider.interval_minutes = Number(event.target.value);
+                })
+              }
+              className="control pr-3"
+            />
+          </Field>
+        </div>
+
+        <div className="grid grid-cols-2 gap-3">
+          <Field
+            label="Search terms"
+            hint="Comma separated. Only roles whose title matches are indexed; where a provider has its own search — Workday, SmartRecruiters — it does the narrowing. Leave empty to take every posting."
+          >
+            <input
+              type="text"
+              value={searchTermsText ?? draft.spider.search_terms.join(', ')}
+              onChange={(event) => {
+                setSearchTermsText(event.target.value);
+                patch((next) => {
+                  next.spider.search_terms = event.target.value
+                    .split(',')
+                    .map((term) => term.trim())
+                    .filter(Boolean);
+                });
+              }}
+              placeholder="cyber, security, SOC, threat"
+              className="control pr-3"
+            />
+          </Field>
+          <Field
+            label="Max postings per board"
+            hint="A corporate board can hold two thousand roles worldwide. Without search terms the cap is spent on an arbitrary slice."
+          >
+            <input
+              type="number"
+              min={1}
+              max={5000}
+              value={draft.spider.max_jobs_per_source}
+              onChange={(event) =>
+                patch((next) => {
+                  next.spider.max_jobs_per_source = Number(event.target.value);
                 })
               }
               className="control pr-3"

@@ -103,28 +103,51 @@ class WorkdayConnector(Connector):
         except ValueError as exc:
             raise ConnectorError(f"{url}: response was not JSON") from exc
 
-    def fetch(self, target: TargetSource) -> Iterable[RawPosting]:
-        board = parse_board(target.board_token)
-        postings: list[dict[str, Any]] = []
+    def _listing(self, board: Board, query: str) -> Iterable[dict[str, Any]]:
+        """Walk one search of the board, 20 at a time."""
         offset = 0
-        while len(postings) < self.max_jobs:
+        while True:
             payload = self._post_json(
                 board.jobs_url,
                 {
                     "appliedFacets": {},
                     "limit": PAGE_SIZE,
                     "offset": offset,
-                    "searchText": "",
+                    "searchText": query,
                 },
             )
             page = payload.get("jobPostings", []) if isinstance(payload, dict) else []
             if not page:
-                break
-            postings.extend(item for item in page if isinstance(item, dict))
+                return
+            for item in page:
+                if isinstance(item, dict):
+                    yield item
             offset += len(page)
             if len(page) < PAGE_SIZE:
+                return
+
+    def fetch(self, target: TargetSource) -> Iterable[RawPosting]:
+        board = parse_board(target.board_token)
+        # Workday has a real search, so it does the narrowing server-side: a
+        # 2,000-role corporate board becomes a few dozen relevant ones without
+        # walking a hundred pages. Its search covers the advert as well as the
+        # title, so a "Security Engineer" found by searching "cyber" is kept —
+        # no second filter is applied on top.
+        queries = self.search_terms or [""]
+        found: dict[str, dict[str, Any]] = {}
+        for query in queries:
+            for entry in self._listing(board, query):
+                key = str(entry.get("externalPath") or entry.get("title") or len(found))
+                found.setdefault(key, entry)
+                if len(found) >= self.max_jobs:
+                    break
+            if len(found) >= self.max_jobs:
                 break
-        self.log(f"workday/{board.tenant}: {len(postings)} postings listed")
+
+        postings = list(found.values())
+        searched = f" matching {', '.join(queries)}" if self.search_terms else ""
+        self.log(f"workday/{board.tenant}: {len(postings)} postings listed{searched}")
+        self.note_truncation(f"workday/{board.tenant}", len(postings))
 
         for entry in postings[: self.max_jobs]:
             external_path = str(entry.get("externalPath") or "")

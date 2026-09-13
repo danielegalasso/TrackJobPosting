@@ -26,6 +26,24 @@
     "interval_minutes": 360,
     "request_delay_seconds": 1.5,
     "max_jobs_per_source": 120,
+    "search_terms": [
+      "cyber",
+      "security",
+      "infosec",
+      "soc",
+      "siem",
+      "threat",
+      "incident",
+      "vulnerab",
+      "pentest",
+      "penetration",
+      "malware",
+      "forensic",
+      "cryptograph",
+      "red team",
+      "blue team",
+      "appsec"
+    ],
     "user_agent": "ACIDE-Watch/2.0 (self-hosted job alert agent; +https://github.com/danielegalasso/TrackJobPosting)"
   },
   "admin_email": "you@example.com",
@@ -38,6 +56,8 @@
   "targets": [
     { "company": "Stripe",     "source_type": "greenhouse", "board_token": "stripe",  "enabled": true },
     { "company": "Ramp",       "source_type": "lever",      "board_token": "ramp",    "enabled": true },
-    { "company": "Linear",     "source_type": "ashby",      "board_token": "linear",  "enabled": false }
+    { "company": "Linear",     "source_type": "ashby",      "board_token": "linear",  "enabled": false },
+    { "company": "Thales",     "source_type": "workday",    "board_token": "thales.wd3.myworkdayjobs.com/Careers", "enabled": false },
+    { "company": "Quantinuum", "source_type": "teamtailor", "board_token": "careers.example.com", "enabled": false, "search_terms": ["quantum", "cryptograph"] }
   ]
 }

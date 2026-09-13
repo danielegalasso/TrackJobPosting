@@ -35,6 +35,8 @@ class RecruiteeConnector(Connector):
         )
         self.log(f"recruitee/{target.board_token}: {len(offers)} postings listed")
 
+        offers = [item for item in offers if self.wanted(item.get("title") or "")]
+        self.note_truncation(f"recruitee/{target.board_token}", len(offers))
         for entry in offers[: self.max_jobs]:
             # Recruitee splits the advert across description and requirements;
             # the evaluator wants the whole advert, so both are kept.

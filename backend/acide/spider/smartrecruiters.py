@@ -34,20 +34,35 @@ class SmartRecruitersConnector(Connector):
 
     def fetch(self, target: TargetSource) -> Iterable[RawPosting]:
         listing = f"{BASE_URL}/{target.board_token}/postings"
-        entries: list[dict[str, Any]] = []
-        offset = 0
-        while len(entries) < self.max_jobs:
-            payload = self.get_json(
-                listing, params={"limit": str(PAGE_SIZE), "offset": str(offset)}
-            )
-            page = payload.get("content", []) if isinstance(payload, dict) else []
-            if not page:
+        # The API takes a keyword, so the narrowing happens server-side — and
+        # it has to, because the advert needs a second request per posting.
+        queries = self.search_terms or [""]
+        found: dict[str, dict[str, Any]] = {}
+        for query in queries:
+            offset = 0
+            while len(found) < self.max_jobs:
+                params = {"limit": str(PAGE_SIZE), "offset": str(offset)}
+                if query:
+                    params["q"] = query
+                payload = self.get_json(listing, params=params)
+                page = payload.get("content", []) if isinstance(payload, dict) else []
+                if not page:
+                    break
+                for item in page:
+                    if isinstance(item, dict):
+                        found.setdefault(str(item.get("id") or item.get("uuid") or ""), item)
+                offset += len(page)
+                if len(page) < PAGE_SIZE:
+                    break
+            if len(found) >= self.max_jobs:
                 break
-            entries.extend(item for item in page if isinstance(item, dict))
-            offset += len(page)
-            if len(page) < PAGE_SIZE:
-                break
-        self.log(f"smartrecruiters/{target.board_token}: {len(entries)} postings listed")
+
+        entries = list(found.values())
+        searched = f" matching {', '.join(queries)}" if self.search_terms else ""
+        self.log(
+            f"smartrecruiters/{target.board_token}: {len(entries)} postings listed{searched}"
+        )
+        self.note_truncation(f"smartrecruiters/{target.board_token}", len(entries))
 
         for entry in entries[: self.max_jobs]:
             posting_id = str(entry.get("id") or entry.get("uuid") or "")

@@ -40,13 +40,48 @@ class Connector(ABC):
         *,
         request_delay: float = 1.5,
         max_jobs: int = 120,
+        search_terms: Iterable[str] = (),
         on_log: Callable[[str, str], None] | None = None,
     ) -> None:
         self.client = client
         self.request_delay = request_delay
         self.max_jobs = max_jobs
+        #: Lower-cased, blanks dropped. Empty means keep everything.
+        self.search_terms = [
+            term.strip().lower() for term in search_terms if term and term.strip()
+        ]
         self._on_log = on_log
         self._last_request = 0.0
+
+    # -- relevance ----------------------------------------------------------
+    def wanted(self, title: str, *also: str) -> bool:
+        """Does this posting match the configured search terms?
+
+        Applied to the *listing* wherever a provider gives titles before
+        adverts, so a board of two thousand roles costs one listing walk
+        rather than two thousand detail fetches.
+        """
+        if not self.search_terms:
+            return True
+        haystack = " ".join([title, *also]).lower()
+        return any(term in haystack for term in self.search_terms)
+
+    def note_truncation(self, board: str, listed: int) -> None:
+        """Say so when a board is larger than the cap allows.
+
+        Silently indexing an arbitrary 120 of 2,000 roles looks like a working
+        board with strangely irrelevant postings.
+        """
+        if listed > self.max_jobs:
+            extra = (
+                " Set spider.search_terms to index the relevant ones instead"
+                if not self.search_terms
+                else " Raise spider.max_jobs_per_source, or narrow search_terms"
+            )
+            self.log(
+                f"{board}: {listed} postings listed, indexing {self.max_jobs}.{extra}",
+                "warning",
+            )
 
     # -- politeness ---------------------------------------------------------
     def _throttle(self) -> None:

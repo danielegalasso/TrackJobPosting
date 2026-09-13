@@ -112,6 +112,40 @@ Workday carry no advert text in their listings, so each posting's own
 document is fetched for it — a posting whose advert cannot be read is still
 reported, with its title, rather than dropped.
 
+### Narrowing a corporate board
+
+A corporate careers site is not a startup board. Thales, Airbus, Accenture and
+Booz Allen each publish around two thousand roles worldwide, and Workday caps
+its own reported total at 2,000 — so the real number may be higher. Indexing
+`max_jobs_per_source` of those gives an arbitrary slice, and every one of them
+is sent to the evaluator and billed for.
+
+`spider.search_terms` fixes that. Only roles whose title contains one of the
+terms are indexed, case-insensitively, as substrings — so `cyber` catches
+*Cybersecurity Engineer* and *Cyber Defence Analyst*:
+
+```json
+"spider": {
+  "search_terms": ["cyber", "security", "soc", "threat", "incident", "pentest"]
+}
+```
+
+Where the provider has a search of its own — **Workday** and
+**SmartRecruiters** — the narrowing happens server-side: one request per term
+instead of walking a hundred pages, and their search covers the advert as well
+as the title, so a *Security Engineer* found by searching `cyber` is kept.
+Everywhere else the filter is applied to the listing, before any per-posting
+request, so a large board costs one listing rather than hundreds of fetches.
+
+Filtering happens **before** the cap, which is the whole point: a cap of 120
+against a board whose first 120 roles are all logistics would otherwise yield
+nothing relevant at all. A board bigger than the cap says so in the log rather
+than quietly truncating.
+
+Leave `search_terms` empty to take every posting. A single target can override
+the global list with its own `search_terms`, for an employer whose titles use a
+vocabulary of their own.
+
 ### Importing a list of companies
 
 If you already have a curated list, hand it over instead of typing tokens:

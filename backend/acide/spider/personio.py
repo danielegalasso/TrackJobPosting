@@ -75,6 +75,9 @@ class PersonioConnector(Connector):
         self.log(f"personio/{target.board_token}: {len(positions)} postings listed")
         base = used.rsplit("/xml", 1)[0]
 
+        positions = [p for p in positions if self.wanted(_text(p, "name"))]
+        self.note_truncation(f"personio/{target.board_token}", len(positions))
+
         for position in positions[: self.max_jobs]:
             job_id = _text(position, "id")
             description = strip_html(_description(position))

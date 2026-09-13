@@ -73,6 +73,9 @@ class TeamtailorConnector(Connector):
         items = root.findall(".//item")
         self.log(f"teamtailor/{target.board_token}: {len(items)} postings listed")
 
+        items = [i for i in items if self.wanted(_text(i, "title"))]
+        self.note_truncation(f"teamtailor/{target.board_token}", len(items))
+
         for item in items[: self.max_jobs]:
             link = _text(item, "link")
             description = strip_html(_text(item, "description"))

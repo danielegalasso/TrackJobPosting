@@ -39,6 +39,7 @@ function config(overrides: Partial<AppConfig> = {}): AppConfig {
       interval_minutes: 360,
       request_delay_seconds: 1.5,
       max_jobs_per_source: 120,
+      search_terms: [],
       user_agent: 'ACIDE-Watch/2.0',
     },
     admin_email: '',
@@ -184,5 +185,28 @@ describe('SettingsPanel', () => {
     const sent = save.mock.calls[0][0] as AppConfig;
     expect(sent.email.smtp_port).toBe(2525);
     expect(sent.email.security).toBe('ssl');
+  });
+
+  it('saves search terms as a list, trimmed and without blanks', async () => {
+    // A corporate board holds two thousand roles worldwide; these are what
+    // keep the cap, and the evaluator's bill, spent on relevant ones.
+    stub();
+    const save = vi.spyOn(api, 'saveConfig').mockImplementation(async (c) => c as AppConfig);
+    renderWithQuery(<SettingsPanel />);
+    await screen.findByText('Career feeds');
+
+    await userEvent.type(screen.getByLabelText('Search terms'), 'cyber,  security , ,SOC');
+    await userEvent.click(screen.getByRole('button', { name: /Save settings/ }));
+
+    await waitFor(() => expect(save).toHaveBeenCalled());
+    const sent = save.mock.calls[0][0] as AppConfig;
+    expect(sent.spider.search_terms).toEqual(['cyber', 'security', 'SOC']);
+  });
+
+  it('shows stored search terms as a comma separated list', async () => {
+    stub({ spider: { ...config().spider, search_terms: ['cyber', 'threat'] } });
+    renderWithQuery(<SettingsPanel />);
+    await screen.findByText('Career feeds');
+    expect(screen.getByLabelText('Search terms')).toHaveValue('cyber, threat');
   });
 });
