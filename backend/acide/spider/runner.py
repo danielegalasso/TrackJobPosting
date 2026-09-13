@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import contextlib
 import threading
+from collections.abc import Callable
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import UTC, datetime
 
@@ -62,9 +63,28 @@ def run_once(config: SetupConfig | None = None, *, send_alerts: bool = True) -> 
             )
 
         bus.publish(f"Inspection started across {len(targets)} source(s).", "info")
-        postings = _collect(targets, config, summary)
-        if postings:
-            _score(postings, config, cv_text, summary)
+
+        # Score and persist each source as it finishes, rather than collecting
+        # everything and scoring at the end. A list of several hundred sources
+        # — rendered careers pages especially — takes hours, and holding all of
+        # it in memory means an interruption at hour four loses hour one. This
+        # way a stop costs at most the source in flight, and matches appear in
+        # the portal while the run is still going.
+        with contextlib.ExitStack() as stack:
+            scorer = None
+            if config.openrouter.api_key:
+                scorer = stack.enter_context(OpenRouterClient(config))
+            else:
+                summary.errors.append(
+                    "no OpenRouter API key configured — postings were not scored"
+                )
+                bus.publish("No OpenRouter API key configured; skipping scoring.", "error")
+
+            def score_batch(batch: list[RawPosting]) -> None:
+                if scorer is not None and batch:
+                    _score(batch, config, cv_text, summary, scorer)
+
+            _collect(targets, config, summary, on_batch=score_batch)
 
         if send_alerts:
             summary.alerts_sent = alerts_module.dispatch_pending(config)
@@ -125,16 +145,27 @@ def _rendering_session(targets, config: SetupConfig):
         yield None
 
 
-def _collect(targets, config: SetupConfig, summary: SpiderRunSummary) -> list[RawPosting]:
-    """Fetch every enabled board and keep only postings we have not scored."""
+def _collect(
+    targets,
+    config: SetupConfig,
+    summary: SpiderRunSummary,
+    on_batch: Callable[[list[RawPosting]], None] | None = None,
+) -> list[RawPosting]:
+    """Fetch every enabled board and keep only postings we have not scored.
+
+    `on_batch` is called with each source's new postings as that source
+    finishes, so a long run persists progressively. Without it the postings
+    are accumulated and returned, which is only useful for a short run.
+    """
     unseen: list[RawPosting] = []
+    total = len(targets)
     headers = {"User-Agent": config.spider.user_agent, "Accept": "application/json"}
 
     with (
         httpx.Client(timeout=DEFAULT_TIMEOUT, headers=headers, follow_redirects=True) as client,
         _rendering_session(targets, config) as rendering,
     ):
-        for target in targets:
+        for index, target in enumerate(targets, start=1):
             try:
                 connector_cls = get_connector(target.source_type)
             except ConnectorError as exc:
@@ -170,11 +201,15 @@ def _collect(targets, config: SetupConfig, summary: SpiderRunSummary) -> list[Ra
             known = db.known_external_ids(target.source_type, target.company)
             fresh = [posting for posting in fetched if posting.external_id not in known]
             summary.postings_new += len(fresh)
-            unseen.extend(fresh)
             bus.publish(
-                f"{target.company}: {len(fetched)} listed, {len(fresh)} new since last run.",
+                f"[{index}/{total}] {target.company}: {len(fetched)} listed, "
+                f"{len(fresh)} new since last run.",
                 "info",
             )
+            if on_batch is None:
+                unseen.extend(fresh)
+            else:
+                on_batch(fresh)
     return unseen
 
 
@@ -183,8 +218,13 @@ def _score(
     config: SetupConfig,
     cv_text: str,
     summary: SpiderRunSummary,
+    client: OpenRouterClient | None = None,
 ) -> None:
-    """Evaluate new postings in parallel and persist the verdicts."""
+    """Evaluate new postings in parallel and persist the verdicts.
+
+    `client` is shared across a whole run: several hundred sources would
+    otherwise open and close one connection pool each.
+    """
     if not config.openrouter.api_key:
         summary.errors.append("no OpenRouter API key configured — postings were not scored")
         bus.publish("No OpenRouter API key configured; skipping scoring.", "error")
@@ -193,7 +233,10 @@ def _score(
     bus.publish(f"Scoring {len(postings)} new posting(s) via {config.openrouter.model}.", "info")
     workers = max(1, min(config.openrouter.max_concurrency, len(postings)))
 
-    with OpenRouterClient(config) as client, ThreadPoolExecutor(max_workers=workers) as pool:
+    with contextlib.ExitStack() as stack:
+        if client is None:
+            client = stack.enter_context(OpenRouterClient(config))
+        pool = stack.enter_context(ThreadPoolExecutor(max_workers=workers))
         futures = {
             pool.submit(client.evaluate, posting, cv_text): posting for posting in postings
         }

@@ -213,3 +213,67 @@ def test_disabled_targets_are_skipped(monkeypatch):
     summary = runner.run_once(config, send_alerts=False)
     assert summary.sources_polled == 0
     assert summary.errors == ["no enabled targets configured"]
+
+
+@respx.mock
+def test_a_source_that_fails_does_not_cost_the_ones_already_scored():
+    """A run over several hundred sources takes hours, rendered careers pages
+    most of all. Collecting everything before scoring meant an interruption at
+    hour four lost hour one; each source is now persisted as it finishes, so a
+    failure costs only the source in flight."""
+    _mock_board()
+    respx.get("https://api.lever.co/v0/postings/broken").mock(return_value=httpx.Response(500))
+    _mock_gateway()
+
+    config = _config()
+    config.targets = [
+        TargetSource(company="ExampleCorp", source_type="greenhouse", board_token="examplecorp"),
+        TargetSource(company="Broken", source_type="lever", board_token="broken"),
+    ]
+    summary = runner.run_once(config, send_alerts=False)
+
+    # The healthy source reached the database despite the later failure.
+    stored = db.list_jobs(limit=50)
+    companies = {job.company for job in stored.items}
+    assert "ExampleCorp" in companies
+    assert summary.postings_scored >= 1
+    assert any("Broken" in error for error in summary.errors)
+
+
+@respx.mock
+def test_every_source_is_scored_not_only_the_first():
+    """Streaming per source must not drop the later ones."""
+    _mock_board()
+    respx.get("https://boards-api.greenhouse.io/v1/boards/second/jobs").mock(
+        return_value=httpx.Response(200, json={"jobs": [{
+            "id": 99,
+            "title": "Detection Engineer",
+            "content": "<p>Tune rules.</p>",
+            "absolute_url": "https://example.com/99",
+            "location": {"name": "Rome"},
+        }]})
+    )
+    _mock_gateway()
+
+    config = _config()
+    config.targets = [
+        TargetSource(company="ExampleCorp", source_type="greenhouse", board_token="examplecorp"),
+        TargetSource(company="Second", source_type="greenhouse", board_token="second"),
+    ]
+    summary = runner.run_once(config, send_alerts=False)
+
+    assert summary.sources_polled == 2
+    companies = {job.company for job in db.list_jobs(limit=50).items}
+    assert {"ExampleCorp", "Second"} <= companies
+
+
+@respx.mock
+def test_the_progress_log_numbers_each_source():
+    """A run of several hundred is unreadable without it."""
+    from acide.logbus import bus
+
+    _mock_board()
+    _mock_gateway()
+    runner.run_once(_config(), send_alerts=False)
+    lines = [event["message"] for event in bus.history()]
+    assert any("[1/1] ExampleCorp" in line for line in lines), lines
