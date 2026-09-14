@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from datetime import UTC, datetime
 from pathlib import Path
 
 import httpx
@@ -17,6 +18,7 @@ from acide.models import (
     OpenRouterConfig,
     SetupConfig,
     SpiderConfig,
+    SpiderRunSummary,
     TargetSource,
 )
 from acide.spider import runner
@@ -428,6 +430,60 @@ def test_skip_preflight_crawls_without_testing_first(monkeypatch, capsys):
     with pytest.raises(SystemExit):
         main()
     assert "Checking the evaluator" not in capsys.readouterr().out
+
+
+@respx.mock
+def test_no_score_stores_everything_and_calls_nobody():
+    """The hours and the bill are separate: crawl once, judge afterwards."""
+    _mock_board()
+    gateway = respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(500)
+    )
+
+    summary = runner.run_once(_config(), send_alerts=False, score=False)
+
+    assert not gateway.called, "a crawl-only pass must not reach the evaluator"
+    assert summary.postings_new == db.count_unscored() > 0
+    assert summary.postings_scored == 0
+    assert not summary.errors, summary.errors
+
+
+@respx.mock
+def test_no_score_leaves_a_backlog_score_can_finish():
+    """What --no-score stores is exactly what `acide score` later judges."""
+    _mock_board()
+    runner.run_once(_config(), send_alerts=False, score=False)
+    waiting = db.count_unscored()
+
+    _mock_gateway()
+    summary = SpiderRunSummary(started_at=datetime.now(UTC))
+    runner._score(db.unscored_postings(limit=waiting), _config(), "", summary, None)
+
+    assert summary.postings_scored == waiting
+    assert db.count_unscored() == 0
+
+
+@respx.mock
+def test_no_score_needs_no_evaluator_preflight(monkeypatch, capsys):
+    """Testing a model this run will never call would only be a way to fail."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(400, json={"error": {"message": "Invalid schema"}})
+    )
+    config_module.save(_config())
+
+    monkeypatch.setattr("sys.argv", ["acide", "inspect", "--no-alerts", "--no-score"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 0
+
+    printed = capsys.readouterr().out
+    assert "Checking the evaluator" not in printed
+    assert "waiting to be scored" in printed
+    assert "acide score" in printed
 
 
 # ---------------------------------------------------------------------------

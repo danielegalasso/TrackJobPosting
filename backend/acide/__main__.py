@@ -530,15 +530,15 @@ def _inspect(args: argparse.Namespace) -> int:
         target.source_type in ("workday", "smartrecruiters") for target in targets
     ):
         print(
-            "  note: spider.search_terms is empty, so a corporate board will spend "
-            "max_jobs_per_source on an arbitrary slice and every posting is billed "
-            "to the evaluator."
+            "  note: spider.search_terms is empty, so a corporate board returns "
+            "max_jobs_per_source of whatever it lists rather than a keyword slice. "
+            "That is a bigger backlog to score, not a bigger bill to crawl."
         )
     if kinds.get("browser"):
         print(f"  {kinds['browser']} source(s) are rendered pages — expect hours, not minutes.")
     print()
 
-    if config.openrouter.api_key and not args.skip_preflight:
+    if config.openrouter.api_key and not args.skip_preflight and not args.no_score:
         from .llm import InferenceError, OpenRouterClient
 
         print("Checking the evaluator before crawling …", flush=True)
@@ -558,11 +558,17 @@ def _inspect(args: argparse.Namespace) -> int:
         print("  evaluator ok.")
         print()
 
+    if args.no_score:
+        print("Crawling only — postings are stored unscored, for `acide score` later.")
+        print()
+
     try:
-        summary = runner.run_once(config, send_alerts=not args.no_alerts)
+        summary = runner.run_once(
+            config, send_alerts=not args.no_alerts, score=not args.no_score
+        )
     except KeyboardInterrupt:
         print(
-            "\nStopped. Everything scored before now is saved; re-running skips it.",
+            "\nStopped. Every source that finished is saved; re-running skips it.",
             file=sys.stderr,
         )
         return 130
@@ -573,6 +579,13 @@ def _inspect(args: argparse.Namespace) -> int:
     print(f"  postings new     {summary.postings_new}")
     print(f"  postings scored  {summary.postings_scored}")
     print(f"  alert emails     {summary.alerts_sent}")
+    if args.no_score:
+        from . import db
+
+        waiting = db.count_unscored()
+        print(f"\n  {waiting} posting(s) waiting to be scored:")
+        print("      acide score            # what is waiting, and what it would cost")
+        print("      acide score --yes      # judge them")
     if summary.errors:
         print(f"\n  {len(summary.errors)} error(s); the first few:")
         for error in summary.errors[:15]:
@@ -862,6 +875,11 @@ def main() -> None:
             "only sources that failed last time or were never reached — also "
             "how an interrupted pass is resumed"
         ),
+    )
+    inspector.add_argument(
+        "--no-score",
+        action="store_true",
+        help="find and store postings without judging any — score them later with `acide score`",
     )
     inspector.add_argument(
         "--skip-preflight",

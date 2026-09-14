@@ -214,9 +214,15 @@ A posting is stored the moment it is found. Judging it â€” one model call each â
 happens afterwards, and can be done in batches:
 
 ```bash
-backend/.venv/bin/acide score              # how many are waiting
+backend/.venv/bin/acide inspect --no-score   # crawl only: the hours, none of the calls
+backend/.venv/bin/acide score                # how many are waiting
 backend/.venv/bin/acide score --limit 200 --yes
 ```
+
+`--no-score` is the shape to reach for when the crawl is the expensive part.
+It never opens a connection to the evaluator, so nothing about the model, the
+key or the schema can cost the run, and it skips the preflight for the same
+reason. Everything it finds waits in the backlog until `acide score` is run.
 
 That split matters for two reasons. A scoring failure no longer costs the
 crawl: an overnight pass once returned 2,649 postings and scored none, because

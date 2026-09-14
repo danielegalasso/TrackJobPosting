@@ -3,6 +3,8 @@
 # Run one full inspection pass unattended, and survive the terminal closing.
 #
 #   scripts/overnight.sh                 # every enabled source
+#   scripts/overnight.sh --no-score      # crawl only; judge the backlog later
+#   scripts/overnight.sh --retry-failed  # only what failed or was never reached
 #   scripts/overnight.sh --source-type browser
 #   scripts/overnight.sh --alerts        # also send the digest at the end
 #
@@ -64,9 +66,9 @@ mkdir -p "$LOG_DIR"
 printf 'sources     %s (%s)\n' "$TARGETS" "$BREAKDOWN"
 printf 'rendered    %s — these are the slow ones\n' "$RENDERED"
 if [ "$TERMS" -eq 0 ]; then
-  printf 'search      NONE SET — every posting on every board goes to the evaluator\n'
+  printf 'search      none — boards return what they list, not a keyword slice\n'
 else
-  printf 'search      %s term(s)\n' "$TERMS"
+  printf 'search      %s term(s) — boards are filtered to these before anything is stored\n' "$TERMS"
 fi
 printf 'log         %s\n' "$LOG"
 
@@ -102,3 +104,4 @@ printf '\nstarted     pid %s\n' "$(cat "$PIDFILE")"
 printf 'watch       tail -f %s\n' "$LOG"
 printf 'stop        kill %s\n' "$(cat "$PIDFILE")"
 printf '\nStopping is safe: each source is saved as it finishes.\n'
+printf 'Resume or retry with: scripts/overnight.sh --retry-failed\n'

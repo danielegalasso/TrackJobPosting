@@ -36,8 +36,19 @@ def is_running() -> bool:
     return _state.running
 
 
-def run_once(config: SetupConfig | None = None, *, send_alerts: bool = True) -> SpiderRunSummary:
-    """Execute one full inspection pass. Only one may run at a time."""
+def run_once(
+    config: SetupConfig | None = None,
+    *,
+    send_alerts: bool = True,
+    score: bool = True,
+) -> SpiderRunSummary:
+    """Execute one full inspection pass. Only one may run at a time.
+
+    With `score=False` the postings are found and stored, and none are judged.
+    Crawling several hundred rendered pages costs hours and scoring costs one
+    model call per posting; separating them means the hours are spent once and
+    the calls are spent afterwards, in batches, against what was found.
+    """
     global _state
 
     if not _run_lock.acquire(blocking=False):
@@ -72,7 +83,12 @@ def run_once(config: SetupConfig | None = None, *, send_alerts: bool = True) -> 
         # the portal while the run is still going.
         with contextlib.ExitStack() as stack:
             scorer = None
-            if config.openrouter.api_key:
+            if not score:
+                bus.publish(
+                    "Crawling without scoring; `acide score` judges the backlog later.",
+                    "info",
+                )
+            elif config.openrouter.api_key:
                 scorer = stack.enter_context(OpenRouterClient(config))
             else:
                 summary.errors.append(
