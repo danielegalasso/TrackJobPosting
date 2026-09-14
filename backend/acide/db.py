@@ -60,6 +60,22 @@ CREATE TABLE IF NOT EXISTS jobs (
     updated_at            TEXT NOT NULL DEFAULT (datetime('now'))
 );
 
+-- What happened the last time each source was crawled. A pass over several
+-- hundred rendered pages costs hours, so the expensive part must not have to
+-- be repeated to fix the handful that failed.
+CREATE TABLE IF NOT EXISTS source_runs (
+    source_type  TEXT NOT NULL,
+    board_token  TEXT NOT NULL,
+    company      TEXT NOT NULL DEFAULT '',
+    status       TEXT NOT NULL DEFAULT 'ok',
+    detail       TEXT NOT NULL DEFAULT '',
+    postings     INTEGER NOT NULL DEFAULT 0,
+    attempted_at TEXT NOT NULL DEFAULT (datetime('now')),
+    PRIMARY KEY (source_type, board_token)
+);
+
+CREATE INDEX IF NOT EXISTS idx_source_runs_status ON source_runs (status);
+
 CREATE INDEX IF NOT EXISTS idx_jobs_scores
     ON jobs (experience_fit_score DESC, interest_fit_score DESC);
 CREATE INDEX IF NOT EXISTS idx_jobs_company   ON jobs (company);
@@ -167,6 +183,64 @@ def known_external_ids(source_type: str, company: str) -> set[str]:
             (source_type, company),
         ).fetchall()
     return {row["external_id"] for row in rows}
+
+
+def record_source_run(
+    source_type: str,
+    board_token: str,
+    company: str,
+    *,
+    status: str,
+    detail: str = "",
+    postings: int = 0,
+) -> None:
+    """Remember how one source went, so only the failures need repeating."""
+    with connect() as conn:
+        conn.execute(
+            """
+            INSERT INTO source_runs
+                (source_type, board_token, company, status, detail, postings, attempted_at)
+            VALUES (?,?,?,?,?,?, datetime('now'))
+            ON CONFLICT(source_type, board_token) DO UPDATE SET
+                company = excluded.company,
+                status = excluded.status,
+                detail = excluded.detail,
+                postings = excluded.postings,
+                attempted_at = excluded.attempted_at
+            """,
+            (source_type, board_token, company, status, detail[:500], postings),
+        )
+
+
+def source_states() -> list[dict[str, Any]]:
+    """Every source that has been attempted, worst first."""
+    with connect() as conn:
+        rows = conn.execute(
+            """
+            SELECT source_type, board_token, company, status, detail, postings,
+                   attempted_at
+            FROM source_runs
+            ORDER BY status DESC, company COLLATE NOCASE
+            """
+        ).fetchall()
+    return [dict(row) for row in rows]
+
+
+def failed_source_keys() -> set[tuple[str, str]]:
+    """Sources whose last attempt failed, keyed as the targets are."""
+    with connect() as conn:
+        rows = conn.execute(
+            "SELECT source_type, board_token FROM source_runs WHERE status = 'error'"
+        ).fetchall()
+    return {(row[0], row[1].lower()) for row in rows}
+
+
+def succeeded_source_keys() -> set[tuple[str, str]]:
+    with connect() as conn:
+        rows = conn.execute(
+            "SELECT source_type, board_token FROM source_runs WHERE status = 'ok'"
+        ).fetchall()
+    return {(row[0], row[1].lower()) for row in rows}
 
 
 def store_posting(posting: RawPosting) -> tuple[str, bool]:

@@ -498,6 +498,22 @@ def _inspect(args: argparse.Namespace) -> int:
     if args.source_type:
         wanted = {name.strip() for name in args.source_type.split(",") if name.strip()}
         targets = [target for target in targets if target.source_type in wanted]
+
+    if args.retry_failed:
+        from . import db
+
+        db.init_db()
+        # Never attempted counts as unfinished, so this both retries the
+        # failures and resumes a pass that was stopped half way — the same
+        # operation, since what matters is which sources already succeeded.
+        done = db.succeeded_source_keys()
+        before = len(targets)
+        targets = [
+            target for target in targets
+            if (target.source_type, target.board_token.lower()) not in done
+        ]
+        print(f"Skipping {before - len(targets)} source(s) that already succeeded.")
+
     if args.limit:
         targets = targets[: args.limit]
     if not targets:
@@ -628,6 +644,49 @@ def _score_pending(args: argparse.Namespace) -> int:
     print(f"  remaining  {db.count_unscored()}")
     for error in summary.errors[:5]:
         print(f"      {error}")
+    return 0
+
+
+def _sources(args: argparse.Namespace) -> int:
+    """Report how each source went the last time it was crawled."""
+    from . import config as config_module
+    from . import db
+
+    db.init_db()
+    states = db.source_states()
+    if not states:
+        print("no source has been crawled yet — run `acide inspect` first.")
+        return 0
+
+    configured = {
+        (target.source_type, target.board_token.lower()): target
+        for target in config_module.load(refresh=True).targets
+    }
+    seen = {(row["source_type"], row["board_token"].lower()) for row in states}
+    never = [target for key, target in configured.items() if key not in seen]
+
+    ok = [row for row in states if row["status"] == "ok"]
+    failed = [row for row in states if row["status"] != "ok"]
+    empty = [row for row in ok if not row["postings"]]
+
+    print(f"  {len(ok):4}  succeeded ({len(empty)} of them found nothing)")
+    print(f"  {len(failed):4}  failed")
+    print(f"  {len(never):4}  never attempted")
+    print(f"  {sum(row['postings'] for row in ok):4}  postings found in total")
+
+    if failed and not args.quiet:
+        print("\nfailed:")
+        for row in failed[: args.limit or len(failed)]:
+            print(f"  {row['company']}  [{row['source_type']}]")
+            print(f"      {row['detail'][:160]}")
+    if never and not args.quiet:
+        print("\nnever attempted:")
+        for target in never[: args.limit or len(never)]:
+            print(f"  {target.company}  [{target.source_type}]")
+
+    if failed or never:
+        print("\nRe-run only these with:")
+        print("  acide inspect --retry-failed")
     return 0
 
 
@@ -797,6 +856,14 @@ def main() -> None:
     )
     inspector.add_argument("--limit", type=int, help="stop after this many sources")
     inspector.add_argument(
+        "--retry-failed",
+        action="store_true",
+        help=(
+            "only sources that failed last time or were never reached — also "
+            "how an interrupted pass is resumed"
+        ),
+    )
+    inspector.add_argument(
         "--skip-preflight",
         action="store_true",
         help="do not test the evaluator first (it costs one cheap call)",
@@ -815,6 +882,19 @@ def main() -> None:
     scorer.add_argument("--limit", type=int, help="score at most this many")
     scorer.add_argument("--yes", action="store_true", help="actually spend the calls")
     scorer.set_defaults(func=_score_pending)
+
+    reporter = subparsers.add_parser(
+        "sources",
+        help="how each source went the last time it was crawled",
+        description=(
+            "A pass over several hundred rendered pages costs hours, so each "
+            "source's outcome is remembered. This reports them, and names the "
+            "ones worth repeating."
+        ),
+    )
+    reporter.add_argument("--limit", type=int, help="show at most this many of each")
+    reporter.add_argument("-q", "--quiet", action="store_true", help="counts only")
+    reporter.set_defaults(func=_sources)
 
     args = parser.parse_args()
     handler = getattr(args, "func", _serve)

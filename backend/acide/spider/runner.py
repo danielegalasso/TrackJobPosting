@@ -187,10 +187,21 @@ def _collect(
             try:
                 fetched = list(connector.fetch(target))
             except ConnectorError as exc:
+                # Recorded, not just logged: a pass over several hundred
+                # rendered pages costs hours, and fixing the few that broke
+                # must not mean repeating the ones that worked.
+                db.record_source_run(
+                    target.source_type, target.board_token, target.company,
+                    status="error", detail=str(exc),
+                )
                 summary.errors.append(f"{target.company}: {exc}")
                 bus.publish(f"{target.company}: {exc}", "error")
                 continue
             except Exception as exc:  # pragma: no cover - connector bug guard
+                db.record_source_run(
+                    target.source_type, target.board_token, target.company,
+                    status="error", detail=f"unexpected error: {exc}",
+                )
                 summary.errors.append(f"{target.company}: unexpected error: {exc}")
                 bus.publish(f"{target.company}: unexpected error: {exc}", "error")
                 continue
@@ -209,6 +220,10 @@ def _collect(
                 if is_new:
                     fresh.append(posting)
             summary.postings_new += len(fresh)
+            db.record_source_run(
+                target.source_type, target.board_token, target.company,
+                status="ok", postings=len(fetched),
+            )
             bus.publish(
                 f"[{index}/{total}] {target.company}: {len(fetched)} listed, "
                 f"{len(fresh)} new since last run.",

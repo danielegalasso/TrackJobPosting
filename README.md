@@ -189,6 +189,25 @@ A page whose roles are listed without linking each one is reported as such
 rather than guessed at. That residue — and only that — is where reading a page
 with a language model earns its cost.
 
+### Crawling once, and refining afterwards
+
+A pass over several hundred rendered pages costs hours, so how each source went
+is remembered. Fixing the few that broke does not mean repeating the ones that
+worked:
+
+```bash
+backend/.venv/bin/acide sources            # what happened, and what to re-run
+backend/.venv/bin/acide inspect --retry-failed
+```
+
+`--retry-failed` skips every source that already succeeded. A source never
+attempted counts as unfinished, so the same flag resumes a pass that was stopped
+half way rather than restarting it.
+
+`acide sources` reports how many succeeded, how many found nothing, how many
+failed and with what message, and which are still untouched — so a change to a
+connector can be tried against exactly the subset that needed it.
+
 ### Finding and judging are separate
 
 A posting is stored the moment it is found. Judging it — one model call each —

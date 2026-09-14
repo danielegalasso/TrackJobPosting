@@ -523,3 +523,136 @@ def test_score_says_so_when_there_is_no_backlog(monkeypatch, capsys):
         main()
     assert caught.value.code == 0
     assert "nothing is waiting" in capsys.readouterr().out
+
+
+# ---------------------------------------------------------------------------
+# Remembering how each source went, so only the failures need repeating
+# ---------------------------------------------------------------------------
+@respx.mock
+def test_each_source_records_how_it_went():
+    _mock_board()
+    respx.get("https://api.lever.co/v0/postings/broken").mock(return_value=httpx.Response(500))
+    _mock_gateway()
+
+    config = _config()
+    config.targets = [
+        TargetSource(company="ExampleCorp", source_type="greenhouse", board_token="examplecorp"),
+        TargetSource(company="Broken", source_type="lever", board_token="broken"),
+    ]
+    runner.run_once(config, send_alerts=False)
+
+    states = {row["company"]: row for row in db.source_states()}
+    assert states["ExampleCorp"]["status"] == "ok"
+    assert states["ExampleCorp"]["postings"] == 2
+    assert states["Broken"]["status"] == "error"
+    assert "500" in states["Broken"]["detail"]
+
+    assert db.succeeded_source_keys() == {("greenhouse", "examplecorp")}
+    assert db.failed_source_keys() == {("lever", "broken")}
+
+
+@respx.mock
+def test_retry_failed_skips_what_already_worked(monkeypatch, capsys):
+    """A pass over several hundred rendered pages costs hours; fixing the few
+    that broke must not mean repeating the ones that did not."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    respx.get("https://api.lever.co/v0/postings/broken").mock(return_value=httpx.Response(500))
+    _mock_gateway()
+
+    config = _config()
+    config.targets = [
+        TargetSource(company="ExampleCorp", source_type="greenhouse", board_token="examplecorp"),
+        TargetSource(company="Broken", source_type="lever", board_token="broken"),
+    ]
+    config_module.save(config)
+    runner.run_once(config, send_alerts=False)
+
+    board = respx.get("https://boards-api.greenhouse.io/v1/boards/examplecorp/jobs")
+    board.reset()
+
+    monkeypatch.setattr(
+        "sys.argv", ["acide", "inspect", "--no-alerts", "--retry-failed", "--skip-preflight"]
+    )
+    with pytest.raises(SystemExit):
+        main()
+
+    printed = capsys.readouterr().out
+    assert "Skipping 1 source(s) that already succeeded" in printed
+    assert not board.called, "the healthy source must not be crawled again"
+
+
+@respx.mock
+def test_a_source_never_attempted_counts_as_unfinished(monkeypatch, capsys):
+    """So an interrupted pass resumes rather than restarts."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    _mock_gateway()
+    config = _config()
+    config_module.save(config)
+    runner.run_once(config, send_alerts=False)  # only ExampleCorp exists so far
+
+    config.targets = [
+        TargetSource(company="ExampleCorp", source_type="greenhouse", board_token="examplecorp"),
+        TargetSource(company="Fresh", source_type="greenhouse", board_token="fresh"),
+    ]
+    config_module.save(config)
+    respx.get("https://boards-api.greenhouse.io/v1/boards/fresh/jobs").mock(
+        return_value=httpx.Response(200, json={"jobs": []})
+    )
+
+    monkeypatch.setattr(
+        "sys.argv", ["acide", "inspect", "--no-alerts", "--retry-failed", "--skip-preflight"]
+    )
+    with pytest.raises(SystemExit):
+        main()
+    assert "Skipping 1 source(s)" in capsys.readouterr().out
+    assert ("greenhouse", "fresh") in db.succeeded_source_keys()
+
+
+@respx.mock
+def test_sources_reports_the_state_and_what_to_run(monkeypatch, capsys):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    respx.get("https://api.lever.co/v0/postings/broken").mock(return_value=httpx.Response(500))
+    _mock_gateway()
+
+    config = _config()
+    config.targets = [
+        TargetSource(company="ExampleCorp", source_type="greenhouse", board_token="examplecorp"),
+        TargetSource(company="Broken", source_type="lever", board_token="broken"),
+        TargetSource(company="Untouched", source_type="ashby", board_token="untouched"),
+    ]
+    config_module.save(config)
+    config.targets = config.targets[:2]
+    runner.run_once(config, send_alerts=False)
+
+    monkeypatch.setattr("sys.argv", ["acide", "sources"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 0
+
+    printed = capsys.readouterr().out
+    assert "1  succeeded" in printed
+    assert "1  failed" in printed
+    assert "1  never attempted" in printed
+    assert "Broken" in printed
+    assert "Untouched" in printed
+    assert "acide inspect --retry-failed" in printed
+
+
+def test_sources_says_so_before_anything_has_run(monkeypatch, capsys):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    config_module.save(_config())
+    monkeypatch.setattr("sys.argv", ["acide", "sources"])
+    with pytest.raises(SystemExit):
+        main()
+    assert "no source has been crawled yet" in capsys.readouterr().out
