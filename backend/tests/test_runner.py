@@ -180,7 +180,11 @@ def test_a_failed_evaluation_does_not_lose_the_other_postings(monkeypatch):
     summary = runner.run_once(_config())
     assert summary.postings_scored == 1
     assert len(summary.errors) == 1
-    assert db.list_jobs().total == 1
+    # Both were stored when they were found; only one carries a verdict. The
+    # unscored one stays in the queue instead of being lost with the failure.
+    assert db.list_jobs().total == 2
+    assert db.list_jobs(scored="scored").total == 1
+    assert db.count_unscored() == 1
 
 
 @respx.mock
@@ -195,7 +199,10 @@ def test_missing_api_key_stops_before_scoring(monkeypatch):
     assert summary.postings_new == 2
     assert summary.postings_scored == 0
     assert any("OpenRouter API key" in error for error in summary.errors)
-    assert db.list_jobs().total == 0
+    # Crawling and judging are separate concerns now: without a key the
+    # postings are still found and kept, waiting to be scored later.
+    assert db.count_unscored() == 2
+    assert db.list_jobs(scored="scored").total == 0
 
 
 def test_no_enabled_targets_is_reported_clearly():
@@ -360,3 +367,159 @@ def test_inspect_says_so_when_nothing_matches(monkeypatch, capsys):
         main()
     assert caught.value.code == 1
     assert "nothing to inspect" in capsys.readouterr().err
+
+
+@respx.mock
+def test_inspect_stops_before_crawling_when_the_evaluator_is_broken(monkeypatch, capsys):
+    """A 469-source run crawled for four hours and scored nothing, because the
+    request every posting makes was rejected before a token was generated. One
+    cheap call up front finds that in seconds."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(400, json={"error": {
+            "message": "Invalid schema for response_format 'job_evaluation'"
+        }})
+    )
+    config_module.save(_config())
+
+    monkeypatch.setattr("sys.argv", ["acide", "inspect", "--no-alerts"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 1
+
+    captured = capsys.readouterr()
+    assert "Invalid schema" in captured.err
+    assert "Nothing was crawled" in captured.err
+    # The board must not have been touched at all.
+    assert not respx.routes[0].called
+
+
+@respx.mock
+def test_inspect_crawls_when_the_evaluator_answers(monkeypatch, capsys):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    _mock_gateway()
+    config_module.save(_config())
+
+    monkeypatch.setattr("sys.argv", ["acide", "inspect", "--no-alerts"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 0
+    assert "evaluator ok." in capsys.readouterr().out
+
+
+@respx.mock
+def test_skip_preflight_crawls_without_testing_first(monkeypatch, capsys):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    _mock_gateway()
+    config_module.save(_config())
+
+    monkeypatch.setattr(
+        "sys.argv", ["acide", "inspect", "--no-alerts", "--skip-preflight"]
+    )
+    with pytest.raises(SystemExit):
+        main()
+    assert "Checking the evaluator" not in capsys.readouterr().out
+
+
+# ---------------------------------------------------------------------------
+# `acide score` — judging what was already crawled
+# ---------------------------------------------------------------------------
+@respx.mock
+def test_score_is_a_dry_run_until_yes(monkeypatch, capsys):
+    """One model call per posting is a bill; it should not start by accident."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    config = _config()
+    config.openrouter.api_key = ""
+    config_module.save(config)
+    runner.run_once(config, send_alerts=False)   # crawls, cannot score
+    assert db.count_unscored() == 2
+
+    config.openrouter.api_key = "sk-test"
+    config_module.save(config)
+    gateway = respx.post("https://openrouter.ai/api/v1/chat/completions")
+
+    monkeypatch.setattr("sys.argv", ["acide", "score"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 0
+    assert "2 posting(s) waiting" in capsys.readouterr().out
+    assert not gateway.called, "a dry run must not spend anything"
+    assert db.count_unscored() == 2
+
+
+@respx.mock
+def test_score_judges_the_backlog_without_crawling_again(monkeypatch, capsys):
+    """The point: 2,649 postings already fetched need judging, not re-fetching."""
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    config = _config()
+    config.openrouter.api_key = ""
+    config_module.save(config)
+    runner.run_once(config, send_alerts=False)
+
+    config.openrouter.api_key = "sk-test"
+    config_module.save(config)
+    board = respx.get("https://boards-api.greenhouse.io/v1/boards/examplecorp/jobs")
+    board.reset()
+    _mock_gateway()
+
+    monkeypatch.setattr("sys.argv", ["acide", "score", "--yes"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 0
+
+    printed = capsys.readouterr().out
+    assert "scored     2" in printed
+    assert db.count_unscored() == 0
+    assert db.list_jobs(scored="scored").total == 2
+
+
+@respx.mock
+def test_score_stops_when_the_evaluator_is_broken(monkeypatch, capsys):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    config = _config()
+    config.openrouter.api_key = ""
+    config_module.save(config)
+    runner.run_once(config, send_alerts=False)
+
+    config.openrouter.api_key = "sk-test"
+    config_module.save(config)
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(400, json={"error": {"message": "Invalid schema"}})
+    )
+
+    monkeypatch.setattr("sys.argv", ["acide", "score", "--yes"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 1
+    assert "Nothing was scored" in capsys.readouterr().err
+    assert db.count_unscored() == 2, "the backlog is untouched"
+
+
+def test_score_says_so_when_there_is_no_backlog(monkeypatch, capsys):
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    config_module.save(_config())
+    monkeypatch.setattr("sys.argv", ["acide", "score"])
+    with pytest.raises(SystemExit) as caught:
+        main()
+    assert caught.value.code == 0
+    assert "nothing is waiting" in capsys.readouterr().out

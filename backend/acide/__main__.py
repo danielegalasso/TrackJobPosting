@@ -6,6 +6,7 @@ import argparse
 import contextlib
 import os
 import sys
+from datetime import UTC, datetime
 from pathlib import Path
 
 #: How often the browser import writes its partial report. Ten organizations
@@ -484,6 +485,10 @@ def _inspect(args: argparse.Namespace) -> int:
         stream=sys.stdout,
         force=True,
     )
+    # One INFO line per HTTP request is most of the file on a run of several
+    # thousand postings, and none of it is about the run.
+    for noisy in ("httpx", "httpcore", "urllib3"):
+        logging.getLogger(noisy).setLevel(logging.WARNING)
     # Unbuffered, so a redirected log is readable while the run is going.
     with contextlib.suppress(Exception):
         sys.stdout.reconfigure(line_buffering=True)
@@ -517,6 +522,26 @@ def _inspect(args: argparse.Namespace) -> int:
         print(f"  {kinds['browser']} source(s) are rendered pages — expect hours, not minutes.")
     print()
 
+    if config.openrouter.api_key and not args.skip_preflight:
+        from .llm import InferenceError, OpenRouterClient
+
+        print("Checking the evaluator before crawling …", flush=True)
+        try:
+            with OpenRouterClient(config) as client:
+                client.preflight()
+        except InferenceError as exc:
+            print(f"\n  evaluator check FAILED: {exc}\n", file=sys.stderr)
+            print(
+                "Nothing was crawled. Every posting would have failed the same way, "
+                "so the run stops here rather than spending hours to find out.\n"
+                "Fix the model or key in Settings, or pass --skip-preflight to crawl "
+                "without scoring.",
+                file=sys.stderr,
+            )
+            return 1
+        print("  evaluator ok.")
+        print()
+
     try:
         summary = runner.run_once(config, send_alerts=not args.no_alerts)
     except KeyboardInterrupt:
@@ -538,6 +563,71 @@ def _inspect(args: argparse.Namespace) -> int:
             print(f"      {error}")
         if len(summary.errors) > 15:
             print(f"      … and {len(summary.errors) - 15} more")
+    return 0
+
+
+def _score_pending(args: argparse.Namespace) -> int:
+    """Judge postings that were found but never scored.
+
+    Crawling and judging are separate: a posting is stored the moment it is
+    found, so a scoring failure costs nothing already crawled, and the bill
+    can be paid in batches rather than all at once.
+    """
+    import logging
+
+    from . import config as config_module
+    from . import db, resume
+    from .llm import InferenceError, OpenRouterClient
+    from .spider.runner import _score
+
+    logging.basicConfig(
+        level=logging.INFO, format="%(asctime)s  %(message)s", datefmt="%H:%M:%S",
+        stream=sys.stdout, force=True,
+    )
+    for noisy in ("httpx", "httpcore", "urllib3"):
+        logging.getLogger(noisy).setLevel(logging.WARNING)
+
+    config = config_module.load(refresh=True)
+    if not config.openrouter.api_key:
+        print("no OpenRouter key configured — nothing can be scored", file=sys.stderr)
+        return 1
+
+    waiting = db.count_unscored()
+    if not waiting:
+        print("nothing is waiting to be scored.")
+        return 0
+
+    batch = db.unscored_postings(limit=args.limit or waiting)
+    print(f"{waiting} posting(s) waiting; scoring {len(batch)}.")
+    if not args.yes:
+        print("This makes one model call per posting. Re-run with --yes to go ahead.")
+        return 0
+
+    try:
+        with OpenRouterClient(config) as client:
+            print("Checking the evaluator first …", flush=True)
+            try:
+                client.preflight()
+            except InferenceError as exc:
+                print(f"\n  evaluator check FAILED: {exc}", file=sys.stderr)
+                print("Nothing was scored.", file=sys.stderr)
+                return 1
+            print("  evaluator ok.\n")
+
+            from .models import SpiderRunSummary
+
+            summary = SpiderRunSummary(started_at=datetime.now(UTC))
+            _score(batch, config, resume.active_text(), summary, client)
+    except KeyboardInterrupt:
+        print("\nStopped. Everything scored so far is saved.", file=sys.stderr)
+        return 130
+
+    print()
+    print(f"  scored     {summary.postings_scored}")
+    print(f"  failed     {len(summary.errors)}")
+    print(f"  remaining  {db.count_unscored()}")
+    for error in summary.errors[:5]:
+        print(f"      {error}")
     return 0
 
 
@@ -706,7 +796,25 @@ def main() -> None:
         help="only these source types, comma separated, e.g. browser or greenhouse,ashby",
     )
     inspector.add_argument("--limit", type=int, help="stop after this many sources")
+    inspector.add_argument(
+        "--skip-preflight",
+        action="store_true",
+        help="do not test the evaluator first (it costs one cheap call)",
+    )
     inspector.set_defaults(func=_inspect)
+
+    scorer = subparsers.add_parser(
+        "score",
+        help="judge postings that were found but never scored",
+        description=(
+            "A posting is stored the moment it is found, and judged separately. "
+            "This scores what is waiting — in batches, since every posting is "
+            "one model call. A dry run reports the backlog; --yes spends it."
+        ),
+    )
+    scorer.add_argument("--limit", type=int, help="score at most this many")
+    scorer.add_argument("--yes", action="store_true", help="actually spend the calls")
+    scorer.set_defaults(func=_score_pending)
 
     args = parser.parse_args()
     handler = getattr(args, "func", _serve)

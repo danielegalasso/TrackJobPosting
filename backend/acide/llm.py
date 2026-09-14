@@ -23,9 +23,14 @@ import httpx
 
 from .models import JobEvaluation, ModelInfo, RawPosting, SetupConfig
 
-RESPONSE_SCHEMA: dict[str, Any] = {
-    "type": "object",
-    "properties": {
+#: Every field the evaluator returns. `strict: true` structured output —
+#: which is what makes the reply parseable without defensive coding — requires
+#: `required` to list *every* key in `properties`, so it is derived below
+#: rather than written out. Writing it by hand cost a 469-source overnight run:
+#: `rate`, `currency` and `amount` were missing from it, the provider rejected
+#: every request with HTTP 400 before generating anything, and 2,649 postings
+#: were fetched and none scored.
+_RESPONSE_PROPERTIES: dict[str, Any] = {
         "seniority": {
             "type": "string",
             "enum": ["Intern", "Junior", "Mid-Level", "Senior", "Staff", "Manager", "Director"],
@@ -44,18 +49,12 @@ RESPONSE_SCHEMA: dict[str, Any] = {
         "transferable_skills": {"type": "array", "items": {"type": "string"}},
         "skills_to_learn": {"type": "array", "items": {"type": "string"}},
         "alert_summary": {"type": "string"},
-    },
-    "required": [
-        "seniority",
-        "category",
-        "years_experience_min",
-        "experience_fit_score",
-        "interest_fit_score",
-        "category_type",
-        "transferable_skills",
-        "skills_to_learn",
-        "alert_summary",
-    ],
+}
+
+RESPONSE_SCHEMA: dict[str, Any] = {
+    "type": "object",
+    "properties": _RESPONSE_PROPERTIES,
+    "required": list(_RESPONSE_PROPERTIES),
     "additionalProperties": False,
 }
 
@@ -321,6 +320,33 @@ class OpenRouterClient:
             ]
         )
         return JobEvaluation(**parse_response(content))
+
+    def preflight(self) -> None:
+        """Score one synthetic posting before a long run commits to anything.
+
+        `handshake` sends a plain completion, which passes even when the
+        structured path is broken — and the structured path is the one every
+        posting takes. A malformed schema, a model that will not honour
+        `strict`, an exhausted balance: each fails here in a couple of
+        seconds instead of after hours of crawling, which is how a 469-source
+        overnight run came back with 2,649 postings and none scored.
+
+        Raises InferenceError, whose message is the provider's own.
+        """
+        self.evaluate(
+            RawPosting(
+                external_id="preflight",
+                company="Preflight",
+                title="Security Engineer",
+                location="Remote",
+                apply_url="https://example.invalid/preflight",
+                description=(
+                    "Preflight check. Detect and respond to intrusions, and "
+                    "harden cloud infrastructure. Five years of experience."
+                ),
+            ),
+            "Preflight candidate: five years of security engineering.",
+        )
 
     def handshake(self) -> str:
         """Send a real completion and check the model answers with `OK`.

@@ -189,6 +189,32 @@ A page whose roles are listed without linking each one is reported as such
 rather than guessed at. That residue — and only that — is where reading a page
 with a language model earns its cost.
 
+### Finding and judging are separate
+
+A posting is stored the moment it is found. Judging it — one model call each —
+happens afterwards, and can be done in batches:
+
+```bash
+backend/.venv/bin/acide score              # how many are waiting
+backend/.venv/bin/acide score --limit 200 --yes
+```
+
+That split matters for two reasons. A scoring failure no longer costs the
+crawl: an overnight pass once returned 2,649 postings and scored none, because
+the request every posting makes was malformed, and all of it was thrown away.
+And it means the portal holds **everything that was found**, so filtering can
+happen there rather than having to be guessed at collection time with
+`search_terms`.
+
+Unscored postings appear in the grid with no fit scores, searchable by title,
+company and location like any other. The `scored` filter separates the two
+populations: `scored` is what the fit sliders can speak about at all, `pending`
+is the backlog.
+
+Before a long run or a large scoring batch, one synthetic posting is evaluated
+first. A malformed schema, a model that will not honour `strict`, an exhausted
+balance — each fails in a couple of seconds rather than after hours.
+
 ### Running a large pass unattended
 
 The portal's Run button posts to the API, which needs the server up and a tab

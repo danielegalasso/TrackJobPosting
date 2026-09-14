@@ -198,8 +198,16 @@ def _collect(
             summary.sources_polled += 1
             summary.postings_seen += len(fetched)
 
-            known = db.known_external_ids(target.source_type, target.company)
-            fresh = [posting for posting in fetched if posting.external_id not in known]
+            # Store every posting the moment it is found. Scoring can fail —
+            # a bad schema, an exhausted balance, a rate limit — and when it
+            # does, hours of crawling must not go with it. It also means the
+            # portal holds everything that was found, so filtering can happen
+            # there rather than having to be guessed at collection time.
+            fresh: list[RawPosting] = []
+            for posting in fetched:
+                _, is_new = db.store_posting(posting)
+                if is_new:
+                    fresh.append(posting)
             summary.postings_new += len(fresh)
             bus.publish(
                 f"[{index}/{total}] {target.company}: {len(fetched)} listed, "

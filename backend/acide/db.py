@@ -50,6 +50,10 @@ CREATE TABLE IF NOT EXISTS jobs (
     skills_to_learn       TEXT NOT NULL DEFAULT '[]',
     alert_summary         TEXT NOT NULL DEFAULT '',
     apply_url             TEXT NOT NULL,
+    -- 0 until the evaluator has judged it. A posting is stored the moment it
+    -- is fetched, so hours of crawling survive a scoring failure and the
+    -- portal can show everything that was found, scored or not.
+    scored                INTEGER NOT NULL DEFAULT 0,
     saved                 INTEGER NOT NULL DEFAULT 0,
     dismissed             INTEGER NOT NULL DEFAULT 0,
     created_at            TEXT NOT NULL DEFAULT (datetime('now')),
@@ -118,9 +122,28 @@ def reset_connection() -> None:
         _local.conn = None
 
 
+#: Columns added after the first release, applied to an existing database.
+#: `CREATE TABLE IF NOT EXISTS` does nothing to a table that is already there.
+_ADDED_COLUMNS: tuple[tuple[str, str, str], ...] = (
+    ("jobs", "scored", "INTEGER NOT NULL DEFAULT 0"),
+)
+
+
+def _apply_added_columns(conn: sqlite3.Connection) -> None:
+    for table, column, definition in _ADDED_COLUMNS:
+        existing = {row[1] for row in conn.execute(f"PRAGMA table_info({table})")}
+        if column not in existing:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {column} {definition}")
+            if column == "scored":
+                # Everything already in the table was stored only after being
+                # scored, which is what the old code did.
+                conn.execute("UPDATE jobs SET scored = 1")
+
+
 def init_db() -> None:
     with connect() as conn:
         conn.executescript(_SCHEMA)
+        _apply_added_columns(conn)
         conn.execute(
             "INSERT INTO meta (key, value) VALUES ('schema_version', ?) "
             "ON CONFLICT(key) DO UPDATE SET value = excluded.value",
@@ -146,6 +169,84 @@ def known_external_ids(source_type: str, company: str) -> set[str]:
     return {row["external_id"] for row in rows}
 
 
+def store_posting(posting: RawPosting) -> tuple[str, bool]:
+    """Record a posting as found, before anything has evaluated it.
+
+    Returns its id and whether it is new. A posting already present keeps its
+    evaluation, its scored flag and the operator's saved/dismissed choices —
+    only the facts the source just restated are refreshed.
+    """
+    job_id = job_id_for(posting.source_type, posting.company, posting.external_id)
+    with connect() as conn:
+        existing = conn.execute("SELECT 1 FROM jobs WHERE id = ?", (job_id,)).fetchone()
+        conn.execute(
+            """
+            INSERT INTO jobs (
+                id, external_id, source_type, title, company, location,
+                date_posted, rate, currency, amount, apply_url, scored
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,0)
+            ON CONFLICT(id) DO UPDATE SET
+                title = excluded.title,
+                location = excluded.location,
+                date_posted = excluded.date_posted,
+                apply_url = excluded.apply_url,
+                updated_at = datetime('now')
+            """,
+            (
+                job_id,
+                posting.external_id,
+                posting.source_type,
+                posting.title,
+                posting.company,
+                posting.location,
+                posting.date_posted,
+                posting.rate or "Yearly",
+                posting.currency or "USD",
+                posting.amount or 0.0,
+                posting.apply_url,
+            ),
+        )
+    return job_id, existing is None
+
+
+def unscored_postings(limit: int = 500) -> list[RawPosting]:
+    """Postings that have been found but not yet judged, oldest first."""
+    with connect() as conn:
+        rows = conn.execute(
+            """
+            SELECT external_id, source_type, title, company, location,
+                   apply_url, date_posted, rate, currency, amount
+            FROM jobs
+            WHERE scored = 0 AND dismissed = 0
+            ORDER BY created_at ASC
+            LIMIT ?
+            """,
+            (limit,),
+        ).fetchall()
+    return [
+        RawPosting(
+            external_id=row["external_id"],
+            company=row["company"],
+            title=row["title"],
+            location=row["location"],
+            apply_url=row["apply_url"],
+            date_posted=row["date_posted"],
+            source_type=row["source_type"],
+            rate=row["rate"],
+            currency=row["currency"],
+            amount=row["amount"] or None,
+            description="",
+        )
+        for row in rows
+    ]
+
+
+def count_unscored() -> int:
+    with connect() as conn:
+        row = conn.execute("SELECT COUNT(*) FROM jobs WHERE scored = 0").fetchone()
+    return int(row[0])
+
+
 def upsert_job(posting: RawPosting, evaluation: JobEvaluation) -> str:
     """Insert or refresh a scored posting, preserving user-owned flags."""
     job_id = job_id_for(posting.source_type, posting.company, posting.external_id)
@@ -160,9 +261,10 @@ def upsert_job(posting: RawPosting, evaluation: JobEvaluation) -> str:
                 id, external_id, source_type, title, company, location, seniority,
                 category, years_experience_min, date_posted, rate, currency, amount,
                 experience_fit_score, interest_fit_score, category_type,
-                transferable_skills, skills_to_learn, alert_summary, apply_url
-            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+                transferable_skills, skills_to_learn, alert_summary, apply_url, scored
+            ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1)
             ON CONFLICT(id) DO UPDATE SET
+                scored = 1,
                 title = excluded.title,
                 location = excluded.location,
                 seniority = excluded.seniority,
@@ -263,6 +365,7 @@ def build_job_query(
     match_posting_currency: bool = False,
     saved_only: bool = False,
     include_dismissed: bool = False,
+    scored: str | None = None,
     min_experience_fit: int | None = None,
     min_interest_fit: int | None = None,
     newer_than_id_rowid: str | None = None,
@@ -281,6 +384,13 @@ def build_job_query(
         clauses.append("dismissed = 0")
     if saved_only:
         clauses.append("saved = 1")
+    # A posting is stored when it is found and judged afterwards, so the two
+    # populations are worth separating: "scored" is what the fit filters can
+    # speak about at all, "pending" is everything still waiting.
+    if scored == "scored":
+        clauses.append("scored = 1")
+    elif scored == "pending":
+        clauses.append("scored = 0")
 
     if search:
         clauses.append(

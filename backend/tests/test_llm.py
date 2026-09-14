@@ -386,3 +386,58 @@ def test_surrounding_whitespace_on_a_pasted_key_is_trimmed():
     with OpenRouterClient(_config(api_key="  sk-test\n")) as client:
         client.list_models()
     assert route.calls[0].request.headers["Authorization"] == "Bearer sk-test"
+
+
+# ---------------------------------------------------------------------------
+# The schema the provider actually enforces
+# ---------------------------------------------------------------------------
+def test_every_property_is_required_because_strict_mode_demands_it():
+    """A 469-source overnight run returned 2,649 postings and scored none.
+
+    `strict: true` structured output requires `required` to list every key in
+    `properties`; `rate`, `currency` and `amount` were missing, so the provider
+    rejected every request with HTTP 400 before generating a token. `required`
+    is derived from `properties` now, so the two cannot drift apart again.
+    """
+    from acide.llm import RESPONSE_SCHEMA
+
+    assert set(RESPONSE_SCHEMA["required"]) == set(RESPONSE_SCHEMA["properties"])
+    for field in ("rate", "currency", "amount"):
+        assert field in RESPONSE_SCHEMA["required"], field
+    assert RESPONSE_SCHEMA["additionalProperties"] is False
+
+
+def test_the_schema_covers_every_field_the_evaluation_model_has():
+    """A field added to JobEvaluation but not the schema is never populated."""
+    from acide.llm import RESPONSE_SCHEMA
+    from acide.models import JobEvaluation
+
+    assert set(RESPONSE_SCHEMA["properties"]) == set(JobEvaluation.model_fields)
+
+
+@respx.mock
+def test_preflight_scores_a_synthetic_posting_through_the_structured_path():
+    """handshake sends a plain completion and passes even when the structured
+    path — the one every posting takes — is broken."""
+    route = respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(
+            200, json={"choices": [{"message": {"content": "{\"seniority\": \"Senior\", \"category\": \"Cloud Security\", \"years_experience_min\": 5, \"rate\": \"Yearly\", \"currency\": \"EUR\", \"amount\": 0, \"experience_fit_score\": 70, \"interest_fit_score\": 60, \"category_type\": \"Direct Match\", \"transferable_skills\": [\"Python\"], \"skills_to_learn\": [\"Kubernetes\"], \"alert_summary\": \"Preflight.\"}"}}]}
+        )
+    )
+    with OpenRouterClient(_config()) as client:
+        client.preflight()
+
+    body = json.loads(route.calls[0].request.content)
+    assert body["response_format"]["json_schema"]["strict"] is True
+    assert body["response_format"]["json_schema"]["name"] == "job_evaluation"
+
+
+@respx.mock
+def test_preflight_raises_what_the_provider_said():
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(400, json={"error": {
+            "message": "Invalid schema for response_format 'job_evaluation'"
+        }})
+    )
+    with OpenRouterClient(_config()) as client, pytest.raises(InferenceError, match="Invalid schema"):
+        client.preflight()
