@@ -1055,7 +1055,7 @@ scripts/overnight.sh --retry-failed        # only what failed or was never reach
 acide inspect --source-type browser        # just the slow ones
 acide inspect --source-type greenhouse,ashby,lever --limit 20
 acide sources                              # what happened; what to re-run
-tail -f logs/overnight-*.log
+tail -f logs/overnight-latest.log          # symlink to the run in flight
 kill $(cat logs/overnight.pid)             # safe: each source is saved as it finishes
 
 # ---- scoring ---------------------------------------------------------------
@@ -1071,12 +1071,17 @@ backend/.venv/bin/ruff check backend/
 (cd frontend && npm test && npm run typecheck)
 ```
 
-**Useful greps on an overnight log:**
+**Useful greps on an overnight log.** Use `overnight-latest.log`, not the glob:
+once more than one run has happened, `logs/overnight-*.log` expands to several
+files, and GNU `tail` rejects the obsolete `-40` form with more than one
+operand — *"option used in invalid context"*. `tail -n 40` works either way.
 
 ```bash
-grep -c "no job list could be identified" logs/overnight-*.log
-grep    "no job list could be identified" logs/overnight-*.log | head -30
-grep -E "\[[0-9]+/[0-9]+\]" logs/overnight-*.log | tail -20     # progress
+LOG=logs/overnight-latest.log
+grep -c "no job list could be identified" "$LOG"
+grep    "no job list could be identified" "$LOG" | head -30
+grep -E "\[[0-9]+/[0-9]+\]" "$LOG" | tail -n 20      # progress
+tail -n 40 "$LOG"
 ```
 
 ---

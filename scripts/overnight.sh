@@ -61,6 +61,12 @@ fi
 
 mkdir -p "$LOG_DIR"
 : > "$LOG" || fail "cannot write $LOG"
+# Logs accumulate one per run, and `tail logs/overnight-*.log` then passes
+# several files at once — which GNU tail rejects outright for `-40`, with
+# "option used in invalid context". A stable name for the current run means
+# there is always one path to watch, however many runs have happened.
+LATEST="$LOG_DIR/overnight-latest.log"
+ln -sfn "$(basename "$LOG")" "$LATEST" 2>/dev/null || LATEST="$LOG"
 
 # -- report, then launch -----------------------------------------------------
 printf 'sources     %s (%s)\n' "$TARGETS" "$BREAKDOWN"
@@ -101,7 +107,7 @@ setsid nohup "${WRAPPER[@]}" "$ACIDE" inspect "${ALERTS[@]}" "${ARGS[@]}" \
 echo $! > "$PIDFILE"
 
 printf '\nstarted     pid %s\n' "$(cat "$PIDFILE")"
-printf 'watch       tail -f %s\n' "$LOG"
+printf 'watch       tail -f %s\n' "$LATEST"
 printf 'stop        kill %s\n' "$(cat "$PIDFILE")"
 printf '\nStopping is safe: each source is saved as it finishes.\n'
 printf 'Resume or retry with: scripts/overnight.sh --retry-failed\n'
