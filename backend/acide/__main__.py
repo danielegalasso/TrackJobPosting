@@ -587,11 +587,15 @@ def _inspect(args: argparse.Namespace) -> int:
         print("      acide score            # what is waiting, and what it would cost")
         print("      acide score --yes      # judge them")
     if summary.errors:
-        print(f"\n  {len(summary.errors)} error(s); the first few:")
-        for error in summary.errors[:15]:
-            print(f"      {error}")
-        if len(summary.errors) > 15:
-            print(f"      … and {len(summary.errors) - 15} more")
+        from . import failures
+
+        # Grouped, not listed: one bad response schema can account for
+        # thousands of these, and fifteen copies of it hide the single rotted
+        # URL that is the other thing worth knowing.
+        causes = failures.group(summary.errors)
+        print(f"\n  {len(summary.errors)} error(s), {len(causes)} distinct cause(s):")
+        for line in failures.render(causes):
+            print(f"    {line}")
     return 0
 
 
@@ -688,10 +692,17 @@ def _sources(args: argparse.Namespace) -> int:
     print(f"  {sum(row['postings'] for row in ok):4}  postings found in total")
 
     if failed and not args.quiet:
-        print("\nfailed:")
-        for row in failed[: args.limit or len(failed)]:
-            print(f"  {row['company']}  [{row['source_type']}]")
-            print(f"      {row['detail'][:160]}")
+        from . import failures
+
+        # By cause rather than by company: a connector that broke takes every
+        # board it serves down with it, and that reads as one line of work
+        # rather than thirty entries to scroll past.
+        causes = failures.group(
+            f"{row['company']} [{row['source_type']}]: {row['detail']}" for row in failed
+        )
+        print(f"\nfailed, by cause ({len(causes)} distinct):")
+        for line in failures.render(causes, limit=args.limit or 12, subjects=8):
+            print(line)
     if never and not args.quiet:
         print("\nnever attempted:")
         for target in never[: args.limit or len(never)]:

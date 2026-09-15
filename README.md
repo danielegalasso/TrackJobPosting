@@ -205,8 +205,12 @@ attempted counts as unfinished, so the same flag resumes a pass that was stopped
 half way rather than restarting it.
 
 `acide sources` reports how many succeeded, how many found nothing, how many
-failed and with what message, and which are still untouched — so a change to a
-connector can be tried against exactly the subset that needed it.
+failed and which are still untouched — so a change to a connector can be tried
+against exactly the subset that needed it. Failures are grouped **by cause**,
+not listed by company: one connector that breaks takes every board it serves
+down with it, and that is one line of work rather than thirty entries to
+scroll past. A run's own summary groups the same way, which is what makes a
+single rotted URL visible next to a fault that hit two thousand postings.
 
 ### Finding and judging are separate
 

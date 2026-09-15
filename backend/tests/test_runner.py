@@ -802,3 +802,51 @@ def test_a_crawl_creates_tables_a_database_from_before_them_lacks():
 
     db.record_source_run("greenhouse", "examplecorp", "ExampleCorp", status="ok", postings=3)
     assert db.succeeded_source_keys() == {("greenhouse", "examplecorp")}
+
+
+# ---------------------------------------------------------------------------
+# A summary that says what went wrong, not just how often
+# ---------------------------------------------------------------------------
+
+
+@respx.mock
+def test_the_summary_groups_a_repeated_fault_and_still_shows_the_rare_one(monkeypatch, capsys):
+    """One bad schema must not bury the one source whose URL had rotted.
+
+    The overnight run this reproduces reported 2,798 errors and printed
+    fifteen copies of the same one; the single dead careers page was in the
+    2,783 it did not print.
+    """
+    monkeypatch.setattr(alerts_service.mailer, "send", lambda *a, **k: None)
+    from acide import config as config_module
+    from acide.__main__ import main
+
+    _mock_board()
+    respx.get("https://boards-api.greenhouse.io/v1/boards/tum/jobs").mock(
+        return_value=httpx.Response(404)
+    )
+    # Every scoring call is rejected before a token is generated, which is
+    # exactly what a `required` list missing a key does.
+    respx.post("https://openrouter.ai/api/v1/chat/completions").mock(
+        return_value=httpx.Response(400, json={"error": {"message": "Provider returned error"}})
+    )
+
+    config = _config()
+    config.targets = [
+        TargetSource(company="ExampleCorp", source_type="greenhouse", board_token="examplecorp"),
+        TargetSource(company="TU Munchen", source_type="greenhouse", board_token="tum"),
+    ]
+    config_module.save(config)
+
+    monkeypatch.setattr(
+        "sys.argv", ["acide", "inspect", "--no-alerts", "--skip-preflight"]
+    )
+    with pytest.raises(SystemExit):
+        main()
+
+    printed = capsys.readouterr().out
+    assert "3 error(s), 2 distinct cause(s)" in printed
+    # The repeated fault is counted once …
+    assert "2 ×" in printed
+    # … and the single rotted source is named rather than summarised away.
+    assert "TU Munchen" in printed

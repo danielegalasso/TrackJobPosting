@@ -8,7 +8,7 @@ expensive*, because several of them are the kind that look reasonable and cost
 a night of compute.
 
 **Status at time of writing:** branch `claude/acide-watch-job-portal-58yifc`,
-head `868d8b9`+, CI green, 436 backend tests + 97 portal tests, ruff clean.
+head `bef4816`+, CI green, 443 backend tests + 97 portal tests, ruff clean.
 No pull request has ever been opened.
 
 **Provenance of the numbers below.** Statistics come from real runs over the
@@ -864,6 +864,17 @@ With no key saved, the `Authorization` header was built as `"Bearer "` with an
 empty value, which httpx rejects as an illegal header — so the public catalogue
 was unreachable precisely when it was first needed. → No key means no header.
 
+**The summary printed one fault fifteen times and hid the other one.**
+The overnight run ended `2798 error(s); the first few:` followed by fifteen
+identical OpenRouter 400s and `… and 2783 more`. There were *two* problems that
+night — a rejected response schema, and one careers URL that had rotted — and
+the second was inside the 2,783 lines the summary had no room for. → Errors are
+grouped by cause (`failures.py`): the message with the URL removed is the
+signature, so the same fault counts once however many postings hit it, and 2,798
+lines become two. Numbers are deliberately *not* normalised: a 404 and a 403 are
+different diagnoses, and §6.3 is what a fifth of the list once turned on.
+`acide sources` groups the same way.
+
 **The settings field stripped every comma as it was typed.**
 Rendering the parsed list back into a comma-separated input meant the
 `search_terms` list could never be extended past its first term. → The field
@@ -926,7 +937,7 @@ not apply retroactively to data that was never written.**
 - Portal: grid, two independent fit sliders, `scored`/`pending` filter, saved
   and dismissed, settings, model picker, alert subscriptions.
 - Email digests with per-subscriber dedupe.
-- 434 backend tests, 97 portal tests, ruff clean, CI green.
+- 443 backend tests, 97 portal tests, ruff clean, CI green.
 
 ### Does not work / not done
 
@@ -989,7 +1000,8 @@ fixture per shape is what would turn each into a test.
 2. **Run `scripts/overnight.sh --no-score`.** Expect ~4 hours for 469 sources,
    395 of them rendered.
 3. **`acide sources`** in the morning: succeeded / found-nothing / failed /
-   never-attempted, with the most common failure message.
+   never-attempted, with the failures grouped by cause rather than listed by
+   company.
 4. **`acide score --limit N --yes`** in batches.
 
 ### 12.2 Then, in rough priority order
@@ -1067,7 +1079,7 @@ scripts/overnight.sh --no-score            # crawl only, detached, prechecked
 scripts/overnight.sh --retry-failed        # only what failed or was never reached
 acide inspect --source-type browser        # just the slow ones
 acide inspect --source-type greenhouse,ashby,lever --limit 20
-acide sources                              # what happened; what to re-run
+acide sources                              # what happened; what to re-run, by cause
 tail -f logs/overnight-latest.log          # symlink to the run in flight
 kill $(cat logs/overnight.pid)             # safe: each source is saved as it finishes
 
