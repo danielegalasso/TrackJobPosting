@@ -245,13 +245,211 @@ def _raw_entries_by_name(source: Path) -> dict[str, dict]:
     return entries
 
 
+#: The source types whose board token *is* a URL, and which therefore rot the
+#: way a curated careers link does.
+URL_SOURCE_TYPES = ("browser", "jsonld")
+
+
+def _check_target_urls(args: argparse.Namespace) -> int:
+    """Repair the careers URLs of the configured targets.
+
+    Resolution turns a careers page into a target once, and the page can move
+    afterwards: an overnight pass over 469 sources reported
+    `TU Munchen: https://www.tum.de/en/about-tum/working-at-tum: HTTP 404`,
+    and nothing short of redoing the whole resolution pipeline would have
+    fixed it — `check-urls` reads a companies file, and by then the companies
+    file is not what the crawl reads. This applies the same repair ladder to
+    what `setup.json` actually holds.
+
+    Only `browser` and `jsonld` targets are checked: every other source type
+    carries a board token, and a board that stops answering is a different
+    problem with a different answer.
+    """
+    import json
+
+    from . import config as config_module
+    from . import db, paths
+    from .linkcheck import repair_all
+    from .watchlist import Organization
+
+    config = config_module.load(refresh=True)
+    targets = [
+        target
+        for target in config.targets
+        if target.source_type in URL_SOURCE_TYPES
+        and target.board_token.strip().lower().startswith(("http://", "https://"))
+    ]
+    if args.failed:
+        failed = db.failed_source_keys()
+        before = len(targets)
+        targets = [
+            target
+            for target in targets
+            if (target.source_type, target.board_token.lower()) in failed
+        ]
+        print(f"Only the {len(targets)} of {before} that failed their last crawl.")
+    if args.limit:
+        targets = targets[: args.limit]
+    if not targets:
+        print(
+            "no rendered or JSON-LD target has a URL to check"
+            + (" that also failed its last crawl" if args.failed else "")
+            + " — nothing to do."
+        )
+        return 0
+
+    # Several targets can share one careers page — 631 organizations resolved
+    # to 581 distinct URLs — so each URL is checked once and the answer is
+    # applied to every target that carries it.
+    by_url: dict[str, list] = {}
+    for target in targets:
+        by_url.setdefault(target.board_token.strip(), []).append(target)
+
+    def say(line: str) -> None:
+        print(line, flush=True)
+
+    say(f"Checking {len(by_url)} URL(s) across {len(targets)} configured target(s).")
+
+    organizations = [
+        Organization(organization=members[0].company, careers_page=url)
+        for url, members in by_url.items()
+    ]
+    repairs = repair_all(
+        organizations, workers=args.workers, on_log=say if args.verbose else None
+    )
+    counts: dict[str, int] = {}
+    for repair in repairs:
+        counts[repair.verdict] = counts.get(repair.verdict, 0) + 1
+    say("")
+    for verdict in ("working", "moved", "repaired", "broken"):
+        if counts.get(verdict):
+            say(f"  {counts[verdict]:4}  {verdict}")
+
+    # A page a browser renders can still refuse a plain request — and often
+    # with 404 rather than 403, which reads as "deleted" and is not. 126 pages
+    # of one probe report were refusals of exactly this kind. So a source the
+    # last crawl *read* is never repointed on the strength of a plain fetch,
+    # however dead that fetch says it is.
+    crawled_ok = {
+        (row["source_type"], row["board_token"].lower())
+        for row in db.source_states()
+        if row["status"] == "ok"
+    }
+
+    def was_read(repair) -> bool:
+        return any(
+            (target.source_type, target.board_token.strip().lower()) in crawled_ok
+            for target in by_url[repair.original]
+        )
+
+    fixable, dead, refusals = [], [], []
+    for repair in repairs:
+        if not repair.needs_attention:
+            continue
+        if was_read(repair):
+            refusals.append(repair)
+        elif repair.suggested:
+            fixable.append(repair)
+        else:
+            dead.append(repair)
+
+    if refusals:
+        say("\nrefuses a plain request, but the crawl read it — left alone:")
+        for repair in refusals:
+            for target in by_url[repair.original]:
+                say(f"  {target.company}  [{target.source_type}]")
+            say(f"      {repair.original}  ({repair.note})")
+
+    if fixable:
+        say("\nwould be repointed:")
+        for repair in fixable:
+            for target in by_url[repair.original]:
+                say(f"  {target.company}  [{target.source_type}]")
+            say(f"      {repair.original}")
+            say(f"   →  {repair.suggested}   ({repair.how})")
+    if dead:
+        say("\nno working replacement found — these need a human:")
+        for repair in dead:
+            for target in by_url[repair.original]:
+                say(f"  {target.company}  [{target.source_type}]")
+            say(f"      {repair.original}  {repair.note}")
+
+    paths.ensure_dirs()
+    report_path = Path(args.report) if args.report else paths.DATA_DIR / "target-url-check.json"
+    report_path.write_text(
+        json.dumps(
+            [
+                {
+                    "companies": [target.company for target in by_url[repair.original]],
+                    "source_type": by_url[repair.original][0].source_type,
+                    "original": repair.original,
+                    "verdict": (
+                        "refuses plain HTTP"
+                        if repair in refusals
+                        else repair.verdict
+                    ),
+                    "status": repair.status,
+                    "suggested": repair.suggested,
+                    "how": repair.how,
+                    "note": repair.note,
+                }
+                for repair in repairs
+            ],
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    print(f"\nReport written to {report_path}")
+
+    if not fixable:
+        print(
+            "\nNothing to rewrite — "
+            + (
+                "no working replacement was found for the dead one(s)."
+                if dead
+                else "every URL still answers."
+            )
+        )
+        return 0
+    if not args.apply:
+        print(
+            f"\nNothing was saved. Re-run with --apply to point {len(fixable)} target(s) "
+            "at the URL that answers."
+        )
+        return 0
+
+    # Only a URL that was fetched and seen to work replaces the one in place.
+    repointed = {repair.original: repair.suggested for repair in fixable}
+    changed = 0
+    for target in config.targets:
+        suggested = repointed.get(target.board_token.strip())
+        if suggested:
+            target.board_token = suggested
+            changed += 1
+    config_module.save(config)
+    print(f"\nsetup.json updated: {changed} target(s) repointed.")
+    print("Crawl just those again with:  acide inspect --retry-failed")
+    return 0
+
+
 def _check_urls(args: argparse.Namespace) -> int:
     """Check every careers URL and propose a replacement for the dead ones."""
+    if args.targets:
+        return _check_target_urls(args)
+
     import json
 
     from . import paths
     from .linkcheck import repair_all
     from .watchlist import load_organizations, organizations_from_report
+
+    if not args.file:
+        print(
+            "give a companies file, or --targets to check the URLs already "
+            "configured in setup.json",
+            file=sys.stderr,
+        )
+        return 1
 
     source = Path(args.file).expanduser()
     if not source.exists():
@@ -711,6 +909,13 @@ def _sources(args: argparse.Namespace) -> int:
     if failed or never:
         print("\nRe-run only these with:")
         print("  acide inspect --retry-failed")
+    if any(row["source_type"] in URL_SOURCE_TYPES for row in failed):
+        # A rendered page fails because its URL moved far more often than
+        # because the page changed, and that is repairable without redoing
+        # resolution.
+        print("\nA rendered page that will not load may simply have moved:")
+        print("  acide check-urls --targets --failed        # propose the URL that answers")
+        print("  acide check-urls --targets --failed --apply")
     return 0
 
 
@@ -797,10 +1002,31 @@ def main() -> None:
             "Fetches every careers page. Dead links are repaired by following "
             "redirects, reading the site's own navigation, and finally by "
             "trying conventional paths — each candidate verified before it is "
-            "proposed."
+            "proposed. With --targets it checks the URLs already configured in "
+            "setup.json instead of a file, which is what a crawl actually "
+            "reads once resolution is done."
         ),
     )
-    checker.add_argument("file", help="companies JSON, or an import report with --retry-report")
+    checker.add_argument(
+        "file",
+        nargs="?",
+        help="companies JSON, or an import report with --retry-report",
+    )
+    checker.add_argument(
+        "--targets",
+        action="store_true",
+        help="check the URLs of the configured browser/jsonld targets instead of a file",
+    )
+    checker.add_argument(
+        "--failed",
+        action="store_true",
+        help="with --targets, only those whose last crawl failed",
+    )
+    checker.add_argument(
+        "--apply",
+        action="store_true",
+        help="with --targets, save the repaired URLs to setup.json",
+    )
     checker.add_argument("--write", help="write a corrected companies list to this path")
     checker.add_argument("--report", help="where to write the JSON check report")
     checker.add_argument("--category", help="only these categories, comma separated")

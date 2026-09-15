@@ -212,6 +212,30 @@ down with it, and that is one line of work rather than thirty entries to
 scroll past. A run's own summary groups the same way, which is what makes a
 single rotted URL visible next to a fault that hit two thousand postings.
 
+### When a configured page moves
+
+Resolution turns a careers page into a target once, and the page can move
+afterwards — a run reported `TU Munchen: https://www.tum.de/…: HTTP 404` long
+after the companies file had stopped being what the crawl reads. The same
+repair ladder runs against `setup.json` itself:
+
+```bash
+backend/.venv/bin/acide check-urls --targets --failed        # propose
+backend/.venv/bin/acide check-urls --targets --failed --apply
+backend/.venv/bin/acide inspect --retry-failed               # crawl just those
+```
+
+`--failed` narrows it to the sources whose last crawl failed, so a healthy
+page is not fetched again to be told it is healthy. Only `browser` and
+`jsonld` targets are checked — every other source type carries a board token,
+and a board that stops answering is a different problem. A page shared by
+several targets is fetched once and the answer applied to all of them, and
+nothing is written until `--apply`.
+
+A source whose last crawl succeeded is never repointed, whatever the plain
+fetch says: a rendered page is read by a browser, and plenty of sites refuse
+anything else — often with a 404, which reads as "deleted" and is not.
+
 ### Finding and judging are separate
 
 A posting is stored the moment it is found. Judging it — one model call each —

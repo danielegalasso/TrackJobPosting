@@ -8,7 +8,7 @@ expensive*, because several of them are the kind that look reasonable and cost
 a night of compute.
 
 **Status at time of writing:** branch `claude/acide-watch-job-portal-58yifc`,
-head `bef4816`+, CI green, 443 backend tests + 97 portal tests, ruff clean.
+head `bef4816`+, CI green, 451 backend tests + 97 portal tests, ruff clean.
 No pull request has ever been opened.
 
 **Provenance of the numbers below.** Statistics come from real runs over the
@@ -875,6 +875,19 @@ lines become two. Numbers are deliberately *not* normalised: a 404 and a 403 are
 different diagnoses, and §6.3 is what a fifth of the list once turned on.
 `acide sources` groups the same way.
 
+**A target's URL had no repair path once resolution was over.**
+`TU Munchen: https://www.tum.de/en/about-tum/working-at-tum: HTTP 404` — the
+page had moved, and `check-urls` reads a *companies file* while the crawl reads
+`setup.json`, so fixing one URL meant running the whole resolution pipeline
+again. → `acide check-urls --targets` applies the same repair ladder to the
+configured `browser` and `jsonld` targets, `--failed` narrows it to the sources
+whose last crawl failed, and `--apply` writes the URLs back. A page shared by
+several targets is fetched once. A source the last crawl *read* is never
+repointed on the strength of a plain fetch, however dead that fetch says it is
+— §9.2's 126 refusals are exactly this, and a `browser` target is read by a
+browser. `acide sources` names the command when a rendered source is among the
+failures.
+
 **The settings field stripped every comma as it was typed.**
 Rendering the parsed list back into a comma-separated input meant the
 `search_terms` list could never be extended past its first term. → The field
@@ -937,7 +950,7 @@ not apply retroactively to data that was never written.**
 - Portal: grid, two independent fit sliders, `scored`/`pending` filter, saved
   and dismissed, settings, model picker, alert subscriptions.
 - Email digests with per-subscriber dedupe.
-- 443 backend tests, 97 portal tests, ruff clean, CI green.
+- 451 backend tests, 97 portal tests, ruff clean, CI green.
 
 ### Does not work / not done
 
@@ -1002,7 +1015,10 @@ fixture per shape is what would turn each into a test.
 3. **`acide sources`** in the morning: succeeded / found-nothing / failed /
    never-attempted, with the failures grouped by cause rather than listed by
    company.
-4. **`acide score --limit N --yes`** in batches.
+4. **`acide check-urls --targets --failed`** for whatever failed with a dead
+   page, then `--apply` and `acide inspect --retry-failed` — a rendered source
+   fails because its URL moved far more often than because its page changed.
+5. **`acide score --limit N --yes`** in batches.
 
 ### 12.2 Then, in rough priority order
 
@@ -1080,6 +1096,8 @@ scripts/overnight.sh --retry-failed        # only what failed or was never reach
 acide inspect --source-type browser        # just the slow ones
 acide inspect --source-type greenhouse,ashby,lever --limit 20
 acide sources                              # what happened; what to re-run, by cause
+acide check-urls --targets --failed        # a rendered page whose URL moved
+acide check-urls --targets --failed --apply
 tail -f logs/overnight-latest.log          # symlink to the run in flight
 kill $(cat logs/overnight.pid)             # safe: each source is saved as it finishes
 
