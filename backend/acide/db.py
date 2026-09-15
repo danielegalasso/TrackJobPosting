@@ -109,11 +109,42 @@ CREATE TABLE IF NOT EXISTS meta (
 """
 
 _local = threading.local()
+_schema_lock = threading.Lock()
+#: Database paths this process has already created or migrated. Schema work
+#: happens on first use rather than at a call site someone has to remember:
+#: `acide inspect` did not call init_db, so a run against a database from
+#: before the `scored` column died on its first posting with "table jobs has
+#: no column named scored" — nine seconds into a four-hour pass.
+_schema_ready: set[str] = set()
+
+
+def _ensure_schema(conn: sqlite3.Connection) -> None:
+    """Create the schema and apply added columns, once per database path."""
+    path = str(paths.DB_PATH)
+    if path in _schema_ready:
+        return
+    with _schema_lock:
+        if path in _schema_ready:
+            return
+        conn.executescript(_SCHEMA)
+        _apply_added_columns(conn)
+        conn.execute(
+            "INSERT INTO meta (key, value) VALUES ('schema_version', ?) "
+            "ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+            (str(SCHEMA_VERSION),),
+        )
+        conn.commit()
+        _schema_ready.add(path)
 
 
 @contextmanager
 def connect() -> Iterator[sqlite3.Connection]:
-    """Yield a per-thread connection with foreign keys and WAL enabled."""
+    """Yield a per-thread connection with foreign keys and WAL enabled.
+
+    The schema is brought up to date on the first connection to a database,
+    so every entry point — the API, any CLI subcommand, a background thread —
+    gets a current one without having to ask for it.
+    """
     conn = getattr(_local, "conn", None)
     if conn is None:
         paths.ensure_dirs()
@@ -122,6 +153,7 @@ def connect() -> Iterator[sqlite3.Connection]:
         conn.execute("PRAGMA journal_mode=WAL")
         conn.execute("PRAGMA foreign_keys=ON")
         _local.conn = conn
+    _ensure_schema(conn)
     try:
         yield conn
         conn.commit()
@@ -136,6 +168,8 @@ def reset_connection() -> None:
     if conn is not None:
         conn.close()
         _local.conn = None
+    # Whatever is at that path next may be a different database entirely.
+    _schema_ready.clear()
 
 
 #: Columns added after the first release, applied to an existing database.
@@ -157,14 +191,15 @@ def _apply_added_columns(conn: sqlite3.Connection) -> None:
 
 
 def init_db() -> None:
-    with connect() as conn:
-        conn.executescript(_SCHEMA)
-        _apply_added_columns(conn)
-        conn.execute(
-            "INSERT INTO meta (key, value) VALUES ('schema_version', ?) "
-            "ON CONFLICT(key) DO UPDATE SET value = excluded.value",
-            (str(SCHEMA_VERSION),),
-        )
+    """Create or migrate the database now, rather than on first use.
+
+    Connecting does this anyway; this is for callers that want it to have
+    happened before they go on, and for a re-check after the file may have
+    been replaced underneath us.
+    """
+    _schema_ready.discard(str(paths.DB_PATH))
+    with connect():
+        pass
 
 
 # ---------------------------------------------------------------------------

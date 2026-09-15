@@ -8,7 +8,7 @@ expensive*, because several of them are the kind that look reasonable and cost
 a night of compute.
 
 **Status at time of writing:** branch `claude/acide-watch-job-portal-58yifc`,
-head `74ab5ca`, CI green, 434 backend tests + 97 portal tests, ruff clean.
+head `868d8b9`+, CI green, 436 backend tests + 97 portal tests, ruff clean.
 No pull request has ever been opened.
 
 **Provenance of the numbers below.** Statistics come from real runs over the
@@ -782,6 +782,19 @@ they are found, and never touches an existing evaluation, `scored` flag, or the
 operator's `saved`/`dismissed` choices. → Tests that previously asserted
 "nothing is stored without a verdict" were **rewritten to assert the new
 contract** rather than deleted.
+
+**A crawl against an older database died on its first posting.**
+`sqlite3.OperationalError: table jobs has no column named scored`, nine seconds
+into a 469-source pass. The migration was correct and tested; **nothing in the
+crawl path ever ran it.** `init_db()` was called by `acide serve`, by
+`acide sources`, and by `acide inspect` *only under `--retry-failed`* — so the
+one command that writes thousands of rows was the one that never brought the
+schema up to date, and `acide score` would have failed the same way. → Schema
+creation and migration now happen on the **first connection to a database**,
+memoised per path, so no entry point has to remember. `init_db()` remains, as a
+force. → Two tests build a database in the exact pre-`scored` shape and assert a
+crawl migrates it, keeping the old rows' verdicts and `saved` flags; both fail
+against the previous code with the same `OperationalError`.
 
 **The importer wrote nothing until all 631 pages were done.**
 Over an hour single-threaded; the run was killed part-way and everything it had

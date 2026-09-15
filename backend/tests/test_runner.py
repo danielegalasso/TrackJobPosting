@@ -16,6 +16,7 @@ from acide.models import (
     AlertFilters,
     EmailConfig,
     OpenRouterConfig,
+    RawPosting,
     SetupConfig,
     SpiderConfig,
     SpiderRunSummary,
@@ -712,3 +713,92 @@ def test_sources_says_so_before_anything_has_run(monkeypatch, capsys):
     with pytest.raises(SystemExit):
         main()
     assert "no source has been crawled yet" in capsys.readouterr().out
+
+
+# ---------------------------------------------------------------------------
+# Schema currency — a database written before a column existed
+# ---------------------------------------------------------------------------
+#: The `jobs` table exactly as it was before the `scored` column, which is what
+#: a database built by an earlier release actually contains.
+_OLD_JOBS_TABLE = """
+CREATE TABLE jobs (
+    id                    TEXT PRIMARY KEY,
+    external_id           TEXT NOT NULL,
+    source_type           TEXT NOT NULL DEFAULT '',
+    title                 TEXT NOT NULL,
+    company               TEXT NOT NULL,
+    location              TEXT NOT NULL DEFAULT '',
+    seniority             TEXT NOT NULL DEFAULT 'Mid-Level',
+    category              TEXT NOT NULL DEFAULT 'General',
+    years_experience_min  INTEGER NOT NULL DEFAULT 0,
+    date_posted           TEXT,
+    rate                  TEXT NOT NULL DEFAULT 'Yearly',
+    currency              TEXT NOT NULL DEFAULT 'USD',
+    amount                REAL NOT NULL DEFAULT 0.0,
+    experience_fit_score  INTEGER NOT NULL DEFAULT 0,
+    interest_fit_score    INTEGER NOT NULL DEFAULT 0,
+    category_type         TEXT NOT NULL DEFAULT 'Unrelated',
+    transferable_skills   TEXT NOT NULL DEFAULT '[]',
+    skills_to_learn       TEXT NOT NULL DEFAULT '[]',
+    alert_summary         TEXT NOT NULL DEFAULT '',
+    apply_url             TEXT NOT NULL,
+    saved                 INTEGER NOT NULL DEFAULT 0,
+    dismissed             INTEGER NOT NULL DEFAULT 0,
+    created_at            TEXT NOT NULL DEFAULT (datetime('now')),
+    updated_at            TEXT NOT NULL DEFAULT (datetime('now'))
+);
+"""
+
+
+def _database_from_before_the_scored_column() -> None:
+    """Replace the test database with one an earlier release would have left."""
+    import sqlite3
+
+    from acide import paths
+
+    db.reset_connection()
+    paths.DB_PATH.unlink(missing_ok=True)
+    conn = sqlite3.connect(str(paths.DB_PATH))
+    conn.executescript(_OLD_JOBS_TABLE)
+    conn.execute(
+        "INSERT INTO jobs (id, external_id, title, company, apply_url, "
+        "experience_fit_score, saved) VALUES ('old:1','1','Analyst','Acme',"
+        "'https://acme.test/1', 88, 1)"
+    )
+    conn.commit()
+    conn.close()
+    db.reset_connection()
+
+
+def test_a_crawl_migrates_a_database_written_before_the_scored_column():
+    """An overnight pass died nine seconds in on `no column named scored`.
+
+    The migration was right; nothing in the crawl path ever ran it, because
+    only `acide serve`, `--retry-failed` and `acide sources` called init_db.
+    Connecting has to be enough — no entry point should have to remember.
+    """
+    _database_from_before_the_scored_column()
+
+    posting = RawPosting(
+        external_id="42", company="ExampleCorp", title="SOC Analyst",
+        location="Milan", apply_url="https://example.test/42", source_type="greenhouse",
+    )
+    _, is_new = db.store_posting(posting)          # this is what raised
+    assert is_new
+    assert db.count_unscored() == 1
+
+    # The row that was already there keeps its verdict and the operator's flag,
+    # and counts as scored — which is what the old code guaranteed.
+    existing = db.get_job("old:1")
+    assert existing is not None
+    assert existing.experience_fit_score == 88
+    assert existing.saved is True
+
+
+def test_a_crawl_creates_tables_a_database_from_before_them_lacks():
+    """source_runs arrived later still; recording an outcome must not need a
+    separate init either."""
+    _database_from_before_the_scored_column()
+
+    db.record_source_run("greenhouse", "examplecorp", "ExampleCorp", status="ok", postings=3)
+    assert db.succeeded_source_keys() == {("greenhouse", "examplecorp")}
