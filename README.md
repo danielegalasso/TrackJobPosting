@@ -588,6 +588,11 @@ Gmail needs an **app password**, not your account password.
 
 ## Development
 
+`docs/ENGINEERING-LOG.md` is the design record: what each phase does and why,
+every bug a real run exposed with its root cause and fix, what is known not to
+work, and what to do next. Read it before changing the crawling or scoring
+paths — several of the decisions there look arbitrary and are not.
+
 ```bash
 # Backend: editable install + dev deps, tests and lint
 backend/.venv/bin/pip install -e backend/ -r backend/requirements-dev.txt
