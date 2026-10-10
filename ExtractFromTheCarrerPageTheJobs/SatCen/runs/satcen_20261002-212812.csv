@@ -1,0 +1,58 @@
+job_id,title,location,contract,status,unit,reports_to,internal_only,published,deadline,url,description
+SatCen/2026/TR06,Cybersecurity Trainee (EXTENDED),"Torrejón de Ardoz, Spain",Trainee,OPEN,Cybersecurity team,Head of IT Division,False,2026-07-29,2026-10-05,https://recruitment.satcen.europa.eu/vacancy/6a69d802e56f152984bb906d,"At SatCen, we believe that highly qualified and motivated trainees add important value to our work.
+In return, we offer a unique hands-on experience in a European Union Agency, whose mission is safeguarding the security of European citizens. You will gain valuable work experience and develop your employability skills that will help you in your future career.
+
+You will benefit from working with a team of enthusiastic professionals from all over the European Union in a stimulating multicultural environment.
+
+Among others, your tasks will include:
+
+• First-level support for cybersecurity alerts and incidents: alert triage, ticket handling, incident response support, dashboard monitoring, and runbook documentation.
+• Support activities in cybersecurity architecture: system hardening, evaluation and deployment of new security tools, vulnerability management support, and contributions to cybersecurity plans and documentation.
+• AI track (if background fits), using on-prem LLM: alert-summarization/IOC-enrichment PoC, light agentic automation with human oversight.
+
+Qualifications
+Essential:
+• University degree in Computer Science, Information Technology, Cybersecurity, or a closely related field (or in the final year of such studies).
+• Basic knowledge of networking, operating systems (Windows/Linux), and IT security fundamentals.
+
+Desirable:
+• Coursework, certifications, or personal projects related to cybersecurity (e.g. SOC operations, incident response).
+• Prior exposure to SIEM/EDR tools (e.g. Microsoft Sentinel, Splunk, Microsoft Defender for Endpoint) and vulnerability management tools (e.g. Tenable/Nessus).
+• Basic knowledge of MDM security, particularly Microsoft Intune.
+• Understanding of firewalls and network security devices.
+• Scripting or automation skills in Python or PowerShell.
+• Academic background or personal projects involving AI/machine learning, particularly LLMs.
+
+Skills
+Essential:
+• Good analytical and problem-solving skills, with attention to detail.
+• Ability to work methodically and follow structured procedures, including ticket handling and documentation.
+• Good command of written and spoken English.
+
+Desirable:
+• Ability to produce clear technical documentation and concise incident or status reports.
+• Ability to take initiative, manage priorities, remain organised when handling multiple alerts, tickets, or tasks, and recognise when escalation is required.
+• Strong willingness to learn about cybersecurity threats, technologies, and defensive techniques.
+• Interest and aptitude for exploring AI/agentic automation approaches, including on-prem LLM deployment.
+
+All essential and desirable criteria are evaluated so as to identify the most suitable candidates.
+
+Eligibility
+To be considered eligible, candidates must satisfy all of the following eligibility criteria by the closing date for submitting applications:
+• A recent university diploma or being in the last year of the university degree;
+• Be a national of one of the Member States of the Union and enjoy their full rights as citizen;
+• Produce evidence of a thorough knowledge of English (at least level B2 ), the working language of SatCen, and of a satisfactory knowledge of another official language of the EU to the extent necessary for the performance of their duties;
+
+In addition, candidates must:
+• Hold a security clearance at least at the level of EU SECRET, or equivalent. In case the successful candidate is not in possession of such a clearance at the time of submitting an application, the SatCen will request it, and no appointment will be fully confirmed until the security clearance has been received by the competent national authority. In addition and during the selection procedure, candidates will need to declare any particular circumstances, which could be in conflict with the performance of their duties at SatCen.
+
+As the SatCen is situated in an air force base outside of Madrid, with limited access by public transport to the entrance of the base and no public transport on the base itself, a driving licence is highly desirable. It is the duty of any staff member to get to the office by its own means.
+
+Conditions
+• Health Insurance needs to be organised by the trainee and proof of cover must be provided to the SatCen.
+• SatCen is offering:
+• Monthly subsistence allowance: 1275 €, plus a travel allowance as applicable to SatCen staff members (2026 = 217.45 €);
+• Reimbursement of travel expenses upon starting and ending the traineeship under specific conditions;
+• Upon presentation of the proper medical justification and costs incurred, disabled trainees may receive a supplement to their allowance equal to a maximum of 50% of the amount of the allowance due to additional costs they may have to make;
+• Annual Leave: 2.5 days per month;
+• Duration: 6-month assignment (renewable once)."

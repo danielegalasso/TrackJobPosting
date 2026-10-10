@@ -1,0 +1,16 @@
+{
+  "source": "https://davinsi.com/en/careers",
+  "company": "Davinsi Labs",
+  "query": "",
+  "extracted_at": "2026-10-03T06:53:26",
+  "site_total": 1,
+  "extracted": 1,
+  "postings": [
+    {
+      "job_id": "site-reliability-engineer",
+      "title": "Site Reliability Engineer",
+      "url": "https://davinsi.com/en/careers#site-reliability-engineer",
+      "description": "You will be a part of our MSP teams focusing on Site Reliability Engineer (SRE) services."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source": "https://www.careers-page.com/doyensec-llc#openings",
+  "company": "Doyensec",
+  "query": "",
+  "extracted_at": "2026-10-03T01:53:41",
+  "site_total": 2,
+  "extracted": 2,
+  "postings": [
+    {
+      "job_id": "X4YV93",
+      "title": "Application Security Engineer (Remote: US based - Senior and above)",
+      "url": "https://www.careers-page.com/doyensec-llc/job/X4YV93",
+      "location": "",
+      "country": "",
+      "contract": "",
+      "published": "",
+      "deadline": "",
+      "description": "Application Security Engineer (Remote: US based - Senior and above)\nAbout the job Application Security Engineer (Remote: US based - Senior and above)\nAt Doyensec (https://doyensec.com/), we believe that quality is the natural product of passion and care. We love what we do and we routinely take on difficult engineering challenges to help our customers build with security.\nOur clients are some of the leading global brands in the tech and startup communities. We help them secure their software and systems by providing information security consulting services (pentesting, reverse engineering, product security design and auditing). We keep a small dedicated client base and expect to develop long-term working relationships with the projects and people with whom we work.\nWe are looking for a highly experienced security engineer to join our consulting team. We perform gray-box security testing on complex web and mobile applications. We need someone who has proven testing skills across multiple languages and environments and can hit the ground running. If you are good at crawling around in the ventilation ducts of the world’s most popular and important applications, you probably have the right skill set for the job. Experience developing code and tools is highly desirable, along with the ability to support the growth of fellow engineers.\nWe offer a competitive salary in a supportive and dynamic environment that rewards hard work and talent. We are dedicated to providing research-driven application security and therefore invest 25% of your time exclusively to research, where we build security testing tools, discover new attack techniques, and develop countermeasures.\nResponsibilities:\nSecurity testing of web, mobile (iOS, Android) applications\nVulnerability research activities, coordinated and executed with Doyensec's founders\nPartnering with customers to ensure the projects objectives are achieved\nLeading projects and supporting engineer growth\nConducting cloud based audits on popular cloud platforms\nProviding support and guidance for clients concerning app and cloud security configuration, hardening and industry best practices\nRequired Skills, Experience and Knowledge:\nAt least 2 years of substantial professional experience focused specifically on application security testing or development, including performing security audits, or equivalent demonstrated experience through substantial and documented participation in bug bounty programs, CTFs, or similar security research activities.\nProven ability to discover, document and fix security bugs in real-world applications (e.g., CVEs, publicly documented research, open source application security contributions or significant quality bug bounty work)\nPassion about understanding complex systems and the ability to have fun while doing it\nAbility to read and quickly comprehend modern coding languages (e.g., JavaScript, Python, TypeScript, Go)\nFamiliarity with modern coding frameworks and their security measures\nExpert-level skills testing web and mobile applications\nExpert-level skills with Burp Suite\nEager to learn, adapt, and perfect your work\nAdditional Qualifications\nExperience performing cloud security assessments\nExperience with low-level/compiled language testing\nExperience with hardware testing\nPractical cryptography experience as used in real-world applications\nSubstantial participation in CTFs (individually or making significant contributions to a team)\nFormal education or training in application security (related college degree, high-level training), or relevant certifications (e.g., OSCP, BSCP, OSWE, OSWA, GXPN, GPEN, OSED, OSEP, OSCE)\nWe offer:\nRemote work (from anywhere in the USA), with flexible hours\nCompetitive salary, including performance-based bonuses\nStartup atmosphere\n25% research time (really!)\nAccess to high-visibility security testing efforts for leading tech companies\nPossibility to attend and present at various security conferences around the globe\nPaid time off\nCompany retreats and get together budget"
+    },
+    {
+      "job_id": "Y5496V",
+      "title": "Application Security Internship (Remote: US based)",
+      "url": "https://www.careers-page.com/doyensec-llc/job/Y5496V",
+      "location": "",
+      "country": "",
+      "contract": "",
+      "published": "",
+      "deadline": "",
+      "description": "Application Security Internship (Remote: US based)\nAbout the job Application Security Internship (Remote: US based)\nThe Doyensec internship program is open to students and graduates.\nWhat do we offer:\nOpportunity to perform professional security testing for both start ups and Fortune 500 companies\nChance to perform cutting-edge offensive security research, including tools development\nFeedback and guidance\nWhat do we expect from candidates?\nRequirements. Our perfect candidate:\nHas some experience with manual source code review and Burp Suite / OWASP ZAP\nDevelopment experience in either Python, Java or Go\nLearns quickly\nShould be able to prepare reports in English\nIs self-organized\nIs able to learn from his/her mistakes\nHas motivation to work/study and show initiative\nMust be communicative (without this it is difficult to teach effectively)\nBrings something to the mix (e.g. creativity, academic knowledge, etc.)\nMore details can be found in the below link:\nhttps://blog.doyensec.com/2022..."
+    }
+  ]
+}

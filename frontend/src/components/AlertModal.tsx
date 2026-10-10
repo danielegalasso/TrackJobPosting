@@ -12,42 +12,28 @@ interface AlertModalProps {
 /** The filter fields that actually travel with a saved alert. */
 function alertPayload(filters: Filters): Record<string, unknown> {
   const payload: Record<string, unknown> = {};
-  const keys: (keyof Filters)[] = [
-    'search',
-    'location',
-    'remote',
-    'category',
-    'seniority',
-    'company',
-    'years_experience',
-    'posted_within',
-  ];
-  for (const key of keys) {
-    const value = filters[key];
-    if (value) payload[key] = value;
-  }
-  if (filters.min_amount) {
-    payload.min_amount = Number(filters.min_amount);
-    payload.rate = filters.rate;
-    payload.currency = filters.currency;
-    payload.match_posting_currency = filters.match_posting_currency;
+  for (const key of ['search', 'country', 'company'] as const) {
+    if (filters[key]) payload[key] = filters[key];
   }
   return payload;
+}
+
+/** "Italy" for IT, "Europe" for EUROPE: the browser knows the country names. */
+export function countryName(code: string): string {
+  if (!code) return 'Anywhere';
+  if (code === 'EUROPE') return 'Europe';
+  try {
+    return new Intl.DisplayNames(['en'], { type: 'region' }).of(code) ?? code;
+  } catch {
+    return code;
+  }
 }
 
 function summarise(filters: Filters): [string, string][] {
   return [
     ['Keyword', filters.search || 'All'],
-    ['Location', filters.location || filters.remote || 'Anywhere'],
-    ['Category', filters.category || 'All'],
-    ['Seniority', filters.seniority || 'All'],
+    ['Where', countryName(filters.country)],
     ['Company', filters.company || 'All'],
-    [
-      'Minimum pay',
-      filters.min_amount
-        ? `${filters.currency} ${Number(filters.min_amount).toLocaleString()} ${filters.rate.toLowerCase()}`
-        : 'Any',
-    ],
   ];
 }
 

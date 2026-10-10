@@ -1,0 +1,269 @@
+company,link,jobs,status,note
+Aerospacelab,https://www.aerospacelab.com/jobs?all_departments=1,75,extracted,whole board (site ignores search=cyber)
+Airbus,https://ag.wd3.myworkdayjobs.com/en-US/Airbus?q=cyber%20security,128,extracted,
+Aizoon,https://www.aizoongroup.com/careers,0,blocked,bot protection
+Akamai,https://jobs.akamai.com/en/sites/CX_1/jobs?mode=location,253,extracted,"page behind a bot check; its Oracle Recruiting API (fa-extu, CX_1) is public"
+Aleph Alpha,https://jobs.ashbyhq.com/AlephAlpha,1,extracted,
+Almond,https://careers.almond.eu/jobs,53,extracted,
+Alpine Eagle,https://alpineeagle.com/join-us/,18,extracted,
+Anthropic,https://www.anthropic.com/careers/jobs,641,extracted,
+Approach Cyber,https://www.approach-cyber.com/join-us/#header-top-join-us,6,extracted,
+Arctic Wolf,https://arcticwolf.wd1.myworkdayjobs.com/External,119,extracted,
+Argotec,https://www.argotecgroup.com/join-us,25,extracted,no page per job; title + location only
+ArianeGroup,https://arianegroup.wd3.myworkdayjobs.com/en-US/EXTERNALALL?q=cyber%20security,5,extracted,
+Armis,https://www.armis.com/armis-careers/#discoverjobs,0,not extracted,only 2 postings found on SmartRecruiters; board not set up
+ARX Robotics,https://www.arx-robotics.com/careers,58,extracted,
+ASML,https://www.asml.com/en/careers/find-your-job,659,extracted,
+Auterion,https://auterion.com/company/careers/,22,extracted,
+Avio,https://zinrec.intervieweb.it/avio/it/career,15,extracted,
+Axelera AI,https://axelera.ai/careers#openings,8,extracted,
+Babcock International,https://jobs.babcockinternational.com/go/View-all-Jobs/4819301/?q=&q2=&alertId=&locationsearch=&title=security&location=&shifttype=,6,extracted,
+BAE Systems,https://jobsearch.baesystems.com/search-and-apply?_search=cyber,0,blocked,bot protection
+Beretta USA,https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b657ab8e-abed-48cd-a667-fb76db90b5b6&ccId=19000101_000001&lang=en_US,12,extracted,
+Beyond Gravity,https://careers.beyondgravity.com/BeyondGravity/search/?createNewAlert=false&q=cyber+security&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=&optionsFacetsDD_country=,5,extracted,
+Bitdefender,https://www.bitdefender.com/en-us/company/careers/jobs,58,extracted,
+BlueVoyant,https://www.bluevoyant.com/company/careers,13,extracted,page behind a bot check; its JazzHR list (bluevoyant.applytojob.com) is public
+Boeing,https://jobs.boeing.com/search-jobs/cyber/185/1,38,extracted,
+Bureau Veritas Cybersecurity,https://cybersecurity.bureauveritas.com/careers#vacancies,15,extracted,
+CASD (Unicasd),https://unicasd.difesa.it/wps/portal/casd/casd-root/bandi/,0,not extracted,not resolved yet: no working way to read the list found
+CEA,https://www.emploi.cea.fr/accueil.aspx?LCID=1036,757,extracted,whole board
+CEPOL,https://www.cepol.europa.eu/work-us/careers/vacancies,9,extracted,
+CERN,https://careers.cern/jobs/,49,extracted,
+CERT-EU,https://cert.europa.eu/vacancies,2,extracted,
+Certego,https://www.certego.net/company/careers/,2,extracted,
+CGI,https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=joblisting,0,blocked,"Radware captcha, also on clients.njoyn.com and in a real browser"
+Check Point,https://careers.checkpoint.com/index.php?m=cpcareers&a=search,0,blocked,bot protection
+Chips Joint Undertaking,https://www.chips-ju.europa.eu/Vacancies/,6,extracted,
+Cineca,https://pica.cineca.it/cineca/,3,extracted,
+Claroty,https://claroty.com/open-positions,25,extracted,
+Clingendael,https://www.careers.clingendael.org/vacancy-jobs/overview-jobs-extern,0,not extracted,not resolved yet: no working way to read the list found
+Cloudflare,https://www.cloudflare.com/careers/jobs/,405,extracted,
+CNES,https://recrutement.cnes.fr/en/annonces,7,extracted,
+College of Europe,,0,skipped (your note),in October
+Collins Aerospace (RTX),https://careers.rtx.com/global/en/collins-aerospace-search-results-general,0,blocked,"bot protection; Collins roles are in the RTX Workday, which RTX reads for ""cyber security"""
+Comand AI,https://jobs.ashbyhq.com/comand-ai,12,extracted,
+Council of Europe,https://talents.coe.int/en_GB/careersmarketplace/SearchJobs/cyber?listFilterMode=1&jobRecordsPerPage=6&,0,extracted,none open right now (with your link's filter)
+Council of the EU,https://www.consilium.europa.eu/en/general-secretariat/careers/vacancies/,0,blocked,bot protection
+CrowdStrike,https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers,357,extracted,
+CryptoNext Security,https://apply.workable.com/cryptonext-security/#jobs,4,extracted,
+CS Group (Sopra Steria),https://careers.smartrecruiters.com/SopraSteria1/csgroup,29,extracted,
+Cyberagentur,https://www.cyberagentur.de/en/karriere/vacancies/,0,skipped (your note),open application only
+Cybernetica,https://cyber.ee/careers/open-positions,11,extracted,
+CYBEROO,https://cyberoo.com/jobs/,4,extracted,
+Cyberus Technology,https://www.cyberus-technology.de/careers#job-openings,1,extracted,
+Cymulate,https://cymulate.com/careers/#open-positions,15,extracted,
+D-Orbit,https://dorbit-space.factorial.it/#jobs,13,extracted,
+Damen,https://damen.wd3.myworkdayjobs.com/Damen_Careers,142,extracted,
+Darktrace,https://darktrace.wd3.myworkdayjobs.com/DarktaceExternal,76,extracted,
+Dassault Aviation,https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/liste-offres.aspx,87,extracted,whole board
+Davinsi Labs,https://davinsi.com/en/careers,1,extracted,
+DCSO,https://dcso.de/en/talented-people/stellenangebote/,0,no openings,only a speculative application (Initiativbewerbung)
+DEFION Security,https://defion.security/en/careers/,6,extracted,
+Delian Alliance Industries,https://jobs.ashbyhq.com/delian,3,extracted,
+Destinus,https://apply.workable.com/destinusgroup/,162,extracted,
+Detectify,https://careers.detectify.com/jobs,4,extracted,
+Deutsche Telekom,https://careers.telekom.com/en/jobs?search=cyber,20,extracted,"the page has a bot check, but its app's public JSON proxy does not (search + full list)"
+DGS,https://join-us.dgsspa.com/jobs,20,extracted,
+DLR,https://jobs.dlr.de/search/?q=cyber+security,16,extracted,
+DNV Cyber,https://jobs.dnv.com/job-search?business_unit%5B0%5D=DNV%20Cyber,9,extracted,
+donaustahl,donaustahl.com,0,skipped (your note),spontaneous application only
+Doyensec,https://www.careers-page.com/doyensec-llc#openings,2,extracted,
+Dragos,https://job-boards.greenhouse.io/dragos,55,extracted,
+EclecticIQ,https://eclecticiq.bamboohr.com/careers,0,extracted,none open right now (with your link's filter)
+ELT Group,https://www.eltgroup.net/people-careers/join-us/#tabs,37,extracted,
+Eni,https://jobs.eni.com/en/sites/CX_1004/jobs?keyword=%E2%80%8BCybersecurity&mode=location,104,extracted,"whole board (5 match ""Cybersecurity"")"
+ENISA,https://www.enisa.europa.eu/careers,6,extracted,
+ERNW,https://ernw.jobs.personio.com/,5,extracted,
+ESET,https://jobs.eset.com/en-US/ESET_External,86,extracted,"Workday API at jobs.eset.com (tenant eset), public"
+EU Careers (EPSO),https://eu-careers.europa.eu/jobs_en,94,extracted,
+EU Institute for Security Studies (EUISS),https://www.iss.europa.eu/opportunities#tab-current,1,extracted,
+EU Satellite Centre (SatCen),https://recruitment.satcen.europa.eu/vacancies,1,extracted,
+eu-LISA,https://erecruitment.eulisa.europa.eu/en,6,extracted,
+EUMETSAT,https://www.eumetsat.int/work-us/vacancies,10,extracted,
+EUROCONTROL,https://jobs.eurocontrol.int/eurocontrol-vacancies/?date=all&keywords=&sort=alphabetical,7,extracted,
+European Banking Authority (EBA),https://www.careers.eba.europa.eu/en,0,not extracted,not resolved yet: no working way to read the list found
+European Central Bank (ECB),https://talent.ecb.europa.eu/careers/SearchJobs/cyber?listFilterMode=1&jobRecordsPerPage=10&,0,extracted,none open right now (with your link's filter)
+European Council on Foreign Relations (ECFR),https://ecfr.eu/jobs/,1,extracted,
+European Cybersecurity Competence Centre (ECCC),https://cybersecurity-centre.europa.eu/work-us/job-opportunities_en,7,extracted,
+European Defence Agency (EDA),https://eda.europa.eu/careers/current-vacancies,10,extracted,
+European Public Prosecutor’s Office (EPPO),https://www.eppo.europa.eu/careers/vacancies_en?prefLang=it&f%5B0%5D=oe_consultation_status%3Aupcoming&f%5B1%5D=oe_consultation_subject%3Ahttp%3A//data.europa.eu/uxp/5188,0,extracted,none open right now (with your link's filter)
+European Security and Defence College (ESDC),https://www.esdc.europa.eu/job-opportunities_en?prefLang=it,0,extracted,none open right now (with your link's filter)
+European Union Aviation Safety Agency (EASA),https://careers.easa.europa.eu/go/All-Jobs/8855901/,5,extracted,
+Europol,https://www.europol.europa.eu/work-with-us/careers/open-vacancies,6,extracted,
+Eutelsat,https://careers.eutelsat.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_customfield1=Cyber%2C+Network+%26+System+Eng&optionsFacetsDD_dept=&optionsFacetsDD_customfield3=,2,extracted,
+Exail,"https://jobs.exail.com/en/annonces?q=cyber,security",3,extracted,
+Exotrail,https://www.exotrail.com/careers,35,extracted,
+Exprivia,https://www.exprivia.it/people-innovation/job-posts/,7,extracted,
+Eye Security,https://jobs.ashbyhq.com/eye-security,29,extracted,
+F-Secure,https://company.f-secure.com/en/careers#latest-jobs,1,extracted,
+Fincantieri,https://www.fincantieri.com/it/persone/lavora-con-noi/posizioni-aperte?LOV5=8978&Resultsperpage=10&keywords=cyber&Reg=All&LOV1=All&LOV20=All&LOV19=All&srcsubmit=Ricerca&statlog=1&ID=Q4NFK026203F3VBQB796868LB&mask=fincantieri2&LG=IT,3,extracted,
+FN Browning Group,https://jobs.fnbrowninggroup.com/search?locale=fr_FR&searchResultView=LIST,16,extracted,
+Fondazione Bruno Kessler (FBK),https://jobs.fbk.eu/,8,extracted,
+Forescout,https://www.forescout.com/company/careers/,27,extracted,page behind a bot check; its Jobvite list (jobs.jobvite.com/forescout) is public
+Fortinet,https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs,975,extracted,
+Frankenburg Technologies,https://careers.frankenburg.tech/jobs,7,extracted,
+Frontex,https://www.frontex.europa.eu/careers/vacancies/open-vacancies/,0,"extracted, empty",page lists no vacancies right now
+G DATA CyberDefense,https://gdata.onlyfy.jobs/de,5,extracted,titles only
+GE Aerospace,https://careers.geaerospace.com/global/en/search-results,529,extracted,
+General Dynamics European Land Systems,https://careers.gdels.com/search/?q=security,1,extracted,
+genua,https://jobs.genua.de/search?facetFilters=%7B%7D,33,extracted,
+GMV,https://gmv.csod.com/ux/ats/careersite/4/home?c=gmv&lang=en-US,214,extracted,
+GomSpace,https://gomspace.com/open-positions/,16,extracted,
+Guardsquare,https://www.guardsquare.com/careers,19,extracted,
+Hack The Box,https://www.hackthebox.com/join-us#view-roles,74,extracted,
+HackerOne,https://jobs.ashbyhq.com/hackerone,14,extracted,
+HaDEA,https://hadea.ec.europa.eu/about/job-opportunities/open-vacancies_en?prefLang=it,1,extracted,
+HarfangLab,https://harfanglab-1666711819.teamtailor.com/jobs,8,extracted,
+Helsing,https://helsing.ai/jobs,166,extracted,
+HENSOLDT,https://jobs.hensoldt.net/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=&optionsFacetsDD_location=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield3=&optionsFacetsDD_department=,21,extracted,
+HENSOLDT,https://jobs.hensoldt.net/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=DE&optionsFacetsDD_location=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1=Professionals&optionsFacetsDD_customfield3=&optionsFacetsDD_department=,17,extracted,
+Hispasat,https://iahtgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/es/sites/CX_1/jobs?sortBy=POSTING_DATES_DESC,31,extracted,
+Hunt & Hackett,https://www.huntandhackett.com/jobs,1,extracted,
+HWG Sababa,https://www.hwgsababa.com/careers/,7,extracted,
+IABG,https://jobboerse.iabg.de/engage/jobexchange/searchJobOffersQuick.do?j=myjobexchange,0,not extracted,"search answers ""Keine Treffer""; unsure if real"
+ICEYE,https://www.iceye.com/careers/positions,183,extracted,
+ID Quantique,https://www.idquantique.com/about-idq/careers/#job-openings,2,extracted,
+IDEMIA,https://careers.idemia.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_city=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield3=,166,extracted,
+IDV / Iveco,LinkedIn,0,not extracted,LinkedIn only; Iveco Group careers page also links only to LinkedIn
+Immersive Labs,https://jobs.ashbyhq.com/immersivelabs,10,extracted,
+Indra,https://careers.indragroup.com/search/?q=&q2=&alertId=&locationsearch=&title=&location=,702,extracted,
+Infineon,https://jobs.infineon.com/careers?query=cyber+security&start=0&pid=563808971794731&sort_by=relevance,22,extracted,
+Intigriti,https://intigriti.jobs.personio.com/,3,extracted,
+IQM Quantum Computers,https://iqm.tech/careers/join-us/,25,extracted,
+Isar Aerospace,https://isaraerospace.com/career,104,extracted,
+John Cockerill,https://careers.johncockerill.com/search/?createNewAlert=false&q=&optionsFacetsDD_title=&optionsFacetsDD_department=&optionsFacetsDD_dept=&optionsFacetsDD_location=,201,extracted,
+Kinéis,https://kineis.com/en/careers/,2,extracted,
+KNDS France,https://recrutement.knds.fr/,195,extracted,whole board
+Kongsberg,https://www.kongsberg.com/careers/vacancies/?searchPhrase=cyber,9,extracted,
+Kudelski Group (NAGRA),https://careers.nagra.com/?page=advertisement,13,extracted,
+L3Harris,https://careers.l3harris.com/en/search-jobs/cyber%20security/4832/1,19,extracted,
+Leaf Space,https://leaf.space/contact/work-with-us/,10,extracted,
+Ledger,https://jobs.ashbyhq.com/ledger,7,extracted,
+Leonardo,https://leonardocompany.wd3.myworkdayjobs.com/it-IT/LeonardoCareerSite?q=cyber%20security,365,extracted,
+Link11,https://www.link11.com/en/career/#jobs,2,extracted,
+Lockheed Martin,https://lockheedmartin.eightfold.ai/careers?query=Cybersecurity&start=0&pid=996476856339&sort_by=relevance,355,extracted,
+Loft Orbital,https://jobs.lever.co/loftorbital/,60,extracted,
+LookUp Space,https://www.lookupspace.com/careers#jobs,3,extracted,
+MBDA France,https://www.mbda-systems.com/country-fr/careers/job-vacancies?advanced_filters=1&f%5B0%5D=jv_sector_types%3A225&nst=1&s=&jv_reference=,4,extracted,
+MBDA Italia,https://mbda.wd3.myworkdayjobs.com/it-IT/MBDA-Italy?q=cyber,8,extracted,
+Microsoft,https://apply.careers.microsoft.com/careers?query=Cybersecurity&start=0&pid=1970393556983893&sort_by=relevance&filter_seniority=Entry,9,extracted,
+Microsoft,https://apply.careers.microsoft.com/careers?query=security&start=0&pid=1970393556983893&sort_by=relevance&filter_seniority=Entry%2CIntern,109,extracted,
+Milrem Robotics,https://careers.milrem.com/jobs,2,extracted,
+Mistral AI,https://jobs.ashbyhq.com/mistral.ai,209,extracted,
+Mynaric,https://mynaric.com/careers/all-open-positions/,16,extracted,
+Nammo,https://nammo.csod.com/ux/ats/careersite/1/home?c=nammo&sq=cyber,0,extracted,none open right now (with your link's filter)
+NATO,https://nato.taleo.net/careersection/2/jobsearch.ftl?lang=en,53,extracted,
+Naval Group,https://www.naval-group.com/en/join-us,0,blocked,bot protection
+Navantia,https://empleo.navantia.es/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=&optionsFacetsDD_state=&optionsFacetsDD_city=,0,extracted,none open right now (with your link's filter)
+NCC Group,https://nccgroup.pinpointhq.com/,75,extracted,
+Neuraspace,https://www.neuraspace.com/all-jobs,6,extracted,
+newcleo,https://careers.newcleo.com/search/?createNewAlert=false&q=cyber+security&locationsearch=,4,extracted,
+Nordic Air Defence,https://www.nordicairdefence.com/jobs,1,extracted,
+Northrop Grumman,https://jobs.northropgrumman.com/careers?query=cyber&start=0&pid=1340073994531&sort_by=relevance&filter_security_clearance=no&filter_experience_level=Entry,31,extracted,
+Northwave Cybersecurity,https://careers.northwave-cybersecurity.com/,21,extracted,
+Nozomi Networks,https://www.nozominetworks.com/company/careers#openings,21,extracted,
+NVISO,https://www.nviso.eu/jobs,35,extracted,
+NXP,https://nxp.wd3.myworkdayjobs.com/careers,782,extracted,
+OHB,https://career-ohb.csod.com/ux/ats/careersite/4/home?c=career-ohb&cfdd[0][id]=16&cfdd[0][options][0]=29&sq=cyber%20security&lang=en-GB,9,extracted,
+OKAPI:Orbits,https://www.okapiorbits.space/en/careers#open-positions,12,extracted,
+Omegapoint,https://jobb.omegapoint.se/en/jobs,30,extracted,
+ON2IT,https://on2it.net/careers/,11,extracted,
+Open Cosmos,https://careers.open-cosmos.com/jobs?split_view=true&query=cyber+security+,0,extracted,none open right now (with your link's filter)
+Open Systems,https://opench.bamboohr.com/careers,14,extracted,
+OpenAI,https://openai.com/careers/search/?q=cyber,41,extracted,
+Orange Cyberdefense,https://jobs.orangecyberdefense.com/jobs,37,extracted,
+Origin Robotics,https://origin-robotics.com/open-positions,11,extracted,titles only (Sage HR job pages return 403)
+Outpost24,https://careers.outpost24.com/jobs,6,extracted,
+Palo Alto Networks,https://jobs.paloaltonetworks.com/en/search-jobs,1511,extracted,
+Pasqal,https://careers.pasqal.com/jobs,32,extracted,
+Patria,https://www.patriagroup.com/working-with-us#open-positions,20,extracted,
+peoplespace,https://peoplespace.csod.com/ux/ats/careersite/4/home?c=peoplespace,0,not extracted,placeholder postings only
+PhysicsX,https://job-boards.eu.greenhouse.io/physicsx,43,extracted,
+Piaggio Aerospace,https://www.piaggioaerospace.it/en/career/program-detail/general-application,1,extracted,open roles only (general/internship applications left out)
+Picus Security,https://jobs.lever.co/picus,7,extracted,
+Planet,https://www.planet.com/company/careers/,121,extracted,
+PQShield,https://pqshield.com/careers/#page-row-18,5,extracted,
+Provenrun,https://provenrun.com/careers,0,not extracted,"only an application form, no postings"
+Qualys,https://qualys.wd5.myworkdayjobs.com/Careers,152,extracted,
+Quandela,https://www.quandela.com/about-us/careers/,25,extracted,
+Quantum Systems,https://career.quantum-systems.com/,185,extracted,
+Quarkslab,https://quarkslab.taleez.com/,1,extracted,
+RAND Europe,https://www.rand.org/randeurope/employment.html,5,extracted,
+Rapid7,https://careers.rapid7.com/jobs/search,33,extracted,titles only (no advert text)
+Recorded Future,https://www.recordedfuture.com/work-with-us/jobs?page=1,50,extracted,
+Redwire,https://careers.rdw.com/jobs/search?page=1&query=cybersecurity,5,extracted,
+Rheinmetall,https://www.rheinmetall.com/en/career/vacancies?9dc11c304b4c06c2f71c48cc6574e7e5term=cyber,4,extracted,
+Riverlane,https://www.riverlane.com/jobs,29,extracted,
+Rocket Factory Augsburg,https://job-boards.eu.greenhouse.io/rocketfactoryaugsburgag?keyword=cybersecurity,0,extracted,none open right now (with your link's filter)
+Rohde & Schwarz,https://www.rohde-schwarz.com/it/carriere/offerte/carriera-offerte-di-lavoro_251573.html,30,extracted,
+Rolls-Royce,https://careers.rolls-royce.com/en/jobs?search=cyber&country=Germany,5,extracted,
+RTX,https://careers.rtx.com/global/en/search-results?keywords=cyber%20security,399,extracted,"page behind a bot check; its Workday (globalhr, REC_RTX_Ext_Gateway) is public; search ""cyber security"""
+RUAG,https://www.ruag.ch/en/working-us/job-portal?search=Cyber,1,extracted,
+S2 Grupo,https://s2grupo.es/talento/ofertas-de-empleo/?id=estudiantes,2,extracted,
+Saab,https://www.saab.com/career/job-opportunities#7886_country__location__type__query_cyber,62,extracted,
+Safran,https://www.safran-group.com/jobs?search=cyber&experiences%5B0%5D=162-first-experience&experiences%5B1%5D=3463-jeune-diplome&sort=relevance,0,blocked,bot protection
+SandboxAQ,https://www.sandboxaq.com/careers-list,27,extracted,
+Sateliot,https://careers.sateliot.com/jobs,31,extracted,
+secunet,https://jobs.secunet.com/stellenangebote.html,45,extracted,
+Sekoia.io,https://careers.sekoia.com/jobs,2,extracted,
+SentinelOne,https://www.sentinelone.com/jobs/,255,extracted,
+SES,https://careers.ses.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield5=,144,extracted,
+Siemens,https://jobs.siemens.com/en_US/externaljobs/SearchJobs/cyber%20security?listFilterMode=1&folderRecordsPerPage=6&,60,extracted,
+SiPearl,https://careers.sipearl.com/jobs,12,extracted,
+Sistema di informazione per la sicurezza della Repubblica,https://www.sicurezzanazionale.gov.it/lavora-con-noi/posizioni-aperte,0,extracted,none open right now (with your link's filter)
+Snyk,https://snyk.io/careers/all-jobs/,13,extracted,
+Solenix,https://solenix.careers.hibob.com/jobs,11,extracted,
+Sophos,https://jobs.lever.co/sophos,83,extracted,
+Space Applications Services,https://www.spaceapplications.com/open-positions,20,extracted,
+Spaceopal,https://spaceopal.com/career/,7,extracted,
+SpaceRISE,,0,skipped (your note),remove
+Starion Group,https://www.stariongroup.eu/careers/job-search/,12,extracted,
+STARK Defence,https://stark-defence.com/en/career,126,extracted,
+STMicroelectronics,https://stmicroelectronics.eightfold.ai/careers?query=Cyber%20Security&pid=563637173320217&domain=stmicroelectronics.com&sort_by=relevance,3,extracted,
+Stormshield,https://careers.stormshield.eu/en/jobs,18,extracted,
+TEHTRIS,https://tehtris.taleez.com/,3,extracted,
+Tekever,https://careers.tekever.com/jobs,100,extracted,
+Telefónica,https://jobs.telefonica.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_dept=&optionsFacetsDD_customfield1=,223,extracted,
+Telespazio (Leonardo),https://leonardocompany.wd3.myworkdayjobs.com/en-US/LeonardoCareerSite/details/Senior-Bid-Manager_R0001066?locations=2dc6ef272d0f010a9a50342867b90000&locations=2dc6ef272d0f010a9a4fcdcbc6620000&locations=2dc6ef272d0f010a9a4f43ec11650000&locations=2dc6ef272d0f010a9a4ed484e3740000,10,extracted,
+Telespazio Belgium,https://telespazio-be.breezy.hr/,26,extracted,
+Tenable,https://www.tenable.com/careers/search,36,extracted,
+Terma,https://career5.successfactors.eu/career?company=termaas&career%5fns=job%5flisting%5fsummary&navBarLevel=JOB%5fSEARCH,0,not extracted,old SuccessFactors portal driven by JavaScript forms
+Terna,https://jobs.terna.it/search/?locale=it_it&searchResultView=LIST,4,extracted,
+Tesorion,https://join.tesorion.com/,6,extracted,
+Thales,https://careers.thalesgroup.com/global/en/search-results?keywords=cyber%20security,2315,extracted,
+The Exploration Company,https://www.exploration.space/careers#job-application,109,extracted,
+Tiberius Aerospace,https://www.tiberius.com/join-us,19,extracted,
+TIM,https://timrecruiting.gruppotim.it/pubblicazioni,0,blocked,bot protection
+Tinexta,https://job.tinexta.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1=,5,extracted,
+TNO,https://www.tno.nl/en/careers/vacancies/,20,extracted,
+Trail of Bits,https://apply.workable.com/trailofbits/,8,extracted,
+Trellix,https://careers.trellix.com/jobs/,66,extracted,
+Truesec,https://www.truesec.com/jobs,18,extracted,
+TYTAN Technologies,https://www.tytan-technologies.com/careers,53,extracted,
+United Nations,https://careers.un.org/jobopening?language=en&data=%257B%2522keyword%2522:%2522cyber%2522%257D,1,extracted,
+Unseenlabs,https://careers.werecruit.io/en/unseenlabs,6,extracted,
+Utimaco,https://utimaco.com/careers,9,extracted,
+Var Group,https://www.careers.vargroup.com/jobs,72,extracted,
+Vyoma,https://vyoma-gmbh.jobs.personio.de/,2,extracted,
+WALLIX,https://wallix.softy.pro/offers,10,extracted,
+WithSecure,https://www.withsecure.com/en/about-us/careers/open-positions/,7,extracted,
+Wiz,https://www.wiz.io/careers,134,extracted,
+Zama,https://jobs.zama.org/,3,extracted,
+Zerocopter,https://www.zerocopter.com/zerocopter/careers-at-zerocopter,3,extracted,
+Zscaler,https://www.zscaler.com/careers/search,365,extracted,
+Satispay,https://jobs.ashbyhq.com/satispay?utm_source=ourpeople,102,extracted,
+Nexi Group,https://fa-ewwx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?location=Italy&locationId=300000000462006&locationLevel=country&mode=location,6,extracted,"Italy only, as the link (Oracle locationId)"
+Scalapay,https://careers.scalapay.com/career-opportunities/,12,extracted,Greenhouse board scalapaysrl
+Optiver,https://www.optiver.com/join-us/jobs/?q=security,2,extracted,the search page carries its results as JSON
+"Jane Street (London, students & new grads)",https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=london,22,extracted,"jobs/main.json, filtered as the page does"
+"Jane Street (London, experienced)",https://www.janestreet.com/join-jane-street/open-roles/?type=experienced-candidates&location=london,36,extracted,"jobs/main.json, filtered as the page does"
+Stripe,https://stripe.com/careers/search?query=security&locations=Europe,11,extracted,"page data filtered as the page does (title or team, region Europe); adverts from Greenhouse"
+IMC Trading,https://www.imc.com/eu/search-careers?jobQuery=security&jobOffices=Aarhus%2CAmsterdam%2CLondon%2CZug&page=1,2,extracted,rendered: the site's own (fuzzy) search filters in the browser
+Adyen,https://careers.adyen.com/vacancies?team=Security,2,extracted,"Greenhouse board adyen, department Security"
+Flow Traders,https://www.flowtraders.com/careers/job-search/,47,extracted,Greenhouse board flowtraders
+Booking.com,https://jobs.booking.com/booking/jobs?keywords=cyber%20security&sortBy=relevance&page=1&limit=100,53,extracted,the search page's public JSON endpoint
+Revolut,https://www.revolut.com/careers/?text=security,8,extracted,"past Cloudflare with nodriver (visible Chrome), as test_for_cloudflare.py; titles matching ""security"""
+Klarna,https://jobs.deel.com/klarna,101,extracted,Deel: postings in the Next.js data
+Spotify (Stockholm),https://www.lifeatspotify.com/jobs?l=stockholm,29,extracted,public search endpoint; adverts from each job page
+Datadog,https://careers.datadoghq.com/all-jobs/?s=security,123,extracted,"the site's Typesense search (public key), English postings"
+Hudson River Trading,https://www.hudsonrivertrading.com/careers/?search=cyber&locations=dublin%2Clondon%2Cnorway%2C,0,"extracted, empty","site 403 even in a browser; its Greenhouse board wehrtyou: 31 in those places, none with ""cyber"" (2026-10-10)"

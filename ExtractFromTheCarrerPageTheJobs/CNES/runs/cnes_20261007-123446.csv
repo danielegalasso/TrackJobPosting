@@ -1,0 +1,345 @@
+job_id,title,url,location,country,contract,published,deadline,description
+4459467-developpeur-full-stack-testeur-hf-centre-spatial-guyanais,Développeur full stack & testeur H/F,https://recrutement.cnes.fr/en/annonce/4459467-developpeur-full-stack-testeur-hf-centre-spatial-guyanais,Arrondissement de Cayenne,Guyane française,"['FULL_TIME', 'INTERN']",2026-06-19,,"Cette alternance vise à concevoir et développer une application mobile facilitant la communication et la coordination. Ce projet a pour objectif de mettre en place une plateforme accessible à tous les salariés de la base, leur permettant de disposer d’un espace d’informations (alertes diverses, actualités évènements …). Afin d’y parvenir, l’objectif serait de mettre en place une solution afin de faire circuler des informations descendantes à l’intégralité du personnel du Centre Spatial Guyanais. Cette dernière serait accessible sur ordinateur et mobile de manière à faciliter et fluidifier la diffusion d’informations.
+
+L’alternant participera à la conception et au développement de la plateforme applicative, avec les missions suivantes :
+
+- Développer les fonctionnalités de l'application mobile à partir des maquettes UX/UI validées
+- Développer les API, services backend et bases de données nécessaires
+- Réaliser les tests unitaires, d'intégration et de non-régression
+- Identifier, corriger et suivre les anomalies
+- Collaboration avec les équipes IT, UX/UI et parties prenantes"
+4537179-ia-au-service-de-la-cybersecurite-hf-centre-spatial-guyanais,IA au service de la cybersécurité (H/F),https://recrutement.cnes.fr/en/annonce/4537179-ia-au-service-de-la-cybersecurite-hf-centre-spatial-guyanais,Arrondissement de Cayenne,Guyane française,"['FULL_TIME', 'INTERN']",2026-08-06,,"Rejoignez l’aventure spatiale au coeur de l’excellence technologique et de l’innovation en intégrant le Centre Spatial Guyanais ou chaque jour est une opportunité de repousser les frontières de l’espace dans un cadre multiculturel !
+
+CONTEXTE : Dans un contexte où les volumes d’évènements de sécurité augmentent constamment, l'Intelligence Artificielle constitue un levier majeur pour améliorer la détection des menaces, accélérer les investigations et assister les architectes de cybersécurité.
+
+Au sein de l'équipe Cybersécurité du service SDP/SIE, vous participerez à un projet stratégique visant à intégrer des modèles d'IA à nos moyens de détection afin de renforcer nos capacités d'analyse et de réponse aux incidents.
+
+Cette alternance vous permettra de conduire un projet de bout en bout, depuis l'étude de l'existant jusqu'au déploiement d'une solution opérationnelle.
+
+MISSIONS :
+
+1. Réaliser un benchmark des solutions d'IA appliquées à la cybersécurité
+
+Vous étudierez les solutions du marché (open source et commerciales) permettant d'exploiter l'IA dans un contexte SOC et SIEM.
+
+À ce titre, vous serez amené(e) à :
+
+- Assurer une veille technologique sur les innovations en IA appliquées à la cybersécurité ;
+- Comparer différentes solutions (LLM, IA générative, moteurs RAG, IA locale, assistants SOC, etc.) ;
+- Evaluer leurs performances, leur coût, leur facilité d'intégration, leur niveau de sécurité et leur conformité aux exigences de confidentialité ;
+- Identifier les cas d'usage les plus pertinents pour notre environnement ;
+- Formuler des recommandations argumentées.
+
+2. Concevoir et développer une preuve de concept (POC)
+
+Vous participerez à la conception et à la réalisation d'un prototype permettant de démontrer l'apport de l'IA dans l'analyse des événements de sécurité.
+
+Vous serez notamment chargé(e) de :
+
+- Réaliser un cahier des charges selon les résultats du benchmark ;
+- Formaliser une méthodologie de projet ;
+- Définir l'architecture technique du POC ;
+- Installer et configurer les composants nécessaires ;
+- Interfacer la solution avec nos moyens ;
+- Développer les scripts, API ou connecteurs nécessaires ;
+- Mettre en oeuvre plusieurs cas d'usage, tels que :
+
+- Assistance à l'investigation ;
+- Synthèse automatique des incidents ;
+- Enrichissement contextuel des alertes ;
+- Détection d'anomalies ;
+- Génération de recommandations de remédiation.
+
+3. Évaluer les performances de la solution
+
+Vous définirez les critères d'évaluation du POC et mesurerez sa valeur ajoutée.
+
+Vous serez amené(e) à :
+
+- Définir des indicateurs de performance (Key Performance Indicator) ;
+- Mesurer les gains obtenus (temps d'analyse, qualité des réponses, pertinence des résultats) ;
+- Identifier les limites techniques et fonctionnelles ;
+- Rédiger un rapport d'évaluation présentant les bénéfices, les risques et les axes d'amélioration.
+
+4. Participer à l'industrialisation
+
+Selon les résultats obtenus, vous contribuerez au déploiement de la solution dans un environnement opérationnel.
+
+- Vos missions pourront inclure :
+- L'automatisation du déploiement ;
+- La documentation technique et fonctionnelle ;
+- La rédaction des procédures d'exploitation ;
+- L'accompagnement des équipes dans la prise en main de la solution ;
+- La proposition de nouveaux cas d'usage."
+4610033-ingenieur-courants-faibles-et-securite-cfs-hf-31400-toulouse,Ingénieur Courants Faibles et Sécurité (CFS) – H/F,https://recrutement.cnes.fr/en/annonce/4610033-ingenieur-courants-faibles-et-securite-cfs-hf-31400-toulouse,Toulouse,France,['FULL_TIME'],2026-09-22,,"Le CNES est l'agence spatiale française chargée de la
+conception, du développement et de la coordination des activités spatiales de
+la France. Il accompagne tous les acteurs de l’écosystème spatial :
+industriels, institutionnels, laboratoires, start-up pour stimuler la
+recherche, l’innovation, et pour soutenir la compétitivité de notre économie
+spatiale. Employeur responsable, le CNES promeut un espace protecteur et
+durable, crée de la valeur partagée grâce au spatial et réduit son empreinte
+environnementale. Il porte des valeurs fortes comme l’excellence, la passion et
+le souci de répondre aux enjeux de demain.
+
+Contexte :
+
+Dans un contexte de montée en puissance des exigences
+de sûreté, de résilience et de performance des installations spatiales sol, le
+service Procédés et Equipements de la Sous-direction Développement Sol au sein
+de la Direction du Transport Spatial joue un rôle clé à l’interface entre
+l’ingénierie, la sécurité opérationnelle et les programmes spatiaux européens
+majoritairement au Centre Spatial Guyanais (CSG).
+
+Missions :
+
+Ce poste combine une expertise technique en systèmes
+courants faibles sécurité, sûreté protection et interfaces process avec des
+responsabilités de pilotage d’affaires, dans le cadre du développement et des
+évolutions des infrastructures du segment sol spatial.
+
+Le mode d’intervention de ce poste couvre l’ensemble des phases de développement :
+avant-projet et appel d’offres puis jalons de développement (suivi technique et contractuel de
+l’industriel) et de qualification (essais Europe puis Guyane).
+
+A l’issue du développement, vous interviendrez en
+qualité d’Autorité Technique de Conception pour toute anomalie ou modification
+du système qualifié.
+
+En qualité de référent technique courants faibles sécurité
+:
+
+- des moyens courants faibles sécurité (détection
+incendie, surveillance gaz, alerte et d’évacuation, …),
+- des systèmes d’interface servitude
+(IPSS) et procédés opérationnels (IPSO),
+- des moyens de contrôle d’accès et de
+surveillance (anti-intrusion, vidéoprotection, …), en particulier pour les Ensembles de Lancement Ariane
+6 (ELA4) et Micro-lanceurs (ELM).
+
+En qualité de chef de projets :
+
+- du pilotage des pré-études techniques,
+- du choix des partenaires industriels, de
+la contractualisation,
+- du suivi de réalisation, ainsi que de la
+qualification en Guyane de nouveaux systèmes,
+- de la modernisation des systèmes
+existants.
+
+Vous travaillerez en collaboration avec d’autres services
+de la sous-direction (banc de contrôle, infrastructure, …), du CNES (CSG,
+Direction Centrale de la Sécurité, ...) ainsi que d’autres acteurs du spatial (ESA,
+Opérateurs de lancement : Arianespace, Avio, PLD, …).
+
+Des déplacements ponctuels sont à prévoir en Europe et
+au Centre Spatial Guyanais (une dizaine de déplacements annuels)."
+4569325-ingenieur-cybersecurite-hf-31400-toulouse,Ingénieur Cybersécurité (H/F),https://recrutement.cnes.fr/en/annonce/4569325-ingenieur-cybersecurite-hf-31400-toulouse,Toulouse,France,['PART_TIME'],2026-08-28,,"Le Centre National d’Etudes Spatiales (CNES) est l'agence spatiale
+française chargée de la conception, du développement et de la coordination des
+activités spatiales de la France. Il accompagne tous les acteurs de
+l’écosystème spatial : industriels, institutionnels, laboratoires, start-up
+pour stimuler la recherche, l’innovation, et pour soutenir la compétitivité de
+notre économie spatiale. Employeur responsable, le CNES promeut un espace
+protecteur et durable, crée de la valeur partagée grâce au spatial et réduit
+son empreinte environnementale. Il porte des valeurs fortes comme l’excellence,
+la passion et le souci de répondre aux enjeux de demain. Partie prenante d'une
+centaine de projets spatiaux, dont la plupart en coopération internationale
+avec d'autres agences spatiales, le CNES est un établissement dans lequel les
+missions ont du sens et où les collaborateurs cherchent à construire un futur
+où l'espace est au service de tous.
+
+Au sein de la Direction Centrale de la Sûreté (DCS) du CNES, vous
+intégrez la Sous-Direction Sécurité Numérique. Vous occupez un poste transverse
+à la croisée de la gouvernance (Pilotage, GRC & Homologation) et du support
+aux projets (Ingénierie, Architecture, Spécification).
+
+Votre mission consiste à accompagner les directions métiers pour
+garantir que les systèmes d'information sont conçus de manière sécurisée et
+qu'ils répondent aux exigences légales et réglementaires.
+
+En tant qu’Architecte Sécurité, vous évoluerez sur les missions
+suivantes :
+
+1. Volet Ingénierie et Conseil
+
+- Security
+by Design : Accompagner les responsables des systèmes dès la phase de
+conception pour définir la doctrine technique et les choix d'architecture
+sécurisée
+- Analyse
+de Risques : Animer et réaliser des analyses de sensibilité et de risques pour
+confronter les besoins de sûreté aux menaces
+- Support
+Méthodologique : Aider les projets à élaborer leurs dossiers de sécurité,
+notamment sur la justification des mesures de protection et les options de
+remédiation.
+
+2. Volet Gouvernance et Homologation
+
+- Instruction
+des Dossiers d'homologation : Préparer
+les avis d'homologation et les supports de décision pour le compte de
+l'Autorité d'homologation
+- Conformité
+Réglementaire : Garantir l'application du cadre légal (PSSI CNES, IGI 1300, Directive
+NIS2, RGPD) au sein des projets suivis
+- Politiques
+et directives : Contribuer à la
+rédaction de la PSSI du CNES et de ses directives.
+
+3. Activités Transverses
+
+- Assurer
+le cadrage initial des nouveaux projets entrant dans le portefeuille de la
+Sous-direction (définition de la stratégie d’homologation, qualification du
+besoin, affectation des référents)
+- Contribution
+à la remontée des indicateurs et au tableau de bord de la sous-direction
+- Participer
+à la relation avec les autorités de tutelle (DGA, DRSD, DGSI) dans le cadre des
+démarches d'homologation de systèmes réglementés."
+4624811-responsable-transport-douanes-controle-export-fh-31400-toulouse,Responsable Transport / Douanes / Contrôle export F/H,https://recrutement.cnes.fr/en/annonce/4624811-responsable-transport-douanes-controle-export-fh-31400-toulouse,Toulouse,France,['FULL_TIME'],2026-10-01,,"Le Centre National d’Etudes
+Spatiales (CNES) est l'agence spatiale française chargée de la conception, du
+développement et de la coordination des activités spatiales de la France. Il
+accompagne tous les acteurs de l’écosystème spatial : industriels,
+institutionnels, laboratoires, start-up pour stimuler la recherche,
+l’innovation, et pour soutenir la compétitivité de notre économie spatiale.
+Employeur responsable, le CNES promeut un espace protecteur et durable, crée de
+la valeur partagée grâce au spatial et réduit son empreinte environnementale.
+Il porte des valeurs fortes comme l’excellence, la passion et le souci de
+répondre aux enjeux de demain. Partie prenante d'une centaine de projets
+spatiaux, dont la plupart en coopération internationale avec d'autres agences
+spatiales, le CNES est un établissement dans lequel les missions ont du sens et
+où les collaborateurs cherchent à construire un futur où l'espace est au
+service de tous.
+
+Au sein de la Direction de
+l’Etablissement du Centre Spatial de Toulouse (CST), le service Facility
+Management a en charge la gestion des activités de transport et de logistique, de
+gestion des locaux et des espaces verts ainsi que de nombreux services aux
+utilisateurs.
+
+Nous
+recherchons notre nouveau/nouvelle Responsable Transport / Douane / Contrôle
+export afin de garantir la continuité opérationnelle des expéditions et
+transports du CNES.
+
+Dans ce contexte, vous êtes
+amenés à piloter les activités de transport de biens du CST, tout en assurant
+la conformité vis-à-vis des autorités douanières et des réglementations métier
+(TMD, IATA, IMDG). Vous êtes le/la Responsable douanier et sureté du fret
+aérien !
+
+MISSIONS :
+
+- Piloter les activités transport des biens,
+douane, contrôle export et sureté du fret, en lien avec les équipes internes et
+les prestataires
+- Piloter les marchés sur lesquels ces activités
+s’appuient
+- Conseiller et accompagner les chefs de projet
+spatiaux dans leurs besoins en transport et logistique spécifique :
+préparation des campagnes ballons stratosphériques, transport d’instruments
+spatiaux par exemple
+- Assurer le suivi des conventions avec
+l’administration douanière et superviser les dossiers douane
+- Conseiller les exportateurs du CNES et assurer
+le dépôt des licences auprès du Service des Biens Double Usage
+- Gérer le programme Sureté du fret aérien et
+maintenir l’agrément Chargeur connu
+- Proposer et mettre en œuvre les actions d’amélioration
+continue du process transport."
+4602593-specialiste-ingenierie-des-couts-hf-75012-paris,Spécialiste ingénierie des coûts H/F,https://recrutement.cnes.fr/en/annonce/4602593-specialiste-ingenierie-des-couts-hf-75012-paris,Paris,France,['FULL_TIME'],2026-09-17,,"Le CNES, agence spatiale, est un acteur public au sein d’un
+secteur innovant et en pleine expansion qui suscite vocations et passions. Nous
+déployons une large palette d'activités pour poursuivre des objectifs d'intérêt
+général au service des progrès de l'humanité tels que la science, le climat, la
+connaissance de notre planète...
+
+Nous accompagnons tous les acteurs de l’écosystème spatial :
+industriels, laboratoires, institutionnels, start-up pour stimuler la
+recherche, l’innovation, et pour soutenir la compétitivité de notre
+économie.
+
+Au
+sein du CNES, la Direction du Transport Spatial (DTS) contribue au
+développement d’Ariane, à l’accueil des Mini et Micro Lanceurs Européens au
+Centre Spatial Guyanais et invente les solutions de transport spatial du futur
+: étages réutilisables, cargo spatial, lanceur lourd du futur. Dans ce contexte, le CNES promeut des approches
+d’écoconception respectueuses de l’environnement
+En tant que spécialiste ingénierie
+des coûts, vous intégrez une équipe dédiée à l’évaluation des coûts et aux modèles
+économiques.
+
+Pour ce poste en étroite collaboration
+avec les équipes projets, vos principales responsabilités sont :
+
+- Evaluer les coûts des projets à réaliser et proposer des solutions
+alternatives optimisant le rapport valeur/coût ;
+- Analyser les offres industrielles et travailler en
+lien avec les structures techniques pour expertiser la crédibilité financière
+et/ou économique de ces propositions ;
+- Quantifier les écarts entre les coûts de la production
+par rapport aux coûts de conception fixés dans la phase amont du projet, en interagissant
+avec les différentes parties prenantes ;
+- Promouvoir la mise en œuvre de démarche « Design to Cost » dans le but de
+réduire les coûts récurrents de production jusqu’au service de lancement
+(approche « end-to-end ») ;
+- Participer au développement d’outils internes d’estimation des coûts
+(estimation paramétrique ou par analogie) et collecter en source ouverte des
+informations pertinentes qui enrichiront l’analyse économique.
+
+Le poste est basé à Paris XII
+(site Daumesnil – Métro Montgallet)."
+4633011-stage-gestion-de-campagne-de-lancement-cspace-2027-hf-31400-toulouse,STAGE - Gestion de campagne de lancement C'Space 2027 H/F,https://recrutement.cnes.fr/en/annonce/4633011-stage-gestion-de-campagne-de-lancement-cspace-2027-hf-31400-toulouse,Toulouse,France,"['FULL_TIME', 'INTERN']",2026-10-06,,"Le
+service éducation-jeunesse (EJ) du CNES a pour mission d'attirer les jeunes
+vers les carrières scientifiques, en leur donnant l'accès à des projets concrets sur le
+thème de l'Espace.
+
+Dans le cadre de ces activités, le service EJ organise notamment chaque année le C'Space,
+rendez-vous des projets spatiaux étudiants. Cette manifestation aura lieu sur
+le camp de GER (64530) du 1er régiment de hussards parachutistes (RHP), près de
+Tarbes, en juillet 2027. L'évènement consiste à organiser le lancement d'une
+cinquantaine de fusées, et le déploiement d'une dizaine de CanSats préparés
+durant l'année 2026-2027 par plus de 300 jeunes - du collège à l'enseignement supérieur - fédérés en équipe
+autour de leur projet.
+
+La/le stagiaire participera à l'organisation de cet
+événement aux côtés du chef de mission, en lien avec les différentes entités
+concernées. Il/elle pourra être amené.e à contribuer à d'autres projets
+éducatifs du CNES selon les besoins du service.
+
+Elle/il pourra être en charge, selon son profil et ses
+spécialités, de :
+
+- la gestion globale du projet : planification,
+traitement des actions, reporting...
+- le traitement de problématique technique pour les projets complexes
+- la préparation et l'amélioration de la communication CNES du C’Space 2027 (dossiers de présentation, affiches...), la valorisation des projets étudiants proposés au CNES lors du C'Space
+- l'évaluation de points techniques particuliers : commissions
+techniques de sécurité des projets fusée, formation pyrotechnique, organisation
+de campagnes de lancement, traitement d’anomalie…
+
+Dates du stage : 01/02/2027 - 30/07/2027"
+4632993-stage-pole-propriete-intellectuelle-valorisation-hf-31400-toulouse,STAGE - Pôle Propriété Intellectuelle & Valorisation H/F,https://recrutement.cnes.fr/en/annonce/4632993-stage-pole-propriete-intellectuelle-valorisation-hf-31400-toulouse,Toulouse,France,"['FULL_TIME', 'INTERN']",2026-10-06,,"Le Centre National
+d’Études Spatiales (CNES) est l’agence spatiale française, chargée de conseiller le gouvernement dans la définition de la stratégie spatiale nationale, de mettre en œuvre cette stratégie, de déployer les politiques publiques qui nécessitent l’appui du secteur spatial (défense, gestion des territoires, agriculture, santé, télécommunications, catastrophes naturelles, etc.) et de développer l’écosystème spatial national.
+
+Au sein du Pôle Propriété Intellectuelle & Valorisation,
+l'équipe assure la protection, la gestion et la valorisation des actifs de
+propriété intellectuelle (brevets, logiciels, bases de données, savoir-faire,
+marques) générés par les projets d’innovation du CNES.
+
+Dans le cadre du
+renforcement de l’intégrité du portefeuille de PI et de la mise en place de
+stratégies de protection plus robustes, le pôle recherche un(e) stagiaire pour
+accompagner la consolidation et le contrôle de la qualité du portefeuille, la
+définition et la mise en œuvre de stratégies de protection pour les projets
+innovants, ainsi que les activités opérationnelles de dépôt, suivi et
+valorisation des actifs, tout en travaillant en étroite collaboration avec les
+équipes techniques et juridiques.
+
+En intégrant le
+CNES, vous contribuerez à sécuriser les innovations spatiales françaises et à
+transformer des connaissances en actifs économiques. Vous travaillerez dans un
+centre de référence internationale aux côtés d’ingénieurs, de juristes et de
+chercheurs de haut niveau, tout en bénéficiant d’une formation accélérée aux
+pratiques de gestion de portefeuille PI et d’une exposition aux projets
+spatiaux les plus avancés."

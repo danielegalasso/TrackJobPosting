@@ -1,0 +1,180 @@
+job_id,title,location,additional_locations,department,remote_type,published,url,description
+c4086b72-1d5b-47f2-9f93-8a567aa8d533,Data Scientist Engineer,"Paris, France","Rennes, France",,hybrid,2026-07-01,https://careers.sekoia.com/jobs/8003224-data-scientist-engineer,"You will join our Data team, currently in its growth phase, with a twofold challenge: industrializing a platform able to absorb massive real-time volumes (1,000,000 events per second), and turning that critical mass of information into tangible product value.
+
+This role deliberately straddles two worlds:
+
+- Within the Data team, you build and harden the pipelines that feed the entire company.
+
+- As reinforcement for our tech and product squads, you join pitches that call for genuine mathematical, statistical and algorithmic depth: designing, adapting and implementing the advanced algorithms behind the features we want to build and then shipping them to production
+yourself.
+
+This is a role for someone who dislikes the border between the notebook and the running service: you design the algorithm, you write it properly, you deploy it, you monitor it.
+
+Your missions:
+
+Build and operate the data platform (Data Engineer hat)
+
+- Design and implement in Python data processing workflows, from development to production.
+
+- Centralize and harmonize heterogeneous sources (Product, Finance, Marketing) to make data accessible and reliable for all Sekoia teams.
+
+- Develop, test, and orchestrate pipelines (via Airflow).
+
+- Act as a curator of the data, collecting and enriching the business data generated day after day by our automated sensors and our analysts.
+
+- Monitor and guarantee the quality and back-end performance of production.
+
+Bring algorithmic value to the product squads (Data Scientist hat)
+
+- Join a squad for the duration of a pitch to own the data science / algorithmic building block of the feature.
+
+- Understand the business needs of our analysts and Product Managers, and translate them into an algorithmic methodology or a statistical learning model.
+
+- Select, adapt or design the right algorithm, including when the answer isn't an off-the-shelf model: heuristics, statistical methods, graph algorithms, anomaly detection, and so on.
+
+- Define the evaluation metrics and demonstrate that the solution genuinely answers the need, at our scale.
+
+Ship it and keep it running (MLOps hat)
+
+- Deploy your algorithms to production for the long run, within a quality assurance process: automated testing, continuous integration, code review.
+
+- Industrialize the model lifecycle: packaging, reproducibility, versioning, retraining, monitoring and drift tracking.
+
+- Propose innovative solutions to ensure the resilience and performance of our processing under heavy load.
+
+- Empower your colleagues by providing the tools they need to leverage high-quality data independently.
+
+- Bring a critical eye and contribute to the team's growth (knowledge sharing, mentoring).
+
+📍 The position is ideally based in Paris, or can be based in Rennes, with up to 3 remote days per week.
+
+Your profile:
+
+🤩 We are excited to meet you if :
+
+- You hold a Master's-level degree or above (MSc, engineering school, PhD) and have 3 to 5 years of professional experience combining data science and software development — or a data engineering background with a genuine appetite for algorithms.
+
+- You are proficient in Python and its scientific ecosystem: pandas, scikit-learn, as well as SQL.
+
+- You have strong skills in algorithms, complexity classes, optimization, and machine learning: you can reason about an algorithm before implementing it, and estimate what it will cost at scale.
+
+- You are an engineer, not just a prototyper: you write tested, reviewed, maintainable code, and you are comfortable with continuous integration and software engineering best practices.
+
+- You are a proactive ""doer"": autonomous and mature, you take ownership of your subjects rather than waiting for instructions.
+
+- You are driven by efficiency and resilience, capable of building systems that stay performant under heavy loads.
+
+- You are deeply curious about new trends in the data ecosystem and about technological change.
+
+- You write and speak English fluently.
+
+🚀 Bonus point:
+
+- You have experience in cybersecurity
+
+- You are comfortable with Spark (PySpark).
+
+- You hold a PhD in computer science.
+
+👀 Are you interested in this job but feel you haven't ticked all the boxes? Don't hesitate to apply, and tell us in the cover letter section why we absolutely must meet!
+
+Recruitment Process:
+
+📝 Here's what's in store for you if you apply :
+
+- HR Interview with Clémentine, Talent Acquisition Manager (30')
+
+- Tech & Culture Fit with Sylvain, Data Ops, and Gildas, Head of Data (45')
+
+- Technical Interview with Gildas and/or Sylvain (~2h, on site)
+
+- Interview with Georges, CTO (60')
+
+Our process usually takes about 3 weeks, depending on availability. It includes reference calls. The program: discussions rather than trick questions! These discussions will help you understand how Sekoia works and what it stands for. But they are also (and above all) an opportunity for you to tell us about your career path and your expectations for your next job!
+
+⭐ Sekoia is an equal opportunity employer for any minority, disability, gender identity or sexual orientation. We are committed to hiring and supporting diverse teams of people from all backgrounds, experiences, and perspectives."
+1e0fcc6f-8d1b-40b0-add4-907b31fd3bf4,FinOps Lead Technology & Product,"Paris, France","Rennes, France; France, France; Europe, Germany",Finance,fully,2026-08-27,https://careers.sekoia.com/jobs/8281602-finops-lead-technology-product,"The FinOps Lead is responsible for making Sekoia’s cloud and Technology & Product economics visible, actionable, and governable.
+
+Reporting to the CFO and working in close functional partnership with the CTPO, you will act as a Finance Business Partner for the Technology & Product (T&P) organization. Your role will be to connect infrastructure costs, product usage, resource allocation, and business growth to support better financial and operational decisions.
+
+In our high-growth environment, you will work at the intersection of Finance, Product, Engineering, Data, and HR. You will bring financial discipline and modelling capabilities while earning the trust of technical teams through your understanding of cloud infrastructure, engineering trade-offs, and platform economics.
+
+📍 The position can be based in Paris, Rennes, or fully remote. Professional trips paid for by the company might be required.
+
+Your missions:
+
+1. Cloud infrastructure costs and platform economics
+
+- Inform — structure the tagging strategy, cost allocation models, and dashboards that attribute cloud spend to specific teams, products, and features
+
+- Optimize — own spend anomaly detection and drive optimization levers (rightsizing, reservations/commitments, waste elimination)
+
+- Operate — anchor governance over time: alerts, regular reviews with the T&P teams, continuous improvement of the allocation model
+
+- Connect infrastructure costs to revenue and cost of revenue to give Finance a reliable read on gross margin and unit economics, in coordination with the Data team
+
+- Own the rolling infrastructure cost forecast, linking expected customer growth, usage, product adoption and architectural changes to future cloud and infrastructure spend
+
+2. Cost impact of new products and offerings
+
+- Work upstream with Product and Tech to anticipate the impact of new products, features, and architectures on the cost structure
+
+- Identify the economic scaling factor of new products: what happens to infrastructure cost at 2x, 10x and 100x usage
+
+- Build pre-launch cost models (unit costs and scaling costs) and periodically reconcile them against actual production economics after launch
+
+- Feed product business cases: cost simulation, pricing scenarios, expected profitability
+
+3. T&P resource allocation and cost planning
+
+This section operates on a dotted line to the CTPO. The CTPO is the primary internal client of the output: allocation data, KPI cockpit, and R&D ROI analysis are built to serve T&P steering.
+
+- Provide the CTPO with a reliable view of T&P resource allocation across Major Initiatives, including capacity, fully loaded cost and evolution over time, to support prioritization and R&D investment decisions
+
+- Maintain reliable time tracking on subsidized R&D projects (CIR/CII, France 2030, BPI grants) — securing the audit trail required for tax credit justification and grant reporting
+
+- Track and model the cost ramp tied to the T&P hiring plan (future payroll, recruitment costs), in coordination with HR and the Finance team
+
+- Give Finance a clear view of the fully loaded cost of a T&P hire and its P&L impact, to support annual budgeting and scenario planning
+
+Your profile:
+
+🤩 We are excited to meet you if :
+
+- You have hands-on experience understanding and optimizing infrastructure spend across public cloud and/or large-scale hosted environments, such as AWS, Azure, GCP, or OVH, including billing, cost allocation, rightsizing, and commitments.
+
+- You have genuine technical credibility and are comfortable challenging Engineering teams as a peer on architecture and cost trade-offs. This is where you create value.
+
+- You have a strong command of FinOps concepts, including tagging, cost allocation, unit economics, and gross margin.
+
+- You are comfortable working with data, including SQL and/or cloud cost-management tools, and you are able to build relevant financial and operational models.
+
+- You are fluent in English, both written and spoken.
+
+🍀 Nice-to-have:
+
+- You hold a FinOps certification, such as the FinOps Foundation certification, or an equivalent qualification.
+
+- You have a good understanding of Finance and management control, or the appetite to build this knowledge on the job with the support of the CFO and Finance team.
+
+- You have experience working in a B2B SaaS or scale-up environment.
+
+- You understand the importance of gross margin in a fundraising context.
+
+👀 Are you interested in this job but feel you haven't ticked all the boxes? Don't hesitate to apply, and tell us in the cover letter section why we absolutely must meet!
+
+Recruitment Process:
+
+📝 Here's what's in store for you if you apply :
+
+- HR Interview with Clémentine, Talent Acquisition Manager (30')
+
+- Use case to prepare at home
+
+- Technical interview and use case restitution with Thérèse, Chief Financial Officer (60')
+
+- Final interview with Georges, CTPO (60’)
+
+Our process usually takes about 3 weeks, depending on availability; it includes reference calls. The program: discussions rather than trick questions! These discussions will help you understand how Sekoia works and what it stands for. But they are also (and above all) an opportunity for you to tell us about your career path and your expectations for your next job!
+
+⭐ Sekoia is an equal opportunity employer for any minority, disability, gender identity, or sexual orientation. We are committed to hiring and supporting diverse teams of people from all backgrounds, experiences, and perspectives."

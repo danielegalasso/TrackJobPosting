@@ -1,0 +1,761 @@
+job_id,title,location,additional_locations,country,department,contract,remote_type,compensation,published,url,description
+490a806d-48da-4279-82d1-5d4bdaf10bd4,Analytics Engineer,"Paris, France",,France,Corporate Functions,FullTime,Hybrid,,2026-09-28,https://jobs.ashbyhq.com/ledger/490a806d-48da-4279-82d1-5d4bdaf10bd4,"We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+
+
+The team:
+
+You'll join the Data Team, responsible for turning data into actionable insights and recommendations for our consumer sales and marketing operations across all channels.
+
+
+
+What you’ll be doing:
+
+ - Own analytics across the full consumer sales scope: Ledger.com http://Ledger.com e-commerce, Amazon marketplaces, wholesale and resellers/distributors - covering both sell-in and sell-out- with one consistent view of revenue, units and margin reconciled in Snowflake, our source of truth
+
+ - Develop and improve data models (dbt/Snowflake) across varied data sources (sales, sell-out, marketing, web analytics) with the support of the data engineering team; co-own data quality alerting (SKU, refunds, sales anomalies)
+
+ - Build and maintain Tableau dashboards for business stakeholders: e-commerce performance, wholesale, resellers sell-out, affiliation, editorial content, shipping costs
+
+ - Own the measurement of performance marketing channels - SEM / Google Ads, affiliation & retargeting, Amazon Ads: spend, revenue attribution, ROAS/CAC across GA4, ad platforms and internal sales data, reconciling discrepancies between sources
+
+ - Measure the true impact of pricing, promotional and marketing campaigns using causal inference methods (CausalImpact, pre-post, control/synthetic groups) and recommend budget arbitrations to the Growth team
+
+ - Model customer value (LTV, repurchase behavior, services attach) and feed it back into marketing ROI decisions
+
+ - Contribute to cross-functional data projects (Salesforce data model, new data source integrations) and leverage AI tooling (Claude, LLM-based workflows) to scale analytics delivery
+
+ - Create and deliver presentations that turn complex analyses into clear recommendations for stakeholders up to ExCom level
+
+
+
+What we’re looking for:
+
+ - Strong SQL and dbt skills (Snowflake)
+
+ - Python for analysis and statistics; experience with causal inference methods is a strong plus
+
+ - Strong Tableau skills
+
+ - Familiarity with marketing/web analytics data: GA4, ad platforms (Google Ads, Amazon Ads), affiliation networks
+
+ - 3-4 years of experience in data analytics/analytics engineering
+
+ - Data driven and business oriented; able to challenge stakeholders' methodology
+
+ - Excellent organizational skills, fluent in English
+
+
+
+At Ledger, we are dedicated to continually investing in our employees which is why we offer more than just salaries; we provide comprehensive compensation packages that include a wide range of benefits. Here are some of the benefits you can look forward to:
+
+ - Flexible work options - Our hybrid policy allows employees to work from home up to 3 times per week
+
+ - Health & Wellness support - Health and Life Insurance.
+
+ - Financial growth opportunities - Employees can become shareholders in Ledger as well as other financial benefits depending on your country of work.
+
+ - Commuter allowance - Ledger offers a commuter allowance to contribute to your preferred means of transportation.
+
+ - Learning & Development - A comprehensive suite of training solutions providing a personalised learning experience for every employee.
+
+For regionally specific benefits, your Talent Acquisition contact will be able to provide you with more information.
+
+ 
+
+We’re committed to building an inclusive hiring process. If you need any adjustments or accommodations, just let us know, we’ll do our best to support you.
+
+ "
+26c4797f-d0b7-4ad4-9bef-0f42f0d1cec2,Client Success Account Manager,"London, United Kingdom","Zurich, Switzerland; Paris, France",United Kingdom,Go-to-Market,FullTime,Hybrid,,2026-10-05,https://jobs.ashbyhq.com/ledger/26c4797f-d0b7-4ad4-9bef-0f42f0d1cec2,"About Ledger
+
+We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+The team:
+
+Ledger has secured digital assets for millions of people. Ledger Enterprise brings the same security to institutions. Banks, exchanges, custodians and stablecoin issuers use our platform to hold, move and govern digital assets on infrastructure they control: Vault for self-custody, HSM On-Premises for institutions that need keys inside their own perimeter, TradeLink for off-exchange settlement, and Multisig for on-chain governance.
+
+You’ll work closely with Business Development, Solutions Engineering, Product, Legal and Support, covering clients across Europe, the Middle East and Africa. Join a young, international, driven team in one of Ledger’s fastest-growing areas.
+
+What you’ll be doing:
+
+You will own a portfolio of institutional clients from signature onward. That covers onboarding, integration, adoption, renewal and expansion. You will be their trusted advisor inside Ledger and their voice in our product roadmap.
+
+ - Own client relationships end to end. Be the primary contact for a portfolio of exchanges, banks, custodians and fintechs, and build relationships from operations teams up to C-level.
+
+ - Drive integration and adoption. Explain product features clearly, run workshops, and guide clients through technical integration together with our Solutions Engineers.
+
+ - Grow accounts. Identify and close upsell and cross-sell opportunities such as new products, additional users, assets or entities. Own your expansion and retention targets.
+
+ - Negotiate renewals and contracts. Lead commercial discussions on renewals, amendments and pricing, working with Legal on terms.
+
+ - Shape the product. Turn client feedback into clear, prioritised input for Product and influence what we build next.
+
+ - Run the account rhythm. Lead QBRs, maintain account plans, keep the CRM accurate, and flag risks early.
+
+ - Represent Ledger. Meet clients on-site and at industry events across EMEA, with occasional travel.
+
+
+
+What we’re looking for:
+
+ - 4+ years in a similar account management or customer success role, ideally in B2B SaaS or enterprise infrastructure software.
+
+ - Proven experience managing financial institution clients such as banks, asset managers, custodians or payment providers.
+
+ - A track record of upselling and expanding accounts against targets.
+
+ - Experience negotiating contracts and renewals with enterprise clients.
+
+ - Comfort with technical conversations: you can explain APIs, integration flows and security concepts without needing an engineer in every meeting.
+
+ - Hands-on experience with digital assets, or a clear and demonstrable interest in the space.
+
+ - Excellent written and verbal communication in English. You can adapt your message for a CISO, a head of operations or a CFO.
+
+ - A structured, self-driven way of working. You manage a portfolio without being chased.
+
+Nice to have:
+
+ - Understanding of regulatory frameworks relevant to EMEA clients, such as MiCAR, DORA, the Travel Rule, the Basel crypto-asset standards, FINMA requirements, or Middle East regimes like VARA (Dubai) and ADGM.
+
+ - Familiarity with custody and key management concepts like MPC, HSMs and cold/warm/hot wallet setups.
+
+ - Additional languages, especially German, French or Arabic.
+
+ - Experience at a crypto-native firm, a bank’s digital asset desk or a custody provider.
+
+
+
+At Ledger, we are dedicated to continually investing in our employees which is why we offer more than just salaries; we provide comprehensive compensation packages that include a wide range of benefits. Here are some of the benefits you can look forward to:
+
+ - Flexible work options - Our hybrid policy allows employees to work from home up to 3 times per week
+
+ - Health & Wellness support - Health and Life Insurance.
+
+ - Financial growth opportunities - Employees can become shareholders in Ledger as well as other financial benefits depending on your country of work.
+
+ - Commuter allowance - Ledger offers a commuter allowance to contribute to your preferred means of transportation.
+
+ - Learning & Development - A comprehensive suite of training solutions providing a personalised learning experience for every employee.
+
+
+
+For regionally specific benefits, your Talent Acquisition contact will be able to provide you with more information.
+
+We’re committed to building an inclusive hiring process. If you need any adjustments or accommodations, just let us know, we’ll do our best to support you."
+94828769-a1d5-49c2-b539-a3629d25f79f,Compensation & Benefits Specialist – Contractor (6 months),"Paris, France",,France,Corporate Functions,Contract,OnSite,,2026-10-02,https://jobs.ashbyhq.com/ledger/94828769-a1d5-49c2-b539-a3629d25f79f,"About Ledger
+
+We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+ 
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+
+
+
+CONTEXT & PURPOSE OF THE ROLE
+
+The Total Rewards team is entering a high-intensity period: a year-end compensation review cycle, active benchmarking work, custom bonus plan reviews, and a rising volume of analytical deliverables supporting executive and board-level reporting. To protect bandwidth and quality, we are bringing in a mid-level contractor to work closely with and under the supervision of our Paris-based Compensation & Benefits Expert, reporting directly to the Head of Total Rewards. This is a hands-on, execution-focused role for someone with genuine C&B grounding who can work with light direction once context is set, and who understands what makes compensation data credible.
+
+
+
+
+WHAT YOU'LL BE WORKING ON
+
+
+
+Year-End Compensation Review
+
+ - Support data preparation and validation for the annual merit, performance, and bonus review cycles: building and maintaining population files, tracking timelines, and flagging data quality issues before they become problems.
+
+ - Work closely with the C&B Expert on modelling and scenario analysis (budget impact, distribution curves, outlier identification), producing clean, auditable outputs.
+
+ - Contribute to salary budget modelling and refresh of salary structures using latest market data, including updates to merit matrices.
+
+ - Coordinate with HRBPs and People Ops on data collection and sign-off workflows to keep the cycle on track.
+   
+   
+
+Analytical Work for Board & Executive Reporting
+
+ - On direction from the Head of Total Rewards, carry out the underlying data pulls, analysis, and cross-checks to populate compensation metrics and summaries used in board and executive slides.
+
+ - Produce clean, presentation-ready tables and data panels with accurate footnotes and sourcing, so outputs can be directly incorporated into slide decks.
+   
+   
+
+Bonus Plan Design Reviews
+
+ - This contractor may provide support to the C&B Expert and Head of Total Rewards during bonus plan reviews, including
+   
+   - Preparing and updating slide decks to support design discussions.
+   
+   - Running employee data analyses and refreshing payout range modelling for plan redesigns.
+   
+   - Using AI tools to update bonus plan rules documentation in Word as designs evolve, ensuring plan write-ups accurately reflect agreed changes ahead of final review.
+
+
+
+Ad Hoc C&B Support
+
+ - Support the C&B Expert on operational tasks: Workday data uploads, equity grant list preparation and validation, and patent premium tracking.
+
+ - Support the C&B Expert and Head of Total Rewards on ad hoc projects. Examples may include aspects of job architecture and related market benchmarking analytics, pay equity & equity grant modelling.
+
+
+
+
+WHAT WE'RE LOOKING FOR
+
+Requirement
+
+Experience
+
+4 years+ in Compensation & Benefits or Total Rewards. C&B-specific experience is required; broader HR analytics backgrounds without meaningful C&B exposure will not be considered.
+
+Education
+
+Degree in a quantitative discipline preferred (e.g. Finance, Economics, Statistics, or equivalent).
+
+Excel & Modelling
+
+Advanced Excel is non-negotiable: pivot tables, scenario modelling, audit-proof workbooks, and confident handling of large datasets.
+
+Benchmarking Tools
+
+Hands-on experience with Radford or Mercer Comptryx strongly preferred. Familiarity with the mechanics of job matching and market data interpretation is expected.
+
+Workday
+
+Experience using Workday for compensation cycle management is a strong plus.
+
+Stakeholder Exposure
+
+Experience working with or supporting stakeholders outside France — whether across European markets or globally — is a plus.
+
+Autonomy
+
+Able to work from a defined brief with minimal hand-holding. Asks the right clarifying questions early; doesn't need ongoing supervision once context is clear.
+
+Languages
+
+Fluent English required (working language of the team). French strongly preferred — most day-to-day collaborators are Paris-based.
+
+Tools
+
+Comfort with AI tools (e.g. Claude, Gemini) for document drafting and workflow efficiency is welcome.
+
+
+
+
+WHAT THIS ROLE IS (AND ISN'T)
+
+This is not a strategy or design role — Ledger already has senior expertise in-house for that. What we need is someone who executes cleanly and independently at the analytical and operational level, and who brings enough C&B literacy to produce outputs that don't need to be re-done. You will be working on real, high-stakes deliverables from day one.
+
+"
+43549294-9772-462d-86b8-f6de1e1b6bd3,CRM Lifecycle Specialist,"Paris, France",,France,Go-to-Market,FullTime,Hybrid,,2026-09-21,https://jobs.ashbyhq.com/ledger/43549294-9772-462d-86b8-f6de1e1b6bd3,"About Ledger
+
+We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+The team:
+Our CRM team keeps Ledger's customers engaged across every stage of their journey - from hardware upgrade to new wallet launches. As our CRM Lifecycle Specialist, you'll own the end-to-end execution of these campaigns & programs - working within the CRM team and stakeholders across product marketing, legal and localisation to bring each one to life. It's a hands-on role for someone who loves organising detail and finding smarter ways to work by using AI tools to vastly speed up delivery.
+
+ 
+
+What you’ll be doing:
+
+ - Campaign delivery: Create, manage, analyze and optimize multi-channel marketing campaigns
+
+ - End-to-end campaign/program build management: Initiate and own the cross-team collaboration of content creation, design, development, localisation, tracking and delivery of each campaign. Campaigns will be initiated from within the CRM team and across the Ledger organization
+
+ - Delivery process optimization: Find ideas and solutions for automating, optimizing and improving internal processes, by routine analysis and supplying actionable ideas
+
+ - Cross-Functional collaboration: Work closely with product, marketing, sales, and analytics teams to build and effectively deliver a high volume of campaigns.
+   
+    
+
+What we’re looking for:
+
+ - 2+ years of CRM / marketing automation experience
+
+ - Experience with Marketing Automation Platforms, such as Braze, Eloqua, Salesforce Marketing Cloud, Pardot, Marketo and HubSpot
+
+ - Experience or understanding of AI tools such as Cursor/Claude/Gemini
+
+ - Highly proficient in spoken and written English
+
+Nice to have
+
+ - Demonstrable experience or interest in the crypto industry and/or FinTech
+
+ - It's advantageous if you have knowledge in SQL, Liquid Scripting or have tried to play with code before
+   
+    
+
+At Ledger, we are dedicated to continually investing in our employees which is why we offer more than just salaries; we provide comprehensive compensation packages that include a wide range of benefits. Here are some of the benefits you can look forward to:
+
+ - Flexible work options - Our hybrid policy allows employees to work from home up to 3 times per week
+
+ - Health & Wellness support - Health and Life Insurance.
+
+ - Financial growth opportunities - Employees can become shareholders in Ledger as well as other financial benefits depending on your country of work.
+
+ - Commuter allowance - Ledger offers a commuter allowance to contribute to your preferred means of transportation.
+
+ - Learning & Development - A comprehensive suite of training solutions providing a personalised learning experience for every employee.
+
+For regionally specific benefits, your Talent Acquisition contact will be able to provide you with more information.
+
+
+
+We’re committed to building an inclusive hiring process. If you need any adjustments or accommodations, just let us know, we’ll do our best to support you.
+
+"
+09e27ed1-3895-4330-9577-44638de34f67,E-Commerce Business Line Director,"Paris, France",,France,Go-to-Market,FullTime,Hybrid,,2026-06-29,https://jobs.ashbyhq.com/ledger/09e27ed1-3895-4330-9577-44638de34f67,"About Ledger
+
+We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+ 
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+
+
+The mission of the Business Line Director, E-commerce is to lead and grow one of the company's largest revenue and profit streams: the global sales performance of the Ledger e-commerce website across all countries.
+
+
+
+
+THE MISSION:
+
+
+
+Key responsibilities include:
+
+ - Strategic Leadership: Defining and executing the global e-commerce strategy, optimizing the user journey, and driving D2C growth for Ledger e-commerce across international markets. What you sell on the website is not just a device or a set of services, it is a full ecosystem that does result in hardware sales but not only.
+
+ - Delivery of Revenue and Growth: Being ultimately accountable for the overall sales performance, conversion rates, and revenue generation of the Ledger e-commerce website globally.
+
+ - Organizational Leadership: Operating with a General Manager mindset, leading the business through extensive cross-functional collaboration. Acting as the central orchestrator between marketing, performance marketing, product, tech, and data teams.
+
+ - Commercial Management: You will directly manage the team in charge of developing Ledger’s affiliate network around the planet. At the frontier between sales-driven business development, relationship management and content creation, this team and our community of affiliates is essential to Ledger growth.
+
+ - Fierce Operational Optimization: Continuously identifying opportunities to optimize the funnel and maximize website performance, leaving no stone unturned when it comes to converting traffic into sales.
+
+ - Market Insight: Maintaining an expert, inside-out understanding of global e-commerce trends, localization strategies, competition, and consumer needs to inform strategic decisions.
+
+
+
+
+
+
+WHAT WE’RE LOOKING FOR : 
+
+
+
+ - Strong quantitative and strategic commercial acumen: Advancer pricing strategy, Pricing, inventory management, upsell and cross sell of accessories and services, International markets, Shipping and Tax and Duties, none of these have secrets for you.
+
+ - Experience (at least 10 years) with General Manager (GM)-like roles: The ability to understand all facets of the business—strategy, product, go-to-market, and operations—make holistic, P&L-driven decisions and drive execution to over-achievement.
+
+ - Global E-commerce Experience: A track record of success running a large-scale, high-volume global e-commerce and Direct-to-Consumer (D2C) sales business is a must.
+
+ - Delivery and Operational Excellence experience: Proven results in running an e-commerce website with the highest degree of efficiency, optimizing user engagement and conversion rate optimization (CRO).
+
+ - Quantitative and Results-Oriented: Exceptional analytical skills with a deep understanding of e-commerce metrics, performance marketing mechanics, and user experience.
+
+ - Leadership and Influence: The proven ability to exert significant personal ascendance and influence in a highly matrixed organization to align resources and execute complex initiatives across functional teams without relying on direct reporting lines.
+
+ - Total English fluency: Although the role may be based in Paris, English is a prerequisite for both social and work life in our office.
+
+ - AI: Preexisting engagement and strong appetite for all what AI can bring is a must
+
+
+
+At Ledger, we are dedicated to continually investing in our employees which is why we offer more than just salaries; we provide comprehensive compensation packages that include a wide range of benefits. Here are some of the benefits you can look forward to:
+
+ - Flexible work options - Our hybrid policy allows employees to work from home up to 3 times per week
+
+ - Health & Wellness support - Health and Life Insurance.
+
+ - Financial growth opportunities - Employees can become shareholders in Ledger as well as other financial benefits depending on your country of work.
+
+ - Commuter allowance - Ledger offers a commuter allowance to contribute to your preferred means of transportation.
+
+ - Learning & Development - A comprehensive suite of training solutions providing a personalized learning experience for every employee.
+
+For regionally specific benefits, your Talent Acquisition contact will be able to provide you with more information.
+
+We’re committed to building an inclusive hiring process. If you need any adjustments or accommodations, just let us know, we’ll do our best to support you."
+a81b4e34-fbc5-4546-9ef7-6afdf5a35178,Engineering Manager - Cloud Wallet,"Montpellier, France",,"France, Metropolitan",Tech,FullTime,Hybrid,,2026-07-22,https://jobs.ashbyhq.com/ledger/a81b4e34-fbc5-4546-9ef7-6afdf5a35178,"We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+
+
+The team
+
+To sustain the company's growth, Ledger is looking for an Engineering Manager to lead the Cloud Wallet team. This team is responsible for the backend services that power blockchain account management, transaction processing, and on-chain data aggregation across all Ledger wallet surfaces, from Ledger Live to the Ledger Enterprise platform. We believe in the power of functional programming to build robust and scalable platforms. We take time to share, challenge, and grow together through bi-weekly knowledge-sharing sessions, meetups, conferences, and open source contributions.
+
+
+
+What you’ll be doing
+
+ - Lead and grow your team. Own hiring, onboarding, performance management, and the professional development of your engineers. Run regular 1:1s, support career growth, and build a high-performing, engaged team.
+
+ - Drive technical delivery. Own the team's roadmap and PI planning commitments. Ensure on-time, high-quality delivery across the team's service portfolio and ongoing architectural initiatives while coordinating across dependencies with Coin Integration, Ledger Enterprise, Ledger Live, and Infrastructure teams.
+
+ - Maintain operational excellence. Own SLIs/SLOs for team services. Lead incident response posture and observability standards for production-critical systems.
+
+ - Architect for scale and reliability. Partner with tech leads and staff engineers to drive sound technical decisions on a polyglot stack (TypeScript, Scala) handling high throughput, multi-chain complexity, and strict reliability requirements. Review ADRs and ensure architectural coherence.
+
+ - Champion engineering practices. Drive strong standards on CI/CD, testing (including end-to-end on testnets), code review quality, technical debt management, and AI-assisted engineering workflows.
+
+ - Contribute to org-level initiatives. Participate in cross-BU architectural working groups, PI planning, and engineering efficiency programs.
+   
+   
+
+You will collaborate cross-functionally with:
+
+ - The Blockchain platform team for data model alignment, indexing and event streaming
+
+ - The Coin Integration team for coin module ownership and new blockchain integrations
+
+ - The Ledger Enterprise team for enterprise wallet features and operational alignment
+
+ - The Ledger Live / Wallet XP teams as consumers of the team's backend APIs
+
+ - The Infrastructure and SRE teams for platform reliability and scalability
+
+ - The Product team for roadmap prioritization and customer-driven requirements
+
+ - The Security team for vulnerability analysis and compliance
+
+
+
+What we’re looking for
+
+ - Proven experience (3+ years) managing backend engineering teams in a product-driven, distributed environment
+
+ - Strong technical background in backend systems. You can credibly challenge architectural decisions, review design documents, and unblock engineers on hard technical problems
+
+ - Experience operating services at scale and familiarity with high-availability architectures, event-driven systems, and observability tooling (RabbitMQ, PostgreSQL, Flink, NATS, Datadog or equivalent)
+
+ - Comfortable with polyglot stacks. The team works across TypeScript and Scala; you don't need to be an expert in both but need enough depth to lead effectively
+
+ - Track record of navigating complex multi-team dependencies and influencing across organizational boundaries without direct authority
+
+ - Excellent written and verbal communication skills in English
+
+ - Bonus points: exposure to blockchain or crypto infrastructure (account indexing, transaction lifecycle, UTXO vs account-based models), and a genuine interest in the Web3 space"
+6dcd473c-804a-4d0e-b477-4f2a4e318cf2,Internship - Compensation & Benefits,"Paris, France",,France,Corporate Functions,Intern,OnSite,,2026-10-02,https://jobs.ashbyhq.com/ledger/6dcd473c-804a-4d0e-b477-4f2a4e318cf2,"Internship - Total Rewards (Compensation & Benefits)
+
+
+
+About Ledger
+
+We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+The Team
+
+Working closely with the Head of Total Rewards (London-based) and the Compensation & Benefits Expert (Paris-based), this role offers a unique combination of business-as-usual (BAU) operational and process management along with high-impact strategic project and analytical work. 
+
+
+
+
+
+What You’ll Be Doing: 
+
+Pay Equity Analytics
+
+ - Pay Equity Modeling: Own the quantitative data preparation, variance testing, and baseline modeling for internal pay equity audits and gender pay gap analysis.
+
+ - EU Directive Alignment: Actively support the team’s preparations for the upcoming EU Pay Transparency Directive by leveraging statistical analysis to identify and report on compensation trends across employee cohorts.
+
+Equity Platform Dashboards & Maintenance
+
+ - Grant List Creation & Validation: Prepare, audit, and validate equity grant lists, ensuring absolute accuracy before final approvals. Partner directly with HR Ops and Legal teams to deliver clean, compliant data for new equity grants.
+
+ - Equity Tracking: Explore the creation of analytical dashboards/trackers to monitor global equity distribution, vesting schedules, and dilution tracking (e.g., BSPCE, Stock Options).
+
+C&B Operations
+
+ - Annual Review Support: Help run the operational backbone of our annual compensation review cycles (merit, performance, bonus) by managing data templates, tracking timelines, and coordinating with HRBPs.
+
+ - Survey Submissions & Benchmarking: Coordinate and execute global compensation and benefits survey submissions, ensuring clean data mapping, and perform basic market benchmarking to support pay positioning decisions.
+
+ - Patent Premiums Administration: Operationalize and administer our global patent/invention premiums, partnering closely with the Intellectual Property (IP) and Payroll teams to ensure seamless execution.
+
+ - Workday Data Maintenance: Own the quarterly data upload process in Workday, ensuring all miscellaneous payroll bonus data is accurately tracked and updated on time.
+
+
+
+What We’re Looking For
+
+ - Education: Pursuing a Master’s degree in a highly quantitative discipline (e.g., Corporate Finance, Statistics, Financial Engineering, Business Analytics, Data Science, or Econometrics).
+
+ - Advanced Mathematical Analytics: High mathematical baseline with strong capabilities in statistical modeling, variance tracking, and processing complex datasets. Advanced, robust Excel is a baseline requirement.
+
+ - AI Tooling & Agentic Workflows (Strong Plus): Hands-on experience or deep curiosity regarding AI agents and workflow automation. Ideally, you know how to leverage tools like Claude and Gemini beyond basic prompting.
+
+ - Execution & Balance: Adaptable and resourceful in a fast-paced, multicultural environment, proactive rather than reactive.
+
+ - Languages: Fluent in English; French is a plus."
+442c6f18-8b85-47eb-b1a0-5d7f8ffd6eda,Payroll Specialist,"Paris, France",,France,Corporate Functions,FullTime,Hybrid,,2026-10-05,https://jobs.ashbyhq.com/ledger/442c6f18-8b85-47eb-b1a0-5d7f8ffd6eda,"About Ledger
+
+We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+ 
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+ 
+
+The team: 
+
+You're joining as we reshape the People & Operations Experience team, which brings together ops, payroll, people tech, engagement and internal comms. That makes this a build-and-run role. You'll run payroll from day one and help design how the function works going forward, from processes to tooling to documentation. 
+
+ 
+ 
+
+
+THE ROLE
+
+You'll take ownership of French payroll, starting with a proper handover from the colleague who runs it today and building towards running it independently. Alongside it, you'll look after the employee lifecycle: joiners, leavers and everything in between. It's real responsibility, with a team around you.
+
+Your development goes in two directions: continuous improvement of how People Ops works, and a progressive move into Global Payroll (US, UK, Singapore) as your confidence and scope grow. Your arrival also creates room for the whole team to take on bigger things, and that includes you.
+
+
+
+
+ 
+
+
+WHAT YOU'LL DO
+
+ 
+
+
+OWN FRENCH PAYROLL
+
+ - Run the full monthly cycle: data collection, absences and leave, inputs, controls, validation and payslip checks
+
+ - Prepare and submit statutory filings on time (URSSAF, DSN, IJSS/Net-entreprise and other mandatory declarations)
+
+ - Manage variable pay and contractual changes, and build the VPI file for ADP Decidium
+
+ - Work with Finance on transfer files, cost reporting, headcount tracking and variance analysis
+
+ - Handle day to day equity payroll declarations (stock options / BSPCE) as you slowly build your expertise
+
+ - Manage benefits, meal vouchers and provider relationships
+
+ - Track regulatory changes and turn them into better processes
+
+ 
+
+
+RUN THE EMPLOYEE LIFECYCLE
+
+ - Handle joiners and leavers: contracts, health insurance and transport registration, visa and absence data
+
+ - Keep Workday data accurate and compliant
+
+ - Help document and improve the processes being rebuilt, and contribute to cross-functional People projects
+
+ - You'll work with Finance, Talent Acquisition, HRBPs, C&B and our provider ADP.
+
+ 
+
+
+WHAT YOU BRING
+
+ - 2–3 years of French payroll experience, with hands-on exposure to the monthly cycle and a readiness to own it
+
+ - Solid knowledge of French social legislation (URSSAF, DSN) and experience with a payroll tool (ADP or similar)
+
+ - Rigour: you close the month on time, without being chased
+
+ - A builder's instinct: you document as you go and like making things work better
+
+ - Comfort working in English in a multicultural team
+
+ - Curiosity about international payroll and a real appetite to widen your scope
+
+ 
+
+At Ledger, we are dedicated to continually investing in our employees which is why we offer more than just salaries; we provide comprehensive compensation packages that include a wide range of benefits. Here are some of the benefits you can look forward to:
+
+ 
+
+ - Flexible work options - Our hybrid policy allows employees to work from home up to 3 times per week
+
+ - Health & Wellness support - Health and Life Insurance.
+
+ - Financial growth opportunities - Employees can become shareholders in Ledger as well as other financial benefits depending on your country of work.
+
+ - Commuter allowance - Ledger offers a commuter allowance to contribute to your preferred means of transportation.
+
+ - Learning & Development - A comprehensive suite of training solutions providing a personalised learning experience for every employee.
+
+ 
+
+For regionally specific benefits, your Talent Acquisition contact will be able to provide you with more information.
+
+We’re committed to building an inclusive hiring process. If you need any adjustments or accommodations, just let us know, we’ll do our best to support you."
+802e6373-8b58-4a64-b30a-74f7e84ee00c,Senior Backend Engineer,"Paris, France",,France,Tech,FullTime,Hybrid,,2026-10-06,https://jobs.ashbyhq.com/ledger/802e6373-8b58-4a64-b30a-74f7e84ee00c,"We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+ 
+
+The team
+
+To sustain the company's growth, Ledger is looking for a Senior Scala Backend Engineer to join the Cloud Wallet team. This team builds and operates the backend services that power blockchain account management, transaction processing and on-chain data aggregation across all Ledger wallet surfaces, from Ledger Live to Ledger Enterprise, the custody platform used by financial institutions. Every client transaction goes through these services, and so does every new blockchain Ledger supports. We believe in the power of functional programming to build robust and scalable platforms. We take time to share, challenge, and grow together through bi-weekly knowledge-sharing sessions, meetups, conferences, and open source contributions.
+
+ 
+
+What you’ll be doing
+
+ - Design, build and operate the Scala services that connect Ledger wallets and the Ledger Enterprise platform to blockchain backends: account creation, operation history, transaction crafting, broadcast and lifecycle tracking.
+
+ - Lead new blockchain integrations end to end, from the integration design (ADR) to production, across account-based, UTXO and privacy-preserving chains.
+
+ - Own production quality on your scope: SLIs and SLOs, observability, distributed tracing. Take part in the firefighting rotation and drive incidents to resolution, including those raised by institutional clients.
+
+ - Define clear contracts with the Coin Integration and Ledger Enterprise teams, for example where UTXO selection lives or how transaction states are exposed to consumers.
+
+ - Write and review ADRs, challenge designs, and raise the bar on code quality, testing (including end-to-end on testnets) and technical debt management.
+
+ - Work in an AI-native way: use coding agents daily, write the specifications, constraints and verification that let them deliver safely, and contribute to the team's AI tooling.
+
+ - Mentor other engineers and share your knowledge across the Backend Blockchain community.
+   
+    
+
+You will collaborate cross-functionally with:
+
+ - The Coin Integration team for coin modules and new blockchain integrations.
+
+ - The Ledger Enterprise team, main consumer of the team's services for institutional custody.
+
+ - The Ledger Wallet, Ledger Button and Wallet XP teams as consumers of the team's backend APIs.
+
+ - The Blockchain platform team for data model alignment, indexing and event streaming.
+
+ - The Infrastructure and SRE teams for deployment, reliability and scalability.
+
+ - The Security team (Donjon) for vulnerability analysis and remediation.
+
+ - The Product team for roadmap prioritization and customer-driven requirements.
+
+ 
+
+What we’re looking for
+
+ - 5+ years of backend engineering, with real production ownership of distributed systems.
+
+ - Strong production experience
+
+ - Interest for Scala and functional programming practice
+
+ - Hands-on blockchain integration experience: transaction lifecycle, fees, finality, reorgs, on at least two models among account-based, UTXO and privacy-preserving chains.
+
+ - Experience with event-driven systems and data infrastructure (PostgreSQL, RabbitMQ, NATS or equivalent) and with observability tooling (Datadog or equivalent).
+
+ - Able to diagnose an incident across several services and own the outcome, from root cause to fix in production.
+
+ - Comfortable reading and contributing to TypeScript code, as the team works on a polyglot stack.
+
+ - Daily use of AI coding tools, with a critical eye on their output.
+
+ - Clear written communication in English, especially for design documents and incident reports.
+
+
+
+At Ledger, we are dedicated to continually investing in our employees which is why we offer more than just salaries; we provide comprehensive compensation packages that include a wide range of benefits. Here are some of the benefits you can look forward to:
+
+ - Flexible work options - Our hybrid policy allows employees to work from home up to 3 times per week
+
+ - Health & Wellness support - Health and Life Insurance.
+
+ - Financial growth opportunities - Employees can become shareholders in Ledger as well as other financial benefits depending on your country of work.
+
+ - Commuter allowance - Ledger offers a commuter allowance to contribute to your preferred means of transportation.
+
+ - Learning & Development - A comprehensive suite of training solutions providing a personalised learning experience for every employee.
+
+For regionally specific benefits, your Talent Acquisition contact will be able to provide you with more information.
+
+We’re committed to building an inclusive hiring process. If you need any adjustments or accommodations, just let us know, we’ll do our best to support you."
+3ebd8e20-cf7c-4919-a4bc-2705b446687c,Senior Product Manager - Earn,"Paris, France",,France,Go-to-Market,FullTime,Hybrid,,2026-09-23,https://jobs.ashbyhq.com/ledger/3ebd8e20-cf7c-4919-a4bc-2705b446687c,"About Ledger
+
+We’re a team of experts pushing the limits of what’s possible, united by our common goal to unlock true freedom through digital ownership, making technology accessible for all. We believe in a world where users, creators and enterprises manage their value with ownership and freedom. Our curiosity drives us to innovate, empowering individuals on a global scale. We believe change is constant and our team moves forward as one, with a culture of problem-solving where every employee is empowered and supported to challenge tradition and create solutions. Our mission is simple: to make self-custody accessible and give people the keys to their own financial futures. If you want to make a true impact, we want you to join us at Ledger.
+
+At Ledger, we’re proud to be the global platform for digital assets and Web3, with over 20% of the world’s crypto assets secured through our Ledger devices. With our headquarters in Paris, and offices in Vierzon, Grenoble, Montpellier, London, Portland, Geneva, Zurich and Central Singapore, we have a team of around 600 professionals developing a variety of products and services to enable individuals and companies to securely buy, store, swap, grow and manage crypto assets – including the Ledger hardware wallets line with more than 7.5 millions units already sold in 200 countries.
+
+The mission of the Senior Product Manager - Earn is to own and grow one of Ledger Live's core value pillars: helping millions of users put their crypto to work safely, directly from self-custody. You will define and drive the roadmap for Earn - spanning staking, stable yield savings, and partner-powered yield products - turning Ledger's security promise into a real, recurring source of value for our users and for the business.
+
+
+
+What you’ll be doing:
+
+ - Product Strategy & Vision: Defining the vision and driving the roadmap for the Earn scope, and translating it into a clear, prioritized quarterly plan that balances new yield opportunities, platform scalability, and user trust.
+
+ - End-to-End Ownership: Driving initiatives from discovery through launch and iteration — writing PRDs, defining success metrics, and partnering closely with engineering, design, and embedded software to ship features that work flawlessly on both the app and the device.
+
+ - Data-Driven Decision Making: Using Mixpanel and other analytics tools to understand user behavior across the Earn funnel, identify drop-off points, and prioritize the roadmap based on evidence rather than opinion.
+
+ - Partner & Ecosystem Management: Partnering with yield and staking partners, negotiating rev-share terms, and evaluating new integrations to expand what “earning with Ledger” means for our users.
+
+ - Cross-Functional Leadership: Acting as the central point of alignment between Product, Design, Engineering, Marketing, Legal, and Compliance — especially given the regulatory sensitivity of yield-generating products in crypto.
+
+ - Team & Stakeholder Communication: Producing sharp, decision-ready documentation (roadmaps, product vision docs, dashboards) that can be handed directly to leadership and collaborators without further editing.
+
+
+
+What we’re looking for:
+
+ - Product Strategy & Vision: Defining the vision and driving the roadmap for the Earn scope, and translating it into a clear, prioritized quarterly plan that balances new yield opportunities, platform scalability, and user trust.
+
+ - End-to-End Ownership: Driving initiatives from discovery through launch and iteration — writing PRDs, defining success metrics, and partnering closely with engineering, design, and embedded software to ship features that work flawlessly on both the app and the device.
+
+ - Data-Driven Decision Making: Using Mixpanel and other analytics tools to understand user behavior across the Earn funnel, identify drop-off points, and prioritize the roadmap based on evidence rather than opinion.
+
+ - Partner & Ecosystem Management: Partnering with yield and staking partners, negotiating rev-share terms, and evaluating new integrations to expand what “earning with Ledger” means for our users.
+
+ - Cross-Functional Leadership: Acting as the central point of alignment between Product, Design, Engineering, Marketing, Legal, and Compliance — especially given the regulatory sensitivity of yield-generating products in crypto.
+
+ - Team & Stakeholder Communication: Producing sharp, decision-ready documentation (roadmaps, product vision docs, dashboards) that can be handed directly to leadership and collaborators without further editing.
+
+
+
+At Ledger, we are dedicated to continually investing in our employees which is why we offer more than just salaries; we provide comprehensive compensation packages that include a wide range of benefits. Here are some of the benefits you can look forward to:
+
+ - Flexible work options - Our hybrid policy allows employees to work from home up to 3 times per week
+
+ - Health & Wellness support - Health and Life Insurance.
+
+ - Financial growth opportunities - Employees can become shareholders in Ledger as well as other financial benefits depending on your country of work.
+
+ - Commuter allowance - Ledger offers a commuter allowance to contribute to your preferred means of transportation.
+
+ - Learning & Development - A comprehensive suite of training solutions providing a personalised learning experience for every employee.
+
+
+
+For regionally specific benefits, your Talent Acquisition contact will be able to provide you with more information.
+
+
+
+We’re committed to building an inclusive hiring process. If you need any adjustments or accommodations, just let us know, we’ll do our best to support you.
+
+"

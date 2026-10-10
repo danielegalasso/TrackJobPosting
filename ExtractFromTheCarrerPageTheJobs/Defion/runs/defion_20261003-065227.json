@@ -1,0 +1,76 @@
+{
+  "source": "https://defion.security/en/careers/",
+  "company": "DEFION Security",
+  "query": "",
+  "extracted_at": "2026-10-03T06:52:27",
+  "site_total": 6,
+  "extracted": 6,
+  "postings": [
+    {
+      "job_id": "detection-engineer",
+      "title": "Detection Engineer",
+      "url": "https://defion.security/en/careers/detection-engineer/",
+      "location": "Barcelona",
+      "country": "ES",
+      "contract": "FULL_TIME",
+      "published": "2026-04-14",
+      "deadline": "2026-12-31",
+      "description": "Join DEFION as a Detection Engineer in Barcelona. Design advanced detection rules for SIEM, EDR, and XDR. Turn offensive findings into real-world defenses."
+    },
+    {
+      "job_id": "it-security-internship",
+      "title": "IT Security Internship",
+      "url": "https://defion.security/en/careers/it-security-internship/",
+      "location": "Zoetermeer",
+      "country": "NL",
+      "contract": "FULL_TIME",
+      "published": "2026-04-14",
+      "deadline": "2026-12-31",
+      "description": "Graduation internship in cybersecurity at DEFION Security. Work on a real research project, learn from top experts, and get paid €500/month with free lunch and a laptop."
+    },
+    {
+      "job_id": "medior-soc-analist",
+      "title": "Medior SOC Analyst",
+      "url": "https://defion.security/en/careers/medior-soc-analist/",
+      "location": "Zoetermeer",
+      "country": "NL",
+      "contract": "FULL_TIME",
+      "published": "2026-04-14",
+      "deadline": "2026-12-31",
+      "description": "Join DEFION's SOC team as a Medior Analyst. Work with Microsoft Defender and Sentinel, collaborate with threat hunters and DFIR specialists, and protect clients 24/7."
+    },
+    {
+      "job_id": "new-business-developer",
+      "title": "New Business Developer",
+      "url": "https://defion.security/en/careers/new-business-developer/",
+      "location": "Zoetermeer",
+      "country": "NL",
+      "contract": "FULL_TIME",
+      "published": "2026-06-23",
+      "deadline": "2026-12-31",
+      "description": "Join DEFION Security as a New Business Developer. Build and manage the client portfolio of a fast-growing security company. Not an account manager maintaining existing relationships, but a hunter who opens new doors with C-level and IT decision-makers."
+    },
+    {
+      "job_id": "senior-security-specialist",
+      "title": "Senior Security Specialist",
+      "url": "https://defion.security/en/careers/senior-security-specialist/",
+      "location": "Zoetermeer",
+      "country": "NL",
+      "contract": "FULL_TIME",
+      "published": "2026-04-14",
+      "deadline": "2026-12-31",
+      "description": "Join DEFION as a Senior Security Specialist. Execute offensive security assessments, specialize in cloud, red teaming, or governance, and shape your own role."
+    },
+    {
+      "job_id": "soc-analyst",
+      "title": "SOC Analyst",
+      "url": "https://defion.security/en/careers/soc-analyst/",
+      "location": "Barcelona",
+      "country": "ES",
+      "contract": "FULL_TIME",
+      "published": "2026-04-14",
+      "deadline": "2026-12-31",
+      "description": "Join DEFION's Barcelona SOC as a Security Analyst. Monitor EDR/SIEM alerts, investigate threats, apply threat intelligence, and respond to incidents in an international team."
+    }
+  ]
+}

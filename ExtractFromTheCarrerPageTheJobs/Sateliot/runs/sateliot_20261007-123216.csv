@@ -1,0 +1,2166 @@
+job_id,title,location,additional_locations,department,remote_type,published,url,description
+115424d7-433f-4397-85bf-73b68b185f28,5G NTN Test Engineer (Junior),"Barcelona, Spain",,Technology,hybrid,2026-09-23,https://careers.sateliot.com/jobs/8438605-5g-ntn-test-engineer-junior,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Network Integration & Validation team leads Proofs of Concept (PoCs) with Mobile Network Operators (MNOs) worldwide, validating how Sateliot's NTN and IPX services integrate into live 5G networks. This is a junior role, ideal for an early-career telecom engineer who wants hands-on exposure to real MNO integrations, lab and field testing, and end-to-end service validation — with the support of senior engineers on the team.
+
+What you'll do
+
+- Support and help manage Proofs of Concept (PoCs) with Mobile Network Operators, both in the lab and, when required, on-site in the MNO's country.
+
+- Provide technical support during MNO integration processes, including IPX and NTN network elements.
+
+- Execute test passes and service validations, ensuring alignment with integration requirements.
+
+- Analyze and report test results, identify anomalies, and help propose technical solutions.
+
+- Collaborate with internal engineering, product, and operations teams to resolve technical blockers during integration.
+
+- Contribute to documentation of procedures, integration steps, and lessons learned from each MNO onboarding.
+
+- Act as a technical point of contact with MNO technical teams during integration and validation activities, under the guidance of senior team members.
+
+What you bring
+
+- Degree in Telecommunications Engineering (or final-year student / recent graduate).
+
+- Familiarity with IPX networks, 5G networks, roaming setup, and interconnection models (through coursework, internships, or early professional experience).
+
+- Basic knowledge of IP networking protocols (IPv4/IPv6, DNS, routing, VPN).
+
+- Exposure to testbeds and telecom monitoring tools (e.g., Wireshark, protocol analyzers).
+
+- Basic Linux user skills.
+
+- Strong communication and coordination skills — you'll work with international MNOs and technical partners.
+
+- Analytical and troubleshooting mindset applied to telecom environments.
+
+- Ability to manage tasks independently and juggle parallel technical activities.
+
+- Availability to travel when needed for PoCs and integration projects abroad.
+
+- Good level of English (spoken and written); additional languages are a plus.
+
+Preferred experience:
+
+- Understanding of mobile and satellite communication protocols, including NB-IoT, LTE-M, 3GPP NTN, and LEO technologies.
+
+Additional requirements
+
+- English proficiency: professional working proficiency in written and spoken English.
+
+- Location: based in Barcelona; hybrid work model.
+
+- Operational availability: occasional travel abroad for PoCs and MNO integration activities.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Full-time permanent contract.
+
+- Hybrid work model, with schedule flexibility — we focus on results, not hours.
+
+- Flat and transparent organizational structure.
+
+- Buddy Program to support your integration during your first month.
+
+- Growth: we cover 50% of courses or master's degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, fresh fruit in the office, and the possibility of sharing the cost of bicycle transport.
+
+- Flexible compensation through Cobee (meal, transport, kindergarten).
+
+- Catering: if you don't have time to cook, we partner with a catering company so a fresh meal is sorted.
+
+- On-site parking, with Sateliot covering 50% of the cost — plus free bike parking.
+
+- A truly global team: 20+ nationalities building something genuinely new.
+
+- The chance to be part of one of the most exciting and disruptive space projects in Europe."
+dfee8bd6-d336-49ac-b2c5-c9696124ffcf,AI Engineer,"Barcelona, Spain",,Technology,hybrid,2026-08-13,https://careers.sateliot.com/jobs/8214592-ai-engineer,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Sateliot is building its AI capability from the ground up. This is an early role on a team that is still taking shape, which means real ownership and the chance to influence how we build, ship and operate AI at Sateliot, rather than inheriting someone else's playbook.
+
+This is not a role about training models, it's about building with them. As our AI Engineer, you take the AI use cases prioritized on the company roadmap and turn them into robust, production-grade solutions: integrations between services, internal tools, automations, agents and skills that make Sateliot's processes measurably better. It's a hands-on, purely technical position: project management is not part of the job, so your focus stays entirely on designing, building, integrating and maintaining.
+
+We're looking for a software engineer at heart ideally with an infrastructure or platform background who has moved into building and integrating AI services into enterprise-grade corporate solutions, and who cares about solid architecture rather than duct-tape fixes
+
+What you'll do
+
+- Build on top of AI services: develop solutions using public model APIs (OpenAI, Anthropic/Claude, Google Gemini and similar) and AI tools for image, video and content generation.
+
+- Connect services end to end: design and implement the glue between AI services and our internal systems, APIs, webhooks, data flows, automations, agents and skills. Not necessarily web apps: whatever shape best solves each use case.
+
+- Engineer for the long run: apply sound architecture and design patterns so everything you ship is reliable, secure, observable and easy to maintain and extend.
+
+- Deliver the roadmap: implement the use cases prioritized on the company roadmap, taking them from first prototype to real production, and maintain them over time.
+
+- Improve how Sateliot works: use AI to streamline and automate processes across the company.
+
+- Document what you build: keep clear technical and product documentation so knowledge lives in the team, not in one person's head.
+
+- Keep learning: stay on top of the fast-moving AI ecosystem, new models, APIs, agent frameworks, multimodal tools, so you can identify and apply the latest tooling wherever it genuinely improves our solutions.
+
+What you bring
+
+- A solid software engineering background, ideally from infrastructure, platform, backend or DevOps roles.
+
+- Proven experience integrating third-party APIs and services into production systems: authentication, webhooks, rate limits, retries, error handling and monitoring; the unglamorous parts done right.
+
+- Hands-on experience with public AI model APIs (e.g. OpenAI, Anthropic/Claude, Gemini), AI coding tools and agents (e.g. Codex, Claude Code), and AI generation tools for image and video.
+
+- Strong programming skills (Python and/or TypeScript/Node.js or similar).
+
+- An architecture mindset: you follow good design patterns and build systems meant to last, not one-off scripts.
+
+- A pragmatic, documentation-first way of working and the autonomy to own delivery end to end.
+
+- Fluent level of English.
+
+Bonus if you have
+
+- Experience building agents, RAG pipelines or AI-powered automations (function/tool calling, MCP, LangChain or similar, or workflow platforms like n8n, Make or Zapier).
+
+- Cloud and infrastructure experience (AWS, GCP or Azure; Docker/Kubernetes; CI/CD; infrastructure as code).
+
+- Experience with observability, evaluation and cost control of LLM-based systems.
+
+- Genuine curiosity about space, connectivity or IoT.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+188de276-f453-4731-8170-401457bf98e2,AI Project Manager,"Barcelona, Spain",,Technology,hybrid,2026-08-13,https://careers.sateliot.com/jobs/8214620-ai-project-manager,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Sateliot is building its AI capability from the ground up. This is an early role on a team that is still taking shape, which means real ownership and the chance to shape how AI projects are planned and delivered at Sateliot from the start.
+
+As AI Project Manager, you make sure the right AI projects get built, well and on time. You own the delivery of each project end to end: understanding what's needed, planning across the team, and keeping scope, timelines, budget and dependencies under control so that everything we build lands on the roadmap it was meant to serve.
+
+The scope goes beyond individual projects, though. The AI team is organized in several connected verticals, and you are also the person who keeps that whole engine running day to day: managing the team's work in tools like Jira, making sure every task across every vertical is visible, owned, on track and unblocked. You track not only where each project stands with its stakeholders, but how the team itself is functioning at task level.
+
+What you'll do
+
+At project level:
+
+- Understand the need: work with requesters and end users to understand what each AI project must actually solve.
+
+- Plan across the team: coordinate with the different areas of the AI department to plan each project in the most effective way.
+
+- Run each project: manage scope, timelines, budget and dependencies for every AI project, end to end.
+
+- Avoid duplication: keep visibility across the portfolio so effort isn't duplicated between projects.
+
+- Deliver: ensure each project ships on time, at quality, within budget, and aligned with Sateliot's roadmap.
+
+At team level:
+
+- Own day-to-day execution: run the team's task management in Jira (or similar) — boards, backlog, priorities, deadlines and task status, always up to date.
+
+- Track implementation at task level: follow product build closely, spot blockers, delays and risks early, and push them to resolution.
+
+- Cover all verticals: apply the same task-level follow-up to every workstream of the AI team; product implementation, R&D, data science, learning & development, so the whole team operates as one connected system.
+
+- Make progress visible: give the team and stakeholders a clear, current picture of what's moving, what's blocked and what's next.
+
+What you bring
+
+- Proven experience managing technical, software or AI projects end to end.
+
+- Strong command of project management fundamentals: scope, planning, budget, risk and dependencies.
+
+- Hands-on, daily-driver experience with task management tools like Jira (or similar): boards, workflows, backlog management and reporting.
+
+- Experience running a team's agile day-to-day execution, sprints, stand-ups, task follow-up, unblocking, not just high-level project plans.
+
+- Comfort tracking different kinds of work in parallel, where progress doesn't always look the same.
+
+- Ability to translate between technical teams and business stakeholders, and to keep both aligned.
+
+- Fluent level of English.
+
+Bonus if you have
+
+- Experience in AI/ML, data or other deep-tech projects.
+
+- A project management certification (PMP, PRINCE2, or an agile/Scrum credential).
+
+- Genuine curiosity about space, connectivity or IoT.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+afbf541c-08d7-4bea-824f-f7bf5ad7c742,Business Development Team Lead,"Barcelona, Spain",,Commercial,hybrid,2026-09-02,https://careers.sateliot.com/jobs/8311377-business-development-team-lead,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Direct Sales team generates demand for Sateliot’s satellite IoT service: it identifies and qualifies the IoT solution providers that operate where terrestrial networks don’t reach, and converts them into signed service orders that go live through our mobile-operator partners. We’re looking for someone to lead and scale that engine globally.
+
+What you'll do
+
+- Own the global qualified pipeline: turn identified IoT solution providers into signed service orders across every market where Sateliot has coverage.
+
+- Lead and scale the SDR team — local and remote across markets — hiring as needed and setting a qualification bar that concentrates effort on best-fit accounts, not raw volume.
+
+- Own the lead-to-order engine: define the ideal customer profile, qualification criteria and the AI-driven enriched-data methodology that makes outreach repeatable.
+
+- Deliver and forecast the number: hit quarterly qualified-sales targets globally and give leadership a clean read on pipeline health.
+
+- Lead the outbound campaigns that generate leads — owning targeting, messaging and cadence so the pipeline is fed consistently, not in bursts.
+
+- Work with Communications to turn online activity into inbound: shape the demand-gen effort together so both the volume and the quality of inbound leads keep rising.
+
+What you bring
+
+- 5+ years in B2B direct sales, including 2+ years leading a sales or SDR team and carrying a target.
+
+- Track record of closing binding B2B agreements and hitting pipeline / revenue targets, ideally across multiple countries.
+
+- Fluent English and Spanish, comfortable working across time zones and cultures.
+
+- Data-driven operator, fluent in CRM and sales-engagement tooling.
+
+Bonus if you have
+
+- Portuguese or other languages relevant to our markets.
+
+- Experience in IoT, satellite / NTN or connectivity services.
+
+- Experience selling through or with telecom operators (MNO / MVNO) or other channel partners.
+
+Additional requirements
+
+- Willingness to be on-site at our Barcelona HQ on a hybrid basis
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+94503ccb-9dfc-44f6-ba1d-a94f5bb853bc,Finance Specialist,"Barcelona, Spain",,Finance,hybrid,2026-09-30,https://careers.sateliot.com/jobs/8479888-finance-specialist,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+This person will be the operational engine of the Finance department, combining accounting and treasury. You'll be the go-to person for the full transactional cycle: from invoice to payment, from journal entry to close.
+
+What you'll do
+
+- Manage the supplier invoice cycle: coordinate the flow with Procurement, control the pipeline of pending invoices and resolve issues with internal teams and suppliers.
+
+- Record invoices in the ERP and maintain supplier master data.
+
+- Classify invoices by cost center and project, and review that they are correctly allocated.
+
+- Prepare monthly payment proposals: check due dates, contractual terms and supporting documentation.
+
+- Execute payments (SEPA batches) and monthly payroll, and follow up on their correct posting.
+
+- Support the monthly closing process: accruals, provisions, reconciliations and review of entries.
+
+- Record and control fixed assets and inventory (assets under construction, capitalizations and depreciation), including physical-to-book reconciliation with the Supply Chain team.
+
+- Handle bank reconciliation, monitor cash position and support treasury forecasting.
+
+- Support the accounting of customer invoicing and employee expense management (cards and expense reports).
+
+- Coordinate subsidiary consolidation together with local advisors in each country, and support tax matters (VAT, SII, withholdings, Corporate Income Tax).
+
+- Coordinate the annual external audit and prepare supporting documentation.
+
+- Improve, document and automate the department's transactional processes.
+
+What you bring
+
+- 3 to 5 years of experience in accounting, treasury, finance operations or audit, ideally in industrial or CAPEX-intensive environments.
+
+- Knowledge of Spanish GAAP (PGC) and IFRS, and of the full accounting cycle.
+
+- Knowledge of fixed asset and inventory accounting (assets under construction, capitalizations, depreciation).
+
+- Hands-on SAP experience (a must).
+
+- Familiarity with payment processes (SEPA, online banking) and bank reconciliation.
+
+- Rigor and attention to detail when working with high transaction volumes.
+
+- A process-improvement mindset: you document, standardize and automate.
+
+- Autonomy and ownership.
+
+- Ability to coordinate with multiple departments (Procurement, Supply Chain, HR) and external advisors.
+
+- Advanced Excel.
+
+- Professional Spanish and English.
+
+Bonus if you have
+
+- Exposure to Spanish taxation (VAT/SII).
+
+- Experience with audit processes.
+
+- Experience with automation tools, data analysis or AI applied to finance processes.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+c947d978-fe0e-4c87-91dd-8f42ccb93d25,Flight Software Engineer,"Barcelona, Spain",,Technology,hybrid,2026-09-08,https://careers.sateliot.com/jobs/8337101-flight-software-engineer,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Mission and Systems Engineering team is responsible for the development, integration and validation of the satellite’s core avionics and on-board software, ensuring reliable operation across all spacecraft subsystems.
+
+As Flight Software Engineer, you’ll own the On-Board Software (OBSW) for Sateliot’s satellites — from today’s baseline to the next generation — developing, verifying and validating it, and supporting the platform through integration campaigns and in orbit, working closely with the Systems, Hardware, AIT and Operations teams.
+
+What you'll do
+
+- Own the development of the on-board flight software for the platform, through to a flight-ready release.
+
+- Own its verification and validation: define and run the unit, integration and system-level test campaigns that produce the acceptance evidence for each release.
+
+- Deliver software that is robust and reliable in the space environment.
+
+- Own the integration of the on-board software with the satellite subsystems, interfaces and overall system architecture, working closely with the Hardware, Systems and AIT teams.
+
+- Resolve issues across software, hardware, interfaces and communication protocols, from the bench and AIT campaigns through to in-orbit operations.
+
+What you bring
+
+- 5+ years developing embedded software in C or C++ for resource-constrained targets.
+
+- Hands-on development on real-time operating system (FreeRTOS, RTEMS, VxWorks or equivalent).
+
+- Hands-on development on data interfaces used in satellite systems (SpaceWire, CAN Bus, RS-422, RS-485, Ethernet, MIL-STD-1553).
+
+- Demonstrated ownership of embedded software verification: authored unit and integration test suites and executed them on target hardware.
+
+Bonus if you have
+
+- Python or other modern scripting languages, applied to test automation and tooling.
+
+- Familiarity with ECSS and CCSDS standards.
+
+- Experience developing software for aerospace or safety-critical systems.
+
+- Experience with CI/CD for embedded systems.
+
+- Experience with Linux, Git and modern software development workflows.
+
+- Experience running FlatSat and hardware-in-the-loop test campaigns.
+
+- Experience working in a cleanroom environment, or willingness to.
+
+- Previous involvement in satellite AIT/AIV, commissioning, or in-orbit operations.
+
+Additional requirements
+
+- Based in Barcelona or willing to relocate: this is a hybrid role with regular on-site presence at our Barcelona HQ, where the hardware benches and FlatSat are.
+
+- Availability for occasional travel to external test campaigns, and for extended hours around launch and in-orbit commissioning windows.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+86f98942-44e1-4c78-a4af-da42dd215d50,Flight Software Engineer Trainee,"Barcelona, Spain",,Technology,hybrid,2026-09-22,https://careers.sateliot.com/jobs/8431111-flight-software-engineer-trainee,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Mission and Systems Engineering team is responsible for the development, integration and validation of the satellite’s core avionics and on-board software, ensuring reliable operation across all spacecraft subsystems.
+
+As a Flight Software Engineer Intern, you’ll join the team developing and validating the On-Board Software (OBSW) for Sateliot’s satellites. You’ll contribute to real flight-software activities, automated testing and laboratory integration while learning from experienced engineers and collaborating with the Systems, Hardware, AIT and Operations teams.
+
+What you'll do
+
+- Contribute to the design, implementation and maintenance of on-board software components in C or C++.
+
+- Write and run unit and integration tests, analyse the results and help maintain clear verification evidence.
+
+- Support the integration of the on-board software with spacecraft subsystems using laboratory benches and the FlatSat.
+
+- Help investigate software, hardware and interface issues using logs, debuggers and other engineering tools.
+
+- Take part in code reviews and team workflows, including Git, documentation and continuous integration.
+
+What you bring
+
+- Currently pursuing, or recently completed, a bachelor’s or master’s degree in Computer Science, Software Engineering, Telecommunications, Electronics, Aerospace Engineering or a related field.
+
+- Solid foundations in C or C++, gained through coursework, academic projects or personal projects.
+
+- Basic understanding of embedded systems and an interest in learning about real-time operating systems and spacecraft software.
+
+- A curious and structured approach to problem-solving, attention to quality, and the ability to communicate and collaborate effectively.
+
+Bonus if you have
+
+- Python or another scripting language for automation, data analysis or test tooling.
+
+- An academic, personal or student-team project involving embedded software, a microcontroller or a single-board computer.
+
+- Familiarity with interfaces or protocols such as UART, SPI, I2C, CAN, Ethernet, RS-422 or RS-485.
+
+- Experience using Linux, Git and basic collaborative software-development workflows.
+
+- Exposure to unit testing, CI/CD.
+
+- An interest in space systems and safety-critical software.
+
+- Participation in a CubeSat, robotics, Formula Student, engineering club, research group or similar hands-on project.
+
+Additional requirements
+
+- Based in Barcelona: this is a hybrid internship with regular on-site presence at our Barcelona HQ, where the hardware benches and FlatSat are.
+
+- Currently enrolled in, or recently graduated from, a relevant programme and eligible to sign an internship agreement with your university or study centre, where required.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+73271633-94f8-440c-8004-0c2239c0d9a9,FPGA & Firmware Engineer,"Barcelona, Spain",,Technology,hybrid,2026-05-26,https://careers.sateliot.com/jobs/7795141-fpga-firmware-engineer,"WHO ARE WE?
+
+Sateliot is a Barcelona-based Startup in the New Space sector, becoming the first satellite telecommunications operator that will provide global and continuous connectivity to all the elements that will make up the massive Internet of Things (IoT) universe under the 5G protocol.
+
+In order to do so, Sateliot is launching a constellation of last generation nanosatellites, located at low altitude that act as mobile towers. Sateliot is the perfect complement for large telecommunications companies by providing them with the necessary infrastructure where terrestrial technologies do not arrive.
+
+YOUR MISSION
+
+Working within the Payload team, your mission is to develop the ""brain"" of our satellites end-to-end — from FPGA logic to embedded firmware running on the SoC. Your role is a dynamic 50/50 mix of FPGA design (RTL) and embedded firmware (PS) on the same target. You will be the bridge between hardware logic and the software running on top of it.
+
+YOUR MAIN FUNCTIONS
+
+•RTL Design & Integration: Design and implement digital logic in SystemVerilog or VHDL on the PL side. Integrate IP blocks and bridge them via AXI4 / AXI4-Stream / AXI4-Lite.
+
+•Embedded Firmware: Write C / C++ firmware running on the SoC's processing system — drivers, control logic, data path, and hardware-software interaction.
+
+•Embedded Linux: Build and configure the embedded Linux image with PetaLinux and/or Yocto — kernel configuration, device tree, drivers, and rootfs customization.
+
+•High-Speed Interfaces: Bring up and validate high-speed PL interfaces between FPGA and external devices.
+
+•Automation & Scripting: Develop and maintain scripts in Python and Tcl to automate build processes, testing workflows, and lab verifications.
+
+•Hands-on Debugging: Work in the lab with real hardware to debug signals, validate payload performance, and troubleshoot integration issues.
+
+REQUIREMENTS
+
+Education & Experience
+
+•Bachelor's or Master's degree in Electrical Engineering, Telecommunications, Computer Engineering, or a related field.
+
+•2 to 4 years of professional experience covering both FPGA RTL design and embedded firmware on the same SoC platform — Xilinx/AMD Zynq/Versal or Altera/Intel SoC FPGA are both welcome.
+
+Technical Skills
+
+•Strong SystemVerilog or VHDL on the PL side.
+
+•Strong C / C++ for embedded systems (pointers, memory management, low-level drivers).
+
+•Embedded Linux on ARM — kernel modules, device tree, drivers; or strong baremetal background and willingness to ramp into Linux.
+
+•PetaLinux and/or Yocto build-flow experience.
+
+•AXI protocol family on the PL side (AXI4 / AXI4-Stream / AXI4-Lite).
+
+•High-speed interface integration.
+
+•Comfortable working in a Linux environment and using the command line (Bash), and with Git version control workflows.
+
+•Demonstrable ability to write scripts in Python or Tcl for automation tasks.
+
+•AI-Augmented Engineering: experience using AI coding assistants (e.g., Cursor AI, Copilot, Claude) to accelerate development and debugging, or a strong willingness to adopt these tools to work smarter and faster.
+
+•Professional proficiency in English.
+
+Soft Skills
+
+•A proactive attitude and a genuine passion for Space Tech and 5G.
+
+•Strong problem-solving skills and the ability to work independently when needed.
+
+•Eagerness to learn and share knowledge with the team.
+
+NICE TO HAVE
+
+•Versal know-how is a plus (newcomers will go through our internal Versal training course and reference material).
+
+•AI Engines (AIE / AIE-ML) or Vitis HLS exposure.
+
+•Previous exposure to Xilinx tools like Vivado or Vitis (or Altera/Intel Quartus equivalents).
+
+•Basic knowledge of Software-Defined Radio (SDR) or baseband processing concepts.
+
+•Specific interest in satellite payloads, 5G NTN, or space-grade design.
+
+WHAT YOU’LL FIND WHEN WORKING AT SATELIOT:
+
+You will be part of one the fastest-growing start-ups in Spain with global reach along getting into the challenging world of New Space & Telecommunication.
+
+Our culture is based on embracing openness by welcoming multicultural talent, being respectful with everybody and being open to exchange ideas. We are also committed to a healthy lifestyle by helping our team balance their work and personal life and also by providing them facilities for healthy habits.
+
+We are a driven team with big goals, that seek for people who are genuinely passionate about their work and that also want to keep learning and getting better personally and professionally!
+
+WHAT DO WE OFFER?
+
+- Full time permanent Contract
+
+- Hybrid Work Model 💻
+
+- Schedule flexibility
+
+- Flat and transparent organizational structure
+
+- Buddy Program to help you with your integration during your first month 🫂
+
+- Flexible compensation package: Tax benefits with ticket restaurant, transportation and kindergarten, training programs.💰
+
+- We promote good physical and mental health, with a Health insurance, Fresh fruit in the office and the possibility of sharing the cost of bicycle transport or gyms.🏋🏻
+
+- Work in a dynamic, multidisciplinary and multicultural environment that will allow you to boost your professional career 🌍
+
+- To be part of a strong, international, friendly and motivated team, where you can progress both personal and professionally 🪴
+
+- The chance to be part of one of the most exciting and disruptive space projects in Europe 🚀"
+27cbe74b-01fb-405f-a6de-6b99dcaa1284,HR Generalist (Intern),"Barcelona, Spain",,Human Resources,hybrid,2026-07-13,https://careers.sateliot.com/jobs/8060534-hr-generalist-intern,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The People & Culture team makes sure Sateliot stays a place where people grow, feel supported, and do their best work as we scale. As Talent & Wellbeing Trainee, you'll get hands-on experience across the full people cycle, from wellbeing, culture, and the employee experience, working side by side with the team and learning how a fast-growing scale-up looks after its most important asset: its people.
+
+What you'll do
+
+- Assist with performance review cycles by helping gather feedback and track individual development plans.
+
+- Contribute to our wellbeing program, helping organize initiatives that promote health and a healthy work-life balance.
+
+- Help nurture a positive work environment, supporting climate surveys and coordinating team-building activities.
+
+- Be a friendly point of contact for employees, pointing them to the resources available for their professional growth.
+
+- Help create a great employee experience by taking part in onboarding and offboarding, so every welcome and farewell runs smoothly.
+
+What you bring
+
+- Currently studying, or recently graduated with, a Bachelor's or Master's in Psychology, Labour Relations, Human Resources, or a related field.
+
+- Eligible to sign an internship agreement with your university or educational institution.
+
+- Available part-time (mornings), with a flexible schedule compatible with your studies.
+
+- Fluent Spanish and an intermediate-to-advanced level of English (B2 minimum) — English is the company's official language.
+
+- A proactive mindset with strong teamwork and communication skills, empathy, and genuine curiosity about people development, training, and wellbeing.
+
+- No prior experience needed, we value your potential and your enthusiasm to learn.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: a genuine learning experience with real responsibilities, close mentorship from the People & Talent team, and Spanish and Catalan classes.
+
+- Health & balance: a flexible morning schedule that fits around your studies, plus a team that genuinely cares about wellbeing and work-life balance.
+
+- A supported internship: a paid internship (study grant) and a schedule designed to be fully compatible with your academic commitments.
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours, because great teams connect beyond the screen.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost, plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+d293a64d-354e-4729-9a3d-4138fc1dec2d,IoT NTN Test Engineer,"Barcelona, Spain",,Technology,hybrid,2026-09-23,https://careers.sateliot.com/jobs/8438606-iot-ntn-test-engineer,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Network Integration & Validation team supports Value-Added Service (VAS) companies as they integrate IoT NTN technology into their products and platforms. This role is the technical point of contact for VAS partners during device setup, testing, and validation — both in the lab and, when needed, directly on-site at the partner's location. You'll combine hands-on technical depth with a strong partner-facing mindset, helping external teams succeed with Sateliot's technology.
+
+What you'll do
+
+- Provide hands-on technical support to VAS companies integrating IoT NTN technology, both in the lab and during field deployments.
+
+- Assist VAS partners with device setup, testing, and troubleshooting throughout their validation and onboarding phases.
+
+- Travel to partner or pilot sites when necessary to support field activities and ensure successful integration.
+
+- Guide VAS partners in the use of test environments, network access, and configuration of communication modules.
+
+- Collect, analyze, and report test results to ensure proper system behavior and service performance.
+
+- Collaborate closely with internal technical teams to resolve integration issues and improve partner experience.
+
+- Contribute to the documentation and continuous improvement of technical support processes for VAS integration.
+
+What you bring
+
+- Degree in Telecommunications or Electronics Engineering.
+
+- Experience working with IoT communication modules (e.g., Nordic, Quectel, u-blox) and configuring AT Commands.
+
+- Knowledge of IP networking (TCP/IP, UDP, DNS, VPN).
+
+- Experience in telecom lab environments for setup, testing, and validation of devices.
+
+- Ability to interpret and analyze logs, including modem logs, Wireshark traces, and device outputs.
+
+- Basic Linux user skills.
+
+- Clear and concise communication skills, both written and spoken.
+
+- Customer- and partner-oriented mindset, with the ability to guide third parties through technical processes effectively.
+
+- Strong analytical and problem-solving skills, with a collaborative approach in cross-functional teams.
+
+- Autonomous and proactive, comfortable working in fast-paced and evolving technical environments.
+
+- Willingness to travel occasionally for on-site support and partner engagement.
+
+- Good level of English (spoken and written) is essential; additional languages are a plus.
+
+Preferred experience:
+
+- Basic scripting skills (e.g., Python, Bash) for automation or data processing.
+
+- Understanding of mobile and satellite communication protocols, including NB-IoT, LTE-M, 3GPP NTN, and LEO technologies.
+
+- Hands-on experience with testing equipment such as spectrum analyzers, network simulators, and protocol analyzers.
+
+Additional requirements
+
+- English proficiency: professional working proficiency in written and spoken English.
+
+- Location: based in Barcelona; hybrid work model.
+
+- Operational availability: occasional travel to partner/pilot sites abroad for on-site support.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Full-time permanent contract.
+
+- Hybrid work model, with schedule flexibility — we focus on results, not hours.
+
+- Flat and transparent organizational structure.
+
+- Buddy Program to support your integration during your first month.
+
+- Growth: we cover 50% of courses or master's degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, fresh fruit in the office, and the possibility of sharing the cost of bicycle transport.
+
+- Flexible compensation through Cobee (meal, transport, kindergarten).
+
+- Catering: if you don't have time to cook, we partner with a catering company so a fresh meal is sorted.
+
+- On-site parking, with Sateliot covering 50% of the cost — plus free bike parking.
+
+- A truly global team: 20+ nationalities building something genuinely new.
+
+- The chance to be part of one of the most exciting and disruptive space projects in Europe."
+d4645470-0e4d-48d4-a852-34120dcaa759,"Junior RAN Software Engineer, 5G NR NTN Test Terminal","Barcelona, Spain",,Technology,hybrid,2026-09-21,https://careers.sateliot.com/jobs/8427175-junior-ran-software-engineer-5g-nr-ntn-test-terminal,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Sateliot brings standard cellular connectivity from space, and develops key parts of its radio access technology in-house, test tooling included. Non-terrestrial networks are one of the most active areas in telecoms right now, and this is a chance to work on the radio itself rather than on top of it. As Junior RAN Software Engineer you will work on our 5G NR non-terrestrial test terminal side by side with a senior engineer who reviews what you write, and you will own the test and validation pipeline around it. The role is deliberately designed as an entry path into radio access software: we are looking for someone early in their career who is fast with AI-assisted development and rigorous about understanding what they ship.
+
+What you'll do
+
+- Build and extend our own 5G NR NTN test terminal software, paired with our 5G stack architect as your reviewer.
+
+- Own its test and validation pipeline: automation, continuous integration, regression runs and the analysis of what the results mean.
+
+- Drive integration step by step — terrestrial first, then satellite GEO and LEO over a software channel emulator, then over RF with a physical emulator.
+
+- Work AI-first: orchestrate AI-assisted development, and be able to explain and defend every line that ships.
+
+- Grow into the domain: this position is the path to becoming a radio access software engineer, with the mentoring to get there.
+
+What you bring
+
+- A degree in telecommunications, electronics or computer engineering, with solid C or C++ and Python for tooling.
+
+- Foundations in mobile radio protocols — LTE or 5G — and genuine willingness to work from the 3GPP specifications.
+
+- Something real you have built and can walk us through — a thesis, a personal project, an internship — explaining the design decisions you took and why.
+
+- Lab curiosity: comfortable around hardware, logs and software-defined radios, and happy to get your hands dirty.
+
+- Practical AI skills paired with the creative problem-solving to put them to work.
+
+Bonus if you have
+
+- Academic or personal projects with open-source radio access software such as srsRAN or OpenAirInterface.
+
+- Linux and embedded development, or software-defined radio projects.
+
+- Interest in satellite communications and non-terrestrial networks.
+
+- Version control and CI practice beyond the classroom.
+
+Additional requirements
+
+- This role is lab-based and hands-on with hardware, so it is on-site: you will sit with the engineers you work with, at one of our engineering locations.
+
+- Our process includes a short practical exercise: you will solve a small problem using AI assistance and then walk us through the result and defend your choices.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+0396edb4-b499-4cb8-9397-95101b1c829f,Marketing Executive,"Barcelona, Spain",,Corporate,hybrid,2026-09-04,https://careers.sateliot.com/jobs/8325340-marketing-executive,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+We are looking for a Marketing Executive to join our Marketing team, with a clear focus on demand generation, lead acquisition, high-value content creation and inbound marketing campaigns.
+
+This is a hands-on role for someone with around 3 years' experience in B2B marketing, able to plan, run and optimise campaigns designed to generate qualified traffic, leads and sales opportunities.
+
+You will be responsible for activating different digital marketing channels and tools (paid media, email marketing, landing pages, marketing automation, lead nurturing and CRM), tracking results and continuously optimising activity to improve conversion and contribute to the sales pipeline.
+
+A key part of the role is the ability to turn Sateliot's technical, commercial and market knowledge into content that matters to our audiences, contributing both to the company's positioning and to demand generation.
+
+We’re looking for someone who combines marketing judgement, creativity and the ability to execute: able to bring ideas to the table, but also to build a campaign, prepare a briefing, create a landing page, analyse the results and apply what they learn to the next activity. Someone who wants to take on responsibility, experiment and grow within an international technology company.
+
+What you'll do
+
+- Plan and run digital marketing campaigns across paid, owned and organic channels, aimed at generating qualified traffic, leads and sales opportunities.
+
+- Manage and optimise paid media campaigns, particularly Google Ads and LinkedIn Ads, working with external agencies where needed.
+
+- Support the management of HubSpot: campaigns, forms, landing pages, databases, lead nurturing and reporting.
+
+- Create and coordinate marketing content for social media, web, newsletters, presentations and sales materials. Adapt the same content across formats and channels, building a content repurposing approach that maximises its impact.
+
+- Manage the corporate social media calendar, especially LinkedIn, and analyse performance.
+
+- Support SEO, SEM and GEO/AEO initiatives to increase brand visibility and digital acquisition.
+
+- Develop and maintain sales enablement materials: presentations, one-pagers, use cases and other assets.
+
+- Coordinate marketing activity around trade shows, conferences and international events, before, during and after each one.
+
+- Coordinate agencies, designers and external suppliers, ensuring brand consistency and on-time delivery.
+
+- Track the main marketing KPIs and produce performance reports, identifying opportunities to optimise.
+
+- Work cross-functionally with Communications, Sales, Product and other teams to align marketing activity with business objectives.
+
+What you bring
+
+- 3+ years' experience in marketing, ideally in B2B, technology, telecommunications, SaaS or similar environments.
+
+- Degree in Marketing, Business Administration or a related field.
+
+- Experience in digital marketing and paid media.
+
+- Working knowledge of HubSpot or other marketing automation / CRM platforms.
+
+- Experience with Google Analytics, Google Ads, LinkedIn Campaign Manager and CMS.
+
+- Ability to create quality B2B content, especially from complex, technical or business topics.
+
+- Experience managing LinkedIn and other corporate social media channels.
+
+- Knowledge of SEO, SEM, lead generation and conversion funnels.
+
+- Comfortable working with analytics and performance metrics.
+
+- Strong project management and organisational skills.
+
+- Ability to manage several projects and stakeholders at the same time.
+
+- Excellent written and verbal communication skills.
+
+- Fluent English and Spanish; Catalan is a plus.
+
+- A proactive, execution-oriented team player.
+
+Bonus if you have
+
+- Experience in deep tech, space, telecommunications or IoT is highly valued.
+
+- Experience with international campaigns and projects.
+
+- Basic knowledge of design and video editing tools such as Canva, Adobe Creative Suite or CapCut.
+
+- Familiarity with AI tools applied to marketing.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+4ee264a6-56a3-4370-9b0d-f4fe6769325d,Mission Operations Systems Engineer,"Barcelona, Spain",,,hybrid,2026-09-23,https://careers.sateliot.com/jobs/8438077-mission-operations-systems-engineer,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Mission and Systems Engineering team designs Sateliot's satellites end to end and supports their most critical early-orbit phases: LEOP and commissioning. This role connects spacecraft design, flight software, AIT, ground segment and the flight-control team. During consolidated design, you will turn the Mission ConOps into validated operational products, including requirements, databases, procedures, flight rules, end-to-end tests, simulations, rehearsals and readiness evidence. After launch, you will support LEOP and Commissioning execution until handover to the Operations team.
+
+What you'll do
+
+- Spacecraft operability: consolidate operational concept based on inter-satellite links, operational modes, on-board autonomy and FDIR, ensuring critical states are observable, controllable and recoverable through defined interfaces with ground.
+
+- Build the operational baseline: own the operations handbook, FOP catalogue, flight rules, mission database requirements, constraints, configuration control and handover to routine Operations.
+
+- Prepare procedures and propulsion activities: with subsystem and Flight Dynamics engineers, define spacecraft configuration, command sequences, expected telemetry, readiness criteria, hold and abort criteria, contingency actions and post-manoeuvre assessment.
+
+- Validate operational readiness: coordinate end-to-end tests and operations rehearsal, validating procedures against the MCS and the available test environments, leading to Operational Readiness Review evidence.
+
+- Support LEOP and commissioning: elaborate and execute LEOP and commissioning plans as system-level representative, until handover to routine Operations.
+
+What you bring
+
+- Degree in Aerospace Engineering, Systems Engineering, Telecommunications, Physics or a related discipline.
+
+- Relevant experience: 4+ years in spacecraft systems and mission-operations engineering.
+
+- Critical-phase operations experience: experience supporting at least one LEOP, commissioning campaign or comparable critical mission phase from a Mission Control Centre or engineering-support position.
+
+- Operational product development: experience developing and validating FOPs, flight rules, TM/TC databases, MCS displays, alarms, end-to-end tests or operational simulations.
+
+- System-level judgement: understanding of spacecraft subsystem interactions and the ability to diagnose and communicate problems methodically during critical activities.
+
+- Configuration discipline: clear technical writing, rigorous configuration control and concise communication of recommendations, assumptions and risks.
+
+Preferred experience:
+
+- Continuous-connectivity operations: experience defining, validating or supporting spacecraft operations with continuous or near-continuous TM/TC via GEO relay or inter-satellite links, including handovers, service loss, reacquisition and routing.
+
+- Electric-propulsion manoeuvres: experience planning, rehearsing or supporting manoeuvres in LEO; Hall-effect thruster experience is valued.
+
+- Spacecraft systems knowledge: subsystems operational knowledge; familiarity with ECSS PUS services, onboard control procedures, CCSDS packet services and CFDP.
+
+- Automation and analysis: experience with Python, spacecraft simulators or hardware-in-the-loop environments; familiarity with warm-redundant avionics and autonomous FDIR is also valued.
+
+Additional requirements
+
+- English proficiency: professional working proficiency in written and spoken English.
+
+- Location: based in Barcelona, or able to relocate; this is an on-site role at our Barcelona headquarters.
+
+- Operational availability: availability for temporary shift work during LEOP, commissioning, end-to-end tests and rehearsals, with occasional travel to ground-segment or test sites. This is not a permanent routine-operations shift role.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+b53c1aa4-aa01-4506-bc78-2d0110737f49,Onboarding Specialist Trainee,"Barcelona, Spain",,Human Resources,hybrid,2026-09-03,https://careers.sateliot.com/jobs/8316126-onboarding-specialist-trainee,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+You will own the onboarding experience of every new joiner at Sateliot end-to-end. You execute against a defined onboarding playbook, and you are the person who makes sure that on day one nothing is missing. You will run structured feedback interviews with recent joiners to understand how onboarding really felt, and you turn that into concrete improvements every month.
+
+This is not a “coffee and filing” role. You coordinate, execute and improve a process with direct impact on employee experience and retention.
+
+What you'll do
+
+Onboarding, end-to-end (core of the role)
+
+- Own the journey from signed offer to the 3-month follow-up: pre-boarding communications, Day 1, Week 1, Month 1 and Month 3.
+
+- Everything ready before Day 1: IT tickets in Jira (equipment + corporate email), building access cards with Facilities/Securitas, welcome pack, buddy assigned, Day 1 agenda and Hiring Manager briefed.
+
+- Run a memorable, calm and warm Day 1: reception, welcome pack, office tour, C-level intro, HR onboarding session, etc.
+
+Feedback interviews & employee experience
+
+- Run the structured check-ins (Day 1, Week 1, Month 1, Month 3) as real qualitative conversations, not tick-boxes. Detect signals, document findings, and escalate any alert.
+
+- Turn what you hear into concrete monthly improvement proposals.
+
+- Manage the Buddy program: assign buddies, brief them, monitor the relationship and collect satisfaction feedback.
+
+- Prepare and deliver physical and digital welcome packs aligned with Sateliot's brand.
+
+What we are looking for
+
+- Background: student or graduate in Psychology, HR, Labor Relations or similar.
+
+- Human skills: genuine empathy and active listening, combined with rigor and follow-through. You make people feel welcomed and you don't drop details.
+
+- Organization: exceptional attention to detail.
+
+- Languages: native Spanish (or equivalent) and B2+ English. You will work with international colleagues.
+
+- Curiosity: real interest in the tech, start-up and in how a company is built.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+13672bef-3d23-4551-bf20-b3325008fb79,PRL & HR Operations Manager,"Barcelona, Spain",,Human Resources,hybrid,2026-09-03,https://careers.sateliot.com/jobs/8316038-prl-hr-operations-manager,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Sateliot's People team is scaling the company from ~150 to ~300 people over the next couple of years, and this role is central to building the foundation that makes it possible. You'll stand up our occupational health & safety function — PRL — from scratch and execute it hands-on, while leading the HR operations engine that keeps hiring, contracts, payroll and international mobility running.
+
+Reporting to the Chief People Officer and consolidating a team of 3-4 specialists, you'll take operational load off the leadership so strategy — not day-to-day admin — is where their focus goes. You're as comfortable running a risk assessment on a lab or hardware-integration floor as you are giving structure to a team of experts.
+
+What you'll do
+
+- Build and execute Sateliot's PRL system from the ground up: risk assessments, preventive planning, and follow-through across office, laboratory and hardware-integration environments.
+
+- Personally cover the technical prevention function (Safety and Occupational Hygiene; Ergonomics / Psychosocial a plus), and adapt it to new and soon-to-be regulated environments.
+
+- Govern the external prevention service (SPA): set the criteria and hold it accountable rather than just processing what it sends — starting with health surveillance.
+
+- Lead a team of 3-4 specialists owning labour administration, contracts, payroll and international mobility / visas — giving structure, priorities and criteria without taking over their domain.
+
+- Be the operational reference point on day-to-day labour and legal matters, resolving what you can and escalating the rest to specialist counsel.
+
+- Ensure compliance and quality across administrative processes, working closely with Talent, Finance and the technical teams.
+
+What you bring
+
+- Técnico Superior en PRL, with at least the Safety and Occupational Hygiene specialisms (Ergonomics / Psychosocial is a plus). This is non-negotiable: you'll execute the technical function.
+
+- 5-6 years executing PRL in industrial / factory environments (automotive, manufacturing, heavy industry or similar) — real plants with tangible risk, not office-only settings.
+
+- Experience leading or coordinating an HR administration team, or having owned PRL inside a People function with exposure to payroll, contracting and mobility.
+
+- Solid operational command of labour and legal matters: you understand how payroll, contract types and visas work, and you know when to lean on specialist advice.
+
+- Native or professional Spanish and working English (international environment).
+
+Bonus if you have
+
+- Experience in a tech / deep-tech scale-up or fast-growth environment.
+
+- Exposure to regulated industries, classified or defence environments.
+
+- A third PRL specialism and/or experience with Equality Plans (Planes de Igualdad).
+
+- Familiarity with HRIS and payroll tooling (Personio, Payfit or equivalents).
+
+Additional requirements
+
+- Based in Barcelona with the right to work in Spain, able to work on-site / hybrid with the team
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+48066857-7e8e-418c-a47a-9c56be1dd65a,Project Controller & Finance Analyst,"Barcelona, Spain",,Finance,hybrid,2026-09-30,https://careers.sateliot.com/jobs/8479909-project-controller-finance-analyst,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+This is a hybrid role between project control and Finance. You'll be responsible for the economic control of Sateliot's funded projects: cost tracking, grant justification documentation, and data entry and validation in the official platforms used by financial institutions. You'll also support the Finance department in its day-to-day work: budget tracking, supplier invoices, monthly close, and financial reporting.
+
+It's a key position for keeping our projects' economic and administrative documentation organized, traceable, and compliant with each grant's requirements, and for helping Finance run with clear processes and reliable numbers.
+
+What you'll do
+
+R&D project financial management
+
+- Track project finances and control associated costs (payroll, payroll payments, ""Modelo 190"", timesheets).
+
+- Manage and follow up on the invoicing associated with projects.
+
+- Prepare, review, and organize the economic documentation required for grant justifications, following the format and structure each funding body requires.
+
+- Review and use official platforms: upload and validate economic data for different projects.
+
+- Track timesheets, staff dedication, and personnel cost allocations linked to funded projects.
+
+- Prepare supporting documentation for audits and respond to information requests.
+
+- Coordinate with clients, auditors, accounting firms, funding entities, and other external parties as needed.
+
+- Provide occasional support to the patents team on administrative management: tracking deadlines and related procedures.
+
+Finance department support
+
+- Help with monthly budget tracking by cost center and analysis of deviations.
+
+- Support supplier invoice management: analytical classification by cost center and project, and resolution of incidents with internal departments and suppliers.
+
+- Support the accounting process and monthly close (accruals, reconciliations, documentation), in coordination with the external accounting firm.
+
+- Contribute to the annual budgeting process and forecast exercises.
+
+- Take part in designing and maintaining dashboards and financial reporting.
+
+- Create, document, and maintain department processes, with a focus on improving and automating them.
+
+- Support economic analyses and other Finance activities as the business needs.
+
+What you bring
+
+- Experience in economic control of projects, ideally in the justification of public grants or subsidies.
+
+- Familiarity with payroll, 190 Model, and timesheets, or the ability to quickly learn specific platforms if you don't have prior experience with them.
+
+- Strong organizational skills and attention to detail: much of the role depends on keeping documentation audit-ready.
+
+- Native or C2-level Spanish, both spoken and written.
+
+Bonus if you have
+
+- Catalan and English, spoken and written.
+
+- Previous experience in the space/tech sector
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+0f40e74b-59c4-4ea1-9363-db92b126b5a5,Roaming & Billing Integration Specialist,"Barcelona, Spain",,,hybrid,2026-10-02,https://careers.sateliot.com/jobs/8491393-roaming-billing-integration-specialist,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+We are looking for a Technical Roaming & Billing Integration Engineer to own and coordinate the technical integration of Mobile Network Operators (MNOs) into our satellite IoT connectivity service.
+
+This role sits at the intersection of mobile network integration, roaming, service operations and billing, acting as the technical point of contact throughout the MNO onboarding lifecycle: from initial technical alignment and connectivity setup to roaming validation, service launch, billing testing and ongoing operational support.
+
+The ideal candidate combines a solid understanding of mobile telecom networks and roaming with technical project management and stakeholder coordination skills. This is not a purely hands-on Core Network engineering position: the role requires someone capable of driving integrations end-to-end, coordinating multiple technical teams and partners, identifying dependencies and ensuring that integrations progress towards commercial readiness.
+
+What you'll do
+
+- Own the end-to-end technical integration of MNO partners, from initial assessment to commercial readiness; act as the main technical interface with MNOs and coordinate internal teams, IPX providers and other external partners; and drive technical troubleshooting to ensure blockers are resolved throughout the integration lifecycle.
+
+- Coordinate IREG and TADIG exchanges, roaming testing and end-to-end service validation.
+
+- Own the technical coordination and validation of end-to-end billing with MNO partners; coordinate billing test scenarios covering usage generation, TAP/DCH exchange and reconciliation; work with MNOs, clearing houses and internal teams to identify and resolve billing discrepancies; and ensure billing is successfully validated before commercial activation and transition to production.
+
+- Ensure network, roaming and billing requirements are completed before commercial launch with an MNO, and coordinate the handover of new MNO integrations into regular service operations.
+
+- Monitor integration and service KPIs and drive improvements where needed; standardize and continuously improve the MNO onboarding and integration lifecycle, making it more efficient and scalable.
+
+What you bring
+
+- 2+ years of experience in mobile telecommunications, roaming, network integration, telecom service operations or similar roles.
+
+- Good understanding of mobile network architecture and packet data services.
+
+- Experience coordinating technical integrations involving multiple internal and external stakeholders.
+
+- Troubleshooting and analytical skills; ability to translate technical issues into clear actions, owners and priorities; professional working proficiency in English.
+
+Bonus if you have
+
+- Experience with IoT connectivity, NB-IoT or LTE-M; practical knowledge of international roaming concepts and processes; experience working with MNOs, MVNOs, roaming hubs, IPX providers, clearing houses; understanding of roaming interfaces and processes such as IREG, TADIG, TAP and DCH; familiarity with packet data concepts such as APNs, IMSIs, GTP sessions and IP connectivity.
+
+- Experience with satellite or Non-Terrestrial Networks (NTN); knowledge of GSMA roaming standards and processes; knowledge of charging and billing architectures in mobile networks; experience validating TAP files or other roaming billing records; familiarity with 3GPP network architectures and signalling; experience managing technical projects or partner integrations.
+
+Additional requirements
+
+We are looking for someone who can combine technical telecom knowledge with ownership and execution.
+The successful candidate should be comfortable discussing network configurations with engineers, billing flows with roaming teams and integration milestones with project stakeholders.
+They should be able to take an MNO integration, understand what needs to happen technically, identify the teams and partners involved, build a clear plan, follow up on dependencies and drive the integration until the service; including billing, is fully validated and ready for commercial operation.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+58019a8b-00b3-4f3f-b9d0-9f81fb451f3f,Senior Full Stack Engineer,"Barcelona, Spain",,Technology,hybrid,2026-09-01,https://careers.sateliot.com/jobs/8303904-senior-full-stack-engineer,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Full Stack team builds the web applications and APIs that turn Sateliot’s network data into tools our internal teams rely on every day, from device status and tracking to session and satellite pass management.
+
+As a Senior Full Stack Engineer, you’ll own features from design to production across a Laravel (PHP) and Python codebase, set the bar for quality in a small team, and partner closely with 4G/5G Core Network and IT Platform to surface their data and controls.
+
+We’re looking for someone who has already shipped and operated production systems, raises the level of the people around them, and thrives with autonomy in a high-trust environment.
+
+What you'll do
+
+- Design and deliver full-stack features end to end, from technical design through Laravel/PHP and Python APIs to React and Angular web interfaces, with minimal supervision.
+
+- Set the quality bar for the team: drive unit testing and code quality with SonarQube, meaningful code reviews, maintainability standards, and pragmatic technical-debt management.
+
+- Own technical design and architecture decisions for reliable tools and dashboards that integrate data from across the company (Core Network, Platform), documenting key trade-offs and helping evolve the platform.
+
+- Mentor less experienced engineers through pairing, code review, and design discussions, raising the team’s level through your work and experience.
+
+- Operate what you build in production, working with IT Platform on deployments.
+
+What you bring
+
+- 5+ years of professional full stack engineering experience delivering production software.
+
+- Extensive senior-level experience building, shipping, and operating production web applications, with deep command of PHP and Laravel.
+
+- Strong full-stack range: REST API design, relational databases (SQLite/PostgreSQL/MySQL), queue-based background processing, Python 3 (Flask/Django), and modern front-end development with React and Angular.
+
+- A track record of owning features from design through deployment and operation, with hands-on experience in Docker, Kubernetes, CI/CD pipelines using GitHub Actions, and Linux (Ubuntu).
+
+- Substantial hands-on experience using AI coding assistants such as Codex, Claude Code, and Cursor throughout your daily development workflow to implement, debug, test, and review code faster while maintaining quality.
+
+Bonus if you have
+
+- Experience with satellite, telecom, or IoT data.
+
+- Observability stacks (Prometheus, Grafana, ELK).
+
+Additional requirements
+
+- Based in Barcelona, with on-site presence under our hybrid model (3 days on-site / 2 remote).
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+acc6dbf2-52f3-4c24-9f32-58bc3f9b9efc,Senior IoT Systems & Service Architect,"Barcelona, Spain",,Technology,hybrid,2026-09-21,https://careers.sateliot.com/jobs/8426771-senior-iot-systems-service-architect,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Sateliot delivers standard cellular IoT connectivity from space — non-terrestrial networks, one of the most active areas in telecoms right now — and the distance between a network that works and a service a customer can buy is where this role lives. The Service, Devices and Standardisation team turns our service vision into device requirements, certification criteria, standardisation priorities and end-to-end service strategy. As Senior IoT Systems & Service Architect you are the link between engineering, Product and the integration with our terrestrial operator partners, and the senior who takes on the network studies that decide what we can commit to commercially. We are looking for someone who has taken an IoT connectivity service to real customers and can place us in the operator and GSMA ecosystem.
+
+What you'll do
+
+- Be the technical lead within Technology, Service and Engineering for our commercial launches, and the technical reference for Sateliot's customers.
+
+- Lead the pre-launch network deployment studies: terrestrial-satellite network selection, satellite ephemeris handling, device mobility profiles and capacity limits. These decide which use cases we can sell.
+
+- Be the technical reference of the team for Integration, for Product and for our customers as new use cases and new services are deployed.
+
+- Feed our roadmap with what the field shows: the problems seen during integration and deployment come back as requirements.
+
+- Report the specification gaps we observe in the field to the standardisation teams, in 3GPP and in GSMA.
+
+- Place Sateliot in the operator and GSMA ecosystem: roaming, network selection and the interfaces where our service meets a mobile operator's.
+
+What you bring
+
+- Senior experience in IoT services and networks across product, market and deployment: you have taken a connectivity service from definition to real customers at scale.
+
+- Working knowledge of the mobile operator and GSMA ecosystem — roaming, service interfaces, and how an operator integration actually gets agreed and delivered.
+
+- System and service engineering judgement: able to own an end-to-end network study and defend its conclusions internally, to engineers and to senior management alike.
+
+- A track record on the boundary between engineering and product, translating technical constraints into commitments a business can rely on.
+
+Bonus if you have
+
+- NB-IoT or LTE-M deployments at scale, and satellite IoT or NTN (3GPP Release 17 onwards).
+
+- Device certification and interoperability programmes in a multi-vendor ecosystem.
+
+- 3GPP or GSMA participation.
+
+- Experience in AI-assisted engineering workflows.
+
+Additional requirements
+
+- Based in Spain, with regular on-site presence at our Barcelona HQ. For the right person we are open to a remote-first arrangement with periodic weeks on site.
+
+- Willingness to travel for operator and vendor meetings, interoperability campaigns and field trials.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+92db7634-672e-43f1-b1e3-47709123595b,Senior IT Program Manager,"Barcelona, Spain",,Technology,hybrid,2026-09-01,https://careers.sateliot.com/jobs/8303816-senior-it-program-manager,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Infrastructure and Software Engineering (ISE) team builds and supports Sateliot’s technical foundations and maintains company wide visibility over all active and planned software initiatives developed across other technical and business verticals, tracking their scope, timelines, dependencies, resource needs, and risks.
+
+As Senior IT Program Manager within the ISE team, you will establish and maintain this portfolio view, challenge the realism of plans and forecasts, and give the CTO and Senior Manager of Infrastructure & Software Engineering the clarity needed to prioritize and intervene. The role focuses on visibility and control rather than owning every delivery, with direct Project Manager or Product Owner responsibility limited to selected initiatives requiring deeper support.
+
+What you'll do
+
+- Establish and continuously maintain the company wide software inventory, surfacing every active and planned coding initiative regardless of which department owns it, from the CTO organization to commercial teams.
+
+- Create portfolio level control across dozens of concurrent initiatives by mapping owners, scope, milestones, expected timings, critical dependencies, resource needs, risks, and clear indicators of delivery confidence.
+
+- Validate the technical realism of plans and forecasts, partnering with the Software Engineering Manager to challenge estimates, expose missing work, detect resource gaps, and raise risks before they affect other initiatives.
+
+- Provide clear portfolio reporting to the CTO and Senior Manager of Infrastructure & Software Engineering through Jira, Confluence, Google Workspace, dashboards, dependency maps, and Gantt views, highlighting where decisions, resources, or intervention are required.
+
+- Adapt your level of involvement to each initiative, maintaining portfolio oversight by default and taking direct Project Manager or Product Owner responsibility only for a limited subset of initiatives where deeper support is explicitly required.
+
+What you bring
+
+- Extensive senior level experience leading complex software programs and portfolios across many teams and dozens of parallel initiatives, with a record of creating transparency, control, and reliable forecasts in ambiguous environments.
+
+- A strong technical foundation across the software development lifecycle and enough architectural breadth to reason credibly about full stack systems, embedded engineering, cloud and infrastructure, DevOps, observability, distributed platforms, and mission critical software.
+
+- Exceptional command of project and program management, including portfolio governance, integrated roadmaps, Gantt planning, dependency mapping, resource and capacity analysis, risk and issue management, and executive reporting. Advanced working knowledge of Jira, Confluence, and Google Workspace is essential.
+
+- Outstanding stakeholder leadership and communication, with the judgment to facilitate difficult trade offs, influence without authority, support engineering leaders and project managers, and translate technical complexity into clear decisions for executives.
+
+Bonus if you have
+
+- Experience in satellite, aerospace, telecommunications, IoT, or other mission critical engineering environments.
+
+- A technical degree or equivalent engineering background, supported by recognized program or project management credentials such as PgMP, PMP, or PRINCE2.
+
+- Practical experience using AI assistants such as Claude or ChatGPT to accelerate day to day work as a Program Manager, Project Manager, or Product Owner, including analysis, planning, documentation, reporting, and stakeholder preparation.
+
+Additional requirements
+
+- Based in Barcelona, with presence in our office under the hybrid model (3 days in the office / 2 remote).
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+42bd3c74-dcc7-4f04-bfcb-d7fedf5eac91,Senior Mechanical & Structural Engineer (Satellite Platform),"Barcelona, Spain",,Technology,hybrid,2026-09-21,https://careers.sateliot.com/jobs/8412569-senior-mechanical-structural-engineer-satellite-platform,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+The Mission and Systems Engineering team is responsible for the design, integration and validation of Sateliot's satellite platform. As Senior Mechanical & Structural Engineer, you'll own the platform's structure end to end: the mechanical design and its configuration, the structural analysis behind it, the definition of the mechanical test campaign and the interpretation of its results, through to the flight model and launch. You'll consolidate the current design, take it through environmental testing with the AIT team, and lead the mechanical design of the next platform generations.
+
+What you'll do
+
+- Own the structural and mechanical design of the satellite platform end to end: architecture, mechanical ICDs, drawings, configuration control.
+
+- Own the platform's structural analysis: define the analysis plan, review and disposition results, run analyses when needed, and build Sateliot's in-house analysis capability (models, tools and processes).
+
+- Own the mechanical verification of the platform: define test requirements, specify the vibration campaign, co-author procedures with the AIT team, supervise execution, and deliver the post-test engineering (model correlation, results assessment, non-conformance disposition).
+
+- Take the structure from design to flight hardware: follow manufacturing and sourcing of structural components, support platform assembly and launcher integration with engineering judgement side by side with AIT.
+
+- Lead the mechanical design of the next platform generations.
+
+What you bring
+
+- Degree in Mechanical or Aerospace Engineering with 8+ years of mechanical and structural engineering on spacecraft hardware.
+
+- At least one satellite platform structure delivered end to end: design, structural analysis, manufacturing, AIT and environmental testing, through to launch.
+
+- Hands-on mechanical design in CAD (SolidWorks or equivalent), including drawings and mechanical ICDs, on flight hardware.
+
+- Hands-on structural analysis of spacecraft structures with an FEM tool (Nastran, ANSYS, Abaqus or equivalent), covering static, modal and random vibration.
+
+Bonus if you have:
+
+- Working knowledge of ECSS-E-ST-32 and ECSS-E-ST-10-03, or equivalent standards, applied pragmatically.
+
+- Mechanisms and deployables.
+
+- Micro-vibration for optical equipments
+
+- MGSE design and cleanroom integration experience.
+
+- Small-satellite launcher interface knowledge.
+
+- Mechanical interfaces of propulsion subsystems.
+
+- Thermo-elastic analysis.
+
+- PDM/PLM tools.
+
+Additional requirements
+
+- Professional working proficiency in English.
+
+- Based in Barcelona or willing to relocate: this is a hybrid role with regular on-site presence at our Barcelona HQ.
+
+- Availability for travel to external test facilities and launch campaigns.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a fresh meal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+1d27f211-f12c-404c-a769-ca0e5ab85bfd,Senior RAN Software Engineer — NTN eNodeB and gNodeB,"Barcelona, Spain",,Technology,hybrid,2026-09-23,https://careers.sateliot.com/jobs/8438333-senior-ran-software-engineer-ntn-enodeb-and-gnodeb,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Sateliot develops its radio access software in-house, for both technologies our constellation serves: NB-IoT and 5G NR, in their non-terrestrial variants. That means satellite links, long delays, Doppler and discontinuous coverage, on real hardware and against real devices — non-terrestrial networks are one of the most active areas in telecoms right now, and here you work on the stack itself rather than on top of someone else's. As Senior RAN Software Engineer you will own radio stack development across both technologies, working closely with our stack architecture lead. It is a hands-on role for an engineer who wants to build a radio stack, not integrate one.
+
+What you'll do
+
+- Own the design, development and evolution of our in-house radio stacks, with a first focus on NB-IoT: L1, L2 and L3, through to a component we can operate on our target hardware.
+
+- Put in place the engineering that industrialisation needs: specification-driven development, hardware-independent design, a roadmap tied to the real state of the code, and CI/CD.
+
+- Work across both radio technologies with the rest of the stack team, bringing hands to whichever one has the hardest problem at the time — the 5G scheduler and beam management among them.
+
+- Prove the stack on real hardware and real devices — embedded platforms, commercial modules, and the compute and power envelope a satellite payload allows.
+
+- Turn requirements into features: 3GPP releases, the capabilities our network roadmap commits to, and what the constellation can actually support.
+
+What you bring
+
+- Deep hands-on development experience of a cellular radio stack in C or C++ — PHY, MAC, RLC, PDCP or RRC — with at least one full cycle owned through integration on real hardware.
+
+- NB-IoT, LTE or 5G NR base station experience: what we need is stack-level ownership, not a specific technology.
+
+- Embedded and real-time engineering on constrained hardware, with the profiling discipline to fit a radio stack into a tight compute and power budget.
+
+- The ability to work from 3GPP and O-RAN specifications and prove conformance, and to use AI-assisted development with the judgement to validate what it produces.
+
+- Experience porting and optimising a radio stack between x86 and Arm targets, and designing the platform boundary so that a port stays a port rather than becoming a fork.
+
+Bonus if you have
+
+- Non-terrestrial networks: satellite links, long delays, Doppler, discontinuous coverage.
+
+- Having taken a radio prototype through to a productised, maintained component.
+
+- Test automation and continuous integration for radio software.
+
+Additional requirements
+
+- We would prefer you based in Barcelona, where the labs and most of the team sit, and part of this work happens at the bench. For the right person the location is negotiable, India included, with regular time on site.
+
+- Working proficiency in English.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+4f99887f-709f-4e64-85fe-a02fa2a4a6bf,Senior RAN Test Architect — NTN eNodeB and gNodeB,"Barcelona, Spain",,Technology,hybrid,2026-09-21,https://careers.sateliot.com/jobs/8417417-senior-ran-test-architect-ntn-enodeb-and-gnodeb,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Sateliot brings standard cellular connectivity from space and develops key parts of its radio access technology in-house. That makes validation a discipline of its own: whoever proves that a radio stack does what it is supposed to do should not be the person who wrote it. As Senior RAN Test Architect you own how our radio access components get validated — what must be tested, to which criteria, and what counts as evidence — across the NB-IoT and 5G NR non-terrestrial domains, and you are deliberately independent from the engineers implementing them. This is a senior role for someone who writes test specifications, not only test reports.
+
+What you'll do
+
+- Own the test specification for our RAN components: what gets tested, against which acceptance criteria, and what constitutes proof that a feature behaves as designed.
+
+- Build the test pyramid and keep it honest: L1 and RF performance and conformance, protocol stack, load, capacity and stability, interoperability and field.
+
+- Be the independent counterpart to the stack developers — challenge designs early, and validate what they deliver without having a stake in it.
+
+- Turn our lab into a validation capability: SDR benches, channel emulation, our own test terminal, and automated regression running in CI.
+
+- Own the validation of supplier deliveries and the evidence behind what we commit outside the department, working with our field testing teams on the campaigns that close the loop.
+
+What you bring
+
+- Complete ownership of test and validation for cellular radio access, with test specifications you wrote yourself and saw through review with developers, operators or certification partners.
+
+- The ability to derive a test specification from a 3GPP specification, and to set acceptance criteria that catch real defects rather than produce green dashboards.
+
+- Ownership of the test system itself: harness and automation design, what belongs in CI and what belongs on the bench, and a regression suite that stays affordable as the stack grows.
+
+- Deep lab practice — protocol analysis, SDR benches, channel emulation, load and stability campaigns — and the root-cause discipline to say where a failure actually lives: stack, device or link.
+
+- NB-IoT, LTE or 5G NR validation experience with a commercial-grade stack.
+
+Bonus if you have
+
+- Validation and testing experience of non-terrestrial networks.
+
+- Conformance and certification frameworks: 3GPP RAN5, GCF or operator acceptance.
+
+- Test automation and CI/CD for radio software.
+
+- Having built a test capability or organisation from scratch.
+
+Additional requirements
+
+- We would prefer you based in Barcelona, where the labs and most of the team sit, and the role is hands-on with the benches. For the right person the location is negotiable, India included, with regular time on site.
+
+- Occasional travel for field test campaigns.
+
+- Working proficiency in English.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+3ec7c52b-3192-4ebd-9dd3-3a6df147a971,"Senior Spectrum Engineer, ITU-R and 3GPP","Barcelona, Spain",,Technology,hybrid,2026-09-21,https://careers.sateliot.com/jobs/8427141-senior-spectrum-engineer-itu-r-and-3gpp,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Spectrum decides what a satellite network is allowed to do, and for non-terrestrial networks it is being decided right now: in ITU-R, on the way to the World Radiocommunication Conferences, and in 3GPP, where radio-frequency and coexistence requirements are specified. Sateliot is active in both forums, and holding a position there takes continuous presence. As Senior Spectrum Engineer you join the Service, Devices and Standardisation team and lead our spectrum strategy. You are the technical counterpart to our Regulatory department, you represent the company in person before regulators and standards bodies, and you keep our position aligned across radio access technologies.
+
+What you'll do
+
+- Own the technical position behind our spectrum strategy: candidate bands, spectrum sharing, and compatibility with other radio technologies worldwide.
+
+- Take part in the ITU-R work and shape it: band selection under the WRC-27 agenda, and the future agenda items that will define the next cycle, including direct-to-device allocations above 3 GHz.
+
+- Be our delegate in the 3GPP working groups: RAN4 for coexistence between terrestrial and non-terrestrial bands and for RF requirements, and RAN1 for multi-RAT spectrum sharing.
+
+- Lead our spectrum analysis: sharing and interference studies, power flux density (PFD) and equivalent power flux density (EPFD) limits, and link budget implications.
+
+- Turn regulation into engineering. Translate allocation constraints into requirements for our radio access roadmap, our band plans and our device ecosystem, and act as Sateliot's delegate before regulatory bodies and with our external advisors.
+
+What you bring
+
+- At least ten years, and typically closer to fifteen, working on spectrum for mobile or satellite systems, with real ownership of a position defended before a regulator or a standards body.
+
+- Direct experience of ITU-R or WRC preparation — study groups and working parties, CEPT, APT or a national administration — with a working understanding of how a proposal becomes an agenda item.
+
+- Hands-on RF and coexistence engineering in 3GPP RAN4 or RAN1.
+
+- The ability to translate a regulatory constraint into device requirements: what it means for a radio design, for a band plan, for terminal RF, and for interference mitigation on the device.
+
+Bonus if you have
+
+- Satellite direct-to-device, MSS allocations or IMT band work.
+
+- Sharing studies against incumbent services: terrestrial IMT, fixed, FSS and adjacent services.
+
+- Standing in the regulatory community: named delegate, rapporteur, or contributions on record.
+
+- Exposure to the Spanish administration, CEPT/CPG or APT processes.
+
+Additional requirements
+
+- Willingness to travel internationally several times a year: ITU-R and 3GPP meetings are held in person, and continuous attendance is part of the role.
+
+- Hybrid work with regular on-site presence at our Barcelona HQ.
+
+- Working proficiency in English, the language of both the regulatory and the standards arena.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+081fc481-5326-4938-b9e7-5fadf7b3c49d,Senior Standardisation Engineer — Back-office,"Barcelona, Spain",,Technology,hybrid,2026-09-23,https://careers.sateliot.com/jobs/8438347-senior-standardisation-engineer-back-office,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+What 3GPP decides shapes what a satellite network can offer: the features that make IoT and 5G work over non-terrestrial links, and the 6G requirements being written right now. Sateliot takes an active part in that work, and this role owns the machinery behind it — the preparation and follow-up of the meetings, the documents and their traceability, the analysis of the contributions that matter, and the non-terrestrial simulations that give our positions their evidence. It is a back-office role with a foot in the specifications, not a travel job.
+
+What you'll do
+
+- Own the standardisation back-office: meeting preparation, documentation, action tracking and reporting.
+
+- Own the non-terrestrial simulations that support our 3GPP work and our internal R&D. This calls for solid programming and hands-on practice with AI-assisted development tools.
+
+- Lead the preparation, coordination and follow-up of 3GPP meetings: agendas, TDocs, change requests and liaison statements.
+
+- Own document control, version management and traceability, and support the TS, TR and change-request processes.
+
+- Coordinate with chairs, rapporteurs, delegates and technical experts, and with R&D, Product and the rest of the internal stakeholders.
+
+- Analyse the 3GPP specifications and contributions that matter to us, and turn their potential impact into clear technical input and recommendations.
+
+- Support our standardisation tools and workflows: requirements gathering, roadmaps, repositories, and user-acceptance testing where it applies.
+
+What you bring
+
+- Several years of real 3GPP work: contributions you have written and defended, and a working understanding of how a topic travels from study item to specification.
+
+- The analytical half of the job: you can read a batch of contributions and come out with a position, not a summary.
+
+- System knowledge of mobile networks: enough to know what a change in the specification does to a live network, across radio, core and device.
+
+- Programming ability and hands-on simulation practice, including AI-assisted development tools.
+
+- The coordination habit: pulling a single position out of several teams, and keeping it consistent across groups and releases.
+
+Bonus if you have
+
+- Non-terrestrial networks and IoT NTN from Release 17 onwards, and Store and Forward operation.
+
+- GSMA work: roaming guidelines, network selection or operator-facing studies.
+
+- 6G service requirements or architecture work in SA1 and SA2.
+
+- Conformance testing (RAN5) or device certification.
+
+Additional requirements
+
+- Occasional travel to 3GPP meetings. The role is weighted towards analysis and coordination rather than travel.
+
+- Hybrid work with regular on-site presence at our Barcelona HQ.
+
+- Working proficiency in English, the language of the standardisation arena.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+88f85945-7af5-4177-abf3-2bc8da4f5266,"Senior Technical Program Manager, Network & Service Engineering","Barcelona, Spain",,Technology,hybrid,2026-09-21,https://careers.sateliot.com/jobs/8417095-senior-technical-program-manager-network-service-engineering,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+Sateliot brings standard cellular connectivity to places terrestrial networks will never reach — non-terrestrial networks, one of the most active areas in telecoms right now. We run a commercial service and we develop key parts of our network technology in-house, so the engineering portfolio spans live operations, radio access, core network and the device ecosystem at the same time. As Senior Technical Program Manager you will own the plan behind all of it: realistic timings agreed with the people doing the work, commitments between teams that are actually tracked, and deviations that surface early enough to do something about them. You will report to the Director of Technology & Service Engineering. We are looking for someone who coordinates by earning credibility with engineers, not by chasing a spreadsheet.
+
+What you'll do
+
+- Own the departmental plan across our engineering areas: build timings with the engineers who own the work, and keep the plan honest as reality moves.
+
+- Track the commitments areas make to each other and the dates we commit to outside the department — our network roadmap milestones are the only external calendar we sign up to.
+
+- Own the dependency and risk picture of the portfolio — between areas and with our external suppliers — and surface deviations early, escalating them with a recommendation rather than a status colour.
+
+- Run departmental reporting on top of the substrate that already exists — meeting reports, logbook, project register — instead of building a parallel layer of manual data collection.
+
+- Be the planning counterpart to Operations, Product, User Segment and Payload, and to the external suppliers our roadmap depends on.
+
+What you bring
+
+- Real experience planning and tracking a multi-project technical portfolio in an engineering organisation — telecom, space, embedded systems or similar — including active management of dependencies and risk.
+
+- An engineering degree, or equivalent professional experience in a technical environment, and enough technical literacy to challenge an estimate and follow a dependency between a radio feature and a core network release. You do not need to be practising as an engineer; you do need to not be a spectator.
+
+- Evidence of driving commitments across teams without formal authority over them.
+
+- The habit of building light-weight reporting from sources that already exist, and the discipline to keep it light.
+
+Bonus if you have
+
+- Background in mobile networks, 3GPP-based systems or satellite programmes.
+
+- Comfort using AI-assisted tooling to compile and summarise reporting.
+
+- Experience in a company scaling fast, where the process has to be built while it is used.
+
+- PMP, PRINCE2 or an equivalent project management certification.
+
+Additional requirements
+
+- Hybrid work with regular on-site presence at our Barcelona HQ: this role coordinates people and depends on being among them.
+
+- Working proficiency in English: the department is international and English is the language of technical discussion. Spanish is useful day to day.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."
+64f8eca3-e17e-4922-978f-e4f2cc0f95da,Talent Acquisition Specialist,"Barcelona, Spain",,Human Resources,hybrid,2026-08-12,https://careers.sateliot.com/jobs/8211419-talent-acquisition-specialist,"Sateliot is a Barcelona-based satellite company with one goal: connect everything, everywhere. Founded in 2018, we've built the first satellite constellation that lets standard commercial devices communicate directly from space. Our technology bridges the gaps that terrestrial networks will never reach, bringing affordable and secure connectivity to industries, governments, and communities across the planet.
+
+Learn more: https://sateliot.space/
+
+About the team & this role
+
+We're growing fast, and recruitment is how we get there. As Talent Acquisition Specialist you'll own hiring end to end for a portfolio of technical and non-technical roles: mapping the market, sourcing, running first interviews, and giving hiring managers a shortlist they trust.
+
+This is a step up for someone with ~2 years in tech recruitment who wants more ownership, harder searches, and a mission worth the effort.
+
+What you'll do
+
+- Sourcing: build and run proactive search strategies on LinkedIn Recruiter and beyond for hard-to-find technical and non-technical profiles.
+
+- Screening & first interviews: review applications, run structured first-round interviews, and coordinate technical assessments.
+
+- Hiring manager partnership: align on the profile, calibrate the shortlist, and keep searches moving.
+
+- Candidate experience: clear, timely communication for every candidate, a ""yes"" and a ""no"" both handled well.
+
+- Process & data: keep Teamtailor clean and current so our pipeline and reporting stay reliable.
+
+- Employer branding: help run events, university fairs and content that show what working here is actually like.
+
+What you bring
+
+- ~2 years in tech or engineering recruitment (agency or in-house).
+
+- Fluent English (C1) and Spanish; you'll speak with candidates worldwide every day.
+
+- Hands-on with LinkedIn Recruiter and an ATS (Teamtailor a plus).
+
+- Organized and proactive: comfortable owning a search without being told each step.
+
+- Genuine curiosity about technology, space and connectivity.
+
+Bonus if you have
+
+- Experience hiring engineering, deep-tech, hardware or space profiles.
+
+- High-volume or scale-up hiring experience.
+
+- A third language (Catalan, French, Italian, German…).
+
+- Familiarity with structured interviewing or hiring metrics.
+
+How we work
+
+We lead with humility, move fast, and take ownership. We collaborate without ego and measure ourselves by real impact, not titles or hierarchy. We hire people who already live these values.
+
+What we offer
+
+- Real impact on one of Europe’s most ambitious space projects.
+
+- Growth: we cover 50% of courses or master’s degrees (up to 5% of your salary), plus Spanish and Catalan classes.
+
+- Health & balance: 50% on private health insurance and Urban Sports Club, a flexible schedule, and hybrid work, we focus on results, not hours.
+
+- Flexible Compensation: flexible compensation through Cobee (meal, transport, kindergarten).
+
+- A truly global team: 20+ nationalities building something genuinely new - and genuinely nice to work with. Great vibes, real teamwork.
+
+- A real welcome: a dedicated buddy from day one.
+
+- Life outside work: we organize leisure and sports activities both during and outside working hours - because great teams connect beyond the screen.
+
+- Catering: if you don't have time to cook, we partner with a catering company so a freshmeal is sorted, no need to think about it.
+
+- Parking: on-site parking at the office, with Sateliot covering 50% of the cost - plus free bike parking if you prefer to pedal in.
+
+Sound like you?
+
+Apply now!
+
+Sateliot is an Equal Opportunity Employer. Employment decisions are based on merit, qualifications, and business needs, without discrimination on the basis of any legally protected characteristic."

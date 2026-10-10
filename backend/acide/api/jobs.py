@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException, Query
 
-from .. import db
+from .. import db, extracts, ranking
 from ..models import Job, JobFacets, JobPage
 
 router = APIRouter(prefix="/api/jobs", tags=["jobs"])
@@ -27,10 +27,29 @@ def list_jobs(
     match_posting_currency: bool = False,
     saved_only: bool = False,
     include_dismissed: bool = False,
-    sort: str = Query("fit", pattern="^(fit|recent|experience|interest|compensation)$"),
+    dismissed_only: bool = Query(False, description="Only postings the operator removed"),
+    include_closed: bool = Query(False, description="Also postings their source no longer lists"),
+    origin: str | None = Query(
+        None, pattern="^(extract|crawler)?$", description="Per-site extractors or the crawler"
+    ),
+    excluded: str | None = Query(
+        None,
+        pattern="^(include|only)?$",
+        description="Postings the rules keep from review: hidden by default, 'include' or 'only'",
+    ),
+    country: str | None = Query(
+        None, pattern="^([A-Za-z]{2}|EUROPE)?$", description="An ISO country code, or EUROPE"
+    ),
+    sort: str = Query(
+        "fit", pattern="^(priority|fit|recent|deadline|experience|interest|compensation)$"
+    ),
     limit: int = Query(60, ge=1, le=200),
     offset: int = Query(0, ge=0),
 ) -> JobPage:
+    # The extractors' results are mirrored in on read, so a run of them shows
+    # up on the next page load. Unchanged files cost one stat() each.
+    extracts.sync_quietly()
+    ranking.refresh_quietly()
     return db.list_jobs(
         limit=limit,
         offset=offset,
@@ -50,13 +69,19 @@ def list_jobs(
         match_posting_currency=match_posting_currency,
         saved_only=saved_only,
         include_dismissed=include_dismissed,
+        dismissed_only=dismissed_only,
+        include_closed=include_closed,
+        origin=origin,
+        excluded=excluded,
+        country=country,
     )
 
 
 @router.get("/facets", response_model=JobFacets)
-def job_facets() -> JobFacets:
+def job_facets(origin: str | None = Query(None, pattern="^(extract|crawler)?$")) -> JobFacets:
     """Distinct values powering the Category / Company / Seniority dropdowns."""
-    return db.facets()
+    extracts.sync_quietly()
+    return db.facets(origin)
 
 
 @router.get("/{job_id:path}", response_model=Job)

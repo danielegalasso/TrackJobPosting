@@ -1,0 +1,514 @@
+job_id,title,location,additional_locations,country,time_type,start_date,posted_on,legal_entity,url,description
+R39153,CTI Analyst,Rome,,Italy,Full time,2026-09-10,Posted 22 Days Ago,MBDA Italy,https://mbda.wd3.myworkdayjobs.com/MBDA-Italy/job/Rome/CTI-Analyst_R39153,"MBDA Italia è l'azienda italiana che fa parte del gruppo multinazionale MBDA, leader mondiale nel settore dei sistemi missilistici
+
+MBDA rappresenta il primo Gruppo a livello europeo con capacità di produzione e progettazione in grado di coprire l’intera gamma corrispondente alle attuali e future esigenze delle forze armate (terra, aria e mare).
+
+All’interno della Direzione “Digital Excellence”, MBDA Italia SpA è alla ricerca di un “CTI Analyst”.
+
+Titolo di studio richiesto:
+
+- Laurea in Informatica, Ingegneria Informatica, Cyber Security o discipline affini
+- Votazione minima:100
+
+Esperienza professionale (indicare il tipo di esperienza richiesta e gli anni minimi e massimi di esperienza)
+
+- Almeno 3 anni di esperienza nel ruolo
+
+Attività previste per il ruolo:
+
+La Risorsa prescelta si occuperà delle seguenti attività:
+
+- Monitorare e analizzare fonti di Cyber Threat Intelligence (OSINT, commerciali e governative).
+- Identificare e valutare indicatori di compromissione (IOC), tattiche, tecniche e procedure (TTP) degli attori malevoli.
+- Correlare gli eventi di sicurezza con le informazioni di threat intelligence per individuare minacce emergenti.
+- Supportare il SOC nelle attività di detection, triage e investigazione degli incidenti.
+- Produrre report tattici, operativi e strategici sulle minacce cyber.
+- Arricchire gli alert del SIEM con informazioni di contesto provenienti dalle piattaforme di Threat Intelligence.
+- Collaborare con il team di Incident Response durante la gestione degli incidenti di sicurezza.
+- Mantenere e aggiornare use case, regole di correlazione e playbook di rilevamento.
+- Monitorare campagne APT, malware, ransomware e nuove vulnerabilità con impatto sul business.
+- Condividere informazioni sulle minacce tramite framework e standard quali MITRE ATT&CK, STIX/TAXII e Kill Chain.
+- Cooperare con il Security Operations Center (SOC)
+
+Competenze Professionali:
+
+- Il Cyber Threat Intelligence Analyst supporta proattivamente la postura di sicurezza dell’organizzazione attraverso l’identificazione, l’analisi e la contestualizzazione delle minacce informatiche, consentendo al SOC di rilevare e rispondere in modo rapido ed efficace agli attacchi, riducendo il rischio operativo e migliorando la resilienza cyber aziendale.
+
+E’ responsabile della raccolta, analisi e correlazione delle informazioni sulle minacce informatiche al fine di identificare, prevenire e mitigare i rischi per l’organizzazione. Collabora, all’interno del CERT, con gli analisti SOC, l’Incident Responder e le funzioni di Cyber Security per trasformare le informazioni di intelligence in azioni operative, migliorando la capacità di rilevamento e risposta agli attacchi.
+
+Pertanto deve avere le seguenti competenze tecniche:
+
+- Conoscenza delle metodologie di Cyber Threat Intelligence e del ciclo di intelligence.
+- Esperienza con SIEM (Microsoft Sentinel, Splunk, IBM QRadar, Elastic, ecc.).
+- Conoscenza del framework MITRE ATT&CK.
+- Esperienza nell’analisi di IOC, TTP e malware.
+- Familiarità con piattaforme TIP (Threat Intelligence Platform) come MISP, OpenCTI, o ThreatConnect.
+- Conoscenza dei protocolli STIX/TAXII.
+- Capacità di analizzare log di rete, endpoint e sistemi.
+- Conoscenza dei principali vettori di attacco, vulnerabilità (CVE) e framework CVSS.
+- Esperienza con strumenti EDR/XDR.
+- Conoscenze di networking, sistemi Windows/Linux e protocolli di rete.
+- Capacità di utilizzare linguaggi di scripting (Python, PowerShell o Bash) per automatizzare attività di analisi.
+
+Conoscenze linguistiche:
+
+- Italiano (Madre lingua)
+- Inglese (Fluente)
+- Francese e\o Tedesco (base) sono graditi
+
+Competenze organizzative/Soft skills:
+
+- Esperienza in contesti multiculturali
+- Capacità di lavorare in team"
+R34627,CYBER & COMMS ENGINEER,Rome,,Italy,Full time,2026-03-23,Posted 30+ Days Ago,MBDA Italy,https://mbda.wd3.myworkdayjobs.com/MBDA-Italy/job/Rome/CYBER---COMMS-ENGINEER_R34627,"MBDA Italia è l'azienda italiana che fa parte del gruppo multinazionale MBDA, leader mondiale nel settore dei sistemi missilistici
+
+MBDA rappresenta il primo Gruppo a livello europeo con capacità di produzione e progettazione in grado di coprire l’intera gamma corrispondente alle attuali e future esigenze delle forze armate (terra, aria e mare).
+
+All’interno della Direzione “Engineering/WSD – Italy”, MBDA Italia SpA è alla ricerca di un “Comms & Security Engineer”.
+
+Titolo di studio richiesto:
+
+- Diploma di laurea quinquennale in Ingegneria Informatica o delle Telecomunicazioni o Elettronica
+- Costituiscono titoli preferenziale: Master / corsi su ICT/Information Security e Certificazioni CCNA e CCNP
+
+Esperienza professionale
+
+- Costituisce titolo preferenziale: esperienza pratica, maturata con laboratori e/o approfondimenti personali, nella programmazione e configurazione di apparati di rete e Sistemi Operativi per gli aspetti di networking e di security;
+
+- Attitudine al lavoro di team in un contesto internazionale, disponibilità ai rapporti interpersonali, capacità di analisi e sintesi e di comunicazione scritta, flessibilità al lavoro, disponibilità a viaggiare in Italia ed all’estero
+
+Attività previste per il ruolo:
+
+La Risorsa prescelta si occuperà delle seguenti attività:
+
+Partecipare sotto la guida di un practitioner agli di studi relativi all’attività di Cyber Protection and Networking quali:
+
+- Valutazione delle possibili minacce Cyber nei confronti di un sistema d’arma e relativa Risk Analysis
+- Definizione dei requisiti di Cyber funzionali, dimensionali, prestazionali e di hardening di un sistema di difesa
+- Progettazione dell’Architettura di comunicazione fisica e funzionale di Sistema;
+- Progettazione delle contromisure da integrare nell’architettura del sistema d’arma e dei suoi componenti
+- Esecuzione dei trade-off, allocazione dei requisiti ai sottosistemi e supporto alla selezione e test dei componenti COTS e/o sviluppo dei componenti Make
+- Definizione delle giustificazioni e dei piani di test a supporto della fase di verifica del progetto
+- Predisposizione delle informazioni necessarie a supportare il processo di certificazione del sistema d’arma e delle sue parti secondo gli standard richiesti (Common Criteria, NATO, …)
+
+Competenze Professionali:
+
+- Conoscenza specialistica delle problematiche attinenti il campo della progettazione e implementazione di sistemi di comunicazione complessi (IP based e non), con particolare riferimento alle funzionalità, agli aspetti fisici e di affidabilità, alla modellizzazione e agli studi teorici di dimensionamento.
+- Conoscenze legate all’ITC Security, ed in particolare:
+- degli standard per la sicurezza informatica (Common Criteria, ITSEC, ISO 27000/27001/27002/27005) e delle Norme e normative nazionali: L.124/2007, DPCM 22/7/2011, DPCM 11/04/2002 e relative linee guida
+- dei standard/metodi/processi/tools di threat assessment
+- dei sistemi e tecnologie di protezione (es. protezione fisica, algoritmi di cifratura, Intrusion detection systems, firewall, crypto, ecc…)
+
+- Conoscenze legate al Networking, ed in particolare:
+- delle reti IP (protocolli di comunicazione, routing, subnetting, QoS, DHCP, spanning tree, ecc.)
+- dei protocolli di comunicazione voce su IP (VoIP).
+- Conoscenza di strumenti di simulazione e di emulazione di reti complesse
+- Conoscenza di strumenti di valutazione delle performance di reti complesse
+
+- Conoscenza dei principali linguaggi di programmazione informatica (Python, C, C++, JAVA)
+- Conoscenze di tecniche di progettazione informatica (es. UML, ecc…)
+- Conoscenza delle principali famiglie di sistemi operativi (UNIX, Windows)
+- Conoscenza di base di MATLAB/SIMULINK
+- Conoscenza di tecniche di (Intelligenza Artificiale) applicate a tematiche Cyber
+- Conoscenza di concetti di crittografia quantistica (ex: QKD, QNRG) ed omomorfica
+- Conoscenza di tecniche di Vulnerability Assessment e Penetration Testing
+
+Conoscenze linguistiche:
+
+- Buona conoscenza della lingua inglese scritta e parlata
+
+Competenze organizzative/Soft skills:
+
+- Attitudine al lavoro di team in un contesto internazionale
+- Disponibilità ai rapporti interpersonali
+- Capacità di analisi e sintesi e di comunicazione scritta
+- Flessibilità al lavoro
+- Disponibilità a viaggiare in Italia e all’estero"
+R35798,CYBER & COMMS ENGINEER,Rome,,Italy,Full time,2026-07-29,Posted 30+ Days Ago,MBDA Italy,https://mbda.wd3.myworkdayjobs.com/MBDA-Italy/job/Rome/CYBER---COMMS-ENGINEER_R35798,"MBDA Italia è l'azienda italiana che fa parte del gruppo multinazionale MBDA, leader mondiale nel settore dei sistemi missilistici
+
+MBDA rappresenta il primo Gruppo a livello europeo con capacità di produzione e progettazione in grado di coprire l’intera gamma corrispondente alle attuali e future esigenze delle forze armate (terra, aria e mare).
+
+All’interno della Direzione “Engineering/WSD – Italy”, MBDA Italia SpA è alla ricerca di un “Comms & Security Engineer”.
+
+Titolo di studio richiesto:
+
+- Diploma di laurea quinquennale in Ingegneria Informatica o delle Telecomunicazioni o Elettronica
+- Costituiscono titoli preferenziale: Master / corsi su ICT/Information Security e Certificazioni CCNA e CCNP
+
+Esperienza professionale
+
+Costituisce titolo preferenziale: esperienza pratica, maturata con laboratori e/o approfondimenti personali, nella programmazione e configurazione di apparati di rete e Sistemi Operativi per gli aspetti di networking e di security;
+
+- Attitudine al lavoro di team in un contesto internazionale, disponibilità ai rapporti interpersonali, capacità di analisi e sintesi e di comunicazione scritta, flessibilità al lavoro, disponibilità a viaggiare in Italia ed all’estero
+
+Attività previste per il ruolo:
+
+La Risorsa prescelta si occuperà delle seguenti attività:
+
+Partecipare sotto la guida di un practitioner agli di studi relativi all’attività di Cyber Protection and Networking quali:
+
+- Valutazione delle possibili minacce Cyber nei confronti di un sistema d’arma e relativa Risk Analysis
+- Definizione dei requisiti di Cyber funzionali, dimensionali, prestazionali e di hardening di un sistema di difesa
+- Progettazione dell’Architettura di comunicazione fisica e funzionale di Sistema;
+- Progettazione delle contromisure da integrare nell’architettura del sistema d’arma e dei suoi componenti
+- Esecuzione dei trade-off, allocazione dei requisiti ai sottosistemi e supporto alla selezione e test dei componenti COTS e/o sviluppo dei componenti Make
+- Definizione delle giustificazioni e dei piani di test a supporto della fase di verifica del progetto
+- Predisposizione delle informazioni necessarie a supportare il processo di certificazione del sistema d’arma e delle sue parti secondo gli standard richiesti (Common Criteria, NATO, …)
+
+Competenze Professionali:
+
+- Conoscenza specialistica delle problematiche attinenti il campo della progettazione e implementazione di sistemi di comunicazione complessi (IP based e non), con particolare riferimento alle funzionalità, agli aspetti fisici e di affidabilità, alla modellizzazione e agli studi teorici di dimensionamento.
+- Conoscenze legate all’ITC Security, ed in particolare:
+- degli standard per la sicurezza informatica (Common Criteria, ITSEC, ISO 27000/27001/27002/27005) e delle Norme e normative nazionali: L.124/2007, DPCM 22/7/2011, DPCM 11/04/2002 e relative linee guida
+- dei standard/metodi/processi/tools di threat assessment
+- dei sistemi e tecnologie di protezione (es. protezione fisica, algoritmi di cifratura, Intrusion detection systems, firewall, crypto, ecc…)
+
+- Conoscenze legate al Networking, ed in particolare:
+- delle reti IP (protocolli di comunicazione, routing, subnetting, QoS, DHCP, spanning tree, ecc.)
+- dei protocolli di comunicazione voce su IP (VoIP).
+- Conoscenza di strumenti di simulazione e di emulazione di reti complesse
+- Conoscenza di strumenti di valutazione delle performance di reti complesse
+
+- Conoscenza dei principali linguaggi di programmazione informatica (Python, C, C++, JAVA)
+- Conoscenze di tecniche di progettazione informatica (es. UML, ecc…)
+- Conoscenza delle principali famiglie di sistemi operativi (UNIX, Windows)
+- Conoscenza di base di MATLAB/SIMULINK
+- Conoscenza di tecniche di (Intelligenza Artificiale) applicate a tematiche Cyber
+- Conoscenza di concetti di crittografia quantistica (ex: QKD, QNRG) ed omomorfica
+- Conoscenza di tecniche di Vulnerability Assessment e Penetration Testing
+
+Conoscenze linguistiche:
+
+- Buona conoscenza della lingua inglese scritta e parlata
+
+Competenze organizzative/Soft skills:
+
+- Attitudine al lavoro di team in un contesto internazionale
+- Disponibilità ai rapporti interpersonali
+- Capacità di analisi e sintesi e di comunicazione scritta
+- Flessibilità al lavoro
+- Disponibilità a viaggiare in Italia e all’estero"
+R25211,HW EQUIPMENT ENGINEER,Rome,,Italy,Full time,2025-05-26,Posted 30+ Days Ago,MBDA Italy,https://mbda.wd3.myworkdayjobs.com/MBDA-Italy/job/Rome/HW-EQUIPMENT-ENGINEER_R25211,"MBDA Italia è l'azienda italiana che fa parte del gruppo multinazionale MBDA, leader mondiale nel settore dei sistemi missilistici
+
+MBDA rappresenta il primo Gruppo a livello europeo con capacità di produzione e progettazione in grado di coprire l’intera gamma corrispondente alle attuali e future esigenze delle forze armate (terra, aria e mare).
+
+All’interno della Direzione “OPERATIONS”, MBDA Italia SpA è alla ricerca di un “ HW Equipment Engineer”.
+
+Titolo di studio richiesto:
+
+- LAUREA ING. ELETTRONICA, INFORMATICA,TELECOMUNICAZIONI o equivalente
+
+Esperienza professionale (indicare il tipo di esperienza richiesta e gli anni minimi e massimi di esperienza)
+
+- Esperienza pregressa preferibilmente nel settore difesa o aerospazio
+
+- Esperienze di team working, anche in contesti multinazionali
+- 3-5 anni
+
+Attività previste per il ruolo:
+
+La Risorsa prescelta si occuperà delle seguenti attività:
+
+- Nell’ambito dell’unità Ground and Naval Equipment di ES&T la risorsa sarà incaricata della progettazione, realizzazione, integrazione e test di apparati elettronici e della messa a punto della relativa documentazione.
+
+Le principali responsabilità/attività, in particolare, saranno le seguenti:
+
+- Pianificazione iniziale e controllo dell’avanzamento delle attività per il mantenimento dei tempi e dei costi concordati
+- progettazione e realizzazione di prototipi
+- redazione documentazione di progetto
+- ergonomia e design del progetto orientato alla manutenzione del prodotto
+- supporto alle qualifiche ambientali e al fascicolo tecnico per marcatura CE in coordinamento con il reparto di Environmental EMC Tests&Studies
+- gestione e mantenimento della configurazione
+- coordinamento con attività e risorse di altri reparti (software di base, progettazione meccanica ed elettronica)
+- coordinamento con i responsabili delle linee di prodotto HW del reparto
+- partecipazione a gruppi di lavoro e/o progetti R&T su AI, Cyber Security, Digitalizzzione
+
+Competenze Professionali:
+
+- Conoscenza del pacchetto Office, in particolare di Excel, Power Point e Microsoft Project
+- Concetti base di cyber security
+- Concetti di Metodologia Agile
+- Capacità di integrazione di assiemi HW e di esecuzione di troubleshooting
+- Capacità di produrre e gestire pianificazioni e analisi dei rischi.
+
+Conoscenze linguistiche:
+
+- Inglese
+
+Competenze organizzative/Soft skills:
+
+- Capacità di lavorare in team
+- Ottime doti comunicative
+- Capacità di gestire i conflitti
+- Capacità di gestire priorità
+- Proattività
+- Resilienza"
+R38596,HW EQUIPMENT ENGINEER,Torino,,Italy,Full time,2026-08-24,Posted 30+ Days Ago,MBDA Italy,https://mbda.wd3.myworkdayjobs.com/MBDA-Italy/job/Torino/HW-EQUIPMENT-ENGINEER_R38596,"MBDA Italia è l'azienda italiana che fa parte del gruppo multinazionale MBDA, leader mondiale nel settore dei sistemi missilistici
+
+MBDA rappresenta il primo Gruppo a livello europeo con capacità di produzione e progettazione in grado di coprire l’intera gamma corrispondente alle attuali e future esigenze delle forze armate (terra, aria e mare).
+
+All’interno della Direzione “OPERATIONS”, MBDA Italia SpA è alla ricerca di un “ HW Equipment Engineer”.
+
+Titolo di studio richiesto:
+
+- LAUREA ING. ELETTRONICA, INFORMATICA,TELECOMUNICAZIONI o equivalente
+
+Esperienza professionale (indicare il tipo di esperienza richiesta e gli anni minimi e massimi di esperienza)
+
+- Esperienza pregressa preferibilmente nel settore difesa o aerospazio
+
+- Esperienze di team working, anche in contesti multinazionali
+- almeno 10 anni
+
+Attività previste per il ruolo:
+
+La Risorsa prescelta si occuperà delle seguenti attività:
+
+- Nell’ambito dell’unità Ground and Naval Equipment di ES&TS la risorsa sarà incaricata della progettazione, realizzazione, integrazione e test di apparati elettronici e della messa a punto della relativa documentazione.
+
+Le principali responsabilità/attività, in particolare, saranno le seguenti:
+
+- gestione interfaccia cliente interno/esterno
+- preventivazione e pianificazione iniziale
+- progettazione e realizzazione di prototipi
+- definizione della specifica di progetto e dei requisiti dei sottoassiemi
+- progettazione e sviluppo delle interconnessioni elettriche e ottiche tra apparati
+- messa a punto del prodotto finale e stesura del Technical Data Package
+- ergonomia e design del progetto orientato alla manutenzione del prodotto
+- controllo dell’avanzamento delle attività per il mantenimento dei tempi e dei costi concordati
+- qualifiche ambientali e fascicolo tecnico per marcatura CE in coordinamento con il reparto di Environmental EMC Tests&Studies
+- definizione del make or buy ed eventuale gestione dei subfornitori
+- gestione e mantenimento della configurazione
+- coordinamento con attività e risorse della progettazione meccanica, della progettazione elettronica (digitale e di alta potenza) e del software di base
+- coordinamento con i responsabili delle linee di prodotto HW del reparto
+- Supporto al monitoring della obsolescenza dei prodotti impiegati
+- Troubleshooting, analisi anomalie e gestione delle varianti
+
+Competenze Professionali:
+
+- Conoscenza di:
+
+- S.O. Windows e Linux, del pacchetto Office (Word, Excel, Power Point) e di Microsoft Project;
+
+- Architetture dei calcolatori CISC/RISC e bus seriali
+
+- Networking e principali protocolli di rete
+
+- Concetti base di cyber security (architettura client/Server OPAL compliant)
+- Familiarità con oscilloscopi tipo Tektronics/Agilent, acquisizioni analogiche e digitali, verifiche di signal integrity, BER e SNR;
+- Verifiche di link budget per canali FO SM/MM, misure OTDR;
+- Progettazione di assiemi HW, interconnessioni e relativa documentazione;
+- Capacità di integrazione di assiemi HW e di eseguire troubleshooting;
+- Capacità di produrre e gestire pianificazioni e analisi dei rischi.
+
+Conoscenze linguistiche:
+
+- Inglese
+
+Competenze organizzative/Soft skills:
+
+- Capacità di lavorare in team
+- Ottime doti comunicative
+- Capacità di gestire i conflitti
+- Capacità di gestire priorità
+- Proattività
+- Resilienza"
+R33767,Software Project Leader,La Spezia,,Italy,Full time,2026-07-09,Posted 30+ Days Ago,MBDA Italy,https://mbda.wd3.myworkdayjobs.com/MBDA-Italy/job/La-Spezia/Software-Project-Leader_R33767,"MBDA Italia è l'azienda italiana che fa parte del gruppo multinazionale MBDA, leader mondiale nel settore dei sistemi missilistici
+
+MBDA rappresenta il primo Gruppo a livello europeo con capacità di produzione e progettazione in grado di coprire l’intera gamma corrispondente alle attuali e future esigenze delle forze armate (terra, aria e mare).
+
+All’interno di M/T/EI/SE Software Engineering , MBDA Italia SpA è alla ricerca di un Software Project Leader.
+
+Titolo di studio richiesto:
+
+- Laurea Ingegneria Informatica, Elettronica o delle Telecomunicazioni
+- Votazione minima:105
+
+Esperienza professionale (indicare il tipo di esperienza richiesta e gli anni minimi e massimi di esperienza)
+
+- Esperienza pluriennale (almeno 3 anni) in:
+
+- Gestione di progetti e team di medie dimensioni.
+- Pianificazione e quotazione delle attività.
+- Supervisione alle fasi di progettazione, definizione architettura e design SW e programmazione con linguaggi Object Oriented (preferibilmente C++).
+- Progettazione SW su Sistemi Operativi Linux (Distro Gentoo/Debian) e/o RealTime (VxWorks / PikeOs)
+- Gestione interfaccia con il cliente
+
+Attività previste per il ruolo:
+
+La Risorsa prescelta si occuperà delle seguenti attività:
+
+- Pianificazione e quotazione per attività su progetto
+
+- Gestione di un team di progetto di medie dimensioni
+- Interazione con i vari stakeholder all’interno ed all’esterno della funzione SW.
+- Redazione documenti di specifica SW e supervisione alla stesura della documentazione tecnica di progetto
+- Gestione del processo di sviluppo SW (Agile) e delle fasi di validazione SW e delle relative review
+- Supporto al team nella fase di definizione architettura e Design
+- Supporto al team nella fase di integrazione su piattaforma target
+
+Competenze Professionali:
+
+- Esperienza nella gestione di progetti SW e/o di analista funzionale
+- Conoscenza approfondita del processo di Sviluppo SW Agile
+- Ottima conoscenza dei linguaggi programmazione a oggetti (preferibilmente C++)
+- Ottima conoscenza Sistemi Operativi Linux (Distro Gentoo/Debian) e/o RealTime (VxWorks / PikeOs)
+- Utilizzo protocolli di comunicazione UART, HDLC, TCP, UDP , RPC, MQTT.
+- Utilizzo standard MIL-STD-1553, EIA RS-422, EIA RS-485, EIA RS-232 e IEEE 802.
+- Competenze in ambito Cyber Security
+- Competenze approfondite relativamente a concetti di virtualizzazione e containerizzazione
+
+Conoscenze linguistiche:
+
+- Ottima conoscenza lingua inglese parlata e scritta
+
+Competenze organizzative/Soft skills:
+
+- Predisposizione ai rapporti interpersonali
+- Attitudine al lavoro in team e alla sua gestione.
+- Capacità di analisi e sintesi e di problem solving.
+- Spirito di iniziativa e propensione all'innovazione, adattabilità e flessibilità nell'attività lavorativa.
+- Disponibilità ad effettuare trasferte in Italia ed all’estero."
+R28459,SW Engineer,Rome,,Italy,Full time,2026-09-17,Posted 15 Days Ago,MBDA Italy,https://mbda.wd3.myworkdayjobs.com/MBDA-Italy/job/Rome/SW-Engineer_R28459,"MBDA Italia è l'azienda italiana che fa parte del gruppo multinazionale MBDA, leader mondiale nel settore dei sistemi missilistici
+
+MBDA rappresenta il primo Gruppo a livello europeo con capacità di produzione e progettazione in grado di coprire l’intera gamma corrispondente alle attuali e future esigenze delle forze armate (terra, aria e mare).
+
+All’interno della Direzione Software Engineering, MBDA Italia SpA è alla ricerca di un SW Engineer
+
+Titolo di studio Desiderato:
+
+- Laurea Magistrale in Ingegneria Informatica, Ingegneria delle Telecomunicazioni, Ingegneria Elettronica e Elettrica
+- Verranno presi in considerazione anche profili con Laurea Triennale on comprovata esperienza nel ruolo di almeno 3 anni
+- Verranno presi in considerazione anche profili non Laureati con Diploma di indirizzo Tecnico Scientifico con comprovata esperienza nel ruolo di almeno 8 anni
+
+Esperienza professionale
+
+Esperienza nella specifica, design e implementazione di cyber solutions
+
+- Conoscenza Linux e Unix-Like
+- Conoscenza tematiche legate alla Sicurezza informatica (encryption, OS hardening, Common Criteria)
+- Conoscenza di tematiche legate alla System Administration ( Network configuration and troubleshooting, user and service Administration, bash scripting)
+- Conoscenze legate al networking
+- Conoscenza dei principali protocolli di comunicazione (es. TCP/IP, UDP, SNMP, RS232/422, 1553,…)
+- Change Management (Tool Git/CVS/IBM RTC/DOORS)
+- Conoscenza dello Standard MIL-STD-498 (o equivalente).
+
+Desiderata:
+
+- Esperienza nello sviluppo di soluzioni Cyber su Sistemi Operativi LInux
+- Esperienza nello sviluppo SW in ambito Militare
+- Esperienza in ambito Networking e configurazione dispositivi di rete (Switch/Firewall)
+
+- Attività previste per il ruolo:
+
+La risorsa si occupa di sviluppi ed integrazione di soluzioni cyber per i sistemi prodotti da MBDA. Supporta la definizione e l’implementazione dei Sistemi Operativi e degli apparati di rete utilizzati sui nostri prodotti analizzando e progettando le corrette soluzioni target, seguendo le best practice aziendali per integrazione e test, garantendo il rispetto delle configurazioni di Cyber Resilience in linea con i requisiti funzionali e prestazionali richiesti dal prodotto finale.
+
+Competenze Professionali:
+
+- Linguaggi di programmazione: C, C++, UML, Python, OpenGL, QT, bash Scipting,
+- Linguaggi per il Web: HTML, JSP, SQL, Javascript, CSS, XML
+- Networking: UDP, TCP/IP, Http, SSL, Smtp, POP3, Unicast/Multicast IP, routing, Natting, Firewalling, Network devices configuration, iptables configuration.
+- Sicurezza: Https, digital signatures, MD5 cryptography, firewall, key pair generation (openssl), Certificate chain of trust (openssl configuration), ssh server/client configuration.
+- Sistemi operativi: Linux, command shell, Kernel configuration, Package manager utilizzation and development (portage), LXC/Docker containerization, Windows, MS-Office
+
+Conoscenze linguistiche:
+
+- Ottimo inglese parlato e scritto - B2
+
+Competenze organizzative/Soft skills:
+
+- disponibilità ai rapporti interpersonali
+- capacità di analisi e problem solving
+- orientamento ai risultati
+- iniziativa ed autonomia
+- team working
+- capacità di organizzazione del lavoro
+- ottima comunicazione verbale e scritta
+- adattabilità.
+
+Completano il profilo:
+
+- Disponibilità ad operare in contesti e team internazionali.
+
+- Disponibilità ad effettuare trasferte sia in ambito nazionale che internazionale. - Flessibilità di orario."
+R34644,SW Engineer,Rome,,Italy,Full time,2026-07-17,Posted 30+ Days Ago,MBDA Italy,https://mbda.wd3.myworkdayjobs.com/MBDA-Italy/job/Rome/SW-Engineer_R34644,"MBDA Italia è l'azienda italiana che fa parte del gruppo multinazionale MBDA, leader mondiale nel settore dei sistemi missilistici
+
+MBDA rappresenta il primo Gruppo a livello europeo con capacità di produzione e progettazione in grado di coprire l’intera gamma corrispondente alle attuali e future esigenze delle forze armate (terra, aria e mare).
+
+All’interno della Direzione “SW Engineering Italia”, MBDA Italia SpA è alla ricerca di un “SW Engineer”.
+
+Titolo di studio richiesto:
+
+- Laurea in Ingegneria Informatica, Informatica, Ingegneria Elettronica o discipline STEM equivalenti (o esperienza professionale equivalente)
+
+Esperienza professionale
+
+- Almeno 5 anni di esperienza in:
+
+Gestione di sistemi virtuali basati di VmWare VSphere.
+
+Gestione di sistemi di Backup/Restore e Archiving.
+
+Gestione apparati di rete CISCO, STONESOFT e CHECKPOINT.
+
+Conoscenza avanzata dei sistemi operativi (MS Windows, Linux, Unix-Like OS)
+
+Attività previste per il ruolo:
+
+All’interno del reparto Software Capability Italy, la risorsa seguirà le attività di gestione e controllo dei laboratori CIS di MBDA Italia sede di Roma, La Spezia e Fusaro. Dovrà garantire la compliance di tutti i laboratori CIS di Roma/La Spezia e Fusaro alla normativa PCM ONS3/2019 sulla gestione e manutenzione dei materiali classificati. Dovrà fornire adeguato supporto a tutti i Reparti e Direzioni di MBDA IT che hanno attività all’interno dei laboratori CIS.
+
+Dopo un opportuno periodo di acquisizione delle competenze tecniche, di processo e normative, il ruolo evolverà nella gestione dei centri CIS e nelle attività relative alla loro evoluzione/innovazione.
+
+L’evoluzione del ruolo prevede il coinvolgimento del candidato verso tutte le attività di sviluppo delle architetture di reti CIS, di supporto alla road map delle capability ALM e di implementazione dei servizi di Infrastructure as a Service e creazione di Cloud on-premise.
+
+Attività principali che la Risorsa prescelta dovrà svolgere nella posizione di System Administrator:
+
+- Amministrazione di un centro CIS con classifica fino a S.
+
+- Acquisizione di tutte quelle competenze a livello tecnico e amministrativo per la configurazione e l’analisi di sistemi di calcolo e reti classificate.
+
+- Acquisizione della normativa PCM/ONS3 per la gestione dei centri classificati e delle reti geografiche classificate.
+
+- Supporto alle visite ispettive in ambito Security e Safety.
+
+- estione dei Fornitori per la manutenzione degli apparati HW/SW dei centri CIS.
+
+- Gestione degli asset e mantenimento dell’anagrafica del centro di calcolo.
+
+Dopo che candidato avrà maturato esperienza adeguata (min 5 anni), il ruolo prevede uno step verso attività più gestionali e di innovazione:
+
+Attività principali che la risorsa dovrà svolgere come responsabile dei centri CIS connessi:
+
+- Gestione di più centri di calcolo CIS
+
+- Supervisione delle attività degli amministratori locali e delle loro attività di supporto agli utenti e di mantenimento dei centri
+
+- Report verso la direzione delle attività dei centri CIS
+
+- Supporto all’innovazione dei centri CIS Supporto al business per la creazione di nuovi centri CIS e nuove connessioni geografiche classificate
+
+- Gestione delle attività di rinnovo omologazione dei centri CIS e delle reti geografiche
+
+Competenze Professionali:
+
+- Capacità di definire i requisiti dell’infrastruttura IT e dei suoi singoli componenti.
+
+- Capacità di analizzare problemi complessi individuando eventuali criticità e proponendo soluzioni
+
+- Capacità relazionali, di Team Building e gestione strutturata dei conflitti
+
+- Costituirà titolo preferenziale la conoscenza standard ITIL e la certificazione ISO/IEC 27001:2013 o altra certificazione in cyber security
+
+Conoscenze linguistiche:
+
+- Ottima conoscenza della lingua inglese parlata e scritta
+
+Competenze organizzative/Soft skills:
+
+- Empatia, Comunicazione e Resilienza.
+
+- Capacità relazionali di Team Building e gestione strutturata dei conflitti.
+
+- Capacità di analizzare problemi complessi individuando eventuali criticità e proponendo soluzioni.
+
+- Gestione del tempo: capacità di pianificare le attività, definire priorità e rispettare le scadenze"

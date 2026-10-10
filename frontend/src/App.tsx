@@ -4,9 +4,9 @@ import { AlertModal } from './components/AlertModal';
 import { FilterMatrix } from './components/FilterMatrix';
 import { Footer } from './components/Footer';
 import { Header, type View } from './components/Header';
-import { InspectorConsole } from './components/InspectorConsole';
 import { JobGrid } from './components/JobGrid';
 import { LegalModal } from './components/LegalModal';
+import { SearchPanel } from './components/SearchPanel';
 import { SettingsPanel } from './components/SettingsPanel';
 import { useDebounced, useFilters } from './hooks/useFilters';
 import { api } from './lib/api';
@@ -33,32 +33,18 @@ export default function App() {
   const [alertOpen, setAlertOpen] = useState(false);
   const [legal, setLegal] = useState<'privacy' | 'terms' | null>(null);
 
-  // Typing in a text control should not fire a request per keystroke.
+  // Typing in the search box should not fire a request per keystroke; the
+  // other controls pick from a list, so they apply at once.
   const debouncedSearch = useDebounced(filters.search);
-  const debouncedLocation = useDebounced(filters.location);
-  const debouncedRemote = useDebounced(filters.remote);
-  const debouncedCompany = useDebounced(filters.company);
-  const debouncedAmount = useDebounced(filters.min_amount);
 
   const effective: Filters = useMemo(
     () => ({
       ...filters,
       search: debouncedSearch,
-      location: debouncedLocation,
-      remote: debouncedRemote,
-      company: debouncedCompany,
-      min_amount: debouncedAmount,
       saved_only: view === 'saved',
+      dismissed_only: view === 'removed',
     }),
-    [
-      filters,
-      debouncedSearch,
-      debouncedLocation,
-      debouncedRemote,
-      debouncedCompany,
-      debouncedAmount,
-      view,
-    ],
+    [filters, debouncedSearch, view],
   );
 
   // An infinite query keeps every loaded page in the cache under the filter
@@ -83,17 +69,20 @@ export default function App() {
   const jobs = useMemo(() => data?.pages.flatMap((page) => page.items) ?? [], [data]);
   const total = data?.pages[0]?.total ?? 0;
 
-  const { data: facets } = useQuery({ queryKey: ['facets'], queryFn: api.facets });
+  const { data: facets } = useQuery({
+    queryKey: ['facets', filters.origin],
+    queryFn: () => api.facets(filters.origin),
+  });
   const { data: status } = useQuery({
-    queryKey: ['spider-status'],
-    queryFn: api.spiderStatus,
+    queryKey: ['search-status'],
+    queryFn: api.searchStatus,
     refetchInterval: 15000,
   });
 
   // The nav badge reflects every bookmark, not just the ones on screen.
   const { data: savedPage } = useQuery({
     queryKey: ['saved-count'],
-    queryFn: () => api.jobs({ ...EMPTY_FILTERS, saved_only: true }, 0, 1),
+    queryFn: () => api.jobs({ ...EMPTY_FILTERS, origin: '', saved_only: true }, 0, 1),
   });
 
   const refreshLists = useCallback(() => {
@@ -140,10 +129,10 @@ export default function App() {
 
   const emptyHint =
     view === 'saved'
-      ? 'Bookmark a role from the Search tab and it will appear here.'
-      : (status?.targets.length ?? 0) === 0
-        ? 'No career feeds are configured yet. Add one under Settings, then run the inspector.'
-        : 'Try widening the filters, or run the inspector to index newly published roles.';
+      ? 'Star a role from the Search tab and it will appear here.'
+      : view === 'removed'
+        ? 'Postings you remove with ✕ land here, where they can be put back.'
+        : 'Try widening the filters, or open Run the Search to read the career sites again.';
 
   return (
     <div className="flex min-h-screen flex-col bg-white">
@@ -151,10 +140,10 @@ export default function App() {
         view={view}
         onNavigate={setView}
         savedCount={savedCount}
-        spiderRunning={Boolean(status?.running)}
+        searchRunning={Boolean(status?.search.running || status?.review.running)}
       />
 
-      {(view === 'search' || view === 'saved') && (
+      {(view === 'search' || view === 'saved' || view === 'removed') && (
         <>
           <FilterMatrix
             filters={filters}
@@ -176,6 +165,7 @@ export default function App() {
               onLoadMore={() => void fetchNextPage()}
               onToggleSave={(job) => bookmark.mutate(job)}
               onDismiss={(job) => dismiss.mutate(job)}
+              removedView={view === 'removed'}
             />
           </main>
         </>
@@ -183,7 +173,7 @@ export default function App() {
 
       {view === 'console' && (
         <main className="flex-1 pt-6">
-          <InspectorConsole />
+          <SearchPanel />
         </main>
       )}
 

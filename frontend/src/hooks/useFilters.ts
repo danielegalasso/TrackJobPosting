@@ -12,7 +12,17 @@ export function useFilters() {
   const [filters, setFilters] = useState<Filters>(() => {
     try {
       const stored = window.localStorage.getItem(STORAGE_KEY);
-      return stored ? { ...EMPTY_FILTERS, ...JSON.parse(stored) } : EMPTY_FILTERS;
+      if (!stored) return EMPTY_FILTERS;
+      // Keep only the filters that still exist: one saved by an older version
+      // (a min amount, a seniority) would narrow the grid with no control
+      // left to clear it.
+      const saved = JSON.parse(stored) as Record<string, unknown>;
+      const known = Object.fromEntries(
+        Object.entries(saved).filter(([key]) => key in EMPTY_FILTERS),
+      ) as Partial<Filters>;
+      // The old crawler's postings are gone: a stored "crawler" source would
+      // show an empty grid.
+      return { ...EMPTY_FILTERS, ...known, origin: 'extract' };
     } catch {
       return EMPTY_FILTERS;
     }

@@ -242,9 +242,9 @@ def render_digest(
     count = len(jobs)
     lead = jobs[0]
     subject = (
-        f"ACIDE-Watch: {lead.title} at {lead.company}"
+        f"findmyjob.top: {lead.title} at {lead.company}"
         if count == 1
-        else f"ACIDE-Watch: {count} new roles match your alert"
+        else f"findmyjob.top: {count} new roles match your alert"
     )
 
     cards = "".join(_card(job, portal_url) for job in jobs)
@@ -254,7 +254,7 @@ def render_digest(
     <tr><td align="center">
       <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="max-width:620px;">
         <tr><td style="background:{BRAND};border-radius:8px 8px 0 0;padding:16px 18px;">
-          <span style="font:700 18px -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#ffffff;">ACIDE-Watch</span>
+          <span style="font:700 18px -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#ffffff;">findmyjob.top</span>
           <span style="font:400 13px -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#a7f3d0;margin-left:8px;">career intelligence digest</span>
         </td></tr>
         <tr><td style="background:#ffffff;padding:18px;border:1px solid #e2e8f0;border-top:0;">
@@ -265,8 +265,8 @@ def render_digest(
         </td></tr>
         <tr><td style="padding:14px 18px;background:#f1f5f9;border:1px solid #e2e8f0;border-top:0;border-radius:0 0 8px 8px;">
           <p style="font:400 11px/1.6 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#64748b;margin:0;">
-            You are receiving this because you created an alert on a self-hosted ACIDE-Watch instance.
-            Listings are aggregated from public employer career feeds; ACIDE-Watch is not an employer
+            You are receiving this because you created an alert on a self-hosted findmyjob.top instance.
+            Listings are aggregated from public employer career feeds; findmyjob.top is not an employer
             or recruiter and does not guarantee a posting's accuracy or availability.
             <a href="{html.escape(unsubscribe_url)}" style="color:{BRAND};">Unsubscribe</a>.
           </p>
@@ -276,7 +276,7 @@ def render_digest(
   </table>
 </body></html>"""
 
-    lines = [f"{count} new posting(s) matched your ACIDE-Watch alert.", ""]
+    lines = [f"{count} new posting(s) matched your findmyjob.top alert.", ""]
     for job in jobs:
         lines += [
             f"* {job.title} — {job.company}",

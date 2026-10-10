@@ -1,0 +1,221 @@
+job_id,title,location,additional_locations,start_date,url,description
+210,IT M365 EXPERT,"Madrid, ESP, 28033",,2026-08-25,https://careers.gdels.com/job/IT-M365-EXPERT/210-en_US/,"As an IT M365 Expert, you are responsible for the design, development, and reliable operation of our cloud-based Modern Workplace environment built on Microsoft 365.
+
+You ensure that employees have secure, efficient, and high-performing digital workplace solutions.
+
+You collaborate closely with IT Security and Networking team.
+
+What your work will consist of?
+
+- Core Microsoft 365 Platform Ownership
+
+- Operate, maintain, and optimize all core M365 workloads, with specialized mastery in Microsoft Teams, SharePoint Online, OneDrive for Business, Exchange Online, and Entra ID.
+
+- Ensure continuous availability, performance, scalability, and reliability of the entire M365 ecosystem, including collaboration workloads and content services.
+
+- Oversee tenant‑wide configuration, service health monitoring, adoption governance, and lifecycle management.
+
+Microsoft Teams Expertise
+
+Administer Microsoft Teams end-to-end:
+
+- Team lifecycle, templates, naming conventions, expiration & archival
+
+- Channel governance, granular permission models, and private/shared channels
+
+- Teams meeting policies, voice configurations, Teams Rooms, and compliance recording
+
+- Teams App governance: policies, app permission setups, third‑party integrations
+
+- Ensure seamless collaboration by configuring Teams ↔ SharePoint integrations, inheritance models, and permissions alignment. (Aligned with your organization’s use of Teams as primary data workspace)
+
+- Provide expert guidance in Teams-driven document management, versioning, secure sharing, and data classification.
+
+SharePoint Online Expertise
+
+- Architect, implement, and manage SharePoint Online site collections, hubs, information architectures, metadata structures, libraries, lists, and DLP-enforced collaboration policies.
+
+- Oversee permission governance using Azure/Entra groups, role-based access, and scalable permission models. (Supports the defined model of RW/RO Azure Security Groups for SharePoint inheritance)
+
+- Support organizational initiatives such as intranet evolution, content migration, data restructuring, and site administration for business units.
+
+OneDrive for Business Expertise
+
+- Govern OneDrive environments, including synchronization controls, sharing restrictions, storage policies, and user onboarding.
+
+- Enable user adoption and transition away from legacy file servers, supporting organizational strategy to promote Teams + OneDrive modern data access models.
+
+- Ensure secure sharing across internal/external collaboration scenarios.
+
+Exchange Online (EOX) Ownership
+
+- Full administrative control of mail flow, transport rules, connectors, accepted domains, compliance integrations, message tracing, and security configurations.
+
+- Oversee hygiene controls (DKIM, DMARC, SPF), anti-phishing, and secure email routing.
+
+- Lead mailbox provisioning, migration, hybrid coexistence, and associated governance.
+
+- Compliance, Retention & Governance (Microsoft Purview)
+
+- Design, implement, and enforce retention policies, retention labels, records management, and legal hold strategies across all M365 workloads.
+
+- Maintain data lifecycle governance using Purview capabilities such as audit, eDiscovery, Insider Risk, communication compliance, and sensitivity labels.
+
+- Ensure compliance with corporate, legal, and regulatory retention requirements, including defensible deletion and immutable record preservation.
+
+- Collaborate with Legal, Data Protection, and Security teams to respond to audits and discovery requests.
+
+Identity & Security (Entra ID + Zero Trust)
+
+- Implement and maintain identity governance, including access reviews, entitlement management, identity lifecycle, and privileged identity management.
+
+- Configure Conditional Access, MFA enforcement, Identity Protection, and secure collaboration policies.
+
+- Contribute to Zero Trust strategy across identity, devices, applications, and data.
+
+Modern Workplace Engineering & Automation
+
+- Lead design, implementation, and enhancement of Modern Workplace standards, operational frameworks, and administrative automation.
+
+- Develop automation solutions using PowerShell, Graph API, Power Platform, and workflow integrations.
+
+- Evaluate, pilot, and deploy new Microsoft 365 features, ensuring proper change management, communication, and documentation.
+
+Cross-Team Collaboration & Operational Support
+
+- Support Service Desk and operational teams with deep-dive issue resolution, root-cause analysis, and best-practice guidance.
+
+- Deliver training, workshops, user enablement content, and capability development for internal teams.
+
+- Maintain close collaboration with IT Security, Networking, and Architecture teams to ensure a unified and secure digital environment.
+
+Documentation, Standardization & Continuous Improvement
+
+- Create and maintain comprehensive technical documentation, governance guidance, support runbooks, and user guides.
+
+- Continuously identify areas for improvement in collaboration, compliance, automation, and overall M365 service maturity.
+
+- Lead or participate in projects related to cloud transformation, collaboration modernization, and digital workplace optimization
+
+Maintain IT assets inventory via ITAM practices.
+
+- Ensure clear, consistent IT communication aligned with GDELS IT strategy.
+
+- Use predefined templates and standards for announcements, outages, and updates.
+
+- Promote inter-site collaboration and knowledge sharing across IT teams.
+
+- Facilitate onboarding and training sessions for new users and technologies.
+
+- Collaborate with security teams on vulnerability management and threat detection.
+
+What is the profile required?
+
+- Bachelor's degree in Computer Science, IT, or related field
+
+- Minimum 5+ years of experience as a System Engineer with a focus on Microsoft M365.
+
+- Good understanding of IT security, Zero Trust, and cloud governance.
+
+- PowerShell scripting
+
+- Experience with automation (PowerShell, Graph API).
+
+- Excellent problem-solving and analytical skills
+
+- Strong communication and collaboration skills
+
+- IT certifications (Microsoft MS-102, SC-300, MD-102, AZ-104) and ITIL Foundation
+
+- Ready to occasionally work late hours or on weekends for Patches/Updates/Rollouts
+
+- Highly committed
+
+- Advanced English written and spoken, Spanish and/or German is a plus
+
+- Strong analytical and conceptual thinking.
+
+- High degree of initiative and responsibility.
+
+What do we offer?
+
+- Be part of a large international group, a leader in the defense sector.
+
+- Participate in major national and international projects.
+
+- Join a highly qualified team where you can develop a solid professional career.
+
+- Excellent working environment in a proactive and collaborative setting.
+
+- Competitive salary.
+
+- Flexible compensation package, with benefits such as childcare, transportation, or training.
+
+- Continuous working hours and flexible scheduling.
+
+- Hybrid remote working model.
+
+- Opportunity to travel and geographic mobility."
+349,PROJECT MANAGER (m/w/d),"Neubrandenburg, DEU, 17036",,2026-10-09,https://careers.gdels.com/job/PROJECT-MANAGER-%28mwd%29/349-en_US/,"Als Projektleiter (m/w/d) verantworten Sie die Planung, Steuerung und erfolgreiche Umsetzung sicherheitsrelevanter und klassifizierter Projekte. Sie koordinieren alle relevanten Stakeholder, gewährleisten die Einhaltung regulatorischer und vertraglicher Anforderungen und sichern durch vorausschauendes Risiko-, Termin- und Budgetmanagement den nachhaltigen Projekterfolg.
+
+Ihre Aufgaben in unserem Unternehmen:
+
+- Leitung und Koordination von klassifizierten und sicherheitsrelevanten Projekten über den gesamten Projektlebenszyklus
+
+- Sicherstellung der Einhaltung von Sicherheitsvorschriften, Geheimhaltungsanforderungen und vertraglichen Verpflichtungen
+
+- Planung, Steuerung und Überwachung von Projektterminen, Budgets, Ressourcen und Risiken
+
+- Abstimmung mit Kunden, internen Fachbereichen, Unterauftragnehmern und zuständigen Behörden
+
+- Erstellung und Pflege von Projektdokumentationen, Berichten und sicherheitsrelevanten Nachweisen
+
+- Überwachung des Projektfortschritts sowie Einleitung geeigneter Maßnahmen bei Abweichungen
+
+- Unterstützung bei Audits, Inspektionen und Sicherheitsbewertungen (Security Assessments)
+
+Unsere Anforderungen an Sie:
+
+- Erfolgreich abgeschlossenes technisches oder betriebswirtschaftliches Studium oder eine vergleichbare berufliche Qualifikation
+
+- Berufserfahrung im Projektmanagement, vorzugsweise in der Verteidigungs-, Sicherheits- oder einer regulierten Industrie
+
+- Kenntnisse der Anforderungen an Sicherheitsüberprüfungen sowie im Umgang mit klassifizierten Informationen
+
+- Ausgeprägte Organisations-, Kommunikations- und Stakeholder-Management-Fähigkeiten
+
+- Fähigkeit zum professionellen Umgang mit sensiblen und vertraulichen Informationen
+
+- Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift
+
+- Selbstständige, strukturierte und lösungsorientierte Arbeitsweise
+
+- Hohes Maß an Verantwortungsbewusstsein, Zuverlässigkeit und Diskretion
+
+- Teamfähigkeit, Durchsetzungsvermögen und sicheres Auftreten gegenüber internen und externen Ansprechpartnern
+
+Wir bieten:
+
+- Abwechslungsreiche Tätigkeit sowie einen umfassenden Verantwortungsbereich
+
+- 38 Stunden-Woche
+
+- Angenehmes Betriebsklima
+
+- Individuelle Weiterbildungsangebote
+
+- 30 Tage Urlaub
+
+- Gleitzeit
+
+- Urlaubs- und Weihnachtsgeld
+
+- Tankzuschuss
+
+- Mitarbeiterrabatte
+
+- Jobrad
+
+Gehaltsspanne: 60.000 - 65.000 Euro /Jahr
+
+Starten Sie Ihre Bewerbung direkt über den Button ""Jetzt bewerben"". Bei Fragen oder für weitere Informationen schreiben Sie bitte an stellenangebote@gdels.com"

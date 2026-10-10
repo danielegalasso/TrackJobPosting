@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { Check, Loader2, Plus, Trash2, Upload, X } from 'lucide-react';
+import { Check, Loader2, Plus, Trash2, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { api } from '../lib/api';
 import {
@@ -172,7 +172,6 @@ export function SettingsPanel() {
   const [testingOpenRouter, setTestingOpenRouter] = useState(false);
   const [smtpTest, setSmtpTest] = useState<HandshakeResult>();
   const [testingSmtp, setTestingSmtp] = useState(false);
-  const [resumeNote, setResumeNote] = useState('');
   // The comma-separated field keeps its raw text. Rendering the parsed list
   // back into the input would strip each comma the moment it was typed, so
   // the list could never be extended past its first term.
@@ -222,16 +221,6 @@ export function SettingsPanel() {
       next.targets[index][field] = value;
     });
 
-  const uploadResume = async (file: File) => {
-    try {
-      const result = await api.uploadResume(file);
-      setResumeNote(`Stored ${result.filename} — ${result.characters.toLocaleString()} characters extracted.`);
-      queryClient.invalidateQueries({ queryKey: ['config'] });
-    } catch (error) {
-      setResumeNote(error instanceof Error ? error.message : 'Upload failed');
-    }
-  };
-
   return (
     <div className="mx-auto w-full max-w-3xl space-y-4 px-4 pb-16 pt-6 sm:px-6">
       <div className="flex flex-wrap items-start justify-between gap-3">
@@ -257,95 +246,6 @@ export function SettingsPanel() {
           {saveError}
         </p>
       )}
-
-      <Section title="Candidate profile" hint="What the evaluator scores each posting against.">
-        <Field
-          label="Curriculum Vitae"
-          hint="PDF, Markdown or plain text. Replacing the file deletes the previous one immediately."
-        >
-          <div className="flex flex-wrap items-center gap-3">
-            <label className="flex cursor-pointer items-center gap-2 rounded border border-gray-300 px-3 py-2 text-xs font-medium text-gray-700 transition hover:bg-gray-50">
-              <Upload className="h-3.5 w-3.5" aria-hidden />
-              <span>Choose file</span>
-              <input
-                type="file"
-                accept=".pdf,.md,.markdown,.txt"
-                className="hidden"
-                onChange={(event) => {
-                  const file = event.target.files?.[0];
-                  if (file) void uploadResume(file);
-                }}
-              />
-            </label>
-            {draft.resume_filename ? (
-              <span className="flex items-center gap-2 text-xs text-gray-600">
-                <code className="rounded bg-gray-100 px-1.5 py-0.5">{draft.resume_filename}</code>
-                <button
-                  onClick={async () => {
-                    await api.deleteResume();
-                    setResumeNote('CV erased from this host.');
-                    queryClient.invalidateQueries({ queryKey: ['config'] });
-                  }}
-                  className="text-red-600 hover:underline"
-                >
-                  Erase
-                </button>
-              </span>
-            ) : (
-              <span className="text-xs text-gray-400">No CV uploaded</span>
-            )}
-          </div>
-          {resumeNote && <p className="mt-2 text-[11px] text-gray-500">{resumeNote}</p>}
-        </Field>
-
-        <Field
-          label="Pivot interests"
-          hint="One per line. These drive the second fit vector — where you want to go, not where you have been."
-        >
-          <textarea
-            rows={4}
-            value={draft.interests.join('\n')}
-            onChange={(event) =>
-              patch((next) => {
-                next.interests = event.target.value.split('\n').filter((line) => line.trim());
-              })
-            }
-            className="control pr-3 font-mono text-xs"
-            placeholder={'Cloud security and detection engineering\nPlatform engineering roles'}
-          />
-        </Field>
-
-        <div className="grid grid-cols-2 gap-3">
-          <Field label="Experience threshold" hint="Alert when experience fit reaches this.">
-            <input
-              type="number"
-              min={0}
-              max={100}
-              value={draft.scoring.experience_threshold}
-              onChange={(event) =>
-                patch((next) => {
-                  next.scoring.experience_threshold = Number(event.target.value);
-                })
-              }
-              className="control pr-3"
-            />
-          </Field>
-          <Field label="Pivot threshold" hint="…or when pivot fit reaches this.">
-            <input
-              type="number"
-              min={0}
-              max={100}
-              value={draft.scoring.interest_threshold}
-              onChange={(event) =>
-                patch((next) => {
-                  next.scoring.interest_threshold = Number(event.target.value);
-                })
-              }
-              className="control pr-3"
-            />
-          </Field>
-        </div>
-      </Section>
 
       <Section title="OpenRouter" hint="The inference gateway that scores each posting.">
         <SecretField

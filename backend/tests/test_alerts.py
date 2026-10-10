@@ -168,11 +168,11 @@ def test_digest_subject_reflects_batch_size():
     seed(external_id="1", title="Only Role", experience_fit_score=90)
     jobs = db.list_jobs().items
     subject, _, _ = mailer.render_digest(jobs, "http://x", "http://x/u")
-    assert subject == "ACIDE-Watch: Only Role at Acme"
+    assert subject == "findmyjob.top: Only Role at Acme"
 
     seed(external_id="2", title="Second Role", experience_fit_score=90)
     subject, _, _ = mailer.render_digest(db.list_jobs().items, "http://x", "http://x/u")
-    assert subject == "ACIDE-Watch: 2 new roles match your alert"
+    assert subject == "findmyjob.top: 2 new roles match your alert"
 
 
 def test_digest_includes_unsubscribe_link():

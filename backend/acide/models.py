@@ -34,7 +34,7 @@ CATEGORY_TYPE_VALUES: tuple[str, ...] = (
 #: Reasoning budgets OpenRouter accepts on the `reasoning.effort` field.
 #: "none" is ours, not theirs — it means omit the block entirely, which is
 #: what a model without a thinking mode needs.
-REASONING_EFFORTS: tuple[str, ...] = ("none", "minimal", "low", "medium", "high", "max")
+REASONING_EFFORTS: tuple[str, ...] = ("none", "minimal", "low", "medium", "high", "xhigh", "max")
 
 
 class OpenRouterConfig(BaseModel):
@@ -319,7 +319,38 @@ class Job(BaseModel):
     source_type: str = ""
     saved: bool = False
     dismissed: bool = False
+    #: False until the evaluator has judged it; the fit scores mean nothing before.
+    scored: bool = True
+    #: Last day to apply (ISO date), when the source states one.
+    deadline: str | None = None
+    description: str = ""
+    #: The source no longer lists this posting.
+    closed: bool = False
     created_at: str | None = None
+    #: Which to read first, 0-100 (ranking.py): the model's review against the
+    #: operator's brief where there is one, the rules' score otherwise.
+    priority: int | None = None
+    #: "review", "rules", or "" before the posting has been ranked.
+    priority_source: str = ""
+    #: The review was made against a brief that has changed since.
+    priority_stale: bool = False
+    #: The model that made the review.
+    priority_model: str = ""
+    priority_tier: int | None = None
+    #: {"name", "points", "max"} per criterion: the brief's own when reviewed.
+    priority_criteria: list[dict[str, Any]] = Field(default_factory=list)
+    #: {"name", "points"} per bonus or malus the brief defines.
+    priority_adjustments: list[dict[str, Any]] = Field(default_factory=list)
+    priority_reasons: list[str] = Field(default_factory=list)
+    #: {"text", "level"}: level is "block" (cannot apply), "warn" or "info".
+    priority_flags: list[dict[str, str]] = Field(default_factory=list)
+    priority_summary: str = ""
+    priority_issues: list[str] = Field(default_factory=list)
+    priority_cv_tip: str = ""
+    #: What the review read in the offer: deadline, location, languages, clearance.
+    priority_facts: dict[str, str] = Field(default_factory=dict)
+    #: Why the rules keep it from review (a visa, a senior role, ...), or "".
+    priority_excluded: str = ""
 
 
 class JobPage(BaseModel):
@@ -339,6 +370,8 @@ class JobFacets(BaseModel):
     companies: list[str] = Field(default_factory=list)
     seniorities: list[str] = Field(default_factory=list)
     currencies: list[str] = Field(default_factory=list)
+    #: {"code", "name", "count"}: "EUROPE" first, then each country, most postings first.
+    countries: list[dict[str, Any]] = Field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
@@ -359,6 +392,8 @@ class AlertFilters(BaseModel):
     currency: str | None = None
     min_amount: float | None = None
     match_posting_currency: bool = False
+    #: An ISO country code, or "EUROPE" for any European country (geo.py).
+    country: str | None = None
 
 
 class AlertCreate(BaseModel):

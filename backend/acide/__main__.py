@@ -862,6 +862,62 @@ def _score_pending(args: argparse.Namespace) -> int:
     return 0
 
 
+def _import_extracts(args: argparse.Namespace) -> int:
+    """Mirror the extractors' latest.json files into the jobs table."""
+    from . import db, extracts, paths
+
+    db.init_db()
+    results = extracts.sync(force=args.force)
+    if not results:
+        print(f"nothing to import from {paths.EXTRACTS_DIR} — every site is already up to date.")
+        return 0
+    for result in results:
+        print(
+            f"  {result.company:<45} {result.postings:5} postings"
+            f"  {result.new:4} new  {result.closed:4} closed"
+        )
+    return 0
+
+
+def _rank(args: argparse.Namespace) -> int:
+    """Rank open postings by priority, and optionally have the best reviewed."""
+    from . import db, extracts, ranking
+
+    db.init_db()
+    extracts.sync_quietly()
+    ranked = ranking.refresh(force=args.force)
+    print(f"ranked {ranked} postings by rules" if ranked else "rules: every posting is up to date")
+
+    if args.review:
+        try:
+            digest = ranking.brief_digest(ranking.load_brief())
+        except ranking.BriefMissing as exc:
+            print(f"cannot review: {exc}", file=sys.stderr)
+            return 1
+        waiting = ranking.candidates_for_review(args.review, digest, again=args.again)
+        if not args.yes:
+            print(
+                f"{len(waiting)} of the top {args.review} would be reviewed against the brief, "
+                "one model call each. Add --yes to spend them."
+            )
+        else:
+            run = ranking.review_top(
+                args.review, again=args.again, say=lambda line: print(line, flush=True)
+            )
+            if run.stopped:
+                print(f"stopped early ({run.stopped}) — run it again to review the rest")
+            for error in run.errors[:5]:
+                print(f"      {error}")
+
+    page = db.list_jobs(limit=args.top, sort="priority", origin=args.origin)
+    print(f"\ntop {len(page.items)} of {page.total} open postings:")
+    for job in page.items:
+        source = "R" if job.priority_source == "review" else " "
+        blocked = " ✗" if any(f["level"] == "block" for f in job.priority_flags) else ""
+        print(f"  {job.priority:3d}{source} {job.company[:28]:<28} {job.title[:70]}{blocked}")
+    return 0
+
+
 def _sources(args: argparse.Namespace) -> int:
     """Report how each source went the last time it was crawled."""
     from . import config as config_module
@@ -1150,6 +1206,44 @@ def main() -> None:
     reporter.add_argument("--limit", type=int, help="show at most this many of each")
     reporter.add_argument("-q", "--quiet", action="store_true", help="counts only")
     reporter.set_defaults(func=_sources)
+
+    extracts_importer = subparsers.add_parser(
+        "import-extracts",
+        help="load the per-site extractors' latest results into the portal",
+        description=(
+            "Reads ExtractFromTheCarrerPageTheJobs/<Site>/latest.json for every "
+            "site and mirrors it into the portal: new postings are added, known "
+            "ones refreshed, and ones a site no longer lists marked closed. The "
+            "portal does this by itself whenever a file changes; this is for "
+            "doing it now, or (with --force) re-reading files that have not."
+        ),
+    )
+    extracts_importer.add_argument(
+        "--force", action="store_true", help="re-read unchanged files too"
+    )
+    extracts_importer.set_defaults(func=_import_extracts)
+
+    ranker = subparsers.add_parser(
+        "rank",
+        help="rank open postings by priority, and have the best reviewed",
+        description=(
+            "Scores every open posting against the operator's rubric with local "
+            "rules (free, seconds), then — with --review N --yes — sends the N "
+            "best to the model with the brief in data/ranking-brief.md, one call "
+            "each. A reviewed score replaces the rules' score for that posting."
+        ),
+    )
+    ranker.add_argument("--review", type=int, metavar="N", help="review the N best by rules")
+    ranker.add_argument("--yes", action="store_true", help="actually spend the review calls")
+    ranker.add_argument(
+        "--again", action="store_true", help="review postings already reviewed against this brief"
+    )
+    ranker.add_argument("--force", action="store_true", help="re-rank every posting by rules")
+    ranker.add_argument("--top", type=int, default=30, help="how many to list (default 30)")
+    ranker.add_argument(
+        "--origin", choices=("extract", "crawler"), help="only the extractors' or the crawler's"
+    )
+    ranker.set_defaults(func=_rank)
 
     args = parser.parse_args()
     handler = getattr(args, "func", _serve)

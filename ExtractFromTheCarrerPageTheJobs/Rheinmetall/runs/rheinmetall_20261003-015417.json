@@ -1,0 +1,54 @@
+{
+  "source": "https://www.rheinmetall.com/en/career/vacancies?9dc11c304b4c06c2f71c48cc6574e7e5term=cyber",
+  "company": "Rheinmetall",
+  "query": "",
+  "extracted_at": "2026-10-03T01:54:17",
+  "site_total": 4,
+  "extracted": 4,
+  "postings": [
+    {
+      "job_id": "1100666",
+      "title": "Cyber Security Architect (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/cyber_security_architect__m_w_d_/1100666",
+      "location": "Wien",
+      "country": "Austria",
+      "contract": "Vollzeit",
+      "published": "2026-07-14",
+      "deadline": "",
+      "description": "Analyse und Bearbeitung der Cybersicherheits- und Software-Updateanforderungen in Kundenprojekten\nErstellung von Nachweisen zur Cybersicherheit (CS-Plan, CS-Konzept, TaRa)\nErstellung von Konzepten und Prozessen für die Identifikation, Durchführung, Handhabung und Dokumentation von Fahrzeug-Software Updates entlang UNECE R156 / ISO 24089\nDurchführung von Schwachstellenanalysen\nPlanung, Durchführung und Verfolgung von Cyber Security-bezogenen V&V (z.B. Testungen)"
+    },
+    {
+      "job_id": "1028021",
+      "title": "Projektmanager - Cyber Security Products (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/projektmanager_cyber_security_products__m_w_d_/1028021",
+      "location": "Bremen",
+      "country": "Germany",
+      "contract": "Vollzeit",
+      "published": "2026-04-22",
+      "deadline": "",
+      "description": "Die Durchsetzungsfähigkeit von Streitkräften auf dem Gefechtsfeld der Zukunft wird maßgeblich durch softwarebasierte Anpassungsfähigkeit und Fähigkeitsentwicklung bestimmt. Digitalisierung und zukunftsorientierte Softwareprodukte sind der wesentliche Enabler für moderne militärische Operationen. Maximale Sicherheit zum Schutz vernetzter Einsatzsysteme und kritischer Infrastruktur sind essentiell um Stabilität und Kontrolle in kritischen Missionen bei stetig wachsender Gefährdungslage im Cyberraum zu gewährleisten.\nSorgen Sie dafür, dass Streitkräfte früher, schneller, autonomer und präziser handeln können um Demokratien zu schützen. Sie übernehmen Verantwortung als Projektmanager (m/w/d) der Produktlinie Cyber Security Products von der Projektinitiierung und -planung bis zur Lieferung des finalen Software-Releases / -Produkts.\nAls Projektmanager der Produktlinie mit dem Schwerpunkt Cyber Resilience & Security (m/w/d) übernehmen Sie dabei folgende Aufgaben:\n\nFachliche Führung von kleinen interdisziplinären Projektteams innerhalb der Softwareentwicklung\nSicherstellung aller abwicklungsrelevanten Maßnahmen zur Erreichung des Projekterfolges und Auslieferung eines Software Releases\n\nDefinition, Planung und Kontrolle von Arbeitspaketen\nVerhandlung technischer und umsetzungsrelevanter Inhalte mit Kunden, Partnern und internen Stakeholdern\nDurchführung von Anforderungsanalysen und -management\nTermin- und Releaseplanung in Kosten und Qualität\nFortschrittsüberwachung und – bewertung sowie Erstellung von entsprechenden Berichten"
+    },
+    {
+      "job_id": "895514",
+      "title": "Solution Designer -  Cyber Security Products (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/solution_designer_cyber_security_products__m_w_d_/895514",
+      "location": "Bremen",
+      "country": "Germany",
+      "contract": "Vollzeit",
+      "published": "2025-11-25",
+      "deadline": "",
+      "description": "Die Durchsetzungsfähigkeit von Streitkräften auf dem Gefechtsfeld der Zukunft wird maßgeblich durch softwarebasierte Anpassungsfähigkeit und Fähigkeitsentwicklung bestimmt. Digitalisierung und zukunftsorientierte Softwareprodukte sind der wesentliche Enabler für moderne militärische Operationen. Maximale Sicherheit zum Schutz vernetzter Einsatzsysteme und kritischer Infrastruktur sind essentiell um Stabilität und Kontrolle in kritischen Missionen bei stetig wachsender Gefährdungslage im Cyberraum zu gewährleisten.\nSorgen Sie dafür, dass Streitkräfte früher, schneller, autonomer und präziser handeln können um Demokratien zu schützen. Sie übernehmen Verantwortung als Solution Designer (m/w/d) der Produktlinie mit dem Schwerpunkt Cyber Resilience & Security von der technologischen Produktplanung bis zur Abwicklung komplexer Softwareentwicklungsvorhaben.\nWeitere Aufgaben:\n\nTechnische Verantwortung für die Entwicklung von Software Produkten über den gesamten Produktlebenszyklus (PLC)\nVerantwortung für die technologische Planung und Ausrichtungen einer Produktlinie, sodass Produktfeatures zu angestrebten Technologien und Kundenbedarfen passen\nTechnischer Ansprechpartner (m/w/d) und Schnittstelle zu Projekten, Programmen und angrenzenden Fachbereichen\nSicherstellen, dass Produkte plattformübergreifend eingesetzt werden können und im Zusammenspiel ein technischer Kundenmehrwert entsteht\nVerantwortung für die Erstellung und Pflege von Referenzarchitekturen & -spezifikationen\nAnalyse von Kundenanforderungen sowie Initiierung und technische Bewertung von Make-or-Buy Entscheidungen\nZuständigkeit für die Erfüllung sämtlicher Produktanforderungen\nAufbau und Pflege der Geschäftsbeziehungen zu Technologiepartnern"
+    },
+    {
+      "job_id": "1016846",
+      "title": "Systemingenieur Cyber Security (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/systemingenieur_cyber_security__m_w_d_/1016846",
+      "location": "Kassel",
+      "country": "Germany",
+      "contract": "Vollzeit",
+      "published": "2026-04-08",
+      "deadline": "",
+      "description": "Als Systemingenieur Cybersecurity (m/w/d) arbeiten Sie in einem interdisziplinären Team an der Informationssicherheit unseres aktuellen und zukünftigen Produktportfolios. Hierbei erarbeiten Sie anhand der ISO 21434 und des IT-Grundschutz Informationssicherheits- und Risikoanalysen sowie Anforderungen auf verschiedenen Systemebenen während der Entwicklungsphase unserer Fahrzeugsysteme. Dies erledigen Sie entweder gemeinsam im Team oder durch die Herausgabe an von Ihnen geführte Unterauftragnehmer.\nIhre Aufgaben:\n\nBetreuung und Koordination von Unterauftragnehmern\nDurchführung von Sicherheitsanalysen (z.B. TARA)\nErstellung von Informationssicherheitskonzepten\nDefinition und Überwachung von Cybersecurity Anforderungen\nPlanung von Sicherheitsüberprüfungen (Penetrationstests)"
+    }
+  ]
+}

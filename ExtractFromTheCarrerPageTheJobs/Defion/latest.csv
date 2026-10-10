@@ -1,0 +1,468 @@
+job_id,title,url,location,country,contract,published,deadline,description
+detection-engineer,Detection Engineer,https://defion.security/en/careers/detection-engineer/,Barcelona,ES,FULL_TIME,2026-04-14,2026-12-31,"Detection Engineer.
+You think like an attacker and build like a defender. At DEFION, you transform real Red Team findings into detection rules that actually catch threats in production.
+Where offense meets defense
+DEFION has been protecting organizations since 2005. Our Detection Engineering team sits at the intersection of offense and defense: you take findings from real attacker simulations and Red Team exercises and translate them into detection rules that work across SIEM, EDR, and XDR platforms.
+You will not just consume threat intelligence; you will generate it and apply it. You work in a multidisciplinary team alongside Red Teamers, Blue Teamers, and threat hunters in our Barcelona office (or remotely).
+What you will do
+Design, develop, and fine-tune detection rules in SIEM, EDR, and XDR platforms (Sentinel, CrowdStrike, Cortex, Splunk, and more)
+Analyze results from attacker simulations to identify weaknesses in security controls
+Develop detection and mitigation strategies for emerging threats using MITRE ATT&CK
+Automate and optimize processes with Python, PowerShell, and Bash scripts
+What you bring
+Must have:
+1-2 years of experience as Detection Engineer or SOC Analyst creating/optimizing alerts in SIEM/EDR
+Knowledge of KQL (Kusto Query Language) and/or CQL (CrowdStrike Query Language)
+Deep knowledge of Windows logs, telemetry, and event analysis for proactive threat detection
+Strong understanding of adversary TTPs based on MITRE ATT&CK
+Scripting skills in Bash, Python, or PowerShell
+Knowledge of Windows and Linux system administration, TCP/IP, DHCP, DNS
+Purple-team mindset: think like an adversary, enhance defensive capabilities
+Clear communication in English for international team collaboration
+Nice to have:
+Cybersecurity certifications or a master's degree in a related field
+Degree in Engineering, Cybersecurity, or related field
+Why you will love working here
+Red + Blue collaboration
+Work closely with Red Team and Blue Team. Access to EDR, SIEMs, threat intelligence, and more.
+Continuous training
+Internal and external training, certifications, and annual conference attendance.
+Career plan
+A personalized professional development plan tailored to your interests and growth goals.
+Barcelona office or remote
+Flexible remote work or a comfortable office in central Barcelona. Summer reduced hours.
+Health + benefits
+Private health insurance, flexible compensation (meals, transport, childcare, training).
+International team
+Young, dynamic, and international team with an excellent work environment and work-life balance.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Other open positions
+SOC Analyst (Barcelona)
+Monitor and analyze security alerts. CrowdStrike, Sentinel, threat intelligence.
+Medior SOC Analyst (NL)
+Sharp eye in our Dutch SOC. Microsoft Defender, Sentinel, 24/7 MDR operations."
+it-security-internship,IT Security Internship,https://defion.security/en/careers/it-security-internship/,Zoetermeer,NL,FULL_TIME,2026-04-14,2026-12-31,"IT Security Internship.
+Your graduation project, but with real impact. At DEFION, you work alongside security specialists who hack for a living. Your research matters, your ideas count, and lunch is on us.
+Learn by doing, surrounded by experts
+DEFION started as a group of friends who loved tech. That culture is still alive: informal, curious, and expert-level. As an intern, you are part of the team from day one. You join stand-ups, shadow specialists, and dive into a real challenge.
+Together we design your internship assignment to meet your course requirements while keeping it genuinely useful. Think: building a pentest tool, comparing security tooling for CI/CD pipelines, or researching new attack techniques. If your project wraps up early, there is internal training to keep you busy.
+What you will do
+Work on your graduation assignment, with real challenges and guidance from senior specialists
+Shadow pentesters, researchers, and SOC analysts at work every day
+Participate in your team's stand-up meetings
+Start internal training if your project runs ahead of schedule
+What you bring
+Student at a university or university of applied sciences (technical or IT subject)
+Final-year student looking for a graduation assignment
+Independent, driven, motivated, and ambitious
+Certificate of good conduct (VOG) or ability to obtain one
+You thrive in an informal work environment
+Why you will love interning here
+€500/month allowance
+Your effort deserves fair compensation. You also get a laptop for the duration of your internship.
+Learn from the best
+Work alongside ethical hackers, researchers, and SOC analysts. Their specialties also include FIFA and table tennis.
+Real challenges
+No coffee runs. A genuine research project that meets your course requirements and pushes your skills.
+Free daily lunch
+Enjoy the daily lunch buffet prepared by our in-house chefs. Yes, it is that good.
+Team events
+Monthly drinks and dinner with your team. You are part of the crew from day one.
+Flexible schedule
+Hybrid setup with at least 3 days at the office. Full-time or part-time, we work it out together.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Other open positions
+Senior Security Specialist
+Full-spectrum offensive security. Shape your own role at DEFION.
+SOC Analyst (Barcelona)
+Monitor and analyze alerts in our Spanish SOC. CrowdStrike, Sentinel, threat intel."
+junior-soc-analyst,Junior SOC Analyst,https://defion.security/en/careers/junior-soc-analyst/,Zoetermeer,NL,FULL_TIME,2026-09-15,2026-12-31,"Junior SOC Analyst.
+You grow into a full-fledged SOC analyst in practice, on real incidents and with real clients. You are never on your own: medior and senior analysts guide and coach you.
+Help us build a knowledge SOC
+Our Detect business unit delivers Managed Detection & Response built on the full Microsoft Security ecosystem, with solutions such as NDR and OT Security added on top, plus extra log sources such as application logs. The result is holistic, multi-layered monitoring that looks beyond a single layer of a client environment.
+We are deliberately building a knowledge SOC: we invest heavily in training and education, and we do more than flag, with first response we step in as fast as we can. You learn to work with the Microsoft Security ecosystem and the broader Azure platform, alongside experienced colleagues who guide your investigation of security incidents. You work hybrid: three days a week with the team in our Zoetermeer office, the rest from home.
+What you will do
+Investigate and follow up on security incidents in Microsoft Defender and Microsoft Sentinel, and in the other systems we monitor for clients
+Dig into alerts under the guidance of experienced analysts
+Learn how to follow up on incidents, analyze them and document them
+Help think through better detections and smarter work processes
+Share knowledge with colleagues and actively build your technical skills
+Get to know the SLAs we have with clients on the speed and quality of our service
+What you bring
+Must have:
+MBO-4 or HBO level of working and thinking, with a genuine interest in cybersecurity
+Basic knowledge of Microsoft environments
+The appetite to learn to work with the Microsoft Security ecosystem and other cybersecurity solutions
+Good command of Dutch and English, spoken and written (B2 level)
+Eager to learn, analytical and precise in your work
+Nice to have:
+1+ years of experience as a system administrator, cloud engineer, network administrator or similar. No experience yet? Apply anyway
+1+ years of experience following up on incidents in Microsoft Defender and Microsoft Sentinel
+Experience with CrowdStrike Falcon EDR or other Falcon products, given the collaboration with our international SOC
+Ambition to pursue certifications: SC-900, AZ-900 or later SC-200, and vendor-neutral certifications
+Why you will love working here
+Competitive salary
+Market-competitive salary, mobility and phone allowance, 24 vacation days.
+Close-knit SOC team
+A close-knit, informal team where knowledge sharing is natural and humor is never far away.
+Structured growth path
+A structured learning and growth path within our (inter)national SOC, guided by experienced analysts.
+Certifications
+The room to obtain certifications and keep growing.
+Hybrid + free lunch
+Hybrid working, modern tooling and free lunch at the office.
+Social events + study trip
+Monthly social events, team outings and an annual study trip.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Other open positions
+Medior SOC Analyst
+The sharp eye in our 24/7 detection and response, with Microsoft Defender and Sentinel.
+Senior SOC Analyst
+Handle complex incidents independently and deepen your expertise in a SOC specialization.
+Detection Engineer
+Design advanced detection rules for SIEM, EDR, and XDR platforms in Barcelona."
+medior-soc-analist,Medior SOC Analyst,https://defion.security/en/careers/medior-soc-analist/,Zoetermeer,NL,FULL_TIME,2026-09-15,2026-12-31,"Medior SOC Analyst.
+You are the sharp eye that separates real threats from noise. In our SOC, you work with cutting-edge Microsoft Security tech, side by side with threat hunters and incident responders.
+Our SOC: technical, pragmatic, collaborative
+DEFION operates an international twin-SOC model. The Dutch SOC focuses on Microsoft Security technologies (Defender, Sentinel, Azure), while the Spanish SOC specializes in CrowdStrike. We are integrating both to protect clients worldwide with combined expertise.
+Our SOC is highly technical and pragmatic, with plenty of humor between serious incidents. You will collaborate with analysts, threat hunters, ethical hackers, and DFIR specialists to examine and resolve incidents from multiple angles. This is a hybrid role with on-call rotations for 24/7 client coverage.
+What you will do
+Investigate and follow up on security incidents in Microsoft Defender and Microsoft Sentinel
+Interpret alerts and translate them into clear reports and recommended actions for clients
+Contribute to detection improvements, threat intelligence gathering, and playbook tuning
+Support client onboarding and offboarding processes
+Guide junior analysts and collaborate with threat hunters and incident responders across borders
+Actively contribute ideas to make SOC processes smarter, faster, and better
+What you bring
+Must have:
+Minimum 3 years of experience in a Security Operations Center
+Minimum 3 years of hands-on incident handling with Microsoft Defender and Microsoft Sentinel
+MBO-4 or HBO level of working and thinking
+Full proficiency in Dutch and English
+Clear communication, structured working style, calm under pressure
+Nice to have:
+Basic knowledge of Azure (AZ-900 certification)
+SC-200 and/or SC-900 certification
+Experience with CrowdStrike Falcon EDR (relevant for international SOC collaboration)
+Why you will love working here
+Competitive salary + lease car
+Market-competitive salary, lease car or mobility allowance, 24 vacation days.
+Close-knit SOC team
+A highly skilled team where knowledge sharing is natural and humor is never far away.
+Training and certifications
+Continuous development opportunities to keep your skills sharp and current.
+Real impact
+Freedom to work independently and make a genuine difference within a growing MDR service.
+Hybrid + free lunch
+Flexible hybrid work with modern tools. Free lunch at the office, weekly workout, and a game room.
+Social events + study trips
+Monthly social events, team outings, and an unforgettable annual study trip.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Other open positions
+Detection Engineer
+Design advanced detection rules for SIEM, EDR, and XDR platforms in Barcelona.
+SOC Analyst (Barcelona)
+Monitor and analyze alerts in our Spanish SOC. CrowdStrike, Sentinel, 24/7 on-call.
+Senior Security Specialist
+Full-spectrum offensive security. Shape your own role at DEFION."
+new-business-developer,New Business Developer,https://defion.security/en/careers/new-business-developer/,Zoetermeer,NL,FULL_TIME,2026-06-23,2026-12-31,"New Business Developer.
+Not an account manager who maintains existing relationships. You are the hunter who opens new doors with C-level and IT decision-makers, taking cold contacts all the way to closed deals.
+Build the client portfolio of a fast-growing security company
+DEFION Security protects more than 1,000 organisations, including names like AFAS, AZ Alkmaar and SURF. With 20+ years of security expertise and 100+ certified specialists, we are one of the leading managed security providers in the Netherlands. And we are growing fast.
+As a New Business Developer, you are at the heart of that growth. You work closely with our Prevent, Detect, Respond and Governance teams to match prospects to the security solution that truly fits. Pentesting, security monitoring, incident response: you understand the portfolio and translate it into the language of the client.
+What you will do
+Actively bring in new clients for DEFION's portfolio: pentesting, security monitoring and incident response
+Open doors yourself: leverage your network and take cold contacts from first call to closed deal
+Understand risk profiles and match prospects to the right Managed Services (Prevent, Detect, Respond and Governance)
+Prepare high-quality proposals and quotes: clear, compelling and client-focused
+Organise workshops, lunches and masterclasses for prospects and existing relationships
+Attend sector events to actively build new contacts and identify opportunities
+We also expect you to:
+Make technically complex topics accessible to non-technical stakeholders
+Stay committed to a deal: long sales cycles do not put you off
+Know when to bring in a colleague or specialist to win a client
+Embrace the unknown: finding and converting new clients energises you
+What you bring
+Must have:
+Proven sales experience in cybersecurity: building pipeline and closing deals
+Experience with managed security solutions: MDR and pentesting
+University or university of applied sciences level of education
+Strong command of Dutch and English
+Independent and proactive: you do not need daily supervision
+Results-driven: you dislike losing a deal and do everything to win the next one
+Genuine interest in cybersecurity: you keep developing your knowledge
+Nice to have:
+Broad understanding of the Dutch cybersecurity landscape and relevant legislation such as NIS2, DORA and ISO 27001
+Experience with complex B2B services with longer sales cycles
+Network with C-level decision-makers in sectors that still lack adequate security solutions
+Why you will love working here
+Competitive salary + bonus
+A salary that matches your experience, plus an attractive bonus scheme based on your results.
+Lease car, laptop and phone
+A lease car of your choice, plus a top smartphone and laptop from day one.
+Grow with us
+We are scaling fast. Want to grow into a bigger role? We will map that path together.
+Flexible hybrid work
+Flexible schedule, frequently at client sites, regularly at our Zoetermeer office. You decide what works best.
+Team spirit and culture
+Daily lunch buffet, team outings, monthly get-togethers and study trips. A close-knit team that works and celebrates together.
+Permanent contract path
+Start with a one-year contract. If the fit is right, a permanent contract follows.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+You can also email directly to [email protected]
+Other open positions
+Business Developer
+Manage key accounts and introduce our Active Defense services to new and existing clients.
+Senior Security Specialist
+Full-spectrum offensive security. Shape your own role at DEFION.
+Medior SOC Analyst
+The sharp eye in our 24/7 MDR operations with Microsoft Defender and Sentinel."
+planning-support-coordinator,Planning & Support Coordinator,https://defion.security/en/careers/planning-support-coordinator/,Zoetermeer,NL,"['FULL_TIME', 'PART_TIME']",2026-10-09,2026-12-31,"Planning & Support Coordinator.
+You make sure DEFION’s preventive services run smoothly. You keep track of planning, calendars and capacity, and flag in good time when something threatens to go wrong.
+The linchpin of planning in Prevent
+DEFION helps organisations become resilient against digital threats. Our Prevent department proactively reduces our clients’ attack surface: from vulnerability management and security awareness to pentests and risk assessments.
+As Planning & Support Coordinator you support the Prevent managers in the day-to-day organisation of these services. You keep track of the planning of projects and recurring services, such as vulnerability assessments, pentests and awareness programmes, and make sure appointments, calendars and capacity line up. You are an important point of contact for consultants and clients on practical matters, and you flag early when something threatens to go wrong, so the managers can adjust quickly.
+The role is based in our Zoetermeer office and requires good Dutch and English.
+What you will do
+You support the managers in planning and allocating consultants’ capacity across ongoing assignments.
+You keep the planning and calendars of projects and recurring services up to date and clear.
+You are the first point of contact for consultants and clients on practical questions about planning and coordination.
+You monitor deadlines and let the managers know in good time when a schedule is at risk of slipping.
+You support the hand-over of new assignments from Sales to Consultancy by recording agreements and details carefully.
+You compile overviews and reports on planning and capacity for the Prevent managers.
+What you bring
+Must have:
+Experience in planning and organising, for example as a planner, coordinator or in another support role
+At least secondary vocational (MBO level 4) or higher professional education, or equivalent working level
+An affinity with IT or cyber security, and an understanding of what DEFION does and the context our clients work in
+Strong organisational skills and an eye for detail, even when a lot is happening at once
+Good communication skills: you switch easily between clients, consultants and managers
+You are precise, proactive and helpful
+Good command of Dutch and English, spoken and written
+Why you will enjoy working here
+A role that matters
+A valuable support role in a fast-growing, specialised security organisation.
+Room for your ideas
+Room to help shape how we organise planning and support within Prevent.
+Outings and study trip
+Enjoyable company outings and an annual study trip.
+Salary by agreement
+A salary we agree together based on your experience.
+Informal culture
+An informal company where “work hard, play hard” is genuinely lived.
+Collegial team
+A collegial team with short lines of communication and plenty of room for your own input.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Questions about this role? Email [email protected].
+Other open positions
+Senior Security Specialist Red Team
+Run red team operations and grow into tech lead.
+New Business Developer
+Open new doors with C-level and IT decision-makers.
+IT Security Internship
+Learn the trade in practice in one of our teams."
+senior-security-specialist,Senior Security Specialist,https://defion.security/en/careers/senior-security-specialist/,Zoetermeer,NL,FULL_TIME,2026-04-14,2026-12-31,"Senior Security Specialist.
+You have years of experience breaking things that should not break. At DEFION, you get to shape your own role: tech lead, trainer, consultant, or deep specialist. Your call.
+Your expertise, your direction
+At DEFION, we work mostly with short projects of one to two weeks. That means you will work with many different organizations and application types in rapid succession. Some weeks it is a cloud environment, the next it is Active Directory, then a mobile app. Variety is built into the role.
+But beyond that, you shape this position yourself. Want to go deep on red teaming? Become a tech lead? Develop tooling? Train juniors? Advise clients on security strategy? We create the role that fits your strengths and ambitions.
+What you will do
+Conduct a full range of offensive security tests: web applications, infrastructure, cloud, mobile, and more
+Document findings in detailed reports and present results directly to clients
+Specialize in areas that match your interests: cloud security, red teaming, infrastructure, or security consulting/governance
+Provide security training, advise prospects, and mentor juniors and interns
+Develop and improve internal tooling when that is where your passion lies
+What you bring
+Must have:
+Proven experience with pentesting and security assessments
+Broad IT knowledge: programming, networking, databases, Linux internals
+Knowledge of Cloud Security (AWS/Azure), Active Directory, mobile app security, OAuth/SAML, cryptography
+Experience with tools like Burp Suite, Nessus, or Nmap
+Strong knowledge of common vulnerabilities (XSS, CSRF, SQLi) and how to mitigate them
+A bachelor's or master's degree in a technical field (HBO/WO level)
+Ability to communicate technical findings clearly, both verbally and in writing
+Nice to have:
+Published CVEs to your name
+Experience in security consulting or governance advisory
+Why you will love working here
+Competitive package
+Competitive salary, permanent contract after probation, mobility budget or lease car, high-end laptop and phone.
+Personal training budget
+Invest in certifications, courses, or conferences. Grow technically and personally at your own pace.
+Diverse projects
+Short engagements (1-2 weeks) across many organizations and technologies. Never the same challenge twice.
+Shape your role
+Tech lead, trainer, tool builder, consultant: you decide where to take your career at DEFION.
+Great home base
+Game room, gym, daily lunch buffet, flexible hours. Parties, social events, and annual study trips.
+Nerdy colleagues
+Super social, tech-obsessed, down-to-earth. We share knowledge regularly and have fun while doing it.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Other open positions
+Medior SOC Analyst
+Sharp eye in our 24/7 MDR operations. Microsoft Defender and Sentinel.
+Business Developer
+Help clients find the right security solutions. Hunter mentality, real impact."
+senior-security-specialist-red-team,Senior Security Specialist Red Team,https://defion.security/en/careers/senior-security-specialist-red-team/,Zoetermeer,NL,FULL_TIME,2026-10-09,2026-12-31,"Senior Security Specialist Red Team.
+You have already run real red team operations and want to take the next step. At DEFION you join a red team that already carries out operations for clients. You help build it further and grow into the technical lead of the unit.
+A red team that is already up and running, and that you will build out
+Our Red Team already carries out red team engagements for clients: realistic attack simulations that show organisations how their prevention, detection and response hold up against a targeted attacker. The team stands on the shoulders of a large offensive security team with years of experience in complex infrastructure, cloud and Active Directory environments. You also work closely with colleagues in incident response and managed detection and response, who see every day how real attackers operate.
+We want the Red Team to grow, in size and in capability. For that we are looking for a senior who already has red team experience and wants to set its technical direction.
+What you will do
+Red team operations
+You carry out red team engagements and adversary simulations, from reconnaissance and initial access to lateral movement, persistence and achieving the objectives.
+You design attack scenarios based on relevant threat actors and their TTPs, mapped to MITRE ATT&CK.
+You attack Active Directory, Entra ID and hybrid cloud environments and find your way past modern detection solutions.
+You translate attack paths into clear reports for both the SOC and the client’s management, and facilitate purple team sessions.
+Between operations you apply your expertise to assume breach, AD and cloud assessments.
+Building out the Red Team
+Together with the team you develop the red team proposition: which services we offer, to which clients and how we deliver them.
+You sharpen the methodology, scenarios, reporting format and OPSEC guidelines.
+You help build tooling, C2 infrastructure and evasion capability.
+You are the technical sparring partner for sales and clients when scoping red team engagements.
+Technical leadership
+You take technical ownership of operations and safeguard the quality of the work.
+You help recruit new team members and mentor pentesters who want to move into red teaming.
+You are a sparring partner for colleagues on complex assignments and technical decisions.
+Growing into tech lead
+You start as a Senior Security Specialist in the Red Team and take technical responsibility for engagements from day one. As the team grows, you grow into its technical lead, responsible for the technical direction, the quality of the work and the development of the people. In your development plan we agree together what that step looks like and what you need to get there.
+What you bring
+Must have:
+Several years of experience in offensive security, with a solid grounding in infrastructure, AD and cloud testing
+Demonstrable experience with red team engagements, adversary simulation or assume breach assignments
+In-depth knowledge of Active Directory, Entra ID and cloud environments (Azure and AWS)
+Hands-on experience with at least one C2 framework, such as Cobalt Strike, Sliver, Mythic or Havoc
+An understanding of how EDR and other detection mechanisms work and how attackers evade them
+You can programme or script, for example in Python, C#, Go or PowerShell
+A technical degree at university of applied sciences or university level, or a demonstrably equivalent level
+Strong communication skills: you can explain an attack story clearly to engineers and management alike
+You like to take the initiative, enjoy building things and want to make others technically better
+Nice to have:
+Experience leading a red team operation
+Experience building your own tooling, implants or EDR evasion
+Experience with threat intelligence-led red teaming under TIBER-EU or DORA TLPT
+Offensive certifications such as OSEP, CRTO, CRTL or OSCE3
+Published CVEs, your own tools or security research
+Why you will enjoy working here
+Salary and permanent contract
+A competitive salary and a permanent contract after the probation period.
+Mobility and equipment
+A mobility budget or lease car, a high-end laptop and a phone.
+Training budget
+A personal budget for certifications and courses, including red team certifications.
+Path to tech lead
+Real influence on how our Red Team grows, and a concrete path to technical lead.
+Flexible working
+Flexible hours, a games room and a gym at the office.
+Lunch and events
+A daily lunch buffet and regular social events.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Questions about this role? Call us on +31 (0)88 733 13 37.
+Other open positions
+Senior Security Specialist
+A broad offensive role, from cloud to consulting.
+Senior Vulnerability Researcher
+Find vulnerabilities in hardware and firmware.
+Detection Engineer
+Design detection rules for SIEM, EDR and XDR."
+senior-soc-analyst,Senior SOC Analyst,https://defion.security/en/careers/senior-soc-analyst/,Zoetermeer,NL,FULL_TIME,2026-09-15,2026-12-31,"Senior SOC Analyst.
+As a Senior SOC Analyst, you are one of the heavyweights in our SOC. You handle complex incidents independently from start to finish and deepen your expertise in your own specialization.
+Technical depth, sharp analytical skill
+Our Detect business unit delivers Managed Detection & Response built on the full Microsoft Security ecosystem, with solutions such as NDR and OT Security added on top, plus extra log sources such as application logs. The result is holistic, multi-layered monitoring that looks beyond a single layer of a client environment.
+You work hands-on every day with the Microsoft Security ecosystem and the other platforms we deploy for our clients. On top of that you have a clear specialization, think Detection Engineering, Threat Hunting, Threat Intelligence or Digital Forensics & Incident Response. Within that specialization you guide and coach medior analysts, and you coach junior analysts in their broader development. You work hybrid, three days a week in our Zoetermeer office, and take part in the on-call rota for 24/7 client coverage.
+What you will do
+Investigate and follow up on complex security incidents, in Microsoft Defender and Microsoft Sentinel and in the other systems we monitor for clients
+Interpret alerts, carry out in-depth analyses and translate them into clear reports with concrete actions
+Independently carry out every type of response action, from initial containment to full resolution
+Improve detections, gather threat intelligence and tune playbooks
+Deepen your expertise in a SOC specialization and guide medior analysts developing in that direction
+Share knowledge, mentor juniors and work with threat hunters and incident responders, including across borders
+What you bring
+Must have:
+MBO-4 or HBO level of working and thinking
+At least 5 years of experience in a Security Operations Center
+At least 5 years of experience following up on incidents in Microsoft Defender and Microsoft Sentinel
+In-depth knowledge of the Azure platform
+SC-200, SC-900, AZ-900 and SC-500, or working toward them
+Clear and proactive communication, structured way of working, calm under pressure
+You coach and guide junior and medior analysts in their development
+Good command of Dutch and English, spoken and written (B2 level)
+Nice to have:
+SC-100 and vendor-neutral certifications
+Experience with CrowdStrike Falcon EDR or other Falcon products, given the collaboration with our international SOC
+Why you will love working here
+Competitive salary
+Market-competitive salary, mobility and phone allowance, 24 vacation days.
+Technical freedom
+Plenty of technical freedom and responsibility within an MDR service that is still very much developing.
+International SOC services
+Work on internationally integrated SOC services built on both Microsoft and CrowdStrike.
+Close-knit SOC team
+A close-knit, collegial and technically strong team where sharing knowledge comes naturally.
+Hybrid + free lunch
+Hybrid working with modern tools and free lunch at the office.
+Social events + study trip
+Monthly social events, team outings and an annual study trip.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Other open positions
+Medior SOC Analyst
+The sharp eye in our 24/7 detection and response, with Microsoft Defender and Sentinel.
+Junior SOC Analyst
+Grow into a full-fledged SOC analyst in practice, coached by experienced colleagues.
+Detection Engineer
+Design advanced detection rules for SIEM, EDR, and XDR platforms in Barcelona."
+soc-analyst,SOC Analyst,https://defion.security/en/careers/soc-analyst/,Barcelona,ES,FULL_TIME,2026-04-14,2026-12-31,"SOC Analyst.
+You do not just categorize alerts. You investigate, trace back to the source, assess impact, and respond. At DEFION's Barcelona SOC, every threat gets the attention it deserves.
+Investigate, respond, protect
+DEFION's MDR and Managed Threat Intelligence services are expanding internationally. As a SOC Analyst in Barcelona, you join the DRTI team to detect, analyze, and mitigate cyber threats for our clients. You work with CrowdStrike, Microsoft Sentinel, and other leading SIEM/EDR platforms.
+This is not a checkbox role. You will investigate alerts thoroughly, apply threat intelligence to anticipate attacks, contain threats, and write clear reports with actionable recommendations. You collaborate with Red Team, Blue Team, and detection engineers to keep getting better.
+What you will do
+Monitor and analyze security alerts in EDR/SIEM platforms, identifying suspicious activity and assessing origin and scope
+Analyze threat intelligence to anticipate potential attacks against clients
+Respond to detected threats: contain, mitigate, minimize impact
+Write reports and client notifications with clear findings and recommendations
+Improve detection rules, develop procedures and playbooks, automate tasks with scripting
+Participate in client meetings for ongoing reviews and onboarding support
+What you bring
+Must have:
+At least 1 year of experience analyzing security alerts in SIEM and/or EDR platforms (CrowdStrike, Sentinel, Cortex, Splunk, Elastic, etc.)
+Knowledge of Windows and Linux system administration
+Solid understanding of networks and protocols: TCP/IP, DHCP, DNS
+Scripting skills in Bash, Python, or PowerShell
+Analytical thinking: ability to correlate events, detect attack patterns, and solve complex problems
+Clear communication in English for international collaboration
+Availability for 24/7 on-call rotation
+Nice to have:
+Cybersecurity certifications or a master's degree
+Degree in Engineering, Cybersecurity, or related field
+Why you will love working here
+Red + Blue access
+Collaborate with Red Team and Blue Team. Access EDR, SIEMs, threat intel, and other tools.
+Continuous training
+Internal and external training, certifications, and annual conference attendance.
+Career plan
+Personalized development plan tailored to your interests and growth trajectory.
+Barcelona or remote
+Flexible remote work or a central Barcelona office. Summer reduced hours.
+Health + flex benefits
+Private health insurance, flexible compensation plan (meals, transport, childcare, training).
+International team
+Young, dynamic, international team. Excellent work environment and work-life balance.
+Apply now
+Share your LinkedIn profile and motivation with us. We'll get in touch as soon as possible.
+Other open positions
+Detection Engineer (Barcelona)
+Design detection rules that turn offensive findings into defensive wins.
+Medior SOC Analyst (NL)
+Sharp eye in our Dutch SOC. Microsoft Defender, Sentinel, 24/7 MDR operations.
+Senior Security Specialist
+Full-spectrum offensive security. Shape your own role at DEFION."

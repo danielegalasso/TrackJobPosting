@@ -1,0 +1,175 @@
+{
+  "source": "https://zinrec.intervieweb.it/avio/it/career",
+  "company": "Avio",
+  "query": "",
+  "extracted_at": "2026-10-03T01:55:00",
+  "site_total": 15,
+  "extracted": 15,
+  "postings": [
+    {
+      "job_id": "analista-fem-per-dinamica-motori-a-propellente-solido-147553",
+      "title": "Analista FEM per dinamica motori a propellente solido",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/analista-fem-per-dinamica-motori-a-propellente-solido-147553/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-08-31",
+      "deadline": "2026-10-31",
+      "description": "All’interno della Direzione Ingegneria Progettazione Propulsori a Solido, siamo alla ricerca di un/una Analista FEM da inserire nel team di Test Ambientali e Dinamica Solid Rocket Motor. La risorsa, interfacciandosi con i team di progettazione, sperimentazione e tecnologie, e rispondendo al responsabile tecnico di prodotto e al Program Manager di riferimento, si occuperà degli aspetti relativi alla dinamica strutturale di assiemi/componenti Solid Rocket Motor (per prodotti Spazio e Difesa).\n\nTask Principali\n\n- Sviluppare modelli FEM di assiemi/componenti motore a propellente solido eseguendo principalmente analisi/ottimizzazioni modali ed analisi dinamiche in frequenza e in transitorio (sine low frequency, random, shock).\n- Eseguire condensazione statica/dinamica dei modelli FEM.\n- Contribuire alla definizione di Specifiche di Test e relativo Piano Misure per l’environment dinamico (Test di Vibrazione/Shock e Tiro al Banco).\n- Eseguire previsioni sulla risposta dinamica e correlare i relativi modelli FEM sulla base delle prove sperimentali.\n- Supervisionare i test di strutture/componenti in ambiente dinamico e analizzarne gli output.\n- •Seguire e supportare progettazione, fabbricazione, qualifica/accettazione di componenti e meccanismi o attrezzature realizzati da fornitori esterni.\n- Eseguire l’analisi dei dati di volo relativi alla dinamica Motore, confrontandone l’andamento rispetto a previsioni/requisiti e database storico di riferimento (voli precedenti e tiri al banco di qualifica), identificando/trattando eventuali anomalie.\n- Contribuire alla definizione architetturale dei sistemi di attuazione spinta, seguendone poi le fasi di sviluppo, qualifica e accettazione"
+    },
+    {
+      "job_id": "coordinatoretrice-laboratorio-propellenti-152216",
+      "title": "Coordinatore/trice laboratorio propellenti",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/coordinatoretrice-laboratorio-propellenti-152216/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-09-24",
+      "deadline": "2026-11-30",
+      "description": "All'interno della Direzione COO, siamo alla ricerca di una risorsa da inserire all’interno del gruppo Materiali Energetici con il ruolo di Coordinatore/trice Laboratorio Propellenti. Il Laboratorio Propellenti rappresenta un impianto pilota altamente specializzato dedicato alla preparazione, miscelazione e colaggio di propellenti compositi solidi, nonché alla realizzazione di provini destinati alle campagne di caratterizzazione meccanica, chimico-fisica e balistica.\n\nLa risorsa affiancherà il Responsabile di Reparto nella gestione quotidiana delle attività e delle risorse, contribuendo a garantire elevati standard di sicurezza, qualità ed efficienza operativa in un contesto tecnologicamente avanzato e fortemente orientato all'innovazione. Ricoprirà inoltre il ruolo di Preposto per le aree assegnate, assicurando il rispetto delle normative e delle procedure applicabili.\n\nPrincipali responsabilità\n\n- Supportare il Responsabile di Reparto nella pianificazione e nel coordinamento delle attività di laboratorio, assicurando il rispetto delle priorità, delle tempistiche e degli obiettivi assegnati.\n- Coordinare le attività operative del personale di laboratorio, favorendo un ambiente di lavoro sicuro, collaborativo e orientato al miglioramento continuo.\n- Garantire la corretta esecuzione delle operazioni di preparazione, lavorazione e colaggio dei propellenti, nel rispetto delle procedure aziendali e degli standard qualitativi richiesti.\n- Assicurare la corretta compilazione della documentazione di produzione e delle carte di controllo, garantendo tracciabilità e conformità ai requisiti applicabili.\n- Collaborare con le funzioni di Ingegneria di Processo, Produzione, Qualità e Manutenzione per supportare l'avanzamento delle attività, la risoluzione delle criticità e il miglioramento dei processi.\n- Coordinare, in collaborazione con la Manutenzione, le attività di manutenzione programmata e straordinaria di impianti, apparecchiature e strumentazione di laboratorio.\n- Gestire la documentazione tecnica e operativa del reparto, promuovendone l'aggiornamento e il continuo miglioramento.\n- Contribuire allo sviluppo delle competenze del personale attraverso attività di formazione, affiancamento e briefing operativi.\n- Supervisionare la gestione dei materiali, delle scorte e degli approvvigionamenti necessari al corretto svolgimento delle attività di laboratorio.\n- Promuovere e garantire il rispetto delle normative in materia di Salute, Sicurezza e Ambiente, agendo come riferimento operativo per l'applicazione del D.Lgs. 81/08 e delle procedure aziendali."
+    },
+    {
+      "job_id": "progettista-componenti-motori-a-solido-42976",
+      "title": "Ingegnere Strutturista Propulsione a Solido",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/progettista-componenti-motori-a-solido-42976/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2024-10-09",
+      "deadline": "2026-10-16",
+      "description": "Cosa ti aspetta:\n\nAll’interno dell’Ingegneria della Propulsione a Solido, operante nel settore della propulsione spaziale e tattica, ricerchiamo un/una ingegnere/a aerospaziale di esperienza, che abbia voglia di entrare in un ambiente ricco di sfide, altamente professionalizzante e tecnologico. Il/La candidato/a sarà inserito/a all’interno di un team che si occupa dello sviluppo di strutture primarie e secondarie (involucri, ali, equipment motore, propellente solido e sue interfacce). Per la progettazione di questi prodotti è necessario avere solide basi di meccanica e sviluppato conoscenze specifiche su materiali metallici, compositi, elastomeri e materiali a comportamento viscoelastico. Oltre alla progettazione e alla modellazione CAE, i componenti di interesse vengono seguiti durante tutte le fasi di sviluppo, partecipando in maniera attiva alla definizione dei piani di qualifica, alle previsioni di test (prove di carico statico, test in pressione, tiri a fuoco del sistema motore) e relative correlazioni con i modelli strutturali. Il /La candidato/a, inoltre, avrà in carico la redazione dei giustificativi tecnici e delle specifiche tecniche e di accettazione dei componenti. Parteciperà alle review contrattuali interfacciandosi con il cliente esterno, generalmente in contesti internazionali. Per i prodotti in produzione il/la progettista dovrà mettere a disposizione le sue conoscenze e gli strumenti di calcolo per gestire le anomalie di produzione in coordinamento con i responsabili tecnici di riferimento.\n\nLa proattività, il problem solving e la capacità di lavorare in team sono elementi chiave per la selezione."
+    },
+    {
+      "job_id": "progettisti-di-propulsione-a-solido-33014",
+      "title": "Ingegnere Termostrutturale per la Propulsione a Solido",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/progettisti-di-propulsione-a-solido-33014/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2024-11-26",
+      "deadline": "2026-10-16",
+      "description": "All’interno dell’Ingegneria della Propulsione a Solido, operante nel settore della propulsione spaziale e tattica, ricerchiamo un/una ingegnere/a aerospaziale di esperienza, che abbia voglia di entrare in un ambiente ricco di sfide, altamente professionalizzante e tecnologico. Il/La candidato/a sarà inserito/a all’interno di un team che si occupa della progettazione dei componenti motore prevalentemente dimensionati dai carichi termici (ugelli, protezioni termiche interne, protezioni termiche esterne).\n\nL'Ingegnere/a si occuperà di:\n\n- affrontare le tematiche progettuali legate al comportamento termo-ablativo e termo-strutturale di materiali compositi ed elastomerici.\n- progettazione dei componenti richiede la padronanza dei codici di calcolo strutturale e fluidodinamico.\n- oltre alla progettazione e alla modellazione CAE, i componenti di interesse vengono seguiti durante tutte le fasi di sviluppo, partecipando in maniera attiva alla definizione dei piani di qualifica, alle previsioni e al presidio dei test meccanici e dei tiri a fuoco e relative correlazioni con i modelli di calcolo.\n- redazione dei giustificativi tecnici e delle specifiche tecniche e di accettazione dei componenti.\n- parteciperà alle review contrattuali interfacciandosi con il cliente esterno, generalmente in contesti internazionali.\n- per i prodotti in produzione il/la progettista dovrà mettere a disposizione le sue conoscenze e gli strumenti di calcolo per gestire le anomalie di produzione in coordinamento con i responsabili tecnici di riferimento.\n\nLa proattività, il problem solving e la capacità di lavorare in team sono elementi chiave per la selezione."
+    },
+    {
+      "job_id": "investor-relations-specialist-150761",
+      "title": "Investor Relations Specialist",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/investor-relations-specialist-150761/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-09-16",
+      "deadline": "2026-11-30",
+      "description": "All’interno della Divisione Investor Relations, siamo alla ricerca di una risorsa motivata, dinamica e orientata ai risultati. La risorsa affiancherà l’Head of Investor Relations nel coordinamento e nella gestione delle attività legate alle relazioni tra Avio e la propria comunità di azionisti e investitori, contribuendo attivamente al posizionamento e alla comunicazione finanziaria del Gruppo.\n\nLe attività principali saranno le seguenti:\n\n- Supporto nella redazione di comunicati stampa, presentazioni sui risultati finanziari e/o per incontri con gli investitori, top management di Avio.\n- Supporto nelle interlocuzioni con gli analisti, in particolare tenendo traccia delle previsioni economico-finanziarie che formano il c.d. consensus, e con gli investitori.\n- Supporto nel monitoraggio del trend del titolo Avio, del prezzo e dei volumi scambiati sul mercato.\n- Supporto nell’aggiornamento della sezione Investor del sito Avio."
+    },
+    {
+      "job_id": "launcher-system-manageravio-france-56448",
+      "title": "Launch Vehicle System Engineer",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/launcher-system-manageravio-france-56448/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2024-11-07",
+      "deadline": "2026-10-31",
+      "description": "Launch Vehicle System Engineer\n\nShape the Future of European Space Transportation\n\nAre you an engineer with a solid technical background in aerospace systems and a passion for complex products?\n\nJoin our multidisciplinary engineering team and contribute to the evolution of VEGA-C, one of Europe's flagship launch vehicles.\n\nAs a Launch Vehicle System Engineer, you will work at system level, integrating different engineering disciplines and ensuring that technical solutions are consistent with the overall launch vehicle architecture, applicable requirements and mission objectives.\n\nThe role is particularly suited to engineers who have already developed solid technical expertise through systems engineering, technical product development or a specialist engineering discipline, and who are looking to broaden their responsibilities toward system-level engineering.\n\nYour Mission\n\nAs a Launch Vehicle System Engineer, you will contribute to the definition, evolution and qualification of the VEGA-C launch system, as well as to the preparation of launch missions.\n\nWorking at system level, you will ensure the coherence between system architectures, technical solutions and applicable requirements, coordinating multidisciplinary engineering activities throughout the production phase and mission preparation.\n\nYour responsibilities will include:\n\n- Reviewing and verifying high-level system architectures, development approaches and the logic for product evolution, qualification and validation throughout the different project phases.\n- Defining and maintaining system technical requirements and specifications, and verifying the consistency of the design and technical solutions with the applicable requirements.\n- Preparing and reviewing system technical documentation, including technical specifications, engineering analyses, test and simulation results, ensuring consistency, reliability and safety of the product.\n- Coordinating Systems Engineering activities, including mission analyses, system/product layouts and architecture studies, ensuring that analyses and studies provide the required outputs and are consistent with specified requirements.\n- Coordinating multidisciplinary engineering activities involving propulsion, structures, avionics, software, GNC, thermal, manufacturing and ground systems.\n- Supporting and coordinating verification, validation and qualification activities, including the definition and implementation of the relevant development and qualification logic.\n- Defining and managing launcher-to-payload interfaces, including mechanical, electrical and fluidic interfaces.\n- Supporting the investigation and resolution of flight, production and launch campaign anomalies from a system perspective.\n- Acting as a technical interface with customers, ESA, CNES and industrial partners during mission preparation and launcher development activities."
+    },
+    {
+      "job_id": "metodista-ait-propulsione-a-solido-difesa-153994",
+      "title": "Metodista AIT Propulsione a Solido Difesa",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/metodista-ait-propulsione-a-solido-difesa-153994/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-10-01",
+      "deadline": "2026-10-31",
+      "description": "Nell'ambito dell'ente Ingegneria dei Processi e Materiali della nostra azienda siamo alla ricerca di una nuova risorsa che ricoprirà il ruolo di metodista all’interno del team che ha come core activity la definizione dei processi, la preparazione della documentazione e il supporto ai team operativi per l'integrazione di motori e sistemi propulsivi a solido per la Difesa presenti e futuri di AVIO in ambito meccanico e pirotecnico.\n\nNello specifico la risorsa:\n\n-gestirà la documentazione operativa, valutando gli impatti e le conseguenti modifiche necessarie, derivanti dall'evoluzione del design e delle specifiche di alto livello;\n\n-supporterà le operazioni industriali durante le fasi di integrazione dei motori a solido e relativi sistemi propulsivi;\n\n-supporterà l'ente ingegneria per la gestione delle anomalie e per l'evoluzione della definizione, valutando la definizione e/o l'evoluzione dei processi produttivi necessari;\n\n-si occuperà di emettere e manutenere le distinte base dei prodotti esistenti e futuri;\n\nLa risorsa si troverà ad operare in un ambiente stimolante, giovane e dinamico, in cui è richiesto un forte spirito innovativo e pratico che porti un miglioramento e uno sviluppo dei processi aziendali."
+    },
+    {
+      "job_id": "mission-operation-manager-136564",
+      "title": "Mission Operations Manager- Parte Alta",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/mission-operation-manager-136564/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-06-24",
+      "deadline": "2026-10-31",
+      "description": "Nell’ambito della Direzione Launch System & Integration, presso la sede di Colleferro, siamo alla ricerca di una persona che ricoprai il ruolo di Mission Operations Manager.\n\nLa risorsa selezionata entrerà a far parte del nuovo team Missioni di Lancio, istituito per supportare il recente ruolo di AVIO come Operatore di Lancio. Si tratta di una posizione di elevata responsabilità e visibilità, che prevede un’interazione diretta con il cliente satellite per ciascuna missione VEGA C.\n\nNel ruolo di Assemblation ed Integration Mission Operations Manager (cioè da quando viene assegnata una missione al momento della firma del contratto. Il M.O.M) le sue responsabilità principali riguarderanno :\n\n•acquisire le specificità della missione e i requisiti operativi del satellite;\n\n•gestire tutti gli aspetti operativi richiesti dal cliente, dalla firma del contratto fino al rilascio del satellite in orbita;\n\n•lavorare a stretto contatto con il Mission Manager per identificare e consolidare tutti i requisiti operativi del cliente;\n\n•ed è responsabile della gestione operativa del contratto.\n\nSotto la sua responsabilità rientrano:\n\n•l’esecuzione delle verifiche e dei test pre-campagna di lancio (fit-check meccanici ed elettrici);\n\n•le visite presso la base di lancio CSG (Centre Spatial Guyanese) finalizzate alla definizione del supporto necessario da parte del CNES per le attività di preparazione del satellite;\n\n•la redazione dello Statement of Work, con il dettaglio dei contributi dei vari stabilimenti del CSG;\n\n•il supporto alla Direzione Acquisti per la stesura dei contratti.\n\nDurante la campagna di lancio, invece, rappresenta il punto di arrivo dell’intera attività operativa della missione.\n\nIn questa fase il/la Mission Operations Manager:\n\n•rappresenta AVIO, in qualità di Operatore di Lancio, verso il cliente e verso la base di lancio;\n\n•gestisce la pianificazione operativa e le eventuali criticità, in stretto coordinamento con il cliente e il CNES;\n\n•è responsabile della definizione della cronologia delle operazioni del satellite;\n\n•agisce come unica interfaccia tra il Direttore delle Operazioni di Lancio (DDO) e il responsabile del satellite."
+    },
+    {
+      "job_id": "processista-fabbricazione-e-colaggio-propellenti-143477",
+      "title": "Processista fabbricazione e colaggio propellenti",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/processista-fabbricazione-e-colaggio-propellenti-143477/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-07-29",
+      "deadline": "2026-10-31",
+      "description": "La risorsa che stiamo cercando sarà inserita all’interno della Direzione Ingegneria di Processo e Materiali, nel team Tecnologie dei Processi Produttivi, e sarà coinvolta nelle attività di gestione, standardizzazione e miglioramento dei processi relativi al caricamento con propellente solido degli involucri del lanciatore Vega-C e dei programmi Difesa.\n\nAttività principali:\n\n- Supportare i reparti produttivi nell’applicazione e nella standardizzazione dei processi di fabbricazione, contribuendo alla preparazione e all’aggiornamento della documentazione tecnica di prodotto, come procedure, distinte base, fogli istruzione lavoro e checklist.\n- Collaborare all’analisi dei processi produttivi e all’individuazione di possibili soluzioni tecniche per il miglioramento continuo, l’efficientamento delle attività e la riduzione dei costi di prodotto.\n- Supportare le fasi di definizione, sviluppo, qualifica e validazione tecnologica di nuove attrezzature e macchine per l’industrializzazione e il miglioramento dei processi produttivi.\n- Partecipare all’analisi delle non conformità di prodotto e alla predisposizione di checklist, procedure dedicate e azioni correttive.\n- Collaborare alla gestione e all’aggiornamento delle distinte base prodotto, con riferimento a cicli di lavoro, materiali impiegati, coerenza con la documentazione tecnica e tempi di lavorazione.\n- Contribuire alle attività di digitalizzazione dei processi produttivi tramite l’implementazione della documentazione di fabbricazione nella piattaforma Industria 4.0.\n- Supportare le attività di preventivazione per l’acquisto o la modifica di nuove attrezzature, macchine e processi produttivi.\n- Partecipare alle riunioni di avanzamento periodiche, contribuendo alla raccolta degli aggiornamenti e alla condivisione di eventuali criticità con il team."
+    },
+    {
+      "job_id": "progettista-attrezzature-e-macchine-38076",
+      "title": "Progettista Attrezzature e Macchine",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/progettista-attrezzature-e-macchine-38076/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2025-03-19",
+      "deadline": "2026-10-16",
+      "description": "All'interno del dipartimento di Sistemi Produttivi di Colleferro, ricerchiamo 3 figure per la posizione di Progettista Attrezzature e Macchine, che in supporto ai processi produttivi e di testing dei siti Avio Italia , interfacciandosi direttamente con i reparti produttivi per diversi programmi, avranno la responsabilità di:\n\n- Progettazione: Sviluppare attrezzature e macchine industriali per la produzione, curandone documentazione e manualistica.\n- Procurement tecnico: Redigere preventivi, specifiche tecniche e capitolati d'appalto per l'acquisto da fornitori terzi.\n- Supplier management: Monitorare lo stato di avanzamento delle commesse affidate a partner esterni (follow-on).\n- Messa in servizio: Gestire installazione e qualifica nei reparti, supportando i capi fabbrica nel training del personale.\n- Manutenzione: Collaborare con il team Maintenance per definire i piani di manutenzione preventiva e predittiva."
+    },
+    {
+      "job_id": "quality-engineer-78251",
+      "title": "Quality Engineer",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/quality-engineer-78251/it/",
+      "location": "",
+      "country": "",
+      "contract": "",
+      "published": "",
+      "deadline": "",
+      "description": "Quality Engineer\nDescrizione azienda\nChi siamo? Avio è un gruppo internazionale leader nello sviluppo e nella realizzazione di lanciatori spaziali e sistemi di propulsione solida e liquida per il trasporto spaziale e satellitare, nonché per missili tattici e militari. Siamo presenti in Italia, Francia e Guyana Francese con 5 stabilimenti in cui lavorano oltre 1.000 professionalità altamente qualificate, il cui 30% in attività di ricerca e sviluppo.\nCosa facciamo? L'esperienza e il know-how acquisiti nel corso degli oltre 50 anni di attività consentono al gruppo Avio di essere leader nel campo della propulsione spaziale e dei lanciatori. In particolare, il gruppo Avio, opera in qualità di prime contractor per il programma Vega e di sub-contractor per il programma Ariane, entrambi finanziati dalla European Space Agency (“ESA”), rappresentando così l’Italia nel ristretto numero di paesi al mondo in grado di progettare e produrre vettori spaziali.\nChi cerchiamo? La grandezza di questa azienda si misura sulla qualità straordinaria delle persone, e sulla loro audacia, che ha in sé genio e talento, qualità vincenti per svelare il segreto dell’innovazione produrre progresso. Ogni grande sogno inizia con un sognatore che, in Avio è, una persona che sperimenta la possibilità di lanciarsi in sfide sempre più avvincenti per vedere ciò che gli altri ancora non vedono. Tutto questo rimanendo insieme, perché le grandi sfide non sono mai fatte da una sola persona, ma da un team coeso di persone animate da una visione comune.\nSe sei una persona che ha voglia di sperimentare, curiosa ed ambiziosa, con un focus sempre orientato all’innovazione ed un forte senso di responsabilità, allora entra a far parte del nostro team! Siamo costantemente alla ricerca di professionisti che desiderano contribuire allo sviluppo di progetti tecnologicamente innovativi.\nCosa offriamo? Lavorare in Avio significa inseguire la passione per un sogno chiamato spazio; un mondo senza frontiere né confini, al cui sviluppo Avio contribuisce con il progresso dei suoi lanciatori concorrendo ad uno straordinario passo avanti per l’umanità.\nUn ambiente stimolante, innovativo ed internazionale, rivolto alla crescita e allo sviluppo di competenze professionali altamente qualificanti. Offriamo percorsi formativi e di carriera con l’obiettivo di creare opportunità di crescita ed acquisizione di nuovo know-how con la possibilità di collaborare alla realizzazione di progettualità internazionali uniche.\nIL SOGNO è sopra le nostre teste!\nPosizione\nAll'interno della Direzione Qualità, nell'area dedicata alla qualità prodotto della propulsione a solido, a liquido e criogenica, siamo alla ricerca di 3 Quality Engineer; da inserire rispettivamente: 1 nel team che seguirà progetti di Integrazione Assiemi e Operazioni Lanciatore; 1 in Sistemi in Produzione e Missione e 1 in Sviluppo Sistemi Orbitali.\nIl Quality Engineer si occupa di:\nGestione della qualità degli assiemi lanciatore in fase di produzione\nVerifica e controllo delle condizioni necessarie alla fabbricazione mediante la conduzione dei bilanci tecnici di definizione e fabbricazione\nRedazione ed emissione dei data package di accettazione\nGestione Richieste di deroga ai requisiti non rispettati\nGestione del processo di trattamento delle Non conformità ( RNC)\nGestione della implementazione delle azioni correttive volte alla riduzione delle occorrenze delle RNC.\nCampagna di integrazione del lanciatore presso la base spaziale in Guyana Francese per la messa in orbita di satelliti\nGestione degli alert provenienti dalla supply chain\nInterfaccia verso il Cliente per le milestones di produzione\nFollow-on dei fornitori critici e dei sotto-contraenti per la gestione degli aspetti qualità\nRequisiti\nLaurea Magistrale in Ingegneria Gestionale o Meccanica o Aerospaziale\nDisponibilità a trasferte in Guyana Francese di 3-4 settimane per le campagne di lancio\nProattività e autonomia\nCapacità organizzative e di gestione del tempo;\nCapacità di adattamento/ flessibilità\nConoscenza della lingua inglese (francese opz.)\nEsperienza pegressa in ambito Qualità di almeno 2 anni\nAltre informazioni\nRAL prevista tra €38.000.\nIn funzione degli elementi che emergeranno durante la fase selettiva (valutazione delle effettive competenze, esperienza ed autonomia nel ruolo) e sulla base di elementi oggettivi e neutri rispetto al genere, potrà essere valutata una RAL fino a € 42.000.\nSaranno previsti inoltre:\nPremio di Partecipazione annuale convertibile su piattaforma welfare\nFondi Previdenziali\nAssistenza Sanitaria Integrativa\nMensa/Bar aziendale\nSmart Working (fino a 6 giorni mese, massimo due giorni a settimana)\nServizio Navetta aziendale\nWellbeing program: Avio People Caring (varie attività e convenzioni dedicate ai/alle nostri/e dipendenti)\nIn Avio promuoviamo un ambiente di lavoro inclusivo, equo e rispettoso delle diversità. Le selezioni sono basate su criteri oggettivi e neutri, senza alcuna discriminazione legata a genere, età, origine, orientamento, identità o altre caratteristiche personali secondo il DLGS 198/2006."
+    },
+    {
+      "job_id": "responsabile-turno-imc-tattica-129894",
+      "title": "Responsabile Turno IMC Tattica",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/responsabile-turno-imc-tattica-129894/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-05-21",
+      "deadline": "2026-10-22",
+      "description": "La persona che stiamo ricercando sarà inserita in una turnazione 3X5 ed avrà il compito:\n\n- Garantire un corretta gestione del personale e dei pezzi di produzione (impianti, macchine ed attrezzature), cooperando con le aree tecniche di supporto per proporre le azioni di miglioramento dei cicli di lavoro;\n- Realizzare i programmi produttivi previsti nel rispetto della normativa vigente in materia di Sicurezza, Ambiente ed Ecologia rispettando gli obiettivi stabiliti di volume, tempi e qualità;\n- Partecipare alla risoluzione di anomalie di prodotto e processo della proprio area di pertinenza;\n- Garantire e mantenere la corretta formazione professionale del proprio team;\n- Garantire una corretta gestione degli strumenti di misura di propria responsabilità;\n- Collaborare con il servizio di Prevenzione e Protezione."
+    },
+    {
+      "job_id": "navigation-orbital-gnc-lead-engineer-129202",
+      "title": "Senior GNC/AOCS Engineer",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/navigation-orbital-gnc-lead-engineer-129202/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-09-07",
+      "deadline": "2026-11-30",
+      "description": "Within the Engineering Department, Avio is seeking a Senior GNC/AOCS Engineer to join the Control and Orbital Systems team. The selected candidate will contribute to the design, validation, and qualification of GNC/AOCS systems for orbital platforms, service modules, and space missions.\n\nWorking in a multidisciplinary environment, the candidate will collaborate with System Engineering, Flight Software, Propulsion, and Operations teams to support all phases of the system development and qualification cycle.\n\nThe position will be classified as Senior AOCS Engineer, in recognition of the candidate’s previous experience in internationally relevant satellite and orbital programmes.\n\nThe successful candidate will be assigned the following responsibilities:\n\n·Architectural Design: Define and optimize the architecture of GNC/AOCS systems for satellites and space platforms.\n\n·Algorithms and Control: Design, analyse, and implement attitude control algorithms, including Kalman filters, robust control approaches, and Safe Mode logic.\n\n·Modelling and Simulation: Develop and maintain high-fidelity mathematical simulators (FES) in MATLAB/Simulink.\n\n·Hardware Selection: Define technical requirements and manage trade-offs for the selection of sensors, such as Star Trackers, Sun Sensors, and IMUs, and actuators, such as reaction wheels, magnetorquers, and thrusters.\n\n·Verification and Testing: Plan and execute software and hardware test campaigns, including experience with MIL, SIL, and HIL cycles.\n\n·Operational Support: Contribute to the definition of flight procedures for LEOP and in-orbit commissioning phases.\n\n·Mentorship: Provide technical guidance and training support to Junior and Mid-level engineers within the team."
+    },
+    {
+      "job_id": "quality-management-system-specialist-151400",
+      "title": "Senior Manager – Quality Management System",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/quality-management-system-specialist-151400/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-09-21",
+      "deadline": "2026-11-30",
+      "description": "Siamo alla ricerca di un/una Senior Manager – Quality Management System da inserire all’interno dell’area Qualità, con riporto diretto al Chief Quality Officer.\n\nLa risorsa guiderà la governance e l’evoluzione del Sistema di Gestione Qualità aziendale, assicurando conformità agli standard internazionali, efficacia dei processi e miglioramento continuo.\n\nIl ruolo prevede un’interazione costante con il top management e con le principali funzioni aziendali, con l’obiettivo di rafforzare una cultura della qualità orientata alla prevenzione, alla performance e alla gestione del rischio.\n\nResponsabilità principali\n\n- Guidare lo sviluppo, il mantenimento e il miglioramento del Sistema di Gestione Qualità aziendale secondo gli standard ISO 9001, EN 9100 ed ECSS\n- Assicurare la governance dei processi qualità, garantendo coerenza tra procedure, requisiti normativi, contrattuali e organizzativi\n- Coordinare i processi di certificazione, audit interni, audit cliente e audit presso fornitori e partner della supply chain\n- Supervisionare la gestione di non conformità, azioni correttive e preventive, promuovendo iniziative di miglioramento continuo\n- Monitorare KPI e performance del Sistema Qualità, predisponendo analisi e reporting a supporto del Chief Quality Officer e del management\n- Favorire l’allineamento del Sistema Qualità tra le diverse aree aziendali e diffondere best practice e cultura della qualità"
+    },
+    {
+      "job_id": "spacebalb-sviluppatoretrice-banchi-di-test-140292",
+      "title": "SPACELAB - SVILUPPATORE/TRICE BANCHI DI TEST",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/spacebalb-sviluppatoretrice-banchi-di-test-140292/it/",
+      "location": "Colleferro",
+      "country": "IT",
+      "contract": "",
+      "published": "2026-07-13",
+      "deadline": "2026-10-31",
+      "description": "La persona che stiamo ricercando per la società Spacelab si occuperà di:\n\n- progettare e sviluppare banchi di prova elettrici finalizzati al collaudo di motori (Unit Under Test) soprattutto con focus sulla parte Software;\n- gestire e mantenere il sistema di banchi motore già esistente;\n- analizzare e comprendere il diagramma delle tubazioni e della strumentazione (P&ID);\n- gestire i segnali dei sensori per controllare e acquisire dati dall’impianto e dall'UUT al fine di concedere la qualifica del banco motore;\n- preparare e definire la procedura, il programma ed il piano di test;\n- preparare gli input e raccogliere i dati di output dall'esecuzione dei test;\n- preparare i rapporti di prova;\n- redigere documenti tecnici quali manuale utente, software release note."
+    }
+  ]
+}

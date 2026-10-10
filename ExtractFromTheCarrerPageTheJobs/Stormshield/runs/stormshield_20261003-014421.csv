@@ -1,0 +1,1637 @@
+job_id,title,location,additional_locations,department,remote_type,published,url,description
+3bddbe7c-fee8-4c53-9bed-483b651b42c0,Chef de Projet Applications Métiers F/H,"Lille, France",,Digital,hybrid,2026-03-16,https://careers.stormshield.eu/jobs/7396778-chef-de-projet-applications-metiers-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Digital
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lille
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Chef de Projet Applications Métiers :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, nous recherchons un ou une Cheffe de Projet Applications Métiers.
+
+Vous piloterez des projets applicatifs de bout en bout : cadrage du besoin, coordination de la réalisation, recette, déploiement et adoption. Vous interviendrez sur un périmètre mixte : des applications développées en interne (ex. : extranet Client) et des solutions SaaS (ex. : Salesforce). Nous recherchons une personne rigoureuse capable de structurer et formaliser un besoin fonctionnel, d’animer, de fédérer les parties prenantes lors d’ateliers et disposant d’une expérience d’au moins trois ans dans ce type de fonction.
+
+Quelles missions pour le Chef de Projet Applications Métiers ?
+
+- Qualifier et cadrer les demandes (dont celles remontées par les Key Users) ;
+
+- Animer les ateliers de recueil et de clarification du besoin ;
+
+- Formaliser les éléments clés : périmètre, priorités, planning, risques, critères d’acceptation ;
+
+- Coordonner la réalisation (interne et/ou prestataires) et gérer les dépendances ;
+
+- Organiser et piloter la recette / UAT, suivre les anomalies jusqu’à validation ;
+
+- Accompagner la mise en production : communication, documentation, conduite du changement ;
+
+- Assurer un reporting clair : statuts, alertes, points de blocage, décisions.
+
+Exemples de sujets :
+
+- Mise en place de nouveaux workflows dans Salesforce ;
+
+- Développement de nouvelles fonctionnalités dans l’Extranet ;
+
+- Qualification et priorisation des demandes de changement des Key Users.
+
+Quel est l’environnement technique ?
+
+- Outils : Salesforce, Jira / Confluence, ClickUp (et outils associés selon les projets) ;
+
+- Bonus : notions API/SQL, expérience Salesforce (process, workflows, data), sensibilité ITIL.
+
+Quelle équipe ?
+
+Vous rejoindrez l’équipe Digital, rattachée au Chief Digital Officer, au cœur des enjeux applicatifs et de la collaboration entre métiers et IT. Le poste combine des sujets concrets, visibles et à impact, sur des outils structurants pour l’entreprise.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Alaix, en charge du recrutement, pour échanger sur ce que vous faites actuellement et comment travailler ensemble.
+
+2
+
+Un entretien avec Augustin, le manager, et Aurélien, référent chef de projet, qui vous permettra de présenter plus en profondeur le poste, l'équipe et les missions.
+
+3
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+f9104704-3f67-4f47-b32f-93d116c00125,Développeur Back-End Node.js expérimenté F/H,"Lyon, France",,R&D,hybrid,2026-03-17,https://careers.stormshield.eu/jobs/7402923-developpeur-back-end-node-js-experimente-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Stormshield Encryption Platform (SEP)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lyon
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Développeur Back-End Node.js expérimenté :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche un ou une développeuse Back-End experimentée en Node.js.
+
+L’équipe est dans une phase intense de développement, avec de nombreuses nouveautés. Pour intégrer cet environnement exigeant, où vous pourrez apporter votre contribution à l’édifice d’un produit, nous recherchons un ou une véritable ingénieure capable d’apporter son expérience, sa vision, son leadership ainsi que son sens du produit et du collectif.
+
+Vous vous sentez capable de vous identifier à nos valeurs, vous avez le sens des responsabilités et une forte appétence pour la sécurité informatique ? Vous travaillerez sur le développement et l’orchestration d’un service de chiffrement de données SaaS et On‑Premise.
+
+Quelles missions pour le Développeur Back-End ?
+
+- Rédiger les spécifications et participer à la conception du produit (en passant par des études et réalisation de POCs notamment) ;
+
+- Développer le produit en collaboration avec l’ensemble des membres de l’équipe (développement, relecture des MRs, peer programming, respect des conventions de l’équipe…) ;
+
+- Être garant de la qualité du produit (écriture des tests unitaires et des tests d’intégration, CI, CD…) ;
+
+- Apporter une plus‑value sur les bonnes pratiques méthodologiques et techniques de l’équipe par des propositions d’évolution et un soutien opérationnel à leur mise en place ;
+
+- Rédiger les documentations techniques et fonctionnelles du produit.
+
+Quel est l’environnement technique ?
+
+- Langage : Node.js en TypeScript, programmation orientée objet.
+
+- Testing & Qualité : XRay, Mocha, Supertest, Sonarqube, Cucumber, Gherkin.
+
+- CI/CD : OpenShift, Kubernetes, Docker, RedHat, Jenkins, PagerDuty, Prometheus, Grafana.
+
+- Versioning : Git, GitLab, Gitea.
+
+- Outils collaboratifs : Jira, Confluence.
+
+- Méthodologie : Agilité, Scrum, Kanban.
+
+Quelle équipe ?
+
+Vous rejoindrez l'équipe SEP, managée par Nina. Le pôle est organisé en équipes de 3 ou 4 développeurs et 1 QA, avec des cycles de développement courts (2 semaines). Nous sommes cadencés par les rituels agiles et la recherche d’amélioration continue. Vous prendrez part à l’une de ces équipes orientées sur des développements back‑end et vous serez en interaction continue avec le Product Leader, les Tech Leaders et le Scrum Master.
+
+Quel produit ?
+
+Stormshield Encryption Platform protège vos données critiques via un chiffrement SaaS européen. Son approche Data Centric Security s’applique notamment à Microsoft 365, Google Workspace ou même votre infrastructure Kubernetes sans gêner vos équipes. Vos données restent sous votre seul contrôle.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec William, en charge du recrutement.
+
+2
+
+Un entretien téléphonique avec Nina, la manager, accompagné d’un Technical Leader (Jean‑Phi et/ou Tod), afin de vous présenter le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien technique avec Nina et une partie de votre future équipe, incluant des exercices de développement.
+
+4
+
+Un dernier entretien RH.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+167d7597-3498-4751-adcf-805e3e9baef9,Développeur C - Unix F/H,"Paris, France",,R&D,hybrid,2026-05-06,https://careers.stormshield.eu/jobs/7692566-developpeur-c-unix-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Stormshield Network Security (SNS)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Paris
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Développeur C :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, nous recherchons un ou une Développeuse C Linux.
+
+Manager de l'équipe SNS, Vincent recrute pour faire évoluer et maintenir notre gamme de firewalls Stormshield Network Security. Nous recherchons des personnes motivées, disposant d'au moins 5 ans d'expérience et idéalement d'une bonne connaissance des réseaux TCP/IP.
+
+Quelles missions pour le Développeur C Linux ?
+
+- Reproduire les problématiques clients et les diagnostiquer ;
+
+- Effectuer la maintenance et faire évoluer les produits existants ;
+
+- Développer de nouvelles fonctionnalités au sein du firmware embarqué sur nos produits ;
+
+- Documenter l'avancement de vos développements et/ou la solution.
+
+Quel est l’environnement technique ?
+
+- Stack technique : C, C++, FreeBSD.
+
+- Écosystème : Unix.
+
+- Environnements virtualisés : VMware.
+
+Quelle équipe ?
+
+Vous rejoindrez l'une des équipes SNS. Chaque équipe est composée d’une vingtaine de personnes (Développeurs, Testeurs, Tech’Leaders, Scrum Master, Product Owner). Vous intégrerez une Scrum Team de 5‑7 personnes (Scrum/Kanban). La notion d'équipe est au cœur de notre fonctionnement car les développements se font en collaboratif. Les équipes sont auto‑managées et ont la main sur les engagements de réalisation.
+
+Quel produit ?
+
+Vous travaillerez sur les firewalls Stormshield qui constituent notre gamme Stormshield Network Security (SNS). En sécurisant le réseau, un firewall d'entreprise protège l'entreprise de la plupart des cyberattaques. Pour plus d'informations sur nos produits, visitez notre page web dédiée à la présentation des firewalls Stormshield.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Alaix, en charge du recrutement.
+
+2
+
+Un entretien téléphonique avec Vincent accompagné de son Tech Lead. C’est un premier point pour vous expliquer plus en détail le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien technique avec une partie de votre future équipe, autour d'exercices de développement.
+
+4
+
+Un dernier entretien RH.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+6aa1578b-6990-46be-b2e4-3488632c6a1f,Développeur C Embarqué F/H,"Lille, France",,R&D,hybrid,2026-04-03,https://careers.stormshield.eu/jobs/7514238-developpeur-c-embarque-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Stormshield Network Security (SNS)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lille
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Développeur C Embarqué :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche un ou une développeuse C Embarqué.
+
+Vous travaillerez au cœur de nos firewalls : évolution produit, maintenance, robustesse et diagnostic. Le poste implique la prise en main d’un code conséquent et critique, ainsi qu’une forte capacité d’analyse pour comprendre et résoudre des problématiques système et réseau.
+
+Indispensables :
+
+- Solide expérience en C sous Linux et/ou FreeBSD.
+
+- Expérience confirmée en développement bas niveau : système, performance, debugging, investigation.
+
+- Capacité à comprendre et faire évoluer un code complexe et critique.
+
+- À l’aise avec l’analyse de pannes complexes (traces, logs, profiling, reproduction).
+
+- Bonnes connaissances réseaux et compréhension des mécanismes associés.
+
+Quelles missions pour le développeur C Embarqué ?
+
+- Maintenir et faire évoluer les fonctionnalités de la gamme SNS (correctifs, amélioration continue, qualité/robustesse) ;
+
+- Prendre en charge du support niveau 3 (diagnostic) : analyse, reproduction, identification des causes racines, proposition de correctifs (sans gestion du support client de premier niveau) ;
+
+- Maintenir et faire évoluer des outils internes techniques (outillage de build, debug, validation, etc.) ;
+
+- Participer à l’intégration de nouveaux matériels : compatibilité, adaptation, validation.
+
+Quel est l’environnement technique ?
+
+- Stack technique : C, C++, FreeBSD.
+
+- Écosystème : Unix.
+
+- Environnements virtualisés : VMware.
+
+Quelle équipe ?
+
+Vous serez intégré à l’une des équipes SNS managées par Emmanuel. Chaque équipe est composée d’une vingtaine de personnes (développeurs, testeurs, tech‑leaders, scrum master, product owner). Vous rejoindrez une Scrum Team de 5 à 7 personnes (Scrum/Kanban). La notion d’équipe est au cœur du fonctionnement : les développements se font de façon collaborative, les équipes sont auto‑managées et disposent de la main sur les engagements de réalisation.
+
+Quel produit ?
+
+Vous travaillerez sur les firewalls Stormshield, qui constituent la gamme Stormshield Network Security (SNS). En sécurisant le réseau, un firewall d’entreprise protège l’entreprise contre la plupart des cyber‑attaques. Pour plus d’informations, consultez le site dédié aux firewalls Stormshield.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Gauthier, en charge du recrutement.
+
+2
+
+Un entretien téléphonique avec Emmanuel accompagné de son tech lead. C’est un premier point pour vous expliquer plus en détail le fonctionnement de l’équipe et la vision du poste.
+
+3
+
+Un entretien technique avec une partie de votre future équipe, autour d’exercices de développement.
+
+4
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+67627d02-fb4c-498c-9287-df1bd02fd761,Développeur C Linux Senior F/H,"Lille, France",,R&D,hybrid,2026-03-17,https://careers.stormshield.eu/jobs/7403349-developpeur-c-linux-senior-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Stormshield Network Security (SNS)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lille
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Développeur C Linux :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, nous recherchons un ou une Développeuse C Linux.
+
+Managers de l'équipe SNS, Kévin et Emmanuel recrutent pour faire évoluer et maintenir notre gamme de firewalls Stormshield Network Security. Nous recherchons des personnes motivées, disposant d'au moins 5 ans d'expérience et idéalement d'une bonne connaissance des réseaux TCP/IP.
+
+Quelles missions pour le Développeur C Linux ?
+
+- Reproduire les problématiques clients et les diagnostiquer ;
+
+- Effectuer la maintenance et faire évoluer les produits existants ;
+
+- Développer de nouvelles fonctionnalités au sein du firmware embarqué sur nos produits ;
+
+- Documenter l'avancement de vos développements et/ou la solution.
+
+Quel est l’environnement technique ?
+
+- Stack technique : C, C++, FreeBSD.
+
+- Écosystème : Unix.
+
+- Environnements virtualisés : VMware.
+
+Quelle équipe ?
+
+Vous rejoindrez l'une des équipes SNS managées par Kévin et Emmanuel. Chaque équipe est composée d’une vingtaine de personnes (Développeurs, Testeurs, Tech’Leaders, Scrum Master, Product Owner). Vous intégrerez une Scrum Team de 5‑7 personnes (Scrum/Kanban). La notion d'équipe est au cœur de notre fonctionnement car les développements se font en collaboratif. Les équipes sont auto‑managées et ont la main sur les engagements de réalisation.
+
+Quel produit ?
+
+Vous travaillerez sur les firewalls Stormshield qui constituent notre gamme Stormshield Network Security (SNS). En sécurisant le réseau, un firewall d'entreprise protège l'entreprise de la plupart des cyberattaques. Pour plus d'informations sur nos produits, visitez notre page web dédiée à la présentation des firewalls Stormshield.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Gauthier, en charge du recrutement.
+
+2
+
+Un entretien téléphonique avec un manager accompagné de son Tech Lead. C’est un premier point pour vous expliquer plus en détail le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien technique avec une partie de votre future équipe, autour d'exercices de développement.
+
+4
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+e48a4116-f523-425d-9815-c0d78d2b64ee,Développeur Full Stack Node.js / React F/H,"Lyon, France",,R&D,hybrid,2026-03-16,https://careers.stormshield.eu/jobs/7395408-developpeur-full-stack-node-js-react-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Mesh Unified Management (MUM)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lyon
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Développeur Full Stack :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche un ou une développeuse Full Stack Node.js / React.
+
+Manager de l'équipe MUM, Nina recherche une personne pour travailler sur le développement d'une nouvelle solution SaaS de management centralisé de solutions de cybersécurité. Vous aurez l'opportunité unique de contribuer à la construction et à l'évolution d'un projet émergent, de participer à sa conception et de modeler son développement à mesure qu'il prend forme.
+
+Rejoindre notre équipe à ce stade précoce vous permettra non seulement d'apporter votre expertise, mais aussi d'exprimer votre créativité et de voir directement l'impact de votre travail sur le succès à venir du projet.
+
+Si vous êtes passionnés par l'innovation, que vous aimez les défis et que vous souhaitez être au cœur de la création d'une solution innovante, cette opportunité est faite pour vous.
+
+Quelles missions pour le développeur Full Stack ?
+
+- Développer des fonctionnalités sur la pile full‑stack (conception, développement et mise en œuvre) en utilisant TypeScript / Node.js pour assurer le bon fonctionnement de l’application ;
+
+- Concevoir les bases de données selon les besoins (relationnel, orienté documents, séries temporelles) ;
+
+- Créer des APIs REST, GraphQL ou gRPC et mettre en place le rendu côté serveur pour exposer les données dans les composants ;
+
+- Développer les composants et les pages d’interface utilisateur ;
+
+- Mettre en place des mesures de sécurité robustes (authentification, autorisation, chiffrement, SSO OpenID Connect) ;
+
+- Identifier et résoudre les problèmes techniques, réaliser des tests et du débogage pour garantir stabilité et fiabilité ;
+
+- Rédiger une documentation claire et précise et créer des tests unitaires et d’intégration pour assurer la qualité du code.
+
+Quel est l’environnement technique ?
+
+- Langages : TypeScript, TSX, CSS.
+
+- Frameworks : (Node.js / React) ; tailwindcss.
+
+- Bases de données : PostgreSQL, MongoDB, bases orientées séries temporelles.
+
+- Authentification/SSO : OpenID Connect.
+
+- Testing & Qualité : Jest, Playwright, XRay, Cucumber, Gherkin.
+
+- CI/CD : OpenShift, Kubernetes, Docker, GitlabCI, PagerDuty, Prometheus, Grafana.
+
+- Versioning : Git, GitLab, Gitea.
+
+- Outils collaboratifs : Jira, Confluence.
+
+- Méthodologie : Agilité, Scrum, Kanban.
+
+Quel produit ?
+
+MUM, solution unifiée SaaS en cybersécurité, offre une plateforme intégrée et basée sur le cloud, conçue pour offrir une protection complète contre les menaces numériques. Elle permet aux entreprises de gérer et de contrôler efficacement la sécurité de leurs actifs numériques, quel que soit le point d'accès, que ce soit sur site, sur le cloud ou sur des appareils mobiles.
+
+Quelle équipe ?
+
+Vous rejoindrez l'équipe MUM, managée par Nina. Cette équipe est composée de plus de 30 personnes (Développeurs, QAs, Technical Leaders, Scrum Masters, Product Owners, Responsable Qualité produit et Référents supports), répartie en quatre équipes et organisée en sprints de deux semaines.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec William, en charge du recrutement.
+
+2
+
+Un entretien téléphonique avec Nina accompagné de l'architecte, pour vous expliquer plus en détail le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien technique avec Nina et une partie de votre future équipe, autour d'exercices de développement.
+
+4
+
+Un dernier entretien RH.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+5623c894-167c-4225-9845-d6808920763d,Développeur Rust F/H,"Lille, France","Lyon, France; Paris, France",R&D,hybrid,2026-03-17,https://careers.stormshield.eu/jobs/7403875-developpeur-rust-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Mesh
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lille, Lyon, Paris
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Développeur Rust :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche un ou une Développeuse Rust.
+
+Nous recherchons une personne motivée, dotée d’un sens des responsabilités et d’une forte appétence pour la sécurité informatique.
+
+Vous participerez au développement d’un agent multiplateforme garantissant l’intégrité du poste, le contrôle et la sécurisation des communications.
+
+Quelles missions pour le Développeur Rust ?
+
+- Développement de la solution ;
+
+- Revues de code ;
+
+- Développement et évolution des tests unitaires ;
+
+- Définition des spécifications techniques.
+
+Quel est l’environnement technique ?
+
+- Référentiels : Jira, Confluence ;
+
+- Stack technique : Rust ;
+
+- Intégration continue : GitLab, Git ;
+
+- Écosystème : Linux / Windows / macOS / iOS / Android ;
+
+- Environnements virtualisés : VMware.
+
+Quelle équipe ?
+
+Vous rejoindrez l'équipe Mesh, composée d’une vingtaine de personnes.
+
+Quel produit ?
+
+Le projet OverSec, financé par le plan France 2030, vise à créer une brique logicielle multiplateforme intégrable aux infrastructures critiques pour filtrer et chiffrer leurs communications. Conçue pour être hautement résiliente face aux cyberattaques et aux pannes, elle améliore la sûreté de fonctionnement et le maintien en condition opérationnelle et sécuritaire des sites.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Alaix, en charge du recrutement.
+
+2
+
+Un entretien téléphonique avec le manager, afin de vous présenter le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien technique avec le manager et une partie de son équipe, incluant des exercices de développement.
+
+4
+
+Un dernier entretien RH.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+98cf2a8e-e891-4def-8d9c-7c49e2e83c1c,Développeur C/C++ Senior F/H,"Lyon, France",,R&D,hybrid,2026-08-11,https://careers.stormshield.eu/jobs/8205476-developpeur-c-c-senior-f-h,"Résumé du poste
+
+- ÉQUIPE :
+SES
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lyon
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Développeur C/C++ Senior :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche un candidat ou une candidate Développeur C/C++ Senior.
+
+Cette personne devra maîtriser le développement natif sous Windows, être à l’aise avec les processus d’intégration continue, et contribuer activement à la qualité et à la sécurité du code.
+
+Quelles missions pour le Développeur C/C++ Senior ?
+
+- Analyser, reproduire et corriger les incidents signalés par le support ou les clients, gestion de la dette technique ;
+
+- Concevoir, implémenter et tester de nouvelles fonctionnalités en C++ moderne (gestion de ressources, smart‑pointers, STL, constexpr, std::thread, etc.) ;
+
+- Travailler main‑dans‑la‑main avec les Product Owners et les Tech Leaders pour élaborer les spécifications fonctionnelles et techniques ;
+
+- Apporter une expertise pointue à l’équipe support (analyses de crash, partage de scripts de diagnostic, documentation « how‑to ») ;
+
+- Appliquer les principes de programmation défensive (validation d’entrées, limites de buffer, chiffrement, etc.) à la fois en C et en C++ ;
+
+- Participer aux Pull‑Request, mentorat des développeurs juniors et diffusion des bonnes pratiques.
+
+Et en bonus selon vos envies :
+
+- Optimiser notre pipeline CI (déploiement de tests de sécurité, analyses statiques, artefacts de build) ;
+
+- Devenir formateur interne, animer des Tech‑Talks, participer aux journées d’innovation... ;
+
+- Partager votre domaine de prédilection (reverse engineering, driver development, cryptographie, etc.)
+
+Quel est l’environnement technique ?
+
+- Langages : C (C99/C11), C++ (C++ 17/20).
+
+- Développement Windows : Visual Studio 2019‑2026, SDK/WDK, COM, drivers kernel‑mode.
+
+- Intégration continue : Jenkins, Git, pipelines automatisés (tests unitaires, analyses statiques).
+
+- Analyse & débogage : WinDbg, Sysinternals Suite (Process Explorer, Process Monitor, ProcDump, etc.).
+
+- Méthodologies : Scrum, LeSS, Kanban, TDD, revues de code, programmation défensive.
+
+- Domaines métier : protection du poste de travail, chiffrement de données, contrôle d’accès, EDR.
+
+Quelle équipe ?
+
+Vous rejoindrez l’équipe R&D des produits Endpoint & Data Security, composée d’environ 30 personnes réparties en Scrum/LeSS et Kanban (agilité à l’échelle).
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Alaix, en charge du recrutement, pour faire connaissance et échanger sur votre parcours.
+
+2
+
+Un entretien sur site avec Nicolas, afin de vous présenter le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien technique dans la foulée avec une partie de votre future équipe.
+
+4
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+6bdd2c78-16d7-436a-9d20-d5d8a29f9a56,Formateur Réseau & Sécurité F/H,"Paris, France",,Formation,hybrid,2026-04-03,https://careers.stormshield.eu/jobs/7514444-formateur-reseau-securite-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Formation
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Paris
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Formateur Réseau & Sécurité :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, nous recherchons un ou une Formatrice (Sécurité & Réseau).
+
+Le manager de l'équipe Formation, Xavier recherche une personne pour nos solutions de sécurité Stormshield Network Security. Vous animerez nos formations certifiantes (CSNA, CSNE, CSNOT…) dans nos locaux, directement en clientèle ou à distance. Vous devrez posséder d’excellentes connaissances des réseaux IP, ainsi que des environnements BSD et Linux.
+
+Outre l’expertise technique, la pédagogie, l’écoute ainsi que les qualités organisationnelles et rédactionnelles sont des atouts primordiaux pour mener à bien ces missions.
+
+Vous maîtriserez également l’anglais à l’oral.
+
+Quelles missions pour  le Formateur Réseau & Sécurité ?
+
+- Maîtriser de nombreux sujets techniques et réaliser des formations en France et à l’étranger ;
+
+- Participer avec l’ensemble de l’équipe formation à la création de toutes les ressources pédagogiques : supports de cours, examens, ainsi que les architectures virtuelles pour les travaux pratiques ;
+
+- Acquérir une véritable expertise technique en réseau et sécurité grâce à des séquences de travail personnalisées avec vos collègues formateurs ;
+
+- Maîtriser les produits SNS afin de passer nos certifications professionnelles ;
+
+- Consacrer une grande partie du temps à la veille technique, au suivi des évolutions de nos produits lors de réunions avec les équipes R&D ainsi qu’à la participation à des workshops techniques.
+
+Quelle équipe ?
+
+Vous serez intégré aux équipes Formation et Documentation de Stormshield, composées d’une douzaine de personnes, réparties sur nos trois principaux sites. Vous participerez à nos diverses réunions d’équipes pour mettre à jour et améliorer nos ressources pédagogiques, monter en compétence et échanger sur la vie de la société Stormshield.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Alaix, en charge du recrutement, pour échanger sur votre parcours actuel et envisager une collaboration.
+
+2
+
+Un entretien avec Xavier, premier point pour vous expliquer plus en détail le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien avec une partie de votre future équipe.
+
+4
+
+Un dernier entretien RH avec William."
+97e05280-2607-427c-bf5b-34a2e32fae3b,Head of Channel & Regional Businesses F/H,"Paris, France",,Commerce,hybrid,2026-09-15,https://careers.stormshield.eu/jobs/8379421-head-of-channel-regional-businesses-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Sales
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Paris
+
+- TÉLÉTRAVAIL :
+2 jours par semaine
+
+Head of Channel & Regional Businesses :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des solutions de sécurité innovantes pour protéger les réseaux et les données. Pour continuer notre croissance, on recherche une ou un Head of Channel & Regional Businesses.
+
+Votre rôle sera de piloter et exécuter la stratégie commerciale indirecte (Channel) au niveau national et de piloter les activités commerciale vis-à-vis des clients finaux en région. Vous serez responsable de la performance globale du chiffre d’affaires généré via le réseau de distribution. Vous interviendrez auprès des clients finaux, tant publics que privés, dans votre périmètre.
+
+Nous recherchons une personne motivée, dotée d'une solide expérience en management d'équipes commerciales et d'excellentes compétences relationnelles. Une bonne connaissance du marché de la cybersécurité ainsi qu'une réelle capacité à fédérer un réseau de partenaires seront essentielles pour réussir dans ce poste. La maîtrise de la langue anglaise est requise.
+
+Quelles missions pour Head of Channel & Regional Businesses ?
+
+- Définir la stratégie Channel et Régions en cohérence avec la stratégie globale de l’entreprise ;
+
+- Définir les objectifs de chiffre d’affaires, de pipeline et de couverture marché ;
+
+- Piloter la performance commerciale (forecast, pipe, closing) ;
+
+- Manager, structurer et faire monter en compétences les équipes ;
+
+- Définir les territoires et s’assurer du respect des règles d’engagement internes ;
+
+- Recruter, former et accompagner les équipes ;
+
+- Intervenir en soutien sur les négociations complexes ou structurantes ;
+
+- Collaborer avec les équipes : produit, marketing, avant-vente et business development, ainsi que les grands comptes stratégiques ;
+
+- Développer une collaboration étroite avec les partenaires et clients stratégiques ;
+
+- Représenter l’entreprise auprès de l’écosystème Channel.
+
+Quelle équipe ?
+
+Vous rejoindrez l'équipe Sales, composée d’une vingtaine d’ingénieurs commerciaux et d’ingénieurs Avant‑vente regroupés par région. Vous intégrerez l'équipe de Bertrand.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec l’équipe de recrutement sur votre parcours et le poste.
+
+2
+
+Un entretien avec Bertrand, le manager, sur l’équipe, les projets et les attentes.
+
+3
+
+Un dernier entretien RH avec Cécile.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+7d6deab7-c083-4cfc-a6b1-4a6871ee9e40,Ingénieur QA Automatisation F/H,"Lyon, France",,R&D,hybrid,2026-03-16,https://careers.stormshield.eu/jobs/7396015-ingenieur-qa-automatisation-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Mesh Unified Management (MUM)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lyon
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Ingénieur QA Automatisation :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence en cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Afin de soutenir notre croissance, nous recherchons un ou une Ingénieure QA Automatisation dotée de solides connaissances techniques, autonome, capable de travailler en équipe et passionnée.
+
+Cette personne doit posséder une forte appétence pour la sécurité informatique, le sens des responsabilités et plusieurs années d’expérience dans la qualité logicielle, notamment en automatisation de tests, et qui soit motivée à contribuer à l’excellence de nos produits.
+
+Quelles missions pour l'Ingénieur QA ?
+
+- Participer à l’élaboration de la stratégie de test produit ;
+
+- Concevoir les scénarios de tests et assurer l’automatisation de ces tests ;
+
+- Analyser les résultats de tests ;
+
+- Caractériser, prioriser et rendre compte de toutes anomalies rencontrées lors des phases de tests ;
+
+- Être force de proposition sur l’amélioration du processus de test ;
+
+- Être référent sur le sujet de l’automatisation des tests et aider les autres QA à monter en compétence sur ce sujet.
+
+Quel est l’environnement technique ?
+
+- Référentiels : Jira, XRay, Confluence.
+
+- Tests automatiques : Python, Cucumber, Playwright, Typescript.
+
+- Intégration continue : GitLab CI, Git.
+
+- Méthodologie : Agilité, Scrum, BDD.
+
+Quelle équipe ?
+
+Vous rejoindrez l'équipe MUM, managée par Nina. Cette équipe est composée de plus de 30 personnes (Développeurs, QAs, Technical Leaders, Scrum Masters, Product Owners, Responsable Qualité produit et Référents supports), répartie en quatre équipes et organisée en sprints de deux semaines.
+
+Quel produit ?
+
+MUM, solution unifiée SaaS en cybersécurité, offre une plateforme intégrée et basée sur le cloud, conçue pour offrir une protection complète contre les menaces numériques. Elle permet aux entreprises de gérer et de contrôler efficacement la sécurité de leurs actifs numériques, quel que soit le point d’accès, que ce soit sur site, sur le cloud ou sur des appareils mobiles.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec William, en charge du recrutement, pour faire connaissance et échanger sur votre parcours.
+
+2
+
+Un entretien téléphonique avec Nina, accompagnée de l'architecte, afin de vous présenter le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien technique avec Nina et une partie de votre future équipe, incluant des exercices de développement.
+
+4
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+6b65201f-3b4b-40da-aa8e-7abda1c9fdb9,Ingénieur QA Infra Non Régression - Système & Réseau F/H,"Lille, France",,R&D,hybrid,2026-09-10,https://careers.stormshield.eu/jobs/8357225-ingenieur-qa-infra-non-regression-systeme-reseau-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Stormshield Network Security (SNS)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Villeneuve d'Ascq
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Ingénieur QA Système et Réseaux :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche un ou une Ingénieure QA Système et Réseaux.
+
+Vous venez du monde de l’IT ou de l’intégration de systèmes réseaux et vous souhaitez travailler en R&D (Recherche et Développement). Au sein d’une équipe dynamique et créative, vous participerez au renforcement de notre équipe Assurance Qualité sur nos solutions majeures. Nous recherchons une personne qui aime monter des maquettes avec des équipements réseaux mais aussi développer des tests automatisés.
+
+Quelles missions pour l'Ingénieur QA Système et Réseaux ?
+
+- Tester et valider les développements logiciels sur les firewalls en exécutant des plans de tests à partir des spécifications fonctionnelles et des exigences associées ;
+
+- Enrichir et maintenir en condition opérationnelle nos infrastructures de tests (installation de serveurs, d’applications, configuration réseau…) ;
+
+- Déployer des maquettes avec des équipements variés afin de tester dans les conditions réelles du client les développements en cours ;
+
+- Développer des tests automatisés afin d’assurer la non‑régression de nos produits ;
+
+- Fiabiliser nos tests automatisés existants ;
+
+- Diagnostiquer les défaillances de nos solutions de sécurité en vue de leur correction (reproduction, maquettage système et réseau, analyses…) ;
+
+- Participer à l’amélioration des performances de nos solutions (par le biais de bench et de stress‑tests) ;
+
+- Être force de proposition pour améliorer les produits (fonctionnel et qualité) ;
+
+- Aider les équipes Stormshield (support technique, avant‑vente, développeurs…) à reproduire et analyser les problèmes remontés.
+
+Quel est l’environnement technique ?
+
+- Réseaux : Réseau TCP/IP, Sécurité réseau, VPN, Firewalling…
+
+- Écosystème : GNU/Linux, FreeBSD
+
+- Scripting : Perl, Python, Shell
+
+- Administration système : DNS, LDAP
+
+- Environnements virtualisés : VMware, KVM, HyperV, Proxmox, Xen Citrix
+
+- Autres compétences appréciées : Docker, Jenkins, Ansible
+
+Quelle équipe ?
+
+Vous serez intégré à l'une des équipes SNS managée par Arnaud, composée d’une vingtaine de personnes (Développeurs, Testeurs, Tech’Leaders, Scrum Master, Product Owner). Vous rejoindrez une Scrum Team de 10‑15 personnes (Kanban). La notion d'équipe est au cœur de notre fonctionnement.
+
+Quel produit ?
+
+Vous serez amené à travailler sur les firewalls Stormshield qui constituent notre gamme Stormshield Network Security (SNS). Ces produits sont une brique essentielle de la cybersécurité et vont contrôler le trafic sur le réseau pour identifier et bloquer toutes les connexions indésirables et malveillantes.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Gauthier, en charge du recrutement, pour échanger sur ce que vous faites actuellement et comment travailler ensemble.
+
+2
+
+Un entretien téléphonique avec Arnaud, manager de l'équipe, pour comprendre plus en détails les missions et le contenu du poste.
+
+3
+
+Un entretien technique avec Arnaud et une partie de son équipe, autour d'exercices pratiques relatifs aux missions des QA sur notre produit.
+
+4
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+f1ccd38f-551b-41dd-89d4-40dfbe10eb71,Ingénieur Système et Réseau F/H,"Lille, France",,R&D,hybrid,2026-03-17,https://careers.stormshield.eu/jobs/7403549-ingenieur-systeme-et-reseau-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Network Security (SNS)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lille
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Ingénieur Système et Réseau :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, nous recherchons un ou une Ingénieure Système et Réseau.
+
+Au sein d’une équipe dynamique et créative, vous participerez au renforcement de notre équipe Assurance Qualité sur nos solutions majeures. La personne sera amenée à déployer et maquetter de façon autonome différents environnements systèmes IT et réseaux (switches, routeurs, firewall, serveurs et applications) afin de tester nos firewalls Stormshield dans diverses configurations.
+
+Vous analyserez le comportement de nos produits avec le trafic réseau que vous aurez généré et vous apporterez une analyse ainsi que des recommandations à nos équipes de développement.
+
+Si vous êtes motivé ou motivée, vous apprécierez monter des maquettes avec des équipements réseaux tout en développant des tests automatisés.
+
+Quelles missions pour le poste d’Ingénieur Système et Réseau ?
+
+- Tester et mesurer les performances des développements logiciels sur les firewalls ;
+
+- Réaliser les mesures de performances de nos produits (capacités et limites) ;
+
+- Concevoir et exécuter des tests de charge ou de stress pour éprouver la stabilité et la robustesse de nos solutions ;
+
+- Enrichir et maintenir en condition opérationnelle nos infrastructures de mesures de performances ;
+
+- Déployer des maquettes avec des équipements variés afin de tester dans les conditions réelles du client les développements en cours ;
+
+- Développer des tests automatisés afin d'assurer la reproductibilité de nos mesures de performances déjà réalisées ;
+
+- Diagnostiquer les défaillances de nos solutions de sécurité en vue de leur correction (reproduction, maquettage système et réseau, analyses…) ;
+
+- Être force de proposition pour améliorer les produits (le fonctionnel et la qualité) ;
+
+- Aider les équipes Stormshield (support technique, avant‑vente, développeurs…) à reproduire et analyser les problèmes remontés.
+
+Quel est l’environnement technique ?
+
+- Mesures de performances : Spirent Test Center, Spirent Avalanche, Spirent Cyberflood, Cisco TRex Realistic Traffic Generator ;
+
+- Réseaux : Réseau TCP/IP, sécurité des réseaux, VPN, Firewall ;
+
+- Écosystème : Linux, FreeBSD ;
+
+- Scripting : Perl, Shell ;
+
+- Environnements virtualisés : VMware, KVM.
+
+Quelle équipe ?
+
+Vous serez intégré ou intégrée aux équipes SNS, dirigée par Kevin, Mathieu ou Emmanuel. Chaque équipe compte une vingtaine de personnes : développeurs, testeurs, Tech‑Leaders, Scrum Master, Product Owner. Vous rejoindrez une Scrum Team de 5 à 7 personnes (Scrum/Kanban). La collaboration est au cœur de notre fonctionnement ; les équipes sont auto‑managées et décident de leurs engagements de réalisation.
+
+Quel produit ?
+
+Vous serez amené ou amenée à travailler sur les firewalls Stormshield qui constituent notre gamme Stormshield Network Security (SNS). En sécurisant le réseau, un firewall d’entreprise protège l’entreprise de la plupart des cyberattaques. Pour plus d’informations sur nos produits, vous pouvez visiter notre site : Firewalls Stormshield.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Gauthier, en charge du recrutement.
+
+2
+
+Un entretien téléphonique avec Matthieu, Kevin ou Emmanuel, un premier point pour vous expliquer plus en détail le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien technique avec Matthieu, Kevin ou Emmanuel, et une partie de leur équipe, autour d'exercices de développement.
+
+4
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+fb35f6d8-d199-4a3c-81a6-c9746832ae08,Inside Sales (secteur IT) F/H,"Paris, France",,Commerce,hybrid,2026-03-16,https://careers.stormshield.eu/jobs/7395242-inside-sales-secteur-it-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Sales
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Paris
+
+- TÉLÉTRAVAIL :
+2 jours par semaine
+
+Assistant Commercial :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche une ou un inside sales avec une expérience dans la vente de produits liés à l'IT.
+
+Manager de l'équipe, Sophie recherche une personne pour apporter un support quotidien aux équipes commerciales terrain et s’occuper de l’activité de renouvellement de maintenance, en France comme dans les autres pays où Stormshield opère. Nous recherchons une personne motivée, organisée et capable de travailler en étroite collaboration avec les partenaires, revendeurs et équipes internes.
+
+Quelles missions pour l'Inside Sales ?
+
+- Coordonner les actions avec les autres équipes commerciales en France et à l’international ;
+
+- Aider à la consolidation des bases de renouvellement / inventaire des licences auprès des clients ;
+
+- Maximiser le taux de renouvellement des maintenances ;
+
+- Maximiser le revenu en proposant toutes les options d’upgrade ou de cross‑selling, en collaboration avec les équipes commerciales ;
+
+- Travailler en coordination avec les acteurs du circuit de distribution afin de garantir la fidélisation client, anticiper les renouvellements et limiter le « churn » ;
+
+- Maintenir un forecast fiable et mettre à jour le CRM.
+
+- Assistance au reporting commercial
+
+Quelle équipe ?
+
+Vous serez intégrée à l'équipe Inside Sales, managée par Sophie et qui regroupe 3 personnes.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Alaix, en charge du recrutement, pour échanger sur ce que vous faites actuellement et vous présenter le poste.
+
+2
+
+Un entretien plus complet avec Sophie, dans nos locaux, pour vous faire découvrir une partie de l'équipe et se projeter ensemble.
+
+3
+
+Un dernier entretien RH avec Cécile.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+2f30cf41-5995-4ad2-82a7-c2c6e2ebef42,Pentester Confirmé - Senior F/H,"Lyon, France","Paris, France; Lille, France",R&D,hybrid,2026-03-19,https://careers.stormshield.eu/jobs/7429052-pentester-confirme-senior-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Product Security Evaluation (PSE)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Paris, Lyon, Lille
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Pentester Confirmé / Senior :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche un ou une Pentester Senior avec de solides connaissances techniques en tests d’intrusion et en réseau, autonome, capable de travailler en équipe et passionnée.
+
+L’équipe Product Security Evaluation (PSE) a pour principale mission de réaliser des tests d’intrusions et de la recherche de vulnérabilités sur nos produits. Ils sont souvent réalisés avec une approche boite noire puis boite blanche selon le besoin et le périmètre à auditer.
+
+Les tests d’intrusions concernent l’ensemble des solutions et produits proposés à nos clients ainsi que les services métiers et IT de l’entreprise.
+
+À travers nos audits internes, nous participons à l’évangélisation des bonnes pratiques de sécurité ainsi que promouvoir l’approche secure by design.
+
+Quelles missions pour le Pentester Senior ?
+
+- Effectuer des tests d’intrusion sur l’ensemble des solutions et produits proposés aux clients ainsi que sur les services métiers et IT de l’entreprise ;
+
+- Contribuer à l’évangélisation des bonnes pratiques de sécurité et promouvoir l’approche secure by design ;
+
+- Automatiser et intégrer les tests de sécurité dans le processus de développement des produits ;
+
+- Accompagner, conseiller et sensibiliser les équipes de R&D ;
+
+- Animer des formations de hacking éthique en interne ;
+
+- Réaliser des audits de code source et d’architecture ;
+
+- Gérer, accompagner et suivre les campagnes de Bug Bounty ;
+
+- Faire du fuzzing et de la recherche de vulnérabilité avancée ;
+
+- Accompagner la DSI et mener des campagnes de sensibilisation au phishing ;
+
+- Réaliser des pentests internes et des scénarios « assumed breach ».
+
+Quel est l’environnement technique ?
+
+Les tests d’intrusion concernent l’ensemble de nos produits tels que :
+
+- Nos pare‑feux SNS (Stormshield Network Security) ;
+
+- Nos offres et services cloud ;
+
+- Nos solutions de chiffrement de données (client lourd, SDK, API REST, appli mobile) ;
+
+- Nos produits compagnons (Client VPN, Agent TS / SSO, etc.) ;
+
+- Nos applications mobiles et multi‑OS (Android, iOS, Mac, Windows, Linux) ;
+
+- Notre console d’administration centralisée SMC (Stormshield Management Console).
+
+Les missions de tests d’intrusion peuvent également porter sur :
+
+- Services métiers exposés sur Internet (API, infra SaaS, etc.) ;
+
+- Sites web utilisés par les clients (MyStormshield, support, knowledge base, etc.) ;
+
+- Audits de découvertes ponctuels ;
+
+- FreeBSD, Linux, Windows, Mac, infrastructures cloud, etc. ;
+
+- Front‑ends Web, clients lourds, services cloud, protocoles réseaux, applications mobiles, etc. ;
+
+- Fonctionnalités spécifiques, nouvelles fonctionnalités ou mises à jour, produit dans son ensemble, etc.
+
+Quelle équipe ?
+
+L’intégration se fera au sein de l’équipe PSE, rattachée à la direction Cybersécurité de Stormshield. L’équipe est actuellement répartie entre nos locaux d’Issy‑les‑Moulineaux ou en full télétravail.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labélisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec William, en charge du recrutement chez Stormshield.
+
+2
+
+Un entretien avec Clément qui présentera le poste, les missions et l’organisation de l’activité interne.
+
+3
+
+Un exercice pratique type CTF.
+
+4
+
+Un entretien avec Franck, notre VP Engineering.
+
+5
+
+Un dernier entretien RH avec Audrey.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+8d53f317-563d-418d-9045-3ada4d3411c2,Regional Account Manager Aix-en-Provence/Marseille F/H,,,Commerce,hybrid,2026-06-01,https://careers.stormshield.eu/jobs/7830345-regional-account-manager-aix-en-provence-marseille-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Sales
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Aix-en-Provence/Marseille
+
+- TÉLÉTRAVAIL :
+3 jours de télétravail
+
+Regional Account Manager :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, nous recherchons un ou une Regional Account Manager à Aix-en-Provence ou Marseille.
+
+Cette fonction consiste à développer un portefeuille de clients et prospects finaux (publics et privés) sur votre zone ou votre liste de comptes nommés, en vous appuyant sur le réseau de distribution.
+
+Quelles missions pour le Regional Account Manager ?
+
+- Développer le chiffre d’affaires sur la région Provence-Alpes-Côte d'Azur ;
+
+- Prospecter de nouveaux clients finaux ;
+
+- Identifier et qualifier des projets court, moyen et long terme ;
+
+- Piloter les opportunités en coordination avec les partenaires ;
+
+- Construire et maintenir un pipe qualifié ainsi qu’un forecast précis ;
+
+- Représenter l’entreprise auprès des acteurs régionaux ;
+
+- Assurer un reporting précis et régulier.
+
+Quelle équipe ?
+
+Vous rejoindrez l'équipe Sales, composée d’une vingtaine d’ingénieurs commerciaux et d’ingénieurs Avant‑Vente regroupés par région. Vous intégrerez l'équipe de Bertrand.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec William.
+
+2
+
+Un entretien avec Bertrand, le manager, qui vous présentera plus en profondeur le poste, l'équipe et les missions.
+
+3
+
+Un dernier entretien RH avec Cécile.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+e7dda82d-f03a-4a51-a355-57a38bfdc2db,Technicien Réseau & Sécurité Senior F/H,"Lille, France",,Support,hybrid,2026-03-16,https://careers.stormshield.eu/jobs/7396852-technicien-reseau-securite-senior-f-h,"Résumé du poste
+
+- ÉQUIPE :
+Technical Assistance Center (TAC)
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lille
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Technicien Réseau & Sécurité Senior :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Pour continuer notre croissance, on recherche un ou une Technicienne Réseau et Sécurité Senior.
+
+Manager de l'équipe TAC, Rémy recrute un expert réseau pour prendre en charge, en français et en anglais, les incidents impliquant les aspects réseau, système et sécurité de nos produits et des infrastructures dans lesquelles ils sont intégrés.
+
+Vous serez en contact direct avec nos clients et partenaires formés et certifiés sur les solutions Stormshield.
+
+Nous recherchons une personne maîtrisant les réseaux TCP/IP, le routage IP et le NAT, tant sur le plan théorique que pratique.
+
+Vous avez déjà mis en place des VPN, vous détenez une certification CSNA/CSNE ou justifiez d’une expérience confirmée sur les produits Stormshield, et vous êtes à l’aise avec les systèmes UNIX et GNU/Linux ainsi que les réunions techniques multilingues.
+
+Quelles missions pour le Technicien Réseau & Sécurité Senior ?
+
+- Identification des dysfonctionnements via étude de logs et captures/analyse de flux réseaux ;
+
+- Mise en place de mesures correctives ;
+
+- Reproduction de cas clients via maquettes physiques ou virtuelles ;
+
+- Interface avec notre département R&D afin d’escalader les défaillances constatées nécessitant une correction ou une amélioration ;
+
+- Documentation : alimentation de la Knowledge Base, relecture des notes techniques ;
+
+- Présentations techniques en ligne au réseau de partenaires.
+
+Quel est l’environnement technique ?
+
+- Protocoles : OSPF, BGP, HTTP, SMTP, FTP, DHCP, LDAP... ;
+
+- Scripting : bash, Shell ;
+
+- Virtualisation : VMware, HyperV, Citrix XEN ;
+
+- Sécurité informatique : firewall, IDS, IPS, VPN, PKI, SSH, chiffrement, authentification, etc.
+
+Quelle équipe ?
+
+Vous rejoindrez l'équipe Technical Assistance Center (TAC), managée par Rémy. Cette équipe est constituée de trois niveaux et d’une trentaine de personnes, où l’entraide et l’expertise technique sont au rendez-vous.
+
+Quel produit ?
+
+Vous travaillerez sur les firewalls Stormshield ainsi que sur d’autres produits (Client VPN, agent d'authentification, solution de centralisation de logs, serveur d'administration centralisé) qui composent la gamme Stormshield Network Security (SNS). Vous accompagnerez nos clients certifiés dans l’utilisation de ces solutions et la résolution de leurs problématiques.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec Gauthier, en charge du recrutement, pour échanger sur ce que vous faites actuellement et comment travailler ensemble.
+
+2
+
+Un entretien avec Rémy, le manager, qui vous présentera plus en profondeur le poste, l'équipe et les missions.
+
+3
+
+Un entretien technique avec Rémy afin d'évaluer vos compétences.
+
+4
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."
+3adacfe7-6522-48ca-b4a7-f6a5d95c0920,Test Manager - F/H,"Lyon, France",,R&D,hybrid,2026-04-29,https://careers.stormshield.eu/jobs/7660208-test-manager-f-h,"Résumé du poste
+
+- ÉQUIPE :
+SUN
+
+- CONTRAT :
+CDI
+
+- LOCALISATION :
+Lyon
+
+- TÉLÉTRAVAIL :
+3 jours par semaine
+
+Test Manager :
+en un coup d'œil
+
+Premier éditeur français et acteur européen de référence de cybersécurité, Stormshield est une filiale d’Airbus Defence and Space Cyber Programmes et propose des produits de sécurité innovants, certifiés et qualifiés au plus haut niveau européen, pour la protection des réseaux et des données. Au sein de la R&D de Stormshield et plus précisément des équipes développant des solutions SaaS nouvelles et stratégiques pour l’entreprise, nous recherchons un ou une Test Manager.
+
+Vos enjeux de demain : apporter toute votre expertise en qualité produit sur un périmètre transverse embarquant des modules SaaS qui administrent des pare‑feux matériels et des agents déployés sur des postes de travail et sur téléphone mobile. Votre périmètre est donc un produit intégrant plusieurs modules gérés par des équipes différentes, toutes internes à l’entreprise, ainsi que des équipes de tests systèmes (tests de bout en bout).
+
+Vous parlez ISTQB, vous vous sentez responsable de ce qui est livré, vous connaissez plusieurs outils liés à la qualité produit et vous savez écouter tout en portant des convictions fortes.
+
+Quelles missions pour le Test Manager ?
+
+- Accompagner les Responsables Qualité Produit de votre périmètre sur la stratégie de tests, avec pour objectif de garantir une livraison fiable ;
+
+- Apporter votre expertise technique et fonctionnelle à l’équipe pour détecter les améliorations possibles, les points de blocage et prioriser et piloter les actions qui en découlent ;
+
+- Mettre en place des indicateurs permettant de mesurer la qualité et son évolution ;
+
+- Faire converger, coordonner les équipes en étant force de proposition sur des méthodes, périmètres et outils de tests pour clarifier les responsabilités de chaque équipe et les interfaces techniques et fonctionnelles, notamment dans les phases de mise en production ;
+
+- Suivre les retours clients majeurs (bugs/escalade/améliorations) afin de vous assurer de leur bonne prise en compte par les équipes ;
+
+- Mettre en place un système permettant de délivrer en continu un maximum d’applicatifs tout en garantissant une inter‑compatibilité permanente ;
+
+- Porter l’exigence de qualité en transverse, en collaboration forte avec le Product Owner, le Responsable Sécurité Produit ;
+
+- Porter la vision qualité produit auprès des décideurs, notamment les Product Managers ;
+
+- Animer l’équipe de RQPs dans un but d’amélioration continue (automatisation des tests, tests de performance, tests de non‑régression, etc.).
+
+Quel est l’environnement technique ?
+
+- Environnement de développement multi‑langages : .Net, Node.js, Typescript, React, Rust, etc. ;
+
+- Plateformes : Windows, Linux, macOS, Android et iOS ;
+
+- Outils de tests et référentiels : JIRA, XRay, Yogi ;
+
+- Tests automatisés : Cucumber, Gherkin, Playwright ;
+
+- Gestion de projet : Agile/Scrum opérationnel avec une gestion de roadmap.
+
+Quelle équipe ?
+
+Vous travaillez en collaboration forte avec le Product Owner et le Responsable Sécurité Produit, ainsi qu’avec les Responsables Qualité Produit des différents modules. Vos interactions seront à la fois internes et externes à l’équipe.
+
+Quel produit ?
+
+SUN est la nouvelle console centralisée d’administration des infrastructures de sécurité réseau Stormshield. Proposée sous forme de service en ligne, elle vous donne la possibilité de gérer l’ensemble du parc de pare‑feux Stormshield Network Security (SNS) ainsi qu’un socle d’agents capable de fournir des services d’accès distants et de Zero Trust, renforçant la protection et la visibilité de votre réseau. Le tout est accessible via une interface web unique.
+
+Les +
+Stormshield
+
+- Innovation Time Off
+
+- Primes Vacances, participation et intéressement
+
+- ESOP Airbus
+
+- Congés enfants malades
+
+- Entreprise labellisée Positive Company avec deux étoiles
+
+Découvrir notre politique sociale
+
+Process de recrutement
+
+1
+
+Un premier échange avec William, en charge du recrutement, pour échanger sur votre parcours actuel et envisager une collaboration.
+
+2
+
+Un entretien téléphonique avec Nina, la manager, et Frantz, Product Owner de l’équipe, afin de vous présenter le fonctionnement de l'équipe et la vision du poste.
+
+3
+
+Un entretien de match avec Johan, Architecte, Bruno, RQP sur un module SaaS, et Nicolas, RQP sur un module Agent, pour parler davantage des aspects techniques et de la stratégie de tests.
+
+4
+
+Un dernier entretien RH avec Sylvie.
+
+Les engagements Stormshield
+
+Stormshield s’engage à créer un environnement de travail inclusif. Nous accueillons toutes les candidatures, quels que soient le milieu social et culturel, l’âge, le genre, l’invalidité, l’orientation sexuelle ou les croyances religieuses des postulants."

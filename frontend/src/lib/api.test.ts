@@ -9,57 +9,31 @@ const parse = (filters: Partial<Filters>, offset = 0, limit = 60) =>
 
 describe('toQuery', () => {
   it('sends only paging when nothing is filtered', () => {
-    expect(parse({})).toEqual({ sort: 'fit', limit: '60', offset: '0' });
+    expect(parse({})).toEqual({ sort: 'priority', origin: 'extract', limit: '60', offset: '0' });
+  });
+
+  it('asks for every source when no origin is chosen', () => {
+    expect(parse({ origin: '' })).not.toHaveProperty('origin');
+  });
+
+  it('asks for removed postings only in the Removed view', () => {
+    expect(parse({})).not.toHaveProperty('dismissed_only');
+    expect(parse({ dismissed_only: true })).toMatchObject({ dismissed_only: 'true' });
   });
 
   it('omits empty controls rather than sending blanks', () => {
-    const query = parse({ search: 'embedded', location: '', company: '' });
+    const query = parse({ search: 'embedded', country: '', company: '' });
     expect(query.search).toBe('embedded');
-    expect(query).not.toHaveProperty('location');
+    expect(query).not.toHaveProperty('country');
     expect(query).not.toHaveProperty('company');
   });
 
-  it('carries every text and select control', () => {
-    expect(
-      parse({
-        search: 'security',
-        location: 'Rome',
-        remote: 'Italy',
-        category: 'Cloud Security',
-        seniority: 'Senior',
-        company: 'Globex',
-        years_experience: '6-9',
-        posted_within: 'week',
-        category_type: 'Pivot / Growth Opportunity',
-        sort: 'interest',
-      }),
-    ).toMatchObject({
+  it('carries the search, the country and the company', () => {
+    expect(parse({ search: 'security', country: 'EUROPE', company: 'Thales', excluded: 'include' })).toMatchObject({
       search: 'security',
-      location: 'Rome',
-      remote: 'Italy',
-      category: 'Cloud Security',
-      seniority: 'Senior',
-      company: 'Globex',
-      years_experience: '6-9',
-      posted_within: 'week',
-      category_type: 'Pivot / Growth Opportunity',
-      sort: 'interest',
-    });
-  });
-
-  it('sends rate and currency only alongside an amount', () => {
-    // Rate and currency default to Yearly/USD, but on their own they are not
-    // a filter — sending them would look like a compensation constraint.
-    expect(parse({ rate: 'Monthly', currency: 'EUR' })).not.toHaveProperty('rate');
-
-    const withAmount = parse({ rate: 'Monthly', currency: 'EUR', min_amount: '9000' });
-    expect(withAmount).toMatchObject({ min_amount: '9000', rate: 'Monthly', currency: 'EUR' });
-  });
-
-  it('sends match_posting_currency only when an amount is set', () => {
-    expect(parse({ match_posting_currency: true })).not.toHaveProperty('match_posting_currency');
-    expect(parse({ match_posting_currency: true, min_amount: '150000' })).toMatchObject({
-      match_posting_currency: 'true',
+      country: 'EUROPE',
+      company: 'Thales',
+      excluded: 'include',
     });
   });
 
@@ -73,8 +47,8 @@ describe('toQuery', () => {
   });
 
   it('escapes values that would otherwise break the query string', () => {
-    const query = parse({ category_type: 'Pivot / Growth Opportunity', search: 'C++ & Rust' });
-    expect(query.category_type).toBe('Pivot / Growth Opportunity');
+    const query = parse({ company: 'Thales Alenia Space & Co', search: 'C++ & Rust' });
+    expect(query.company).toBe('Thales Alenia Space & Co');
     expect(query.search).toBe('C++ & Rust');
   });
 });

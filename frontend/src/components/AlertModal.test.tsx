@@ -18,17 +18,16 @@ describe('AlertModal', () => {
   beforeEach(() => vi.restoreAllMocks());
 
   it('summarises what will be watched before saving', () => {
-    open({ search: 'embedded', category: 'Cloud Security', min_amount: '150000', currency: 'EUR' });
+    open({ search: 'embedded', country: 'IT', company: 'Leonardo' });
     expect(screen.getByText('embedded')).toBeInTheDocument();
-    expect(screen.getByText('Cloud Security')).toBeInTheDocument();
-    expect(screen.getByText('EUR 150,000 yearly')).toBeInTheDocument();
+    expect(screen.getByText('Italy')).toBeInTheDocument();
+    expect(screen.getByText('Leonardo')).toBeInTheDocument();
   });
 
-  it('says "All" for filters the user left open', () => {
+  it('says "All" and "Anywhere" for filters the user left open', () => {
     open();
-    expect(screen.getAllByText('All').length).toBeGreaterThan(0);
+    expect(screen.getAllByText('All').length).toBe(2);
     expect(screen.getByText('Anywhere')).toBeInTheDocument();
-    expect(screen.getByText('Any')).toBeInTheDocument();
   });
 
   it('will not submit without an email', () => {
@@ -40,7 +39,7 @@ describe('AlertModal', () => {
     const create = vi.spyOn(api, 'createAlert').mockResolvedValue({
       id: 1, email: 'a@b.c', filters: {}, active: true, created_at: null, last_sent_at: null,
     });
-    open({ search: 'embedded', seniority: 'Senior' });
+    open({ search: 'embedded', country: 'EUROPE' });
 
     await userEvent.type(screen.getByLabelText(/Your email/), 'candidate@example.com');
     await userEvent.click(screen.getByRole('button', { name: /Save alert/ }));
@@ -48,27 +47,9 @@ describe('AlertModal', () => {
     await waitFor(() => expect(create).toHaveBeenCalled());
     const [email, filters] = create.mock.calls[0];
     expect(email).toBe('candidate@example.com');
-    expect(filters).toEqual({ search: 'embedded', seniority: 'Senior' });
+    expect(filters).toEqual({ search: 'embedded', country: 'EUROPE' });
     // Empty controls must not travel as blanks.
-    expect(filters).not.toHaveProperty('location');
-  });
-
-  it('sends compensation as a number alongside its rate and currency', async () => {
-    const create = vi.spyOn(api, 'createAlert').mockResolvedValue({
-      id: 1, email: 'a@b.c', filters: {}, active: true, created_at: null, last_sent_at: null,
-    });
-    open({ min_amount: '150000', rate: 'Monthly', currency: 'GBP', match_posting_currency: true });
-
-    await userEvent.type(screen.getByLabelText(/Your email/), 'candidate@example.com');
-    await userEvent.click(screen.getByRole('button', { name: /Save alert/ }));
-
-    await waitFor(() => expect(create).toHaveBeenCalled());
-    expect(create.mock.calls[0][1]).toMatchObject({
-      min_amount: 150000,
-      rate: 'Monthly',
-      currency: 'GBP',
-      match_posting_currency: true,
-    });
+    expect(filters).not.toHaveProperty('company');
   });
 
   it('confirms the address the digests will go to', async () => {

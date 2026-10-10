@@ -23,10 +23,11 @@ def test_jobs_endpoint_paginates_and_filters(client):
         seed(external_id=str(index), title=f"Role {index}", company="Acme")
     seed(external_id="9", title="Other", company="Globex")
 
-    page = client.get("/api/jobs", params={"limit": 2}).json()
+    # The seeded postings are in California: the rules exclude them (a visa).
+    page = client.get("/api/jobs", params={"limit": 2, "excluded": "include"}).json()
     assert page["total"] == 4 and len(page["items"]) == 2 and page["has_more"] is True
 
-    filtered = client.get("/api/jobs", params={"company": "Globex"}).json()
+    filtered = client.get("/api/jobs", params={"company": "Globex", "excluded": "include"}).json()
     assert [item["title"] for item in filtered["items"]] == ["Other"]
 
 
@@ -57,8 +58,9 @@ def test_bookmark_toggles_and_persists(client):
 def test_dismiss_hides_a_job_from_the_grid(client):
     job_id = seed(external_id="1", title="Not For Me")
     client.post(f"/api/jobs/{job_id}/dismiss")
-    assert client.get("/api/jobs").json()["total"] == 0
-    assert client.get("/api/jobs", params={"include_dismissed": True}).json()["total"] == 1
+    shown = {"excluded": "include"}  # seeded in California, which the rules exclude
+    assert client.get("/api/jobs", params=shown).json()["total"] == 0
+    assert client.get("/api/jobs", params={**shown, "include_dismissed": True}).json()["total"] == 1
 
 
 def test_unknown_job_returns_404(client):

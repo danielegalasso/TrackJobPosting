@@ -26,7 +26,7 @@ from .models import (
     RawPosting,
 )
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS jobs (
@@ -56,6 +56,12 @@ CREATE TABLE IF NOT EXISTS jobs (
     scored                INTEGER NOT NULL DEFAULT 0,
     saved                 INTEGER NOT NULL DEFAULT 0,
     dismissed             INTEGER NOT NULL DEFAULT 0,
+    -- Last day to apply, when the source states one (ISO date).
+    deadline              TEXT,
+    -- The advert itself, as plain text, when the source carries it.
+    description           TEXT NOT NULL DEFAULT '',
+    -- When the posting stopped being listed at its source. NULL while live.
+    closed_at             TEXT,
     created_at            TEXT NOT NULL DEFAULT (datetime('now')),
     updated_at            TEXT NOT NULL DEFAULT (datetime('now'))
 );
@@ -176,6 +182,30 @@ def reset_connection() -> None:
 #: `CREATE TABLE IF NOT EXISTS` does nothing to a table that is already there.
 _ADDED_COLUMNS: tuple[tuple[str, str, str], ...] = (
     ("jobs", "scored", "INTEGER NOT NULL DEFAULT 0"),
+    ("jobs", "deadline", "TEXT"),
+    ("jobs", "description", "TEXT NOT NULL DEFAULT ''"),
+    ("jobs", "closed_at", "TEXT"),
+    # Priority (ranking.py): the rules' score and why, the rules version and
+    # when they ran, and the model's review against the operator's brief.
+    ("jobs", "priority_score", "INTEGER"),
+    ("jobs", "priority_rules", "TEXT"),
+    ("jobs", "priority_version", "TEXT"),
+    ("jobs", "priority_ranked_at", "TEXT"),
+    ("jobs", "priority_llm_score", "INTEGER"),
+    ("jobs", "priority_llm", "TEXT"),
+    # Why the rules keep the posting from review (ranking.EXCLUDED_*), or ''.
+    ("jobs", "priority_excluded", "TEXT NOT NULL DEFAULT ''"),
+    # The countries the location names, as ",IT,FR," (geo.py), or ''.
+    ("jobs", "countries", "TEXT NOT NULL DEFAULT ''"),
+)
+
+#: Indexes on added columns. They cannot sit in _SCHEMA, which runs before the
+#: columns are added to a database created by an older release.
+_ADDED_INDEXES: tuple[str, ...] = (
+    "CREATE INDEX IF NOT EXISTS idx_jobs_deadline ON jobs (deadline)",
+    "CREATE INDEX IF NOT EXISTS idx_jobs_closed ON jobs (closed_at)",
+    "CREATE INDEX IF NOT EXISTS idx_jobs_priority "
+    "ON jobs (COALESCE(priority_llm_score, priority_score) DESC)",
 )
 
 
@@ -188,6 +218,8 @@ def _apply_added_columns(conn: sqlite3.Connection) -> None:
                 # Everything already in the table was stored only after being
                 # scored, which is what the old code did.
                 conn.execute("UPDATE jobs SET scored = 1")
+    for statement in _ADDED_INDEXES:
+        conn.execute(statement)
 
 
 def init_db() -> None:
@@ -419,6 +451,8 @@ def upsert_job(posting: RawPosting, evaluation: JobEvaluation) -> str:
 
 
 def _row_to_job(row: sqlite3.Row) -> Job:
+    from .ranking import describe  # local import: ranking imports db
+
     return Job(
         id=row["id"],
         title=row["title"],
@@ -441,7 +475,12 @@ def _row_to_job(row: sqlite3.Row) -> Job:
         source_type=row["source_type"],
         saved=bool(row["saved"]),
         dismissed=bool(row["dismissed"]),
+        scored=bool(row["scored"]),
+        deadline=row["deadline"],
+        description=row["description"] or "",
+        closed=row["closed_at"] is not None,
         created_at=row["created_at"],
+        **describe(row),
     )
 
 
@@ -474,6 +513,11 @@ def build_job_query(
     match_posting_currency: bool = False,
     saved_only: bool = False,
     include_dismissed: bool = False,
+    dismissed_only: bool = False,
+    include_closed: bool = False,
+    origin: str | None = None,
+    excluded: str | None = None,
+    country: str | None = None,
     scored: str | None = None,
     min_experience_fit: int | None = None,
     min_interest_fit: int | None = None,
@@ -489,10 +533,30 @@ def build_job_query(
     clauses: list[str] = ["1=1"]
     params: list[Any] = []
 
-    if not include_dismissed:
+    if dismissed_only:
+        clauses.append("dismissed = 1")
+    elif not include_dismissed:
         clauses.append("dismissed = 0")
     if saved_only:
         clauses.append("saved = 1")
+    # A posting its source no longer lists is closed. It leaves the grid, but
+    # one the operator starred or removed stays reachable from those views,
+    # so a decision is never silently lost.
+    if not (include_closed or saved_only or dismissed_only):
+        clauses.append("closed_at IS NULL")
+    # Postings the rules keep from review (a visa, a senior role, ...) stay
+    # out of the search unless asked for; a starred or removed one stays
+    # where the operator put it.
+    if excluded == "only":
+        clauses.append("COALESCE(priority_excluded, '') != ''")
+    elif excluded != "include" and not (saved_only or dismissed_only):
+        clauses.append("COALESCE(priority_excluded, '') = ''")
+    # Two populations share the table: postings mirrored from the per-site
+    # extractors, and those the configured crawler fetched.
+    if origin == "extract":
+        clauses.append("source_type = 'extract'")
+    elif origin == "crawler":
+        clauses.append("source_type != 'extract'")
     # A posting is stored when it is found and judged afterwards, so the two
     # populations are worth separating: "scored" is what the fit filters can
     # speak about at all, "pending" is everything still waiting.
@@ -510,6 +574,12 @@ def build_job_query(
     if location:
         clauses.append("location LIKE ?")
         params.append(f"%{location}%")
+    if country:
+        from .geo import EUROPE, EUROPE_FILTER  # local import: keeps db free of geo at load
+
+        codes = sorted(EUROPE) if country.upper() == EUROPE_FILTER else [country.upper()]
+        clauses.append("(" + " OR ".join("countries LIKE ?" for _ in codes) + ")")
+        params.extend(f"%,{code},%" for code in codes)
     if remote:
         # "Remote from ..." matches either an explicit remote posting or one
         # that names the requested region.
@@ -572,8 +642,22 @@ def list_jobs(
 ) -> JobPage:
     where, params = build_job_query(**filters)
     order = {
+        # The model's review where there is one, the rules' score otherwise;
+        # on a tie, the sooner deadline.
+        "priority": (
+            "COALESCE(priority_llm_score, priority_score) IS NULL, "
+            "COALESCE(priority_llm_score, priority_score) DESC, "
+            "deadline IS NULL OR deadline = '', deadline ASC, date_posted DESC"
+        ),
         "fit": "MAX(experience_fit_score, interest_fit_score) DESC, date_posted DESC",
         "recent": "date_posted DESC, created_at DESC",
+        # Soonest deadline first; postings without one after those, and those
+        # whose deadline has passed (still listed: selection under way) last.
+        "deadline": (
+            "CASE WHEN deadline IS NULL OR deadline = '' THEN 1 "
+            "WHEN deadline < date('now') THEN 2 ELSE 0 END, "
+            "deadline ASC, date_posted DESC"
+        ),
         "experience": "experience_fit_score DESC, interest_fit_score DESC",
         "interest": "interest_fit_score DESC, experience_fit_score DESC",
         "compensation": "amount DESC",
@@ -616,12 +700,14 @@ def set_job_flag(job_id: str, field: str, value: bool | None) -> Job | None:
     return get_job(job_id)
 
 
-def facets() -> JobFacets:
+def facets(origin: str | None = None) -> JobFacets:
+    scope = {"extract": " AND source_type = 'extract'", "crawler": " AND source_type != 'extract'"}
     with connect() as conn:
         def distinct(column: str) -> list[str]:
             rows = conn.execute(
                 f"SELECT DISTINCT {column} AS v FROM jobs "
-                f"WHERE dismissed = 0 AND {column} IS NOT NULL AND {column} != '' "
+                f"WHERE dismissed = 0 AND closed_at IS NULL{scope.get(origin or '', '')} "
+                f"AND {column} IS NOT NULL AND {column} != '' "
                 f"ORDER BY v COLLATE NOCASE"
             ).fetchall()
             return [row["v"] for row in rows]
@@ -631,7 +717,29 @@ def facets() -> JobFacets:
             companies=distinct("company"),
             seniorities=distinct("seniority"),
             currencies=distinct("currency"),
+            countries=_country_facets(conn, scope.get(origin or "", "")),
         )
+
+
+def _country_facets(conn: sqlite3.Connection, scope: str) -> list[dict[str, Any]]:
+    """Each country with how many postings the search shows there, most first;
+    "Europe" first of all, counting each posting once."""
+    from .geo import EUROPE, EUROPE_FILTER, NAMES
+
+    counts: dict[str, int] = {}
+    europe = 0
+    for row in conn.execute(
+        "SELECT countries FROM jobs WHERE dismissed = 0 AND closed_at IS NULL "
+        f"AND COALESCE(priority_excluded, '') = '' AND countries != ''{scope}"
+    ):
+        codes = [code for code in row["countries"].split(",") if code]
+        for code in codes:
+            counts[code] = counts.get(code, 0) + 1
+        europe += any(code in EUROPE for code in codes)
+    listed = sorted(counts.items(), key=lambda item: (-item[1], NAMES.get(item[0], item[0])))
+    return [{"code": EUROPE_FILTER, "name": "Europe (all countries)", "count": europe}] + [
+        {"code": code, "name": NAMES.get(code, code), "count": n} for code, n in listed
+    ]
 
 
 def delete_all_jobs() -> int:

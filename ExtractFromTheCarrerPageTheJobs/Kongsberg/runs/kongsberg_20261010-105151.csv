@@ -1,0 +1,266 @@
+job_id,title,url,location,country,contract,published,deadline,description
+full-stack-sw-engineer--positioning-and-monitoring,Full-Stack SW Engineer – Positioning and Monitoring,https://www.kongsberg.com/careers/vacancies/full-stack-sw-engineer--positioning-and-monitoring/,,,,,,"Full-Stack SW Engineer – Positioning and Monitoring
+Curious about software development and subsea technology? Join Kongsberg Discovery as a Full-Stack SW Developer!
+Kongsberg Discovery is a global leader in advanced marine and subsea technologies. To meet an exciting and increasingly demanding future, we are seeking a new colleague to join our Positioning and Monitoring R&D department.
+You will become part of the team responsible for HiPOS, our new software platform for operating and monitoring hydroacoustic positioning and communication systems. HiPOS supports demanding maritime operations by presenting positioning information and enabling interaction with hydroacoustic, inertial navigation and associated vessel systems.
+Our solutions are used worldwide in demanding maritime operations within research, offshore energy, and other specialized applications.
+More information can be found on our web site, search for products like HiPAP and cNODE:
+KONGSBERG - an international technology group
+In this role
+You will contribute to the continued development of the HiPOS platform, primarily back-end software, system interfaces, operational user interfaces, and new functionality. You will work closely with experienced software developers, system engineers, testers, and product management in a multidisciplinary R&D environment. You will also:
+Build and improve end-to-end product features across frontend and backend
+Develop scalable backend services, APIs, integrations and data flows
+Contribute to software architecture, system design, security, release and technical specifications
+Troubleshoot and improve software performance, reliability, and usability
+Collaborate with colleagues across different technical disciplines
+Participate in product testing in our laboratories and aboard our research vessels in Horten
+Work closely with Product, UX, Platform, Data and DevOps colleagues to turn user and business needs into working software
+Required qualifications and experience
+BSc or MSc in computer science, cybernetics, software engineering, or a related field
+Experience with application development using technologies such as C++, C#
+Real-time programming, real time operating systems
+Experience with DevOps tools and development pipelines
+Experience with software development principles, testing, and version control
+Proficiency in English, both written and spoken
+Preferred qualifications and experience
+Experience with software architecture, remote operation, networking, or cloud infrastructure is an advantage
+Relevant professional experience is preferred, but recent graduates with a strong technical background will also be considered
+This employment may require security clearance by the Norwegian National Security Authority, clearance through Civil Aviation Authority or a background check. Please note that this might affect the offer process or employment.
+Personal Attributes
+We believe the ideal candidate:
+Is proactive, self-driven, and takes responsibility for assigned tasks
+Approaches problems methodically and systematically
+Enjoys learning new technologies and understanding complex systems
+Collaborates and communicates effectively within multidisciplinary teams
+Contributes ideas and identifies practical solutions to technical challenge
+Values software quality, reliability, and continuous improvement
+At KONGSBERG, we believe that diversity fuels innovation. We encourage you to apply, even if you do not meet every requirement. Your unique perspective is valuable to us. Your skills, attitude and perspective could be exactly what we are looking for!
+What We Can Offer
+As a Full-Stack Software Developer at Kongsberg Discovery, you will play an important role in developing advanced positioning technology for demanding maritime applications. We offer:
+The opportunity to work with a new software platform and influence its future development
+Challenging technical assignments with real-world maritime applications
+An international and multidisciplinary working environment
+Access to experienced colleagues and strong technical communities
+Opportunities for professional development and career growth
+Competitive compensation, insurance, and pension schemes
+Flexible working hours and hybrid working arrangements
+The opportunity to contribute to sustainable ocean technology that protects people and planet
+Work location
+Horten. Lysaker may be considered as a work location, but it will be required to be at our Horten site when needed.
+Point of contact
+Henriette Melsom, Department Manager, tel: +4748883011
+About KONGSBERG
+KONGSBERG protects people and critical infrastructure – from deep sea to space.
+We deliver advanced ocean and space technologies – from autonomous marine systems to satellites and data services – supporting sustainability, climate monitoring, infrastructure protection, and security. KONGSBERG also develop innovative technologies for defence, security, and surveillance markets, combining military and civilian expertise. Our defence and security solutions span missiles, weapon stations, air defence, command and control, and digital towers.
+Today, we have more than 7,500 employees in about 20 countries. The company is listed on the Oslo Stock Exchange and the Norwegian government controls about 50.01 percent of the shares.
+About Discovery
+The Discovery division develops technologies for sustainable ocean resource management, climate monitoring, critical infrastructure protection, and national security. Its technology platforms and solutions support offshore operations, fisheries, ocean research, maritime operations, sea-based energy production, and naval defence. Products include sonars, underwater communication equipment, satellites, surveillance and positioning systems, and autonomous vehicles. Customers span offshore, fisheries, marine research, maritime, energy, surveillance, defence, and naval sectors.
+Protechting People and Planet"
+resilient-navigation-systems-engineer,Resilient Navigation Systems Engineer,https://www.kongsberg.com/careers/vacancies/resilient-navigation-systems-engineer/,,,,,,"Resilient Navigation Systems Engineer
+At Kongsberg Discovery, we develop advanced robotics and sensor technology to map, monitor and understand ocean space. Our solutions have evolved from pioneering motion reference systems into a broad portfolio of advanced positioning and sensor fusion products used throughout the maritime industry. This development draws on decades of experience in precision positioning, motion sensing and RF sensing systems for maritime applications.
+We are now expanding our capabilities in resilient maritime navigation and positioning. You will help develop positioning systems that maintain high accuracy when GNSS is unavailable, unreliable or subject to interference. You will work with sensor fusion, inertial navigation, radar positioning, passive RF sensing and terrain referenced navigation. The role spans the full development cycle, from algorithms and simulation to vessel data, field trials and integration into future solutions for Dynamic Positioning and autonomous operations.
+What you will be doing
+Develop concepts that provide reliable positioning when GNSS is unavailable or subject to interference.
+Investigate how maritime radar, passive RF sensing, and terrain models can support vessel positioning and DP reference systems.
+Develop real time sensor fusion systems using inertial navigation and complementary sensor data.
+Prototype and test solutions using simulations, recorded vessel data and field trials.
+Assess performance and improve robustness under realistic operating conditions.
+What we're looking for
+You do not need experience in all the technologies listed below. We are looking for strong technical foundations, curiosity and the ability to learn and apply new concepts.
+Higher education in cybernetics, computer science or relevant technical field.
+A relevant technical background and a good foundation in areas such as estimation, signal processing, control systems, robotics, localization or sensor fusion.
+Experience from research, product development, software development or algorithm development in a relevant technical field.
+Experience with navigation, GNSS, inertial systems, radar, RF sensing, perception or SLAM is beneficial, but not required. We also welcome candidates with transferable experience and an interest in developing their competence in these areas.
+Programming experience in Python, C++ or similar languages. Experience with embedded systems, real time systems, simulation or robotics frameworks is an advantage.
+Experience from maritime operations, Dynamic Positioning, autonomous systems or other safety critical applications is an advantage.
+Your strengths
+Enjoy working on difficult navigation problems where the available data may be incomplete or uncertain.
+Combine analytical thinking with a practical approach to prototyping and testing.
+Take initiative and enjoy turning ideas into practical prototypes and tests.
+Have an interest in autonomy, drones, remote operation, or other practical uses of advanced positioning technology.
+Are curious and willing to take on new and unfamiliar technical areas.
+Enjoy digging into problems and finding out how things work.
+Pre-employment check and security clearance
+This employment may require a pre-employment check procedure and security clearance in accordance with company security standards, role or site requirements. Please note that this might affect the offer process or employment.
+Diversity statement
+At KONGSBERG, we believe that diversity fuels innovation. We encourage you to apply, even if you do not meet every requirement. Your unique perspective is valuable to us. Your skills, attitude and perspective could be exactly what we are looking for!
+Why join us
+You will join a team that combines advanced engineering with practical testing and a clear route from early ideas to operational products.
+Work with technologies that address a real and growing challenge for the maritime industry.
+See your work progress from research and prototyping to testing and product use.
+Help shape future solutions for DP and autonomous vessel operations.
+Your workplace
+You will be based at Kongsberg Discovery’s Seatex office in Trondheim.
+Interested in knowing more?
+Contact: Ståle Fjeldstad, VP Navigation & Positioning, fgnyr.swryqfgnq@xq.xbatforet.pbz"">, +47 98102720
+About KONGSBERG
+KONGSBERG protects people and critical infrastructure – from deep sea to space.
+We deliver advanced ocean and space technologies – from autonomous marine systems to satellites and data services – supporting sustainability, climate monitoring, infrastructure protection, and security. KONGSBERG also develop innovative technologies for defence, security, and surveillance markets, combining military and civilian expertise. Our defence and security solutions span missiles, weapon stations, air defence, command and control, and digital towers.
+Today, we have more than 7,500 employees in about 20 countries. The company is listed on the Oslo Stock Exchange and the Norwegian government controls about 50.01 percent of the shares.
+About Discovery
+The Discovery division develops technologies for sustainable ocean resource management, climate monitoring, critical infrastructure protection, and national security. Its technology platforms and solutions support offshore operations, fisheries, ocean research, maritime operations, sea-based energy production, and naval defence. Products include sonars, underwater communication equipment, satellites, surveillance and positioning systems, and autonomous vehicles. Customers span offshore, fisheries, marine research, maritime, energy, surveillance, defence, and naval sectors."
+senior-systemingeniorer--systemintegrasjon-,Senior Systemingeniører – Systemintegrasjon,https://www.kongsberg.com/careers/vacancies/senior-systemingeniorer--systemintegrasjon-/,,,,,,"Senior Systemingeniører – Systemintegrasjon
+Bli med og bygg fremtidens digitale forsvar
+Er du interessert i å utvikle fremtidens forsvarssystemer for Norge og våre NATO-allierte? Motiveres du av moderne teknologi, datasentriske arkitekturer, systemutvikling, integrasjon, test og verifikasjon av komplekse IKT-systemer og system-av-systemer?
+Da kan dette være muligheten for deg!
+
+KONGSBERG søker flere dyktige systemingeniører til vårt arbeid med Program Mime, Forsvarets største digitaliseringsinitiativ. Hos oss blir du en del av et sterkt fagmiljø i Kongsberg som utvikler neste generasjon taktiske informasjons- og kommunikasjonssystemer gjennom Standardisert Taktisk Integrasjon (STI). I tett samarbeid med Forsvaret og KONGSBERGs fagmiljøer på blant annet Kolsås, Asker og Moss bygger vi et ledende kompetansemiljø innen systemintegrasjon, digitalisering og datasentriske løsninger. Vi søker deg som ønsker å bidra til både teknologiutvikling og videreutvikling av dette strategiske partnerskapet.
+
+Hva skal du jobbe med?
+Du vil få muligheten til å arbeide innen ett eller flere av følgende fagområder:
+System-of-Systems Engineering og integrasjon av løsninger på tvers av forsvarssektoren og industrien
+Datastrukturer og informasjonsutveksling for datasentriske og multidomene operasjoner
+Integrasjon mellom plattformer, sensorer og kommando- og kontrollsystemer
+Test, verifikasjon og validering av egne, Forsvarets og andre industri selskaps systemer
+OT-, IT- og IoT-baserte løsninger
+Digitalisering, automatisering og kunstig intelligens
+Teknisk ledelse og rådgivning
+Typiske arbeidsoppgaver
+Designe og videreutvikle systemarkitekturer for fremtidens forsvarssystemer
+Analysere krav og omsette disse til robuste tekniske løsninger
+Planlegge og gjennomføre integrasjon, test og verifikasjon av komplekse systemer
+Utarbeide tekniske konsepter, løsningsbeskrivelser og arkitekturunderlag
+Bidra til utvikling av sikre, datasentriske løsninger og gi teknisk rådgivning i prosjekter og tverrfaglige team
+Hvem ser vi etter?
+Høyere utdanning på bachelor- eller masternivå innen relevante fagområder som System Engineering, informatikk, kybernetikk, elektronikk, telekommunikasjon eller tilsvarende
+Erfaring med systemutvikling, systemarkitektur, systemintegrasjon eller arbeid med komplekse systemer og system-of-systems
+Erfaring med eller interesse for kravhåndtering, analyse, test, verifikasjon og validering av tekniske løsninger
+Kjennskap til eller interesse for datasentriske arkitekturer, informasjonsutveksling, nettverk, cybersikkerhet og sikkerhetskritiske systemer
+Relevant erfaring er en fordel, men vi oppfordrer også nyutdannede og kandidater med kortere erfaring til å søke dersom de har sterk teknisk interesse, lærevilje og motivasjon.
+Vi tror også at du er en person som motiveres av teknologi, samarbeid og kontinuerlig læring. Du trives med å løse komplekse problemstillinger, tar ansvar og bidrar til å drive arbeidet fremover. Samtidig bygger du gode relasjoner, deler kunnskap og trives i tverrfaglige team. Du arbeider strukturert og analytisk, ser muligheter fremfor begrensninger, og kommuniserer godt på både norsk og engelsk, både skriftlig og muntlig.
+
+Hvorfor velge KONGSBERG og Defence Systems?
+Hos oss får du arbeide med teknologi som har stor betydning for Norges sikkerhet og forsvarsevne. Du blir en del av et sterkt fagmiljø i Kongsberg og får bidra til utviklingen av fremtidens forsvarssystemer gjennom tett samarbeid med Forsvaret, industripartnere og noen av landets fremste teknologer.
+Du vil inngå i et samlokalisert team med høy kompetanse, stort engasjement og betydelig gjennomføringskraft. Vi tror de beste løsningene skapes gjennom tett samarbeid, kunnskapsdeling og tverrfaglig samhandling, og søker derfor kandidater som ønsker å være en aktiv del av fagmiljøet i Kongsberg.
+Vi tilbyr spennende prosjekter innen noen av Norges mest avanserte forsvars-, integrasjons- og informasjonssystemer, gode muligheter for faglig utvikling og karrierevekst, internasjonalt samarbeid, konkurransedyktige betingelser og fleksibilitet i arbeidshverdagen. I tillegg får du tilgang til moderne fasiliteter, eget treningssenter, aksjeprogram, firmahytter samt gode pensjons- og forsikringsordninger.
+Arbeidssted: Kongsberg eller Asker. Noe reisevirksomhet må påregnes.
+Søknader vil behandles fortløpende!
+Kandidater som søker på stillingen, vil i forbindelse med rekrutteringsprosessen bli gjenstand for bakgrunnssjekk og vurdering av denne vil bli lagt til grunn ved valg av kandidat. For å være aktuell kandidat til stillingen må du være kvalifisert for å bli sikkerhetsklarert, jfr. Sikkerhetsloven."
+software-engineerprogramvareutvikler,Software Engineer/Programvareutvikler,https://www.kongsberg.com/careers/vacancies/software-engineerprogramvareutvikler/,,,,,,"Software Engineer/Programvareutvikler
+Vil du bli en del av oss?
+Hos KONGSBERG er vi stolte av å være verdensledende innen maritim virksomhet, forsvar, romfart, olje og gass. I over 200 år har vi laget løsninger som gjør det mulig for mennesker verden over å levere ekstreme prestasjoner under ekstreme forhold. Vi verdsetter innovasjon, samarbeid og bærekraft.
+Våre utviklere lager blant annet programvare til avanserte forsvarssystemer som bidrar til å sikre en tryggere verden. Hos oss får du muligheten til å delta i utviklingen av morgendagens forsvarssystemer og noen av de mest avanserte softwareløsningene i verden.
+Bli en del av et stort softwaremiljø med høy fagkompetanse. Hos oss får du samarbeide med dyktige og engasjerte kollegaer, jobbe med avanserte teknologiske løsninger og følge produktene våre gjennom hele utviklingsløpet, fra idé og design til testing og leveranse. Arbeidssted er Kongsberg eller Asker Panorama.
+Eksempler på arbeidsoppgaver
+Objektorientert programmering
+Software design og -arkitektur
+Software test og -integrasjon
+Linux- og Windows-baserte systemer
+Brukergrensesnitt
+Sanntidssystemer
+Nettverksteknologi
+Datasikkerhet og cyber security
+Containerteknologi (Docker/Kubernetes)
+Ønskede kvalifikasjoner og egenskaper
+Bachelor- eller mastergrad innen software, informatikk, datateknologi, kybernetikk eller tilsvarende
+Erfaring med ett eller flere programmeringsspråk, eksempelvis C++, Java eller Python
+Gode norsk- og engelskkunnskaper, både skriftlig og muntlig
+Du er strukturert og har interesse for teknologi og softwareutvikling
+Du trives med samarbeid og liker å løse komplekse utfordringer
+Vi kan tilby:
+Vi tilbyr gode muligheter for faglig og personlig utvikling i et selskap med lange tradisjoner for innovasjon og teknologiutvikling. Du får konkurransedyktige betingelser, gode pensjons- og forsikringsordninger, samt muligheten til å kjøpe aksjer gjennom vårt ansattprogram.
+I tillegg får du tilgang til treningssenter, firmahytter og ulike velferdstilbud. Vår sosialkomité arrangerer jevnlig aktiviteter og arrangementer som bidrar til et inkluderende og aktivt arbeidsmiljø.
+Om oss:
+Defence Systems er en divisjon i KONGSBERG. Divisjonen består av fem forretningsenheter som alle utvikler og leverer avanserte og teknologisk ledende kommando-, kontroll-, og kommunikasjonsløsninger. Denne stillingen er i forretningsområdet Advanced Solutions. Vi utvikler avanserte systemer og produkter innenfor et bredt spekter av teknologi og våre største leveranser er innenfor militær luftromsovervåkning, ildledning og sivil luftfart.
+
+Vi ber om at søknaden inneholder:
+Søknadstekst: En beskrivelse av hvorfor du ønsker stillingen og hva som gjør deg kvalifisert.
+CV: En oppdatert oversikt over din utdanning, arbeidserfaring og relevante ferdigheter.
+Karakterutskrifter: Dokumentasjon fra din skolegang, inkludert relevante kurs og resultater.
+Søknader behandles fortløpende!
+Kandidater som søker stillingen, vil i forbindelse med rekrutteringsprosessen bli gjenstand for bakgrunnssjekk, og vurdering av denne vil bli lagt til grunn ved valg av kandidat. For å være aktuell kandidat til stillingen må du kunne sikkerhetsklareres og autoriseres jfr. Sikkerhetsloven.
+Les mer om sikkerhetsklarering på www.nsm.no."
+summer-internship-2027-,Summer Internship 2027,https://www.kongsberg.com/careers/vacancies/summer-internship-2027-/,,,,,,"Summer Internship 2027
+Turn knowledge into impact
+Take the first step towards your future career with a Summer Internship at KONGSBERG. Over seven weeks, you will apply your academic knowledge in real-world projects, gain valuable work experience and build a professional network alongside experts and fellow students.
+As a summer intern, you will contribute to meaningful work, develop new skills and gain insight into what it is like to work in a global technology company that creates solutions for critical societal needs.
+Find the internship that is right for you
+Department internships
+Join a specific department and become part of the team for the summer. You will contribute to ongoing work, gain insight into daily operations and experience how your field of study is applied in practice.
+Summer projects
+Work together with other students on a dedicated summer project. These projects are designed to solve real challenges and give you the opportunity to collaborate across disciplines while developing innovative solutions. For more information about the summer projects, click here.
+What you can expect
+A summer internship is more than a summer job. It is an opportunity to:
+Apply your academic knowledge in real projects
+Learn from experienced professionals and industry experts
+Build a strong professional network across KONGSBERG
+Explore potential career opportunities after graduation
+Gain experience that strengthens your future job prospects
+In addition to your daily work, you will take part in social and professional activities that help you connect with fellow interns and employees across the company.
+Our summer internships are primarily aimed at students within science, technology, engineering and related disciplines. However, we also offer opportunities in selected staff and support functions, giving students from a wider range of educational backgrounds the chance to gain valuable experience at KONGSBERG.
+Explore our summer projects
+Whether your interests are within software, cyber security, electronics or other technology areas, our summer projects provide a unique opportunity to work on real-world challenges. The projects span software development, artificial intelligence, autonomous systems, simulation, robotics, advanced manufacturing and product development.
+You do not need to know everything before you apply. Across all projects, the most important qualification is curiosity and a willingness to learn. The internship is designed to challenge you, help you grow and give you experience working on technologies and systems that are actively being developed and explored within KONGSBERG.
+Internship locations
+The summer internship is offered at selected KONGSBERG locations in Norway.
+Start building your future
+Every year, students join KONGSBERG to gain experience, expand their network, and explore exciting career opportunities. For many, the summer internship becomes the beginning of a long-term relationship with the company.
+We look forward to hearing from you!
+Applications must be submitted through our online recruitment system by February 28th.
+Some candidates may receive offers before the deadline, so we encourage you to apply early."
+summer-internship-2027,Summer Internship 2027,https://www.kongsberg.com/careers/vacancies/summer-internship-2027/,,,,,,"Summer Internship 2027
+Summer Internship 2027: Resilient Navigation at Kongsberg Discovery - Seatex
+What happens when GPS isn’t available? How can autonomous systems continue to navigate safely and reliably? You may not know the answers yet, but
+At Kongsberg Discovery – Seatex, we’re solving challenges like these every day, and this summer we invite you to be a part of our journey/team this summer. Seatex is at the forefront of technological innovation and throughout the internship you’ll get the chance to work on technologies that help vessels and autonomous systems navigate reliably in challenging environments. We're searching for curious and ambitious students who are eager to apply their academic knowledge to real challenges within GNSS-denied navigation, situational awareness, inertial solutions, and machine learning.
+This year’s Summer Interns will have the opportunity to tackle exciting and challenging problems related to resilient navigation, sensor fusion, situational awareness, and data-driven insights. You’ll get hands-on experience with real-world systems, contribute to meaningful software and algorithm development, and collaborate with experienced colleagues in a dynamic and supportive environment.
+Apply what you’ve learned in the classroom or from extracurricular activities to cutting-edge technologies and see firsthand how theory can be transformed into solutions that are actually used in real-world operations. And did we mention that we’re located at Pirsenteret, with the most outstanding view of the Trondheimsfjord?
+All in all, this is an opportunity to challenge yourself, develop valuable technical skills, gain industry experience, and learn from and work alongside experts who are shaping the future of navigation and autonomy technologies.
+We're seeking students with skills or interests in one or more of the following areas:
+Software Development
+Physics & Mathematics
+Electronics Design
+Control Systems & Cybernetics
+Robotics
+Simulation
+Machine Learning
+If you align with any of these expertise areas, have a genuine passion for technology and are curious about advanced sensing and navigation technologies, we'd be pleased to consider you for our summer project.
+Please note that employment with us may require clearance by the Norwegian National Security Authority, clearance through Civil Aviation Authority or a background check.
+Innovate for a better world with us. Protechting People and Planet drives every solution.
+Applications will be processed on an ongoing basis.
+What we can offer
+Kongsberg Discovery is part of a project called Workation in Trondheim, which offers a unique summer program for students with a job in one of the 20 participating companies. Among the activities the students got to experience during the summer of 2026 were a kayaking trip on the Nidelva river, a Padel tournament, go-karting, minigolf, and beer tasting at ØX. All is free for you as a student! This summer program is a great opportunity to get to know new people across companies and make friends for life. We and Workation will make sure you have an unforgettable summer here in Trondheim.
+KONGSBERG also offers Summer Internships at other locations, which are not part of Workation in Trondheim. See the following page for more details: Ignite your future with KONGSBERG - KONGSBERG - an international technology group
+Work location
+Trondheim
+Period:
+June to August 2027
+Interested in knowing more?
+Andreas Steinsmo – Product Manager –
+Sondre Mikalsen-Schwenke – R&D Engineer –
+Kongsberg Discovery is responsible for product and technology development, supply chain operations, and project delivery for KONGSBERG's subsea and marine surface sensors, hydroacoustic positioning, sonar & mapping systems, robotic vessels, and communications systems. Within Kongsberg Discovery, Seatex plays a key role in developing advanced technologies for Resilient Navigation, sensors for autonomous systems and maritime surveillance, including high-precision sensors and positioning solutions tailored for demanding environments. Through its comprehensive portfolio of offerings, Kongsberg Discovery continues to be recognized as a world leader in its core markets all over the world. We have a strong history and track record of delivering world-class products and services to customers across the globe. There is a firm focus on developing advanced technological and autonomous systems that optimize operations at sea while reducing environmental impact. Our solutions play a key role in transforming the maritime sector towards a more sustainable future.
+KONGSBERG is a leading global technology group. Throughout our proud two-hundred-year history, we have continuously advanced, applying innovative solutions to the needs of our customers, partners and society at large. We believe diversity is our strength. By fostering an inclusive and diverse culture we nurture and ensure space for different perspectives and ideas. We are determined to mature and improve our ability to utilize our diversity and culture of differences to create positive business results."
+vice-president-market--sales,Vice President Market & Sales,https://www.kongsberg.com/careers/vacancies/vice-president-market--sales/,,,,,,"Vice President Market & Sales
+Vi søker deg som vil lede markeds og salgsarbeidet for noen av Norges mest avanserte forsvars og sikkerhetsløsninger!
+KONGSBERG søker en forretningsorientert og inspirerende leder til rollen som Vice President Market & Sales for Business Unit Advanced Solutions (BUAS).
+Som VP Market & Sales får du det overordnede ansvaret for markedsstrategi, forretningsutvikling, salgsledelse og capture management på tvers av BUAS-porteføljen. Du vil være en sentral bidragsyter i BUAS ledergruppe og få en nøkkelrolle i å sikre videre vekst, strategisk posisjonering og kontraktsinngåelser i et krevende og spennende marked.
+BUAS utvikler og leverer avanserte løsninger innen C4ISR, taktiske IKT-systemer, luftfarts- og sikkerhetsløsninger, samt digitale kommando- og kontrollsystemer. Vi har en sentral rolle i utviklingen av forsvarskapasiteter for Norge og internasjonale kunder, og forvalter blant annet strategiske samarbeid med Forsvaret og NATO-relaterte myndigheter. Kongsberg Cyber Security Center (KCSC) er også en del av BUAS’ portefølje. KCSC er et av Norges ledende fagmiljøer innen cyber sikkerhet og beskytter KONGSBERG, dets datterselskaper, partnere og leverandørkjede mot cybertrusler. KCSC spiller en sentral rolle i å styrke sikkerhet og robusthet i et av Norges mest samfunnskritiske og teknologisk avanserte virksomheter. Cyber sikkerhet er et strategisk satsingsområde for KONGSBERG, noe som gir muligheten til å bidra til utviklingen av et område med betydelig vekstpotensial og stor betydning for konsernets fremtid.
+Sentrale ansvarsområder
+Lede og videreutvikle markeds og salgsorganisasjonen i BUAS.
+Utarbeide og gjennomføre markeds og salgsstrategier i tråd med BUAS og KONGSBERGs overordnede mål.
+Bygge og vedlikeholde strategiske kunderelasjoner nasjonalt og internasjonalt.
+Drive forretningsutvikling, identifisere nye markedsmuligheter og utvikle partnerskap.
+Eieransvar for capture prosessen fra identifisert mulighet til kontraktssignering.
+Sikre høy kvalitet i tilbuds og kampanjearbeid, inkludert bid/no-bid og go/no-go prosesser.
+Lede og utvikle ledere og medarbeidere innen Business Development, Marketing, Bid Management og Capture Management.
+Bidra aktivt i BUAS ledergruppe og samhandling på tvers av forretningsområder, programmer og fagmiljøer.
+Representere KONGSBERG overfor kunder, myndigheter, partnere og industriaktører.
+Vi ser etter deg som har
+Relevant høyere utdanning på mastergradsnivå. Særlig relevant erfaring kan kompensere for deler av utdanningskravet.
+Dokumenterte resultater fra marked, salgs eller forretningsutviklingsroller.
+Solid ledererfaring, gjerne fra teknologi, forsvars, sikkerhets- eller industrivirksomhet.
+Betydelig erfaring med komplekse salgsprosesser, tilbud og kontraktsforhandlinger.
+Sterk kommersiell forståelse kombinert med strategisk og analytisk kapasitet.
+Evne til å bygge sterke relasjoner både internt og eksternt.
+Meget gode kommunikasjonsevner på norsk og engelsk.
+For å lykkes i rollen ser vi for oss at du er:
+Strategisk, strukturert og resultatorientert i ditt arbeid.
+Du er relasjonsskapende og tillitsvekkende.
+Som person er du initiativrik og handlekraftig.
+Du bør være en tydelig leder med evne til å motivere og utvikle mennesker.
+Komfortabel med høyt tempo, komplekse beslutningsprosesser og krevende kundegrensesnitt.
+Hvorfor jobbe hos oss:
+Som VP Market & Sales i BU Advanced Solutions får du en sentral lederrolle i et av Norges ledende teknologi og forsvarsmiljøer. Du får det overordnede ansvaret for å forme markedsstrategier, drive forretningsutvikling og sikre kontrakter som bidrar til å styrke forsvars og sikkerhetskapasiteter nasjonalt og internasjonalt. Du blir en del av BUAS' ledergruppe og får stor påvirkningskraft på den strategiske retningen for Business Unit'en. Rollen gir deg muligheten til å arbeide tett med kunder, myndigheter, partnere og industriledende fagmiljøer, samtidig som du leder og videreutvikler en sterk markeds og salgsorganisasjon.
+Hos oss får du kombinere kommersiell teft, strategisk ledelse og teknologisk innsikt i et internasjonalt marked preget av høy kompleksitet, samfunnskritiske leveranser og betydelige vekstmuligheter. Vi tilbyr et arbeidsmiljø kjennetegnet av høy kompetanse, samarbeid på tvers av fagområder og korte beslutningsveier. I tillegg tilbyr vi konkurransedyktige betingelser, gode pensjons og forsikringsordninger, fleksible arbeidsformer og gode muligheter for faglig og personlig utvikling i et konsern med sterke ambisjoner og et viktig samfunnsoppdrag.
+Stillingen vil innebære reisevirksomhet i inn og utland. Hovedarbeidsstedet vil være Kongsberg, Moss eller Asker.
+Vi gjør oppmerksom på at vi behandler søknader fortløpende.
+Kandidater som søker på stillingen, vil i forbindelse med rekrutteringsprosessen bli gjenstand for bakgrunnssjekk og vurdering av denne vil bli lagt til grunn ved valg av kandidat.For å være aktuell kandidat til stillingen må du være kvalifisert for å bli sikkerhetsklarert, jfr. Sikkerhetsloven."

@@ -1,4 +1,4 @@
-/** Typed fetch helpers for the ACIDE-Watch API. */
+/** Typed fetch helpers for the findmyjob.top API. */
 
 import type {
   AlertSubscription,
@@ -10,6 +10,12 @@ import type {
   JobPage,
   LogLine,
   ModelInfo,
+  Brief,
+  ReviewCounts,
+  ReviewEstimate,
+  ReviewMode,
+  ScoringSettings,
+  SearchStatus,
   SpiderStatus,
 } from '../types';
 
@@ -45,28 +51,19 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 /** Drop empty controls so the query string only carries active filters. */
 export function toQuery(filters: Filters, offset = 0, limit = 60): string {
   const params = new URLSearchParams();
-  const entries: [string, string | boolean][] = [
+  const entries: [string, string][] = [
     ['search', filters.search],
-    ['location', filters.location],
-    ['remote', filters.remote],
-    ['category', filters.category],
-    ['years_experience', filters.years_experience],
-    ['seniority', filters.seniority],
-    ['posted_within', filters.posted_within],
+    ['country', filters.country],
     ['company', filters.company],
-    ['category_type', filters.category_type],
     ['sort', filters.sort],
+    ['origin', filters.origin],
+    ['excluded', filters.excluded],
   ];
   for (const [key, value] of entries) {
-    if (value) params.set(key, String(value));
-  }
-  if (filters.min_amount) {
-    params.set('min_amount', filters.min_amount);
-    params.set('rate', filters.rate);
-    params.set('currency', filters.currency);
-    if (filters.match_posting_currency) params.set('match_posting_currency', 'true');
+    if (value) params.set(key, value);
   }
   if (filters.saved_only) params.set('saved_only', 'true');
+  if (filters.dismissed_only) params.set('dismissed_only', 'true');
   params.set('limit', String(limit));
   params.set('offset', String(offset));
   return params.toString();
@@ -75,7 +72,8 @@ export function toQuery(filters: Filters, offset = 0, limit = 60): string {
 export const api = {
   jobs: (filters: Filters, offset = 0, limit = 60) =>
     request<JobPage>(`/api/jobs?${toQuery(filters, offset, limit)}`),
-  facets: () => request<JobFacets>('/api/jobs/facets'),
+  facets: (origin = '') =>
+    request<JobFacets>(`/api/jobs/facets${origin ? `?origin=${encodeURIComponent(origin)}` : ''}`),
   bookmark: (id: string) =>
     request<Job>(`/api/jobs/${encodeURIComponent(id)}/bookmark`, { method: 'POST' }),
   dismiss: (id: string) =>
@@ -125,6 +123,29 @@ export const api = {
     }),
   clearSecret: (name: 'openrouter_api_key' | 'smtp_password') =>
     request<{ cleared: boolean }>(`/api/config/secret/${name}`, { method: 'DELETE' }),
+
+  searchStatus: () => request<SearchStatus>('/api/search/status'),
+  runSearch: (jobs?: number) =>
+    request<{ started: boolean }>(`/api/search/run${jobs ? `?jobs=${jobs}` : ''}`, { method: 'POST' }),
+  stopSearch: () => request<{ stopping: boolean }>('/api/search/stop', { method: 'POST' }),
+  brief: () => request<Brief>('/api/search/brief'),
+  saveBrief: (text: string) =>
+    request<{ digest: string; counts: ReviewCounts }>('/api/search/brief', {
+      method: 'PUT',
+      body: JSON.stringify({ text }),
+    }),
+  saveScoring: (scoring: Omit<ScoringSettings, 'has_key'>) =>
+    request<ScoringSettings>('/api/search/scoring', { method: 'PUT', body: JSON.stringify(scoring) }),
+  estimate: (mode: ReviewMode, limit?: number) =>
+    request<ReviewEstimate>(
+      `/api/search/estimate?mode=${mode}${limit ? `&limit=${limit}` : ''}`,
+    ),
+  review: (mode: ReviewMode, limit?: number) =>
+    request<{ started: boolean }>('/api/search/review', {
+      method: 'POST',
+      body: JSON.stringify({ mode, limit: limit ?? null }),
+    }),
+  stopReview: () => request<{ stopping: boolean }>('/api/search/review/stop', { method: 'POST' }),
 
   spiderStatus: () => request<SpiderStatus>('/api/spider/status'),
   runSpider: () => request<{ started: boolean; detail: string }>('/api/spider/run', { method: 'POST' }),

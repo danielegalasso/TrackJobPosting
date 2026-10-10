@@ -1,0 +1,64 @@
+{
+  "source": "https://www.eltgroup.net/people-careers/join-us/",
+  "company": "ELT Group",
+  "query": "",
+  "extracted_at": "2026-10-03T06:54:10",
+  "site_total": 9,
+  "extracted": 9,
+  "postings": [
+    {
+      "job_id": "jobreqcareer",
+      "title": "MACHINE LEARNING ENGINEER – BARI",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=3344&company=C0001098020P",
+      "description": ""
+    },
+    {
+      "job_id": "jobreqcareer",
+      "title": "RAMS ENGINEER",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=3292&company=C0001098020P",
+      "description": ""
+    },
+    {
+      "job_id": "jobreqcareer",
+      "title": "RESP. CYBER EW COMPETENCE CENTER",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=3331&company=C0001098020P",
+      "description": ""
+    },
+    {
+      "job_id": "jobreqcareer",
+      "title": "SENIOR SOFTWARE ENGINEER",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=3294&company=C0001098020P",
+      "description": ""
+    },
+    {
+      "job_id": "jobreqcareer",
+      "title": "SENIOR SYSTEM ENGINEER – SEDE ROMA",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=3230&company=C0001098020P",
+      "description": ""
+    },
+    {
+      "job_id": "jobreqcareer",
+      "title": "SOFTWARE ENGINEER",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=2983&company=C0001098020P",
+      "description": ""
+    },
+    {
+      "job_id": "jobreqcareer",
+      "title": "Software Engineer",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=3328&company=C0001098020P",
+      "description": ""
+    },
+    {
+      "job_id": "jobreqcareer",
+      "title": "SOFTWARE TEST ENGINEER",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=2985&company=C0001098020P",
+      "description": ""
+    },
+    {
+      "job_id": "jobreqcareer",
+      "title": "SYSTEM ENGINEER – SEDE BARI",
+      "url": "https://career5.successfactors.eu/sfcareer/jobreqcareer?jobId=3293&company=C0001098020P",
+      "description": ""
+    }
+  ]
+}

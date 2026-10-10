@@ -37,3 +37,6 @@ cv.txt
 .DS_Store
 .idea/
 .vscode/
+
+# Chrome profile kept between Revolut runs (cookies)
+ExtractFromTheCarrerPageTheJobs/.browser-profile/

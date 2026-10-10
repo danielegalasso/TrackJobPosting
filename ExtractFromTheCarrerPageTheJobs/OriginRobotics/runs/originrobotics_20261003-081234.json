@@ -1,0 +1,76 @@
+{
+  "source": "https://origin-robotics.com/open-positions",
+  "company": "Origin Robotics",
+  "query": "",
+  "extracted_at": "2026-10-03T08:12:34",
+  "site_total": 11,
+  "extracted": 11,
+  "postings": [
+    {
+      "job_id": "3b7cb8fa-22ce-42be-8768-61ddffd5b821",
+      "title": "Business Development Manager",
+      "url": "https://talent.sage.hr/jobs/3b7cb8fa-22ce-42be-8768-61ddffd5b821",
+      "description": ""
+    },
+    {
+      "job_id": "f8b6c9f2-6507-4f13-b6c0-5ae865bafe0f",
+      "title": "Electronics Engineer",
+      "url": "https://talent.sage.hr/jobs/f8b6c9f2-6507-4f13-b6c0-5ae865bafe0f",
+      "description": ""
+    },
+    {
+      "job_id": "216e0dfd-f19b-48ac-8162-6ec7abbf7144",
+      "title": "Flight Software Engineer",
+      "url": "https://talent.sage.hr/jobs/216e0dfd-f19b-48ac-8162-6ec7abbf7144",
+      "description": ""
+    },
+    {
+      "job_id": "2d7b5afa-dd2d-4f33-9cb6-93fced2a122a",
+      "title": "Mechanical Design Engineer",
+      "url": "https://talent.sage.hr/jobs/2d7b5afa-dd2d-4f33-9cb6-93fced2a122a",
+      "description": ""
+    },
+    {
+      "job_id": "ead6257b-d4dd-4aec-b35b-dc7a73c7bb18",
+      "title": "MRO Lead",
+      "url": "https://talent.sage.hr/jobs/ead6257b-d4dd-4aec-b35b-dc7a73c7bb18",
+      "description": ""
+    },
+    {
+      "job_id": "8373fae0-9979-4265-b587-16488e28b250",
+      "title": "Production Technician",
+      "url": "https://talent.sage.hr/jobs/8373fae0-9979-4265-b587-16488e28b250",
+      "description": ""
+    },
+    {
+      "job_id": "fcce3db8-1c71-40c1-ab23-7f991661ff19",
+      "title": "Quality Control Inspector",
+      "url": "https://talent.sage.hr/jobs/fcce3db8-1c71-40c1-ab23-7f991661ff19",
+      "description": ""
+    },
+    {
+      "job_id": "c8723eb8-0564-425e-9af1-4d9ecf204571",
+      "title": "Quality Engineer",
+      "url": "https://talent.sage.hr/jobs/c8723eb8-0564-425e-9af1-4d9ecf204571",
+      "description": ""
+    },
+    {
+      "job_id": "f1b33d37-c9dd-491e-97ad-32126ddca023",
+      "title": "Sales Operations Manager",
+      "url": "https://talent.sage.hr/jobs/f1b33d37-c9dd-491e-97ad-32126ddca023",
+      "description": ""
+    },
+    {
+      "job_id": "1d25f1a8-45f6-4cdd-9a36-93d5ab15140a",
+      "title": "Supply Chain / Order Coordinator",
+      "url": "https://talent.sage.hr/jobs/1d25f1a8-45f6-4cdd-9a36-93d5ab15140a",
+      "description": ""
+    },
+    {
+      "job_id": "7a5106f2-d0cc-4be3-ad7d-e2b8bc3e9791",
+      "title": "Warehouse Operator",
+      "url": "https://talent.sage.hr/jobs/7a5106f2-d0cc-4be3-ad7d-e2b8bc3e9791",
+      "description": ""
+    }
+  ]
+}

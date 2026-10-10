@@ -1,0 +1,403 @@
+job_id,title,url,location,country,contract,published,deadline,description
+senior-cc-developer,Senior C/C++ Developer,https://utimaco.com/careers/senior-cc-developer,,,,,,"Senior C/C++ Developer
+Location: Madrid
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+Your tasks
+Elaboration of user stories (including initial estimation & acceptance criteria).
+Development of new features per se (refining acceptance criteria)
+Sharing progress and impediments (daily stand-up meeting) and addressing them with your teammates
+Participating to team ceremonies (review/demo, retrospective, planning)
+Taking part in the development infrastructure (build, testing, continuous integration, etc.)
+Taking part in the architecture (e.g. quick design sessions, reconsidering past choices...)
+Contributing to the documentation (Doxygen, Sphinx)
+Your profile
+Mastery of all aspects of the C/C++ programming language.
+Proof experience of more than 6 years in a similar position.
+We would like you to have most of an advanced degree (PhD or MSc) in Computer Science or Applied Mathematics.
+A strong level in algorithm engineering
+A good working knowledge of the Python programming language
+An effective practice of the Standard Template Library (STL)
+A SOLID practice of object-oriented programming
+A paid attention to software craftsmanship
+Comfort in developing cross-platform development using CMake, Git and Jira
+Comfort with threading and IPC
+Excellent English communication skills, verbally and written.
+We offer
+An open and friendly corporate culture characterized by constructive and collaborative interaction
+We provide you with support for your future plans with a company pension scheme (depending on country-specific circumstances)
+Early risers and night owls - thanks to a flexible working model you can organise your working day yourself
+We also support you privately - benefit from special payments or additional vacation days on anniversaries or other special occasions
+Utimaco is growing and living diversity! Our global team includes colleagues from 42 nationalities and 45 different languages spoken
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"
+senior-certification-specialist,Senior Certification Specialist,https://utimaco.com/careers/senior-certification-specialist,,,,,,"Senior Certification Specialist
+Location: Aachen, Düsseldorf, Neu-Isenburg, Remote
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+Your tasks
+As a Certification Specialist, you are responsible for formal product certifications and accreditations for government use of Utimacos Information Security (IS) data security products. You are also responsible for maintaining and improving the IS data security certification strategy and adjusting site accreditations for new locations.
+Collaborate with the responsible assessors and certification/zulassung authorities (BSI) as well as with colleagues from software development and product management;
+Identify, pursue and access security requirements for governmental data security approvals such as EU/NATO-Confidential, VS-V, VS-NfD, EU/NATO-Restricted, EU/NATO Secret and Geheim;
+Being responsible for the successful certification and sustainable security architecture of our IS data security product lines;
+Further develop the holistic governmental data security approval strategy;
+Collaborate with the rest of the certification team to further certify data security products according to Common Criteria, FIPS, PCI, and other certification schemes;
+Assist in developing a strategy to enable Utimaco to process more certifications efficiently within an agreed timeframe, utilizing also onsite regional presence;
+Actively support the team to meet all commitments and deadlines;
+Your profile
+You have a University degree in Technical Engineering, Computer Science, or equivalent
+You have a track record of successfully leading Common Criteria, EU/NATO restricted (or higher) approval projects with approval bodies through the full project lifecycle - specification to delivery
+You are experienced in writing Security Targets based on protection profiles.
+You have experience in writing technical documentation, system security architecture documents, functional specifications and process descriptions/workflows; ideally operated in the Information Technology sector at a product manufacturer as a developer or architect
+You have excellent verbal & written communication and presentation skills in English/German
+We offer
+An open and friendly corporate culture characterized by constructive and collaborative interaction
+We provide you with support for your future plans with a company pension scheme (depending on country-specific circumstances)
+Early risers and night owls - thanks to a flexible working model you can organise your working day yourself
+We also support you privately - benefit from special payments or additional vacation days on anniversaries or other special occasions
+Utimaco is growing and living diversity! Our global team includes colleagues from 42 nationalities and 45 different languages spoken
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"
+senior-devops-engineer-configuration-management,Senior DevOps Engineer Configuration Management,https://utimaco.com/careers/senior-devops-engineer-configuration-management,,,,,,"Senior DevOps Engineer Configuration Management
+Location: Aachen
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+Your tasks
+Your work tasks include the following:
+Kubernetes Management
+- Deploy, configure, and maintain Kubernetes clusters in an air-gapped environment.
+Work with k8s/k3s to ensure efficient resource utilization and high availability.
+Implement security best practices for Kubernetes components.
+Development Environment Setup
+- Collaborate with C++ developers to create development environments tailored to their needs.
+Set up build pipelines using GitLab CI/CD.
+Set up version control systems and optimize development tools.
+Infrastructure Automation
+- Develop and maintain infrastructure-as-code (IaC) using tools like Terraform or Ansible.
+Automate deployment, scaling, and monitoring of services.
+Ensure consistent configuration across environments.
+Security and Compliance
+- Implement security controls specific to airgapped environments.
+Monitor for vulnerabilities and apply patches promptly.
+Collaborate with security teams to address compliance requirements.
+Monitoring and Troubleshooting
+- Set up monitoring tools (e.g., Prometheus, Grafana) to track system performance.
+Investigate incidents, diagnose issues, and provide timely resolutions.
+Participate in on-call rotations as needed.
+Linux Administration
+- Maintain Linux servers, including performance tuning, backups, and user management.
+Troubleshoot network and system-related problems.
+Scripting (e.g., Bash, Python) for automation tasks.
+Your profile
+We are seeking a skilled and motivated DevOps Engineer to join our team in managing and optimizing our air-gapped development and production environments. As a DevOps Engineer, you will play a critical role in ensuring seamless deployment, monitoring, and maintenance of our systems. Your expertise in Kubernetes, C++ development environments, Linux administration, GitLab pipelines, and Helm Charts will be essential for your success in this role.
+You bring:
+Bachelor's degree in Computer Science, Engineering, or related field (or equivalent experience).
+Minimum 3 years of experience as a DevOps Engineer or similar role.
+Proficiency in Kubernetes, Docker, and container orchestration.
+Strong understanding of C/C++ development workflows.
+Experience with Linux administration and scripting.
+Familiarity with CI/CD pipelines and version control systems (e.g., Git and GitLab).
+Excellent problem-solving skills and ability to work independently.
+Good communication and collaboration skills.
+Nice-to-Have:
+Experience with Windows and MacOS administration.
+Knowledge of air-gapped environments and associated challenges.
+Certifications such as CKA (Certified Kubernetes Administrator) or similar.
+Ability to troubleshoot cross-platform issues
+We offer
+An open and friendly corporate culture characterized by constructive and collaborative interaction
+We provide you with support for your future plans with a company pension scheme (depending on country-specific circumstances)
+Early risers and night owls - thanks to a flexible working model you can organise your working day yourself
+We also support you privately – benefit from special payments or additional vacation days on anniversaries or other special occasions
+Utimaco is growing and living diversity! Our global team includes colleagues from 42 nationalities and 45 different languages spoken
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"
+senior-full-stack-developer,Senior Full Stack Developer,https://utimaco.com/careers/senior-full-stack-developer,,,,,,"Senior Full Stack Developer
+Location: Madrid
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+
+Join Utimaco Iberia SLU in Madrid as a Senior Frontend Developer (m/f/d) and create secure, innovative user experiences in cybersecurity.
+Your tasks
+Multi-channel alert authoring, a unified editing experience spanning ~20 distinct message formats (SMS, cell broadcast, TV, radio, IVR, email, mobile, social, portal, and more)
+Geospatial tooling, drawing and editing alert distribution areas using Leaflet and Turf.js: polygons, cell-tower selection, sector shapes, predefined regions, and clustering
+Concurrency & coordination, mechanisms that let multiple operators safely work on the same alerts, templates, and events without conflict, including both polling-based locking and EventSource/SSE-driven real-time updates depending on the module
+Admin & platform features, user/role/group management, Active Directory integration, system configuration, fault management, geo management, and licensing
+Access control, working within and evolving a custom role-based access control (RBAC) framework spanning permissions, routing, and UI-level restrictions
+Internationalization, including full RTL (Arabic and Hebrew) support and per-customer localized builds
+Modernization efforts, helping evolve legacy patterns (shared state, form handling, HTTP layers) toward more maintainable, idiomatic Angular practices
+Your profile
+5+ years of professional software development experience, with strong experience in backend development and the ability to deliver features across the full application stack.
+Strong hands-on experience with Java and Spring Boot.
+Experience with Spring Cloud and distributed application architectures.
+Strong understanding of event-driven microservices, including designing, implementing, and troubleshooting services in distributed environments.
+Strong knowledge of application and backend security, including authentication, authorization, secure API design, access control, and secure development practices.
+Hands-on experience with PostgreSQL and Redis, including data modeling, querying, performance considerations, and integration within backend services.
+Experience with Docker and Kubernetes, including developing and troubleshooting containerized applications.
+Strong experience working in Linux environments.
+Solid frontend development capabilities using Angular, TypeScript, RxJS, HTML, and CSS, with the ability to independently implement the frontend portion of an end-to-end feature.
+Experience working with complex, domain-heavy enterprise applications and large existing codebases.
+Ability to understand a business requirement and take ownership of its implementation end to end, including architecture, backend services, database changes, APIs, frontend implementation, testing, and delivery.
+A pragmatic mindset around legacy code and technical debt, with the ability to deliver reliably while continuously improving the codebase.
+Strong attention to detail and disciplined engineering practices, with ownership of code quality, security, maintainability, and reliability.
+Hands-on experience with AI-assisted and agentic development tools, such as Claude Code, GitHub Copilot, or similar tools.
+Ability to effectively use AI throughout the development lifecycle, including understanding existing code, designing solutions, implementing features, refactoring, debugging, testing, and reviewing changes.
+Experience with geospatial and mapping technologies such as Leaflet, Turf.js, or similar libraries.
+Experience with RBAC systems, permission modeling, identity management, or access-control architecture.
+Experience developing systems with high availability, redundancy, and resiliency requirements.
+Experience with messaging technologies and asynchronous communication between microservices.
+Experience with multiple Angular UI component libraries such as Material, PrimeNG, DevExtreme, or similar.
+Experience modernizing large enterprise applications while maintaining backward compatibility.
+We offer
+An open and friendly corporate culture characterized by constructive and collaborative interaction
+We provide you with support for your future plans with a company pension scheme (depending on country-specific circumstances)
+Early risers and night owls - thanks to a flexible working model you can organise your working day yourself
+We also support you privately - benefit from special payments or additional vacation days on anniversaries or other special occasions
+Utimaco is growing and living diversity! Our global team includes colleagues from 42 nationalities and 45 different languages spoken
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"
+senior-hardware-developer,Senior Hardware Developer,https://utimaco.com/careers/senior-hardware-developer,,,,,,"Senior Hardware Developer
+Location: Aachen
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+Your tasks
+Xilinx FPGA Programming & Diagnostics: Write, implement, and maintain Xilinx FPGA logic specifically for board bring-up, diagnostics, and system health tests (e.g., voltage/temperature monitoring, self-tests).
+Altium Hardware Design: Lead schematic capture and high-speed PCB layout using Altium Designer for HSM boards.
+Prototyping & Bring-Up: Assemble, test, and debug initial prototype boards using lab equipment and 3D-printed enclosure fits.
+Production Support: Provide direct engineering support to manufacturing to troubleshoot yield issues, test failures, and board-level defects.
+Embedded HW Integration: Collaborate with the team to interface low-level hardware and validate board integrity.
+Your profile
+Xilinx FPGA Skills: Practical experience programming Xilinx FPGAs (ability to write functional logic, integrate IP cores, and build/run board-level health and diagnostic tests).
+Altium Designer Expertise: Proven track record in schematic capture and high-speed multi-layer PCB design using Altium Designer.
+Hardware Bring-Up & Prototyping: Hands-on experience debugging new board revisions, performing lab measurements (oscilloscopes, logic analyzers), and initial hardware bring-up.
+Production & Manufacturing Support: Experience supporting high-volume electronics production, resolving assembly/yield issues, and handling component obsolescence.
+Embedded Hardware Fundamentals: Strong understanding of low-level bus interfaces (SPI, I2C, UART, PCIe), power management, and microcontroller integration.
+Education & Work Experience: Bachelor's/Master's degree in Electrical/Electronic Engineering or relevant hands-on experience in senior hardware engineering.
+3D Printing & Mechanical Fit: Experience with 3D printing and CAD software for quick-turn enclosure, thermal, and mechanical fit checks.
+HSM & Security Domain: Exposure to Hardware Security Modules (HSMs), tamper detection design, or cryptographic hardware standards (e.g., FIPS 140-2/3).
+High-Speed Signal Integrity: Basic simulation experience for Signal Integrity/Power Integrity (SI/PI) in high-speed board design.
+Scripting Skills: Python, Tcl, or Bash for automating board test routines and build workflows.
+We offer
+An open and friendly corporate culture, characterized by constructive and collaborative teamwork.
+Support for your future plans through a company pension scheme (depending on country-specific conditions).
+Early birds and night owls alike can shape their workday thanks to a flexible working model.
+We also support you privately – benefit from special payments or additional vacation days on anniversaries or special occasions.
+Utimaco is growing and embraces diversity! Our global team includes colleagues from 42 nations who speak 45 different languages.
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"
+senior-hardware-developer-0,Senior Hardware Developer,https://utimaco.com/careers/senior-hardware-developer-0,,,,,,"Senior Hardware Developer
+Location: Aachen
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+Your tasks
+Xilinx FPGA Programming & Diagnostics: Write, implement, and maintain Xilinx FPGA logic specifically for board bring-up, diagnostics, and system health tests (e.g., voltage/temperature monitoring, self-tests).
+Altium Hardware Design: Lead schematic capture and high-speed PCB layout using Altium Designer for HSM boards.
+Prototyping & Bring-Up: Assemble, test, and debug initial prototype boards using lab equipment and 3D-printed enclosure fits.
+Production Support: Provide direct engineering support to manufacturing to troubleshoot yield issues, test failures, and board-level defects.
+Embedded HW Integration: Collaborate with the team to interface low-level hardware and validate board integrity.
+Your profile
+Altium Designer Expertise: Proven track record in schematic capture and high-speed multi-layer PCB design using Altium Designer.
+Hardware Bring-Up & Prototyping: Hands-on experience debugging new board revisions, performing lab measurements (oscilloscopes, logic analyzers), and initial hardware bring-up.
+Production & Manufacturing Support: Experience supporting high-volume electronics production, resolving assembly/yield issues, and handling component obsolescence.
+Embedded Hardware Fundamentals: Strong understanding of low-level bus interfaces (SPI, I2C, UART, PCIe), power management, and microcontroller integration.
+Education & Work Experience: Bachelor's/Master's degree in Electrical/Electronic Engineering or relevant hands-on experience in senior hardware engineering.
+Xilinx FPGA Skills: Practical experience programming Xilinx FPGAs (ability to write functional logic, integrate IP cores, and build/run board-level health and diagnostic tests).
+3D Printing & Mechanical Fit: Experience with 3D printing and CAD software for quick-turn enclosure, thermal, and mechanical fit checks.
+HSM & Security Domain: Exposure to Hardware Security Modules (HSMs), tamper detection design, or cryptographic hardware standards (e.g., FIPS 140-2/3).
+High-Speed Signal Integrity: Basic simulation experience for Signal Integrity/Power Integrity (SI/PI) in high-speed board design.
+Scripting Skills: Python, Tcl, or Bash for automating board test routines and build workflows.
+We offer
+An open and friendly corporate culture, characterized by constructive and collaborative teamwork.
+Support for your future plans through a company pension scheme (depending on country-specific conditions).
+Early birds and night owls alike can shape their workday thanks to a flexible working model.
+We also support you privately – benefit from special payments or additional vacation days on anniversaries or special occasions.
+Utimaco is growing and embraces diversity! Our global team includes colleagues from 42 nations who speak 45 different languages.
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"
+senior-software-developer,Senior Software Developer,https://utimaco.com/careers/senior-software-developer,,,,,,"Senior Software Developer
+Location: Aachen
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+Your tasks
+A software developers role is to design, create, test, and maintain software applications or systems. Software developers play a crucial role in the development lifecycle of software, contributing to various stages such as requirements analysis, design, coding, testing, and debugging. Their primary goal is to build reliable and efficient software solutions that meet the needs of users or clients.
+Your profile
+Software Development:
+Writing, testing, and maintaining high-quality code for software applications.
+Collaborating with cross-functional teams, including designers, product managers, and other developers, to create software solutions.
+Analyzing end-users' needs and designing software to meet those needs.
+Programming Languages:
+Strong proficiency in C/C++, with fair knowledge of the language specification
+Design, build, and maintain efficient, reusable, and reliable C/C++ code
+Good working knowledge of Python
+Problem Solving:
+Identifying and troubleshooting software defects or issues.
+Developing solutions to complex problems in the software development process.
+Code Reviews:
+Participating in code reviews to ensure code quality, maintainability, and adherence to coding standards.
+Documentation:
+Creating and maintaining technical documentation for software development projects, including design documents, user manuals, and API documentation.
+Version Control:
+Using version control systems (e.g., Git) to manage and track changes in the codebase.
+Testing:
+Writing and executing unit tests to ensure the reliability and robustness of the software.
+Collaborating with quality assurance (QA) teams to perform system testing and address identified issues.
+Continuous Learning:
+Keeping up-to-date with industry trends, new technologies, and best practices in software development.
+Agile Development:
+Working in Agile or other iterative development methodologies, participating in sprint planning, and delivering incremental updates.
+Communication:
+Communicating effectively with team members, stakeholders, and sometimes clients to understand requirements and provide updates on project progress.
+Security:
+Implementing secure coding practices and considering security aspects during the development process.
+Performance Optimization:
+Identifying and addressing performance bottlenecks in software applications.
+We offer
+An open and friendly corporate culture characterized by constructive and collaborative interaction
+We provide you with support for your future plans with a company pension scheme (depending on country-specific circumstances)
+Early risers and night owls - thanks to a flexible working model you can organise your working day yourself
+We also support you privately – benefit from special payments or additional vacation days on anniversaries or other special occasions
+Utimaco is growing and living diversity! Our global team includes colleagues from 42 nationalities and 45 different languages spoken
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"
+software-testing-engineer,Software Testing Engineer,https://utimaco.com/careers/software-testing-engineer,,,,,,"Software Testing Engineer
+Location: Madrid
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+Your tasks
+Define, develop, and execute test cases based on product requirements and specifications.
+Design, implement, and maintain automated test workflows using Jenkins and CI pipelines.
+Perform root cause analysis of defects and collaborate with developers to resolve issues.
+Document test results, quality observations, and improvement recommendations for the product.
+Create, track, and manage bug tickets using issue tracking tools such as Jira.
+Conduct security testing using static analysis and dependency scanning tools.
+Your profile
+Degree in technical discipline with several years of detailed and proven experience in test automation, especially of a backend-system software stack in the areas of integration testing and system testing.
+Confident dealing with scripting languages (e.g., Python or Bash) and test-automation frameworks.
+Experience with automated testing tools and version control systems (e.g. Git).
+Familiarity with Linux and Windows environments.
+Experience with performance and load testing tools.
+Ability to analyze and validate code coverage using tools.
+Excellent English communication skills, both written and verbal.
+We offer
+An open and friendly corporate culture characterized by constructive and collaborative interaction
+Early risers and night owls - thanks to a flexible working model you can organise your working day yourself
+We also support you privately - benefit from special payments or additional vacation days on anniversaries or other special occasions
+Utimaco is growing and living diversity! Our global team includes colleagues from 42 nationalities and 45 different languages spoken
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"
+support-engineer,Support Engineer,https://utimaco.com/careers/support-engineer,,,,,,"Support Engineer
+Location: Aachen, Düsseldorf, Madrid
+Utimaco is an international provider of IT security solutions and cybersecurity technologies with headquarters in Aachen (Germany) and Campbell (USA). For over 40 years, we have been developing innovative solutions for the protection of people, data and communications that meet the highest standards. We are the world's leading manufacturer of hardware security modules and compliance solutions in a wide range of industries such as automotive, banking, telecommunications and many more.
+
+With our global network of partners and customers, we contribute to making digital information and infrastructures secure worldwide. Become part of our team and help us make the digital world more secure - together we are shaping the future of IT security.
+Your tasks
+Your mission:
+Ensure an excellent customer experience in close collaboration with our customers and partners;
+Support our customers and partners to solve problems and ensure a noticeable top-level satisfaction;
+Encourage the continuous improvement of our support quality and infrastructure.
+Your responsibilities:
+Act as a capable partner on eye level in appearing support cases;
+Handle support cases of 1st, 2nd and 3rd level for the utimaco product portfolio and become a support specialist for a product family
+Start over the Utimaco Trust as a Service support
+Simulate customer problems in our TestLab and implement test and analyzing programs; for L3 support engineers
+Support the continuous improvement and maintenance of our support infrastructure (internal and customer facing)
+Partner with our global support colleagues as well as other internal and external interfaces.
+Your profile
+Your profile:
+University/college degree with technical focus or similar background with several years of professional experience, ideally gained in a support role within the IT industry;
+you have at least a basic knowledge of Cryptography and already came across the subject of ""post quantum cryptography""
+Experienced with Windows and Linux operating systems
+Cooperative, communicative, service and solution-oriented way of working with very good analytical skills;
+Very good English communication skills;
+Optional:
+programming skills for setting up demo test applications
+TCP/IP networking knowledge is a plus
+Experiences with ERP and CRM systems is a plus as well
+We offer
+An open and friendly corporate culture, characterized by constructive and collaborative teamwork.
+Support for your future plans through a company pension scheme (depending on country-specific conditions).
+Early birds and night owls alike can shape their workday thanks to a flexible working model.
+We also support you privately – benefit from special payments or additional vacation days on anniversaries or special occasions.
+Utimaco is growing and embraces diversity! Our global team includes colleagues from 42 nations who speak 45 different languages.
+Do you feel addressed?
+How can we help you?
+Direct download
+Download via email
+Your download request(s):
+About Utimaco's Downloads
+Visit our Downloads section and select from resources such as brochures, data sheets, white papers and much more. You can view and save almost all of them directly (by clicking the download button).
+For some documents, your e-mail address needs to be verified. The button contains an e-mail icon.
+A click on such a button opens an online form which we kindly ask you to fill and submit. You can collect several downloads of this type and receive the links via e-mail by simply submitting one form for all of them. Your current collection is empty.
+How can we help you futher?"

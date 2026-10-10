@@ -1,7 +1,7 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { render, type RenderResult } from '@testing-library/react';
 import type { ReactElement } from 'react';
-import type { Job, JobPage } from '../types';
+import type { Job, JobPage, SearchStatus } from '../types';
 
 /** A fresh client per test: retries off so failures surface immediately. */
 export function makeClient() {
@@ -40,7 +40,25 @@ export function makeJob(overrides: Partial<Job> = {}): Job {
     source_type: 'greenhouse',
     saved: false,
     dismissed: false,
+    scored: true,
+    deadline: null,
+    description: '',
+    closed: false,
     created_at: '2026-09-08T00:00:00Z',
+    priority: null,
+    priority_source: '',
+    priority_stale: false,
+    priority_model: '',
+    priority_tier: null,
+    priority_criteria: [],
+    priority_adjustments: [],
+    priority_reasons: [],
+    priority_flags: [],
+    priority_summary: '',
+    priority_issues: [],
+    priority_cv_tip: '',
+    priority_facts: {},
+    priority_excluded: '',
     ...overrides,
   };
 }
@@ -52,6 +70,44 @@ export function makePage(items: Job[], overrides: Partial<JobPage> = {}): JobPag
     limit: 60,
     offset: 0,
     has_more: false,
+    ...overrides,
+  };
+}
+
+/** A search status with nothing running: what the panel and header poll. */
+export function makeSearchStatus(overrides: Partial<SearchStatus> = {}): SearchStatus {
+  return {
+    search: {
+      running: false,
+      phase: 'idle',
+      started_at: '',
+      finished_at: '',
+      sites_total: 0,
+      sites: [],
+      changes: [],
+      new_total: 0,
+      gone_total: 0,
+      reviewed: 0,
+      review_cost: 0,
+      error: '',
+    },
+    review: {
+      mode: '',
+      model: '',
+      effort: '',
+      total: 0,
+      reviewed: 0,
+      failed: 0,
+      cost: 0,
+      errors: [],
+      stopped: '',
+      running: false,
+      started_at: '',
+      finished_at: '',
+    },
+    counts: { open: 120, excluded: 70, never: 40, stale: 5, current: 5, excluded_by_reason: { 'Serve un visto': 70 } },
+    scoring: { model: 'z-ai/glm-5.3-flash', reasoning_effort: 'xhigh', max_concurrency: 8, has_key: true },
+    brief_present: true,
     ...overrides,
   };
 }

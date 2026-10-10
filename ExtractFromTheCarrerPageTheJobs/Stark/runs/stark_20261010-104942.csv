@@ -1,0 +1,2606 @@
+job_id,title,location,contract,url,description
+1875864,(Senior) Backend Engineer C++ (All genders),"Berlin, Munich",Full-time · Permanent employee,https://stark.jobs.personio.de/job/1875864,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+We’re focused on delivering deployable, high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe - today.
+
+About the team
+
+Minerva is STARK's command and control software — the brain that connects operators to autonomous systems across multiple domains in real time. The Minerva team is a small, senior software group based in Berlin and Munich, working directly with our systems and hardware teams to build mission-critical C2 capabilities deployed in active operational environments.We move fast, ship real software, and operate under constraints most engineers never encounter — low-bandwidth networks, air-gapped devices, high-stakes decision loops. There is no room for abstraction for its own sake. Everything we build ends up in the hands of real operators in the field.
+
+Your mission
+
+This is not a ""standard"" backend role. You won't be building CRUD apps for a web store. You will be building the high-performance, low-latency engine at the heart of Minerva Frontline, our Command & Control (C2) Software, enabling mission planning and operations of Aerial and Maritime asset swarms in real world conditions.
+We are looking for C++ developers to build out our core server-side architecture enabling the increasingly complex CONOPS required by NATO’s Armed forces. You will be responsible for how we maintain a global battlefield state, how we translate high-level operator intents into machine-executable actions, and how we stream real-time telemetry to the frontline.
+You will work in a high-density engineering environment alongside robotics, safety, and mission planning experts. If you care about RAII, memory safety, and squeezing every ounce of performance out of real hardware in the field to ensure mission success, this is the role.
+What You'll Build
+
+- The System Brain: You will develop the core C++ services that orchestrate UAV and USV swarms, maintaining a synchronized and robust battlefield state across distributed systems.
+- Mission Control APIs: You will design and implement high-performance gRPC and REST APIs that bridge the gap between our frontend C2 interface and the autonomous vehicles in the field.
+- Real-Time Data Pipelines: You will build and optimize the telemetry pipelines that handle high-frequency data from diverse sensors, ensuring low-latency synchronization and delivery.
+- Scalable Architecture: You will expand our current C++ architecture to support ""affordable mass""—scaling from controlling 4 to 20+ vehicles simultaneously.
+- Tactical Integration: You will implement military standards and protocols (such as STANAG), ensuring our systems are interoperable and battle-ready.
+- Robustness & Testing: You will build and maintain the test suites, ensuring our code performs reliably under the most contested conditions.
+
+Responsibilities
+
+- A C++ Native: You write clean, performant Modern C++ (17/20/23). You understand the cost of every allocation and the value of a deterministic system.
+- Systems-Minded: You think in terms of data flows, state machines, and concurrency. You understand that in our domain, ""late data is wrong data.""
+- A Problem Solver: You dive deep into the details to identify, understand, and solve difficult technical problems at the hardware-software boundary.
+- High Agency: You don't wait for perfect specifications. You understand the mission, look at the code, and drive the architecture forward.
+- Collaborative: You thrive in a multidisciplinary team, working closely with frontend, robotics, and integration engineers to deliver a cohesive product.
+
+Qualifications
+
+- Experience: 5+ years of experience in backend or systems engineering, with a primary focus on high-performance C++ applications.
+- C++ Expertise: Deep proficiency in Modern C++ (17 or later).
+- Networking: Strong understanding of asynchronous networking, inter-process communication (IPC), and real-time data streaming.
+- Industry Context: Relevant experience in Aerospace, Robotics, Automotive, Sensors, or High-Frequency Trading—any domain where software interacts with the physical world in real-time.
+- Bonus Skills: Familiarity with autopilot/flight control systems (MAVLink/PX4/ArduPilot), geospatial data handling (GIS), or building safety-critical software systems.
+
+Why Join STARK?
+
+- Impact: Build the software that NATO militaries rely on when stakes are highest. Your code will directly influence the outcome of critical missions.
+- Engineering Excellence: Work in a culture where technical rigor and architectural beauty are valued. We don't cut corners on safety or performance.
+- Novelty: Solve ""Genesis-stage"" engineering problems for autonomous swarming that have no off-the-shelf solution.
+- Growth: As we scale our platforms from the North Sea to the edges of Europe, your role and impact on the organization will grow with us.
+
+If interested in this opportunity, send us your CV in English, and we will reach out to you soon!"
+2510862,(Senior) Robotics Software Engineer (m/f/d),"Berlin, Munich",Full-time · Fixed-term,https://stark.jobs.personio.de/job/2510862,"About Us
+
+STARK is a defense technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned vehicles that are software-defined, mass-scalable, and cost effective – giving NATO and its allies a decisive edge in the most contested environments.
+We’re focused on delivering deployable, high-performance systems—not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe—today.
+
+About the team
+
+Minerva is STARK's command and control software — the brain that connects operators to autonomous systems across multiple domains in real time. The Minerva team is a small, senior software group based in Berlin and Munich, working directly with our systems and hardware teams to build mission-critical C2 capabilities deployed in active operational environments.We move fast, ship real software, and operate under constraints most engineers never encounter — low-bandwidth networks, air-gapped devices, high-stakes decision loops. There is no room for abstraction for its own sake. Everything we build ends up in the hands of real operators in the field.
+
+Your mission
+
+As a Robotics Engineer with a focus on embedded perception systems, you will play a critical role in enabling real-time autonomy onboard next-generation UAV platforms. You will work directly with camera data pipelines, ROS2-based systems, and embedded compute platforms to build robust, efficient, and scalable perception functionality.
+
+You will contribute as a highly skilled individual contributor—hands-on with the system—bridging diverse codebases and enabling data flows across native ROS2 nodes, legacy frameworks, and containerized third-party modules. Your work will be essential to ensuring that our autonomous systems operate reliably in real-world, resource-constrained environments.
+
+Responsibilities
+
+- Develop and integrate real-time perception pipelines on embedded platforms such as the Jetson Nano NX.
+
+- Migrate legacy monolithic systems to ROS2, refactoring and modularizing components for better scalability and maintainability.
+
+- Enable and optimize image data access across native and containerized components (e.g., Dockerized ROS2 processes).
+
+- Design and implement low-level camera and sensor drivers for real-time vision acquisition.
+
+- Collaborate with AI, controls, and hardware teams to ensure tight integration between perception and other onboard subsystems.
+
+- Profile and debug system performance under embedded constraints (compute, thermal, bandwidth), ensuring stability and robustness in field deployments.
+
+- Contribute to system-level architecture discussions with a focus on communication reliability and modularity.
+
+Qualifications
+
+- Bachelor’s or Master’s degree in Engineering or a related technical field.
+
+- Strong experience with ROS2, including real-world deployment and integration of perception modules.
+
+- Proficient in Python and C++ for embedded and robotics development.
+
+- Solid background in robotics, autonomous systems, embedded development, or aerospace applications.
+
+- Familiarity with embedded Linux platforms, particularly NVIDIA Jetson devices.
+
+- Experience integrating containerized processes (e.g., Docker) into onboard robotic systems.
+
+- Ability to navigate and coordinate between different frameworks (ROS2, legacy/custom codebases, third-party modules).
+
+- Strong problem-solving and debugging skills, especially in real-time or resource-constrained environments.
+
+- Effective communicator and team player in multidisciplinary engineering teams.
+
+- Self-driven, organized, and adaptable to fast-paced development cycles.
+
+- Willingness to travel occasionally for field testing and deployment."
+2817196,Avionics & Software Integration Specialist (all genders),Thessaloniki,"Full-time · Permanent employee · 40,000 - 45,000 € per year",https://stark.jobs.personio.de/job/2817196,"About Us
+
+STARK is a new kind of defence technology company, revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. Our mission is to bolster the technological edge of NATO Allies and their partners to deter aggression and defend Europe.
+
+About the team
+
+You will join a highly dedicated and collaborative team working at the heart of our engineering and operations organization. The team brings together great people who care deeply about moving complex programs forward and supporting each other in delivering against ambitious goals.
+
+Your mission
+
+We are seeking a hands-on Avionics & Software Integration Specialist to handle the software setup, firmware flashing, and subsystem integration of our UAVs using Linux (Ubuntu) tools, ensuring every aircraft is fully calibrated and tested before its first flight.
+
+Responsibilities
+
+- Firmware & Integration: Flash and configure all UAV subsystems (flight controller, ESCs, radios, companion computer) and verify bus communications (Serial, CAN/DroneCAN, I2C).
+- Commissioning & Testing: Perform full sensor calibrations, flight-mode setup, ESC/motor tests, safety failsafes, and pre-flight checkouts.
+- Troubleshooting: Diagnose integration issues using Linux CLI and system logs; isolate faults between software, parameters, or hardware/wiring.
+- Production Tracking: Track unit status through the assembly pipeline and escalate technical blockers early.
+
+Qualifications
+
+- PX4 & QGroundControl: Hands-on experience with PX4 (or ArduPilot), parameter tuning, firmware flashing, and sensor calibration.
+- Linux (Ubuntu): Daily comfort using command-line tools, configuration files, and system logs.
+- UAV Hardware & Protocols: Working knowledge of flight controllers, ESCs, GPS, telemetry, and communication buses (CAN/DroneCAN, Serial, I2C).
+- Electronics & Safety: Basic soldering/crimping skills, multimeter usage, and strict adherence to LiPo/power safety.
+
+Nice to have
+
+- Experience with automated test frameworks, scripting, or tooling for UAV commissioning and validation.
+- Familiarity with CI/CD workflows, version control systems such as Git, or software release processes for embedded systems."
+2324258,Berufskraftfahrer / Standortlogistik (m/w/d),"Munich, Berlin",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2324258,"About Us
+
+STARK ist ein Verteidigungstechnologie-Unternehmen, das den Einsatz autonomer Systeme in verschiedenen Einsatzbereichen grundlegend verändert. Wir entwerfen, entwickeln und produzieren leistungsstarke unbemannte Systeme, die softwaregesteuert, in großer Stückzahl skalierbar und kosteneffizient sind. Dadurch verschaffen wir unseren Einsatzkräften einen entscheidenden Vorteil in anspruchsvollen Gefechtsumgebungen.
+
+Unser Fokus liegt auf sofort einsatzbereiten Hochleistungssystemen – nicht auf vagen Zukunftsversprechen. In einer Zeit wachsender Bedrohungen stärkt STARK die technologische Überlegenheit der NATO-Verbündeten und ihrer Partner, um Abschreckung zu gewährleisten und Europa schon heute zu verteidigen.
+
+Your mission
+
+Du sorgst dafür, dass unsere Transporte zuverlässig und sicher ans Ziel kommen und unterstützt gleichzeitig den reibungslosen Ablauf am Standort. Ob auf der Straße, bei Veranstaltungen oder direkt vor Ort – mit deinem Einsatz leistest du einen wertvollen Beitrag zum Erfolg unseres Unternehmens.
+
+Responsibilities
+
+Deine Aufgaben im Fahrbetrieb und in der Eventlogistik
+
+- Durchführung von Transporten auf geplanten Touren (auch Fernfahrten)
+
+- Be- und Entladen der Fahrzeuge
+
+- Unterstützung bei Auf- und Abbau von Veranstaltungen sowie beim Transport von Eventmaterialien
+
+- Verantwortung für einen sicheren und gepflegten Fahrzeugzustand
+
+- Sorgfältige Abwicklung der Transport- und Lieferdokumente
+
+Deine Aufgaben in der Standortlogistik
+
+- Mitarbeit im täglichen Betriebsablauf, wenn keine Fahrten anstehen
+
+- Unterstützung bei Ordnung, Struktur und Sauberkeit auf dem Gelände und in Lagerbereichen
+
+- Durchführung kleinerer Reparatur- und Pflegearbeiten
+
+- Interne Transporte und Besorgungsfahrten
+
+- Flexible Unterstützung je nach Bedarf am Standort
+
+Qualifications
+
+- Ein gültiger LKW-Führerschein (CE) ist von großem Vorteil
+
+- Gabelstapler Führerschein
+
+- Erfahrung im Fahrdienst oder in der Eventlogistik ist hilfreich, aber nicht zwingend erforderlich
+
+- Handwerkliches Geschick und technisches Verständnis
+
+- Zuverlässigkeit, Verantwortungsbewusstsein und Flexibilität
+
+- Freude an Teamarbeit und abwechslungsreichen Aufgaben"
+2684099,C-UAS Electronics Engineer (All genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2684099,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+Your mission
+
+STARK is building the next generation of counter-UAS capability, and we need an Electronic·Engineer who wants to be at the sharp end of that problem. You'll sit within our C-UAS team in Swindon, owning the electrical design and integration of systems that need to work — reliably, in the field, under pressure. This isn't a maintenance role; you'll be shaping hardware that goes into operational environments.
+
+Responsibilities
+
+- Design, develop, and validate electrical systems and subsystems in support of STARK's C-UAS product line.
+
+- Own schematic capture, PCB layout review, and electrical architecture documentation from concept through to production release.
+
+- Support hardware integration and bring-up, troubleshooting electrical issues across RF, power, and digital domains, including the integration of autonomy companion computers (SBCs), flight controllers, radio links, and high-power electric propulsion systems (EDFs/BLDC motors).
+
+- Collaborate closely with mechanical, software, and systems engineers to resolve cross-discipline design conflicts early.
+
+- Define and execute electrical test plans, including EMC/EMI considerations relevant to field-deployed defence systems.
+
+- Contribute to design reviews (PDR, CDR) and produce clear, accurate technical documentation.
+
+- Liaise with suppliers and contract manufacturers on component selection, lead times, and production quality.
+
+- Support field trials and customer demonstrations where electrical performance validation is required.
+
+Qualifications
+
+- Degree in Electrical Engineering, Electronic Engineering, or a closely related discipline.
+
+- Proven experience (4+ years) in hardware/electrical engineering, ideally in a defence, aerospace, or high-reliability product environment.
+
+- Proficiency in schematic capture and PCB design tools (Altium preferred).
+
+- Solid understanding of power electronics, signal integrity, and mixed-signal design.
+
+- Familiarity with EMC standards and design-for-manufacture principles.
+
+Nice to have
+
+- Direct experience with UAS, C-UAS, EW, or RF-heavy systems.
+
+- Experience with the electrical integration of seeker payloads (e.g., EO/IR Gimbals) and fuzing mechanisms.
+
+- Exposure to STANAG or MIL-SPEC design requirements.
+
+- Experience supporting field trials or rapid prototyping in a defence startup or SME context.
+
+- Familiarity with DO-254 or similar airborne/defence hardware assurance frameworks.
+
+If you're interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your CV in English. We´re looking forward to meeting you!"
+2675469,C-UAS Flight Test Coordinator,Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2675469,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+Your mission
+
+You'll make flight test campaigns actually happen, turning engineering readiness, range availability, and a maze of permits into a schedule that holds. As STARK's flight test cadence increases across our CUAS program, you'll be the person who keeps test sites, ground crews, and approvals moving in sync, with Germany as the operational hub and the rest of Europe in scope when a campaign needs it. This role exists because flight testing only creates value when the aircraft actually gets in the air on schedule.
+
+Responsibilities
+
+- Plan and coordinate flight test campaigns across multiple programs, aligning schedules with engineering readiness, range availability, and safety sign-off.
+
+- Own the logistics chain for test execution: range bookings, airspace clearances (NOTAMs), and regulatory approvals across German and other European test sites.
+
+- Act as the central coordination point between flight test engineers, systems/payload teams, ground crew, and safety officers before and during campaigns.
+
+- Track and escalate schedule risks and blockers to program leadership in terms they can act on, not just status updates, but decisions they need to make.
+
+- Coordinate equipment, personnel, and ground support transport to and from test sites across Europe.
+
+- Run pre-test readiness checks and post-test debriefs, capturing action items and lessons learned so they actually get fixed before the next campaign.
+
+- Maintain working relationships with external test ranges, civil aviation authorities, and host-nation contacts to keep access reliable as activity scales.
+
+- Build and maintain the checklists, templates, and processes that let flight test coordination scale without everything running through institutional memory.
+
+Qualifications
+
+- Experience coordinating technical field operations, test campaigns, or similarly logistics-heavy activities, aviation, aerospace, defence, or motorsport backgrounds all transfer.
+
+- Working knowledge of European airspace regulations, NOTAM processes, and UAS/aircraft test permitting — or a demonstrated ability to pick it up fast.
+
+- Comfortable operating as the hub between multiple technical and non-technical stakeholders under real time pressure.
+
+- Strong organizational instincts, with the ability to absorb last-minute schedule changes without losing track of dependencies.
+
+- Willingness to travel regularly across Europe, including extended stretches at test sites.
+
+- Professional English, German or any other European language will considered a plus
+
+- Execution-focused mindset: solves logistics problems on-site, doesn't just flag them and wait.
+
+Nice to have
+
+- Direct experience on UAS or manned aircraft flight campaigns.
+
+- Existing relationships with German test ranges, civil aviation authorities (e.g. LBA), or host-nation test infrastructure.
+
+- Background in safety/range operations or test QA.
+
+- Experience scaling test operations as program cadence ramps up."
+2675467,C-UAS Payload Integration Engineer,Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2675467,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+Your mission
+
+You'll be the technical glue holding together a fast-moving hardware and payload integration environment. The person who turns parallel engineering workstreams into one working system instead of seven disconnected ones. Acting as direct technical counterpart to our integration lead, you'll bring process discipline and hands-on execution to a function that's still being built. This is not a coordination role with a PowerPoint deck attached, it's a seat at the bench, with the authority and technical credibility to make decisions stick.
+
+Responsibilities
+
+- Own day-to-day technical integration across hardware, payload, and embedded subsystems, working directly with engineering teams to resolve interface conflicts as they arise.
+
+- Apply discipline across integration activities, maintaining traceability between requirements, design, and verification.
+
+- Translate requirements and constraints between hardware, software, payload, and systems engineering teams, closing ambiguity at the interfaces rather than escalating it.
+
+- Identify and resolve technical dependencies across teams before they become integration blockers, not after.
+
+- Introduce structure, documentation, and change control into an integration function that doesn't have it yet, without freezing the speed the program needs.
+
+- Work hands-on with engineers on the test floor and at the bench when a problem needs solving in person, not via status update.
+
+- Act as a technical sparring partner to the integration lead, sharing context and pressure-testing decisions across the integration scope.
+
+- Shape the build-out of the wider integration team, contributing to role definition and technical interviewing as the team scales.
+
+- Report integration status, risks, and blockers in terms program leadership can act on, translating engineering reality into business decisions.
+
+Qualifications
+
+- Proven system integration experience in hardware, payload, embedded, defence, or aviation environments.
+
+- Technical depth strong enough to work as a peer with engineers, not just manage their timelines.
+
+- Track record owning technical dependencies and interfaces across multiple engineering disciplines simultaneously.
+
+- Background in either systems/hardware engineering or technical program management, with hands-on integration exposure either way.
+
+- Experience on complex, multi-team technical programs, defence, aerospace, automotive, or comparably regulated sectors.
+
+- A pragmatic, low-ego, execution-first operating style: you bring structure to chaos, you don't wait for chaos to resolve itself.
+
+- Fluent English. German will be considered a plus.
+
+Nice to have
+
+- Experience building or scaling a technical/integration team from scratch.
+
+- Background in UAS, C-UAS, or loitering munition systems specifically.
+
+- Familiarity with formal systems engineering tooling (requirements management, configuration/change control platforms).
+
+- Prior experience in a scale-up or fast-growth engineering environment.
+
+If you're interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your CV in English. We´re looking forward to meeting you!"
+2538624,Category Buyer (all genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2538624,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+About the team
+
+Our procurement team, embedded within the supply chain department, consists of Category Buyers, Non-Production Buyers, and Prototype Buyers. Together, we ensure production continuity by sourcing essential parts, planning supplier orders, managing safety stock, and implementing multi-source strategies, while selecting strategic suppliers to support our continuous ramp-up. We thrive in an agile, high-workload environment, where success requires strong organizational skills and the ability to effectively manage and prioritize information from various channels.
+
+Your mission
+
+As Category Buyer, you will drive global price and contract negotiations, manage end-to-end procurement workflows, and ensure supplier compliance. You will optimize vendor performance to ensure uninterrupted supply and seamlessly scale operations alongside rapidly growing production demands.
+
+Responsibilities
+
+- Develop and implement strategies to optimise the entire supply chain, from procurement to delivery.
+
+- Monitor and manage inventory levels to minimise overstocking and shortages.
+
+- Select, evaluate, and maintain relationships with suppliers; negotiate contracts and terms.
+
+- Identify bottlenecks and inefficiencies in the supply chain and implement improvement measures.
+
+- Analyse and mitigate supply chain risks to minimise disruptions.
+
+- Monitor and optimise logistics costs.
+
+- Work closely with internal departments (R&D, production, quality, logistic, sales) and external partners.
+
+- Prepare reports and analyses on supply chain performance.
+
+- Evaluate and implement supply chain management software and technologies.
+
+Qualifications
+
+- Completed degree in Business Administration, Logistics, Supply Chain
+
+- Management, Industrial Engineering, or a comparable qualification.
+
+- Several years of professional experience in a comparable position in Supply Chain Management, Procurement
+
+- Profound knowledge in all areas of the supply chain.
+
+- Strong analytical and conceptual skills, as well as a good understanding of numbers.
+
+- Ability to identify complex problems and develop innovative solutions.
+
+- Structured, independent, and goal-oriented way of working.
+
+- Strong teamwork skills and a willingness to take responsibility.
+
+Nice to have
+
+- Ideally, experience with ERP systems (e.g., SAP, Oracle NetSuite, etc.)
+
+- Languages: Business-fluent English required. German strongly preferred"
+2806357,Data / Software Engineer (All Genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2806357,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+About the team
+
+Our Data & Analytics team will provide critical cross-functional support across all STARK defence programs. We build robust infrastructure, tools, and data pipelines that ingest and process massive streams of telemetry, sensor, and video data from our autonomous systems. Working in a collaborative and fast-paced engineering environment, our mission is to empower software, hardware, and operational teams with clean, reliable, and real-time data.
+
+Your mission
+
+As a Data / Software Engineer, you will own the end-to-end data pipelines and tooling supporting STARK's autonomous defence systems. You will design, build, and optimize scalable data architectures to capture, process, and analyze complex telemetry, sensor, and video data across multiple product lines. By automating data flows and creating high-performance internal tools, you will enable rapid decision-making, testing, and continuous deployment across all engineering teams.
+
+Responsibilities
+
+- Design, build, and maintain scalable, reliable data pipelines for real-time ingestion and processing of telemetry, sensor, and video data.
+
+- Develop robust automation frameworks and internal tooling to stream data workflows across cross-functional STARK programs.
+
+- Architect cloud infrastructure and data storage solutions leveraging AWS, Azure, or GCP to ensure high availability and low latency.
+
+- Collaborate with hardware, embedded, and software engineering teams to define data models, interface specs, and telemetry schemas.
+
+- Optimize data processing pipelines for high throughput, memory efficiency, and sub-second execution in mission-critical environments.
+
+- Implement comprehensive data quality, monitoring, and alerting systems to proactively detect anomalies and operational issues.
+
+- Maintain rigorous software engineering standards, including unit testing, CI/CD practices, and clear technical documentation.
+
+Qualifications
+
+- Minimum 3 + years of experience in similar relevant roles
+
+- Strong proficiency in modern programming languages such as Python, Rust, or Go.
+
+- Demonstrated hands-on experience building scalable data pipelines and data processing systems.
+
+- Knowledge of relational and non-relational database systems, as well as object storage.
+
+- Experience with cloud platforms (AWS, Azure, or Google Cloud Platform) and cloud-native architectures.
+
+- Proven track record of working with high-volume telemetry, sensor data streams, or video data processing.
+
+- Experience creating developer tooling, CLI utilities, and automated CI/CD workflows.
+
+- Strong problem-solving mindset and solid foundation in software engineering and distributed systems.
+
+Nice to have
+
+- Knowledge of machine learning and data science related concepts and applications.
+
+- Experience with containerization and orchestration technologies such as Docker and Kubernetes.
+
+- Familiarity with defense, aerospace, or robotics domain applications.
+
+If you're interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your CV in English. We're looking forward to meeting you!"
+2755340,Data Operations & Labeling Specialist (all genders),"Munich, Berlin",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2755340,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. This provides our operators with a decisive edge in highly contested environments.
+
+We're focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe — today.
+
+About the team
+
+The Data Operations team owns the entire data lifecycle behind STARK's AI stack: collection, acquisition, generation, curation, and management. We run our own data-collection campaigns across Europe, evaluate new sensors and platforms, and build the internal data platform that turns raw recordings into ready-to-use datasets. Everything we produce feeds directly into the perception and autonomy systems deployed on STARK's platforms — a real data advantage is built, not bought. The team is scaling up right now: real scope, direct impact, no legacy.
+
+Your mission
+
+You are the crucial bridge between our raw field data, our external labeling partners, and our internal Machine Learning teams. Your mission is to ensure our AI models are trained on the highest quality data possible. You will own the day-to-day operations of the data labeling lifecycle: curating raw data, preparing annotation batches, managing vendor communication, and rigorously assessing the quality of incoming labels. If you are highly organized, detail-oriented, and interested in the intersection of data operations and Computer Vision, this is the perfect place to start your career in AI.
+
+Responsibilities
+
+- Own the day-to-day data labeling lifecycle: curate raw field data, create annotation batches, and prepare deliveries for external labeling companies.
+
+- Serve as the primary point of contact for external data annotation vendors, clarifying edge cases and providing feedback on labeling guidelines.
+
+- Conduct rigorous Quality Assurance (QA) assessments on incoming label deliveries, track error rates, and create performance reports.
+
+- Support data curation efforts, filtering and selecting the most valuable sensor data (images, video, lidar) for model training.
+
+- Work closely with ML Engineers to understand their data needs, edge cases, and specific Computer Vision requirements.
+
+- Help maintain the data catalog by ensuring incoming datasets are properly tagged and logged.
+
+Qualifications
+
+- Highly organized and detail-oriented: you can manage multiple data batches, vendor deliveries, and QA processes simultaneously without dropping the ball.
+
+- Strong communication skills: you are comfortable coordinating with external vendors and writing clear, unambiguous instructions/guidelines.
+
+- Basic understanding of Computer Vision and Machine Learning concepts (e.g., bounding boxes, segmentation masks, object tracking).
+
+- Comfortable with basic scripting (Python) and data querying (SQL) to automate small tasks or filter data batches.
+
+- Pragmatic problem-solver who enjoys bringing order to chaotic data deliveries.
+
+- Fluent in English.
+
+Nice to have
+
+- Familiarity with annotation formats (like COCO) and ML dataset structures.
+
+- Previous experience using data annotation platforms (CVAT, Labelbox, Scale AI, etc.).
+
+- Exposure to sensor data (RGB, Thermal, LiDAR) or robotics domains."
+2728246,Data Platform Engineer – Data Operations (all genders),"Munich, Berlin",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2728246,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. This provides our operators with a decisive edge in highly contested environments.
+
+We're focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe — today.
+
+About the team
+
+The Data Operations team owns the entire data lifecycle behind STARK's AI stack: collection, acquisition, generation, curation, and management. We run our own data-collection campaigns across Europe, evaluate new sensors and platforms, and build the internal data platform that turns raw recordings into ready-to-use datasets. Everything we produce feeds directly into the perception and autonomy systems deployed on STARK's platforms — a real data advantage is built, not bought. The team is scaling up right now: real scope, direct impact, no legacy.
+
+Your mission
+
+Data is the fuel of STARK’s AI stack — you build the engine that makes it usable. You own the software backbone of our data platform: the metadata systems, ETL pipelines, data contracts, catalogs, databases, and internal tools that let engineers find, understand, validate, and reuse terabytes of multi-sensor field data in minutes, not days. You treat data context as a product: structured, searchable, version-aware, documented, and traceable from raw recording to processed asset, annotation delivery, dataset, and downstream ML workflow. Success in this role requires seamless cross-functional collaboration—acting as the central hub between the teams collecting data in the field, our external annotation vendors, and the ML engineers training the models. Your job is to design the automated workflows and data tooling that unify these groups, transforming raw operational data into reliable, high-quality systems at scale.
+
+Responsibilities
+
+- Build the Data Backbone: Design, write, and maintain robust Python software and ETL pipelines that ingest, process, and merge complex field recordings (flight data, rosbags, video) and external deliveries into our GCP cloud storage.
+
+- Create Data Tooling: Build the programmatic tools that bridge raw data and downstream usage. This includes writing services to automatically sub-sample video feeds, extract valuable frames, package datasets, and build self-serve data access tools.
+
+- Database & Metadata Engineering: Design, implement, and maintain our metadata databases and data catalogs (tracking datasets, recordings, sensors, labels, and lineage) using solid SQL and schema design principles.
+
+- Data Operations & Labeling Workflows: Own the end-to-end technical workflows for data curation and labeling. You will build the operational tooling and coordinate with external labeling subcontractors to ensure high-quality data deliveries, track progress, and run automated QA.
+
+- Internal Tooling & APIs: Develop backend APIs, self-service dashboards, and data-access tools that allow the entire AI and engineering organization to quickly search, filter, and understand terabytes of multi-sensor data.
+
+- Drive Engineering Excellence: Establish and enforce good software engineering hygiene in a young codebase: rigorous testing, typing, documentation, logging, and CI/CD pipelines.
+
+- Generalist Problem Solving: Thrive in an evolving startup environment. Take on ambiguous problems, migrate legacy data, handle access management, and aggressively automate away manual support tasks.
+
+Qualifications
+
+- Strong Software Engineering in Python: You write clean, typed, tested, and maintainable Python code. You approach data problems with a software developer's mindset.
+
+- Data Engineering & ETL: Proven experience designing, building, and operating robust ETL/data ingestion pipelines.
+
+- Database Mastery: Solid SQL (PostgreSQL preferred) with a strong grasp of schema design, data modeling, and metadata systems.
+
+- Cloud & Infrastructure: Hands-on experience with object storage (GCP/GCS, S3) and the basics of containerization (Docker) and CI/CD.
+
+- Unix/Linux Environments: Strong familiarity with Unix-based systems, shell scripting, and standard Unix tools. You are comfortable working natively in a Linux environment.
+
+- Pragmatic & Adaptable: You know how to balance a quick, scrappy fix with a long-term architectural solution, and you are highly comfortable with the changing priorities of a startup environment.
+
+- Communicator & Coordinator: You are comfortable working cross-functionally and coordinating with external vendors and non-technical stakeholders to drive data labeling and curation efforts.
+
+- Automation Mindset: You aren't allergic to jumping in to do support tasks, but you have the technical chops to automate them away so you never have to do them twice.
+
+Nice to have
+
+- GenAI / Synthetic Data: Experience with synthetic data generation or GenAI-assisted workflows (auto-labeling, data augmentation, foundation-model-based curation).
+
+- Data Ecosystems: Familiarity with data versioning (DVC, LakeFS, FiftyOne), computer vision annotation formats (e.g., COCO), or large-scale data curation workflows.
+
+- Advanced GCP: Experience with GCP services beyond basic storage (BigQuery, Cloud Run, IAM).
+
+- Robotics / Complex Data: Exposure to robotics data formats (ROS bags, MCAP, PX4 logs) or handling heavy, multi-modal data streams (video, lidar).
+
+A note on our process: we value critical thinking, grit, and the ability to learn over a perfect checklist. If you don't hit every bullet point but you love building data systems that real engineers depend on every day, we still want to hear from you."
+2632246,Electrical Engineer Electronic Warfare (All Genders),"Berlin, Stockholm",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2632246,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems, not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+About the team
+
+We are a lean, agile group with a strong systems-minded focus. We operate without silos, meaning we look for self-starters who are comfortable stepping outside their main area of expertise to solve complex problems. In our team, you will have the autonomy to take decisive action and the responsibility to see your hardware operate in the field.
+
+Your mission
+
+You will drive the design, development, integration, and testing of advanced Electronic Warfare (EW) capabilities on STARK’s platforms. Taking ownership of critical hardware and RF systems from concept to layout to simulation, you will ensure our platforms maintain peak performance and deliver decisive overmatch in complex, highly dynamic RF environments.
+
+Responsibilities
+
+- Lead end-to-end board design utilizing Altium Designer, implementing High-Density Interconnect (HDI) techniques and routing high-frequency interfaces.
+
+- Design, simulate, and implement custom RF components and matching networks tailored for contested environments.
+
+- Conduct rigorous antenna design and placement simulations using CST Studio Suite and Altair FEKO to optimize system-level RF performance across our unmanned platforms.
+
+- Own the mechanical packaging and electro-mechanical design of your boards, working closely with other disciplines to ensure seamless hardware-software integration.
+
+- Define and execute strict testing, debugging, and validation protocols to guarantee system stability and survivability.
+
+Qualifications
+
+- 3+ years of professional engineering experience in electronic, RF, or hardware systems development.
+
+- Extensive hands-on experience with board design in Altium, specifically dealing with HDI techniques, complex layer stacks, and high-speed/high-frequency signal integrity.
+
+- Demonstrated proficiency in designing matching networks and simulating RF components, with direct experience using CST and/or Altair FEKO for antenna placement and optimization.
+
+- Strong foundational understanding of how individual RF and electronic components impact the broader system architecture.
+
+- A proven self-starter who thrives in a fast-paced, small-team environment and is unafraid to tackle technical challenges outside of their primary domain.
+
+- Exceptional ability to debug complex, multi-disciplinary system issues at the intersection of hardware, RF, and software.
+
+- B.S. or M.S. in Electrical, Electronic, Telecommunications, or Mechatronics Engineering (or a related field).
+
+- Professional background in Defense, Aerospace, Telecommunications, or other high-performance, high-reliability hardware industries.
+
+- Applied experience with the RF spectrum, signal processing, or software-defined radios (SDR)."
+2718124,Electronics Engineer Electronic Warfare (All Genders),Berlin,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2718124,"About Us
+
+STARK is a defense technology company redefining how autonomous and electronic warfare systems are engineered and deployed. We design, build, and operationalise high-performance electronic warfare (EW) and unmanned systems that provide NATO forces with decisive advantages in contested electromagnetic environments. Our work is grounded in precision, responsibility, and uncompromising engineering discipline, giving you the exciting opportunity to collaborate directly with world-class industrial design and EW experts.
+
+About the team
+
+We are a lean, agile group with a strong systems-minded focus. We operate without silos, meaning we look for self-starters who are comfortable stepping outside their main area of expertise to solve complex problems. In our team, you will have the autonomy to take decisive action and the responsibility to see your hardware operate in the field.
+
+Your mission
+
+You will drive the design, development, integration, and testing of advanced Electronic Warfare (EW) capabilities on STARK’s platforms. Taking ownership of critical hardware and RF systems from concept to layout to simulation, you will ensure our platforms maintain peak performance and deliver decisive overmatch in complex, highly dynamic RF environments.
+
+Responsibilities
+
+- Lead end-to-end board design utilising Altium Designer, implementing High-Density Interconnect (HDI) techniques and routing high-frequency interfaces.
+
+- Design, simulate, and implement custom RF components and matching networks tailored for contested environments.
+
+- Conduct rigorous antenna design and placement simulations using CST Studio Suite and Altair FEKO to optimise system-level RF performance across our unmanned platforms.
+
+- Own the mechanical packaging and electro-mechanical design of your boards, working closely with other disciplines to ensure seamless hardware-software integration.
+
+- Define and execute strict testing, debugging, and validation protocols to guarantee system stability and survivability.
+
+Qualifications
+
+- 3+ years of professional engineering experience in electronic, RF, or hardware systems development.
+
+- Extensive hands-on experience with board design in Altium, specifically dealing with HDI techniques, complex layer stacks, and high-speed/high-frequency signal integrity.
+
+- Demonstrated proficiency in designing matching networks and simulating RF components, with direct experience using CST and/or Altair FEKO for antenna placement and optimization.
+
+- Strong foundational understanding of how individual RF and electronic components impact the broader system architecture.
+
+- A proven self-starter who thrives in a fast-paced, small-team environment and is unafraid to tackle technical challenges outside of their primary domain.
+
+- Exceptional ability to debug complex, multi-disciplinary system issues at the intersection of hardware, RF, and software.
+
+- B.S. or M.S. in Electrical, Electronic, Telecommunications, or Mechatronics Engineering (or a related field).
+
+- Professional background in Defense, Aerospace, Telecommunications, or other high-performance, high-reliability hardware industries.
+
+- Applied experience with the RF spectrum, signal processing, or software-defined radios (SDR)."
+2807520,Electronics Repair Specialist,Kyiv,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2807520,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.We are focused on delivering deployable, high-performance systems, not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe today.
+
+About the team
+
+Our team specializes in the manufacturing, assembly, and repair of electronic components and modules for UAVs. We combine engineering expertise with skilled manual craftsmanship — ranging from PCB assembly and wiring harness routing to component-level troubleshooting and quality control.
+
+Your mission
+
+To quickly identify faults, perform high-quality component-level repairs of any complexity, and guarantee the performance and reliability of restored equipment.
+
+Responsibilities
+
+- Diagnostics and troubleshooting of electronic devices, circuit boards, and UAV components.
+- Component-level repair and soldering (replacement of SMD/BGA components, microcontrollers, connectors).
+- Assembly, disassembly, and mechanical repair of electronic modules and drone frame structures.
+- Maintenance and preventive care (cleaning, thermal paste replacement, fluid damage restoration).
+- Quality control and testing of repaired devices using test and measurement equipment before final sign-off.
+- Maintenance of service logs and recording replaced spare parts in CRM/ERP systems.
+
+Qualifications
+
+- Advanced skills in using soldering equipment (soldering station, hot air rework station, microscope) for fine component-level repair.
+- Practical skills with test and measurement equipment (multimeter, oscilloscope, laboratory power supply).
+- Ability to read and interpret engineering documentation (electrical schematics, datasheets, service manuals).
+- Strong understanding of circuit principles, power distribution, and connector standards.
+- Strong troubleshooting mindset and high attention to detail.
+- Basic technical English for reading schematics, datasheets, and technical documentation.
+
+Nice to have
+
+- Technical education (vocational or higher in electronics, radio engineering, or related fields).
+- Experience in repair, configuration, and testing of UAVs/FPV drones and flight controllers.
+- Familiarity with UAV configuration software (Mission Planner, QGroundControl).
+- Experience with 3D printing and basic CAD modeling for replacement parts."
+2723561,Field Robotics Engineer – Data Operations (all genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2723561,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. This provides our operators with a decisive edge in highly contested environments.
+
+We're focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe — today.
+
+About the team
+
+The Data Operations team owns the entire data lifecycle behind STARK's AI stack: collection, acquisition, generation, curation, and management. We run our own data-collection campaigns across Europe, evaluate new sensors and platforms, and build the internal data platform that turns raw recordings into ready-to-use datasets. Everything we produce feeds directly into the perception and autonomy systems deployed on STARK's platforms — a real data advantage is built, not bought. The team is scaling up right now: real scope, direct impact, no legacy.
+
+Your mission
+
+You are the technical owner of our multi-sensor recording systems — the bridge between raw hardware and the datasets our ML teams train on. You work at the critical intersection of hardware and software: integrating EO/IR cameras, lidar, radar, and IMUs over their real interfaces, adapting the drivers and ROS2 nodes that capture them, solving time synchronization down to the microsecond, and calibrating multi-sensor rigs so every stream is spatially and temporally unified. And you don't just build in the lab: you regularly join our data-collection campaigns across Europe, deploying your systems under real conditions and making sure the data we bring home is worth training on.
+
+Responsibilities
+
+- Own the end-to-end integration of our sensor suites — EO/IR cameras, gimbals, lidar, radar, IMU, GNSS — from electrical interfaces and wiring to working recording pipelines
+
+- Design and implement sensor drivers and ROS2 nodes, working directly with hardware protocols including I2C, SPI, CAN, Serial, MIPI/CSI-2, GigE Vision, and Ethernet (RTSP/UDP)
+
+- Solve temporal synchronization across distributed sensors (PTP, PPS, hardware triggering) so all streams are perfectly aligned for fusion and labeling
+
+- Develop and execute rigorous intrinsic and extrinsic calibration routines (camera-camera, camera-IMU) to spatially unify the sensor rigs
+
+- Build and optimize the onboard recording stack on embedded compute (NVIDIA Jetson): hardware-accelerated video pipelines (GStreamer), efficient logging (MCAP/rosbag), and storage throughput under compute, thermal, and bandwidth constraints
+
+- Evaluate new sensors hands-on at the bench — from probing electrical interfaces with diagnostic tools to benchmarking SDKs — and turn results into clear integration decisions
+
+- Join field data-collection campaigns across Europe: prepare and verify sensor setups, operate the recording systems on-site, diagnose hardware and software issues in real time, and validate recordings before leaving the site
+
+- Produce integration documentation and calibration reports so every setup is reproducible by the team
+
+Qualifications
+
+- Degree in Robotics, Mechatronics, Electrical Engineering, Computer Science, or comparable practical experience
+
+- Proficiency in Python and C++ for robotics and hardware interfacing
+
+- Experience with ROS2, including deployment on physical systems
+
+- Hands-on experience with several hardware protocols such as I2C, SPI, CAN, Serial, or Ethernet-based sensor communication
+
+- Experience integrating cameras or other sensors on embedded Linux platforms, ideally NVIDIA Jetson
+
+- Solid computer vision fundamentals: camera models, distortion, projection geometry, OpenCV
+
+- Good understanding of coordinate frames, transformations, and time synchronization in distributed systems — practical calibration experience is a strong plus
+
+- Comfortable with hardware diagnostic tools (multimeter, oscilloscope) as well as modern software workflows (Git, CI, Docker)
+
+- Practical and structured; willingness to travel regularly for field campaigns and to work outdoors in various conditions
+
+Nice to have
+
+- UAV or mobile robot experience; PX4/ArduPilot and MAVLink basics
+
+- Photogrammetry + 3D Reconstruction
+
+- Low-level driver development or customization on embedded Linux
+
+- GStreamer hardware-accelerated pipelines, JetPack/L4T, CUDA/TensorRT
+
+- MIPI/CSI-2 camera bring-up, ISP tuning, or Linux kernel/device tree exposure
+
+- Calibration tooling such as Kalibr; lidar and point cloud processing (PCL, Open3D)
+
+- Experience with detection/tracking models and modern CV pipelines (PyTorch, ONNX)
+
+- Experience with simulation (Gazebo, Isaac Sim) or synthetic data generation
+
+We hire this role across experience levels: whether you bring a few years of hands-on robotics work or a decade of sensor integration, we will match scope and seniority to your profile.
+
+A note on our process: we value critical thinking, grit, and the ability to learn over a perfect checklist. If you are a talented engineer who loves building complex systems at the boundary of hardware and code, but you don't hit every single bullet point, we still want to hear from you.
+
+If you're interested in building the future of European Defence with us, and you see yourself reflected in the description above, please send us your CV in English. We're looking forward to meeting you!"
+2620759,Flight Test Pilot / Operator,Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2620759,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems—not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe—today.
+
+Your mission
+
+Take our Counter-UAS systems out of the lab and into the field—where they either work or they don’t.
+
+As a Flight Test Operator / Engineer, you will plan and execute flight test campaigns, operate systems in realistic environments, and translate field performance into actionable engineering feedback. You will own significant parts of the test lifecycle while working closely with engineering to rapidly iterate and improve system performance.
+
+This role is for someone experienced enough to operate independently, but still driven to build, test, and improve new technology at speed. Someone who champions a robust safety culture and CRM mindset while maintaining steadfast compliance with all testing protocols and procedures.
+
+Responsibilities
+
+- Plan and execute flight test campaigns for UAS and Counter-UAS systems
+
+- Operate unmanned systems during trials, including mission setup, execution, and post-flight analysis
+
+- Support integration and validation of sensors, payloads, and countermeasure systems
+
+- Develop and refine test procedures, checklists, and safety protocols
+
+- Collect, analyze, and communicate test data to engineering teams with clear recommendations
+
+- Troubleshoot technical issues across hardware and software in field conditions
+
+- Work closely with software, hardware, and systems engineers to drive rapid iteration
+
+- Support customer demonstrations and operational deployments when required
+
+Qualifications
+
+- 3+ years of experience in UAS operations, flight testing, or field engineering (defence, aerospace, or RC)
+
+- Proven ability to operate independently in test or field environments
+
+- Strong understanding of flight operations, safety procedures, and airspace regulations (EASA or equivalent)
+
+- Valid drone operator certification A1/A2/A3, STS 1 & STS 2 (or will to achieve quickly)
+
+- Hands-on experience with system testing, integration, or validation
+
+- Ability to diagnose and resolve technical issues under time pressure
+
+- Comfortable working in demanding outdoor and field environments (long test days, variable conditions)
+
+- Willingness to travel frequently for testing and deployments
+
+- Strong communication skills and ability to work cross-functionally
+
+- Experience with RF systems, EO/IR payloads, or electronic warfare is a strong plus
+
+- Military background would be a plus
+
+- Aviation background like PPL, CPL etc. would be a plus
+
+- Proficiency in English. Fluency in German will be considered an advantage.
+
+- Eligibility for security clearance
+
+If you´re interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your CV in English. We´re looking forward to meeting you!
+
+For further information, please reach out to talent@stark-defence.com"
+2560061,Future Talent — Apply Here!,"Kyiv, Remote, UA",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2560061,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We are focused on delivering deployable, high-performance systems, not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe today.
+
+Your mission
+
+Your mission is to apply your unique skills to give Ukraine a decisive technological advantage. Whether you’re designing hardware, piloting systems, or managing mission-critical operations, your work directly impacts the frontline and brings us closer to Victory.
+
+Can't find the right fit among our active vacancies? We still want you on our radar. Click ""Apply"" to submit your application, and let’s explore how your skills can contribute to our common goal."
+2718100,GNC/Autopilot Engineering Manager (All genders),"Berlin, Munich",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2718100,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+Your mission
+
+You will own the flight control and navigation stack that keeps our autonomous platforms stable, predictable, and precise — from first power-on to final approach (GNC = Guidance, Navigation, Control) . This isn't a maintenance role: you're building the control and state-estimation foundation that every other system on the platform depends on, while growing a team of engineers who can own that responsibility with you. Success looks like a navigation and control stack that performs reliably under the demanding, contested conditions our systems are built for.
+
+Responsibilities
+
+- Lead and grow a fast-expanding team of engineers working on flight control, guidance, and state estimation
+
+- Facilitate and execute the technical direction for the STARK autopilot stack: control theory (PID/LQR/MPC), sensor fusion architecture, state estimation (EKF/UKF), and real-time performance
+
+- Partner with hardware, perception, and systems engineering teams to ensure navigation performance holds end-to-end, not just in isolation
+
+- Own technical roadmap planning for your domain and represent it to your Director and cross-functional stakeholders
+
+- Bring software engineering best practices to the team such as the C4 architecture model, clean code principles and software design patterns
+
+- Moderate the peer review process with the team and ensure knowledge sharing and across different seniorities
+
+- Drive hiring, mentoring, and career development for your team as well as ways of working together
+
+- Report on technical risk, schedule, and capacity to leadership
+
+- Drive test and validation strategy, from simulation and HIL testing through live trials
+
+Qualifications
+
+- 7+ years of software (robotics) engineering experience in the domain of GNC (guidance, navigation, and control)
+
+- 3+ years in a leadership role (Team Lead, Head of, Engineering Manager, or equivalent) with direct people management experience
+
+- Provent track record of deploying robotics software application into production environment
+
+- Strong knowledge about the GNC domain
+
+- Fluent English; German is a plus
+
+Nice to have
+
+- Proven track record taking autonomous systems with GNSS-denied navigation system from design to production fielded, flight-tested products
+
+- Experience with PX4, ArduPilot, or comparable open-source autopilot stacks
+
+- Background in aerospace, robotics, or MINT programs
+
+- Exposure to systems operating in contested or degraded environments
+
+- Prior experience scaling a technical team in a startup or fast-growing engineering org
+
+- Familiarity with MIL-STD or STANAG-aligned development practices
+
+If you're interested in building the future of European defence with us and you see yourself reflected in the description above, please send us your CV in English. We’re looking forward to meeting you."
+2736500,Group Accounting Manager (all genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2736500,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems—not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe—today.
+
+About the team
+
+You will be reporting to the Head of Accounting.
+
+Your mission
+
+As Group Accounting Manager, you will play a pivotal role in overseeing the group-wide financial reporting, consolidation, and accounting activities for the organization. You will act as a key technical expert and a bridge between corporate functions, local subsidiaries, and external stakeholders.
+
+Responsibilities
+
+- Financial Reporting & Consolidation: Prepare and review accurate monthly, quarterly, and annual consolidated financial statements for the corporate group and its subsidiaries in accordance with IFRS and HGB.
+- Technical Guidance: Serve as the subject matter expert on complex accounting transactions, financial reporting requirements, and technical assessments under both IFRS and German GAAP (HGB).
+- Subsidiary Support & Collaboration: Act as a central liaison between corporate functions and managers within national subsidiaries, supporting and advising them on local and group-level accounting matters.
+- Audit & Stakeholder Management: Collaborate closely with cross-functional teams (Finance, Treasury, Tax, Legal) and lead the interaction with external Group auditors during annual audits and reviews.
+- Team Leadership & Mentorship: Possibility of growing the Group Accounting team, and fostering a supportive, collaborative environment.
+- Ad-Hoc Projects & Process Improvement: Drive process enhancements, system implementations, and special finance initiatives to optimize financial workflows.
+
+Qualifications
+
+- Education: Degree (Bachelor's or Master's) in Accounting, Finance, Business Administration, Economics, or a related field. A CPA or equivalent designation is a strong asset.
+- Experience: 5 to 7+ years of progressive professional experience in (group) accounting, gained either within an international corporation or a major audit firm.
+- Accounting Standards: In-depth knowledge and hands-on experience with IFRS and HGB (German GAAP), including group consolidation and reporting obligations for public or growth-stage companies.
+- Software & Systems:
+- Prior experience using NetSuite is an advantage.
+- Experience with consolidation software (e.g., Lucanet, SAP, or similar tools) is a plus.
+- Advanced proficiency in Microsoft Excel.
+
+- Languages: Fluency in English is required. Good command/proficient skills in German are strongly preferred.
+- Soft Skills & Work Style: Structured, detail-oriented, and analytical mindset with strong problem-solving skills. Excellent communication skills to interact effectively across international, cross-functional teams.
+
+Talent Contact:Sally Grütte-Pad, Interim Lead TA Partner, via talent@stark-defence.com"
+2657783,Head of AI,"Berlin, Munich",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2657783,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+Your mission
+
+Reporting directly to the CTO, you will define and own STARK's AI strategy, across the product, across internal tooling, and across the entire technical organisation. You'll work shoulder-to-shoulder with Chief Engineers and Engineering Leads, setting a direction they can execute against. On the product side, you'll push the boundaries of what's possible in sensing, autonomy, and robotics for defence. On the internal side, you'll systematically drive AI-powered productivity across every function at STARK. And beyond the company, you'll be our most visible and credible AI voice; the signal that serious AI talent picks up when deciding where to build next.
+
+Responsibilities
+
+- Define and own STARK's AI strategy across product and internal domains, setting a direction that Technical Leads can execute against
+
+- Lead AI stack decisions, model selection, frameworks, MLOps infrastructure, evaluation, and tooling, in partnership with the CTO and Technical Leads, with final technical accountability sitting with you
+
+- Act as connective tissue across teams: identify and resolve cross-team AI dependencies, shared infrastructure gaps, and redundant workstreams that individual leads cannot see from inside their own domain
+
+- Drive internal AI adoption across STARK, developer productivity tooling, agent and automation infrastructure, and responsible-use frameworks across engineering and operations
+
+- Provide technical oversight and challenge across all AI workstreams, asking hard questions on methodology, adversarial robustness, distribution shift, and performance under real operational conditions, without taking over delivery
+
+- Monitor the academic and commercial AI landscape and translate relevant advances into concrete strategic inputs for the CTO and programme leadership
+
+- Keep AI strategy grounded in operational reality by partnering with programme and product leadership so that what we build maps to real mission requirements, not research for its own sake
+
+- Raise the AI bar at STARK: contribute to senior technical hiring, define the AI engineering standard, and build STARK's standing in the European defence-AI community
+
+- Represent STARK externally, speak at defence, robotics, and AI venues, publish or present where it serves the mission, and act as a credible signal of the company's technical ambition
+
+What success looks like in the first 12 months:
+
+- A single, written, widely-understood AI strategy that Chief Engineers and Technical Leads actively use to make decisions
+
+- Internal AI tooling in production use, measurably changing how engineering and operations work day-to-day, not as a pilot
+
+- At least one product-side AI capability moved meaningfully forward on your direction
+
+- STARK visibly more attractive to senior AI talent than when you joined, with at least one strong hire personally pulled into the pipeline
+
+Qualifications
+
+- Degree in machine learning, computer vision, robotics, or a closely related field, or demonstrably equivalent depth through industry research and an open publication or open-source record
+
+- Proven experience setting AI technical strategy at a senior level, across multiple domains simultaneously, not within a single team or project
+
+- Deep technical fluency in at least one of: perception and sensor fusion, autonomy and motion planning, SLAM/localisation, or multi-agent coordination (C2), with enough breadth to engage credibly across all of them
+
+- Strong track record of influencing technical decisions without direct line authority, working through and alongside Technical Leads, not over them
+
+- Experience in defence, aerospace, or another safety-critical domain where AI system failure carries real-world consequence; direct UAS or ground-robotics experience strongly preferred
+
+- Fluent English; working German is a practical advantage in Berlin or Munich
+
+- Eligibility for the required security clearance
+
+Nice to have
+
+- An existing network within the European defence AI community
+
+- Prior experience in a staff- or principal-level AI role inside a scaling deep-tech or defence company
+
+- A public profile, talks, papers, or open-source work, that already signals technical credibility
+
+- Comfort operating in a high-autonomy, low-overhead role: setting direction and shaping outcomes without a large dedicated team"
+2748192,Head of Flight Control System (FCS) (all genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2748192,"About Us
+
+STARK is a new kind of defence technology company. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective, changing how autonomous systems are deployed across multiple domains. This gives our operators a decisive edge in highly contested environments. As threats rise, STARK is strengthening the technological edge of NATO Allies and their Partners to deter aggression and defend Europe.
+
+Your mission
+
+As Head of FCS, you own STARK's flight control system: the software and firmware that fly our aircraft, and the avionics hardware it runs on. Your team develops the FCS as a core product and delivers it into multiple Loitering Munition platform developments across STARK. You build that team, across HW/SW: flight software and firmware, and avionics hardware, with product management, systems engineering and integration binding them together.
+
+The current software is based on available libraries (e.g. PX4 or similar) and your team integrates and extends it for current and new products. The ambition is to develop own flight control laws and embedded software in future. You will work with flight dynamics and control laws from our flight sciences team, requirements and interface definitions from systems engineering, and you deliver qualified flight control systems and software releases into the platform teams for integration and flight test of prototypes, and then full production. Several aircraft programmes run in parallel and every one of them wants flight control now, so the challenge in this job is to develop a core capability and support its deployment against programme deadlines. The scope grows with the team: it starts with the flight software and widens into an own development avionics hardware. Several of the strategic decisions that shape the scope and team are open, and your mission will include making them.
+
+Responsibilities
+
+Team & capability build
+
+- Develop and manage sub-teams across software and hardware, with team leads who can run their areas.
+
+- Hire and lead both hardware and software engineering areas, building upon the current software team.
+
+- Balance core development and platform reusability with project-specific customer deadlines in a fast-paced environment. Plan sprints and allocate capacity across parallel aircraft programmes, and keep focus on priorities with urgent deadlines and critical projects.
+
+- Build a design verification culture of that catches problems on the bench: design reviews, code reviews, continuous integration.
+
+- Serve as the primary point of contact for Vehicle Systems Leads, Payload Teams, and Ground Control Software teams across active projects.
+
+Flight Control System design, integration & verification
+
+- Architect a unified, modular FCS platform (hardware + software) capable of supporting multi-rotor, fixed-wing, and VTOL aircraft with minimal platform-specific code duplication
+
+- Lead the development of automated Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HIL) test environments to accelerate regression testing.
+
+- Own the safety-critical flight termination system, hardware and software, for test and development.
+
+- Direct hardware/software co-design trade studies evaluating sensor selection (IMUs, barometers, magnetometers), processing units, bus architectures (CAN/DroneCAN, Ethernet, UART), and power redundancy schemes.
+
+- Agree the design assurance approach with system safety and certification, oversee the production of technical documentation and means of compliance for the FCS.
+
+- Perform FMECA (Failure Mode, Effects, and Criticality Analysis) to ensure system reliability and redundancy.
+
+- Work with system level ground and flight testing to develop, test and analyse telemetry data for control loop tuning and design verification.
+
+Flight software & firmware
+
+- Lead the avionics software team, which shall own the PX4-based software integration and extension: custom modules, drivers, flight modes, failsafe logic, sensor and component interfaces.
+
+- Deliver flight control software to new prototypes, in-production, and in-service units, managing version-control and release management to the different platforms and fleet.
+
+- Integrate the control laws into the flight control software for each platform
+
+- Define software development standards and processes suitable and scalable from rapid prototyping through to mass production.
+
+Avionics hardware
+
+- Lead the avionics hardware team, which shall take our flight-controller hardware from requirements through schematic, PCB layout, component selection and integration of sensor interfaces.
+
+- Direct trade studies on sensor selection, processing, bus architecture (CAN/DroneCAN, Ethernet, UART, SPI), power distribution and redundancy.
+
+- Drive EMI/EMC, signal integrity, mechanical and thermal design, environmental qualification, and design for manufacture with Production.
+
+- Deliver flight control hardware into the HIL benches, and qualified boards and BSP into the programmes.
+
+Qualifications
+
+Required
+
+- Degree in aerospace, electrical, or computer engineering, robotics, or a related field.
+
+- 7+ years in UAV, avionics, or robotics engineering, with 2+ years of technical leadership or engineering management experience.
+
+- Control Theory: Strong proficiency in linear/non-linear control theory (PID, LQR, MPC), flight dynamics, state estimation (Kalman Filters / EKF), and vehicle system identification.
+
+- FCS Software: experience with PX4, Ardupilot or similar, proprietary RTOS FCS development, or real-time embedded environments.
+
+- Avionics Hardware: Hands-on familiarity with PCB design principles, sensor integration, EMI/EMC mitigation, and communication buses (CAN, SPI, UART, Ethernet, Arinc, Milbus).
+
+- Experience in building and managing engineering teams
+
+- Business-fluent English; German at working level is useful, not required.
+
+- NATO member-state citizen, eligible for German security clearance (Ü2/Ü3).
+
+Preferred
+
+- Experience with unmanned system development (multi-rotors, fixed-wing, VTOL-hybrid)
+
+- Experience in developing avionics to aerospace standards (DO-178C, DO-254, ARP4754A) or equivalent Automotive or Industrial standards (IEC, etc)
+
+- Experience with automated HIL/SIL test bench setup and test execution
+
+- Experience running hardware-software co-development using Agile frameworks.
+
+- Development of new flight controllers
+
+- Leadership in a multi-programme organisation
+
+Mindset
+
+- Build for reuse: You solve the problem once, in a way the next three programmes can use, and you can say no to the one-off that would cost you the platform.
+
+- Comfortable without the answer: Parts of the roadmap are still open. You make sound calls anyway and revisit them when the decisions land.
+
+- Close to the aircraft: You go to the field, watch your builds fly, and assess the data
+
+- Straight about risk: You say when something is not ready to fly, in front of people who want it to be.
+
+Talent Contact:
+Sally Grütte-Pad, Interim Lead TA Partner via talent@stark-defence.com"
+2523288,Head of Software Architecture,"Berlin, Munich",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2523288,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. We’re focused on delivering deployable, high-performance systems—not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies to deter aggression—today.
+
+About the team
+
+Minerva is STARK’s command‑and‑control software — the system that connects operators to autonomous platforms across multiple domains in real time. Our team is a small, senior group based in Berlin and Munich, working closely with hardware, autonomy, and systems engineering to deliver mission‑critical C2 capabilities deployed in active operational environments.
+
+We operate under constraints most engineers never encounter: low‑bandwidth networks, air‑gapped devices, and high‑stakes decision loops. Everything we build ends up in the hands of real operators in the field.
+
+Your mission
+
+This is not a standard engineering role; it is a high‑impact leadership position at the intersection of hardware, software, and human factors. We have world‑class architects leading separate workstreams across C2, Perception, and Autonomy.
+
+As Head of Software Architecture, your mission is to lead, align, and govern these architectural workstreams under a unified, delivery-focused engineering strategy that results in concrete artifacts, architecture diagrams, and actionable software components. You will set the architectural direction for STARK’s software ecosystem, ensure coherence across domains, and provide the systems‑engineering rigor required to meet the complex requirements of our customers.
+
+You will not only unify architecture - you will own it.
+
+Responsibilities
+
+1. Architectural Alignment & Leadership
+
+- Software System Engineering — You will act as the System Engineer on the software side, responsible for defining the V-Model process, leading requirements engineering, and directing V&V planning.
+
+- Cross‑Platform Alignment — You will guide stakeholders toward common architectural solutions adopted across the product portfolio.
+
+- Conflict Resolution & Consensus Building — You will identify conflicts between hardware and software, synthesizing input from experts to drive alignment across C2, Perception, Autonomy, and Embedded.
+
+- Organizational Architecture — You will design communication pathways and collaboration patterns that ensure architectural integrity drives effective organizational structure (Conway’s Law).
+
+2. Strategic Technical Governance
+
+- Safety‑by‑Design Leadership — Champion Modern C++ Safety Guidelines (MISRA) and mentor teams on building reliable, safety‑critical systems.
+
+- Software Interface Governance — Define and govern the software interfaces across the stack, ensuring architectural integrity and interoperability within the software ecosystem.
+
+- Operational Reliability — Ensure that changes in autopilot firmware, mission planning, and perception stacks never break operational workflows.
+
+- Compliance & QA Excellence — Lead V-Model enforcement, V&V, and QA (ISTQB) processes. Own technical compliance (IEC 61508, ISO 27001, AQAP, DeumilSAA, Cyber Sec Essentials, STANAGs, DEFSTAN) and manage all associated audit documentation.
+
+3. Mentorship & Organizational Influence
+
+- Influence‑Based Leadership & Change Management — Run design reviews that empower teams while guiding architecture through scaling refactors and managing technical debt.
+
+- Architect Development — Mentor senior software engineers and architects, helping them grow into cross‑domain leaders.
+
+- Cultural Stewardship — Shape a culture that values clarity, safety, and mission‑driven engineering.
+
+- Leadership & Community — Head the Software Architecture community of practice and directly lead a dedicated V&V and QA team.
+
+The Tech Landscape
+
+- Technical Curiosity — You will earn the respect of domain experts across mission planningautonomy, perception, embedded, and systems engineering.
+
+- Data‑Flow Understanding — You will understand how data moves from onboard sensors over constrained radio links (MAVLink/Silvus) to ground‑station systems (C++).
+
+- C++ Leadership — You will reinforce C++ as the core language, emphasizing safety and standardization.
+
+- SWaP‑C Awareness — You will intuitively understand how software decisions impact hardware endurance, performance, and cost.
+
+Qualifications
+
+- Senior Architectural Experience — 10+ years in Principal, Staff+, or equivalent architectural roles.
+
+- Cross‑Team Leadership — Proven experience leading architecture across multiple engineering teams.
+
+- Domain Expertise — Background in aerospace, defence, robotics, or complex hardware/software systems.
+
+- Communication Excellence — Ability to influence without authority and communicate across technical domains.
+
+- Systems Thinking — Ability to break down complex, cross‑domain challenges into coherent solutions.
+
+- Security Eligibility — Ability to obtain appropriate security clearance.
+
+- Background in Aerospace, Defense, Robotics or complex Hardware/Software systems.
+
+- Proven experience acting as an architect across multiple engineering teams
+
+- Strong verbal and written communication skills
+
+- Security: Due to the nature of our work, candidates must be eligible to obtain appropriate security clearance.
+
+- Why Join STARK?
+
+- Impact: You are defining the nervous system of next-generation defense. Your decisions determine the lethality and survivability of our platforms.
+
+- Autonomy: You are the technical authority connecting the ""Sky"" (Drones) to the ""Ground"" (C2).
+
+- Growth: Lead the technical strategy for a rapidly expanding portfolio of air and sea systems."
+2579214,Junior FPGA Engineer (All Genders),Berlin,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2579214,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe - today.
+
+Your mission
+
+As a Junior FPGA Engineer, you will join our specialized hardware team to develop the high-speed digital logic that powers our autonomous platforms. You will be responsible for designing, implementing, and testing FPGA-based solutions that process complex signals in real-time.
+
+This role is ideal for a high-potential engineer who wants to move beyond simulation and see their code interact with the physical world. You will work closely with senior mentors to bridge the gap between digital signal processing theory and hardware realisation.
+
+Responsibilities
+
+We are looking for candidates with experience in some or all of the following areas:
+
+- RTL Design: Develop and maintain high-speed digital logic using VHDL, Verilog, or SystemVerilog.
+
+- Verification: Create testbenches and run functional simulations to validate design behavior.
+
+- Hardware Debugging: Use lab equipment (Oscilloscopes, Logic Analyzers) and on-chip debugging tools (ILA/Signal Tap) to troubleshoot physical hardware.
+
+- Integration: Collaborate with Electronics and Software teams to define FPGA pinouts, review schematics, and develop interface APIs.
+
+- IP Management: Integrate and configure third-party IP cores and interface with high-speed ADCs/DACs.
+
+- Documentation: Maintain clear design specifications, register maps, and version-controlled HDL repositories.
+
+Qualifications
+
+- Proficiency in VHDL, Verilog, or SystemVerilog.
+
+- Experience with FPGA vendor tools (e.g., Xilinx Vivado or Intel Quartus).
+
+- Understanding of Digital Signal Processing (DSP) fundamentals.
+
+- Basic experience with simulation tools (e.g., ModelSim, Questa).
+
+- Familiarity with common hardware interfaces (AXI, SPI, I2C, UART).
+
+- Competency in Python or C/C++ for scripting and testing support.
+
+Soft Skills
+
+- Curiosity-Driven: You have a deep desire to understand how things work at the register level.
+
+- Resilient: You enjoy the ""puzzle"" of hardware debugging and timing closure.
+
+- Effective Communicator: You can explain your logic design clearly to both software and hardware teams.
+
+Qualifications
+
+- Bachelor’s or Master’s degree in Electrical, Electronic, or Computer Engineering.
+
+- 0-2 years of experience (relevant internships or personal hardware projects are highly valued).
+
+Nice to Have
+
+- Knowledge of System-on-Chip (SoC) architectures (e.g., Zynq).
+
+- Familiarity with Linux-based development environments.
+
+- Interest in software-defined radio (SDR) architectures."
+2806339,Junior PMT Engineer (All Genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2806339,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous
+systems are deployed across multiple domains. We design, develop, and manufacture high-
+performance unmanned systems that are software-defined, mass-scalable, and cost-effective —
+providing operators with a decisive edge in contested environments.
+We are focused on delivering deployable, high-performance systems — not future promises. In
+a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their
+Partners to deter aggression and defend Europe, today.
+
+About the team
+
+The Central Systems Engineering and PMT team establishes the overarching systems
+engineering framework, technical guidelines, requirements guidance, and software toolchains
+used by project-specific engineering teams. We act as the central entity for standardization,
+ensuring all project-specific teams have the architectural blueprints, methodologies, and tools
+required for efficient, compliant development.
+
+Your mission
+
+As a Junior PMT Engineer, you will be the operational backbone of our engineering toolchain
+environment. You will serve as the primary point of contact for project programs regarding day-
+to-day software tool management, user access control, license administration, and onboarding
+support. Working closely with our PMT Architects, you will help bridge central methods with
+daily practice by training engineers and supporting project-embedded Configuration Managers.
+
+Responsibilities
+
+- Act as the primary technical point of contact for project teams and Configuration Managers regarding daily tool operation and support (e.g., 3DEXPERIENCE, JAMA, Jira).
+- Troubleshoot basic user issues, workflow bottlenecks, and system access requests across programs.
+- Provision licenses, configure user permissions, and set up collaborative spaces across enterprise engineering platforms according to the defined allocation plan and approved program needs.
+- Track tool usage, monitor license availability, and support software deployment requests across all entities.
+- Support the creation, maintenance, and delivery of training materials, user guides, and onboarding modules for engineering tools and workflows.
+- Assist in conducting hands-on onboarding sessions for new engineers to ensure consistent adoption of central PMT guidelines.
+- Assist PMT Architects in documenting standard operating procedures (SOPs) and
+workflow templates, while conducting basic data cleanliness and workspace compliance
+audits across toolchains.
+
+Qualifications
+
+- Degree in Aerospace Engineering, Mechanical Engineering, Systems Engineering, Software Engineer, or a related technical field.
+- 0–2 years of experience in an engineering support, tools administration, or systems engineering role (internships or working student experience included).
+- Familiarity with or strong willingness to learn enterprise engineering tools such as 3DEXPERIENCE (3Dx), JAMA, Jira, or similar PLM/Requirements platforms.
+- Excellent communication skills with the ability to translate central architectural guidance into actionable operational practices.
+- Collaborative, a problem-solver, and a confident communicator capable of driving consensus among diverse teams.
+
+If you're interested in building the future of European Defence with us, and you see yourself
+reflected on the description above, please send us your CV in English. We´re looking forward
+to meeting you!"
+2699285,Mechanical Engineer Electronic Warfare (All Genders),Berlin,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2699285,"About Us
+
+STARK is a defence technology company redefining how autonomous and electronic warfare systems are engineered and deployed. We design, build, and operationalise high-performance electronic warfare (EW) and unmanned systems that provide NATO forces with decisive advantages in contested electromagnetic environments. Our work is grounded in precision, responsibility, and uncompromising engineering discipline, giving you the exciting opportunity to collaborate directly with world-class industrial design and EW experts.
+
+Your mission
+
+As a Mechanical Engineer in the Electronic Warfare division, your focus will be on speed, adaptability, and execution. Working alongside industry-leading industrial designers and EW specialists, your primary mission is to rapidly design, package, and integrate cutting-edge EW payloads into autonomous loitering munition systems. We aren't looking for someone to spend years building a single, monolithic asset; we need a versatile problem-solver who can quickly tackle a variety of hardware, thermal, and structural challenges to get reliable systems into the field.
+
+Responsibilities
+
+- Package and integrate complex EW hardware, antennas, and RF payloads into autonomous loitering munition systems.
+
+- Collaborate with in-house industrial design and EW experts to balance high-level aesthetic and functional design with rugged defense requirements.
+
+- Get hands-on with the validation process - quickly designing fixtures and executing testing inside advanced chambers (thermal, vibration, and environmental shock).
+
+- Use FEA and CFD as practical tools to solve thermal dissipation and high-g load challenges efficiently.
+
+- Partner closely with RF and software teams to rapidly iterate on mechanical constraints and real-time mission requirements.
+
+- Move fast from initial CAD modeling through rapid prototyping to manufacturing handoff.
+
+Qualifications
+
+- A history of successfully solving a variety of mechanical packaging and thermal challenges quickly, rather than dedicating years to a single project.
+
+- High proficiency in modern 3D CAD software (e.g., SolidWorks, NX, or Creo) and practical simulation tools for FEA/CFD.
+
+- Experience packaging ruggedised electronics or payloads into weight-critical, high-vibration platforms (UAVs, robotics, or aerospace).
+
+- Hands-on experience preparing hardware for environmental testing and adjusting designs based on quick test results.
+
+- Ability to collaborate clearly and move projects forward seamlessly with RF and software teams.
+
+Relevant Backgrounds
+
+- Aerospace, UAV, or robotics structural and mechanical design.
+
+- Enclosure design for ruggedised electronics, RF front-ends, or Software-Defined Radios (SDRs).
+
+- Fast-paced hardware prototyping environments.
+
+Nice to have
+
+- Understanding of how mechanical material selection impacts RF transparency and EMI/EMC.
+
+- Experience with composite materials and lightweight manufacturing techniques.
+
+- Familiarity with environmental qualification concepts (e.g., MIL-STD-810)."
+2741196,PMT Architect (All genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2741196,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+About the team
+
+The Central Systems Engineering and Processes, Methods, and Tools (PMT) team establishes the overarching systems engineering framework, technical guidelines, requirements guidance, and software toolchains used by project-specific engineering teams. We act as the central entity for standardization, ensuring all project-specific teams have the tools and methodologies required for efficient, compliant development.
+
+Your mission
+
+As the PMT Architect, you will be the lead architect driving the definition, governance, and rollout of our centralized Processes, Methods, and Tools (PMT) framework. You will design the foundational engineering lifecycle, integrate cutting-edge software toolchains, and standardize global engineering practices. In this role, you will bridge central methodology with execution, providing direct technical, process, and PLM guidance to embedded project teams and Configuration Managers across all active programs.
+
+Responsibilities
+
+- Process Architecture: Define and evolve end-to-end V-model development lifecycles to ensure consistency and compliance across all programs.
+- Engineering Methods: Establish scalable organizational guidelines and standard practices, incorporating Model-Based Systems Engineering (MBSE).
+- Toolchain Integration: Drive the integration, optimization, and governance of multi-disciplinary engineering software tools (3DEXPERIENCE, JAMA…) across the product development lifecycle.
+- PLM & Configuration Support: Act as the central PLT expert (e.g., 3DEXPERIENCE) and technical anchor for project-embedded Configuration Managers.
+- Enablement & Adoption: Partner with project leads to ensure smooth deployment, adoption, and daily operation of central engineering standards.
+
+Qualifications
+
+- Degree in Aerospace Engineering, Mechanical Engineering, Systems Engineering, or a related technical field.
+- At least 3–5 years of experience in a Systems Engineering, PMT, or Engineering Toolchain role within complex product development environments
+- Hands-on experience working within the V-Model product development lifecycle and MBSE methodologies.
+- Strong working knowledge of enterprise PLM platforms (such as 3DEXPERIENCE / 3Dx) specifically for defining and managing end-to-end product specifications and configuration workflows.
+- Excellent communication skills with the ability to translate central technical guidance into actionable operational practices.
+- Are collaborative, problem-solver, and a confident communicator capable of driving consensus among diverse teams."
+2744392,Powertrain Simulation Engineer (all genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2744392,"About Us
+
+STARK is a European defence technology company building the next generation of unmanned systems. We design, develop and manufacture software-defined, mass-scalable and cost-effective platforms that give NATO operators a decisive edge in highly contested environments. We are focused on delivering deployable, high-performance capability — not future promises. In a time of rising threats, our work strengthens the technological edge of NATO Allies and their partners.
+
+Your mission
+
+As a Powertrain Simulation Engineer, you will be the driving force behind predicting, optimizing, and validating the performance of our electric Powertrain Systems (propulsion, invertor, battery and cells) . You will manage the development and execution of complex 1D multi-physics models to simulate aggressive flight profiles and powertrain behaviors. You will build simulation pipelines, automate data analysis, and conduct virtual testing to guide architectural decisions and validate system capabilities before physical hardware is built.
+
+Responsibilities
+
+- 1D Model Development & Simulation: Design, build, and maintain high-fidelity 1D models of the complete electric powertrain (including batteries, inverters, electric motors, and thermal management systems) using industry-standard tools.
+- Performance & Mission Analysis: Execute standard and custom simulation profiles—including high-power continuous discharge (simulating hover/climb), dynamic pulse loading, and extreme temperature conditions—to evaluate system-level performance and efficiency.
+- Architecture & Optimization: Conduct trade studies and sensitivity analyses to optimize powertrain component sizing, gear ratios, voltage levels, and thermal cooling strategies to maximize range and payload.
+- Data Validation & Correlation: Work closely with the hardware test engineering team (e.g., Dyno and Battery Lab) to correlate 1D simulation results with empirical test data, continuously improving model accuracy and reliability.
+- Controls & HIL Support: Provide high-fidelity plant models to the firmware and systems teams to support the development of control algorithms and Software/Hardware-in-the-Loop (SIL/HIL) testing.
+- Toolchain & Pipeline Automation: Develop scripts to automate the execution of complex simulation matrices, post-processing of results, and generation of performance reports.
+
+Qualifications
+
+- Education: Bachelor’s degree in Mechanical Engineering, Aerospace Engineering, Electrical Engineering, or a related technical field.
+- Experience: 2+ years of hands-on experience in a simulation, modeling, or systems engineering role, specifically focused on electric powertrains, thermal systems, or battery performance.
+
+Technical Skills:
+- Extensive experience with 1D multi-physics simulation software (e.g., GT-SUITE, Siemens Amesim, MATLAB/Simulink/Simscape, or Dymola/Modelica).
+- Strong understanding of electric powertrain fundamentals, including thermodynamics, heat transfer, electrochemistry, and electric motor dynamics.
+- Proficiency in scripting languages (e.g., Python, MATLAB) for data analysis and simulation automation.
+- Proven ability to interpret physical test data and translate physical hardware behaviors into accurate mathematical models.
+
+Nice to have
+
+- Experience modeling hardware for aerospace, drones, or eVTOL applications, with knowledge of flight physics and high-power mission profiles.
+- Familiarity with 3D CFD/FEA tools (e.g., ANSYS, Star-CCM+) and how to extract data from them to inform 1D system models.
+- Experience taking a powertrain architecture from a clean-sheet conceptual phase through to hardware validation and hardware validation.
+
+For more details, please contact Sally Grütte-Pad, Interim Lead TA Partner via talent@stark-defence.com"
+2704109,Product Manager - Localization & Navigation (All genders),"Berlin, Munich",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2704109,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today
+
+Your mission
+
+You will own the product roadmap for one of the hardest and most consequential capabilities in our autonomy stack: how our platforms know where they are when GPS isn't available or can't be trusted. You won't be writing the estimation filters yourself, but you'll be translating deep technical complexity into a roadmap that ships, and making sure engineering effort lands on the problems that matter most. Success looks like a localization capability that improves predictably, release over release, with clear priorities that the technical team trusts.
+
+Responsibilities
+
+- Own and drive the product roadmap for localization and navigation
+
+- Translate platform-level requirements and operational needs into clear, prioritized technical requirements for engineering
+
+- Partner closely with engineering leadership to balance roadmap ambition against technical feasibility, risk, and timeline
+
+- Define and track success metrics for localization performance (accuracy, robustness, drift, time-to-reacquisition) in product terms
+
+- Run the prioritization process: gather input from engineering, systems, and field/operations stakeholders, then make the call
+
+- Represent the localization roadmap to the Head of Product and cross-functional leadership, including trade-off decisions and risk
+
+- Maintain close visibility into technical constraints and emerging approaches without owning the technical architecture directly
+
+- Write clear product requirement docs, acceptance criteria, and release narratives that engineering can build against
+
+- Track competitive and technological landscape developments relevant to GNSS-independent navigation
+
+Qualifications
+
+- 5+ years of product management experience, with demonstrated ownership of a technically complex roadmap
+
+- Strong technical fluency in localization, state estimation, or autonomy software — gained through close partnership with engineering (not necessarily as a hands-on engineer)
+
+- Proven ability to translate ambiguous, technically dense problems into clear product requirements and prioritized roadmaps
+
+- Track record of working directly with GNC, perception, or autonomy engineering teams to ship complex technical capability
+
+- Strong stakeholder management skills, with experience presenting roadmap and trade-off decisions to senior leadership
+
+- Excellent written communication: PRDs, requirements docs, and roadmap narratives that engineers can act on without a follow-up meeting
+
+- Fluent English; German is a plus
+
+Nice to have
+
+- Background in robotics, autonomous vehicles, aerospace, or defence-adjacent product management
+
+- Familiarity with SLAM, or sensor fusion concepts at a working (non-implementation) level
+
+- Experience working on products where performance must hold under adversarial or degraded operating conditions
+
+- Prior experience in a startup or fast-scaling engineering organization
+
+- Technical degree (engineering, robotics, physics, or similar) even without a hands-on engineering career
+
+If you're interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your CV in English. We´re looking forward to meeting you!"
+2821101,Quality Control Specialist,Kyiv,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2821101,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We are focused on delivering deployable, high-performance systems, not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe today.
+
+About the team
+
+We are a Quality Control team working directly with the production of UAVs. Our team is responsible for ensuring product quality at different stages of production — from incoming inspection of components to in-process and final inspection. We work closely with Production and Engineering teams to identify issues, prevent defects, and continuously improve quality processes.
+
+Your mission
+
+We are looking for a Quality Control Specialist who will ensure that products meet requirements at all stages of production — from incoming material inspection to the acceptance of finished products.
+
+Responsibilities
+
+- Conduct incoming inspection of materials, components, and finished products.
+- Perform measurements, functional tests, and visual inspections according to technical documentation.
+- Record inspection results, prepare reports, and identify non-conformities.
+- Collaborate with engineers and production teams to resolve defects and implement corrective actions.
+- Maintain and adhere to quality control standards in accordance with ISO 9001, AS9100, and military regulations.
+- Participate in preparation for internal and external audits.
+
+Qualifications
+
+- Experience in quality control within manufacturing (mechanical engineering, electronics, aviation, or defense is a plus).
+- Knowledge of quality principles and standards (ISO 9001, AS9100, or equivalent).
+- Ability to work with technical drawings, documentation, and measuring equipment.
+- Attention to detail, responsibility, and a systematic approach.
+- Basic experience with ERP/MRP systems.
+- Intermediate English (reading technical documentation + spoken).
+
+Nice to have
+
+- Experience participating in certification audits.
+- Knowledge of military standards, including NATO AQAP.
+- Experience in quality control of electronic components or aviation products."
+2043562,RF Engineer / RF Technician - Ground Control Station (m/f/d),Berlin,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2043562,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems—not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe—today.
+
+About the team
+
+You will be working closely with the Commercial team.
+
+Your mission
+
+As an RF Engineer you will Design, integrate, and validate robust RF systems for military UAV platforms, delivering secure communications and electronic warfare capability in contested environments.
+
+Responsibilities
+
+- Select, design, and integrate RF hardware including SDRs, antennas, filters, LNAs, power amplifiers, and front-end modules
+- Define system-level requirements and ensure RF systems meet performance, environmental, and regulatory standards
+- Develop robust communication architectures for UAV command, control, telemetry, and payload data transfer
+- Support the design and integration of electronic warfare functions such as signal detection, jamming, spoofing, and RF hardening
+- Perform RF simulations, link budget calculations, and range performance modeling
+- Work with mechanical and systems engineers on antenna placement, EMC/EMI mitigation, and SWaP optimization
+- Evaluate and qualify COTS and custom RF components for use in military platforms
+- Plan and execute lab testing, range validation, and flight trials of RF systems
+- Ensure compliance with NATO STANAGs, MIL standards (e.g. MIL-STD-461, 464, 810), and relevant frequency allocation regulations
+- Contribute to safety, reliability, and certification documentation, including SC-Light UAS or equivalent pathways where applicable
+
+Qualifications
+
+- Degree in Electrical Engineering, RF Engineering, Telecommunications, or a related discipline
+- Experience in RF systems design, ideally in aerospace, defense, or tactical communications
+- Solid experience with software-defined radios, RF front-end design, and antenna system integration
+- Knowledge of RF propagation, modulation schemes, spectral efficiency, and interference mitigation
+- Familiar with RF test equipment (VNAs, spectrum analyzers, signal generators) and RF design/simulation tools (e.g. HFSS, CST, MATLAB)
+- Understanding of EMC/EMI principles and ruggedization of RF systems for harsh environments
+- Familiarity with relevant military standards and NATO STANAGs for communication and EW systems
+- Awareness of civil UAV certification requirements (e.g. SC-Light UAS) is a plus
+- Strong analytical, documentation, and communication skills
+- Ability to travel to various testing sites in Europe when needed
+- Eligible for security clearance (or already holds one)
+- Fluent in English; German is beneficial, additional languages are a plus
+
+If you´re interested in building the future of European Defence with us, and you see yourself reflected in the description above, please send us your CV in English. We´re looking forward to meeting you!
+
+Your contact is Sally Grütte-Pad, Interim Lead TA Partner via talent@stark-defence.com"
+2806338,Senior AI & Flight Dynamics Integration Engineer (All genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2806338,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+About the team
+
+You will join our Open Source Aero Simulation team, dedicated to building and scaling next-generation autonomous flight systems. We focus on developing, validating, and implementing end-to-end aerodynamic and flight dynamics workflows built primarily on open-source tools and simulation frameworks. By integrating cutting-edge AI agents with open-source platforms, we accelerate rapid prototyping, multidisciplinary design optimization, and mission-critical aircraft analysis. We operate in an agile, hands-on environment where open engineering and cross-disciplinary innovation drive everything we build.
+
+Your mission
+
+As a Senior AI & Flight Dynamics Integration Engineer, you will own and develop an AI-driven autonomous aircraft design and optimization workflow at STARK. You will integrate LLMs and AI agents with aerodynamics, CFD, flight dynamics, and multidisciplinary simulation tools to accelerate rapid prototyping and aircraft development. Your mission is to automate complex engineering decision-making loops and deliver highly performant, software-defined flight platforms.
+
+Responsibilities
+
+- Develop LLM and AI Agent-based engineering workflows to interpret aircraft requirements and support iterative design decisions.
+
+- Automate parametric aircraft geometry using OpenVSP, Python, and STEP-based CAD workflows.
+
+- Integrate Flow5 (VLM / Panel Methods) and OpenFOAM CFD to build aerodynamic databases including C_L, C_D, C_m, C_p, and stability derivatives.
+
+- Develop 6-DoF flight dynamics and flight mechanics models, including trim, stability, control authority, propulsion, and aircraft performance calculations.
+
+- Integrate aircraft KPIs such as take-off/landing speed and distance, range, endurance, rate of climb, and efficiency into an automated optimization loop.
+
+- Drive multidisciplinary design optimization (MDO) frameworks to rapidly evaluate aircraft trade-offs.
+
+- Collaborate with systems and software teams to validate dynamic models against simulation and flight test data.
+
+Qualifications
+
+- Minimum 5+ years of relevant professional experience in engineering automation, aerodynamics, or flight systems.
+
+- Strong background in Flight Dynamics, Aerodynamics, and Stability & Control.
+
+- Demonstrated experience with Python and engineering workflow automation.
+
+- Hands-on experience with OpenFOAM, VLM/Panel methods, or OpenMDAO.
+
+- Degree in Aerospace, Aeronautical, Systems, Computer Engineering, or a related field.
+
+Nice to have
+
+- Direct knowledge and experience with OpenVSP and Flow5.
+
+- Hands-on experience integrating LLM APIs, AI Agents, and modern MDO tools.
+
+- Experience in unmanned aerial systems (UAS) or rapid-prototyping defence environments.
+
+If you're interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your CV in English. We´re looking forward to meeting you!
+
+The proliferation of low-cost UAS has fundamentally changed the threat landscape, and STARK is building the system that counters it. As Product Manager for our C-UAS C2 software suite, you will own the vision and execution of the central intelligence layer connecting sensor networks to effector tasking. Your mandate is clear: compress the DTIM loop, reduce operator cognitive load, and ship a product that works when lives depend on it."
+1914657,Senior Computer Vision Engineer (All Genders),"Berlin, Munich",Full or part-time · Permanent employee,https://stark.jobs.personio.de/job/1914657,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+We’re focused on delivering deployable, high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe - today.
+
+About the team
+
+Minerva is STARK's command and control software — the brain that connects operators to autonomous systems across multiple domains in real time. The Minerva team is a small, senior software group based in Berlin and Munich, working directly with our systems and hardware teams to build mission-critical C2 capabilities deployed in active operational environments.We move fast, ship real software, and operate under constraints most engineers never encounter — low-bandwidth networks, air-gapped devices, high-stakes decision loops. There is no room for abstraction for its own sake. Everything we build ends up in the hands of real operators in the field.
+
+Your mission
+
+You will be developing cutting-edge Computer Vision solutions and algorithms for our autonomous vehicles, bringing these onto our hardware in real time.
+
+Responsibilities
+
+- Coding!
+
+- Building in areas including Object Detection, Tracking and guidance, target re-identification
+
+- Working through software design, and architecture, all the way through to implementation
+
+- Integrating onto our hardware in real time
+
+- Stay current with emerging technologies and industry trends, recommending and implementing innovations to improve our products and processes
+
+- Dive deep into the details to identify, understand, and solve difficult technical problems
+
+- Constantly be challenging requirements to determine what adds value and what is not
+
+Qualifications
+
+- Bachelor's or Master's degree in Engineering or a related field
+
+- Minimum of + 7 years of experience working as Computer Vision generalist
+
+- Advanced use of Python and strong in C++
+
+- Robotics, autonomous driving or aerospace experience is a big plus
+
+- Excellent problem-solving skills and the ability to troubleshoot and resolve issues
+
+- Strong communication and collaboration skills to work effectively in a multidisciplinary team environment
+
+- Adaptability to work in a fast-paced, dynamic startup environment with a strong drive for innovation and continuous improvement
+
+- Ability to travel as needed"
+2772747,Senior Electronics Engineer EW (All Genders),Berlin,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2772747,"About Us
+
+STARK is a defence technology company redefining how autonomous and electronic warfare systems are engineered and deployed. We design, build, and operationalise high-performance electronic warfare (EW) and unmanned systems that provide NATO forces with decisive advantages in contested electromagnetic environments. Our work is grounded in precision, responsibility, and uncompromising engineering discipline, giving you the opportunity to lead alongside world-class industrial design and EW experts.
+
+About the team
+
+We are a lean, agile group with a strong systems-minded focus. We operate without silos, looking for senior engineers who thrive on end-to-end technical leadership and cross-domain problem solving. In this role, you will have the mandate to architect critical hardware, mentor high-performing teams, take decisive action, and see your systems operate in the field.
+
+Your mission
+
+You will architect and drive the design, integration, and deployment of mission-critical Electronic Warfare (EW) capabilities across STARK’s platforms. Serving as a technical authority for critical hardware and RF systems, you will guide architecture from concept through simulation, layout, and field validation, ensuring our platforms deliver decisive overmatch in complex, dynamic RF environments.
+
+Responsibilities
+
+- Lead end-to-end board design using Altium Designer, setting standards for High-Density Interconnect (HDI) techniques, stackup strategies, and complex high-frequency routing.
+
+- Oversee the design, simulation, and implementation of custom RF components, matching networks, and signal conditioning chains for contested environments.
+
+- Direct antenna design and placement simulations using CST Studio Suite and Altair FEKO to optimize platform-level RF performance and mitigate co-site interference.
+
+- Drive the mechanical packaging and electro-mechanical integration of hardware systems, collaborating with software, firmware, and mechanical teams to ensure seamless platform deployment.
+
+- Establish rigorous testing, debugging, and validation frameworks to guarantee hardware survivability and performance against strict defence and environmental standards.
+
+- Mentor junior and mid-level engineers, review technical designs, and contribute to long-term hardware roadmaps and architectural decisions.
+
+Qualifications
+
+- 6+ years of professional engineering experience leading complex electronic, RF, or hardware systems development.
+
+- Expert-level proficiency in Altium Designer, with a track record of successfully bringing complex HDI, high-speed, and high-frequency PCBs to production.
+
+- Deep experience in RF circuit design, matching network optimization, and electromagnetic simulation using CST Studio Suite, Altair FEKO, or similar tools.
+
+- Proven ability to define multi-layer hardware architectures and translate broad operational requirements into robust engineering specifications.
+
+- Demonstrated track record of technical ownership in fast-paced, multi-disciplinary environments.
+
+- Advanced system-level debugging capability across hardware, RF, software, and firmware boundaries.
+
+- B.S. or M.S. in Electrical, Electronic, Telecommunications, or Mechatronics Engineering (or equivalent experience).
+
+- Direct experience in Defence, Aerospace, Telecommunications, or high-reliability hardware sectors.
+
+- Deep familiarity with RF spectrum management, signal processing techniques, or Software-Defined Radio (SDR) architectures."
+2742755,Senior Flight Dynamics Engineer (All Genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2742755,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+About the team
+
+The Flight Dynamics team at STARK is dedicated to developing high-fidelity simulation models for our autonomous aerial systems. We work closely with the Flight Control team as well as program engineering teams across various projects.
+
+Your mission
+
+As Senior Flight Dynamics Engineer, you will own the evolution of our simulation model architecture and flight dynamics models to maximize simulation fidelity. You will analyze flight test data for system identification, build programs to replicate product–environment interactions, and mentor team members in model development best practices.
+
+Responsibilities
+
+- Develop and refine flight dynamics models to improve simulation accuracy and performance.
+
+- Analyze flight test data to perform system identification and validate model behavior.
+
+- Define and evolve the overall model architecture within the simulation environment.
+
+- Coach and mentor team members working alongside you on model development.
+
+- Investigate and resolve engineering challenges related to simulation performance and model fidelity.
+
+- Build and maintain simulation programs to replicate product–environment interactions without real-world testing.
+
+- Develop models primarily in MATLAB/Simulink, with integration of C ++ where required.
+
+- Collaborate closely with the Flight control team and program engineering teams to support simulation-related needs across projects.
+
+Qualifications
+
+- Bachelor's or Master's degree in Aerospace Engineering or similar relevant areas of expertise.
+
+- 6+ years of experience in similar positions.
+
+- Proven experience in dynamic systems modeling and aircraft simulation.
+
+- Strong proficiency in MATLAB and Simulink.
+
+- Expertise in data analysis and system identification, extracting system behavior and parameters from test data.
+
+- Demonstrated contribution to projects that reached a tested or operational stage.
+
+- Excellent communication skills in English (German is considered a plus).
+
+Nice to have
+
+- Experience with deployment and integration of simulation models (CI/CD).
+
+- Programming skills (e.g., C, Python, or other languages) for task automation and model enhancement.
+
+- Strong reporting and documentation skills to communicate complex technical insights clearly."
+2043616,Senior HR Manager (m/f/d),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2043616,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe - today.
+
+About the team
+
+You will be part of the global HR Team, reporting to the Team Lead Ops.
+
+Your mission
+
+As an Senior HR Manager with a strong focus on labor law and operations you will be responsible for ensuring smooth and effective HR related legal processes across various demands. You will serve as the first point of contact for labor law inquiries, manage HR administration, and support operations. Your expertise in HR operations will help create a seamless employee experience while ensuring compliance with HR policies and regulations.
+
+Responsibilities
+
+- Support employee requests related to HR policies, benefits, and employment matters.
+- Support payroll preparation by collecting and verifying relevant data.
+- Handle administrative HR tasks, including contract management, onboarding, and offboarding.
+- Maintain accurate employee records and HR databases.
+- Assist in developing and optimizing HR processes for efficiency and scalability.
+- Collaborate with other HR team members to enhance the overall employee experience.
+
+Qualifications
+
+- Minimum of 7+ years of experience as an HR Manager or similar role.
+- Profound experience with HR administration, payroll processes, and labor laws.
+- Excellent problem-solving and communication skills with a people-first mindset.
+- Fluent in both German and English (written and spoken).
+- Ability to handle sensitive information with confidentiality and professionalism.
+- Proactive and structured approach to work with attention to detail.
+- Experience with HR software and digital tools
+- Strong communication and collaboration skills to work effectively in a multidisciplinary team environment.
+- Adaptability to work in a fast-paced, dynamic startup environment with a strong drive for innovation and continuous improvement."
+2281445,Senior Media and Communications Officer (m/f/d),"Berlin, Munich",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2281445,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe - today.
+
+About the team
+
+You will be reporting to the VP Media Relations.
+
+Your mission
+
+We are seeking a highly motivated and skilled Senior Media and Communications Officer to support our growing communications team. Based in Berlin or Munich, the successful candidate will play a key role in building the company’s reputation across Germany and internationally, with a particular focus on media relations, content development, and strategic messaging.
+
+Responsibilities
+
+- Develop and implement media strategies that support the company’s objectives
+
+- Proactively pitch stories and manage relationships with German and international media outlets
+
+- Draft press releases, op-eds, briefings, Q&As, and reactive statements in both English and German
+
+- Monitor media coverage and provide regular analysis and insight to internal stakeholders
+
+- Support the delivery of major announcements, media events, and leadership engagements
+
+- Ensure message consistency across all external communications, including alignment with corporate narrative
+
+- Work with other internal teams to develop content that showcases the company’s technology, partnerships, and impact
+
+- Act as a key point of contact for media enquiries
+
+Qualifications
+
+- Minimum of 3+ years’ experience in communications, journalism, or media relations, preferably within the defence or security sectors
+
+- Strong understanding of the media landscape in Germany and Europe, with a proven track record of securing coverage
+
+- Excellent verbal and written communication skills in both German and English (native-level fluency in at least one)
+
+- Experience managing sensitive and high-stakes media moments, including crisis communications
+
+- Confident working with senior executives and external stakeholders
+
+- Able to translate complex technical topics into clear, compelling messaging
+
+- Highly organised, proactive, and able to manage multiple priorities under pressure"
+2778571,Senior Mesh Network and MAC Engineer (All Genders),Berlin,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2778571,"About Us
+
+STARK is a defence technology company redefining the engineering and deployment of autonomous platforms. Our core mission is to deliver fully operational unmanned systems, integrating the critical subsystems, including Electronic Warfare, necessary for NATO forces to maintain a decisive advantage in contested environments. We do whatever is required to achieve platform autonomy, grounded in precision, responsibility, and uncompromising engineering discipline.
+
+About the team
+
+We are a lean, agile group with a strong systems-minded focus. We operate without silos, looking for proactive engineers who are excited to take mathematical models off the whiteboard and deploy them onto physical hardware. On our Electronic Warfare algorithms team, you will bridge the gap between theoretical signal processing and real-world hardware execution, taking direct ownership of key software and firmware modules.
+
+Your mission
+
+At STARK, we are building the next generation of autonomous platforms capable of navigating the world's most contested environments. As a Senior Mesh Network and MAC Engineer you will solve the critical challenges of directional wireless communication in highly dynamic networks. You will design and implement the medium access control (MAC) and routing layers that allow our platforms to form robust, self-healing networks under demanding tactical conditions.
+
+Responsibilities
+
+- Architect and implement MAC protocols and routing algorithms tailored for directional multi-node systems, directly tackling the challenge of neighbour discovery under highly focused, narrow beams.
+- Build dynamic TDMA schedules and beam coordination mechanisms in lockstep with the physical layer (PHY) and antenna steering systems, ensuring routing decisions are grounded in real-time RF characteristics rather than simple hop counts.
+- Deliver resilient multi-hop relay capabilities that sustain high-bandwidth video and control links between mobile platforms over tactical distances, routing back seamlessly to ground control stations under dynamic conditions.
+- Build and maintain multi-node Hardware-in-the-Loop (HIL) testbeds alongside automated logging pipelines to quantitatively evaluate and verify network join times and topology reform behaviours.
+- Mesh networking in a product that shipped — sim work alone does not qualify — plus Linux networking at kernel and packet level with live debugging.
+- Radio-literate and has designed a medium-access scheme or TDMA schedule.
+
+Qualifications
+
+- You have successfully designed and shipped mesh networking protocols in commercial or defence products.
+- Deep, practical familiarity with the Linux networking stack at the kernel and packet levels, coupled with strong live-debugging skills on embedded systems.
+- Strong understanding of wireless propagation and physical layer realities, with hands-on experience designing medium-access control schemes or TDMA schedulers.
+
+Nice to have
+
+- Active contributions to open-source routing protocols (e.g., batman-adv, olsrd, Babel).
+- A professional background at tactical mesh vendors (such as Silvus, Persistent Systems, TrellisWare, Saab, or Bittium).
+- Experience with mmWave backhaul systems or other technologies where directional beamforming is the default mode of operation.
+- Batman-adv / olsrd / Babel contributor; tactical mesh vendor background (Silvus, Persistent, TrellisWare, Saab, Bittium); mmWave backhaul — already thinks in beams."
+2407218,Senior Safety Engineer - Loitering Systems (all genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2407218,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe - today.
+
+Your mission
+
+As a Safety Engineer you will be responsible for defining, implementing, and verifying the safety of our advanced Loitering Munition systems throughout their entire lifecycle, ensuring compliance with both national (German) and international (NATO) military and relevant civil aviation standards. This is a critical role to ensure both product safety (functional and ordnance) for our NATO customers and occupational safety in our operations.
+
+Responsibilities
+
+- Plan, establish, and execute the System Safety Program (SSP) in accordance with MIL-STD-882E (Standard Practice for System Safety) and relevant AOP-52 (Guidance on Software Safety Design and Assessment of Munition-Related Computing Systems) or equivalent NATO standards.
+
+- Conduct and manage formal safety analyses, including Preliminary Hazard Analysis (PHA), Subsystem Hazard Analysis (SSHA), System Hazard Analysis (SHA), Operating and Support Hazard Analysis (O&SHA), and Failure Modes and Effects Analysis (FMEA/FMEDA) for both hardware and software.
+
+- Implement and verify functional safety requirements for electrical, electronic, and programmable electronic systems, with a strong focus on the methodology and lifecycle approach of IEC 61508 (Functional Safety of E/E/PE Safety-Related Systems) adapted for defense applications.
+
+- Prepare and manage safety-related documentation, including Safety Cases, Safety Assessment Reports (SAR), and Safety Justifications required for domestic and NATO customer acceptance and service suitability (S3) certification.
+
+- Maintain an awareness of civil aviation safety standards from the European Union Aviation Safety Agency (EASA), particularly in areas like Unmanned Aircraft Systems (UAS) or other relevant regulations, to address potential dual-use or operational safety aspects in controlled airspace.
+
+- Translate customer (NATO/military) and statutory safety requirements into verifiable system and subsystem requirements.
+
+- Participate in design reviews, test readiness reviews, and acceptance boards as the safety Subject Matter Expert (SME).
+
+- Support the company's OHS program, ensuring compliance with German Occupational Safety Law (Arbeitssicherheitsgesetz - ASiG) and related regulations for handling ordnance and operating complex machinery.
+
+- Define and implement internal safety processes, tools, and best practices to continually improve the company's safety culture and management system.
+
+Qualifications
+
+- 3–5 years of professional experience in System Safety, Functional Safety, or Product Safety, preferably within the defense, aerospace, or complex critical systems industry (e.g., rail, automotive with transferrable knowledge).
+
+- Bachelor's or Master's degree in Safety Engineering, Aerospace Engineering, Electrical Engineering, or a comparable technical field.
+
+- Knowledge of MIL-STD-882, AOP-50 series (e.g., AOP-52), and IEC 61508.
+
+- High proficiency (C1/C2) in both English and German, written and spoken.
+
+- Knowledge of German defense and ordnance safety regulations, as well as an awareness of EASA safety standards and their potential relevance to UAV/munition systems.
+- Strong analytical and problem-solving skills, excellent communication and presentation abilities, and the capacity to work effectively in interdisciplinary, multi-national teams.
+
+- Willingness to undergo necessary security clearance checks (ZÜP)."
+2579334,Senior Software Engineer – Integration and Deployment (All Genders),"Munich, Berlin",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2579334,"About Us
+
+Über STARK
+STARK ist ein neuartiges Defence-Tech-Unternehmen, das die Art und Weise revolutioniert, wie autonome Systeme in unterschiedlichen Einsatzdomänen eingesetzt werden. Wir entwickeln, konstruieren und produzieren hochleistungsfähige unbemannte Systeme, die softwaredefiniert, skalierbar in der Massenproduktion und kosteneffizient sind. Dadurch verschaffen wir unseren Anwendern einen entscheidenden Vorteil in hochumkämpften Einsatzumgebungen.
+
+Unser Fokus liegt auf einsatzbereiten Hochleistungssystemen – nicht auf Zukunftsversprechen. In einer Zeit zunehmender Bedrohungen stärkt STARK den technologischen Vorsprung der NATO-Verbündeten und ihrer Partner, um Aggressionen abzuschrecken und Europa schon heute zu verteidigen.
+Über das Team
+
+Minerva ist die Command-and-Control-Software (C2) von STARK – das „Gehirn“, das Operatoren in Echtzeit mit autonomen Systemen über verschiedene Domänen hinweg verbindet. Das Minerva-Team ist eine kleine, hochqualifizierte Gruppe erfahrener Softwareentwickler mit Standorten in Berlin und München. Es arbeitet eng mit den Hardware- und Systemteams zusammen, um missionskritische C2-Fähigkeiten zu entwickeln, die in realen operativen Umgebungen eingesetzt werden.
+
+Wir arbeiten schnell, liefern echte Software aus und bewegen uns in Rahmenbedingungen, die die meisten Softwareingenieure nie erleben: Netzwerke mit geringer Bandbreite, isolierte (air-gapped) Systeme und hochkritische Entscheidungsprozesse. Bei uns gibt es keine technische Spielerei ohne praktischen Nutzen. Alles, was wir entwickeln, landet direkt in den Händen von Anwendern im Einsatz.
+Deine Mission
+
+About the team
+
+Wir suchen einen Senior Software Engineer (all genders), der das technische Gesicht von Minerva Frontline gegenüber unseren internen Hardware-Teams, Pilotkunden und Programmpartnern ist. Du bringst Frontline in neue interne und kundenseitige Projekte, verantwortest die technische Integration und gewinnst Vertrauen durch technische Exzellenz – nicht durch Projektmanagement. Wir sind als Team füreinander da!
+
+Your mission
+
+Du arbeitest an der Schnittstelle zwischen Software, Hardware und operativer Realität: Du setzt das C++-Backend auf, das UAV-Schwärme orchestriert, integrierst neue Plattformen in laufende Systeme und stellst sicher, dass die Führungs- und Kontrollprozesse auch in isolierten, bandbreitenlimitierten taktischen Umgebungen reibungslos funktionieren.
+
+Wenn im Feld etwas ausfällt, bist du vor Ort und behebst das Problem – unter Zeitdruck und mit dem Kunden direkt an deiner Seite.
+
+Responsibilities
+
+Integration und Deployment
+- Installation, Konfiguration und Inbetriebnahme von Minerva Frontline in Kundenumgebungen.
+- Arbeit mit Edge-Hardware, eingeschränkten Netzwerken und taktischer Infrastruktur.
+- Integration neuer UAV-Plattformen und Funktionen in die Frontline-Plattform.
+
+Analyse und Fehlerbehebung
+- Technische Ansprechperson vor Ort für komplexe Systemprobleme.
+- Analyse und Behebung von Problemen wie:
+- Ausfällen oder Verschlechterungen der Schwarm-Telemetrie
+- gRPC-Konnektivitätsproblemen
+- Fehlern bei der Übersetzung von MAVLink-Kommandos in reale Drohnenaktionen
+
+- Fehlerdiagnose und Problemlösung in Echtzeit.
+
+Schnittstelle zwischen Kunde und Entwicklung
+- Übersetzung von Feedback von Operatoren, Piloten und Kunden in konkrete technische Anforderungen.
+- Enge Zusammenarbeit mit den Engineering-Teams zur Umsetzung von Verbesserungen, Fehlerbehebungen und Plattformintegrationen.
+
+Validierung im Einsatz
+- Teilnahme an Flugtests und Erprobungskampagnen.
+- Sicherstellung, dass Softwarebefehle zuverlässig und präzise in physische Drohnenaktionen umgesetzt werden – auch unter realen Einsatzbedingungen.
+
+Entwicklung von Tools
+- Entwicklung eigener Werkzeuge, wenn Standardlösungen nicht ausreichen:
+- Skripte
+- Diagnose-Tools
+- Integrations- und Testumgebungen
+
+- Ziel ist es, Deployments reproduzierbar, effizient und robust zu gestalten.
+
+Arbeit auf dem Feld
+- Direkte Zusammenarbeit mit Hardware-Ingenieuren, Drohnenplattformen und Testequipment.
+- Regelmäßige Einsätze bei Kunden und auf Testgeländen gehören fest zum Aufgabenbereich.
+
+Qualifications
+
+- Bachelor- oder Masterabschluss in Informatik, Robotik, Systems Engineering oder vergleichbare praktische Erfahrung.
+- Sehr gute Kenntnisse in modernem C++ (C++17/20/23).
+- Sicher im Lesen, Debuggen und Anpassen produktiver C++-Codebasen.
+- Erfahrung im Aufbau und Betrieb komplexer verteilter Systeme.
+- Praktische Kenntnisse in:
+- Echtzeitfähigen verteilten Systemen
+- gRPC
+- Flatbuffers
+- WebSockets
+- MAVLink / MAVSDK
+
+- Nachweisbare Erfahrung bei der Einführung und dem Betrieb von Softwarelösungen bei externen Kunden.
+- Erfahrung in der Zusammenarbeit mit Hardware-Teams während Flugtests und Plattformintegrationen.
+- Bereitschaft zu regelmäßigen Reisen innerhalb Deutschlands (bis zu 40 %).
+- Aufgrund der Art unserer Arbeit müssen Kandidatinnen und Kandidaten die Voraussetzungen für eine entsprechende Sicherheitsüberprüfung erfüllen.
+
+Interessiert?
+Wenn du gemeinsam mit uns die Zukunft der europäischen Verteidigung gestalten möchtest und dich in dieser Beschreibung wiederfindest, freuen wir uns auf deinen Lebenslauf in englischer Sprache.
+Wir freuen uns darauf, dich kennenzulernen!
+
+Deine Ansprechpartnerin ist Sally Grütte-Pad, Interim Lead TA via talent@stark-defence.com"
+2676124,Senior UAV Prototyping Engineer (all genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2676124,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned aerial and terrestrial systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We’re focused on delivering deployable, high-performance systems—not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe—today.
+
+Your mission
+
+We're not looking for someone who executes a spec. We're looking for someone who becomes the spec. Hand this person a napkin sketch, a rough idea, or a ""we need something that can do X"" — and they come back with a flying prototype, not a slide deck explaining why it's hard. This role exists for the person who's been building things in a garage, a workshop, or a shed for years because they couldn't not — and who's ready to point that obsession at Europe's defence capability instead of the next hobby build.
+
+Responsibilities
+
+- Take a concept from clean sheet to flying hardware — concept, design, fabrication, integration, first flight — with minimal hand-holding.
+
+- Set the technical approach when working across disciplines, and resolve design conflicts directly instead of escalating them.
+
+- Run field flight test campaigns: own the go/no-go call, diagnose failures fast, and decide whether it's a fix or a redesign.
+
+- Turn ""I just know how to do this"" knowledge into documentation other engineers can actually build from.
+
+- Unblock and mentor junior and mid-level engineers in design reviews and builds — no management title required.
+
+- Flag technical, schedule, or process risk before anyone asks — silence isn't a strategy here.
+
+- Iterate fast on field and test data without waiting for a retro to tell you what broke.
+
+Qualifications
+
+- A track record of owning a full build cycle — concept to flight-tested prototype — independently, on at least one UAV/UGV or comparable platform.
+
+- Deep, hands-on experience with composites, mechanical assemblies, robotics, and embedded hardware — earned in a workshop, not from a manual.
+
+- Sound judgment under ambiguity and time pressure: you know what's good-enough-to-test versus good-enough-to-deploy without being told.
+
+- Strong independent root-cause diagnosis — you can stare at a cracked airframe or a bad flight log and get to a fix without senior sign-off.
+
+- Experience working across engineering disciplines and resolving competing technical requirements yourself.
+
+- A demonstrated instinct for mentoring or technically leading others, even informally.
+
+- A portfolio that proves it: personal builds, competition entries, workshop projects — anything that shows you've been engineering as a calling, not just a job, during and after hours.
+
+Nice to have
+
+- Active A2/A3 drone pilot certification or equivalent national licence.
+
+- CAD fluency (Fusion 360, SolidWorks) strong enough to set standards for others, not just finish your own files.
+
+- Debugging-level familiarity with flight controller ecosystems (PX4, ArduPilot, Betaflight) — not just configuration.
+
+- Fixed-wing experience, not just multirotor.
+
+- A background in competition, motorsport, or maker culture that grew into leading a build or owning a program end-to-end.
+
+If you´re interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your Portfolio & CV in English. We´re looking forward to meeting you!"
+2778565,Senior Waveform Architect (All Genders),Berlin,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2778565,"About Us
+
+STARK is a defence technology company redefining the engineering and deployment of autonomous platforms. Our core mission is to deliver fully operational unmanned systems, integrating the critical subsystems, including Electronic Warfare, necessary for NATO forces to maintain a decisive advantage in contested environments. We do whatever is required to achieve platform autonomy, grounded in precision, responsibility, and uncompromising engineering discipline.
+
+About the team
+
+We are a lean, agile group with a strong systems-minded focus. We operate without silos, seeking visionary technical leaders who can define long-term technology roadmaps while remaining deeply hands-on with complex engineering problems. On the Electronic Warfare team, you will hold the highest level of technical authority for our attack and countermeasure capabilities, driving multi-domain architectures directly onto the modern battlefield.
+
+Your mission
+
+At STARK, we are building the next generation of autonomous platforms capable of navigating the world's most contested environments. As a Senior Waveform Architect, you will own the entire development, architecture, and implementation of the waveform for our tactical anti-jam radio. In this critical role, you will ensure our communication links remain highly robust and operational under severe electronic countermeasure conditions.
+
+Responsibilities
+
+- Lead the design and implementation of the physical layer (PHY)—waveform, modulation, coding, framing, and synchronisation—from initial architecture to real-time execution.
+- Engineer solutions specifically tailored for challenging jamming scenarios and complex, multi-node long-range link budgets.
+- Own the PHY-side specifications and expose the critical IQ, phase, and timing observables required by the Direction Finding (DF) strand.
+- Define the development guidelines for the strand—including HDL and verification conventions, as well as FPGA build flows.
+
+Qualifications
+
+- You have successfully designed a PHY and brought it onto FPGA/SoC hardware in real time.
+- You are quantitatively sure-footed on synchronisation, estimation, FEC (Forward Error Correction), and link budgets.
+- You have practical experience debugging real radio links against physical hardware.
+
+Nice to have
+
+- Experience with anti-jamming and LPI/LPD (Low Probability of Intercept/Detection) in a tactical context.
+- A professional background at industry leaders.
+- Publicly verifiable PHY implementation evidence (e.g., custom GNU Radio OOT modules or contributions to the RFSoC toolchain)."
+2579167,Sensors Systems Engineer (m/f/d),"Berlin, Munich",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2579167,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. This provides our operators with a decisive edge in highly contested environments.
+
+We're focused on delivering deployable, high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe - today.
+
+About the team
+
+Our perception team is responsible for the ""eyes and inner ear"" of STARK's unmanned aerial vehicles. We are a multidisciplinary group of hardware, optical, and software engineers dedicated to integrating cutting-edge sensors into resource-constrained platforms. As a member of this team, you will collaborate closely with mechanical designers and autonomy engineers in a fast-paced, hands-on environment. Together, we ensure our UAVs can reliably navigate and perform in the most demanding and extreme conditions.
+
+Your mission
+
+As a Sensor Systems Engineer, you will be the architect of our platforms' physical perception systems, focusing heavily on the integration of EO/IR cameras, IMUs, and Lidar. You will take ownership of the entire hardware lifecycle, from defining optical specifications to debugging high-speed electrical interfaces in the lab. Your ultimate goal is to deliver highly optimized, ruggedized sensor payloads that push the limits of Size, Weight, and Power (SWaP).
+
+Responsibilities
+
+- Evaluate and manage technical relationships with external sensor and optics suppliers, reviewing complex datasheets to ensure components meet strict mission parameters.
+
+- Define core optical specifications (e.g., focal length, Field of View, MTF) leveraging a deep understanding of optical physics and system-level requirements.
+
+- Own the end-to-end physical and electronic integration of EO/IR cameras, IMUs, lenses, and gimbals into our platforms.
+
+- Use C++ code to interface directly with sensor SDKs and ensure robust data flow to the embedded compute modules.
+
+- Script hardware tests, automate optical lab equipment, and analyze sensor data pipelines utilizing C++ and Python.
+
+- Execute intrinsic and extrinsic calibration routines to align IMUs with optical axes.
+
+- Navigate complex design trade-offs with cross-functional teams to balance optical resolution against strict weight, thermal, and power constraints.
+
+Qualifications
+
+- A degree in Electrical Engineering, Optical Engineering, Mechatronics, Physics, or a closely related field.
+
+- Deep understanding of applied optics, including lens selection, camera architectures, sensor formats, and radiometric performance.
+
+- Experience handling hardware suppliers, vetting vendor specifications, and driving technical procurement decisions.
+
+- Strong foundational knowledge of imaging systems (EO and IR cameras) and Inertial Measurement Units (IMUs).
+
+- Proven hands-on experience using hardware diagnostic tools (oscilloscopes, logic analyzers, multimeters) to debug low-level hardware issues.
+
+- Practical programming experience writing C++ for hardware interfacing and Python for test automation.
+
+Nice to have
+
+- Familiarity with high-speed video interfaces such as MIPI CSI-2, GMSL, or FPD-Link.
+
+- Experience using optical lab equipment (collimators, calibration targets) or conducting environmental testing (shock, vibration, thermal).
+
+- Familiarity with ROS2.
+
+- Previous experience working in the defence, aerospace, or autonomous vehicle sectors."
+2687163,Simulation Engineer (m/f/d),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2687163,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We are focused on delivering deployable high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their partners to deter aggression and defend Europe - today.
+
+About the team
+
+Mission Simulation is STARK’s digital proving ground — the tactical environment where our entire ecosystem of UAVs, surface vessels, and EW systems converges. The Mission Simulation team is a small, specialized group based in Munich, working closely with our platform and C2 teams to integrate all multi-domain assets into high-fidelity, Software-in-the-Loop simulators.
+We move fast, ship realistic environments, and build for three core purposes: rigorous testing, high-stakes demos, and tactical training. There is no room for gamification. We simulate the reality of combat — from complex swarm logic to EW degradation — ensuring that developers can fail fast, and real soldiers can train safely before hitting the battlefield.
+
+Your mission
+
+Use mission simulations to strengthen our software and systems by assembling and maintaining critical software components, validating behaviours in simulated environments, and creating realistic training scenarios within our Mission Simulation Software.
+
+Responsibilities
+
+- Perform central mission simulations incorporating whole software pipeline
+
+- Integrating software components and modules into Mission Simulation Software
+
+- Scripting Battle Scenarios
+
+- Create state of the art mission simulations
+
+- Stay current with emerging technologies and industry trends, recommending and implementing innovations to improve our products and processes
+
+- Dive deep into the details to identify, understand, and solve difficult technical problems
+
+- Constantly be challenging requirements to determine what adds value and what is not
+
+Qualifications
+
+- Bachelor’s or Master’s degree in Computer Science, Engineering, or a related field, or equivalent practical experience.
+
+- 3-5 years of experience (including 2 years for exceptional candidates with strong C++ and/or simulation backgrounds - ideally VBS4).
+
+- API experience to connect software components / modules in VBS
+
+- Strong programming skills in C/C++.
+
+- Experience with VBS4 or comparable simulation engines (Unreal, Unity, etc.).
+
+- Fundamental understanding of AI data requirements and synthetic data workflows.
+
+- Basic knowledge of computer vision concepts.
+
+- Familiarity with military operations, mission structures, or tactical environments.
+
+- Ability to deliver solutions primarily for the Perception & AI team, with future expansion to other teams.
+
+- Strong communication and collaboration skills in a multidisciplinary environment.
+
+- Ability to work independently and take ownership of complex simulation tasks.
+
+- Excellent problem‑solving abilities and a structured approach to debugging.
+
+- A “challenger mindset” — questioning requirements to ensure technical and operational value.
+
+- Good English speaking and writing skills."
+2264056,Software Engineer Electronic Warfare (All Genders),Stockholm,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2264056,"About Us
+
+STARK is a defence technology company redefining the engineering and deployment of autonomous platforms. Our core mission is to deliver fully operational unmanned systems, integrating the critical subsystems, including Electronic Warfare, necessary for NATO forces to maintain a decisive advantage in contested environments. We do whatever is required to achieve platform autonomy, grounded in precision, responsibility, and uncompromising engineering discipline.
+
+Your mission
+
+At STARK, we are building the next generation of autonomous platforms capable of navigating the world’s most contested environments. We are currently hiring for multiple Software Engineering positions where the primary mission is to ensure our fleet maintains command, control, and situational awareness against near-peer threats.
+
+Electronic Warfare (EW) is at the heart of everything we do. We’re looking for engineers who are passionate about the electromagnetic spectrum and eager to join a team that lives and breathes RF. Whether you specialise in signal processing, communications, or EW effects, your background in EW and high-performance C++ is what matters most. We prioritise deep expertise and a drive to solve complex problems over meeting every single sub-specialty requirement.
+
+Responsibilities
+
+- Design high-performance C++ software for real-time signal processing, waveform manipulation, and mission-critical EW functions.
+
+- Develop anti-jamming techniques, frequency hopping (FHSS), and adaptive filtering to bypass active electronic countermeasures.
+
+- Design algorithms for RF sensing, signal detection, and situational awareness to identify and neutralise threats in dynamic environments.
+
+- Collaborate with hardware and systems teams to tune RF front-ends, ensuring software is perfectly calibrated to physical constraints.
+
+- Own the stack from initial design and mathematical modelling to rigorous bench testing and field trials.
+
+We are looking for candidates with a strong foundation in Modern C/C++ and a professional background in Electronic Warfare, ideally involving one or more of the following:
+
+- Deep understanding of the electromagnetic spectrum, DSP, Fourier methods, and modulation theory (QAM, QPSK, OFDM).
+
+- Experience with low-probability-of-intercept (LPI) links, digital modulation schemes, and the underlying physics of RF propagation.
+
+- Proficiency in embedded systems, Linux networking, specifically regarding radio-based mesh networks or point-to-point links.
+
+- Exposure to jamming theory, threat-driven RF effects, or cognitive radio for automated interference avoidance.
+
+Qualifications
+
+- Strong engineering skills at both the systems design and detailed implementation levels.
+
+- Strong proficiency in modern C/C++ (memory management, concurrency, performance analysis).
+
+- Significant interest in physics/RF or a strong preexisting understanding of RF processing fundamentals and the electromagnetic spectrum.
+
+- Clear and structured communication skills for cross-functional technical collaboration.
+
+Relevant Backgrounds
+
+- High end system software engineering in any context where both details and system level architecture is critical to mission success
+
+- Defence & Aerospace: Radar systems, electronic countermeasures, or encrypted tactical comms
+
+- Robotics: Long-range, encrypted data links for UAS/UGV or autonomous systems.
+
+- SDR Development: Extensive experience with platforms like USRP, pluto SDR, LimeSDR and frameworks like GNU Radio.
+
+- Advanced Engineering: Backgrounds in radio-waveform development, X-ray systems, or mathematically driven system design.
+
+Nice-to-Have / Bonus Skills
+
+- Experience with MIMO antenna systems and beam-forming.
+
+- High performance computing and software benchmarking experience.
+
+- Familiarity with cryptographic standards for securing over-the-air transmissions.
+
+- Custom protocol design for low-bandwidth, high-latency environments.
+
+- Hands-on experience with RF waveform design or amateur radio.
+
+- Strong interest in physics, electromagnetic propagation, and waveform engineering.
+
+- Hands-on experience with RF waveform design and amateur radio.
+
+- Familiarity with wireless & cable-borne data formats (QAM-64, QPSK).
+
+- Exposure to jamming theory, threat-driven RF effects, and EW tactics.
+
+- Experience in signal processing and mathematical modelling (Fourier methods, modulation theory, filtering, etc.)."
+2421687,Software Engineer Electronic Warfare (All Genders),"Berlin, Stockholm",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2421687,"About Us
+
+STARK is a defence technology company redefining the engineering and deployment of autonomous platforms. Our core mission is to deliver fully operational unmanned systems, integrating the critical subsystems, including Electronic Warfare, necessary for NATO forces to maintain a decisive advantage in contested environments. We do whatever is required to achieve platform autonomy, grounded in precision, responsibility, and uncompromising engineering discipline.
+
+About the team
+
+STARK’s Electronic Warfare team is a systems-focused engineering group delivering software-defined, mass-scalable RF solutions for autonomous systems. Combining deep domain expertise in hardware board design, thermal/structural packaging, real-time C++ signal processing, and resilient directional mesh networking, we rapidly build and field advanced EW capabilities designed to survive and operate in contested spectrum environments.
+
+Your mission
+
+At STARK, we are building the next generation of autonomous platforms capable of navigating the world’s most contested environments. We are currently hiring for multiple Software Engineering positions where the primary mission is to ensure our fleet maintains command, control, and situational awareness against near-peer threats.
+
+Electronic Warfare (EW) is at the heart of everything we do. We’re looking for engineers who are passionate about the electromagnetic spectrum and eager to join a team that lives and breathes RF. Whether you specialise in signal processing, communications, or EW effects, your background in EW and high-performance C++ is what matters most. We prioritise deep expertise and a drive to solve complex problems over meeting every single sub-specialty requirement.
+
+Responsibilities
+
+- Design high-performance C++ software for real-time signal processing, waveform manipulation, and mission-critical EW functions.
+
+- Develop anti-jamming techniques, frequency hopping (FHSS), and adaptive filtering to bypass active electronic countermeasures.
+
+- Design algorithms for RF sensing, signal detection, and situational awareness to identify and neutralise threats in dynamic environments.
+
+- Collaborate with hardware and systems teams to tune RF front-ends, ensuring software is perfectly calibrated to physical constraints.
+
+- Own the stack from initial design and mathematical modelling to rigorous bench testing and field trials.
+
+We are looking for candidates with a strong foundation in Modern C/C++ and a professional background in Electronic Warfare, ideally involving one or more of the following:
+
+- Deep understanding of the electromagnetic spectrum, DSP, Fourier methods, and modulation theory (QAM, QPSK, OFDM).
+
+- Experience with low-probability-of-intercept (LPI) links, digital modulation schemes, and the underlying physics of RF propagation.
+
+- Proficiency in embedded systems, Linux networking, specifically regarding radio-based mesh networks or point-to-point links.
+
+- Exposure to jamming theory, threat-driven RF effects, or cognitive radio for automated interference avoidance.
+
+Qualifications
+
+- Strong engineering skills at both the systems design and detailed implementation levels.
+
+- Strong proficiency in modern C/C++ (memory management, concurrency, performance analysis).
+
+- Significant interest in physics/RF or a strong preexisting understanding of RF processing fundamentals and the electromagnetic spectrum.
+
+- Clear and structured communication skills for cross-functional technical collaboration.
+
+Relevant Backgrounds
+
+- High end system software engineering in any context where both details and system level architecture is critical to mission success
+
+- Defence & Aerospace: Radar systems, electronic countermeasures, or encrypted tactical comms
+
+- Robotics: Long-range, encrypted data links for UAS/UGV or autonomous systems.
+
+- SDR Development: Extensive experience with platforms like USRP, pluto SDR, LimeSDR and frameworks like GNU Radio.
+
+- Advanced Engineering: Backgrounds in radio-waveform development, X-ray systems, or mathematically driven system design.
+
+Nice-to-Have / Bonus Skills
+
+- Experience with MIMO antenna systems and beam-forming.
+
+- High performance computing and software benchmarking experience.
+
+- Familiarity with cryptographic standards for securing over-the-air transmissions.
+
+- Custom protocol design for low-bandwidth, high-latency environments.
+
+- Hands-on experience with RF waveform design or amateur radio.
+
+- Strong interest in physics, electromagnetic propagation, and waveform engineering.
+
+- Hands-on experience with RF waveform design and amateur radio.
+
+- Familiarity with wireless & cable-borne data formats (QAM-64, QPSK).
+
+- Exposure to jamming theory, threat-driven RF effects, and EW tactics.
+
+- Experience in signal processing and mathematical modelling (Fourier methods, modulation theory, filtering, etc.)."
+2757380,Software IV&V Lead,"Munich, Berlin",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2757380,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+About the team
+
+Our team leads the independent validation and verification of complex software systems, bridging the gap between rigorous architectural requirements and deployed capabilities. We operate at the critical intersection of software development and system safety, ensuring every release meets the highest performance and reliability standards. You will work closely with cross-functional partners in sofware & hardware, and flight operations to maintain technical integrity in a fast-paced environment.
+
+Your mission
+
+As the Software IVV Lead, you will act as the independent software testing and verification authority, ensuring that the standards defined by our architecture are measurably adhered to, rigorously tested, and successfully audited. You will own the strategy, infrastructure, and execution of software validation and verification, serving as the ultimate quality gatekeeper for our software release candidates before they reach hardware integration and testing in the field.
+
+Responsibilities
+
+- Define the Test Strategy: Establish and enforce the overarching software testing frameworks and QA processes (based on ISTQB) across all software capability teams.
+
+- Manage Test Infrastructure & Tooling: Oversee the setup and maintenance of software test environments and test data, ensure the qualification of testing tools, and lead the generation of audit-proof, revision-safe test evidence.
+
+- Oversee V&V Execution: Supervise the validation and verification phases of the V-Model, ensuring rigorous unit, integration, and sub-system-level testing are completed before handing over to the Hardware integration and Flight Testing teams.
+
+- Ensure Requirements Traceability: Deliver transparency in bidirectional traceability between Software Requirements, architectural design, implementation, and testing. Define and monitor the traceability processes in close collaboration with Software Configuration Management (SCM), ensuring operational compliance.
+
+- Govern Defect & Deviation Management: Establish and oversee the interfaces and processes for defect, deviation, and problem management, ensuring all findings from testing are systematically tracked, evaluated, and resolved.
+
+- Enforce Code Quality: Drive the adoption of strict coding standards (like MISRA for C++) using automated static analysis and code coverage metrics.
+
+- Interface with Configuration Management: Verify compliance with defined SCM processes, auditing baselines, versions, reproducible builds, Software Configuration Indexes, and Release Packages to ensure they meet quality standards.
+
+- Act as the Quality Gatekeeper: Provide independent quality gate approvals and formal release recommendations for software release candidates via the Engineering Change Request (ECR) process, while recognizing that the ultimate release decision resides with Product/Program Management.
+
+- Manage Audits: Lead the preparation, execution, and follow-up for all internal software QA assessments and external regulatory audits.
+
+Qualifications
+
+- Proven experience in defining and enforcing software testing frameworks and QA processes based on ISTQB standards.
+
+- Deep expertise in managing the validation and verification (V&V) phases of the V-Model for complex software systems.
+
+- Hands-on experience with automated static analysis tools and enforcing coding standards such as MISRA for C++.
+
+- Strong background in requirements traceability and managing the interface between Software Requirements and test execution.
+
+- Solid knowledge of Software Configuration Management (SCM) processes, including version control, reproducible builds, and release auditing.
+
+- Demonstrated capability in defect and deviation management, ensuring systematic tracking and resolution of software findings.
+
+Nice to have
+
+- Professional experience within the defense or aerospace sectors, working with safety-critical software systems.
+
+- Familiarity with preparing for and leading external regulatory audits and internal quality assessments.
+
+- Experience with flight testing operations or hardware-in-the-loop (HIL) integration environments.
+
+If you're interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your CV in English. We´re looking forward to meeting you!"
+2618631,Speculative Application - Thessaloniki (m/f/d),Thessaloniki,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2618631,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+We’re focused on delivering deployable, high-performance systems - not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe - today.
+
+Your mission
+
+Didn’t find the perfect role? We’d still love to hear from you! Send us your CV in English, and our recruiting team will reach out if there’s a great fit."
+2605964,Student Talent Pool — Apply Here!,"Kyiv, Remote, UA",Full or part-time · Working Student,https://stark.jobs.personio.de/job/2605964,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost effective. This provides our operators with a decisive edge in highly contested environments.
+
+We are focused on delivering deployable, high-performance systems, not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe today.
+
+Your mission
+
+Stark is more than just a company; we are building the future of autonomous flight. Are you ready to fly with us?
+
+We want to find the next generation of engineers, innovators, and specialists. If you’re passionate about UAVs, robotics, or complex hardware/software systems, but don't see a specific opening that fits your current semester — this is your place.
+
+Drop your CV here to stay on our radar for internships, junior roles, and project-based collaborations in the future."
+2759717,Systems Architect (All Genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2759717,"About Us
+
+STARK is a new kind of defence technology company revolutionising the way autonomous systems are deployed across multiple domains. We design, develop, and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective — providing operators with a decisive edge in contested environments.
+
+We are focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe, today.
+
+About the team
+
+The Central Systems Engineering team establishes the overarching systems engineering framework, technical guidelines, requirements guidance, and software toolchains used by project-specific engineering teams. We act as the central entity for standardization, ensuring all project-specific teams have the architectural blueprints, methodologies, and tools required for efficient, compliant developmen
+
+Your mission
+
+As System Architect, you will provide the central architectural backbone for all STARK projects. You will act as the key support for project teams, ensuring project architectures align with our centralized system frameworks. You will bridge the gap between our high-level architectural definitions and the practical execution required by project-specific engineering teams, ensuring consistency, technical integrity, and scalability across the organization.
+
+Responsibilities
+
+- Define and evolve the overarching system architecture, ensuring consistency and compliance across all programs.
+
+- Support project teams in applying architectural blueprints, functional breakdowns, and methodologies to their specific projects.
+
+- Align top-down architectural requirements with bottom-up subsystem designs, ensuring traceability and feasibility.
+
+- Establish and govern interface management processes to minimize integration risks across system boundaries.
+
+- Provide technical guidance on system-level trade-offs, MBSE methodologies, and the V-model lifecycle.
+
+- Collaborate with the Central Systems Engineering and PMT team to ensure that software toolchains and engineering standards effectively support our architecture.
+
+- Act as a central subject matter expert, driving consensus and technical alignment among diverse project teams.
+
+Qualifications
+
+- Degree in Aerospace Engineering, Mechanical Engineering, Systems Engineering, or a related technical field.
+
+- At least 3–5 years of experience in Systems Engineering or System Architecture roles within complex product development environments.
+
+- Strong knowledge of systems engineering frameworks (e.g., V-Model, MBSE), industry standards, and the product development lifecycle.
+
+- Experience with architecture, requirements, and PLM management tools.
+
+- Excellent communication skills with the ability to translate central architectural guidance into actionable operational practices.
+
+- Collaborative, a problem-solver, and a confident communicator capable of driving consensus among diverse teams.
+
+If you're interested in building the future of European Defence with us, and you see yourself reflected on the description above, please send us your CV in English. We´re looking forward to meeting you!"
+2699292,Test Design Engineer (All Genders),Berlin,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2699292,"About Us
+
+STARK is a defence technology company redefining how autonomous and electronic warfare systems are engineered and deployed. We design, build, and operationalise high-performance EW and unmanned systems that provide NATO forces with decisive advantages in contested electromagnetic environments. Our work is grounded in precision, responsibility, and uncompromising engineering discipline.
+
+Your mission
+
+As a Test Design Engineer (Field Engineer) within the Electronic Warfare (EW) division, you will bridge the gap between development and real-world execution. This role is heavily focused on the test design, validation, and field deployment of advanced RF communications and electronic attack (jamming) systems. You will design rigorous test methodologies, simulate contested electromagnetic environments, and lead field-testing campaigns to ensure our technologies dominate the modern battlespace.
+
+Responsibilities
+
+- Develop comprehensive test plans, procedures, and automated test scripts for EW systems, specifically focusing on RF communications, signals intelligence (SIGINT), and electronic countermeasures (ECM/Jamming).
+
+- Lead and execute field-testing campaigns in complex, dynamic, and austere environments. Troubleshoot hardware, software, and RF link issues on-site.
+
+- Design and replicate real-world threat environments using RF signal generators, channel simulators, and software-defined radios (SDRs) to test jamming efficacy and communications resilience (e.g., frequency hopping, LPI/LPD waveforms).
+
+- Collect, process, and analyze massive datasets from field tests using MATLAB, Python, or specialized RF analysis tools to quantify system performance and identify anomalies.
+
+- Partner with systems, hardware, and software engineering teams to feed field data back into the development loop, driving iterative design improvements.
+
+Qualifications
+
+- Bachelor’s degree in Electrical Engineering, Telecommunications, Aerospace Engineering, or a highly related technical discipline.
+
+- 3+ years of experience in RF engineering, flight test engineering, or electronic warfare testing.
+
+- Strong foundational knowledge of RF propagation, link budgets, antenna characteristics, and modulation techniques (e.g., QAM, OFDM, FSK).
+
+- Deep familiarity with laboratory and field test equipment, including Spectrum Analyzers, Vector Network Analyzers (VNAs), Signal Generators, and Oscilloscopes.
+
+- Proficiency in Python, MATLAB, or LabVIEW for test automation and post-test data analysis.
+
+Nice to have
+
+- Prior experience with specific electronic attack methodologies (e.g., barrage, spot, sweep, and DRFM-based jamming).
+
+- Hands-on experience with Software Defined Radios (Ettus USRP, BladeRF) and tactile military communications networks.
+
+- Familiarity with government test ranges (e.g., White Sands, China Lake) and range safety/operations protocols."
+2735706,UAV Operations Engineer / Pilot – Data Operations (all genders),"Munich, Berlin",Full-time · Permanent employee,https://stark.jobs.personio.de/job/2735706,"About Us
+
+STARK is a new kind of defence technology company revolutionizing the way autonomous systems are deployed across multiple domains. We design, develop and manufacture high-performance unmanned systems that are software-defined, mass-scalable, and cost-effective. This provides our operators with a decisive edge in highly contested environments.
+
+We're focused on delivering deployable, high-performance systems — not future promises. In a time of rising threats, STARK is bolstering the technological edge of NATO Allies and their Partners to deter aggression and defend Europe — today.
+
+About the team
+
+The Data Operations team owns the entire data lifecycle behind STARK's AI stack: collection, acquisition, generation, curation, and management. We run our own data-collection campaigns across Europe, evaluate new sensors and platforms, and build the internal data platform that turns raw recordings into ready-to-use datasets. Everything we produce feeds directly into the perception and autonomy systems deployed on STARK's platforms — a real data advantage is built, not bought. The team is scaling up right now: real scope, direct impact, no legacy.
+
+Your mission
+
+You own our data-collection flights. When the perception team needs a specific dataset — a new camera at a new angle, a lidar over specific terrain, a thermal sensor at dusk — you plan the campaign, configure and tune the platform, fly the mission, and bring clean data home. Our hardware engineer builds the rigs and mounts, our robotics engineer makes the sensors record — you make it all fly, reliably, again and again. This is a role for someone with real stick time and real PX4/ArduPilot depth: not a desk job with occasional field trips, but the other way around.
+
+Responsibilities
+
+- Plan and execute field data-collection campaigns across Europe: flight planning, site assessment, pre-flight checks, piloting, logging, and post-flight data offload
+
+- Configure, tune, and troubleshoot PX4/ArduPilot flight stacks for stable, repeatable data-collection flights
+
+- Analyze flight logs to diagnose issues and continuously improve platform reliability
+
+- Operate sensor payloads (cameras, gimbals, lidar, GNSS/IMU) during missions and verify recordings on-site
+
+- Keep the fleet mission-ready: maintenance, repairs, spare parts, battery management, and configuration control
+
+- Work with our hardware and robotics engineers on payload integration — you define what the platform needs to fly well
+
+- Maintain flight logs and campaign documentation so every flight produces usable, traceable data
+
+- Ensure operations comply with aviation regulations (EU drone rules) and internal safety procedures
+
+Qualifications
+
+- Confident, experienced drone pilot with substantial real-world flight hours (multirotor; fixed-wing a plus), holding an EU A2/A3 certificate or willing to obtain quickly
+
+- Solid practical knowledge of PX4 and/or ArduPilot: configuration, parameter tuning, log analysis, MAVLink basics
+
+- Hands-on experience assembling, repairing, and maintaining drones — comfortable with soldering, wiring, and multimeter debugging
+
+- Experience operating sensor payloads and ground control stations in the field
+
+- Practical, structured, and safety-conscious — you find the loose cable before it becomes a crash
+
+- Willingness to travel regularly for field campaigns and work outdoors in various conditions
+
+- Good communication skills in English (German is a plus)
+
+Nice to have
+
+- Scripting skills (Python, Bash) for flight log processing and data offload automation
+
+- CAD basics (Fusion 360, SolidWorks) and 3D-printing experience
+
+- Experience with ROS/ROS2 recording setups or companion computers (Jetson, Raspberry Pi)
+
+- Background in FPV, drone racing, RC modeling, competition teams, or maker culture
+
+- Experience with camera settings and image quality trade-offs for data collection
+
+- German driving license class B (field campaigns)
+
+A note on our process: a portfolio says more than a CV here. Show us your builds and your flights — photos, flight logs, competition entries. If you don't hit every bullet point but you have been flying and fixing drones for years, we still want to hear from you.
+If you're interested in building the future of European Defence with us, please send us your CV and portfolio in English. We're looking forward to meeting you!"
+2706540,Warehouse Support (all genders),Munich,Full-time · Permanent employee,https://stark.jobs.personio.de/job/2706540,"About Us
+
+STARK ist ein Verteidigungstechnologie-Unternehmen, das den Einsatz autonomer Systeme in verschiedenen Einsatzbereichen grundlegend verändert. Wir entwerfen, entwickeln und produzieren leistungsstarke unbemannte Systeme, die softwaregesteuert, in großer Stückzahl skalierbar und kosteneffizient sind. Dadurch verschaffen wir unseren Einsatzkräften einen entscheidenden Vorteil in anspruchsvollen Gefechtsumgebungen.Unser Fokus liegt auf sofort einsatzbereiten Hochleistungssystemen – nicht auf vagen Zukunftsversprechen. In einer Zeit wachsender Bedrohungen stärkt STARK die technologische Überlegenheit der NATO-Verbündeten und ihrer Partner, um Abschreckung zu gewährleisten und Europa schon heute zu verteidigen.
+
+Your mission
+
+Als Warehouse Support unterstützt du bei umsetzung diverser Logistik Prozesse (z.B. Wareneingang, Lagerverwaltung, Kommissionierung, Versand, Zoll und Transportmanagement). Dein Ziel ist einen möglichst reibungslosen Ablauf zu sichern.
+
+Responsibilities
+
+- Unterstützung bei der Durchführung von Wareneingangs- und Warenausgangsprozessen
+- Visuelle Wareneingangskontrolle, sachgerechte Einlagerung und Dokumentation der angelieferten Waren
+- Kommissionierung, Verpackung und termingerechte Bereitstellung von Material für interne Projekte und Fertigungsprozesse
+- Unterstützung bei regelmäßigen Bestandskontrollen und Inventuren sowie Sicherstellung korrekter Lagerbestände
+- Sicherstellung von Ordnung, Sauberkeit und Sicherheit im Lagerbereich
+- Unterstützung bei der Materialversorgung in enger Zusammenarbeit mit Einkauf, Produktion und Entwicklung
+- Allgemeine Unterstützung des Logistikteams sowie Hands-on-Mithilfe bei Engpässen in anderen Bereichen der Logistik
+
+Qualifications
+
+- Erste Erfahrung im Bereich Lagerlogistik, Wareneingang oder Warehouse Operations
+- Selbstständige, sorgfältige und strukturierte Arbeitsweise
+- Zuverlässigkeit, Teamfähigkeit und hohes Verantwortungsbewusstsein
+- Sicherer Umgang mit gängiger Lagerverwaltungssoftware oder ERP-Systemen von Vorteil
+- Körperliche Belastbarkeit sowie handwerkliches Geschick
+- Gute Kommunikationsfähigkeit und Freude an der Zusammenarbeit im Team
+- Gabelstaplerschein von Vorteil"

@@ -63,11 +63,125 @@ Open <http://127.0.0.1:8000>, go to **Settings**, and fill in:
 3. **Career feeds** — add the companies you want watched (see below).
 4. **Email delivery** — optional; only needed for alert digests.
 
-Then open **Inspector** and press **Run now**. Postings appear in the grid as
-they are scored.
+Then open **Run the Search** and press **Run the Search**. Postings appear in
+the grid as the sites are read, and are scored as they arrive.
 
-Nothing works without step 2: with no API key the inspector will fetch
-postings but refuse to score them, and it will say so in the console.
+Without step 2 nothing gets scored: with no API key the search still reads
+the sites and imports their postings, but scores them by rules only, and
+says so in the console.
+
+---
+
+## Per-site extractors
+
+`ExtractFromTheCarrerPageTheJobs/` holds one extractor per career site, each
+written against that site's own data source (Workday, Phenom, Taleo,
+SuccessFactors, Greenhouse, Pinpoint, rexx, or the site's own pages) and
+checked against the count the site itself states. Run them all with:
+
+```bash
+python3 ExtractFromTheCarrerPageTheJobs/run_all.py          # every site
+python3 ExtractFromTheCarrerPageTheJobs/run_all.py NATO     # just some
+```
+
+There are two kinds of extractor. The first sites each have a script,
+`extract<Site>Positions.py`. The rest are entries in `boards.json`, one per
+site: a `name` (its folder), the `company` shown in the portal, the `url` the
+user follows, a `platform`, and that platform's parameters. Platforms live in
+`ats_simple.py` (Greenhouse, Ashby, Lever, Workable, Personio, Recruitee,
+Teamtailor, BambooHR, Breezy, SmartRecruiters), `ats_enterprise.py`
+(Eightfold, Cornerstone, Oracle Recruiting, Avature, classic SuccessFactors)
+and `sites_custom.py` (`html_list` for a list page plus posting pages,
+`html_inline` for postings written out on one page, and a few small
+platforms). Adding a site on a known platform is one entry; a custom site is
+usually one `html_list` entry with a link pattern. Run one or a few with
+`python3 ExtractFromTheCarrerPageTheJobs/extract_boards.py Name …`.
+
+A few boards need a browser: those whose list is built by the page's
+scripts set `render: true`, and are loaded in headless Chrome (or Chromium)
+first. Bot checks are not worked around, with one exception the operator
+asked for: Revolut, behind Cloudflare, is read with
+[nodriver](https://github.com/ultrafunkamsterdam/nodriver), a real Chrome
+without automation flags, run headless but with a windowed Chrome's user
+agent, so no window opens. It needs `pip install nodriver`. If the check ever
+stops passing headless, it falls back to a real window that stays hidden: on a
+virtual display when Xvfb is installed (`apt install xvfb`), otherwise off
+screen, which GNOME on Wayland does not honour. Other sites behind a bot check
+are left out.
+
+Every posting should carry its advert. When the source leaves it out (a
+list of titles only, a field sent empty, a request refused mid-run) or
+gives only a teaser under 300 characters, the end of the run opens the
+posting's own page and takes the advert from its schema.org JobPosting or
+its `<main>`, in the browser if the page builds it with scripts. An advert
+found once is reused by the next run rather than fetched again. What still
+has none afterwards is empty at the source (a Workday field left blank) or
+behind a bot check (sage.hr).
+
+Standard library only; no virtualenv needed. Each site gets a folder with
+`latest.{csv,json}` and a `runs/` history, and the summary says per site
+whether the run can be trusted (OK, CHECK, INCOMPLETE, EMPTY, FAILED). A run
+that comes back short or empty never replaces `latest`.
+
+The portal picks the results up by itself: any `latest.json` that changed
+is mirrored into the grid on the next page load (or now, with
+`acide import-extracts`). Postings a site no longer lists leave the grid,
+but stay under **Starred** or **Removed** if you had marked them. In the
+grid, **Source → Site extractors** shows only these, sorted by deadline or
+by publication date; ☆ stars a posting, ✕ removes it, and **Removed** puts
+it back.
+
+---
+
+## Run the Search, and priority
+
+The **Run the Search** tab does the whole job in one click. It reads every
+career site (`run_all.py`, six sites at a time) and adds the postings that are
+new. It takes out of the search those a site no longer lists, which stay under
+**Starred** or **Removed** if you had marked them. Then it has the model score
+the new ones. The panel shows, per employer, how many postings came in and how
+many went.
+
+With tens of thousands of postings open, the two fit scores do not answer
+the first question: *which of these do I look at first?* **Priority** does,
+and it is the grid's default sort. It is computed in two passes:
+
+1. **Rules** (`backend/acide/ranking.py`) rank every posting locally, with no
+   network, in about half a minute for the whole table. They also decide
+   which postings are not worth a model call. Those are excluded:
+   - postings where an Italian citizen needs a visa: outside the EU, the EEA
+     and Switzerland, including the UK, unless the employer is an
+     international organisation such as NATO, the UN, ESA or an EU body;
+   - senior roles;
+   - sales and administrative roles;
+   - postings an eligibility blocker rules out (US citizenship, a national
+     clearance).
+
+   Excluded postings keep their rules score and are hidden from the search
+   unless the **Excluded** filter asks for them.
+2. **Review** sends each remaining posting, one at a time, to the configured
+   model together with your prompt. The prompt is
+   `data/ranking-brief.md`, editable in the panel. Fixed instructions are
+   appended to it, so the model answers with each criterion your prompt
+   defines and its maximum, each bonus or malus, and the total. They also
+   ask for a two-line justification, what to check, and what to stress in
+   the CV. The score is the sum of criteria and adjustments. A posting the
+   review rules out (a mandatory language, say) is held at 30 at most.
+
+Each search run reviews only the postings never reviewed. When you save a
+new prompt, earlier reviews are marked ↻ (stale). **Rescore with the current
+prompt** then scores them again, after showing how many calls it will make
+and what they will cost. The cost is estimated from the reviews already made
+with that model, or else from its list price. The model, its reasoning
+effort and the number of parallel calls are set in the same panel.
+
+The same steps exist on the command line:
+
+```bash
+backend/.venv/bin/acide rank                       # rules only; lists the top 30
+backend/.venv/bin/acide rank --review 300          # dry run: how many calls
+backend/.venv/bin/acide rank --review 300 --yes    # spend them
+```
 
 ---
 

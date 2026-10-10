@@ -1,0 +1,142 @@
+job_id,title,url,location,country,contract,published,deadline,description
+apac-information-security-operations-lead,APAC Information Security Operations Lead,https://www.optiver.com/join-us/jobs/technology/sydney/apac-information-security-operations-lead/,,,,2025-12-18,,"APAC Information Security Operations Lead
+Who we are
+Optiver is a global market maker founded in Amsterdam, with offices in London, Chicago, Austin, New York, Sydney, Shanghai, Hong Kong, Singapore, Taipei and Mumbai. Established in 1986, today we are a leading liquidity provider, with close to 2,000 employees in offices around the world, united in our commitment to improve the market through competitive pricing, execution and risk management. By providing liquidity on multiple exchanges across the world in various financial instruments we participate in the safeguarding of healthy and efficient markets. We provide liquidity to financial markets using our own capital, at our own risk, trading a wide range of products: listed derivatives, cash equities, ETFs, bonds and foreign currencies.
+What you’ll do
+We are seeking a hands-on Information Security Operations Lead who combines deep security knowledge with strong coaching, mentoring, and leadership capabilities. You will guide the team through operational challenges, foster their development, and ensure the ongoing integrity of Optiver’s security operations.
+Reporting directly to the Global Head of Information Security this role will work in conjunction with the other regional security leads with your focus extending beyond individual technical execution—you will help shape the team’s roadmap, coach engineers through complex challenges, and drive alignment with global security objectives.
+Main responsibilities include:
+Build and lead a high-performance security engineers and analysts, including managing performance, career development and delivery.
+Oversee day-to-day security operations, ensuring efficient triage, investigation, escalation, and resolution of security events
+Continuously refine operational processes and partner with global security teams to drive alignment in processes, standards, and tooling.
+Lead the team during high-severity incidents, coordinating efforts across engineering, business, and global stakeholders.
+Work with engineers to identify automation opportunities, reduce toil, and improve detection and response capabilities.
+Act as the primary point of contact for operational security topics within APAC and build strong partnerships with all stakeholders.
+Contribute to the long-term strategy and roadmap for global security operations.
+Who you are
+Optiver needs our next APAC Information Security Operations Lead to have:
+Leading or mentoring security engineers, SOC analysts, incident responders, or security operations teams.
+Broad experience with EDR, SIEM, vulnerability management, identity security, and cloud security tooling.
+Experience defining and maturing operational processes: alerting, triage, incident response, playbooks, tooling, and escalation workflows.
+Understanding of SOC workflows, detection tuning/engineering, playbook development, and operational runbooks.
+Experience leading or coordinating incident response efforts across cross-functional teams.
+Demonstrated experience building high-performing, collaborative teams in fast-paced environments.
+Championing a culture of continuous improvement, and operational excellence.
+Cloud security (AWS + M365), identity management (Entra ID, SSO, conditional access), and data protection desirable.
+Automation with Python or PowerShell desirable.
+What you’ll get
+You’ll join a culture of collaboration and excellence, where you’ll be surrounded by curious thinkers and creative problem solvers. Driven by a passion for continuous improvement, you’ll thrive in a supportive, high-performing environment alongside talented colleagues, working collectively to tackle some of the most complex problems in the financial markets.
+In return for your expertise, you will have access to a range of Optiver perks, including:
+A performance-based bonus structure unmatched anywhere in the industry.
+The chance to work alongside diverse and intelligent peers in a rewarding environment.
+Training, mentorship and personal development opportunities.
+Daily breakfast, lunch and an in-house barista.
+Gym membership plus weekly in-house chair massages.
+Regular social events, including a company trip every two years.
+Optiver is committed to diversity and inclusion. We encourage applications from candidates of all backgrounds, and welcome requests for reasonable adjustments during the process.
+Questions? Get in touch with the recruitment team at careers@optiver.com.au.
+Open positions
+Support Engineer - APAC Risk, Treasury & Post-Trade
+
+Sydney
+
+Experienced
+
+Technology
+
+Experienced
+
+Technology
+Linux Systems Engineer - Bare Metal & Kubernetes
+
+Sydney
+
+Experienced
+
+Technology
+
+Experienced
+
+Technology
+Senior Network Engineering Lead (APAC)
+
+Sydney
+
+Experienced
+
+Technology
+
+Experienced
+
+Technology"
+senior-information-security-engineer,Senior Information Security Engineer,https://www.optiver.com/join-us/jobs/technology/sydney/senior-information-security-engineer/,,,,2025-12-18,,"Senior Information Security Engineer
+Who we are
+Optiver is a global market maker founded in Amsterdam, with offices in London, Chicago, Austin, New York, Sydney, Shanghai, Hong Kong, Singapore, Taipei and Mumbai. Established in 1986, today we are a leading liquidity provider, with close to 2,000 employees in offices around the world, united in our commitment to improve the market through competitive pricing, execution and risk management. By providing liquidity on multiple exchanges across the world in various financial instruments we participate in the safeguarding of healthy and efficient markets. We provide liquidity to financial markets using our own capital, at our own risk, trading a wide range of products: listed derivatives, cash equities, ETFs, bonds and foreign currencies.
+What you’ll do
+We are seeking a motivated, hands-on Senior Information Security Engineer to join our security team. In this role, you will help protect, monitor, and continuously improve the security of our global systems including cloud (AWS and M365) and on-premises infrastructure. You’ll play a central part in risk mitigation, incident response, automation of security operations, and embedding security best practices across our organisation. An engineering mindset, attention to detail, and a preference for pragmatic solutions are essential to keeping our systems operating.
+Main responsibilities include:
+Monitor daily security operations, identify threats, investigate alerts, and respond to incidents across cloud and on-prem environments.
+Strengthen Microsoft 365 and Entra ID security through Conditional Access, MFA, PIM, Defender for Endpoint/Identity/O365, and tenant configuration hardening.
+Build and maintain security automation using Python and PowerShell, with a strong focus on reducing manual processes and improving detection and response.
+Integrate systems using APIs (Graph API, REST, etc) to enhance security workflows.
+Perform vulnerability assessments, review system configurations, and develop practical mitigation strategies.
+Contribute to incident response activities including investigation, containment, communication, and remediation.
+Work closely with engineering, technology, and business teams to embed security best practices.
+Who you are
+Optiver needs our next Information Security Engineer to have:
+At least 5 years experience in an information security or technical engineering role.
+Ability to apply analytical thinking to technical problems within a fast-moving environment.
+Comfortable with both Windows and Linux environments; familiarity with common security technologies (firewalls, endpoint protection, log management, vulnerability scanning, network security).
+Solid scripting skills in PowerShell and/or Python
+Knowledge of secure Identity Management, authentication principles, and modern access control patterns.
+Experience using security tooling such as EDR, SIEM, SOAR, CASB, etc
+Experience securing workloads running both on-premise (bare-metal / container) and on IaaS platforms.
+Familiarity with identity lifecycle processes, RBAC, PAM, and privileged identity controls.
+Understanding of vulnerability management tools (Nessus/Tenable, RunZero, etc) and secure configuration standards.
+Experience with data protection, DLP, or information protection solutions (e.g., Microsoft Purview, DLP rules, classification/labelling).
+Please note that we welcome interest from candidates with varying levels of experience; many successful candidates do not meet every single requirement. If you're excited about this role, please apply and allow our recruiters to assess your application.
+What you’ll get
+You’ll join a culture of collaboration and excellence, where you’ll be surrounded by curious thinkers and creative problem solvers. Driven by a passion for continuous improvement, you’ll thrive in a supportive, high-performing environment alongside talented colleagues, working collectively to tackle some of the most complex problems in the financial markets.
+In return for your expertise, you will have access to a range of Optiver perks, including:
+A performance-based bonus structure unmatched anywhere in the industry.
+The chance to work alongside diverse and intelligent peers in a rewarding environment.
+Training, mentorship and personal development opportunities.
+Daily breakfast, lunch and an in-house barista.
+Gym membership plus weekly in-house chair massages.
+Regular social events, including a company trip every two years.
+Optiver is committed to diversity and inclusion. We encourage applications from candidates of all backgrounds, and welcome requests for reasonable adjustments during the process.
+Questions? Get in touch with the recruitment team at careers@optiver.com.au.
+Open positions
+Support Engineer - APAC Risk, Treasury & Post-Trade
+
+Sydney
+
+Experienced
+
+Technology
+
+Experienced
+
+Technology
+Linux Systems Engineer - Bare Metal & Kubernetes
+
+Sydney
+
+Experienced
+
+Technology
+
+Experienced
+
+Technology
+Senior Network Engineering Lead (APAC)
+
+Sydney
+
+Experienced
+
+Technology
+
+Experienced
+
+Technology"

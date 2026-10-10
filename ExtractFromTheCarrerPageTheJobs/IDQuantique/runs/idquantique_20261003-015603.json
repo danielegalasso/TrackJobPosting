@@ -1,0 +1,38 @@
+{
+  "source": "https://www.idquantique.com/about-idq/careers/#job-openings",
+  "company": "ID Quantique",
+  "query": "",
+  "extracted_at": "2026-10-03T01:56:03",
+  "site_total": 2,
+  "extracted": 2,
+  "postings": [
+    {
+      "job_id": "4728048101",
+      "requisition_id": "19",
+      "title": "Don't see a role that matches your profile - Join our Talent Pool",
+      "location": "Genève, Geneva, Switzerland",
+      "offices": "Switzerland",
+      "country": "Switzerland",
+      "department": "Talent",
+      "start_date": "2025-12-10",
+      "updated": "2026-03-28",
+      "deadline": "",
+      "url": "https://job-boards.eu.greenhouse.io/idquantique/jobs/4728048101",
+      "description": "ID Quantique (IDQ) as part of IONQ, is a global leader in quantum-safe communications and quantum detection systems. We provide solutions to protect governments, telecommunication infrastructures, and banking & financial institutions from the “harvest-now, decrypt-later” threat, delivering both terrestrial and space-based quantum-safe networks in live operation globally. Our Quantum Detection Systems push the limits of single-photon detection, powering breakthroughs in quantum communication, sensing, computing, and ultra-sensitive imaging in partnership with top researchers and tech innovators worldwide.\n\nCan’t find the right role at the moment? Apply anyway! We’re actively hiring and would love to get to know you. By applying here, you’ll join IDQ’s Talent Community and be considered for future openings.\n\nWhat We Offer\n\n· A role at one of the fastest growing and most exciting Quantum companies in the world.\n\n· A competitive compensation scheme, benefits package and equity plan. All designed to reward excellence.\n\n· Flexible work models that let you balance your life, your family, and your career.\n\n· Ongoing training and development to keep your skills sharp and your growth on track.\n\n· A career development plan within the IonQ group’s companies\n\n· A dynamic, close-knit environment where you collaborate with a global team of experts.\n\n· A performance-driven culture built on trust, teamwork, and shared ambition.\n\nID Quantique/ IonQ is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, creed, religion, national origin, sex, sexual orientation, gender identity, age, disability, veteran status or any other status protected by law."
+    },
+    {
+      "job_id": "4827655101",
+      "requisition_id": "IONQ-1351",
+      "title": "Senior Cryogenic Engineer",
+      "location": "Genève, Geneva, Switzerland",
+      "offices": "Switzerland",
+      "country": "Switzerland",
+      "department": "R&D",
+      "start_date": "2026-03-31",
+      "updated": "2026-04-01",
+      "deadline": "",
+      "url": "https://job-boards.eu.greenhouse.io/idquantique/jobs/4827655101",
+      "description": "ID Quantique (IDQ) as part of IONQ, is a global leader in quantum-safe communications and quantum detection systems. We provide solutions to protect governments, telecommunication infrastructures, and banking & financial institutions from the “harvest-now, decrypt-later” threat, delivering both terrestrial and space-based quantum-safe networks in live operation globally. Our Quantum Detection Systems push the limits of single-photon detection, powering breakthroughs in quantum communication, sensing, computing, and ultra-sensitive imaging in partnership with top researchers and tech innovators worldwide.\n\nWhat to Expect\n\nWe are seeking a Senior Cryogenic Engineer to support and develop advanced cryogenic platforms for our SNSPD (Superconducting Nanowire Single-Photon Detector) product line, with a strong emphasis on next-generation rack-mountable systems.\n\nYou will join a cross-functional team dedicated to advancing world-class quantum technologies that address some of the most complex challenges in computing, networking, and sensing. In this role, you will play a central part in the development lifecycle, overseeing cryogenic subsystems and ensuring robust, reliable 2K cryo-systems that can be deployed across internal and customer environments, while remaining maintainable and adaptable as the technology evolves.\n\nWhat You'll be Doing\n\nWorking at the intersection of engineering and innovation, you will lead system-level specification, integration, and testing of cryogenic platforms tailored to SNSPD requirements. You will collaborate closely with internal teams, subcontractors, and external partners to design, configure, and improve deployable systems, while also providing operational support for existing platforms.\n\nWhat you'll Bring\n\nThis position suits a highly experienced engineer with a strong background in cryogenic systems, hands-on expertise with cryostats and related technologies, and the ability to drive integration efforts across multidisciplinary teams and external vendors.\n\nYou'll be a great fit with:\n\n- Master’s degree (PhD preferred) in applied physics, system engineering, mechanical engineering, or a related field, with 5-7+ years of experience in the cryogenic industry\n\n- Proven experience designing, evaluating, and maintaining complex cryogenic systems, including dilution, sorption, and 1 K cryostats\n\n- Strong knowledge of cryogenic wiring, sensors, electronics, and CAD-based design and manufacturing processes\n\n- Experience collaborating with cryogenic vendors, subcontractors, and external design partners on system integration\n\n- Desirable expertise in fibre or free-space optics, superconducting nanowire single-photon detectors, and leading integration projects\n\nWhat We Offer\n\n· A role at one of the fastest growing and most exciting Quantum companies in the world.\n\n· A competitive compensation scheme, benefits package and equity plan. All designed to reward excellence.\n\n· Flexible work models that let you balance your life, your family, and your career.\n\n· Ongoing training and development to keep your skills sharp and your growth on track.\n\n· A career development plan within the IonQ group’s companies\n\n· A dynamic, close-knit environment where you collaborate with a global team of experts.\n\n· A performance-driven culture built on trust, teamwork, and shared ambition.\n\nID Quantique/ IonQ is an equal opportunity employer and considers qualified applicants for employment without regard to race, color, creed, religion, national origin, sex, sexual orientation, gender identity, age, disability, veteran status or any other status protected by law."
+    }
+  ]
+}

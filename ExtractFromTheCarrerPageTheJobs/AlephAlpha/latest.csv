@@ -1,0 +1,240 @@
+job_id,title,location,additional_locations,country,department,contract,remote_type,compensation,published,url,description
+1722b11a-b67f-4869-aa89-b141dc68fabb,Intern/WS to Chief of Staff (f/m/d),Heidelberg,Berlin,Germany,CEO Office,Intern,Hybrid,,2026-09-23,https://jobs.ashbyhq.com/AlephAlpha/1722b11a-b67f-4869-aa89-b141dc68fabb,"Who we are
+
+Aleph Alpha’s mission is to deliver sovereign, human-centric AI to governmental institutions and large enterprises. To that end, we deliver category-defining AI innovation that enables open, accessible, and trustworthy deployment of GenAI in industrial applications. Our organization develops foundational models and next-generation methods that make it easy and affordable for Aleph Alpha’s customers to increase productivity in development, engineering, logistics, and manufacturing processes. 
+
+The role
+
+As an intern in the CRO office in a wide range of strategic and operational projects, such as supporting communications, tech-org enablement or evaluations of our offerings. The role offers a unique proximity to state-of-the-art GenAI research, and you will be able to work with some of the brightest scientists in the field.
+
+You’ll contribute to a breadth of initiatives in a fast-paced and dynamic environment; one week, you might be supporting our model release pipeline; another week, you’ll be helping coordinate blog posts and conference talks.
+
+We are looking for working students or full-time interns for a duration of 6 months or longer, starting as soon as possible in our Heidelberg or Berlin office. Please indicate your preferred location in your application. The position is open for gap year or end-of-study interns.
+
+Who you are
+
+ - Previous experience in a fast-paced environment such as consulting, tech, venture capital, high-growth startups, or similar. Alternatively, if you’ve built an impressive project or company, we’d love to hear about it in your application.
+
+ - We welcome applicants from a wide range of educational backgrounds (incl. business, engineering, natural sciences, …). A finished Bachelor’s or Master’s degree is nice to have, but not required.
+
+ - You are a versatile generalist who can jump on any topic and get things done!
+
+ - You have an entrepreneurial self-starter mindset and an ability to work under uncertainty.
+
+ - You are humble, self-aware, and a team player.
+
+ - Fluent in English, German is a plus.
+
+Even if you don't tick all of the boxes, but you are motivated and want to work with us, you are very welcome to apply.
+
+
+
+Your responsibilities:
+
+As an Intern, you can be asked to work on almost any subject, for example:
+
+ - Strategic projects: Drive a number of strategically important topics such as community-growth efforts, and extension of our project management framework.
+
+ - Internal & external communication: Develop high-quality material for internal and external stakeholders that concisely communicates our mission, research, and results.
+
+ - Cross-department alignment: Co-design and implement processes that foster an open information exchange across departments.
+   
+   
+
+What you can expect from us:
+
+ - Become part of an AI revolution!
+
+ - Flexible working hours, hybrid working model
+
+ - Join a dynamic start-up and a rapidly growing team
+
+ - Work with international AI industry and science experts
+
+ - Responsibility to shape our company and technology
+
+ - Regular team events
+
+ - Access to a variety of fitness & wellness offerings via Wellhub https://wellhub.com/de-de/
+
+ - Mental health support through  http://nilo.health/nilo.health http://nilo.health
+
+ - Subsidized Germany-wide transportation ticket
+
+ - 30 days of yearly paid vacation; pro-rated for contract length"
+0ed0c9ef-8e9f-4161-80e6-55fc95c93736,Senior AI R&D Engineer – Model Training  (f/m/d),Heidelberg,Berlin,Germany,Research,FullTime,Hybrid,,2026-10-09,https://jobs.ashbyhq.com/AlephAlpha/0ed0c9ef-8e9f-4161-80e6-55fc95c93736,"OUR MISSION
+
+Aleph Alpha is one of the few companies in Europe doing serious foundation model pre- and post-training. We're building models that have general-purpose capabilities, and specifically excel at addressing the needs of our customers.
+
+We're looking for exceptional Software Engineers to join our model training team. Most of the team is based in Heidelberg .
+
+
+
+
+TEAM CULTURE
+
+At Aleph Alpha, we foster a culture built on ownership, autonomy, and empowerment. Teams and individual contributors are trusted to take responsibility for their work and drive meaningful impact. We maintain a flat organizational structure with efficient, supportive management that enables quick decision-making, open communication, and a strong sense of shared purpose.
+
+We believe a strong engineering culture is the key to model training success. We like Extreme Programming and favor trunk-based development. We often mob-program, which keeps us aligned and means we always learn from each other.
+
+
+
+
+
+ABOUT THE ROLE
+
+As a Senior AI R&D Engineer in Model Training (f/m/d), you will join our model training team in Heidelberg or Berlin. Most of the team is based in Heidelberg. The model training team is training models, but more importantly in order to do so building and improving our model training pipeline.
+
+ - You will work across our full stack. Some weeks you might be optimizing how training loads are scheduled on our cluster and making the pipeline more robust and performant so we can iterate faster. Other weeks, you will be enabling large-scale code execution for reinforcement learning. And at other times, you might dig deep into our evaluation codebase to lift inference throughput on evals.
+
+ - No two days are the same. Things move fast, and your ability to focus and prioritize is what lets you unblock the team day-to-day while designing the high-quality tooling and infrastructure that speeds us up long-term.
+
+ - We're still building out our training pipeline and infrastructure. Some pieces exist, some do not, and you will have real influence on what gets built and how. Your work directly shapes how quickly we can experiment and improve our models.
+
+ - Identifying issues and taking initiative is what drives our day-to-day work.
+
+ - Working mode, design decisions, priorities are all done in your team together with your team mates. 
+   The strongest teams often use highly collaborative techniques, like mob or pair programming.
+
+ - Due to the highly collaborative nature of our work you are expected to be on-site at least two days a week. If you are in Berlin, you should expect to travel around every second month for a few days to Heidelberg.
+
+ - We are specifically looking to strengthen the Software Engineering in the teams which are research heavy. Major points include improving the maintainability of our code through tests and design & architecture changes.
+
+
+REQUIREMENTS
+
+ - At its core, you need to be able to dive into a codebase, change the behavior as necessary, and after the change the code should be better tested and easier to understand than before.
+
+ - As such we look for candidates for an understanding of how to design for low coupling and high cohesion paired with the ability to incrementally refactor.
+
+ - Experience with the following technologies is likely to be helpful:
+   
+   - Test Driven Development (TDD)
+   
+   - Trunk based development
+   
+   - Continuous integration
+   
+   - Domain Driven Design
+
+
+NICE-TO-HAVES
+
+ - Most of our code is in Python, there is also the occasional Rust codebase.
+
+ - Large parts of our training pipeline are built on top of Kubernetes.
+
+ - We do not hire for skills in a particular technology or language, but rather ability to learn and mindset, yet experience with these technologies is a plus.
+
+
+WHAT WE OFFER
+
+ - Become part of an AI revolution!
+
+ - 30 days of paid vacation
+
+ - Access to a variety of fitness & wellness offerings via Wellhub https://wellhub.com/de-de/
+
+ - Mental health support through nilo.health http://nilo.health/
+
+ - Substantially subsidized company pension plan for your future security
+
+ - Subsidized Germany-wide transportation ticket
+
+ - Budget for additional technical equipment
+
+ - Flexible working hours for better work-life balance and hybrid working model
+
+ - JobRad® https://www.jobrad.org/ Bike Lease"
+80dc6ee6-dece-4d4b-9906-ea930338f245,Senior AI Researcher- Pre-training (f/m/d),Heidelberg,,Germany,Research,FullTime,Hybrid,,2026-10-09,https://jobs.ashbyhq.com/AlephAlpha/80dc6ee6-dece-4d4b-9906-ea930338f245,"OUR MISSION
+
+Aleph Alpha is one of the few companies in Europe doing serious foundation model pre-training. Our customers — in finance, manufacturing, and public administration — need models that understand German, meet European regulatory requirements, and work reliably in high-stakes settings. We’re building that in Heidelberg.
+
+We are hiring a Senior AI Researcher to join our Pre-training team and to advance the architecture and training of our next generation of foundation models. If you are excited about designing inference-efficient architectures, optimising training recipes that scale reliably, and training models on a large scale cluster (thousands of NVIDIA Blackwell GPUs), we would love to hear from you.
+
+
+TEAM CULTURE
+
+We foster a culture built on ownership, autonomy, and empowerment. Teams and individual contributors are trusted to take responsibility for their work and drive meaningful impact. We maintain a flat organisational structure with efficient, supportive management that enables quick decision-making, open communication, and a strong sense of shared purpose. We collaborate closely on complex technical problems, working in pairs or using mob programming to resolve challenging issues.
+
+
+ABOUT THE ROLE
+
+As a Senior AI Researcher in Pre-training (f/m/d), you will own the critical technical levers that determine the success of our next-generation models: architecture, optimization, stability, and scaling. 
+
+Working at the high-leverage intersection of research and engineering, you will translate mathematical reasoning and empirical observations into principled training decisions - from small-scale proxy experiments to multi-thousand-GPU runs. 
+
+We are looking for an expert who can combine rigorous experimental design with high-quality production code, directly influencing model quality, run reliability, and the efficiency of the models we ship.
+
+
+
+
+YOUR RESPONSIBILITIES
+
+ - Recipe & Architecture Optimization: Own core elements of the training recipe (optimizers, schedules, initialization) and design PyTorch-based architectural improvements to maximize convergence, stability, and training efficiency.
+
+ - Scaling Strategy & Predictability: Develop hyperparameter scaling laws and scale-up methodologies, using small-scale proxy experiments to reliably predict multi-thousand-GPU behavior and de-risk major training decisions.
+
+ - Stability, Diagnostics & Debugging: Investigate complex convergence issues (loss spikes, divergence) and resolve hard-to-reproduce distributed system failures like communication bottlenecks, race conditions, and synchronization errors.
+
+ - System-Model Co-Design: Partner with Compute Performance, Data, Evaluation, and Post-Training teams to align the model lifecycle with hardware constraints, memory bandwidth, and communication topologies.
+
+
+CORE QUALIFICATIONS
+
+ - You are proficient in Python and deeply familiar with PyTorch-based training workflows.
+
+ - You have a strong track record in machine learning research and software engineering, demonstrated through shipped models, impactful open-source contributions, or published research.
+
+ - You have a strong mathematical foundation and are comfortable reasoning formally about optimisation, scaling behaviour, and training dynamics.
+
+ - You deeply understand transformer training dynamics, optimisation, and the behaviour of large distributed training jobs.
+
+ - You can design rigorous experiments, reason clearly from noisy results, and translate empirical observations into robust training decisions.
+
+ - Hands-on experience pre-training large models (e.g., 7B+ parameters) on substantial infrastructure (e.g., 100+ GPU clusters).
+
+ - You apply strong software engineering practices, including writing maintainable, well-tested code and supporting reproducible experimentation workflows.
+
+ - You are able to implement complex model architectures efficiently and reliably and to debug complex issues across model code, training dynamics, and distributed systems.
+
+ - You collaborate effectively within a research and engineering team and communicate clearly about your work across Pre-training and the broader AAR/AA organization.
+
+ - You are able to work in Germany and collaborate regularly on site in Heidelberg as part of the Pre-training team.
+
+
+PREFERRED QUALIFICATIONS
+
+ - Large-Scale Training: Hands-on experience training LLMs or multimodal models on large GPU clusters using distributed frameworks (e.g., Megatron-LM, DeepSpeed, torchtitan).
+
+ - Predictive Scaling: Familiarity with scaling laws, hyperparameter transfer, or methods for predicting large-scale training behavior from smaller proxy runs.
+
+ - Stability & Performance: Experience profiling distributed jobs and diagnosing training anomalies like loss spikes, numerical instability, or optimizer pathologies.
+
+ - Advanced Architectures: Exposure to sparse training approaches (e.g., Mixture-of-Experts) and an understanding of their routing and systems trade-offs.
+
+ - Track Record of Impact: Demonstrated research excellence through top-tier publications (NeurIPS, ICML, ICLR), impactful open-source contributions, or significant shipped technical work.
+
+ - Systems Curiosity: Low-level kernel optimization is not required, but we highly value a strong curiosity about the hardware and systems constraints that shape scale.
+
+What we offer
+
+ - Become part of an AI revolution!
+
+ - 30 days of paid vacation
+
+ - Access to a variety of fitness & wellness offerings via Wellhub https://wellhub.com/de-de/
+
+ - Mental health support through nilo.health http://nilo.health
+
+ - Substantially subsidized company pension plan for your future security
+
+ - Subsidized Germany-wide transportation ticket
+
+ - Budget for additional technical equipment
+
+ - Flexible working hours for better work-life balance and hybrid working model
+
+ - JobRad® https://www.jobrad.org/ Bike Lease
+
+"

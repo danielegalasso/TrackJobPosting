@@ -13,6 +13,7 @@ interface JobGridProps {
   onLoadMore: () => void;
   onToggleSave: (job: Job) => void;
   onDismiss: (job: Job) => void;
+  removedView?: boolean;
 }
 
 function Skeleton() {
@@ -40,6 +41,7 @@ export function JobGrid({
   onLoadMore,
   onToggleSave,
   onDismiss,
+  removedView = false,
 }: JobGridProps) {
   if (error) {
     return (
@@ -64,7 +66,9 @@ export function JobGrid({
     return (
       <div className="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-12 text-center">
         <SearchX className="mx-auto mb-3 h-8 w-8 text-gray-400" aria-hidden />
-        <p className="text-sm font-medium text-gray-700">No positions match these filters</p>
+        <p className="text-sm font-medium text-gray-700">
+          {removedView ? 'Nothing removed' : 'No positions match these filters'}
+        </p>
         <p className="mx-auto mt-1 max-w-md text-xs text-gray-500">{emptyHint}</p>
       </div>
     );
@@ -74,7 +78,13 @@ export function JobGrid({
     <>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
         {jobs.map((job) => (
-          <JobCard key={job.id} job={job} onToggleSave={onToggleSave} onDismiss={onDismiss} />
+          <JobCard
+            key={job.id}
+            job={job}
+            onToggleSave={onToggleSave}
+            onDismiss={onDismiss}
+            removedView={removedView}
+          />
         ))}
       </div>
 

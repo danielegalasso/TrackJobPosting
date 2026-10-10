@@ -1,0 +1,40 @@
+{
+  "source": "https://gdata.onlyfy.jobs/de",
+  "company": "G DATA CyberDefense",
+  "query": "",
+  "extracted_at": "2026-10-03T06:53:24",
+  "site_total": 5,
+  "extracted": 5,
+  "postings": [
+    {
+      "job_id": "tjk0mys6c9uizkyngewiwwcstlcozvn",
+      "title": "Account Executive New Business – Cyber Defense (m/w/d)",
+      "url": "https://gdata.onlyfy.jobs/de/job/tjk0mys6c9uizkyngewiwwcstlcozvn",
+      "description": ""
+    },
+    {
+      "job_id": "avlv3gapdh42nksz2ahuutpnjerva1g",
+      "title": "Protection Engineer (m/w/d)",
+      "url": "https://gdata.onlyfy.jobs/de/job/avlv3gapdh42nksz2ahuutpnjerva1g",
+      "description": ""
+    },
+    {
+      "job_id": "1i454nt2b9h7o0xbn7ces8yqm9mb710",
+      "title": "Sales Development Representative (m/w/d)",
+      "url": "https://gdata.onlyfy.jobs/de/job/1i454nt2b9h7o0xbn7ces8yqm9mb710",
+      "description": ""
+    },
+    {
+      "job_id": "kgjgsxx86e01inagtk2dsp9mzqn9ow8",
+      "title": "Web Penetration Tester (m/w/d)",
+      "url": "https://gdata.onlyfy.jobs/de/job/kgjgsxx86e01inagtk2dsp9mzqn9ow8",
+      "description": ""
+    },
+    {
+      "job_id": "o766zj4pwmi7d3m92gcrxy7h9hb5pf4",
+      "title": "Werkstudent / Studentische Hilfskraft (m/w/d) im Bereich DevOps",
+      "url": "https://gdata.onlyfy.jobs/de/job/o766zj4pwmi7d3m92gcrxy7h9hb5pf4",
+      "description": ""
+    }
+  ]
+}

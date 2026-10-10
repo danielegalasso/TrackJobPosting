@@ -115,7 +115,7 @@ def test_a_digest_is_delivered_end_to_end(live_smtp):
     mailer.send(
         _config(controller, DISPLAYED_PASSWORD),
         "someone@example.com",
-        "ACIDE-Watch: 1 new role",
+        "findmyjob.top: 1 new role",
         "<p>Cloud Security Engineer</p>",
         "Cloud Security Engineer",
     )

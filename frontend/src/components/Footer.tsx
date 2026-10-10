@@ -9,7 +9,7 @@ export function Footer({ onOpenLegal }: FooterProps) {
     <footer className="border-t border-gray-200 bg-gray-50 py-6 text-xs text-gray-500">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 sm:px-6 md:flex-row">
         <p className="text-center md:text-left">
-          ACIDE-Watch — self-hosted career intelligence. Listings are aggregated from public
+          findmyjob.top — self-hosted career intelligence. Listings are aggregated from public
           employer career feeds; we are not an employer or recruiter.
         </p>
         <div className="flex flex-shrink-0 items-center gap-6">

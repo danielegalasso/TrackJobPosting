@@ -10,6 +10,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import os
+import threading
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -19,9 +20,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 
-from . import __version__, db, paths, scheduler
+from . import __version__, db, extracts, paths, ranking, scheduler
 from . import config as config_module
-from .api import alerts, jobs, spider
+from .api import alerts, jobs, search, spider
 from .api import config as config_api
 from .logbus import bus
 
@@ -46,6 +47,10 @@ DEV_ORIGINS = [
 async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     paths.ensure_dirs()
     db.init_db()
+    extracts.sync_quietly()
+    # Ranking the whole table takes half a minute; the grid serves the last
+    # ranks meanwhile rather than waiting for it.
+    threading.Thread(target=ranking.refresh_quietly, name="ranking", daemon=True).start()
     bus.bind_loop(asyncio.get_running_loop())
 
     try:
@@ -90,6 +95,7 @@ app.include_router(jobs.router)
 app.include_router(alerts.router)
 app.include_router(config_api.router)
 app.include_router(spider.router)
+app.include_router(search.router)
 
 
 @app.get("/api/health", tags=["ops"])

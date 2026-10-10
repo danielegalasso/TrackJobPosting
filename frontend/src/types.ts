@@ -22,7 +22,47 @@ export interface Job {
   source_type: string;
   saved: boolean;
   dismissed: boolean;
+  /** False until the evaluator has judged it; the fit scores mean nothing before. */
+  scored: boolean;
+  /** Last day to apply (ISO date), when the source states one. */
+  deadline: string | null;
+  /** The advert as plain text, when the source carries it. */
+  description: string;
+  /** The source no longer lists this posting. */
+  closed: boolean;
   created_at: string | null;
+  /** Which to read first: the model's review where there is one, the rules otherwise. */
+  priority: number | null;
+  priority_source: 'review' | 'rules' | '';
+  /** The review was made against a brief that has changed since. */
+  priority_stale: boolean;
+  priority_model: string;
+  priority_tier: number | null;
+  /** Points per criterion: the brief's own criteria when reviewed, the rules' otherwise. */
+  priority_criteria: PriorityCriterion[];
+  /** Bonuses and maluses the brief defines (location, salary, ...). */
+  priority_adjustments: { name: string; points: number }[];
+  priority_reasons: string[];
+  /** "block": cannot apply; "warn": check first; "info": worth knowing. */
+  priority_flags: PriorityFlag[];
+  priority_summary: string;
+  priority_issues: string[];
+  priority_cv_tip: string;
+  /** What the review read in the offer: deadline, location, languages, clearance. */
+  priority_facts: Record<string, string>;
+  /** Why the rules keep it from review (a visa, a senior role, ...), or "". */
+  priority_excluded: string;
+}
+
+export interface PriorityCriterion {
+  name: string;
+  points: number;
+  max: number;
+}
+
+export interface PriorityFlag {
+  text: string;
+  level: 'block' | 'warn' | 'info';
 }
 
 export interface JobPage {
@@ -38,43 +78,34 @@ export interface JobFacets {
   companies: string[];
   seniorities: string[];
   currencies: string[];
+  /** "EUROPE" first, then each country, most postings first. */
+  countries: { code: string; name: string; count: number }[];
 }
 
 /** The filter matrix state, kept in one object so it round-trips to alerts. */
 export interface Filters {
   search: string;
-  location: string;
-  remote: string;
-  category: string;
-  years_experience: string;
-  seniority: string;
-  posted_within: string;
+  /** An ISO country code, "EUROPE" for any European country, or '' for anywhere. */
+  country: string;
   company: string;
-  rate: string;
-  currency: string;
-  min_amount: string;
-  match_posting_currency: boolean;
-  category_type: string;
   sort: string;
+  /** 'extract' (the per-site extractors), 'crawler', or '' for both. */
+  origin: string;
+  /** Postings the rules keep from review: '' hides them, 'include', 'only'. */
+  excluded: string;
   saved_only: boolean;
+  dismissed_only: boolean;
 }
 
 export const EMPTY_FILTERS: Filters = {
   search: '',
-  location: '',
-  remote: '',
-  category: '',
-  years_experience: '',
-  seniority: '',
-  posted_within: '',
+  country: '',
   company: '',
-  rate: 'Yearly',
-  currency: 'USD',
-  min_amount: '',
-  match_posting_currency: false,
-  category_type: '',
-  sort: 'fit',
+  sort: 'priority',
+  origin: 'extract',
+  excluded: '',
   saved_only: false,
+  dismissed_only: false,
 };
 
 export interface AlertSubscription {
@@ -161,7 +192,7 @@ export interface AppConfig {
 }
 
 /** `none` means "omit the reasoning block", for models with no thinking mode. */
-export type ReasoningEffort = 'none' | 'minimal' | 'low' | 'medium' | 'high' | 'max';
+export type ReasoningEffort = 'none' | 'minimal' | 'low' | 'medium' | 'high' | 'xhigh' | 'max';
 
 export const REASONING_EFFORTS: { value: ReasoningEffort; label: string; hint: string }[] = [
   { value: 'none', label: 'None', hint: 'No reasoning block sent' },
@@ -169,6 +200,7 @@ export const REASONING_EFFORTS: { value: ReasoningEffort; label: string; hint: s
   { value: 'low', label: 'Low', hint: 'Light deliberation' },
   { value: 'medium', label: 'Medium', hint: 'Balanced' },
   { value: 'high', label: 'High', hint: 'Slower, more thorough' },
+  { value: 'xhigh', label: 'Extra high', hint: "OpenRouter's highest documented level" },
   { value: 'max', label: 'Max', hint: 'Largest budget, highest cost' },
 ];
 
@@ -188,4 +220,93 @@ export interface ModelInfo {
 export interface HandshakeResult {
   ok: boolean;
   detail: string;
+}
+
+/** What a review run covers: never-reviewed postings, those reviewed against
+ *  an older brief (and the never-reviewed), or every one again. */
+export type ReviewMode = 'new' | 'stale' | 'all';
+
+export interface ReviewCounts {
+  open: number;
+  excluded: number;
+  never: number;
+  stale: number;
+  current: number;
+  excluded_by_reason: Record<string, number>;
+}
+
+export interface ScoringSettings {
+  model: string;
+  reasoning_effort: ReasoningEffort;
+  max_concurrency: number;
+  has_key: boolean;
+}
+
+export interface SiteResult {
+  name: string;
+  status: 'OK' | 'CHECK' | 'INCOMPLETE' | 'EMPTY' | 'FAILED';
+  counts: string;
+  new: number | null;
+  gone: number | null;
+  seconds: number;
+}
+
+export interface CompanyChange {
+  company: string;
+  new: number;
+  gone: number;
+  new_excluded: number;
+}
+
+export interface SearchRun {
+  running: boolean;
+  phase: 'idle' | 'extracting' | 'importing' | 'ranking' | 'reviewing' | 'done' | 'failed' | 'stopped';
+  started_at: string;
+  finished_at: string;
+  sites_total: number;
+  sites: SiteResult[];
+  changes: CompanyChange[];
+  new_total: number;
+  gone_total: number;
+  reviewed: number;
+  review_cost: number;
+  error: string;
+}
+
+export interface ReviewRun {
+  mode: string;
+  model: string;
+  effort: string;
+  total: number;
+  reviewed: number;
+  failed: number;
+  cost: number;
+  errors: string[];
+  stopped: string;
+  running: boolean;
+  started_at: string;
+  finished_at: string;
+}
+
+export interface SearchStatus {
+  search: SearchRun;
+  review: ReviewRun;
+  counts: ReviewCounts;
+  scoring: ScoringSettings;
+  brief_present: boolean;
+}
+
+export interface Brief {
+  text: string;
+  instructions: string;
+  digest: string;
+}
+
+export interface ReviewEstimate {
+  count: number;
+  model: string;
+  per_posting: number | null;
+  source: 'history' | 'list price' | 'unknown';
+  samples: number;
+  total: number | null;
 }

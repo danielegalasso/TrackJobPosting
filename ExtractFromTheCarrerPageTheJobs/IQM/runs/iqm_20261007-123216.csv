@@ -1,0 +1,1720 @@
+job_id,title,location,additional_locations,department,remote_type,published,url,description
+e8ec8310-e6ba-4ea3-a89c-239bc400e111,Administrative Coordinator,"Tokyo, Japan",,Enabling functions,none,2026-08-06,https://iqm.teamtailor.com/jobs/8185103-administrative-coordinator,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+IQM Japan is just getting started, and this role is central to building it. You'll be the person who keeps day-to-day operations running smoothly while helping put solid administrative foundations in place for the years ahead. It's a role of real trust and responsibility, working closely with the Country Manager to grow IQM's presence in Japan.
+
+You'll keep IQM Japan operating cleanly and connected to headquarters in Espoo and Munich: coordinating with Finance, People & Culture, Legal, Procurement, IT, and Compliance, keeping government-funded project paperwork on track, and building the administrative foundation a scaling office needs. You'll work most closely with the Country Manager, and you'll often be the bridge between what is happening on the ground in Japan and global teams who don't work in Japanese.
+
+What you'll actually do
+
+- Be the link between Japan and HQ. Move information, documents, approvals, and reporting between local and global teams, translate between Japanese and English where it's needed, and make sure global policies and procedures actually land in the Japan office.
+
+- Run the admin behind Japan's government-funded work. Own the documentation, supporting evidence, reporting, and deadlines for NEDO and other publicly funded programs, keep records audit-ready, and work with project teams, Finance, and external stakeholders so every grant obligation is met.
+
+- Keep the office running. Manage vendors, landlords, and service providers, handle onboarding logistics for new hires and visitors, and organize travel, meetings, and local events.
+
+- Handle finance and procurement admin. Process invoices, purchase requests, and expenses, coordinate with vendors, and keep contracts, purchase orders, and spend tracked. Support budget tracking and reporting for the Country Manager.
+
+- Own auditable records. Keep corporate, legal, operational, and grant documentation organized and compliant with both company policy and Japanese regulatory requirements, and document how the local office is meant to run.
+
+- Build what doesn't exist yet. As Japan scales, spot what to standardize or automate, set up new administrative processes, and take on special projects with the Country Manager. Early on, you'll have real room to shape how this office operates.
+
+What we're looking for
+
+- Hands-on experience with NEDO administrative work, specifically:
+
+- Accounting, financial compliance, and audit preparation
+
+- Document and reporting management
+
+- Communication and stakeholder coordination
+
+- Expert-level Excel, Word, and PowerPoint
+
+- Fluent Japanese and English, with real experience translating business documents both ways (Japanese to English and English to Japanese), often in volume.
+
+- Working knowledge of legal and finance basics.
+
+You'll do well here if you're organized and precise, comfortable owning deadlines and audit-ready records, and happy building processes from a blank page as the Japan office grows. A relevant degree is welcome but not required; equivalent experience counts.
+
+Nice to have:
+
+- Advanced legal and finance knowledge.
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+871ff03a-004f-4195-8532-ef6b1ed75c61,Chip Production Operator,"Espoo, Finland",,Operations,onsite,2026-09-18,https://iqm.teamtailor.com/jobs/8399897-chip-production-operator,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As Chip Production Operator, you'll turn diced, front-end processed chips into fully assembled, test-ready QPU packages. You sit at the handoff point between wafer fabrication and final device delivery, where individual chips are singulated, cleaned, electrically verified, and integrated into their sample holders to quantum-grade accuracy. Back-end packaging steps are largely irreversible: what happens at your bench cannot be corrected downstream, so precision is the job.
+
+You'll join our Micro-Packaging team in QPU Production (Fabrication) in Espoo, reporting to the Team Leader, Micro-packaging, and working daily with production engineers, tech leads, and colleagues across the Fabrication department. The team is taking over the process from dicing onwards while production volume climbs, so we're hiring two operators. Shift work when production requires it is part of the role.
+
+Your first months are a training phase: you'll work through the SOPs station by station with the team alongside you. By six months in, you'll be running chips independently through dicing, cleaning, probing, bonding, and sample holder preparation, with defect-free output and unbroken traceability from diced chip to finished package.
+
+What you’ll actually do
+
+- Execute chip-level assembly, bonding, and packaging operations exactly to established SOPs and BKMs
+
+- Operate back-end process tools: dicing, chip cleaning, probing, flip-chip bonding, sample holder preparation, and wire bonding
+
+- Deliver defect-free output at the individual-chip and individual-wire level, where one misalignment or contamination event can compromise an entire device
+
+- Move assigned chips through each assembly station to meet daily output targets without creating bottlenecks
+
+- Monitor equipment status and bond quality in real time, then intervene or escalate before minor drift becomes yield loss
+
+- Log every station check-in, check-out, and process result in MES and Jira so traceability stays complete and real time
+
+- Hold cleanroom discipline: gowning, chemical handling, and contamination control at the standard fine-pitch bonding demands
+
+- Flag bonding defects, probe failures, alignment issues, and equipment anomalies to the Production Engineer immediately
+
+- Hand over WIP status, in-progress bonds, and tool issues clearly at shift change so chip-level work is never left half done
+
+- Keep workstations, tooling, and fixtures to 5S standards, and take part in weekly planning and reporting meetings
+
+What we’re looking for
+
+- At least 1 year of hands-on lab experience
+
+- A degree from a university of applied sciences, or an equivalent amount of relevant working history
+
+- Manual precision and fine-motor accuracy: steady hands at the single-chip, single-wire scale
+
+- The discipline to follow mature process instructions and safety protocols exactly, in a process where deviations cannot be corrected later
+
+- Precise attention to detail across complex fabrication steps, with a safety-first mindset
+
+- Habits that keep a traceable record of your own work, and respect for the work of the people around you
+
+- A team-oriented person who prioritizes teams' goals and targets
+
+- Readiness to move to shift work when production requires it
+
+- Professional level English
+
+Seen as an advantage
+
+- Cleanroom experience, or hands-on production experience from a related industry such as semiconductors, electronics, or precision assembly
+
+- Familiarity with back-end tools: dicing saws, wire bonders, flip-chip bonders, or probe stations
+
+- Technical communication skills: describing a problem and its fix to people who know the fabrication process broadly but not your step in detail
+
+- Experience with MES or Jira based production tracking
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: You won’t always be the smartest person in the room. Neither will we. Expect to learn constantly - from each other and beyond with IQM’s Learning Hub, LinkedIn Learning, and a team-based L&D budget.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Locations Globally"
+5ca48c6d-b022-4acc-b1ab-339c5d788590,"Design Engineer, Microelectronics Packaging","Tokyo, Japan",,Quantum Technologies (Technology),hybrid,2026-09-14,https://iqm.teamtailor.com/jobs/8377212-design-engineer-microelectronics-packaging,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+In this role, you will develop the 3D integrated stack that gives our QPUs clean, high-quality microwave and DC connectivity, built to survive and perform at cryogenic temperatures. You will work as part of our Emerging Technologies team, based at our Japan site. Your work sits right at the intersection of IQM's own development teams in Europe and our Japanese partners, helping define the packaging solutions that will let future generations of QPUs scale.
+
+What you’ll actually do
+
+- Develop functionalities and features of the 3D integrated stack for high-quality microwave and DC connectivity under cryogenic operation
+
+- Define stack and process requirements together with internal teams and external fabrication partners, covering PCB, ceramic, glass, or silicon-based processes
+
+- Develop, optimize, and characterize die packaging processes for chips built to operate in cryogenic environments
+
+- Plan and implement testing and validation procedures, both at IQM and together with our Japanese partners
+
+- Act as the technical link between IQM and our partners, balancing QPU package requirements with what is realistically achievable on their end
+
+- Contribute to planning test strategies, mapping out what capabilities are available at IQM and at partner sites
+
+- Get hands on with testing: electrical and thermal characterization of stack features
+
+- Document your work clearly, so findings are easy to pick up by teammates and partners across time zones
+
+- Work independently day to day, while staying closely connected to IQM's development teams in Europe
+
+What we’re looking for
+
+- Master's or PhD in experimental physics, electrical engineering, or a related technical field
+
+- Experience with heterogeneous 3D integration technologies, such as bump bonding or RDL fan-out
+
+- Working knowledge of standard CAD tools used in package design
+
+- Understanding of DC, thermal, and/or microwave characterization techniques
+
+- Familiarity with cryogenic measurement techniques
+
+- Comfortable working independently, and just as comfortable coordinating across IQM's European teams and external partners
+
+- Strong documentation skills, and fluent spoken and written English and Japanese
+
+- Willingness to travel
+
+Seen as an advantage
+
+- Experience with superconducting quantum computing hardware, chips, or system integration
+
+- Understanding of superconducting materials properties
+
+- Prior experience collaborating with external fabrication or foundry partners
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: You won’t always be the smartest person in the room. Neither will we. Expect to learn constantly - from each other and beyond with IQM’s Learning Hub, LinkedIn Learning, and a team-based L&D budget.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+3f66ac40-b7e5-49ea-9bae-aa7e86cf670f,"Fabrication Operator, Frontend Wafer module","Espoo, Finland",,Operations,onsite,2026-09-23,https://iqm.teamtailor.com/jobs/8441613-fabrication-operator-frontend-wafer-module,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As Fabrication Operator, Frontend Wafer module, you'll be hands-on in our cleanroom, fabricating the QPUs and test wafers at the heart of IQM's quantum computers. You'll run matured front-end fabrication and metrology processes with a safety-first mindset, following our Standard Operating Procedures (SOPs) and Best-Known Methods (BKMs) so every wafer comes out with consistent quality and on time.
+
+You'll join the Fabrication department in QPU Production at our Foundry Espoo F1, reporting to the Wafer Production Team Leader. Day to day you'll work closely with fellow operators, Production Engineers, the tech lead, and Team Leaders, alongside other teams across IQM.
+
+This is precision work: operating lithography, deposition, etch, and wet/thermal tools, keeping the line moving, and catching anything out of spec before it becomes a problem. The role is onsite and full-time, with readiness to work in shifts when required.
+
+What you’ll actually do
+
+- Execute front-end QPU fabrication and metrology work strictly according to SOPs, work instructions, and safety protocols
+
+- Safely operate cleanroom tools for lithography, deposition, etch, and wet/thermal processes, using the provided setups and recipes
+
+- Run assigned production lots efficiently to hit daily throughput targets and keep the line moving
+
+- Monitor equipment status and process progress in real time, making sure every run stays within specified parameters
+
+- Log all production activity in the MES, checking wafer lots in and out of stations and capturing process data as you go
+
+- Keep strict cleanroom discipline, including proper gowning and chemical handling, to prevent contamination and keep everyone safe
+
+- Spot and immediately report process drifts, equipment errors, or quality deviations to the Production Engineer
+
+- Give clear shift handovers on work-in-progress and tool issues so operation continues smoothly
+
+- Keep workstations to 5S standards and reset your workspace at every shift change
+
+- Take part in weekly planning and reporting meetings, and report any incidents or accidents to your Team Leader and the H&S responsible
+
+What we’re looking for
+
+- Hands-on production experience from a cleanroom environment (any industry, e.g. semiconductor, pharma or medical devices), with at least 1 year of lab work
+
+- A degree from a university of applied sciences, for example in engineering (or equivalent work experience)
+
+- The discipline to execute work exactly according to SOPs and deliver consistent results, batch after batch
+
+- A detail-oriented, safety-first mindset across complex fabrication processes
+
+- Good technical communication: you can explain a problem and its solution to people who know the fabrication process but not the details of the issue
+
+- A team player with strong communication skills who follows safety rules, keeps a traceable record of their work, and respects other people's work
+
+- Readiness to work in shifts when required
+
+Sees as an advantage
+
+- Cleanroom experience from semiconductor or wafer fabrication
+
+- Chemical experience
+
+- Hands-on experience with lithography, deposition, etch, or wet/thermal process tools, or with an MES
+
+- Enthusiasm for quantum technology and contributing to IQM's technology roadmap
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- Never the smartest: You won’t always be the smartest person in the room. Neither will we. Expect to learn constantly - from each other and beyond with IQM’s Learning Hub, LinkedIn Learning, and a team-based L&D budget.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Locations Globally"
+a2502e75-139b-482d-9190-9946678d0cd8,"Fabrication Operator, Logistics module","Espoo, Finland",,Operations,onsite,2026-09-18,https://iqm.teamtailor.com/jobs/8402985-fabrication-operator-logistics-module,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+We're looking for Fabrication Operator focusing on Logistics module. You'll keep the materials flowing that QPU production runs on: consumables, PPE, chemicals, equipment parts, and cleanroom supplies. Nothing gets fabricated if the right material isn't in the right place, stored the right way, at the right time, and that is your call to make. You'll also own how the working environment is organized, to 5S standard.
+
+You'll join our Production F1 team in Espoo, reporting to the Team Leader, Wafer Production, and work closely with Procurement and Warehouse to get materials in, and support the material needs of Equipment, Fabrication, Cleanroom, Facilities, and Delivery. It's a role built on trust: people rely on your inventory being accurate without checking it themselves.
+
+In your first six months, you'll run weekly inventories independently in NetSuite and MES, have alarm limits set so orders land before anything runs short, and keep every storage location in the cleanroom labeled, mapped, and matching the system.
+
+This is an onsite role in Espoo. We work flexible hours today, and some evening work is possible. As production scales, this role may move to shift work.
+
+What you’ll actually do
+
+- Run weekly material inventories for QPU production - consumables, PPE, and chemicals - in NetSuite and MES, handling product codes, order history, and stock levels
+
+- Keep inventory control of cleanroom consumables and parts, and support the material needs of Equipment, Fabrication, and Facilities
+
+- Raise material orders with Procurement based on stock levels, set the alarm limits that trigger them, and check that what was ordered is what we actually need
+
+- Receive and store incoming materials, and transport stock safely into the cleanroom environment
+
+- Define storage locations and storing conditions per material type, from ESD-sensitive components to chemicals and equipment parts
+
+- Organize cleanroom supply stock and materials across all cleanroom areas independently
+
+- Handle life-cycle management for versions and components: storing, archiving, disposal, and recycling to instruction
+
+- Keep supply stock, cleanroom cabinets, and production storage labeled and signed, with every location matching what MES says is there
+
+- Handle chemical inventory to SOPs, and hold the working environment to 5S standard
+
+- Report abnormalities, incidents, and near misses to the Team Leader and H&S, give feedback on cleanroom cleaning and laundry sub-contractors, and take part in weekly and monthly team meetings
+
+What we’re looking for
+
+- At least 1 year of experience in cleanroom or logistics operations
+
+- Minimum logistics vocational degree (or an equivalent amount of relevant working history)
+
+- The ability to handle chemical inventory according to SOPs
+
+- A working understanding of logistics systems and tools, and of 5S and Lean ways of working
+
+- Good technical communication skills: describing a problem and the fix clearly to the stakeholders who need to act on it
+
+- Precise attention to detail across complex fabrication processes, with a safety-first mindset
+
+- The habit of keeping a traceable record of your work, and of following safety rules without shortcuts
+
+- Readiness for hands-on physical work. There's daily lifting and moving of stock
+
+- A problem-solver: when stock and system don't match, you work out where it came from instead of just flagging it
+
+- Comfort with change: we're building our processes as production grows. You follow the protocol and help develop it further
+
+- Professional level English
+
+Seen as an advantage
+
+- Hands-on experience with NetSuite, MES, or another ERP or inventory system
+
+- Special material knowledge: ESD-sensitive parts, cleanroom consumables, chemical storage, equipment spares, recycling
+
+- Experience working with procurement and warehouse functions in a manufacturing or high-tech environment
+
+- Familiarity with semiconductors, cleanroom production, or other advanced hardware manufacturing
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- Never the smartest: You won’t always be the smartest person in the room. Neither will we. Expect to learn constantly - from each other and beyond with IQM’s Learning Hub, LinkedIn Learning, and a team-based L&D budget.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Locations Globally"
+1047213c-b8d8-4f1c-956a-7f3726eeecd5,FPGA Design Engineer,"Espoo, Finland",,Quantum Systems (Technology),none,2026-08-06,https://iqm.teamtailor.com/jobs/8181072-fpga-design-engineer,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As an FPGA Engineer, you will design and develop FPGA logic for high-speed data processing and communication between QCS subsystems and external interfaces, working within the tight timing constraints of quantum systems.
+
+You will join IQM’s Scalable Electronics team, collaborating with FPGA developers, hardware and software engineers, physicists, and quantum error correction experts to build the electronics that enable scalable and reliable quantum computers.
+
+What you’ll actually do
+
+- Design, implement, simulate, and benchmark FPGA IP blocks in VHDL.
+
+- Integrate FPGA IP blocks to form a complete design.
+
+- Plan and evaluate different solutions with the team.
+
+- Benchmark and optimize data throughput, latency, and FPGA resource requirements.
+
+- Align interfaces, protocols, and documentation with software, firmware, and hardware stakeholders
+
+- Do bidirectional knowledge sharing with domain experts and help keeping tooling and ways of working healthy.
+
+What we're looking for
+
+- Experience designing FPGA IP blocks in HDL and validating designs through simulation
+
+- At least 1 year of experience in a professional engineering environment
+
+- BSc/MSc in electrical engineering, computer science, computer engineering or similar, or equivalent practical experience
+
+- Comfortable working across disciplines and contributing in a collaborative, low hierarchy setup
+
+- Proficient VHDL skills and experience with high-performance FPGA families and modern toolchains
+
+- Fluent with digital logic fundamentals such as clock domain concepts and safe transfers
+
+Nice to have skills:
+
+- Experience with Intel/Altera FPGAs and Quartus software.
+
+- Verification mindset and practices where correctness matters early.
+
+- Knowledge on high-speed communication protocols and hardware to software interfaces.
+
+- Scripting skills for automating tool flows and developing continuous integration (CI) flow.
+
+- Hands-on experience of lab measurements with oscilloscope and spectrum analyzer.
+
+- Profiling, benchmarking, and optimizing real time systems for performance.
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+419bc6a5-e7ca-44c0-ae58-15125c393160,Head of Production (Quantum Processors),"Espoo, Finland",,Operations,onsite,2026-05-20,https://iqm.teamtailor.com/jobs/7762680-head-of-production-quantum-processors,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+You lead the ramp- and scale-up of IQM's quantum processor unit (QPU) production site by turning quantum processor fabrication and packaging into a repeatable, measurable production capability. You take the line from where it stands today to multiplied volumes with predictable yield and on-time delivery, driving throughput and process maturity while protecting safety and well-being in a cleanroom environment. You get to do this in close collaboration with IQM's fabrication and quantum engineering experts, building the manufacturing backbone behind every quantum computer we deliver.
+
+What you’ll actually do
+
+- Build the production ramp up plan, staffing needs, and operating cadence.
+
+- Lead the QPU Production organization, including chip fabrication, micro packaging, and materials supply.
+
+- Ensure high quality QPUs are available for quantum computer deliveries, with clear production planning and execution against demand.
+
+- Lead a team of professionals (currently 15 micro- and nanofabrication, micro packaging & material supply experts), resourcing with the right talent to increase the team size to match the business need and are responsible for team well-being and development.
+
+- Set up the production control points across the line and drive alignment on pass fail criteria with process engineering leads.
+
+- Establish yield tracking and loss breakdown across wafer and chip flow.
+
+- Put the right production metrics in place and use them to drive daily decisions, prioritization, and continuous improvement.
+
+- Develop systematically the process to reduce variation.
+
+- Collaborate with other engineering teams to enable controlled implementation of new processes and products.
+
+- Partner closely with process engineering on troubleshooting and production quality, so decisions can move into the line with the right guardrails.
+
+- Work with project managers, procurement, and delivery teams to keep schedules realistic, visible, and on track.
+
+- Maintain and enforce safety, quality standards, and strong working conditions, every day.
+
+- Coach and develop your team leads and grow a culture of clarity, accountability, and well-being.
+
+What we’re looking for
+
+- Deep understanding of production and production ramp up, ideally in a deep tech environment
+
+- Solid understanding of microfabrication and packaging processes.
+
+- Proven track record of leading a production ramp up, with clear examples and measurable impact
+
+- Ability to set up practical metrics for production output, quality, and cost and to follow through with execution with data.
+
+- Excellent leadership and performance management skills, including clear expectations and fair, direct feedback.
+
+- Strong coaching skills and a motivation to help others grow, especially team leads.
+
+- Strong interpersonal skills and the ability to drive consensus and clarity across stakeholders.
+
+- Ability to explain technical topics to both technical and non technical audiences.
+
+- Strong collaboration skills and confidence working with cross functional teams.
+
+- Experience working closely with R&D teams to industrialize new processes.
+
+- Experience with MES, production data systems.
+
+Advantageous if you have:
+
+- Background in superconducting quantum technology or high precision deep tech manufacturing
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+652b1453-1ea0-4587-9863-81185fa12f16,"Legal Counsel, Germany","München, Germany",,Enabling functions,none,2026-09-10,https://iqm.teamtailor.com/jobs/8357605-legal-counsel-germany,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As the only EU-US NASDAQ-listed quantum computing company, IQM is shaping not only the future of quantum computing, but also how a global technology company operates as a public company.
+
+As Legal Counsel, you’ll support IQM across corporate governance, capital markets, group entities and commercial matters, with a particular focus on German corporate law. Working closely with the General Counsel, senior management and teams across our global organisation, you’ll help turn complex legal requirements into clear, practical advice and processes that support the business as we scale.
+
+What you’ll actually do
+
+- Support shareholder, board and management meetings across the Group, including resolutions and corporate documentation.
+
+- Develop and maintain corporate governance policies, processes and best practices.
+
+- Advise internal stakeholders on German corporate law, capital markets compliance and corporate governance.
+
+- Support the formation, maintenance and ongoing legal requirements of IQM’s group entities and intragroup agreements.
+
+- Support corporate development initiatives, including M&A and other strategic transactions.
+
+- Maintain legal templates and help internal teams understand how to use them effectively.
+
+- Draft, review and negotiate commercial agreements with customers, partners and other ecosystem stakeholders.
+
+- Coordinate multiple workstreams across different teams, countries and stakeholders.
+
+- Work with external counsel where needed and help ensure matters are followed through to completion.
+
+- Take ownership of assigned matters and provide clear, practical legal advice that helps the business make informed decisions.
+
+What we’re looking for
+
+- 3-5 years of relevant experience in an in-house corporate advisory team or an M&A, corporate or capital markets team at a law firm.
+
+- Qualification to practice law in Germany.
+
+- Strong knowledge of German corporate law, with experience in areas such as corporate governance, M&A and/or capital markets.
+
+- Excellent German and English, with the ability to explain legal concepts clearly and simply to different audiences.
+
+- Strong drafting skills in both German and English, with excellent attention to detail.
+
+- Ability to manage multiple workstreams and stakeholders while working independently and proactively.
+
+- A structured and rational approach to complex legal and business questions.
+
+- A collaborative mindset and the confidence to work with stakeholders at different levels of the organization.
+
+- A strong sense of ownership and perseverance - you take responsibility for getting things done, even when priorities evolve.
+
+Nice to have
+
+- Experience working in-house at a publicly listed company or advising public companies on corporate and governance matters.
+
+- Practical experience with capital markets requirements, public-company governance or disclosure obligations.
+
+- Experience supporting M&A, corporate development or other strategic transactions.
+
+- Experience working in an international technology, deep-tech or fast-growing company, particularly in a role requiring coordination across multiple countries and stakeholders.
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: You won’t always be the smartest person in the room. Neither will we. Expect to learn constantly - from each other and beyond with IQM’s Learning Hub, LinkedIn Learning, and a team-based L&D budget.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+c9138d18-3527-445b-9037-8aec840f3a60,Mechanical Engineer,"Espoo, Finland",,Quantum Systems (Technology),none,2026-08-05,https://iqm.teamtailor.com/jobs/8172911-mechanical-engineer,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+Mechanical engineering is at the core of every quantum computer we build. As a Mechanical Engineer at IQM, you'll transform complex engineering concepts into robust, manufacturable hardware that powers next-generation quantum systems. From precision mechanical structures and cryogenic assemblies to production-ready designs, your work will directly shape the performance, reliability, and scalability of our technology.
+
+You'll join a multidisciplinary engineering team, collaborating daily with experts in cryogenics, microwave engineering, electronics, manufacturing, and system integration. Together, you'll solve challenging mechanical problems and turn innovative ideas into hardware that leaves our factory and reaches customers around the world.
+
+What you'll actually do
+
+- Design, develop, and document mechanical components, assemblies, and system layouts for IQM's quantum computing platforms, including framing, mounting solutions, cable routing, and cryogenic structures.
+
+- Create detailed 3D models and production-ready designs using Autodesk Inventor and Vault while integrating third-party components into larger system assemblies.
+
+- Collaborate closely with specialists in cryogenics, vacuum technology, microwave engineering, and manufacturing to develop reliable, high-performance mechanical solutions.
+
+- Participate in design reviews, evaluate engineering trade-offs, communicate technical decisions, and work directly with suppliers and manufacturing partners to bring designs into production.
+
+- Produce high-quality engineering documentation, including production drawings, assembly instructions, component specifications, and regulatory compliance documentation that supports manufacturing, logistics, and product lifecycle management.
+
+- Take ownership of your designs from concept through release, continuously improving mechanical solutions with manufacturability, quality, and long-term reliability in mind.
+
+What we're looking for
+
+- Bachelor's or Master's degree in Mechanical Engineering or a related discipline. Equivalent industry experience is also valued.
+
+- At least 2 years of experience designing and developing mechanical systems for industrial, scientific, or commercial products.
+
+- Strong experience with CAD design, preferably Autodesk Inventor and Vault, or comparable CAD and PDM platforms.
+
+- Solid understanding of mechanical design principles, technical documentation, manufacturing processes, Design for Manufacturability (DFM), and structural analysis.
+
+- A collaborative engineer who enjoys working across disciplines, takes ownership of their work, and communicates technical ideas clearly.
+
+- Strong analytical and problem-solving skills with excellent attention to detail and a continuous improvement mindset.
+
+Nice to have
+
+- Experience with cryogenic, vacuum, or microwave technologies.
+
+- Experience developing hardware for highly regulated, precision engineering, scientific instrumentation, semiconductor, medical device, or similar high-tech environments.
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+8af510ce-9e2b-49bd-89b0-06e23b1c8ae4,Open application,"Singapore, Singapore","Warsaw, Poland; Tokyo, Japan; München, Germany; Madrid, Spain; College Park, United States; Paris, France; Espoo, Finland; Taipei City, Taiwan; Oulu, Finland; Gangnam District, South Korea; Milan, Italy",,none,2021-09-16,https://iqm.teamtailor.com/jobs/1347124-open-application,"IQM is a global leader in designing, building, and selling superconducting quantum computers. IQM provides both on-premises full-stack quantum computers and a cloud platform to access its computers anywhere in the world. IQM customers include the leading high-performance computing centres, research labs, universities and enterprises which have full access to IQM's software and hardware.
+
+(www.meetiqm.com)
+
+Didn't find a job made for you? Send us an open application
+
+We are always on the lookout for top talent. If you cannot find a suitable job from the open positions, you may submit an open application by leaving us your contact details and uploading your CV and a letter of interest.
+
+Please note, we aim to proactively review applications and share profiles with multiple hiring teams and managers on a regular basis. However, this is an open application and we will only contact you if we find an interesting match at IQM.
+
+Why work at IQM?
+
+- We are the European leader with a mission to build quantum computers for the well-being of humankind.
+
+- Joining IQM's passionate and diverse team of highest professionals ensures continuous learning and growth opportunities
+
+- This is a unique opportunity to have a serious impact at a growing organization and create the future of quantum
+
+Meet IQM People and hear our stories on Youtube here >>
+
+Please note that only applications submitted through the website will be processed."
+15c11f02-ab13-4178-9f22-6298e722b56d,Project Manager,"Tokyo, Japan",,Operations,hybrid,2026-08-27,https://iqm.teamtailor.com/jobs/8277637-project-manager,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As Project Manager, you'll lead a government funded R&D program from end to end, acting as IQM's main point of contact while collaborating with technical teams, consortium partners, and internal stakeholders. As more publicly funded projects land in the region, you'll also help shape how IQM runs project management in Japan going forward.
+
+You'll work closely with the Japan Country Manager and the global Program Management team, and coordinate regularly with Commercial teams, the Technology division, Finance, Legal, IP & Compliance, and Operations & Service teams.
+
+What you’ll actually do
+
+- Own the project end to end: milestones, stage gates, budget, and contracted KPIs.
+
+- Act as the main point of contact for government Program Directors, Project Officers, and evaluators.
+
+- Build and manage the WBS, Gantt charts, and risk plans that keep the program on track.
+
+- Translate technical progress into clear reports that non-specialist evaluators and auditors can follow.
+
+- Lead scope changes, budget reallocations, and formal amendment procedures with the government.
+
+- Prepare official reports for and represent the project in interim reviews, annual evaluations, and final audits.
+
+- Manage consortium dynamics across universities, research institutes, and corporate partners.
+
+- Coordinate cross-functional project teams across different locations and time zones.
+
+- Protect IQM's IP while staying fully compliant with funder guidelines.
+
+- Set up project management practices, templates, and trackers that scale as more funded projects come in.
+
+What we’re looking for
+
+- A degree in Engineering, Computer Science, Material Science, or a related STEM field. Equivalent experience can be counted additionally.
+
+- Extensive experience in leading complex R&D or deep-tech engineering programs in Japan.
+
+- Direct experience managing NEDO, METI, JST, or similar Japanese government-subsidized programs.
+
+- Strong hands-on skills in WBS creation, Gantt chart management, and risk management frameworks.
+
+- Comfort turning complex technical concepts into clear reports for non-specialist evaluators.
+
+- Comfortable working autonomously in a small, growing office with mostly remote, global stakeholders.
+
+- Professional level written and spoken Japanese, ready for formal government documentation, reporting, and agency discussions.
+
+- Business level English.
+
+Seen as an advantage
+
+- Experience managing multi-party consortia that mixes academia and industry.
+
+- Background in IP strategy or technology licensing within a funded research setting.
+
+- Experience setting up project management practices or tools from scratch in a scaling organization.
+
+- Familiarity with quantum computing, semiconductors, or other advanced hardware R&D.
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+13a8977c-a5b9-4f07-93da-6a722c98fc49,Project Manager,"München, Germany",,Operations,hybrid,2026-09-18,https://iqm.teamtailor.com/jobs/8399629-project-manager,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As Project Manager, you'll take technical and R&D projects in quantum technology from plan to delivery. Quantum hardware projects rarely run in a straight line, so your job is to keep scope, budget, and milestones under control while the science keeps moving. You're the operational anchor: the person who sees the whole picture, spots the risk before it becomes a delay, and keeps everyone pointed at the same goal.
+
+You'll join our Program Management team and work daily with work package leads, subsystem engineers, product management, grant managers, partnership managers, and colleagues in Finance and Operations. You'll focus on our German publicly funded programmes, owning the reporting to the funding agencies and the direct contact with them.
+
+In your first six months, you'll have full ownership of your projects, a working rhythm your technical leads trust, and progress that is visible to everyone who needs it.
+
+What you’ll actually do
+
+- Plan and run projects end to end: work breakdown, schedules, dependencies, and milestones
+
+- Coordinate cross-functional teams across engineering, product, finance, and external partners
+
+- Keep the weekly rhythm going: project meetings, status reviews, and clear follow ups
+
+- Track progress, tasks, and deliverables in Jira and Confluence so everyone sees the same picture
+
+- Spot risks, delays, and resourcing gaps early, then drive the fix instead of reporting the problem
+
+- Keep budget, milestones, and reporting transparent for internal steering and leadership
+
+- Turn technical progress into clear updates that non-specialist audiences can follow
+
+- Prepare reports for public funders and keep projects aligned with contractual and funding requirements
+
+- Work with technical leads to align timelines and interdependencies across work packages
+
+- Improve how we run projects: templates, trackers, and ways of working that scale as we grow
+
+- Support the internal process for selecting, approving, and initiating new grant projects
+
+What we’re looking for
+
+- A degree in engineering, physics, project management, or a related field. Equivalent experience counts just as much
+
+- 3+ years in project management or project coordination, ideally in high-tech, deep-tech, or research driven organizations. More experience is welcome, and we scope the role to the level you bring
+
+- Experience in grant management, research administration, or collaborative R&D coordination in high-tech or scientific environments in Germany, with German funding agencies and ministries such as BMFTR (formerly BMBF) or DLR Projektträger
+
+- Hands-on skills in work breakdown, scheduling, and dependency mapping
+
+- Experience running projects in Jira and Confluence, plus solid documentation habits
+
+- Comfort with ambiguity and iterative R&D work, where plans change and answers arrive late
+
+- A clear communication style that adapts to both technical and non-technical audiences
+
+- The ability to align and motivate teams you don't line manage, and to mediate when priorities collide
+
+- Professional level English, and German at C1 level
+
+Seen as an advantage
+
+- A project management certification such as PMP, IPMA, PRINCE2, or Agile/Scrum
+
+- Experience with European programmes such as Horizon Europe
+
+- Familiarity with quantum computing, semiconductors, cryogenics, other advanced quantum hardware R&D or quantum software and algorithm development
+
+- Experience setting up project management practices or tools in a scaling organization
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: You won’t always be the smartest person in the room. Neither will we. Expect to learn constantly - from each other and beyond with IQM’s Learning Hub, LinkedIn Learning, and a team-based L&D budget.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Locations Globally"
+a2caf8ce-4269-4395-bc54-991daf447ab7,"Quantum Engineer, Calibration & Benchmarking","Espoo, Finland","München, Germany",Quantum Technologies (Technology),none,2026-04-10,https://iqm.teamtailor.com/jobs/7549223-quantum-engineer-calibration-benchmarking,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+We are looking for a Quantum Engineer (Junior to Senior level) with an experimental background to join our Calibration and Benchmarking team, focusing on improving the performance of superconducting Quantum Processing Units (QPUs).
+
+In this role, you will work hands-on with quantum hardware to develop, optimize, and execute calibration and benchmarking protocols. Your work will directly influence QPU performance by identifying bottlenecks, improving calibration strategies, and providing critical feedback to design, simulation, and fabrication teams.
+
+You will play a key role in validating new QPU architectures and supporting IQM's roadmap toward high-performance and scalable quantum computing systems.
+
+What you’ll actually do
+
+- Perform calibration and benchmarking on latest-generation QPUs.
+
+- Develop and improve calibration protocols and optimization strategies for large-scale processors.
+
+- Analyze experimental data to identify performance bottlenecks and improvement opportunities.
+
+- Perform measurements across multiple iterations of superconducting qubit devices and provide feedback to design, simulation, and fabrication teams.
+
+- Contribute to system-level optimization, balancing performance and efficiency.
+
+- Provide input to the development of calibration software and automated QPU tune-up frameworks.
+
+- Support QPU calibration, validation, and preparation for deployment.
+
+- Collaborate with cross-functional teams across hardware, software, and system engineering.
+
+- (Senior level) Mentor junior team members and contribute to cross-team technical development initiatives.
+
+What we're looking for
+
+Junior Quantum Engineer
+
+- M.Sc. degree in Physics, Quantum Engineering, or a related field.
+
+Quantum Engineer
+
+- Ph.D. degree in Physics or a related discipline, or equivalent experience in quantum technologies.
+
+Senior Quantum Engineer
+
+- Postdoctoral research experience or equivalent industrial experience in quantum technologies.
+
+In addition, we're looking for candidates with:
+
+- Strong understanding of quantum mechanics and quantum computing principles.
+
+- Experience with Python programming and scientific data analysis.
+
+- Strong analytical and problem-solving skills.
+
+- Attention to detail and the ability to work with complex experimental data.
+
+- Ability to collaborate effectively across multidisciplinary teams.
+
+Nice to have
+
+- Experimental experience with superconducting qubits and calibration techniques.
+
+- Familiarity with optimization algorithms and techniques.
+
+- Experience working with experimental quantum hardware or calibration workflows.
+
+What kind of person will thrive in this role?
+
+- Curious and motivated to improve quantum hardware performance
+
+- Hands-on and comfortable working with experimental systems
+
+- Collaborative and able to communicate across teams
+
+- Detail-oriented with strong analytical thinking
+
+- Ambitious about contributing to large-scale quantum computing systems
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 300+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+c1642f93-1daf-42f4-8416-04147794dc4b,"Quantum Engineer, Fabrication","Espoo, Finland",,Operations,none,2026-06-29,https://iqm.teamtailor.com/jobs/7986220-quantum-engineer-fabrication,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+The performance of a quantum computer starts in the cleanroom. As a Quantum Engineer, you'll lead the development of fabrication processes for IQM's next generation of quantum chips. Working across R&D, design, and production teams, you'll solve complex engineering challenges and transform experimental breakthroughs into scalable manufacturing technologies.
+
+What you’ll actually do
+
+- Lead the development and optimization of quantum chip fabrication processes through structured experimentation and data-driven iteration.
+
+- Design, execute, and analyze hypothesis-driven experiments to evaluate new materials, fabrication methods, and process flows.
+
+- Assess technical feasibility, risks, and integration strategies for future QPU architectures.
+
+- Work closely with Design, Calibration, Equipment Engineering, Process Integration, Chip Production, and Cleanroom teams to bring new fabrication technologies into production.
+
+- Mentor Process Engineers and Technicians by supporting experimental design, troubleshooting, and technical growth while promoting a safe and transparent engineering culture.
+
+- Build lasting technical knowledge through thorough documentation, patent contributions, technical reports, and publications, while helping transition successful R&D developments into scalable manufacturing.
+
+What we’re looking for
+
+- At least 5 years of experience in micro- or nanofabrication, including a minimum of 2 years focused on R&D or technology development within quantum or semiconductor technologies.
+
+- Deep expertise across quantum chip or advanced semiconductor fabrication processes, with experience developing and validating new manufacturing techniques.
+
+- Master's degree in Physics, Electrical Engineering, Nanotechnology, Materials Science, or a related field. A PhD is a strong advantage, but equivalent industry experience is equally valued.
+
+- Strong experimental mindset with experience designing structured investigations, interpreting complex data, and making evidence-based technical decisions.
+
+- Comfortable working across multidisciplinary teams while independently driving long-term technical initiatives and navigating uncertainty.
+
+- Excellent technical communication skills and the ability to mentor colleagues and share knowledge across engineering teams.
+
+- We encourage applications from candidates of all experience levels. (Advanced / Senior / Staff level)
+
+Nice to have
+
+- Experience contributing to patents, scientific publications, or technology roadmaps.
+
+- Familiarity with scaling research processes into robust, manufacturable production technologies.
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+aa136e13-71eb-4f5c-9a2f-63b27d9fc8f2,"Quantum Engineer, Gates","Espoo, Finland","München, Germany",Quantum Technologies (Technology),hybrid,2026-07-22,https://iqm.teamtailor.com/jobs/8109358-quantum-engineer-gates,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+We are seeking a passionate Quantum Engineer, (Junior to Senior level) to join our Gates team in Espoo, Finland, or Munich, Germany. We are looking for candidates with a strong understanding of quantum gate control, a hands-on approach to problem-solving, and a proactive mindset. You’ll be at the forefront of research and development on quantum gate implementations for our superconducting quantum processors.
+
+What you’ll actually do
+
+- Developing and refining single- and two-qubit gates.
+
+- Creating calibration and characterization routines.
+
+- Analyzing gate fidelities and addressing their physical limitations.
+
+- Collaborating across design, fabrication, software, theory, and other experimental teams to boost QPU performance.
+
+- Contributing to efforts toward full quantum error correction.
+
+- (Senior level) Mentoring junior team members and leading initiatives in technical focus areas.
+
+What we’re looking for
+
+- Junior Quantum Engineer — M.Sc. degree in Physics, Quantum Engineering, or a related field.
+
+- Quantum Engineer—Ph.D. degree in physics or a related discipline, or alternatively equivalent experience in quantum technologies.
+
+- Senior Quantum Engineer — Postdoctoral or equivalent industrial experience in quantum technologies.
+
+- Proven knowledge of gate-based quantum computation.
+
+- Experimental experience with superconducting quantum bits or similar modalities.
+
+- Python development experience (ideally in a quantum control framework).
+
+- Strong analytical, documentation, and communication skills.
+
+- Independent problem-solving abilities and drive to contribute to large-scale R&D.
+
+Nice-to-Have:
+
+- Prior work on randomized benchmarking or other gate fidelity characterization methods.
+
+- Experience with version control and collaborative software development.
+
+- Background in calibration automation or quantum processor benchmarking.
+
+- Experience with cryogenic hardware and technologies.
+
+- For experienced engineers—Strong publication record in superconducting quantum computing, quantum gate control and characterization, or a related field.
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 300+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+a535bf07-d440-4d36-af11-4830354c9e90,Quantum Error Correction Engineer,"München, Germany",,Quantum Solutions (Technology),none,2026-02-20,https://iqm.teamtailor.com/jobs/7267642-quantum-error-correction-engineer,"IQM is a global leader in designing, building, and selling superconducting quantum computers. IQM provides both on-premises full-stack quantum computers and a cloud platform to access its computers anywhere in the world. IQM customers include the leading high-performance computing centres, research labs, universities and enterprises which have full access to IQM's software and hardware.  IQM has over 300 employees with offices in Finland, Germany, France, Spain, Poland, South Korea Japan, Singapore, Taiwan and the US.
+
+(www.meetiqm.com)
+
+We are looking for a Quantum Error Correction Engineer. In this role, you turn quantum error correction theory into practical building blocks for fault-tolerant quantum computing. You will help design, analyze, and implement error-correcting codes and decoding algorithms that pave the way for scalable fault-tolerant quantum computing architectures. Your work connects theory with hardware reality and plays a central role in shaping how our quantum processors scale reliably. The position is based in Munich, Germany.
+
+What will I be doing?
+
+- Develop and analyze quantum error-correcting codes with realistic connectivity and hardware constraints
+
+- Design and evaluate fault-tolerant operations, including multi-qubit logical gate strategies such as lattice surgery
+
+- Contribute to fault-tolerant quantum algorithms and algorithm-specific error correction approaches
+
+- Design, benchmark, and improve decoding algorithms, including: graph-based decoders (belief propagation, union-find, minimum-weight perfect matching) and machine-learning-based decoding approaches
+
+- Implement and optimize decoding algorithms in Python, C/C++, or Rust, with potential deployment on FPGA platforms
+
+- Perform resource estimation and scalability analysis for error-corrected architectures
+
+- Collaborate closely with hardware, control, and software teams to ensure alignment between error correction strategies and real QPU capabilities
+
+- Publish and present high-impact research results in leading scientific journals and conferences
+
+- Maintain high internal and external code quality standards, ensuring scalability and long-term maintainability
+
+Please find examples of our research via the following links:
+
+- Logical Operators and Derived Automorphisms of Tile Codes
+
+- Tile Codes: High-Efficiency Quantum Codes on a Lattice with Boundary
+
+- Logical Operators and Fold-Transversal Gates of Bivariate Bicycle Codes
+
+- Quantum error detection in qubit-resonator star architecture
+
+- Near-optimal decoding algorithm for color codes using Population Annealing
+
+- Small Quantum Codes from Algebraic Extensions of Generalized Bicycle Codes
+
+What skills do I need?
+
+- Ph.D. in theoretical physics, computer science, applied mathematics, or a similar field
+
+- Deep knowledge of quantum error-correcting codes, fault-tolerant quantum algorithms, or decoding algorithms
+
+- At least 2 years of professional experience developing scientific software in Python, C/C++, or Rust
+
+- A strong publication record, including at least two scientific papers in high-impact journals
+
+- Ability to clearly communicate complex technical concepts across interdisciplinary teams
+
+- A collaborative mindset and comfort working in a team-oriented research and engineering environment
+
+- At least 3 years of experience in one or more of the following:
+- Designing quantum error-correcting codes under connectivity constraints
+- Multi-qubit logical gate implementations (e.g., lattice surgery)
+- Fault-tolerant quantum algorithms
+- Algorithm-specific error correction (e.g., fermionic simulations)
+- Decoding algorithms (belief propagation, union-find, MWPM)
+- Machine-learning-based decoding methods
+- FPGA-based implementation of decoding algorithms
+
+What skills are nice to have?
+
+- Knowledge of the theory of superconducting qubits
+
+- Experience working closely with hardware or experimental quantum teams
+
+- A drive to keep your expertise current and continuously expand your knowledge
+
+- The ability to create elegant, structured solutions in complex theoretical and technical landscapes
+
+- Strong ownership of code quality, testing, and documentation
+
+- An understanding of how to balance immediate project goals with long-term scalability and extensibility
+
+What can I expect from IQM?
+
+- An opportunity to work with a passionate and diverse team on an important mission
+
+- A unique opportunity to make a real impact on the future of quantum
+
+- A competitive salary, complementary health insurance, local transportation, lunch benefit, sports benefit, corporate benefit, and more
+
+- Growth and progress in a creative and open start-up environment
+
+Meet our people and hear more about IQM by visiting our Youtube channel here >>
+
+We'll proceed with the interviews immediately, so please submit your application soon.
+
+Please note that only applications submitted through the website will be processed."
+7b48aeda-4913-48eb-9beb-434eef0b294a,Quantum Error Correction Experiment Engineer,"Espoo, Finland","München, Germany",Quantum Systems (Technology),none,2026-03-13,https://iqm.teamtailor.com/jobs/7384822-quantum-error-correction-experiment-engineer,"IQM is a global leader in superconducting quantum computing. We design and build full-stack quantum computers and provide both on-premises systems and cloud access to our technology worldwide. Our customers include leading high-performance computing centers, research institutions, universities, and enterprises who rely on IQM’s integrated hardware and software solutions. Today, IQM has over 300 employees across offices in Finland, Germany, France, Spain, Poland, South Korea, Japan, Singapore, Taiwan, and the US.
+
+(www.meetiqm.com).
+
+At IQM, we are pioneering the next generation of quantum computers. Our experimental and theoretical teams work hand-in-hand, allowing us to extract maximum value from our unique, large-scale quantum hardware.
+
+As we continue to grow, we are looking for a Quantum Error Correction Experimentation Engineer to join our QEC team. In this role, you will contribute to the implementation, execution, and analysis of quantum error correction (QEC) experiments on superconducting quantum processors.
+
+Your work will help demonstrate and improve QEC capabilities on real hardware and directly support IQM’s roadmap toward scalable, fault-tolerant quantum computing.
+
+This role combines experimental quantum computing, error modelling, and software development, offering the opportunity to work at the intersection of quantum hardware and software while contributing to key technical decisions that shape the future of our quantum computers.
+
+What will you be doing?
+
+- Implement, execute, analyse, and report results of quantum error correction benchmark and demonstration experiments on superconducting quantum processors
+
+- Develop features for the Quantum Computer Control Software stack in collaboration with quantum physicists and software engineers
+
+- Contribute to the development and evaluation of QEC protocols and decoding approaches for near-term quantum processors
+
+- Model and analyse error processes in quantum circuits and hardware experiments
+
+- Identify technology stack requirements for QEC experimentation and propose improvements to tools and workflows
+
+- Collaborate closely with experimental, theoretical, and software teams to support IQM’s fault-tolerant quantum computing roadmap
+
+- Participate in regular team discussions to coordinate experiments, analyse results, and drive progress in QEC development
+
+What skills do you need?
+
+- Experience calibrating qubits and QPUs (superconducting preferred), beyond running gate-level workloads on cloud quantum computers
+
+- Experience with quantum error correction experiments and data analysis, with familiarity with QEC literature
+
+- Software engineering experience in Python, including environment management, testing, documentation, and version control
+
+- Understanding of quantum information and QEC theory, including decoding algorithms and lattice-surgery-based approaches
+
+- Experience with tools for modelling errors in quantum circuits or physical quantum hardware
+
+- Familiarity with digital and analog features of quantum computer control hardware
+
+- Experience working with large-scale quantum processor experiments or similarly complex experimental systems
+
+Required skills
+
+- Strong verbal and written communication skills in English
+
+- Ability to make work reproducible and usable for others through well-structured code and documentation
+
+- Ability and willingness to collaborate in a diverse, multidisciplinary team of physicists, engineers, and software developers
+
+Education / Experience
+
+- PhD in a relevant discipline is considered a strong plus
+
+- Experience in experimental quantum computing research or development is highly beneficial
+
+What can I expect from IQM?
+
+- An opportunity to work with a passionate and diverse team on an important mission
+
+- A unique opportunity to make a real impact on the future of quantum
+
+- Growth and progress in a creative and open start-up environment
+
+Meet our people and hear more about IQM by visiting our Youtube channel here >>
+
+We'll proceed with the interviews immediately, so please submit your application soon.
+
+Please note that only applications submitted through the website will be processed."
+291e421e-6f64-401c-abbe-8333d59ce44b,Quantum Integration Engineer,"Tokyo, Japan",,Operations,fully,2026-06-09,https://iqm.teamtailor.com/jobs/7876442-quantum-integration-engineer,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As a Quantum Integration Engineer, you ensure IQM quantum computers operate reliably across cloud, customer, and internal R&D environments. You work hands on with calibration, system stability, software updates, and incident resolution.
+
+You collaborate closely with R&D teams, acting as an expert for our systems. You identify performance deviations, debug complex issues, and translate real system behavior into structured feedback that improves the next generation of our technology used for research worldwide.
+
+Your work ensures that our quantum computers are not just built, but operational, stable, and scientifically usable.
+
+What you’ll actually do
+
+- Operate and maintain IQM quantum computers across cloud and customer environments, ensuring high availability and stable performance
+
+- Plan and execute calibration and service activities aligned with customer and user needs
+
+- Perform on-site debugging and testing
+
+- Analyze system performance, identify deviations, and troubleshoot hardware and software issues affecting system behavior and stability
+
+- Contribute to L2 incident resolution and technical support for customer systems
+
+- Perform testing, debugging and calibration during customer system deliveries and commissioning
+
+- Act as a key interface between production systems and R&D, providing structured technical feedback to improve performance, usability, and reliability
+
+- Develop and refine service documentation, procedures, and laboratory best practices
+
+What we’re looking for
+
+- Master's degree in quantum physics, experimental physics, engineering, or a closely related field. A PhD is considered an advantage
+
+- Experience working with complex experimental or high-tech systems such as superconducting circuits, cryogenic setups, RF systems, or similar advanced hardware environments
+
+- Strong understanding of quantum computer architecture and calibration, as well as system level performance dependencies
+
+- Experience in troubleshooting hardware and software integration issues in research or production environments
+
+- Ability to analyze experimental data and identify root causes of performance deviations
+
+- Proficiency in Python or a similar programming language
+
+- Experience documenting procedures, experiments, and technical findings in a structured way
+
+- Ability to take ownership of tasks, manage multiple priorities, and collaborate effectively across R&D, engineering, and customer facing teams in various time zones
+
+- Commitment to reliability, safety, and continuous improvement
+
+- Excellent communication skills in English and Japanese, with the ability to explain complex technical topics to both technical and non-technical audiences
+
+- Willingness and ability to travel to customer premises as needed
+
+Seen as beneficial
+
+- Experience with superconducting quantum computing systems and cryogenic measurement setups
+
+- Experience operating quantum computers in cloud or production environments
+
+- Familiarity with incident management processes in online or high availability systems
+
+- Experience supporting external research users or industrial customers
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+97bebaac-ac91-4347-9b00-e07d2cf5dd78,Senior FPGA Design Engineer,"Espoo, Finland",,Quantum Systems (Technology),none,2026-08-06,https://iqm.teamtailor.com/jobs/8181075-senior-fpga-design-engineer,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As a Senior FPGA Engineer, you will design and develop FPGA logic for high-speed processing and data exchange within QCS, working with the tight timing and performance requirements of quantum systems. You will take ownership of technical solutions and contribute to design decisions, while supporting the team with your expertise when needed.
+
+You will join IQM’s Scalable Electronics team, collaborating with FPGA designers, hardware, software, quantum error correction, and physics experts to build scalable, high-performance quantum computers.
+
+What you’ll actually do
+
+- Design, implement, simulate, and benchmark FPGA IP blocks in VHDL.
+
+- Integrate FPGA IP blocks to form a complete design.
+
+- Plan and evaluate different solutions with the team.
+
+- Benchmark and optimize data throughput, latency, and FPGA resource requirements.
+
+- Align interfaces, protocols, and documentation with software, firmware, and hardware stakeholders.
+
+- Do bidirectional knowledge sharing with domain experts and help keeping tooling and ways of working healthy.
+
+- Take ownership of a part of the design or IP block.
+
+- Strive and initiate improvement and continuous improvement.
+
+- Help mentor junior FPGA engineers.
+
+What we're looking for
+
+- Experience designing FPGA IP blocks in HDL and validating designs through simulation.
+
+- At least 3 years of experience in a professional engineering environment.
+
+- BSc/MSc in electrical engineering, computer science, computer engineering or similar, or equivalent practical experience.
+
+- Comfortable working across disciplines and contributing in a collaborative, low hierarchy setup.
+
+- Proficient VHDL skills and experience with high-performance FPGA families and modern toolchains.
+
+- Fluent with digital logic fundamentals such as clock domain concepts and safe transfers.
+
+Nice to have:
+
+- Experience with Intel/Altera FPGAs and Quartus software.
+
+- Verification mindset and practices where correctness matters early.
+
+- Knowledge on high-speed communication protocols and hardware to software interfaces.
+
+- Scripting skills for automating tool flows and developing continuous integration (CI) flow.
+
+- Hands-on experience of lab measurements with oscilloscope and spectrum analyzer.
+
+- Profiling, benchmarking, and optimizing real time systems for performance.
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+3b9d9c8d-d049-4c48-b039-f0fb087e87bf,"Team Leader, Advanced Packaging","Espoo, Finland",,Operations,onsite,2026-09-18,https://iqm.teamtailor.com/jobs/8403684-team-leader-advanced-packaging,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As Team Leader, Advanced Packaging, you'll lead the team developing backend fabrication processes and advanced packaging technologies for next-generation QPUs. You own the interface between early-stage research, proof of concept, process engineering, and production: your job is to turn promising concepts into well-understood, reproducible, manufacturable processes that transfer cleanly into production.
+
+You'll join QPU Development Engineering in Espoo, reporting to the Team Leader, QPU Development Engineering, and build up a new, dedicated backend and advanced packaging team. Day to day you'll work with Process Engineering, Equipment, Micro-packaging, Design, System Engineering, Measurement, Reliability, and Quality, alongside our research groups and the cleanroom and facilities teams.
+
+This is leadership on two fronts at once: coaching experienced engineers, and setting technical direction, priorities, and cleanroom capacity calls. In your first six months, you'll have the team's development plan, milestones, and process-readiness criteria in place, and visible progress on the backend roadmap for the next generation's QPU packaging.
+
+What you’ll actually do
+
+- Lead, coach, and develop the engineers working on backend fabrication, advanced packaging, and process integration
+
+- Set development priorities and allocate resources against QPU roadmaps, project needs, technical risk, and available cleanroom capacity
+
+- Drive technology maturation from research and proof of concept into robust, transferable fabrication processes
+
+- Define development plans, technical milestones, success criteria, and process-readiness expectations
+
+- Guide hypothesis-driven experiments, review results and technical conclusions with the team, and decide the next iteration
+
+- Keep development work data-based, traceable, and tied to QPU and product requirements: device performance, yield, reliability, scalability
+
+- Judge when a process is mature enough to hand to Process Engineering or Production, and make sure the transfer carries specifications, control plans, metrology methods, known limitations, and training
+
+- Identify and manage technical risks, process dependencies, blockers, and capability gaps before they stall the roadmap
+
+- Work across Research, QPU Development, Process Engineering, Equipment, Measurement, System Engineering, Reliability, Quality, and Production to keep backend development aligned
+
+- Keep progress, priorities, risks, resource needs, and key decisions visible to your manager and stakeholders
+
+What we’re looking for
+
+- A Master's degree in materials science, physics, electrical or chemical engineering, nanotechnology, microelectronics, or a related discipline
+
+- 5+ years in semiconductor manufacturing, microelectronics, advanced packaging, quantum technologies, or comparable high-tech industry
+
+- 2-3+ years leading technical teams, projects, or multidisciplinary engineering activities, with genuine coaching experience behind you
+
+- Hands-on backend process development and process integration experience, not oversight from a distance
+
+- A track record of taking technology from early phase to engineering or production readiness
+
+- Strong data-driven decision making and structured problem solving: experimental methods, process capability, root cause analysis
+
+- Stakeholder management and cross-functional collaboration, plus the ability to simplify complex technical topics for engineers, production, and senior management alike
+
+- Comfort deciding under uncertainty in a fast-moving R&D environment, and professional level English
+
+Seen as an advantage
+
+- Cleanroom operations and safety leadership experience
+
+- Depth in specific advanced packaging technologies: flip-chip bonding, wafer-level packaging, through-silicon vias, or other fine-pitch integration
+
+- Experience building up a new team or function in a scaling organization
+
+- Familiarity with quantum computing, cryogenics, or other advanced hardware R&D
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: You won’t always be the smartest person in the room. Neither will we. Expect to learn constantly - from each other and beyond with IQM’s Learning Hub, LinkedIn Learning, and a team-based L&D budget.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+8fb4cd40-0350-487b-ad33-7d645ce95b78,Technical Sales Engineer / Solutions Consultant - South-Korea,"Gangnam District, South Korea",,Business,fully,2026-06-04,https://iqm.teamtailor.com/jobs/7850776-technical-sales-engineer-solutions-consultant-south-korea,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+As a Technical Sales Engineer / Solutions Consultant in South-Korea, you are the bridge between breakthrough science and real-world impact. You help enterprises and research institutions understand not just what quantum computing is, but what it can do for them.
+
+This role exists to accelerate customer adoption of quantum technology. To translate complex science into clear value. To support our commercial growth in your market while staying close to the people and breakthroughs behind our systems. You work at the intersection of Sales, Business Development, Product and R&D, shaping solutions, guiding customers through their journey, and helping IQM grow in a fast-evolving market.
+
+What you’ll actually do
+
+- Partner with Sales and Business Development teams to design and present technical solutions tailored to customer needs
+
+- Lead technical workshops, proof of concepts, pilots and live demonstrations to showcase the value of IQM quantum computers
+
+- Act as Technical Bid Manager in tendering processes, preparing strong technical proposals and responding to RFIs, RFPs and RFQs
+
+- Engage with enterprises, public sector organizations and academic institutions to identify use cases and recommend deployment strategies
+
+- Translate customer requirements into clear feedback for Product and R&D teams to shape future development
+
+- Represent IQM at conferences, trade shows and industry events across APAC
+
+- Support customers throughout the full sales cycle from first technical discussion to successful deployment
+
+- Travel across the APAC region up to 35 percent to meet customers and partners
+
+What we’re looking for
+
+- A PhD in physics, engineering, computer science, or a related field, or around six years of technical experience in the quantum industry
+
+- Strong technical background in quantum science
+
+- Experience designing and delivering proof of concepts (PoC) or pilot projects in a customer facing environment
+
+- Ability to explain complex technical topics clearly to both technical experts and senior decision makers
+
+- Strong problem-solving skills and a structured way of working
+
+- Confidence in working with multiple stakeholders across functions and cultures
+
+- Fluent English and professional proficiency in Korean
+
+- Willingness to travel within the region
+
+- Experience with high performance computing, AI or cloud technologies is considered a plus
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: Expect to learn constantly. You won't always be the smartest person in the room, and that's the point.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"
+bdabd2d5-56bc-40b6-8f6b-2927b31b1c1b,"VP, Product","Espoo, Finland","München, Germany",Operations,hybrid,2026-09-25,https://iqm.teamtailor.com/jobs/8452441-vp-product,"At IQM, we build world-leading quantum computers for the well-being of humankind. We design systems to tackle computational challenges beyond the practical limits of classical machines. Our work sits at the edge of science and engineering. It's complex, demanding, and deeply collaborative. We turn deep research into reliable, full-stack systems that drive discoveries in fields like medicine, energy, and technology, reshaping how the world computes.
+
+Join the team that gives quantum a heartbeat.
+
+The work
+
+Quantum computers are moving out of the lab and into real industrial use, and someone has to decide what we will build next. As VP of Product, that someone is you. You will turn IQM's technical milestones and R&D breakthroughs into a product roadmap that makes sense for cloud providers, HPC centers, system integrators, and sovereign cloud initiatives around the world. You will lead our product team and work closely with Technology and Commercial leadership. This is a role for someone who wants to shape how quantum computing becomes a practical, scalable industry, while it's still being defined.
+
+We are looking for someone action oriented and hands-on where it counts, who puts IQM's success as the north start while still investing in the team around them.
+
+What you’ll actually do
+
+- Translate IQM's technical and R&D milestones into a clear, scalable product roadmap which is built together with internal stakeholders, including Technology teams
+
+- Own product governance across our on-premises hardware, software, integration, and cloud offerings
+
+- Lead and build high performing Product team, by developing individual growth
+
+- Guide the shift from NISQ era research systems toward industrial QEC and FTQC systems
+
+- Identify new market opportunities, industries and customer segments for our products in close partnership with Sales and Commercial teams, as the roadmap needs to be grounded in real customer demand
+
+- Partner with executive leadership on strategic prioritization and budget planning
+
+- Balance customer requirements, technical feasibility, and long-term strategy in every product decision
+
+- Represent IQM at global summits, industry events, and executive level forums
+
+What we’re looking for
+
+- A Master's or PhD in engineering, physics, computer science, business, or a related field
+
+- Significant senior leadership experience (10+ years) in product management, including running manager of managers structures
+
+- Experience in deep tech, R&D intensive, or scientific product environments, bringing complex, research driven technology to market
+
+- A track record of translating company strategy and customer insights into successful product strategy
+
+- Experience translating technical innovation into scalable, commercially viable products
+
+- Experience configuring a product portfolio for maximum customer value while optimizing commercial results
+
+- Strong executive level communication skills, with the ability to align diverse stakeholders across functions and geographies
+
+- Comfort working with ambiguity and evolving priorities in a fast-moving deep tech environment
+
+Seen as an advantage
+
+- Prior experience in quantum computing or an adjacent deep tech field
+
+- Experience working with HPC centers, cloud providers, or sovereign cloud initiatives
+
+- Prior experience with the important business models and their evolution over time in a computing industry
+
+Why IQM?
+
+- Full-stack quantum computing: From quantum hardware to software layers and beyond, we build across the full-stack.
+
+- High-performance playground: We aim high, and we know sustainable performance only works when life outside work does too—hybrid setups, flexible hours.
+
+- Never the smartest: You won’t always be the smartest person in the room. Neither will we. Expect to learn constantly - from each other and beyond with IQM’s Learning Hub, LinkedIn Learning, and a team-based L&D budget.
+
+- Approachable leadership: Flat hierarchy, direct access. Feel free to approach any leaders. They're friendlier than they look!
+
+- The sweet spot: Big enough to matter. Small enough to move fast. Growing between a startup and a corporation. We’re in the phase where top performers get noticed.
+
+- Bigger than IQM: Our people build know-how for the entire quantum ecosystem. We publish papers, run hackathons, and help shape a market that's still being defined.
+
+The future of computing won’t build itself. You might be one of the few who do.
+
+- Meet our people and learn more about IQM on our stories page.
+
+- Explore our scientific publications.
+
+We'll start interviews and move forward with hiring as soon as we meet strong candidates. Please submit your application soon.
+
+600M€+ Total Funding | 400+ Team Members | 30+ Quantum Computers Built | 300+ Patents Filed | 10 Location Globally"

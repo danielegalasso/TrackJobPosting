@@ -5,7 +5,7 @@ import userEvent from '@testing-library/user-event';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import App from './App';
 import { api } from './lib/api';
-import { makeJob, makePage, renderWithQuery } from './test/harness';
+import { makeJob, makePage, makeSearchStatus, renderWithQuery } from './test/harness';
 import type { Filters } from './types';
 
 const WATCH = makeJob({ id: 'g:1', title: 'Watch Software Engineer', company: 'Apple' });
@@ -28,14 +28,14 @@ function stubBackend(initial = [WATCH, CLOUD]) {
   let store = initial.map((job) => ({ ...job }));
 
   const jobsSpy = vi.spyOn(api, 'jobs').mockImplementation(async (filters: Filters) => {
-    let matching = store.filter((job) => !job.dismissed);
+    let matching = store.filter((job) => job.dismissed === Boolean(filters.dismissed_only));
     if (filters.saved_only) matching = matching.filter((job) => job.saved);
     if (filters.search) {
       matching = matching.filter((job) =>
         job.title.toLowerCase().includes(filters.search.toLowerCase()),
       );
     }
-    if (filters.category) matching = matching.filter((job) => job.category === filters.category);
+    if (filters.company) matching = matching.filter((job) => job.company === filters.company);
     return makePage(matching);
   });
 
@@ -44,7 +44,8 @@ function stubBackend(initial = [WATCH, CLOUD]) {
     return store.find((job) => job.id === id)!;
   });
   vi.spyOn(api, 'dismiss').mockImplementation(async (id: string) => {
-    store = store.map((job) => (job.id === id ? { ...job, dismissed: true } : job));
+    // A toggle, as on the server: the same call restores a removed posting.
+    store = store.map((job) => (job.id === id ? { ...job, dismissed: !job.dismissed } : job));
     return store.find((job) => job.id === id)!;
   });
   vi.spyOn(api, 'facets').mockResolvedValue({
@@ -52,20 +53,9 @@ function stubBackend(initial = [WATCH, CLOUD]) {
     companies: ['Apple', 'Globex'],
     seniorities: ['Mid-Level', 'Senior'],
     currencies: ['USD'],
+    countries: [{ code: 'EUROPE', name: 'Europe (all countries)', count: 2 }],
   });
-  vi.spyOn(api, 'spiderStatus').mockResolvedValue({
-    running: false,
-    scheduler_active: true,
-    spider_enabled: false,
-    interval_minutes: 360,
-    next_run_at: null,
-    last_run: {
-      started_at: '2026-09-10T00:00:00Z', finished_at: null, sources_polled: 1,
-      postings_seen: 2, postings_new: 2, postings_scored: 2, alerts_sent: 0,
-      errors: [], running: false,
-    },
-    targets: [{ company: 'Apple', source_type: 'greenhouse', board_token: 'apple', enabled: true }],
-  });
+  vi.spyOn(api, 'searchStatus').mockResolvedValue(makeSearchStatus());
   return jobsSpy;
 }
 
@@ -127,10 +117,10 @@ describe('App', () => {
     await waitFor(() => expect(cards()).toHaveLength(2));
 
     const card = screen.getByText('Watch Software Engineer').closest('article')!;
-    await userEvent.click(within(card).getByRole('button', { name: /^Save / }));
+    await userEvent.click(within(card).getByRole('button', { name: /^Star / }));
 
     await waitFor(() =>
-      expect(within(card).getByRole('button', { name: /^Remove / })).toBeInTheDocument(),
+      expect(within(card).getByRole('button', { name: /^Unstar / })).toBeInTheDocument(),
     );
     expect(api.bookmark).toHaveBeenCalledWith('g:1');
   });
@@ -142,10 +132,10 @@ describe('App', () => {
     await waitFor(() => expect(cards()).toHaveLength(2));
 
     const card = screen.getByText('Watch Software Engineer').closest('article')!;
-    await userEvent.click(within(card).getByRole('button', { name: /^Save / }));
+    await userEvent.click(within(card).getByRole('button', { name: /^Star / }));
 
     await waitFor(() =>
-      expect(within(card).getByRole('button', { name: /^Save / })).toBeInTheDocument(),
+      expect(within(card).getByRole('button', { name: /^Star / })).toBeInTheDocument(),
     );
   });
 
@@ -159,31 +149,84 @@ describe('App', () => {
     await waitFor(() => expect(screen.queryByText('Cloud Security Engineer')).not.toBeInTheDocument());
   });
 
-  it('shows only bookmarks under My Jobs', async () => {
+  it('shows only starred postings under Starred', async () => {
     stubBackend([{ ...WATCH, saved: true }, CLOUD]);
     renderWithQuery(<App />);
     await waitFor(() => expect(cards()).toHaveLength(2));
 
-    await userEvent.click(within(screen.getByRole('banner')).getByRole('button', { name: /My Jobs/ }));
+    await userEvent.click(within(screen.getByRole('banner')).getByRole('button', { name: /Starred/ }));
     await waitFor(() => expect(cards()).toHaveLength(1));
     expect(screen.getByText('Watch Software Engineer')).toBeInTheDocument();
   });
 
-  it('tells the user to configure a feed when nothing is indexed', async () => {
+  it('points at Run the Search when nothing matches', async () => {
     stubBackend([]);
     renderWithQuery(<App />);
     await waitFor(() =>
       expect(screen.getByText(/No positions match these filters/)).toBeInTheDocument(),
     );
-    expect(screen.getByText(/run the inspector/)).toBeInTheDocument();
+    expect(screen.getByText(/open Run the Search/)).toBeInTheDocument();
+  });
+
+  it('hides the postings the rules exclude, and shows them on request', async () => {
+    stubBackend();
+    renderWithQuery(<App />);
+    await waitFor(() => expect(cards()).toHaveLength(2));
+    expect(api.jobs).toHaveBeenLastCalledWith(
+      expect.objectContaining({ excluded: '' }),
+      0,
+      expect.any(Number),
+    );
+    await userEvent.selectOptions(screen.getByLabelText('Excluded postings'), 'only');
+    await waitFor(() =>
+      expect(api.jobs).toHaveBeenLastCalledWith(
+        expect.objectContaining({ excluded: 'only' }),
+        0,
+        expect.any(Number),
+      ),
+    );
+  });
+
+  it('lists removed postings under Removed, ready to be put back', async () => {
+    stubBackend([{ ...WATCH, dismissed: true }, CLOUD]);
+    renderWithQuery(<App />);
+
+    await userEvent.click(within(screen.getByRole('banner')).getByRole('button', { name: /Removed/ }));
+
+    await waitFor(() => expect(cards()).toHaveLength(1));
+    expect(api.jobs).toHaveBeenLastCalledWith(
+      expect.objectContaining({ dismissed_only: true }),
+      0,
+      expect.any(Number),
+    );
+    const card = screen.getByText('Watch Software Engineer').closest('article')!;
+    await userEvent.click(within(card).getByRole('button', { name: /^Restore / }));
+
+    await waitFor(() => expect(cards()).toHaveLength(0));
+    expect(api.dismiss).toHaveBeenCalledWith('g:1');
+  });
+
+  it('lists by priority, and can sort by publication date instead', async () => {
+    stubBackend();
+    renderWithQuery(<App />);
+    const sort = screen.getByLabelText('Sort by');
+    expect(sort).toHaveValue('priority');
+    await userEvent.selectOptions(sort, 'recent');
+    await waitFor(() =>
+      expect(api.jobs).toHaveBeenLastCalledWith(
+        expect.objectContaining({ sort: 'recent' }),
+        0,
+        expect.any(Number),
+      ),
+    );
   });
 
   it('surfaces a failing backend instead of an empty grid', async () => {
     vi.spyOn(api, 'jobs').mockRejectedValue(new Error('Request failed (500)'));
     vi.spyOn(api, 'facets').mockResolvedValue({
-      categories: [], companies: [], seniorities: [], currencies: [],
+      categories: [], companies: [], seniorities: [], currencies: [], countries: [],
     });
-    vi.spyOn(api, 'spiderStatus').mockRejectedValue(new Error('offline'));
+    vi.spyOn(api, 'searchStatus').mockRejectedValue(new Error('offline'));
     renderWithQuery(<App />);
     await waitFor(() =>
       expect(screen.getByText(/Could not load positions/)).toBeInTheDocument(),

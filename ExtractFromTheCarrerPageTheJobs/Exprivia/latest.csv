@@ -1,0 +1,585 @@
+job_id,title,url,location,country,contract,published,deadline,description
+1,Cloud architect M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=144946&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Cloud architect M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+Senior Cloud Architect – AWS & Azure
+Exprivia è alla ricerca di Senior Cloud Architect con esperienza in ambienti AWS e Azure da inserire in team che operano su progetti Enterprise ad alta complessità. La risorsa contribuirà alla progettazione, implementazione ed evoluzione di architetture cloud moderne, scalabili e sicure, promuovendo automazione, governance e ottimizzazione dei costi.
+Cosa farai
+Progetterai e implementerai architetture cloud su AWS e Azure.
+Gestirai infrastrutture tramite Terraform (IaC).
+Collaborerai con i team DevOps per la gestione di Kubernetes (EKS/AKS) e dei deployment tramite Helm.
+Definirai soluzioni cloud scalabili, resilienti e sicure secondo le best practice.
+Supporterai migrazioni al cloud e l'evoluzione delle piattaforme esistenti.
+Ottimizzerai performance, sicurezza, affidabilità e costi attraverso pratiche FinOps.
+Fornirai supporto tecnico e architetturale ai team di progetto.
+Utilizzerai strumenti di AI per accelerare attività di progettazione, automazione, troubleshooting, documentazione e sviluppo di infrastrutture cloud.
+Requisiti
+Esperienza di almeno 5 anni nella progettazione e gestione di infrastrutture cloud.
+Ottima conoscenza di AWS (VPC, IAM, EC2, S3, RDS, EKS, Route53, CloudWatch, Load Balancer).
+Buona conoscenza di Microsoft Azure (Virtual Network, Virtual Machine, Storage, AKS, Azure Monitor, Key Vault).
+Esperienza con Terraform, Kubernetes, Helm e pipeline CI/CD.
+Conoscenza delle best practice di Cloud Security, gestione delle identità e dei secret.
+Esperienza nell'ottimizzazione dei costi cloud (FinOps), inclusi tagging, rightsizing e monitoraggio della spesa.
+Familiarità con strumenti di AI Assistant per lo sviluppo software e l'automazione (es. GitHub Copilot, Amazon Q Developer, Azure AI Foundry o strumenti equivalenti).
+Buona conoscenza della lingua inglese.
+Costituiscono titolo preferenziale
+Certificazioni AWS, Azure, Terraform o Kubernetes (CKA/CKAD).
+Esperienza in ambienti multi-cloud e architetture ad alta affidabilità.
+Conoscenza di strumenti di osservabilità (CloudWatch, Prometheus, Grafana).
+Soft skills
+Problem solving e orientamento ai risultati.
+Capacità di lavorare in team e di comunicare con stakeholder tecnici e funzionali.
+Proattività, autonomia e attitudine al miglioramento continuo.
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+Range retributivo:
+Software architect - Senior Professional - RAL minima 37.000 - RAL massima 59.000
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro
+Sedi: Roma, Molfetta, Lecce, Palermo
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Developer interoperabilità M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=135852&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Developer interoperabilità M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+Chi stiamo cercando:
+La Digital Factory E Health & Smart City sta ricercando una/un developer esperta/o di interoperabilità nel settore sanitario.
+Si occuperà principalmente di:
+Progettare e implementare soluzioni di integrazione tra sistemi informativi sanitari, garantendo il rispetto degli standard internazionali.
+Collaborare con i team di sviluppo e gli stakeholders per definire e implementare le soluzioni tecniche.
+Assicurare la qualità e la sicurezza dei dati scambiati tra i sistemi.
+Requisiti
+Requisiti:
+3-6 anni di esperienza nel settore IT, con focus sullo sviluppo di soluzioni di interoperabilità nel contesto healthcare.
+Standard di interoperabilità: Profonda conoscenza degli standard HL7, FHIR, DICOM e di altri protocolli rilevanti per lo scambio di dati nel settore sanitario.
+Sviluppo software: Esperienza nella progettazione e sviluppo di interfacce e connettori per l'integrazione di sistemi informativi.
+Linguaggi di programmazione: Padronanza dei linguaggi java e javascript.
+Database: Conoscenza approfondita di SQL e di database relazionali e non relazionali (es. MongoDB, PostgreSQL).
+Strumenti di integrazione: Esperienza nell'utilizzo di strumenti di integrazione come ESB (Enterprise Service Bus) e piattaforme di integrazione cloud.
+Sicurezza informatica: Conoscenza dei principi di sicurezza informatica applicati al settore sanitario, inclusi privacy e protezione dei dati.
+Analisi dei requisiti: Capacità di analizzare i requisiti funzionali e non funzionali di progetti complessi.
+Problem solving: Abilità nel risolvere problemi tecnici in modo efficace e creativo.
+Collaborazione: Attitudine al lavoro in team e capacità di interagire con professionisti di diverse discipline (es. medici, informatici, Project manager).
+Documentazione: Capacità di redigere una documentazione tecnica chiara e concisa.
+Nice to have:
+Certificazioni: Certificazioni HL7 o FHIR.
+Sede di assunzione: Milano e tutte le sedi su territorio nazionale.
+Range retributivo:
+Developer – Professional - RAL minima: 28.000 € - RAL massima: 42.000€
+Develoepr – Senior Professional – RAL minima: 33.000 - RAL massima: 51.000€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Developer junior M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=135822&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Developer junior M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+Il/la candidato/a ideale è un/a giovane brillante neolaureato/a in Informatica, Ingegneria Informatica, Ingegneria Biomedica, Matematica e Fisica, Statistica, con forte passione verso le nuove tecnologie, l’innovazione, l’ambito della Digital Transformation e competenze accademiche nell’ambito dello sviluppo del Software.
+I candidati dovranno essere fortemente motivati a lavorare nel settore Innovation con un focus per lo sviluppo di tecnologie di Artificial Intelligence, in particolare Natural Language Processing e Natural Language Understanding.
+Requisiti
+Requisiti:
+Laurea in Informatica, Ingegneria Informatica, Ingegneria Biomedica, Matematica, Fisica, Statistica;
+Conoscenza accademica di uno o più linguaggi di programmazione e database relazionali;
+Conoscenza del linguaggio SQL
+Ottima conoscenza lingua inglese.
+Completano il profilo:
+Spiccate capacità comunicative e relazionali, dinamicità e flessibilità;
+Propensione alla formazione continua e curiosità ed atteggiamento proattivo;
+Attitudine al problem solving e un forte orientamento al risultato.
+Ti riconosci? Cosa offriamo:
+La possibilità di vivere un percorso di crescita professionale innovativo e poliedrico, affiancati da colleghi con elevata expertise;
+L’opportunità di mettersi in gioco, in un contesto dinamico e sfidante, dove poter apprendere e sperimentare ogni giorno.
+Piano di welfare aziendale, smart working, employee social collaboration e formazione continua.
+Sedi di assunzione: Molfetta, Roma, Milano, Carini, Lecce, Matera, Trento, Vicenza, Napoli
+Range retributivo:
+Developer – Early Careers - CCNL metalmeccanico industria privata – Ral minima 24.000€ - RAL massima: 29.000€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Full stack developer M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=144943&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Full stack developer M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+Full Stack Developer Senior (Java / Angular) – Team Leader Tecnico
+Cerchiamo un Full Stack Developer senior con forte esperienza in ambito enterprise, capace non solo di sviluppare soluzioni end-to-end su backend e frontend, ma anche di assumere un ruolo di guida tecnica del team.
+La risorsa sarà responsabile della progettazione delle soluzioni, della definizione delle linee guida tecniche e del coordinamento operativo delle attività di sviluppo, operando in contesti Agile e contribuendo attivamente all’evoluzione architetturale dei sistemi.
+Il profilo ideale unisce competenze tecniche solide, visione architetturale e capacità di leadership tecnica, con esperienza in migrazione da architetture monolitiche a microservizi, e apertura verso tecnologie cloud-native e strumenti di AI a supporto della produttività e dello sviluppo software.
+Requisiti
+Competenze richieste
+Solida esperienza con Java (21+) e Spring Boot
+Esperienza nello sviluppo di microservizi e API REST
+Conoscenza di Quarkus (requisito preferenziale)
+Esperienza con database relazionali (Oracle, SQL Server) e JPA/Hibernate
+Ottima conoscenza di Angular (17+), TypeScript, RxJS e Angular Material
+Familiarità con autenticazione OAuth2/JWT
+Cerchiamo una persona che abbia esperienza in:
+Sviluppo full stack end-to-end
+Progettazione di soluzioni e architetture enterprise
+Migrazione da applicazioni monolitiche a microservizi
+Coordinamento tecnico del team e definizione delle best practice
+Lavoro in contesti Agile e collaborazione con team multidisciplinari
+Costituiscono un plus
+Esperienza con architetture cloud-native
+Interesse nell'utilizzo di strumenti di AI a supporto dello sviluppo software
+Conoscenza di integrazioni SOAP
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Range retributivo:
+Developer – Professional - RAL minima: 28.000,00 € - RAL massima: 42.000,00€
+Developer – Senior Professional - RAL minima: 33.000,00 € - RAL massima: 51.000,00€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro
+Sedi: Roma, Molfetta, Lecce, Palermo
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Java Developer M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=135707&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Java Developer M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+La Digital Factory Defence&Aerospace di Exprivia (https://www.exprivia.it/it/), che opera nell'ambito di progetti con particolare focus sul Ground Segment, è alla ricerca di due figure.
+Entrambe saranno dedicate allo sviluppo di soluzioni software correlate ai sistemi di comando, controllo e di gestione logistica in ambito Difesa
+Requisiti
+Profilo Middle:
+Potresti essere la persona giusta se:
+Hai una laurea in Informatica o Ingegneria Informatica;
+Hai maturato esperienza (almeno 3 anni) nell’analisi, progettazione, sviluppo e test del software in progetti tecnologici complessi, basati su tecnologie Java-based;
+Sei a conoscenza dei sistemi operativi Windows e Linux;
+Hai maturato esperienza nell'utilizzo di Java;
+Hai conoscenza delle architetture software Java Enterprise e del OOP;
+Hai conoscenza dei seguenti framework: Spring e Spring Boot; JavaFX; Swagger, REST-based API; sistemi di controllo configurazione, GIT.
+Nice to have
+Sei a conoscenza del dominio dei Sistemi di Comando e Controllo, con particolare riferimento al dominio navale;
+Hai esperienza nella redazione della documentazione prevista nel ciclo di sviluppo del software, ed in particolare:
+Hai esperienza nella redazione di documenti Software Requirements Specification (SRS), Software Design Description (SDD), Software Test Description (STD), Software Test Report (STR);
+Hai conoscenza dello standard MIL-STD-498;
+Hai conoscenza dei seguenti framework: Apache Kafka; Apache Camel; Computer networking; Database NO-SQL (in particolare Mongo DB);docker, kubernetes
+Sede di lavoro: Roma (lavoro in presenza)
+***
+Profilo Junior
+Potresti essere la persona giusta se:
+Hai una laurea in Informatica o Ingegneria Informatica;
+Sei a conoscenza dei principi di programmazione Object-Oriented;
+Hai una conoscenza di base dei linguaggi Java, Javascript, HTML5;
+Hai una conoscenza di base degli ambienti Linux e Windows;
+Hai una conoscenza di base di tool di versioning (es. Git);
+Nice to have
+Sei a conoscenza delle logiche di Spring;
+Sei a conoscenza delle logiche di funzionamento dei framework React, Angular;
+Sei a conoscenza delle logiche di funzionamento di un DBMS;
+Sei a conoscenza delle logiche di funzionamento di Docker e Kubernetes.
+Sede di lavoro: Roma (lavoro in presenza)
+Altre informazioni
+Range retributivo:
+Developer – Associate – RAL minima 26.000€ - RAL massima: 35.000€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Lead Java Developer M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=135856&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Lead Java Developer M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+Chi stiamo cercando?
+La risorsa sarà inserita nel team E-Health & Smart City che si occupa della progettazione e sviluppo di soluzioni software dedicate al mondo sanitario come ad esempio: sistemi clinici, diagnostici, progetti su realtà regionali o locali.
+La risorsa coordinerà un gruppo di sviluppatori software ed avrà il compito di indirizzare le richieste tecniche, coordinare le attività ed essere a supporto dei colleghi lavorando in sinergia con i team leader e gli altri stakeholder aziendali.
+Responsabilità:
+Contribuire alla pianificazione delle attività e alla gestione delle priorità
+Governare il fabbisogno per il gruppo contribuendo ai piani di capacità
+Coordinare e supervisionare la corretta gestione dei task;
+Promuovere le azioni necessarie per garantire il raggiungimento degli obiettivi di pianificazione;
+Contribuire attivamente alla risoluzione tecnica di problematiche complesse;
+Supervisionare lo sviluppo corretto di unità e test funzionali e della documentazione di prodotto.
+Requisiti
+Requisiti:
+Laurea in Informatica o materie STEM
+Esperienza nel ruolo di almeno 5 anni, di cui almeno 2 anni di coordinamento, anche di piccoli gruppi di persone
+Conoscenza del linguaggio Java e framework Spring
+Conoscenza delle principali tecnologie di front-end single page application
+Conoscenza RDBMS
+Conoscenza di WS in modalità REST e SOAP, gradite esperienze su architetture moderne a microservizi
+Conoscenza della lingua inglese (B2)
+Gradite conoscenze specifiche healthcare (standard e architetture di riferimento)
+Gradita esperienza pregressa nell’ambito della progettazione tecnico-funzionale
+Completano il proflo:
+Capacità di coordinamento
+Ottima capacità comunicativa
+Orientamento al risultato
+Capacità di problem solving
+Capacità di lavorare in team
+Capacità di ascolto
+Range retributivo:
+Developer - Senior Professional - CCNL metalmeccanico industria privata – Ral minima 33.000€ - RAL massima: 51.000€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Network Security Specialist M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=149298&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Network Security Specialist M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+La Digital Factory Cybersecurity & Digital Infrastructure di Exprivia (https://www.exprivia.it/it/) è alla ricerca di un/una Network Specialist (focus Network Security) da inserire all'interno di un team dedicato alla gestione e alla sicurezza di infrastrutture IT complesse.
+Attività principali
+Gestione, monitoraggio e amministrazione centralizzata delle infrastrutture di Network Security;
+Valutazione, validazione e autorizzazione/rettifica delle richieste relative alle policy e alle regole di sicurezza;
+Configurazione e gestione di VPN IPSec e SSL, IPS, web filtering, Application Control, SSL/SSH inspection e servizi di autenticazione;
+Gestione di routing, Virtual IP, HA, SNAT, DNAT, RADIUS, LDAP, FSSO, DNS e certificati;
+Monitoraggio e gestione dei log, con attività di troubleshooting e remediation sugli apparati di sicurezza;
+Gestione e monitoraggio di piattaforme anti-DDoS;
+Valutazione dei rischi e supporto alle attività di security assessment;
+Produzione di report e analisi tramite query SQL;
+Collaborazione con i team tecnici coinvolti nella gestione e nell'evoluzione delle infrastrutture di sicurezza.
+Requisiti
+Competenze richieste
+Esperienza professionale in ambito Network Security, preferibilmente maturata in contesti enterprise;
+Solida conoscenza delle principali tecnologie e dei protocolli di sicurezza di rete;
+Conoscenza delle metodologie di risk assessment e gestione del rischio;
+Buone capacità di troubleshooting, problem solving e analisi dei log;
+Autonomia operativa e capacità di gestione delle priorità;
+Attitudine al lavoro in team;
+Disponibilità a gestire attività pianificate e interventi di emergenza.
+Altre informazioni
+Sede e modalità di lavoro
+La risorsa opererà in modalità onsite, a Roma, nell'ambito di un servizio organizzato su turnazioni comprese tra le 07:00 e le 23:00. È inoltre prevista reperibilità settimanale fuori dall'orario lavorativo, inclusi sabato, domenica e giorni festivi.
+Range retributivo:
+Network Specialist - Professional - RAL minima: 29.000,00 € - RAL massima: 42.000,00 €
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,New Graduate (ambito Cybersecurity) M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=143647&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"New Graduate (ambito Cybersecurity) M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+La Digital Factory Cybersecurity & Digital Infrastructure di Exprivia è alla ricerca di un Neolaureato/a in Cybersecurity.
+Attività
+Supportare progetti di Cybersecurity Governance, contribuendo alla definizione e all'implementazione di processi e controlli di sicurezza.
+Collaborare ad attività di protezione preventiva delle identità digitali e dei sistemi informativi.
+Partecipare all'analisi dei requisiti di sicurezza e all'adozione di misure di prevenzione del rischio cyber.
+Operare contemporaneamente su più iniziative progettuali, collaborando con team multidisciplinari.
+Mantenersi costantemente aggiornato sulle evoluzioni normative, metodologiche e tecnologiche in ambito cybersecurity.
+Requisiti
+Competenze richieste
+Laurea Magistrale in Cybersecurity, conseguita o in fase di conseguimento.
+Interesse per i temi di Cybersecurity Governance, gestione del rischio e protezione preventiva di identità digitali e sistemi informativi.
+Capacità di gestire attività multiple e di definire le corrette priorità.
+Attitudine all'apprendimento continuo e all'aggiornamento professionale.
+Buone capacità analitiche, organizzative e di lavoro in team.
+Competenze opzionali
+Esperienza, anche breve (stage, tirocinio o prima esperienza lavorativa), in ambito cybersecurity.
+Conoscenza dei principali framework e standard di sicurezza (es. ISO/IEC 27001, NIST Cybersecurity Framework, CIS Controls).
+Familiarità con soluzioni di Identity & Access Management (IAM) o Identity Governance & Administration (IGA).
+Conoscenza di concetti relativi alla gestione del rischio, compliance e governance della sicurezza delle informazioni.
+Range retributivo
+Service Support – Associate – RAL minima 26.000,00 € - RAL massima: 34.000,00 €
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Project manager - ambito health M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=152566&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Project manager - ambito health M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+La Digital Factory E- Health & Smart City sta ricercando un/una Project Manager per condurre progetti nel settore ICT in ambito Sanitario/PA in tutte le loro fasi.
+Si occuperà principalmente di:
+Raccolta ed analisi dei requisiti necessari alla definizione dello scope dei progetti
+Coordinamento e controllo del progetto nel rispetto dei costi, tempi e standard qualitativi e contrattuali;
+Predisposizione documentazione di progetto;
+Pianificazione delle risorse e coordinamento del team;
+Definizione soluzioni evolutive presso il cliente;
+Supporto alla struttura tecnica e commerciale.
+Requisiti
+Requisiti:
+Laurea in discipline tecniche/scientifiche/ingegneristiche/economiche;
+Comprovata esperienza nella gestione economica delle commesse (budgeting, forecasting, controllo costi);
+Esperienza di almeno 5-6 anni nel ruolo;
+Gradita esperienza nel coordinamento di team tecnici;
+Preferibilmente esperienza nel settore ICT in ambito Sanitario/PA.
+Gradita certificazione PMP o Prince 2
+Completano il profilo:
+Buona capacità di relazione e di problem solving
+Buona capacità di leadership
+Competenza di change management
+Sede di assunzione: Molfetta, Vicenza
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere.
+Range retributivo:
+Project Manager - Senior Professional - RAL minima 38.000€ - RAL massima: 59.000€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro."
+1,Service Support M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=135849&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Service Support M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+Chi stiamo cercando?
+Per la Digital Factory E-Health & Smart City stiamo ricercando la figura di una/un service support.
+La figura selezionata seguirà le attività di clienti in ambito sanitario, con funzione SPOC tra i vari stakeholders.
+Si occuperà principalmente di:
+Attività di analisi e nella mappatura dei processi clinico-sanitari;
+Raccolta delle esigenze/requisiti del cliente e predisposizione della relativa documentazione;
+Guidare i clienti nelle attività di aggiornamento IT;
+Assistere gli enti nelle comunicazioni interne ed esterne;
+Fornire report e statistiche.
+Requisiti
+Requisiti:
+Laurea Specialistica o Magistrale in ingegneria biomedica o informatica
+Esperienza di almeno 2 anni in progetti interni agli Enti Sanitari (CUP o Sistema Contabile/Amministrativo o Cartella Clinica Elettronica).
+Capacità di Stesura documentazione di progetto: scenari di integrazione, checklist di validazione
+Capacità di gestione della comunicazione e delle relazioni con Software House fornitrici e strutture aziendali di demand management
+Conoscenza linguaggio xml
+Conoscenze di Excel e SQL
+Predisposizione e interesse per attività di gestione risorse e progetti
+Completano il profilo ottime capacità di comunicazione, teamwork, flessibilità, problem solving.
+Sede assunzione: Milano, Bologna
+Range retributivo:
+Service support – Associate - CCNL metalmeccanico industria privata – Ral minima 26.000€ - RAL massima: 34.000€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Service Support M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=149271&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Service Support M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+La Digital Factory Cybersecurity & Digital Infrastructure di Exprivia (https://www.exprivia.it/it/) è alla ricerca di un/una Service Support da inserire all'interno di un team dedicato alla gestione ed all'evoluzione di infrastrutture IT complesse.
+Attività principali:
+Gestione e amministrazione di infrastrutture Windows e Linux;
+Gestione e monitoraggio di ambienti virtualizzati e cloud;
+Amministrazione e supporto di piattaforme di storage e sistemi di backup;
+Gestione, configurazione e customizzazione di soluzioni middleware e piattaforme collaborative;
+Monitoraggio delle infrastrutture tramite strumenti dedicati;
+Attività di troubleshooting e risoluzione delle problematiche infrastrutturali;
+Supporto alle attività di continuità operativa e disaster recovery;
+Collaborazione con i team tecnici coinvolti nella gestione dell'infrastruttura cliente.
+Requisiti
+Sono richieste:
+Buona conoscenza dei sistemi operativi Windows e Linux;
+Conoscenze di infrastrutture Storage e sistemi di Backup;
+Esperienza nella gestione di ambienti VMware e VMware Site Recovery Manager (SRM);
+Esperienza nella gestione di infrastrutture Nutanix;
+Conoscenza di piattaforme Nextcloud e Zabbix, incluse attività di configurazione e personalizzazione;
+Esperienza nell'utilizzo e nella gestione di Commvault e/o Veeam;
+Conoscenza di ambienti Cloudera;
+Capacità di scripting in Bash su sistemi Linux;
+Familiarità con infrastrutture hardware DELL, HPE e Pure Storage;
+Buone capacità di problem solving e gestione delle priorità.
+Altre informazioni
+Sede e modalità di lavoro
+La risorsa opererà in modalità onsite, a Roma, nell'ambito di un servizio organizzato su turnazioni comprese tra le 07:00 e le 23:00. È inoltre prevista reperibilità settimanale fuori dall'orario lavorativo, inclusi sabato, domenica e giorni festivi.
+Range retributivo:
+Service Support - Associate - RAL minima: 26.000,00 € - RAL massima: 34.000,00 €
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Software architect M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=135843&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Software architect M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+Chi stiamo cercando?
+La digital factory E-Health & Smart City è alla ricerca di un/una Software architect.
+Si occuperà principalmente di:
+progettazione e realizzazione dei nuovi prodotti e delle nuove soluzioni in ambito eHealth contribuendo alla continua diffusione della tecnologia nei più diversi ambiti della sanità.
+lavorare principalmente con tecnologie cloud e microservizi farà parte dei gruppi dedicati a progetti per l’informatizzazione degli ambiti clinici, diagnostici, di governo e controllo contribuendo a soluzioni che spaziano dalle cartelle cliniche fino ai sistemi per le visualizzazioni tridimensionali in radiologia passando per i nostri prodotti per la prenotazione e il governo dei costi su ampia scala.
+Requisiti
+Requisiti minimi richiesti:
+Laurea in Informatica o materie STEM;
+Conoscenza ed esperienza nello sviluppo Java;
+Esperienza nello sviluppo HTML5;
+Esperienza nello sviluppo di WS in modalità REST e SOAP;
+Esperienza nello sviluppo con database relazionali e non relazionali;
+Conoscenza sviluppo applicativi a microservizi in ambiente Cloud (Kubernetes, Pod, Message Broker, Event-driven, Pattern CQRS);
+Conoscenza di architetture di applicazioni web java (Spring Boot, OpenApi, RestApi).
+Esperienza nel ruolo di almeno 5 anni
+Sedi di assunzione: tutte quelle presenti su territorio nazionale
+Range retributivo:
+Software Architect – Senior Professional - CCNL metalmeccanico industria privata – RAL minima 36.000€ - RAL massima: 59.000€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."
+1,Solution Designer M/F,https://exprivia.intervieweb.it/app.php?opmode=guest&module=iframeAnnunci&act1=1&IdAnnuncio=135855&view=list&k=970397846fa743f2524e7443c87841d7&defgroup=name&gnavenable=1&desc=0&typeView=large&h=&d=exprivia.it&lang=it,,,,,,"Solution Designer M/F
+Descrizione azienda
+Il Gruppo Exprivia (c.ca 4.000 persone), specializzato in Information and Communication Technology (ICT), è tra i principali protagonisti della trasformazione digitale sul mercato nazionale e internazionale con esperti in diversi ambiti della tecnologia e della digitalizzazione: dall’Intelligenza Artificiale alla Cybersecurity, dai Big Data, al Cloud, dall'IoT al BPO, dal Mobile al Networking e alla Collaboration, presidiando interamente il mondo SAP.
+Exprivia supporta i propri clienti nei settori Banking, Finance&Insurance, Aerospace&Defence, Energy&Utilities, Healthcare e Public Sector, Manufacturing&Distribution, Telco&Media.
+Il Gruppo Exprivia è presente in sei Paesi nel mondo (Italia, Spagna, Germania, Brasile, Messico e Cina) e presente in Italia a Milano, Roma, Trento, Vicenza, Lecce, Matera, Palermo e Molfetta dove è basato l’HQ.
+Posizione
+La digital factory E Health & Smart City è alla ricerca di una figura di un/una Solution Designer.
+La risorsa opererà nell’ambito della progettazione e dell’analisi funzionale di soluzioni IT per il settore sanitario, con responsabilità di coordinamento e guida del team e fungendo da punto di raccordo tra stakeholder clinici, di business e team tecnici. Il ruolo prevede il coinvolgimento sull’intero ciclo di vita della soluzione, con particolare attenzione ai processi sanitari, all’integrazione dei sistemi e alla compliance normativa.
+Si occuperà principalmente di:
+Raccolta, analisi e formalizzazione dei requisiti funzionali e non funzionali
+Coordinamento funzionale delle attività del team
+Analisi dei processi clinici e amministrativi e modellazione dei flussi operativi
+Progettazione funzionale di soluzioni in ambito sanitario
+Interazione con stakeholder sanitari
+Redazione di documentazione funzionale (use case, flussi di processo)
+Supporto alle fasi di sviluppo, test funzionali e UAT
+Validazione dei processi e supporto al rilascio e al go-live
+Collaborazione con team di sviluppo e architettura
+Supporto alla formazione degli utenti e all’adozione delle soluzioni
+Requisiti
+Conoscenza dei principali processi sanitari
+Esperienza pregressa nel coordinamento di team funzionali
+Familiarità con i flussi informativi regionali e nazionali (NSIS, SDO, CUP)
+Esperienza di integrazione con sistemi LIS, RIS/PACS, ERP sanitari
+Conoscenza degli standard sanitari: HL7, CDA, DICOM, IHE
+Conoscenze base dello standard FHIR
+Buona conoscenza di SQL
+Esperienza con strumenti di Business Intelligence (Qlik, Power BI, Tableau)
+Esperienza in analisi funzionale e raccolta requisiti
+Conoscenza delle normative GDPR applicate al contesto sanitario
+Laurea in Ingegneria Biomedica, Informatica
+Sedi di assunzione: Milano, Roma, Molfetta, Lecce, Trento, Vicenza (con possibilità di smart working fino all'80%)
+Range retributivo:
+Solution Designer – Associate - RAL minima 29.000€ - RAL massima 35.000€
+Solution Designer – Professional - RAL minima 28.000€ - RAL massima 41.000€
+La determinazione del trattamento economico individuale all'interno dei range indicati avverrà sulla base di criteri oggettivi e neutri rispetto al genere, in conformità al Decreto n.96/2026, e sarà commisurato all'effettiva seniority e anzianità nel ruolo, alle competenze specifiche verificate nel processo di selezione, livello di autonomia operativa e di responsabilità.
+L'inquadramento verrà definito in fase di selezione sulla base del profilo e in applicazione del CCNL Metalmeccanico Industria Privata (13 mensilità)
+In conformità alle disposizioni vigenti in materia di trasparenza retributiva, in nessun caso saranno richieste, né acquisite direttamente o indirettamente, informazioni relative alle retribuzioni percepite dal/dalla candidato/a in attuali o precedenti rapporti di lavoro.
+Altre informazioni
+Qual è la nostra vision?
+Connessione: la capacità di disegnare soluzioni innovative e personalizzate in costante connessione con i Partner per abilitare gli stakeholder, comunità e organizzazioni nel percorso di transizione digitale.
+Affidabilità: la competenza e la passione dei nostri professionisti focalizzati sulle esigenze del cliente e sullo sviluppo dell’offerta sempre più efficace ed efficiente al fine di garantire una crescita sostenibile.
+Semplicità: l’abilità nel rendere la tecnologia alla portata di tutti in ottica di ottimizzazione e miglioramento dell’esperienza dell'utente, supportando l’innovazione e la trasformazione digitale per le imprese e per i cittadini.
+Attraverso il proprio hub di ricerca, il gruppo punta a soluzioni tecnologiche sempre più ispirate ai principi della sostenibilità, a beneficio della trasformazione digitale delle imprese, organizzazioni e comunità. Exprivia è impegnata nel raggiungimento degli obiettivi ESG (Environmental, Social, Governance) per una crescita sostenibile e crede fortemente nello sviluppo e nel valore dell’Innovazione.
+Exprivia si impegna a costruire un ambiente inclusivo che accolga e valorizzi le unicità delle persone.
+La cultura aziendale è incentrata sui principi di condivisione, collaborazione, trasparenza e valorizzazione dei talenti.
+Tipologia contrattuale, RAL e inquadramento saranno valutati durante l’iter selettivo sulla base dell’esperienza maturata dal candidato prescelto.
+Offriamo un ambiente dinamico, attento alle tue esigenze, piano di smart working (fino a 80% attività in SW), welfare aziendale e Flexible Benefit.
+La ricerca è aperta a candidat* di qualsiasi orientamento o espressione di genere."

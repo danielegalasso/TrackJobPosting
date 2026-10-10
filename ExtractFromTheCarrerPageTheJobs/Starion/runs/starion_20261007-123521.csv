@@ -1,0 +1,707 @@
+job_id,title,url,location,country,contract,published,deadline,description
+antenna-engineer,Antenna Engineer,https://www.stariongroup.eu/career/antenna-engineer/,,,,,,"Antenna Engineer
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+We are looking for an Antenna Engineer to join our Service team and work at ESTEC’s premises in Noordwijk, Netherlands.
+The role is part of the Radio Frequency Payloads and Technology Division, offering an exciting opportunity to work at the forefront of RF and optical communication systems for space applications.
+As a member of this team, you will contribute to the design, testing, and performance analysis of advanced payloads, instruments, antennas, and telemetry systems. You will play a key role in cutting-edge projects, tackling challenges in wave propagation, high-speed data transmission, and signal processing.
+Drawing on expertise across antennas, RF equipment, payload architecture, and wave interaction, the division supports ground-breaking ESA missions, and you could be a vital part of the innovation that shapes the future of space communications
+About the client and location
+The European Space Research and Technology Centre (ESTEC) is the European Space Agency’s (ESA) base in Noordwijk, the Netherlands. As ESA’s largest test centre, it is responsible for the majority of space technology and spacecraft development through varying phases of production.
+Tasks and activities
+The scope of work will include:
+Analysing and characterising advanced antenna systems for spacecraft, including mini and CubeSats, and other platforms.
+Designing and developing innovative antenna solutions, including arrays, reflectors, lens antennas, and active RF systems.
+Collaborating with multidisciplinary teams to optimise antenna performance at subsystem and system level.
+Developing next-generation RF modelling and design tools, including the application of AI and Machine Learning techniques.
+Supporting the testing and validation of antennas, payloads, and instruments in both laboratory and operational environments.
+Characterising RF material properties across a range of operating conditions.
+Contributing to ESA working groups, international workshops, and conferences.
+Supporting technology development and harmonisation activities for reflector and array antennas.
+Ensuring activities are delivered in line with ISO 9001 quality standards.
+Skills and experience
+The following skills and experience are mandatory:
+Master’s degree or PhD in Telecommunications, Electrical Engineering, Physics, or a related field.
+Minimum 6 years of relevant professional experience.
+Strong knowledge of electromagnetic wave theory.
+Experience with space antenna architectures and technologies.
+Familiarity with RF, mechanical, thermal, and environmental constraints of space antennas, gained through flight hardware or high-TRL R&D activities.
+Knowledge of antenna design, manufacturing, and testing processes.
+Experience with antenna modelling tools (e.g. TICRA, Ansys, CST) and programming languages such as Python or MATLAB.
+Familiarity with antenna testing and measurement systems.
+Understanding of high-power effects in antenna systems.
+Ability to work independently and as part of an international, multicultural team.
+Solution-oriented mindset with strong communication skills.
+Fluent in written and spoken English.
+The following skills and experience would be highly desirable:
+Knowledge of Machine Learning and Artificial Intelligence applied to antenna engineering.
+Experience supporting and coordinating R&D activities.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+German Cingerli
+Recruitment Manager
+Interested in this job?
+Share this vacancy
+Apply now - Antenna Engineer
+""*"" indicates required fields
+Related jobs
+30 September 2026
+IT Infrastructure Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+5 November 2026
+10 August 2026
+System Engineer – Quantum Technologies
+Location
+Noordwijk, Netherlands"
+applied-cryptography-engineer-2,Applied Cryptography Engineer,https://www.stariongroup.eu/career/applied-cryptography-engineer-2/,,,,,,"Applied Cryptography Engineer
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+We are currently looking for an Applied Cryptography Engineer to join our team in Windhof, Luxembourg.
+You will be responsible for the entire end-to-end cryptographic integrity of the system, from the physical (quantum) layer to the abstract (MPC) and application (PQC) layers. You will act as the key person that guarantees the security of the entire key generation and delivery chain.
+About the client and location
+Starion Luxembourg provides full lifecycle engineering solutions, including design, integration and operation, for complex programmes. We supply operations and ground system engineering services for missions including Earth observation, quantum communications, scientific, navigation and space exploration, helping both New Space and established organisations set up their operations infrastructure or introduce new ground segment technologies.
+In partnership with the European Space Agency (ESA), Starion Luxembourg is leading a consortium of key partners to develop and demonstrate a next-generation operational testbed targeting end-to-end quantum-safe communications. We work to provide operational solutions over fibre and satellite networks in existing national and international environments.
+Tasks and activities
+The scope of work will include:
+Leading the security design of INT-UQKD protocol(s), covering the full stack: physical QKD key generation, resilient secret sharing, and the multiparty key delivery application across distributed communication.
+Developing the security models for the cryptographic primitives underpinning the protocol(s), ensuring that their implementation is formally robust against attacks, delivering a key delivery service that aligns with INT-UQKD security and operational requirements.
+Collaborating with the system architect to convert the system architecture into clear, technical requirements that enable the development team to implement the protocols securely and reliably.
+Skills and experience
+The following skills and experience are mandatory:
+University Degree or equivalent in a relevant field
+Experience in applied cryptography with deep theoretical and practical knowledge of the prevalent cryptographic schemes (QKD, Post- Quantum Cryptography (PQC), Multi-Party Computation (MPC), Threshold schemes (e.g. Shamir’s Secret Sharing).
+Ability to design, analyse, and establish formal security proof of complex multi- layered cryptographic protocols against a range of adversities (computational, quantum, insider, etc.).
+System engineering experience with the ability to prepare documents following security requirements.
+Desire to work both independently and as part of a team, in an international, multicultural environment.
+Solution orientated mindset, with customer focused communication skills.
+Fluent in English, both written and spoken.
+The following skills would be highly desirable.
+Experience with Model Based System Engineering (MBSE)
+Expertise with operation and / or security assessment of quantum-safe
+Experience in project execution following international standards, such as space (ECSS, CCDS, IDSIS), military (MIL-STD, NATO) or regulatory (ETSI, ITU, 3GPP) standards.
+Background in creating cybersecurity test plans, performing critical (including space-related) system cybersecurity testing, and analysing test results.
+Familiar with monitoring protocols and OS tools, such as SNMP or Syslog.
+Expertise in secure software development life cycle (SDLC) principles and practices.
+Knowledgeable with automated software deployment, scaling, and management of containerized applications (Kubernetes)
+Eligibility for NATO and/or EU Security clearances.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+German Cingerli
+Recruitment Manager
+Interested in this job?
+Share this vacancy
+Apply now - Applied Cryptography Engineer
+""*"" indicates required fields
+Related jobs
+30 September 2026
+Antenna Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+12 October 2026
+30 September 2026
+IT Infrastructure Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+5 November 2026
+23 September 2026
+MBSE Engineer
+Location
+Leiden, Netherlands
+Deadline
+19 October 2026"
+c-developer,C# Developer,https://www.stariongroup.eu/career/c-developer/,,,,,,"C# Developer
+Are you interested in being part of a company that shapes the future of space and cyber technologies? To have a job where you can contribute to real-world missions with long-term impact?
+Join our software development team in Leiden, the Netherlands, as a C# Developer. Working with C#, WPF, Blazor and PostgreSQL, you will help deliver innovative engineering and business applications, with an initial focus on data-driven solutions for the Dutch Ministry of Defence. This position is well suited to both recent graduates with relevant practical experience and software engineers with a few years of professional experience.
+About Us
+Starion provides engineering, consultancy and technology solutions for space, defence and critical infrastructure organisations across Europe. With over 30 years of expertise, we combine space engineering, digital technologies and innovation to deliver solutions that support world-leading missions and tackle some of society’s most important challenges.
+Tasks and activities
+The scope of work will include:
+Designing, developing and maintaining complex data-driven applications that support critical business and engineering activities.
+Building and enhancing design-critical software solutions used during the early phases of engineering and system development.
+Performing verification and validation activities to ensure software quality, reliability and performance.
+Optimising high-throughput collaborative systems, enhancing scalability, efficiency and user experience.
+Designing and developing supporting tools, frameworks and libraries that enable efficient software delivery and long-term maintainability.
+Skills and experience
+The following skills and experience are mandatory:
+A degree in Software Engineering or a related discipline.
+3-5 years of experience developing applications in C# and .NET.
+A solid background in both backend and frontend application development.
+Proficiency in working with relational databases, preferably PostgreSQL.
+Strong problem-solving skills, with the ability to work both independently and collaboratively.
+Excellent communication skills and a customer-focused mindset.
+Fluency in Dutch and English, both written and spoken.
+The following skills and experience would be highly desirable:
+Familiarity with Git, GitHub and/or GitLab.
+Hands-on knowledge with WPF, Blazor, MVVM.
+Knowledge of Test-Driven Development (TDD) and software quality practices.
+Experience working on large-scale software projects.
+Knowledge of CI/CD pipelines and modern development practices.
+Experience with data modelling (e.g. UML, Ecore).
+Familiarity with Linux, Docker, and web/mobile development using TypeScript or JavaScript.
+Eligibility Requirements
+At Starion, we are committed to building diverse and inclusive teams and encourage applications from all backgrounds. Please note that, due to security requirements linked to this specific assignment with the Dutch Ministry of Defence, candidates must hold Dutch nationality to be eligible for the role.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+Natalia Batres-Günther
+Recruiter
+Interested in this job?
+Share this vacancy
+Apply now - C# Developer
+""*"" indicates required fields
+Related jobs
+23 September 2026
+MBSE Engineer
+Location
+Leiden, Netherlands
+Deadline
+19 October 2026"
+devops-engineer,DevOps Engineer,https://www.stariongroup.eu/career/devops-engineer/,,,,,,"DevOps Engineer
+Are you interested in being part of a company that shapes the future of space and cyber technologies? To have a job where you can contribute to real-world missions with long-term impact?
+Join a multidisciplinary space software development team as a DevOps Engineer. You will deliver solutions that support some of Europe’s most ambitious space programmes. Based in either Diegem, Belgium or Darmstadt, Germany you will play a key role in our SWE PDC project, driving the evolution of our DevOps landscape through CI/CD pipelines, Kubernetes, ArgoCD, Grafana, infrastructure management and automation.
+About Us
+Starion provides engineering, consultancy and technology solutions for space, defence and critical infrastructure organisations across Europe. With over 30 years of expertise, we combine space engineering, digital technologies and innovation to deliver solutions that support world-leading missions and tackle some of society’s most important challenges.
+Tasks and activities
+The scope of work will include:
+Designing and optimising GitLab CI/CD pipelines that enable efficient and reliable software delivery.
+Managing and enhancing ArgoCD GitOps workflows to streamline deployment processes.
+Deploying, troubleshooting and maintaining Kubernetes workloads in a cloud-native environment.
+Developing and maintaining Helm charts to support scalable and repeatable deployments.
+Implementing Grafana observability capabilities to monitor, analyse and improve system performance.
+Driving infrastructure automation through scripting and process optimisation.
+Supporting Linux platforms, networking components and security scanning activities to ensure a secure and resilient operational environment.
+Skills and experience
+The following skills and experience are mandatory:
+At least 5 years of experience in a DevOps, Site Reliability Engineering (SRE) or similar role.
+Proven expertise with GitLab CI/CD, Kubernetes, Helm, ArgoCD and the Grafana observability stack.
+Desire to work both autonomously and as part of a team, in an international multicultural environment.
+Solution oriented mindset, with a customer focused communication skill.
+Fluent in English, both written and spoken.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+Ola Akinkugbe
+Recruiter
+Interested in this job?
+Share this vacancy
+Apply now - DevOps Engineer
+""*"" indicates required fields
+Related jobs
+19 August 2026
+Project Manager for Software and AI Application Development
+Location
+Darmstadt, Germany
+Deadline
+12 October 2026
+16 July 2026
+AI Engineer
+Location
+Darmstadt, Germany
+2 June 2026
+Advanced Information Security Engineer
+Location
+Darmstadt, Germany
+Deadline
+12 October 2026"
+full-stack-engineer-space-data,Full Stack Engineer (Space Data),https://www.stariongroup.eu/career/full-stack-engineer-space-data/,,,,,,"Full Stack Engineer (Space Data)
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+We are looking for a Full Stack Engineer (Space Data) to join our Software Development team in Diegem, Belgium.
+In this role, you will contribute to the design, development and enhancement of end-to-end software solutions supporting operational systems for satellite and scientific data processing. Working across backend services, APIs, databases and user interfaces, you will help deliver scalable, reliable and maintainable applications using modern cloud and container-based technologies.
+Tasks and activities
+The scope of work will include:
+Contributing to the architecture, design, development and evolution of full-stack software systems supporting current and future space missions.
+Designing, developing and testing robust, scalable and maintainable software solutions.
+Analysing user and system requirements, supporting software architecture, data modelling and interface design activities.
+Developing and enhancing Java-based backend services, REST APIs and service-oriented applications.
+Creating responsive, user-focused interfaces using React and modern web technologies.
+Designing and maintaining relational database solutions and data-access components.
+Integrating frontend, backend and database technologies into seamless end-to-end solutions.
+Developing and deploying cloud-based and containerised applications for the processing and distribution of space-related data.
+Supporting software quality through automated testing, code reviews and continuous integration practices.
+Troubleshooting complex application issues and drive performance, reliability and maintainability improvements.
+Producing and maintaining clear technical documentation, including requirements, design and test specifications.
+Taking ownership of software components while collaborating closely with software, system and customer teams in an international environment.
+Skills and experience
+The following skills and experience are mandatory:
+Degree in Software Engineering, Computer Science or a related discipline.
+Minimum 5 years experience developing full-stack software solutions.
+Strong expertise in Java, backend development, REST APIs and web services.
+Solid understanding of object-oriented and service-oriented design principles.
+Proven ability to develop modern, responsive user interfaces using React, JavaScript and TypeScript.
+Good understanding of modern client-server technologies, including WebSockets, GraphQL, async HTTP and SSE.
+Strong knowledge of SQL, database technologies and data-driven application development.
+Hands-on experience integrating frontend, backend and database components into end-to-end solutions.
+Familiarity with modern authentication mechanisms including OAuth, OpenID Connect and JWT.
+Working knowledge of Git, Maven, Jenkins, Nexus and CI/CD environments.
+Comfortable working within Linux-based development and deployment environments.
+Understanding of automated testing, integration testing and software quality practices.
+Familiarity with Agile development methodologies and continuous integration practices.
+Strong documentation, communication and stakeholder engagement skills.
+Ability to work independently and collaboratively within international teams.
+Fluent in written and spoken English.
+The following skills and experience would be highly desirable:
+Familiarity with Angular or Vue.js.
+Knowledge of OData, Docker and Kubernetes.
+Exposure to cloud-native, containerised and DevOps/CI/CD environments.
+Experience with modern UI, API and testing frameworks.
+Knowledge of Ground Segment, Mission Control or Earth Observation systems.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+Adrien Decleire
+Recruiter
+Interested in this job?
+Share this vacancy
+Apply now - Full Stack Engineer (Space Data)
+""*"" indicates required fields
+Related jobs
+3 September 2026
+DevOps Engineer
+Location
+Darmstadt, Germany
+Diegem, Belgium
+Deadline
+12 October 2026"
+it-infrastructure-engineer,IT Infrastructure Engineer,https://www.stariongroup.eu/career/it-infrastructure-engineer/,,,,,,"IT Infrastructure Engineer
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+On behalf of ESA, we are looking for an IT Infrastructure Engineer to work at ESTEC’s premises in Noordwijk, The Netherlands.
+About the client and location
+The European Space Research and Technology Centre (ESTEC) is the European Space Agency’s (ESA) base in Noordwijk, the Netherlands. As ESA’s largest test centre, it is responsible for the majority of space technology and spacecraft development through varying phases of production.
+Tasks and activities
+The scope of work will include:
+Managing and maintaining VMware, Hyper-V and Cloud Director environments, ensuring effective infrastructure monitoring, capacity planning and platform optimisation.
+Administering and supporting a wide range of infrastructure technologies, including physical servers, network devices, storage platforms and backup solutions.
+Facilitating the secure integration of customer applications and services, ensuring alignment with network architecture and IT security policies.
+Operating and maintaining classified IT environments, ensuring compliance with security requirements, operational procedures and project documentation.
+Developing and implementing automation and support scripts using technologies such as Bash and Python to streamline operations, software orchestration and data reporting.
+Integrating project-delivered hardware, operating systems and application software into the client’s infrastructure, ensuring seamless deployment, compatibility and ongoing support.
+Contributing to the reliability, security and continuous improvement of mission-critical IT services and infrastructure.
+Skills and experience
+The following skills and experience are mandatory:
+University degree (or equivalent qualification) in Computer Engineering, Software Engineering, Computer Science, Informatics, or a related discipline.
+At least 5 years of proven experience working as an IT Infrastructure Engineer within a professional environment.
+Strong hands-on experience with Active Directory, Windows Server, and Linux distributions, including Debian, Ubuntu and CentOS.
+Proficiency in scripting and automation using technologies such as PowerShell, Bash and Python.
+Solid expertise in virtualisation technologies, including VMware and Hyper-V, as well as containerisation platforms such as Docker.
+Strong understanding of networking concepts, with proven experience in network switching and TCP/IP protocol analysis.
+Experience with infrastructure monitoring and observability tools, particularly Zabbix, alongside enterprise backup solutions such as Veeam and NetBackup.
+Excellent troubleshooting, analytical and problem-solving skills, with the ability to diagnose and resolve complex technical issues.
+Strong documentation skills, with the ability to produce clear, concise and well-structured
+Fluent in English, both written and spoken.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+Kiri Wood
+Recruiter
+Interested in this job?
+Share this vacancy
+Apply now - IT Infrastructure Engineer
+""*"" indicates required fields
+Related jobs
+30 September 2026
+Antenna Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+12 October 2026
+10 August 2026
+System Engineer – Quantum Technologies
+Location
+Noordwijk, Netherlands"
+mbse-engineer,MBSE Engineer,https://www.stariongroup.eu/career/mbse-engineer/,,,,,,"MBSE Engineer
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+Starion is looking for an MBSE Engineer to join our team in the Netherlands. Reporting to the Programme Manager for National Accounts, you will play a key role in advancing Digital Engineering capabilities, supporting the implementation and delivery of innovative solutions across both internal programmes and customer projects.
+Tasks and activities
+The scope of work will include:
+Developing and enhancing system models using existing requirements, interface documentation, and related systems engineering artefacts.
+Providing expert support and guidance on Capella modelling and MBSE methodologies.
+Building proficiency in and leverage Starion Digital Engineering tools, including CDP4-COMET.
+Driving requirements engineering activities, working closely with users and stakeholders to capture and refine system requirements.
+Contributing to the evolution of MBSE practices, supporting the adaptation of MBSE approaches to the Maritime and Naval sector.
+Supporting and contributing to project delivery, including Project Management activities and, where required, undertaking Project Manager responsibilities.
+Performing and supporting requirements verification and validation activities, ensuring model consistency and quality.
+Playing a key role in proposal development, providing MBSE expertise to support Starion’s business and project opportunities.
+Skills and experience
+The following skills and experience are mandatory:
+Bachelor’s degree in Engineering, Systems Engineering, or a related technical discipline.
+At least 3 years of hands-on experience in Model-Based Systems Engineering (MBSE).
+Demonstrated experience within the Maritime and Naval sector.
+Strong interpersonal, communication, and stakeholder engagement skills.
+Experience supporting or delivering Project Management activities.
+Intermediate to expert-level proficiency with Capella.
+Knowledge of Systems Engineering methodologies, standards, languages, and tools (e.g. SysML v1/v2, ECSS-E-TM-10-25A) would be considered an asset.
+Fluent in English, both written and spoken.
+Why should you apply?
+You will have the opportunity contribute to high-impact naval programmes within the Dutch Ministry of Defence
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+German Cingerli
+Recruitment Manager
+Interested in this job?
+Share this vacancy
+Apply now - MBSE Engineer
+""*"" indicates required fields
+Related jobs
+3 September 2026
+C# Developer
+Location
+Leiden, Netherlands
+Deadline
+12 October 2026"
+project-manager-for-software-and-ai-application-development,Project Manager for Software and AI Application Development,https://www.stariongroup.eu/career/project-manager-for-software-and-ai-application-development/,,,,,,"Project Manager for Software and AI Application Development
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+In this role, you will work within a multidisciplinary environment, supporting the design and implementation of advanced ground segment data analysis and planning optimisation systems. Leveraging AI technologies and cloud-based solutions, you will contribute to innovative development activities for the European Space Agency (ESA).
+With a track record spanning more than 80 missions and development programmes, Starion is a trusted partner to international and national space agencies, commercial satellite operators, system integrators, satellite manufacturers, and other key players across the space sector. We are recognised for delivering high quality engineering services, system solutions, and products that support every phase of the space mission lifecycle.
+Tasks and activities
+The scope of work will include:
+Taking full or partial responsibility for the successful definition, planning, execution and delivery of projects, including supporting senior Project Managers where required.
+Driving and overseeing system design activities, ensuring robust and innovative solutions are delivered.
+Influencing and supporting key architectural and technical decisions.
+Building strong relationships with customers and technical representatives, ensuring reviews are conducted efficiently and meet expectations.
+Working closely with Technical Leads to coordinate and motivate software development teams towards successful project outcomes.
+Proactively identifying, assessing and managing project risks, implementing effective mitigation strategies.
+Providing strong leadership and direction to project teams, ensuring performance remains aligned with project objectives.
+Developing and maintaining realistic project and quality plans, delivering accurate and insightful reporting to stakeholders.
+Facilitating clear communication and coordination across project activities, ensuring priorities are understood and effectively managed.
+Managing project resources, budgets and costs to ensure deliverables are achieved on time, within budget and to the highest quality standards.
+Contributing valuable technical expertise, knowledge and experience to support successful project delivery.
+Fostering long-term customer relationships and support Business Development activities to identify and secure new opportunities.
+Supporting the preparation of compelling proposals for future projects.
+Skills and experience
+The following skills and experience are mandatory:
+University degree in Software Engineering or a related discipline.
+Minimum of 5 years experience in software engineering, ideally including the development of AI-driven applications.
+Strong understanding of modern AI technology stacks and associated development frameworks.
+At least 2 years’ experience leading software development activities within a multidisciplinary team environment, including:
+
+- Driving technical discussions and fostering a solution-oriented approach to problem-solving.
+Delivering high quality presentations and confidently communicating complex concepts to a variety of audiences.
+Effectively planning and managing multiple workstreams and priorities simultaneously.
+Facilitating collaboration across teams and making timely, informed technical decisions.
+Supervising solution enhancements and modifications in line with project requirements and constraints.
+Solid knowledge of software development processes, methodologies and best practices.
+Good understanding of state-of-the-art Information Technology, including public and private cloud environments.
+Fluent in English, both written and spoken.
+The following skills and experience would be highly desirable:
+Knowledge of software modelling languages and tools.
+Experience with Dev(Sec)Ops practices.
+Understanding of object-oriented and service-oriented design.
+Knowledge of UML.
+Familiarity with Agile methodologies.
+Experience with Java development.
+Knowledge of cloud-based architectures.
+Space sector experience, particularly in Ground Segment systems and ECSS standards.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+Natalia Batres-Günther
+Recruiter
+Interested in this job?
+Share this vacancy
+Apply now - Project Manager for Software and AI Application Development
+""*"" indicates required fields
+Related jobs
+3 September 2026
+DevOps Engineer
+Location
+Darmstadt, Germany
+Diegem, Belgium
+Deadline
+12 October 2026
+16 July 2026
+AI Engineer
+Location
+Darmstadt, Germany
+2 June 2026
+Advanced Information Security Engineer
+Location
+Darmstadt, Germany
+Deadline
+12 October 2026"
+satellite-imagery-operator,Satellite Imagery Operator,https://www.stariongroup.eu/career/satellite-imagery-operator/,,,,,,"Satellite Imagery Operator
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+In this role, you will support end‑to‑end satellite imagery operations, including request management, image production, validation, and secure distribution to end users. You will work closely with the Mission Operations Centre and be involved in both mission preparation and routine operational activities.
+As part of the operations team, you will contribute to the 24/7 availability of the system and ensure the timely and accurate delivery of imagery products to governmental and commercial users.
+This position offers the opportunity to work on a national Earth Observation mission within a modern operations environment in Luxembourg.
+Tasks and activities
+The scope of work will include:
+Participating in all pre-operational activities, including the Commissioning Phase, End-to-End System Commissioning, Operational Qualification activities, and associated training.
+Supporting routine mission operations, including:
+
+- Reviewing and validating image requests from users and clients.
+Managing the secure dissemination of image products.
+Coordinating daily operational priorities with the Payload Operator.
+Monitoring and managing new image requests.
+Maintaining the Image Database and supporting Ground Control Segment HW/SW/Network maintenance.
+Preparing, updating and controlling Ground Operations Procedures and documentation.
+Supporting Ground Control Centre activities during routine operations, including:
+
+- Acting as Coordinator outside normal working hours and during weekends.
+Taking over Production activities on behalf of the Product Manager outside standard working hours.
+Supporting Operational Quality Checks and assuming Image Analyst responsibilities outside normal working hours.
+Skills and Experience
+The following skills and experience are mandatory:
+Senior Technician with a Technical School diploma in Informatics, or a degree in Geomatics, Geography, or equivalent (or higher).
+Ability to operate within a complex IT environment, adhering to procedures while managing user/client interfaces, service requests, programming activities, and FTP‑based deliveries.
+Ideally, operational knowledge of ground segment and space system management procedures.
+Operational knowledge of working with operational customers.
+Excellent, positive team spirit with strong cross‑functional collaboration skills.
+Highly motivated with a willingness to learn new skills.
+EU citizenship is a mandatory requirement.
+Fluent in English, both written and spoken.
+The following skills and experience would be highly desirable:
+Knowledge and hands‑on experience with Earth Observation systems.
+2–3 years of experience working in a 24/7 operational environment.
+Knowledge and experience in imagery or Geographic Information Systems (GIS).
+Knowledge of additional EU languages is an asset.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+Kiri Wood
+Recruiter
+Interested in this job?
+Share this vacancy
+Apply now - Satellite Imagery Operator
+""*"" indicates required fields
+Related jobs
+30 September 2026
+Antenna Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+12 October 2026
+30 September 2026
+IT Infrastructure Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+5 November 2026
+23 September 2026
+MBSE Engineer
+Location
+Leiden, Netherlands
+Deadline
+19 October 2026"
+system-engineer-quantum-technologies,System Engineer – Quantum Technologies,https://www.stariongroup.eu/career/system-engineer-quantum-technologies/,,,,,,"System Engineer – Quantum Technologies
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+We are looking for a System Engineer to work at ESTEC’s premises in Noordwijk, Netherlands. You will be responsible for providing system engineering support in relation to ESA in-house activities for EuroQCI (European Quantum Communication Infrastructure) Entrusted Tasks.
+About the client
+ESA’s Directorate of Connectivity and Secure Communications (CSC) drives innovation in satellite telecommunications by coordinating research, supporting the development of advanced technologies, and fostering strong industrial partnerships across Europe and Canada. It plays a key role in enabling the creation of cutting-edge satellite-based products and services, while also investing in public-private partnerships to develop and demonstrate next-generation communication systems.
+CSC is expanding its involvement in externally funded initiatives, notably contributing to the Union Secure Connectivity Programme (IRIS²), aimed at enhancing resilience, interconnectivity, and security through satellite infrastructure.
+Tasks and activities
+The scope of work shall include the following activities:
+Supporting system engineering activities for EuroQCI, including requirements definition and system architecture.
+Contributing to the design of quantum communication systems and Quantum Key Distribution (QKD) technologies across Space, Ground, and User Segments.
+Supporting system integration activities and interface management.
+Participating in technical trade-offs and performance assessments.
+Activities may include:
+Satellite and Constellation engineering.
+Functional and physical architecture definition.
+Interface definition.
+Verification and validation planning.
+Technical risk assessment.
+Skills and experience
+The following skills and experience are mandatory:
+Master’s Degree or equivalent in Aerospace Engineering, Physics, Electrical/Electronic Engineering or Similar technical field.
+At least 5 years of experience in Space Ground/Segment system engineering activities.
+Understanding of Space/Ground segment architecture & Interface Management.
+Knowledge of Quantum Key Distribution (QKD) principles and Optical Communications.
+Experience in System Architecture definition and Trade-off Analysis.
+Desire to work both autonomously and as part of a team, in an international multicultural environment.
+Solution-oriented mindset, with customer-focused communication skills.
+Ability to travel on missions when required occasionally.
+Fluent in English, both written and spoken.
+The following skills and experience would be highly desirable:
+Familiarity with Model-Based Systems Engineering (MBSE).
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+German Cingerli
+Recruitment Manager
+Interested in this job?
+Share this vacancy
+Apply now - System Engineer – Quantum Technologies
+""*"" indicates required fields
+Related jobs
+30 September 2026
+Antenna Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+12 October 2026
+30 September 2026
+IT Infrastructure Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+5 November 2026"
+system-security-engineer,System Security Engineer,https://www.stariongroup.eu/career/system-security-engineer/,,,,,,"System Security Engineer
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+We are currently seeking a System Security Engineer to support ESA’s Earth Observation programmes. Working alongside a team of experienced security experts, you will help protect critical space services, address complex security challenges, and contribute to the success of Europe’s leading space missions. Based in Frascati, Italy, this role offers flexible hybrid working and the opportunity to make a lasting impact in the space sector.
+Tasks and activities
+The scope of work will include:
+Conducting security risk assessments for space, ground and user-segment systems, recommending effective risk mitigation measures in line with ECSS, CCSDS, ISO/IEC 27005 and EBIOS methodologies.
+Defining, maintaining and enhancing security requirements across the full lifecycle of space systems, services and projects.
+Reviewing technical documentation and system designs to ensure compliance with security requirements, standards and accreditation constraints, identifying opportunities for improvement.
+Supporting the Project/System Security Officer in evolving the Earth Observation Security Framework and contributing to system certification and accreditation activities.
+Developing and maintaining key security deliverables, including policies, procedures, risk assessments, technical notes and assurance reports.
+Tracking the implementation of security controls and drive the follow-up of risks, treatment plans and remediation actions with stakeholders and service providers.
+Skills and experience
+Degree in Computer Science, IT, Information Security, Engineering, or a related field; equivalent experience will also be considered.
+5+ years’ experience in information security or ICT security engineering, ideally within complex or mission-critical environments.
+Strong understanding of security standards, risk assessment methodologies, and security requirements for ICT systems and services.
+Ability to analyse technical architectures and documentation, and produce clear security deliverables, including reports, procedures and technical notes.
+Good knowledge of ICT infrastructures and core security concepts, including access control, system hardening, vulnerability management and secure configuration.
+Strong analytical and problem-solving skills, with a practical approach to translating risks into effective solutions.
+Well organised, able to manage multiple priorities, and comfortable working both independently and within multidisciplinary teams.
+Excellent written and spoken English, with the ability to communicate effectively with technical and non-technical stakeholders.
+Experience working in international and multicultural environments.
+The following skills and experience would be highly desirable:
+Strong hands-on experience securing complex ICT environments, with expertise across cybersecurity technologies, risk management and security operations.
+Good knowledge of industry security frameworks and standards, including ISO 27001, NIST, EBIOS, ECSS and CCSDS, with the ability to apply them in practical engineering environments.
+Proven ability to drive security initiatives, coordinate technical activities and deliver effective solutions across cloud, virtualised and mission-critical systems.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+German Cingerli
+Recruitment Manager
+Interested in this job?
+Share this vacancy
+Apply now - System Security Engineer
+""*"" indicates required fields
+Related jobs
+30 September 2026
+Antenna Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+12 October 2026
+30 September 2026
+IT Infrastructure Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+5 November 2026
+23 September 2026
+MBSE Engineer
+Location
+Leiden, Netherlands
+Deadline
+19 October 2026"
+technology-rd-support-engineer,Technology R&D Support Engineer,https://www.stariongroup.eu/career/technology-rd-support-engineer/,,,,,,"Technology R&D Support Engineer
+Are you looking for a new opportunity to take your career to a higher orbit? To join an international group with a successful track record in Space Engineering? A job adapted to your career ambitions and in which you could have an impact for the years to come?
+We are currently looking for a Technology R&D Support Engineer to join our service team and work at ESA HQ in Paris, France. This is a unique opportunity to contribute to the advancement of innovative technologies at the heart of Europe’s space programme.
+In this role, you will support ESA’s technology and innovation activities, working with experts across the Agency to manage ideas, improve processes, and develop automation and reporting solutions that help bring new concepts to life.
+About the client and location
+The European Space Agency’s (ESA) headquarters are based in Paris, France. It is from here that all major political and administrative decisions are made with regard to ESA’s programmes, budgets and current and future plans.
+Tasks and activities
+The scope of work will include:
+Supporting and managing OSIP campaigns and channels, engaging with idea authors, coordinating evaluations, and driving continuous improvements.
+Providing space systems engineering support for the planning, execution, and follow-up of ESA R&D activities.
+Monitoring programme performance, capture lessons learned, and help identify promising activities for further development within ESA programmes.
+Developing and enhancing automation, reporting, and workflow solutions, including Power BI analytics and data integration from multiple sources.
+Contributing to stakeholder communication through web tools, training materials, documentation, and dissemination activities.
+Skills and Experience
+The following skills and experience are mandatory:
+Master’s degree in a relevant space science or engineering discipline with at least 4 years of professional experience.
+Strong background in space systems engineering, combined with programming and automation skills (e.g. Python) and an interest in innovation activities.
+Knowledge of web applications, automation tools, and scripting languages such as Python.
+Interest in open innovation, emerging technologies, and continuous learning.
+Proactive, curious, and adaptable, with a passion for exploring new ideas and solutions.
+Ability to work both independently and collaboratively within an international and multicultural environment.
+Strong communication skills, a customer-focused mindset, and a solution-oriented approach.
+Fluency in English, both written and spoken.
+The following skills and experience would be highly desirable:
+Knowledge of Space Systems Engineering and the European space technology R&D landscape.
+Experience with OSIP, either as an idea author or in a campaign/channel management role.
+Why should you apply?
+You will have the opportunity to work within leading space organisations across Europe.
+We encourage everyone to think outside the box and to push the boundaries of traditional knowledge. This role is an opportunity to join a forward-thinking company and allows for a deeper understanding of the industry.
+To be part of a company that values integrity, inspiration, care and collaboration.
+Benefits include: competitive remuneration packages; unique career opportunities, including working in other countries; access to training and development programmes; flexible relocation support.
+We are proud to be an equal opportunity employer, committed to achieving diversity within the workforce and creating an inclusive working environment. We therefore welcome applications from all candidates, irrespective of gender, sexual orientation, ethnicity, religious beliefs, age, disability or other characteristics.
+As part of our commitment to providing an inclusive and barrier-free recruitment process, we will provide reasonable adjustments and support to ensure neuro-diverse applicants or those with a disability or long-term condition can be their best during the recruitment process.
+Questions? Contact
+German Cingerli
+Recruitment Manager
+Interested in this job?
+Share this vacancy
+Apply now - Technology R&D Support Engineer
+""*"" indicates required fields
+Related jobs
+30 September 2026
+Antenna Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+12 October 2026
+30 September 2026
+IT Infrastructure Engineer
+Location
+Noordwijk, Netherlands
+Deadline
+5 November 2026
+23 September 2026
+MBSE Engineer
+Location
+Leiden, Netherlands
+Deadline
+19 October 2026"

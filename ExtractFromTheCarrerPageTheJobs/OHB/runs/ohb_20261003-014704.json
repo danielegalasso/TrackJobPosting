@@ -1,0 +1,109 @@
+{
+  "source": "https://career-ohb.csod.com/ux/ats/careersite/4/home?c=career-ohb&cfdd[0][id]=16&cfdd[0][options][0]=29&sq=cyber%20security&lang=en-GB",
+  "company": "OHB",
+  "query": "cyber security",
+  "extracted_at": "2026-10-03T01:47:04",
+  "site_total": 9,
+  "extracted": 9,
+  "postings": [
+    {
+      "job_id": "7908",
+      "title": "(Senior) Cyber Security Manager:in für Raumfahrtprojekte (m/w/d)",
+      "location": "Bremen, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "2026-03-09",
+      "deadline": "",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/7908?c=career-ohb",
+      "description": "Unser Team verantwortet die Informationssicherheit und Cyber Security in vielfältigen OHB‑Projekten. Dazu zählen insbesondere die Sicherung von Gesamtsystemen und Bodensegmenten nach nationalen Vorgaben (BSI‑Grundschutz), ESA‑Missionen sowie Studien zur Entwicklung neuer Security‑Technologien. Zur Verstärkung unseres Teams suchen wir einen Manager:in für Informationssicherheit als zentrale Schnittstelle zwischen Projektleitung, Auftraggebern und technischen Fachbereichen. Das umfasst sowohl das strukturierte Erstellen von Konzepten und Dokumentationen als auch den aktiven Austausch mit unterschiedlichsten Fachbereichen. Diese Rolle erfordert ein gutes Verständnis von IT und IT‑Security – noch wichtiger ist jedoch die Bereitschaft, sich kontinuierlich weiterzuentwickeln und interdisziplinär zu arbeiten. Als Senior liegt der Schwerpunkt auf der Anleitung und fachlichen Führung anderer, um als gemeinsames Projekt‑Security‑Team auch große und komplexe Raumfahrtvorhaben erfolgreich umzusetzen. Die Aufgaben Planung, Organisation und Durchführung des Informationssicherheitszyklus gem. BSI Grundschutz, ISO 27001 oder spezifischer Kundenvorgaben (z.B. ESA Security Framework) Ausarbeiten von Konzepten für die Informationssicherheit in Projekten unter Berücksichtigung der Kundenanforderungen und der speziellen Gegebenheiten der Raumfahrt Ausarbeitung von Informationssicherheitsmaßnahmen (technisch und organisatorisch) und Kontrolle der Umsetzungen Durchführung von Security Risikoanalysen Abstimmung mit Projektverantwortlichen, Auftraggebern und Sicherheitsbeauftragten auf unterschiedlichen Ebenen Beratung und Unterstützung bei der Umsetzung, z.B. für IT-Admins und Softwareentwickler:innen"
+    },
+    {
+      "job_id": "6237",
+      "title": "Cyber Security Analyst (m/w/d)",
+      "location": "Bremen, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "2026-05-08",
+      "deadline": "",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/6237?c=career-ohb",
+      "description": "Du führst First- und Second-Level Analysen in Sicherheitssystemen (EDR, NDR, CCA, SIEM) unserer Kunden durch Du unterstützt bei der Erstellung von sicherheitsrelevanten Architekturen und Konzepten"
+    },
+    {
+      "job_id": "8150",
+      "title": "Cybersecurity Systems Engineer (m/f/d)",
+      "location": "Bremen, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "",
+      "deadline": "",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/8150?c=career-ohb",
+      "description": "Technical coordination of cybersecurity-related tasks with customer, subcontractors and internal technical disciplines Flow down of the security requirements to subsystem and equipment level specifications Ensure compliance to the security technical requirements Support the generation the AIT plans and operation plans Support preparation of satellite tests and review of test results with focus on security functions Define Test Specifications for Security tests and verification Support preparation for launch and flight phases, preparation of launcher interfaces and for operations data Contribute to the project risk management for risks of security nature"
+    },
+    {
+      "job_id": "8518",
+      "title": "Head of Information & Cyber Security (m/w/d)",
+      "location": "Bremen, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "",
+      "deadline": "",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/8518?c=career-ohb",
+      "description": "Aufbau und Leitung der Informationssicherheits- und Cyber-Security-Organisation Entwicklung und Umsetzung der Information-Security-Strategie in Einklang mit den Unternehmens-, Kunden- und Behördenanforderungen Etablierung, Betrieb und kontinuierliche Weiterentwicklung eines Information Security Management Systems (ISMS) Sicherstellung der Einhaltung relevanter Standards und regulatorischer Anforderungen, insbesondere ISO 27001, NIS2, BSI IT-Grundschutz, BSI VS-ITR, ECSS-Sicherheitsanforderungen sowie kundenspezifischer Vorgaben Einführung und Verankerung von Security-by-Design, Secure-by-Default und eines unternehmensweiten Secure Development Lifecycle (SDL) in Entwicklungs-, Integrations- und Produktionsprozessen Verantwortung für Product Security, Cyber Resilience und die Absicherung von Hard-, Software- und Systemlösungen über den gesamten Produktlebenszyklus hinweg Verantwortung für Cyber-Risiko-Management, Security Assessments, Threat Analysen, Vulnerability Management, Penetration Testing und Security Audits Aufbau und Weiterentwicklung eines Zero-Trust-Sicherheitsansatzes für Unternehmens-, Entwicklungs- und Produktionsumgebungen Etablierung von Maßnahmen zur Supply-Chain Security, einschließlich Bewertung, Steuerung und Überwachung von Sicherheitsanforderungen bei Lieferanten und Partnern Unterstützung von Entwicklungs-, Software-, System- und Produktteams bei sicherheitskritischen Fragestellungen sowie bei der Umsetzung von Security-Anforderungen in Kundenprojekten Verantwortung für die Akkreditierung und Zulassung sicherheitskritischer Systeme und Infrastrukturen in Zusammenarbeit mit Kunden, Behörden und Zertifizierungsstellen Aufbau und Steuerung von Prozessen für Incident Response, Security Monitoring, Threat Detection, Business Continuity und Cyber-Resilienz Steuerung externer Dienstleister sowie Zusammenarbeit mit Kunden, Partnern und Behörden in allen Fragen der Informations- und Cyber-Sicherheit Durchführung und Begleitung von Kunden-, Behörden- und Zertifizierungsaudits sowie Sicherstellung der Auditfähigkeit der Organisation Regelmäßiges Reporting an Geschäftsführung und Management zu Sicherheitsrisiken, Compliance-Status und erforderlichen Maßnahmen Aufbau und Entwicklung eines leistungsfähigen Security-Teams"
+    },
+    {
+      "job_id": "7909",
+      "title": "IT Security Engineer (m/w/d)",
+      "location": "Bremen, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "2026-03-09",
+      "deadline": "",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/7909?c=career-ohb",
+      "description": "Unser Team verantwortet die Informationssicherheit und Cyber Security in vielfältigen OHB‑Projekten. Dazu zählen insbesondere die Absicherung von Gesamtsystemen und Bodensegmenten nach Kundenvorgaben, ESA‑Missionen sowie Studien zur Entwicklung neuer Security‑Technologien. Zur Verstärkung unseres Teams suchen wir einen IT‑Sicherheitsadministrator als Verantwortlichen für die Systemhärtung und den sicheren Betrieb des Bodensegments. Diese Rolle erfordert ein gutes Verständnis von IT und IT‑Security – noch wichtiger ist jedoch die Bereitschaft, sich kontinuierlich weiterzuentwickeln und interdisziplinär zu arbeiten. Als Senior liegt der Schwerpunkt in der Entwicklung und Etablierung neuer Technologien und Produkte. Die Aufgaben Erarbeitung von Härtungsvorgaben, sowie Umsetzung und Nachweis der Umsetzung in automatisierten Abläufen (z.B. Ansible) Unterstützung der IT-Systemingenieure bei der Konzeption eines sicheren Systems Zuarbeit zur Erstellung des Informationssicherheitskonzeptes Prüfen und Bewerten von Cyber Security Maßnahmen im Projektumfeld, Suche nach Schwachstellen und Sicherheitslücken Nachverfolgung von Softwareständen, Threat Advisories und Update Zyklen, um die Sicherheit des Systems jederzeit zu gewährleisten Neu- und Weiterentwicklung von IT-Security Produkten im Space Kontext Mitarbeit and Studien zur Entwicklung neuer Sicherheitstechnologien für die Raumfahrt, z.B. QKD oder VPN Konzeption und Betreuung von Systemen für den sicheren Betrieb, z.B. SOC, SIEM"
+    },
+    {
+      "job_id": "8294",
+      "title": "IT System Administrator - Critical Infrastructure (Rail) (m/f/d)",
+      "location": "Gilching, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "",
+      "deadline": "2026-01-11",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/8294?c=career-ohb",
+      "description": "Plan, operate, and maintain complex IT systems in a critical infrastructure environment with high availability requirements Ensure compliance with defined Service Level Agreements (SLAs) and internal quality standards Integrate and configure IT systems into existing and new infrastructures, with a strong focus on IT/OT security Monitor system performance and proactively identify and resolve issues Support the definition, implementation, and continuous improvement of operational processes and tools Create and maintain technical documentation for systems and processes Configure, parameterize, and test IT applications in line with operational and security requirements"
+    },
+    {
+      "job_id": "8673",
+      "title": "Key Account Manager - Rail Infrastructure (f/m/d)",
+      "location": "Gilching, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "",
+      "deadline": "",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/8673?c=career-ohb",
+      "description": "Capture, analyze, and assess customer requirements and develop complex system solutions in close coordination with internal interface partners Take responsibility for the preparation, costing, and follow-up of quotations and proposals Lead offer and contract negotiations with customers and business partners Strategically manage and develop existing key accounts while identifying new business opportunities Represent OHB Teledata at trade fairs, specialist conferences, and customer events Coordinate sales support and order processing to ensure professional and efficient customer service Take ownership of revenue planning within your area of responsibility Work closely with technical, commercial, and operational functions to support the successful implementation of customer projects"
+    },
+    {
+      "job_id": "6985",
+      "title": "Proposal Manager für Cyber Security und IT (m/w/d)",
+      "location": "Bremen, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "",
+      "deadline": "",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/6985?c=career-ohb",
+      "description": "Du erstellst Proposals im Bereich Cyber Security mit dem Fokus auf institutionelle Kunden Du nimmst aktiv an der Entwicklung von Geschäftsmodellen für zukünftige Projekte sowie an Vertragsverhandlungen mit Kunden teil Dabei verantwortest du den gesamten Prozess von der Anforderungsanalyse, über den fachlichen Input deiner Kollegen, bis hin zur termingerechten Abgabe In Zusammenarbeit mit dem Fachbereich und der kaufmännischen Abteilung unterstützt du die Projektplanung und technische Vorauslegung Du bist offen, die koordinierende Rolle für ausgewählte Cyber Security Projekte sowie Aufgaben im Projektmanagement zu übernehmen Du verantwortest die eigenständige Bewertung neuer Ausschreibungen, unter Berücksichtigung der Kernkompetenzen der OHB Digital Services Du beobachtest die aktuellen Cyber Security Programme, hältst dich dazu stetig auf dem Laufenden und stimmst Dich intern mit Proposal Managern aus anderen OHB-Tochterfirmen ab"
+    },
+    {
+      "job_id": "7607",
+      "title": "Systemingenieur:in Software (m/w/d)",
+      "location": "Bremen, DE",
+      "additional_locations": "",
+      "country": "DE",
+      "published": "",
+      "deadline": "",
+      "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home/requisition/7607?c=career-ohb",
+      "description": "Ziel der Tätigkeit Als Systemingenieur:in Software übernimmst du Verantwortung im Rahmen komplexer Software-Systeme im Kontext von Satellitenbodensystemen. Du bringst Projekte nicht nur kompetent auf den Weg, du unterstützt sie maßgebend und bist dabei Hauptansprechpartner:in für die Projektleitenden und Kund:innen für die Softwareentwicklung. Ihre Aufgaben im Detail Als Systemingenieur:in Software übernimmst du fachliche Leitung für die Aufstellung und/oder Durchführung von agilen Software-Projekten unterschiedlicher Komplexität Je nach Komplexität der Projekte konzipierst du die Architektur und den Aufbau der Entwicklungskette mittels Requirements Engineering, typischerweise in Kooperation mit dem/der verantwortlichen Systemingenieur:in und den technisch verantwortlichen im Bereich Softwareentwicklung Du stehst im direkten Kontakt mit der (technischen) Projektleitung und berätst in Bezug auf eingesetzte Technologien und Vorgehensweisen. Außerdem bist du im Austausch mit den technischen Verantwortlichen in anderen Projekten, um Wissenstransfer über die Projekte hinweg zu ermöglichen und zu fördern Du übernimmst die technische Koordination für die Software-Entwicklung, aber auch laufend für die Software-Architektur, das Software-Design sowie die Software-Verifizierung und -Validierung, falls erforderlich auch mit Software-Zulieferern Als fachliche Führungskraft kommunizierst du mit Stakeholdern aus den Bereichen Systems Engineering, IT Engineering sowie Cyber Security und erarbeitest Arbeitspakete und Strategien Du bist verantwortlich dafür, die notwendige Dokumentation sicherzustellen, z.B. System-, Prozess- oder Schnittstellenbeschreibungen Bei kleineren, reinen Software-Projekten kannst du die der Rolle des verantwortlichen Systems Engineer bzw. Software Lead oder Product Owner einnehmen"
+    }
+  ]
+}

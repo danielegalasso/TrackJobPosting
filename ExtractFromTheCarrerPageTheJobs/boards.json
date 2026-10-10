@@ -1,0 +1,1848 @@
+[
+  {
+    "name": "TelespazioItalia",
+    "company": "Telespazio (Leonardo)",
+    "url": "https://leonardocompany.wd3.myworkdayjobs.com/en-US/LeonardoCareerSite/details/Senior-Bid-Manager_R0001066?locations=2dc6ef272d0f010a9a50342867b90000&locations=2dc6ef272d0f010a9a4fcdcbc6620000&locations=2dc6ef272d0f010a9a4f43ec11650000&locations=2dc6ef272d0f010a9a4ed484e3740000",
+    "platform": "workday",
+    "host": "leonardocompany.wd3.myworkdayjobs.com",
+    "tenant": "leonardocompany",
+    "site": "LeonardoCareerSite",
+    "facets": {
+      "locations": [
+        "2dc6ef272d0f010a9a50342867b90000",
+        "2dc6ef272d0f010a9a4fcdcbc6620000",
+        "2dc6ef272d0f010a9a4f43ec11650000",
+        "2dc6ef272d0f010a9a4ed484e3740000"
+      ]
+    }
+  },
+  {
+    "name": "NXP",
+    "company": "NXP",
+    "url": "https://nxp.wd3.myworkdayjobs.com/careers",
+    "platform": "workday",
+    "host": "nxp.wd3.myworkdayjobs.com",
+    "tenant": "nxp",
+    "site": "careers"
+  },
+  {
+    "name": "ArcticWolf",
+    "company": "Arctic Wolf",
+    "url": "https://arcticwolf.wd1.myworkdayjobs.com/External",
+    "platform": "workday",
+    "host": "arcticwolf.wd1.myworkdayjobs.com",
+    "tenant": "arcticwolf",
+    "site": "External"
+  },
+  {
+    "name": "CrowdStrike",
+    "company": "CrowdStrike",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",
+    "platform": "workday",
+    "host": "crowdstrike.wd5.myworkdayjobs.com",
+    "tenant": "crowdstrike",
+    "site": "crowdstrikecareers"
+  },
+  {
+    "name": "Darktrace",
+    "company": "Darktrace",
+    "url": "https://darktrace.wd3.myworkdayjobs.com/DarktaceExternal",
+    "platform": "workday",
+    "host": "darktrace.wd3.myworkdayjobs.com",
+    "tenant": "darktrace",
+    "site": "DarktaceExternal"
+  },
+  {
+    "name": "Qualys",
+    "company": "Qualys",
+    "url": "https://qualys.wd5.myworkdayjobs.com/Careers",
+    "platform": "workday",
+    "host": "qualys.wd5.myworkdayjobs.com",
+    "tenant": "qualys",
+    "site": "Careers"
+  },
+  {
+    "name": "Damen",
+    "company": "Damen",
+    "url": "https://damen.wd3.myworkdayjobs.com/Damen_Careers",
+    "platform": "workday",
+    "host": "damen.wd3.myworkdayjobs.com",
+    "tenant": "damen",
+    "site": "Damen_Careers"
+  },
+  {
+    "name": "MBDAItaly",
+    "company": "MBDA Italia",
+    "url": "https://mbda.wd3.myworkdayjobs.com/it-IT/MBDA-Italy?q=cyber",
+    "platform": "workday",
+    "host": "mbda.wd3.myworkdayjobs.com",
+    "tenant": "mbda",
+    "site": "MBDA-Italy",
+    "query": "cyber",
+    "locale": "it-IT"
+  },
+  {
+    "name": "ArianeGroup",
+    "company": "ArianeGroup",
+    "url": "https://arianegroup.wd3.myworkdayjobs.com/en-US/EXTERNALALL?q=cyber%20security",
+    "platform": "workday",
+    "host": "arianegroup.wd3.myworkdayjobs.com",
+    "tenant": "arianegroup",
+    "site": "EXTERNALALL",
+    "query": "cyber security"
+  },
+  {
+    "name": "PaloAlto",
+    "company": "Palo Alto Networks",
+    "url": "https://jobs.paloaltonetworks.com/en/search-jobs",
+    "platform": "workday",
+    "host": "paloaltonetworks.wd5.myworkdayjobs.com",
+    "tenant": "paloaltonetworks",
+    "site": "panwexternalcareers"
+  },
+  {
+    "name": "Boeing",
+    "company": "Boeing",
+    "url": "https://jobs.boeing.com/search-jobs/cyber/185/1",
+    "platform": "workday",
+    "host": "boeing.wd1.myworkdayjobs.com",
+    "tenant": "boeing",
+    "site": "EXTERNAL_CAREERS",
+    "query": "cyber"
+  },
+  {
+    "name": "Trellix",
+    "company": "Trellix",
+    "url": "https://careers.trellix.com/jobs/",
+    "platform": "workday",
+    "host": "trellix.wd1.myworkdayjobs.com",
+    "tenant": "trellix",
+    "site": "EnterpriseCareers"
+  },
+  {
+    "name": "FNBrowning",
+    "company": "FN Browning Group",
+    "url": "https://jobs.fnbrowninggroup.com/search?locale=fr_FR&searchResultView=LIST",
+    "platform": "successfactors",
+    "host": "jobs.fnbrowninggroup.com",
+    "locale": "fr_FR"
+  },
+  {
+    "name": "GDELS",
+    "company": "General Dynamics European Land Systems",
+    "url": "https://careers.gdels.com/search/?q=security",
+    "platform": "successfactors",
+    "host": "careers.gdels.com",
+    "locale": "en_US",
+    "query": "security"
+  },
+  {
+    "name": "DLR",
+    "company": "DLR",
+    "url": "https://jobs.dlr.de/search/?q=cyber+security",
+    "platform": "successfactors",
+    "host": "jobs.dlr.de",
+    "locale": "de_DE",
+    "query": "cyber security"
+  },
+  {
+    "name": "Terna",
+    "company": "Terna",
+    "url": "https://jobs.terna.it/search/?locale=it_it&searchResultView=LIST",
+    "platform": "successfactors",
+    "host": "jobs.terna.it",
+    "locale": "it_IT"
+  },
+  {
+    "name": "Dragos",
+    "company": "Dragos",
+    "url": "https://job-boards.greenhouse.io/dragos",
+    "platform": "greenhouse",
+    "board": "dragos"
+  },
+  {
+    "name": "Bitdefender",
+    "company": "Bitdefender",
+    "url": "https://www.bitdefender.com/en-us/company/careers/jobs",
+    "platform": "greenhouse",
+    "board": "scbitdefendersrl"
+  },
+  {
+    "name": "Guardsquare",
+    "company": "Guardsquare",
+    "url": "https://www.guardsquare.com/careers",
+    "platform": "greenhouse",
+    "board": "guardsquare"
+  },
+  {
+    "name": "Nozomi",
+    "company": "Nozomi Networks",
+    "url": "https://www.nozominetworks.com/company/careers#openings",
+    "platform": "greenhouse",
+    "board": "nozominetworks"
+  },
+  {
+    "name": "Cloudflare",
+    "company": "Cloudflare",
+    "url": "https://www.cloudflare.com/careers/jobs/",
+    "platform": "greenhouse",
+    "board": "cloudflare"
+  },
+  {
+    "name": "ARXRobotics",
+    "company": "ARX Robotics",
+    "url": "https://www.arx-robotics.com/careers",
+    "platform": "greenhouse",
+    "board": "arxroboticsgmbh"
+  },
+  {
+    "name": "AlpineEagle",
+    "company": "Alpine Eagle",
+    "url": "https://alpineeagle.com/join-us/",
+    "platform": "greenhouse",
+    "board": "alpineeagle"
+  },
+  {
+    "name": "IsarAerospace",
+    "company": "Isar Aerospace",
+    "url": "https://isaraerospace.com/career",
+    "platform": "greenhouse",
+    "board": "isaraerospace"
+  },
+  {
+    "name": "RFA",
+    "company": "Rocket Factory Augsburg",
+    "url": "https://job-boards.eu.greenhouse.io/rocketfactoryaugsburgag?keyword=cybersecurity",
+    "platform": "greenhouse",
+    "board": "rocketfactoryaugsburgag",
+    "query": "cybersecurity"
+  },
+  {
+    "name": "Anthropic",
+    "company": "Anthropic",
+    "url": "https://www.anthropic.com/careers/jobs",
+    "platform": "greenhouse",
+    "board": "anthropic"
+  },
+  {
+    "name": "PhysicsX",
+    "company": "PhysicsX",
+    "url": "https://job-boards.eu.greenhouse.io/physicsx",
+    "platform": "greenhouse",
+    "board": "physicsx"
+  },
+  {
+    "name": "EyeSecurity",
+    "company": "Eye Security",
+    "url": "https://jobs.ashbyhq.com/eye-security",
+    "platform": "ashby",
+    "board": "eye-security"
+  },
+  {
+    "name": "HackerOne",
+    "company": "HackerOne",
+    "url": "https://jobs.ashbyhq.com/hackerone",
+    "platform": "ashby",
+    "board": "hackerone"
+  },
+  {
+    "name": "ImmersiveLabs",
+    "company": "Immersive Labs",
+    "url": "https://jobs.ashbyhq.com/immersivelabs",
+    "platform": "ashby",
+    "board": "immersivelabs"
+  },
+  {
+    "name": "Ledger",
+    "company": "Ledger",
+    "url": "https://jobs.ashbyhq.com/ledger",
+    "platform": "ashby",
+    "board": "ledger"
+  },
+  {
+    "name": "SandboxAQ",
+    "company": "SandboxAQ",
+    "url": "https://www.sandboxaq.com/careers-list",
+    "platform": "ashby",
+    "board": "sandboxaq"
+  },
+  {
+    "name": "Snyk",
+    "company": "Snyk",
+    "url": "https://snyk.io/careers/all-jobs/",
+    "platform": "ashby",
+    "board": "snyk"
+  },
+  {
+    "name": "ComandAI",
+    "company": "Comand AI",
+    "url": "https://jobs.ashbyhq.com/comand-ai",
+    "platform": "ashby",
+    "board": "comand-ai"
+  },
+  {
+    "name": "Delian",
+    "company": "Delian Alliance Industries",
+    "url": "https://jobs.ashbyhq.com/delian",
+    "platform": "ashby",
+    "board": "delian"
+  },
+  {
+    "name": "ExplorationCompany",
+    "company": "The Exploration Company",
+    "url": "https://www.exploration.space/careers#job-application",
+    "platform": "ashby",
+    "board": "the-exploration-company"
+  },
+  {
+    "name": "AlephAlpha",
+    "company": "Aleph Alpha",
+    "url": "https://jobs.ashbyhq.com/AlephAlpha",
+    "platform": "ashby",
+    "board": "AlephAlpha"
+  },
+  {
+    "name": "Mistral",
+    "company": "Mistral AI",
+    "url": "https://jobs.ashbyhq.com/mistral.ai",
+    "platform": "ashby",
+    "board": "mistral.ai"
+  },
+  {
+    "name": "Axelera",
+    "company": "Axelera AI",
+    "url": "https://axelera.ai/careers#openings",
+    "platform": "ashby",
+    "board": "axelera"
+  },
+  {
+    "name": "Picus",
+    "company": "Picus Security",
+    "url": "https://jobs.lever.co/picus",
+    "platform": "lever",
+    "board": "picus"
+  },
+  {
+    "name": "Sophos",
+    "company": "Sophos",
+    "url": "https://jobs.lever.co/sophos",
+    "platform": "lever",
+    "board": "sophos"
+  },
+  {
+    "name": "Tiberius",
+    "company": "Tiberius Aerospace",
+    "url": "https://www.tiberius.com/join-us",
+    "platform": "lever",
+    "board": "tiberius"
+  },
+  {
+    "name": "LoftOrbital",
+    "company": "Loft Orbital",
+    "url": "https://jobs.lever.co/loftorbital/",
+    "platform": "lever",
+    "board": "loftorbital"
+  },
+  {
+    "name": "CryptoNext",
+    "company": "CryptoNext Security",
+    "url": "https://apply.workable.com/cryptonext-security/#jobs",
+    "platform": "workable",
+    "board": "cryptonext-security"
+  },
+  {
+    "name": "HackTheBox",
+    "company": "Hack The Box",
+    "url": "https://www.hackthebox.com/join-us#view-roles",
+    "platform": "workable",
+    "board": "hack-the-box-ltd"
+  },
+  {
+    "name": "TrailOfBits",
+    "company": "Trail of Bits",
+    "url": "https://apply.workable.com/trailofbits/",
+    "platform": "workable",
+    "board": "trailofbits"
+  },
+  {
+    "name": "Destinus",
+    "company": "Destinus",
+    "url": "https://apply.workable.com/destinusgroup/",
+    "platform": "workable",
+    "board": "destinusgroup"
+  },
+  {
+    "name": "Quandela",
+    "company": "Quandela",
+    "url": "https://www.quandela.com/about-us/careers/",
+    "platform": "workable",
+    "board": "quandela"
+  },
+  {
+    "name": "Vyoma",
+    "company": "Vyoma",
+    "url": "https://vyoma-gmbh.jobs.personio.de/",
+    "platform": "personio",
+    "board": "vyoma-gmbh",
+    "domain": "de"
+  },
+  {
+    "name": "ERNW",
+    "company": "ERNW",
+    "url": "https://ernw.jobs.personio.com/",
+    "platform": "personio",
+    "board": "ernw",
+    "domain": "com"
+  },
+  {
+    "name": "Intigriti",
+    "company": "Intigriti",
+    "url": "https://intigriti.jobs.personio.com/",
+    "platform": "personio",
+    "board": "intigriti",
+    "domain": "com"
+  },
+  {
+    "name": "Stark",
+    "company": "STARK Defence",
+    "url": "https://stark-defence.com/en/career",
+    "platform": "personio",
+    "board": "stark",
+    "domain": "de"
+  },
+  {
+    "name": "Mynaric",
+    "company": "Mynaric",
+    "url": "https://mynaric.com/careers/all-open-positions/",
+    "platform": "personio",
+    "board": "mynaric",
+    "domain": "de"
+  },
+  {
+    "name": "ECFR",
+    "company": "European Council on Foreign Relations (ECFR)",
+    "url": "https://ecfr.eu/jobs/",
+    "platform": "personio",
+    "board": "ecfr",
+    "domain": "de"
+  },
+  {
+    "name": "Lookup",
+    "company": "LookUp Space",
+    "url": "https://www.lookupspace.com/careers#jobs",
+    "platform": "recruitee",
+    "board": "lookup"
+  },
+  {
+    "name": "Northwave",
+    "company": "Northwave Cybersecurity",
+    "url": "https://careers.northwave-cybersecurity.com/",
+    "platform": "recruitee",
+    "host": "careers.northwave-cybersecurity.com"
+  },
+  {
+    "name": "ON2IT",
+    "company": "ON2IT",
+    "url": "https://on2it.net/careers/",
+    "platform": "recruitee",
+    "board": "on2it"
+  },
+  {
+    "name": "Tesorion",
+    "company": "Tesorion",
+    "url": "https://join.tesorion.com/",
+    "platform": "recruitee",
+    "host": "join.tesorion.com"
+  },
+  {
+    "name": "QuantumSystems",
+    "company": "Quantum Systems",
+    "url": "https://career.quantum-systems.com/",
+    "platform": "recruitee",
+    "host": "career.quantum-systems.com"
+  },
+  {
+    "name": "Tytan",
+    "company": "TYTAN Technologies",
+    "url": "https://www.tytan-technologies.com/careers",
+    "platform": "recruitee",
+    "board": "tytantechnologiesgmbh"
+  },
+  {
+    "name": "Almond",
+    "company": "Almond",
+    "url": "https://careers.almond.eu/jobs",
+    "platform": "teamtailor",
+    "host": "careers.almond.eu"
+  },
+  {
+    "name": "Detectify",
+    "company": "Detectify",
+    "url": "https://careers.detectify.com/jobs",
+    "platform": "teamtailor",
+    "host": "careers.detectify.com"
+  },
+  {
+    "name": "HarfangLab",
+    "company": "HarfangLab",
+    "url": "https://harfanglab-1666711819.teamtailor.com/jobs",
+    "platform": "teamtailor",
+    "host": "harfanglab-1666711819.teamtailor.com"
+  },
+  {
+    "name": "Omegapoint",
+    "company": "Omegapoint",
+    "url": "https://jobb.omegapoint.se/en/jobs",
+    "platform": "teamtailor",
+    "host": "jobb.omegapoint.se"
+  },
+  {
+    "name": "OrangeCyberdefense",
+    "company": "Orange Cyberdefense",
+    "url": "https://jobs.orangecyberdefense.com/jobs",
+    "platform": "teamtailor",
+    "host": "jobs.orangecyberdefense.com"
+  },
+  {
+    "name": "Outpost24",
+    "company": "Outpost24",
+    "url": "https://careers.outpost24.com/jobs",
+    "platform": "teamtailor",
+    "host": "careers.outpost24.com"
+  },
+  {
+    "name": "Sekoia",
+    "company": "Sekoia.io",
+    "url": "https://careers.sekoia.com/jobs",
+    "platform": "teamtailor",
+    "host": "careers.sekoia.com"
+  },
+  {
+    "name": "Stormshield",
+    "company": "Stormshield",
+    "url": "https://careers.stormshield.eu/en/jobs",
+    "platform": "teamtailor",
+    "host": "careers.stormshield.eu"
+  },
+  {
+    "name": "VarGroup",
+    "company": "Var Group",
+    "url": "https://www.careers.vargroup.com/jobs",
+    "platform": "teamtailor",
+    "host": "www.careers.vargroup.com"
+  },
+  {
+    "name": "Frankenburg",
+    "company": "Frankenburg Technologies",
+    "url": "https://careers.frankenburg.tech/jobs",
+    "platform": "teamtailor",
+    "host": "careers.frankenburg.tech"
+  },
+  {
+    "name": "Milrem",
+    "company": "Milrem Robotics",
+    "url": "https://careers.milrem.com/jobs",
+    "platform": "teamtailor",
+    "host": "careers.milrem.com"
+  },
+  {
+    "name": "NordicAirDefence",
+    "company": "Nordic Air Defence",
+    "url": "https://www.nordicairdefence.com/jobs",
+    "platform": "teamtailor",
+    "host": "nordicairdefence.teamtailor.com"
+  },
+  {
+    "name": "Tekever",
+    "company": "Tekever",
+    "url": "https://careers.tekever.com/jobs",
+    "platform": "teamtailor",
+    "host": "careers.tekever.com"
+  },
+  {
+    "name": "Patria",
+    "company": "Patria",
+    "url": "https://www.patriagroup.com/working-with-us#open-positions",
+    "platform": "teamtailor",
+    "host": "careers.patriagroup.com"
+  },
+  {
+    "name": "Exotrail",
+    "company": "Exotrail",
+    "url": "https://www.exotrail.com/careers",
+    "platform": "teamtailor",
+    "host": "careers.exotrail.com"
+  },
+  {
+    "name": "LeafSpace",
+    "company": "Leaf Space",
+    "url": "https://leaf.space/contact/work-with-us/",
+    "platform": "teamtailor",
+    "host": "leafspace.teamtailor.com"
+  },
+  {
+    "name": "OpenCosmos",
+    "company": "Open Cosmos",
+    "url": "https://careers.open-cosmos.com/jobs?split_view=true&query=cyber+security+",
+    "platform": "teamtailor",
+    "host": "careers.open-cosmos.com",
+    "query": "cyber security"
+  },
+  {
+    "name": "Sateliot",
+    "company": "Sateliot",
+    "url": "https://careers.sateliot.com/jobs",
+    "platform": "teamtailor",
+    "host": "careers.sateliot.com"
+  },
+  {
+    "name": "IQM",
+    "company": "IQM Quantum Computers",
+    "url": "https://iqm.tech/careers/join-us/",
+    "platform": "teamtailor",
+    "host": "iqm.teamtailor.com"
+  },
+  {
+    "name": "Pasqal",
+    "company": "Pasqal",
+    "url": "https://careers.pasqal.com/jobs",
+    "platform": "teamtailor",
+    "host": "careers.pasqal.com"
+  },
+  {
+    "name": "SiPearl",
+    "company": "SiPearl",
+    "url": "https://careers.sipearl.com/jobs",
+    "platform": "teamtailor",
+    "host": "careers.sipearl.com"
+  },
+  {
+    "name": "OpenSystems",
+    "company": "Open Systems",
+    "url": "https://opench.bamboohr.com/careers",
+    "platform": "bamboohr",
+    "board": "opench"
+  },
+  {
+    "name": "TelespazioBelgium",
+    "company": "Telespazio Belgium",
+    "url": "https://telespazio-be.breezy.hr/",
+    "platform": "breezy",
+    "board": "telespazio-be"
+  },
+  {
+    "name": "MicrosoftSecurityEntry",
+    "company": "Microsoft",
+    "url": "https://apply.careers.microsoft.com/careers?query=security&start=0&pid=1970393556983893&sort_by=relevance&filter_seniority=Entry%2CIntern",
+    "platform": "eightfold",
+    "host": "apply.careers.microsoft.com",
+    "domain": "microsoft.com",
+    "query": "security",
+    "filters": {
+      "filter_seniority": [
+        "Entry",
+        "Intern"
+      ]
+    }
+  },
+  {
+    "name": "MicrosoftCyberEntry",
+    "company": "Microsoft",
+    "url": "https://apply.careers.microsoft.com/careers?query=Cybersecurity&start=0&pid=1970393556983893&sort_by=relevance&filter_seniority=Entry",
+    "platform": "eightfold",
+    "host": "apply.careers.microsoft.com",
+    "domain": "microsoft.com",
+    "query": "Cybersecurity",
+    "filters": {
+      "filter_seniority": [
+        "Entry"
+      ]
+    }
+  },
+  {
+    "name": "LockheedMartin",
+    "company": "Lockheed Martin",
+    "url": "https://lockheedmartin.eightfold.ai/careers?query=Cybersecurity&start=0&pid=996476856339&sort_by=relevance",
+    "platform": "eightfold",
+    "host": "lockheedmartin.eightfold.ai",
+    "domain": "lockheedmartin.com",
+    "query": "Cybersecurity"
+  },
+  {
+    "name": "NorthropGrumman",
+    "company": "Northrop Grumman",
+    "url": "https://jobs.northropgrumman.com/careers?query=cyber&start=0&pid=1340073994531&sort_by=relevance&filter_security_clearance=no&filter_experience_level=Entry",
+    "platform": "eightfold",
+    "host": "jobs.northropgrumman.com",
+    "domain": "ngc.com",
+    "query": "cyber",
+    "filters": {
+      "filter_security_clearance": [
+        "no"
+      ],
+      "filter_experience_level": [
+        "Entry"
+      ]
+    }
+  },
+  {
+    "name": "Infineon",
+    "company": "Infineon",
+    "url": "https://jobs.infineon.com/careers?query=cyber+security&start=0&pid=563808971794731&sort_by=relevance",
+    "platform": "eightfold",
+    "host": "jobs.infineon.com",
+    "domain": "infineon.com",
+    "query": "cyber security"
+  },
+  {
+    "name": "STMicroelectronics",
+    "company": "STMicroelectronics",
+    "url": "https://stmicroelectronics.eightfold.ai/careers?query=Cyber%20Security&pid=563637173320217&domain=stmicroelectronics.com&sort_by=relevance",
+    "platform": "eightfold",
+    "host": "stmicroelectronics.eightfold.ai",
+    "domain": "stmicroelectronics.com",
+    "query": "Cyber Security",
+    "api": "v2"
+  },
+  {
+    "name": "GMV",
+    "company": "GMV",
+    "url": "https://gmv.csod.com/ux/ats/careersite/4/home?c=gmv&lang=en-US",
+    "platform": "csod",
+    "corp": "gmv",
+    "site": 4
+  },
+  {
+    "name": "Nammo",
+    "company": "Nammo",
+    "url": "https://nammo.csod.com/ux/ats/careersite/1/home?c=nammo&sq=cyber",
+    "platform": "csod",
+    "corp": "nammo",
+    "site": 1,
+    "query": "cyber"
+  },
+  {
+    "name": "OHB",
+    "company": "OHB",
+    "url": "https://career-ohb.csod.com/ux/ats/careersite/4/home?c=career-ohb&cfdd[0][id]=16&cfdd[0][options][0]=29&sq=cyber%20security&lang=en-GB",
+    "platform": "csod",
+    "corp": "career-ohb",
+    "site": 4,
+    "lang": "en-GB",
+    "query": "cyber security",
+    "dropdowns": [
+      {
+        "id": 16,
+        "options": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hispasat",
+    "company": "Hispasat",
+    "url": "https://iahtgs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/es/sites/CX_1/jobs?sortBy=POSTING_DATES_DESC",
+    "platform": "oracle_hcm",
+    "host": "iahtgs.fa.ocs.oraclecloud.com",
+    "site": "CX_1",
+    "lang": "es"
+  },
+  {
+    "name": "Fortinet",
+    "company": "Fortinet",
+    "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs",
+    "platform": "oracle_hcm",
+    "host": "edel.fa.us2.oraclecloud.com",
+    "site": "CX_2001"
+  },
+  {
+    "name": "ECB",
+    "company": "European Central Bank (ECB)",
+    "url": "https://talent.ecb.europa.eu/careers/SearchJobs/cyber?listFilterMode=1&jobRecordsPerPage=10&",
+    "platform": "avature",
+    "search": "https://talent.ecb.europa.eu/careers/SearchJobs/cyber"
+  },
+  {
+    "name": "CouncilOfEurope",
+    "company": "Council of Europe",
+    "url": "https://talents.coe.int/en_GB/careersmarketplace/SearchJobs/cyber?listFilterMode=1&jobRecordsPerPage=6&",
+    "platform": "avature",
+    "search": "https://talents.coe.int/en_GB/careersmarketplace/SearchJobs/cyber"
+  },
+  {
+    "name": "Siemens",
+    "company": "Siemens",
+    "url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/cyber%20security?listFilterMode=1&folderRecordsPerPage=6&",
+    "platform": "avature",
+    "search": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/cyber%20security",
+    "offset_param": "folderOffset",
+    "size_param": "folderRecordsPerPage"
+  },
+  {
+    "name": "Eutelsat",
+    "company": "Eutelsat",
+    "url": "https://careers.eutelsat.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_customfield1=Cyber%2C+Network+%26+System+Eng&optionsFacetsDD_dept=&optionsFacetsDD_customfield3=",
+    "platform": "sf_classic",
+    "search": "https://careers.eutelsat.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_country=&optionsFacetsDD_customfield1=Cyber%2C+Network+%26+System+Eng&optionsFacetsDD_dept=&optionsFacetsDD_customfield3="
+  },
+  {
+    "name": "SES",
+    "company": "SES",
+    "url": "https://careers.ses.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield5=",
+    "platform": "sf_classic",
+    "search": "https://careers.ses.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_customfield3=&optionsFacetsDD_customfield5="
+  },
+  {
+    "name": "IDEMIA",
+    "company": "IDEMIA",
+    "url": "https://careers.idemia.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_city=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield3=",
+    "platform": "sf_classic",
+    "search": "https://careers.idemia.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_city=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield3="
+  },
+  {
+    "name": "Telefonica",
+    "company": "Telefónica",
+    "url": "https://jobs.telefonica.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_dept=&optionsFacetsDD_customfield1=",
+    "platform": "sf_classic",
+    "search": "https://jobs.telefonica.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_dept=&optionsFacetsDD_customfield1="
+  },
+  {
+    "name": "Tinexta",
+    "company": "Tinexta",
+    "url": "https://job.tinexta.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1=",
+    "platform": "sf_classic",
+    "search": "https://job.tinexta.com/search/?createNewAlert=false&q=&locationsearch=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1="
+  },
+  {
+    "name": "Babcock",
+    "company": "Babcock International",
+    "url": "https://jobs.babcockinternational.com/go/View-all-Jobs/4819301/?q=&q2=&alertId=&locationsearch=&title=security&location=&shifttype=",
+    "platform": "sf_classic",
+    "search": "https://jobs.babcockinternational.com/go/View-all-Jobs/4819301/?q=&q2=&alertId=&locationsearch=&title=security&location=&shifttype="
+  },
+  {
+    "name": "HensoldtCyber",
+    "company": "HENSOLDT",
+    "url": "https://jobs.hensoldt.net/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=&optionsFacetsDD_location=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield3=&optionsFacetsDD_department=",
+    "platform": "sf_classic",
+    "search": "https://jobs.hensoldt.net/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=&optionsFacetsDD_location=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield3=&optionsFacetsDD_department="
+  },
+  {
+    "name": "HensoldtCyberDEProfessionals",
+    "company": "HENSOLDT",
+    "url": "https://jobs.hensoldt.net/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=DE&optionsFacetsDD_location=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1=Professionals&optionsFacetsDD_customfield3=&optionsFacetsDD_department=",
+    "platform": "sf_classic",
+    "search": "https://jobs.hensoldt.net/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=DE&optionsFacetsDD_location=&optionsFacetsDD_customfield2=&optionsFacetsDD_customfield1=Professionals&optionsFacetsDD_customfield3=&optionsFacetsDD_department="
+  },
+  {
+    "name": "IndraAll",
+    "company": "Indra",
+    "url": "https://careers.indragroup.com/search/?q=&q2=&alertId=&locationsearch=&title=&location=",
+    "platform": "sf_classic",
+    "search": "https://careers.indragroup.com/search/?q=&q2=&alertId=&locationsearch=&title=&location="
+  },
+  {
+    "name": "JohnCockerill",
+    "company": "John Cockerill",
+    "url": "https://careers.johncockerill.com/search/?createNewAlert=false&q=&optionsFacetsDD_title=&optionsFacetsDD_department=&optionsFacetsDD_dept=&optionsFacetsDD_location=",
+    "platform": "sf_classic",
+    "search": "https://careers.johncockerill.com/search/?createNewAlert=false&q=&optionsFacetsDD_title=&optionsFacetsDD_department=&optionsFacetsDD_dept=&optionsFacetsDD_location="
+  },
+  {
+    "name": "Navantia",
+    "company": "Navantia",
+    "url": "https://empleo.navantia.es/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=&optionsFacetsDD_state=&optionsFacetsDD_city=",
+    "platform": "sf_classic",
+    "search": "https://empleo.navantia.es/search/?createNewAlert=false&q=cyber&optionsFacetsDD_country=&optionsFacetsDD_state=&optionsFacetsDD_city="
+  },
+  {
+    "name": "EASA",
+    "company": "European Union Aviation Safety Agency (EASA)",
+    "url": "https://careers.easa.europa.eu/go/All-Jobs/8855901/",
+    "platform": "sf_classic",
+    "search": "https://careers.easa.europa.eu/go/All-Jobs/8855901/"
+  },
+  {
+    "name": "BeyondGravity",
+    "company": "Beyond Gravity",
+    "url": "https://careers.beyondgravity.com/BeyondGravity/search/?createNewAlert=false&q=cyber+security&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=&optionsFacetsDD_country=",
+    "platform": "sf_classic",
+    "search": "https://careers.beyondgravity.com/BeyondGravity/search/?createNewAlert=false&q=cyber+security&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=&optionsFacetsDD_country="
+  },
+  {
+    "name": "Newcleo",
+    "company": "newcleo",
+    "url": "https://careers.newcleo.com/search/?createNewAlert=false&q=cyber+security&locationsearch=",
+    "platform": "sf_classic",
+    "search": "https://careers.newcleo.com/search/?createNewAlert=false&q=cyber+security&locationsearch="
+  },
+  {
+    "name": "ApproachCyber",
+    "company": "Approach Cyber",
+    "url": "https://www.approach-cyber.com/join-us/#header-top-join-us",
+    "platform": "html_list",
+    "list": "https://www.approach-cyber.com/join-us/",
+    "link": "href=\"(?P<url>https://www\\.approach-cyber\\.com/job/[^\"]+)\""
+  },
+  {
+    "name": "Cybernetica",
+    "company": "Cybernetica",
+    "url": "https://cyber.ee/careers/open-positions",
+    "platform": "html_list",
+    "list": "https://cyber.ee/careers/open-positions",
+    "link": "href=\"(?P<url>https://cyber\\.teamdash\\.com/p/job/[^\"]+)\""
+  },
+  {
+    "name": "DGS",
+    "company": "DGS",
+    "url": "https://join-us.dgsspa.com/jobs",
+    "platform": "html_list",
+    "list": "https://join-us.dgsspa.com/jobs",
+    "link": "href=\"(?P<url>(?:https://join-us\\.dgsspa\\.com)?/jobs/[a-z0-9-]+)\""
+  },
+  {
+    "name": "Doyensec",
+    "company": "Doyensec",
+    "url": "https://www.careers-page.com/doyensec-llc#openings",
+    "platform": "html_list",
+    "list": "https://www.careers-page.com/doyensec-llc",
+    "link": "href=\"(?P<url>/doyensec-llc/job/[A-Z0-9]+)\""
+  },
+  {
+    "name": "Nagra",
+    "company": "Kudelski Group (NAGRA)",
+    "url": "https://careers.nagra.com/?page=advertisement",
+    "platform": "html_list",
+    "list": "https://careers.nagra.com/?page=advertisement",
+    "link": "href=\"(?P<url>[^\"]*\\?page=advertisement_display&(?:amp;)?id=\\d+)\"[^>]*>(?P<title>.*?)</a>",
+    "desc_class": "col-md-9",
+    "title_link": true
+  },
+  {
+    "name": "Link11",
+    "company": "Link11",
+    "url": "https://www.link11.com/en/career/#jobs",
+    "platform": "html_list",
+    "list": "https://www.link11.com/en/career/",
+    "link": "href=\"(?P<url>https://www\\.link11\\.com/en/jobs/[^\"]+)\"",
+    "exclude": "join-our-team"
+  },
+  {
+    "name": "RohdeSchwarz",
+    "company": "Rohde & Schwarz",
+    "url": "https://www.rohde-schwarz.com/it/carriere/offerte/carriera-offerte-di-lavoro_251573.html",
+    "platform": "html_list",
+    "list": "https://www.rohde-schwarz.com/it/carriere/offerte/carriera-offerte-di-lavoro_251573.html",
+    "link": "href=\"(?P<url>[^\"]*/carriere/offerte/[^\"]+_251563-\\d+[^\"]*)\""
+  },
+  {
+    "name": "BureauVeritasCyber",
+    "company": "Bureau Veritas Cybersecurity",
+    "url": "https://cybersecurity.bureauveritas.com/careers#vacancies",
+    "platform": "html_list",
+    "list": "https://cybersecurity.bureauveritas.com/careers",
+    "link": "href=\"(?P<url>(?:https://cybersecurity\\.bureauveritas\\.com)?/careers/[a-z0-9-]+)\"",
+    "exclude": "/careers/(?:meet-our-team|our-culture|our-history|students)$",
+    "desc_class": "pt-[80px]"
+  },
+  {
+    "name": "Zama",
+    "company": "Zama",
+    "url": "https://jobs.zama.org/",
+    "platform": "html_list",
+    "list": "https://jobs.zama.org/",
+    "link": "href=\"(?P<url>(?:https://jobs\\.zama\\.org)?/jobs/[^\"]+)\""
+  },
+  {
+    "name": "Zerocopter",
+    "company": "Zerocopter",
+    "url": "https://www.zerocopter.com/zerocopter/careers-at-zerocopter",
+    "platform": "html_list",
+    "list": "https://www.zerocopter.com/zerocopter/careers-at-zerocopter",
+    "link": "href=\"(?P<url>\\./careers-at-zerocopter/[^\"]+/)\"[^>]*>(?P<title>.*?)</a>",
+    "title_strip": "^\\d+\\s+"
+  },
+  {
+    "name": "CSGroup",
+    "company": "CS Group (Sopra Steria)",
+    "url": "https://careers.smartrecruiters.com/SopraSteria1/csgroup",
+    "platform": "html_list",
+    "list": "https://careers.smartrecruiters.com/SopraSteria1/csgroup",
+    "link": "href=\"(?P<url>https://jobs\\.smartrecruiters\\.com/SopraSteria1/\\d+-[^\"]+)\""
+  },
+  {
+    "name": "Kongsberg",
+    "company": "Kongsberg",
+    "url": "https://www.kongsberg.com/careers/vacancies/?searchPhrase=cyber",
+    "platform": "html_list",
+    "list": "https://www.kongsberg.com/careers/vacancies/?searchPhrase=cyber",
+    "link": "href=\"(?P<url>/careers/vacancies/[a-z0-9-]+/)\" class=\"LinkArrowBlockList__itemLink\"><div[^>]*><span class=\"LinkArrowBlockList__itemTitle\">(?P<title>.*?)</span>",
+    "query": "cyber"
+  },
+  {
+    "name": "MBDAFrance",
+    "company": "MBDA France",
+    "url": "https://www.mbda-systems.com/country-fr/careers/job-vacancies?advanced_filters=1&f%5B0%5D=jv_sector_types%3A225&nst=1&s=&jv_reference=",
+    "platform": "html_list",
+    "list": "https://www.mbda-systems.com/country-fr/careers/job-vacancies?advanced_filters=1&f%5B0%5D=jv_sector_types%3A225&nst=1&s=&jv_reference=",
+    "link": "href=\"(?P<url>(?:https://www\\.mbda-systems\\.com)?/country-fr/careers/[a-z0-9-]+-r\\d+)\""
+  },
+  {
+    "name": "Rheinmetall",
+    "company": "Rheinmetall",
+    "url": "https://www.rheinmetall.com/en/career/vacancies?9dc11c304b4c06c2f71c48cc6574e7e5term=cyber",
+    "platform": "html_list",
+    "list": "https://www.rheinmetall.com/en/career/vacancies?9dc11c304b4c06c2f71c48cc6574e7e5term=cyber",
+    "link": "href=\"(?P<url>/en/job/[^\"]+/\\d+)\"[^>]*>(?P<title>.*?)</a>"
+  },
+  {
+    "name": "Saab",
+    "company": "Saab",
+    "url": "https://www.saab.com/career/job-opportunities#7886_country__location__type__query_cyber",
+    "platform": "html_list",
+    "list": "https://www.saab.com/career/job-opportunities",
+    "link": "href=\"(?P<url>(?:https://www\\.saab\\.com)?/career/job-opportunities/[a-z0-9-]+)\"",
+    "query": "cyber",
+    "desc_class": "primarycontent",
+    "deadline_re": "Closing date:\\s*([^\\n]+)"
+  },
+  {
+    "name": "CERN",
+    "company": "CERN",
+    "url": "https://careers.cern/jobs/",
+    "platform": "html_list",
+    "list": "https://careers.cern/jobs/",
+    "link": "href=\"(?P<url>https://careers\\.cern/jobs/[a-z0-9-]+/)\""
+  },
+  {
+    "name": "FBK",
+    "company": "Fondazione Bruno Kessler (FBK)",
+    "url": "https://jobs.fbk.eu/",
+    "platform": "html_list",
+    "list": "https://jobs.fbk.eu/",
+    "link": "href=\"(?P<url>(?:https://jobs\\.fbk\\.eu)?/Annunci/Jobs_[^\"]+)\""
+  },
+  {
+    "name": "Redwire",
+    "company": "Redwire",
+    "url": "https://careers.rdw.com/jobs/search?page=1&query=cybersecurity",
+    "platform": "html_list",
+    "list": "https://careers.rdw.com/jobs/search?page=1&query=cybersecurity",
+    "link": "href=\"(?P<url>(?:https://careers\\.rdw\\.com)?/jobs/(?!search)[a-z0-9-]+)\""
+  },
+  {
+    "name": "Avio",
+    "company": "Avio",
+    "url": "https://zinrec.intervieweb.it/avio/it/career",
+    "platform": "html_list",
+    "list": "https://zinrec.intervieweb.it/avio/it/career",
+    "link": "href=\"(?P<url>https://zinrec\\.intervieweb\\.it/avio/jobs/[^\"]+)\""
+  },
+  {
+    "name": "DOrbit",
+    "company": "D-Orbit",
+    "url": "https://dorbit-space.factorial.it/#jobs",
+    "platform": "html_list",
+    "list": "https://dorbit-space.factorial.it/",
+    "link": "href=[\"'](?P<url>https://dorbit-space\\.factorial\\.it/job_posting/[^\"']+)[\"']"
+  },
+  {
+    "name": "Wallix",
+    "company": "WALLIX",
+    "url": "https://wallix.softy.pro/offers",
+    "platform": "softy",
+    "host": "wallix.softy.pro"
+  },
+  {
+    "name": "Kineis",
+    "company": "Kinéis",
+    "url": "https://kineis.com/en/careers/",
+    "platform": "softy",
+    "host": "kineis.softy.pro"
+  },
+  {
+    "name": "Wiz",
+    "company": "Wiz",
+    "url": "https://www.wiz.io/careers",
+    "platform": "greenhouse",
+    "board": "wizinc"
+  },
+  {
+    "name": "ICEYE",
+    "company": "ICEYE",
+    "url": "https://www.iceye.com/careers/positions",
+    "platform": "ashby",
+    "board": "iceye"
+  },
+  {
+    "name": "RANDEurope",
+    "company": "RAND Europe",
+    "url": "https://www.rand.org/randeurope/employment.html",
+    "platform": "workable",
+    "board": "rand-europe"
+  },
+  {
+    "name": "Claroty",
+    "company": "Claroty",
+    "url": "https://claroty.com/open-positions",
+    "platform": "comeet",
+    "uid": "F2.004",
+    "token": "2F4EC42F42F45E814AC1A945E814AC5E8"
+  },
+  {
+    "name": "Solenix",
+    "company": "Solenix",
+    "url": "https://solenix.careers.hibob.com/jobs",
+    "platform": "hibob",
+    "subdomain": "solenix"
+  },
+  {
+    "name": "Quarkslab",
+    "company": "Quarkslab",
+    "url": "https://quarkslab.taleez.com/",
+    "platform": "taleez",
+    "host": "quarkslab.taleez.com"
+  },
+  {
+    "name": "Tehtris",
+    "company": "TEHTRIS",
+    "url": "https://tehtris.taleez.com/",
+    "platform": "taleez",
+    "host": "tehtris.taleez.com"
+  },
+  {
+    "name": "Unseenlabs",
+    "company": "Unseenlabs",
+    "url": "https://careers.werecruit.io/en/unseenlabs",
+    "platform": "html_list",
+    "list": "https://careers.werecruit.io/en/unseenlabs",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://careers\\.werecruit\\.io)?/en/unseenlabs/offers/[a-z0-9-]+)\""
+  },
+  {
+    "name": "CNES",
+    "company": "CNES",
+    "url": "https://recrutement.cnes.fr/en/annonces",
+    "platform": "html_list",
+    "list": "https://recrutement.cnes.fr/en/annonces",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://recrutement\\.cnes\\.fr)?/en/annonce/\\d+[^\"]*)\""
+  },
+  {
+    "name": "Exail",
+    "company": "Exail",
+    "url": "https://jobs.exail.com/en/annonces?q=cyber,security",
+    "platform": "html_list",
+    "list": "https://jobs.exail.com/en/annonces?q=cyber,security",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://jobs\\.exail\\.com)?/en/annonce/\\d+[^\"]*)\""
+  },
+  {
+    "name": "RUAG",
+    "company": "RUAG",
+    "url": "https://www.ruag.ch/en/working-us/job-portal?search=Cyber",
+    "platform": "html_list",
+    "list": "https://www.ruag.ch/en/working-us/job-portal?search=Cyber",
+    "render": true,
+    "link": "href=\"(?P<url>https://jobs\\.ruag\\.ch/offene-stellen/[^\"]+)\""
+  },
+  {
+    "name": "GomSpace",
+    "company": "GomSpace",
+    "url": "https://gomspace.com/open-positions/",
+    "platform": "html_list",
+    "list": "https://gomspace.com/open-positions/",
+    "render": true,
+    "link": "href=\"(?P<url>https://gomspace\\.hr-on\\.com/show-job/\\d+[^\"]*)\"[^>]*>(?P<title>.*?)</a>"
+  },
+  {
+    "name": "Okapi",
+    "company": "OKAPI:Orbits",
+    "url": "https://www.okapiorbits.space/en/careers#open-positions",
+    "platform": "html_list",
+    "list": "https://www.okapiorbits.space/en/careers",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://www\\.okapiorbits\\.space)?/en/careers/[a-z0-9-]+-\\d+)\""
+  },
+  {
+    "name": "WithSecure",
+    "company": "WithSecure",
+    "url": "https://www.withsecure.com/en/about-us/careers/open-positions/",
+    "platform": "html_list",
+    "list": "https://www.withsecure.com/en/about-us/careers/open-positions/",
+    "link": "href=\"(?P<url>https://emp\\.jobylon\\.com/jobs/\\d+[^\"]*)\""
+  },
+  {
+    "name": "OpenAI",
+    "company": "OpenAI",
+    "url": "https://openai.com/careers/search/?q=cyber",
+    "platform": "ashby",
+    "board": "openai",
+    "query": "cyber"
+  },
+  {
+    "name": "Riverlane",
+    "company": "Riverlane",
+    "url": "https://www.riverlane.com/jobs",
+    "platform": "greenhouse",
+    "board": "riverlane"
+  },
+  {
+    "name": "IDQuantique",
+    "company": "ID Quantique",
+    "url": "https://www.idquantique.com/about-idq/careers/#job-openings",
+    "platform": "greenhouse",
+    "board": "idquantique"
+  },
+  {
+    "name": "SentinelOne",
+    "company": "SentinelOne",
+    "url": "https://www.sentinelone.com/jobs/",
+    "platform": "greenhouse",
+    "board": "sentinellabs"
+  },
+  {
+    "name": "Tenable",
+    "company": "Tenable",
+    "url": "https://www.tenable.com/careers/search",
+    "platform": "greenhouse",
+    "board": "tenableinc"
+  },
+  {
+    "name": "Zscaler",
+    "company": "Zscaler",
+    "url": "https://www.zscaler.com/careers/search",
+    "platform": "greenhouse",
+    "board": "zscaler"
+  },
+  {
+    "name": "RecordedFuture",
+    "company": "Recorded Future",
+    "url": "https://www.recordedfuture.com/work-with-us/jobs?page=1",
+    "platform": "greenhouse",
+    "board": "recordedfuture"
+  },
+  {
+    "name": "Planet",
+    "company": "Planet",
+    "url": "https://www.planet.com/company/careers/",
+    "platform": "greenhouse",
+    "board": "planetlabs"
+  },
+  {
+    "name": "PQShield",
+    "company": "PQShield",
+    "url": "https://pqshield.com/careers/#page-row-18",
+    "platform": "greenhouse",
+    "board": "pqshield"
+  },
+  {
+    "name": "Cymulate",
+    "company": "Cymulate",
+    "url": "https://cymulate.com/careers/#open-positions",
+    "platform": "greenhouse",
+    "board": "cymulate"
+  },
+  {
+    "name": "GEAerospace",
+    "company": "GE Aerospace",
+    "url": "https://careers.geaerospace.com/global/en/search-results",
+    "platform": "phenom",
+    "host": "careers.geaerospace.com",
+    "country": "global",
+    "language": "en",
+    "locale": "en_global"
+  },
+  {
+    "name": "DNVCyber",
+    "company": "DNV Cyber",
+    "url": "https://jobs.dnv.com/job-search?business_unit%5B0%5D=DNV%20Cyber",
+    "platform": "dnv",
+    "business_unit": "DNV Cyber"
+  },
+  {
+    "name": "ASML",
+    "company": "ASML",
+    "url": "https://www.asml.com/en/careers/find-your-job",
+    "platform": "html_list",
+    "list": "https://www.asml.com/en/job_posting-sitemap.xml",
+    "link": "<loc>(?P<url>https://www\\.asml\\.com/en/careers/find-your-job/[^<]+)</loc>"
+  },
+  {
+    "name": "ECCC",
+    "platform": "html_list",
+    "list": "https://cybersecurity-centre.europa.eu/work-us/job-opportunities_en",
+    "link": "Job title:\\s*<u>(?P<title>[^<]+)</u>.*?Vacancy notice link[^<]*<a href=\"(?P<url>[^\"]+)\"",
+    "pdf": true,
+    "company": "European Cybersecurity Competence Centre (ECCC)",
+    "url": "https://cybersecurity-centre.europa.eu/work-us/job-opportunities_en"
+  },
+  {
+    "name": "Frontex",
+    "platform": "html_list",
+    "list": "https://www.frontex.europa.eu/careers/vacancies/open-vacancies/",
+    "render": true,
+    "link": "href=\"(?P<url>[^\"]*/careers/vacancies/open-vacancies/[a-z0-9-]+[^\"]*)\"",
+    "company": "Frontex",
+    "url": "https://www.frontex.europa.eu/careers/vacancies/open-vacancies/"
+  },
+  {
+    "name": "ESDC",
+    "platform": "html_list",
+    "list": "https://www.esdc.europa.eu/job-opportunities_en",
+    "link": "href=\"(?P<url>[^\"]*/vacanc[^\"]+)\"",
+    "empty": "currently no job openings",
+    "company": "European Security and Defence College (ESDC)",
+    "url": "https://www.esdc.europa.eu/job-opportunities_en?prefLang=it"
+  },
+  {
+    "name": "SicurezzaNazionale",
+    "platform": "html_list",
+    "list": "https://www.sicurezzanazionale.gov.it/lavora-con-noi/posizioni-aperte",
+    "render": true,
+    "link": "href=\"(?P<url>[^\"]*/posizioni-aperte/[a-z0-9-]+)\"",
+    "empty": "non sono presenti avvisi",
+    "company": "Sistema di informazione per la sicurezza della Repubblica",
+    "url": "https://www.sicurezzanazionale.gov.it/lavora-con-noi/posizioni-aperte"
+  },
+  {
+    "name": "HaDEA",
+    "platform": "html_list",
+    "list": "https://hadea.ec.europa.eu/about/job-opportunities/open-vacancies_en",
+    "link": "href=\"(?P<url>https://hadea\\.gestmax\\.fr/\\d+/[^\"]+)\"[^>]*>(?P<title>.*?)</a>",
+    "company": "HaDEA",
+    "url": "https://hadea.ec.europa.eu/about/job-opportunities/open-vacancies_en?prefLang=it"
+  },
+  {
+    "name": "CEPOL",
+    "platform": "html_list",
+    "list": "https://www.cepol.europa.eu/work-us/careers/vacancies",
+    "link": "href=\"(?P<url>(?:https://www\\.cepol\\.europa\\.eu)?/work/[a-z0-9-]*(?:selection|procedure|vacanc|officer|assistant|agent|expert|head)[a-z0-9-]*)\"[^>]*>(?P<title>.*?)</a>",
+    "render": true,
+    "exclude": "experts-trainers",
+    "company": "CEPOL",
+    "url": "https://www.cepol.europa.eu/work-us/careers/vacancies"
+  },
+  {
+    "name": "EuLISA",
+    "platform": "html_list",
+    "list": "https://erecruitment.eulisa.europa.eu/en",
+    "link": "href=\"(?P<url>(?:https://erecruitment\\.eulisa\\.europa\\.eu)?/en/our-jobs/[^\"]+)\"",
+    "render_detail": true,
+    "pdf_link": "href=\"([^\"]+\\.pdf[^\"]*)\"",
+    "company": "eu-LISA",
+    "url": "https://erecruitment.eulisa.europa.eu/en"
+  },
+  {
+    "name": "TNO",
+    "platform": "html_list",
+    "list": "https://www.tno.nl/en/careers/vacancies/",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://www\\.tno\\.nl)?/en/careers/vacancies/(?:@\\d+|\\d{4}/\\d{2})/[a-z0-9-]+/)\"",
+    "company": "TNO",
+    "url": "https://www.tno.nl/en/careers/vacancies/"
+  },
+  {
+    "name": "Starion",
+    "platform": "html_list",
+    "list": "https://www.stariongroup.eu/careers/job-search/",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://www\\.stariongroup\\.eu)?/career/[a-z0-9-]+/)\"",
+    "company": "Starion Group",
+    "url": "https://www.stariongroup.eu/careers/job-search/"
+  },
+  {
+    "name": "ChipsJU",
+    "platform": "html_list",
+    "list": "https://www.chips-ju.europa.eu/Vacancies/",
+    "link": "<a[^>]+href=\"(?P<url>/File/download\\.aspx\\?entity=shv_vacancies[^\"]+)\"[^>]*>(?P<title>.*?)</a>",
+    "next": "href=\"(/Vacancies\\?page=\\d+)\"",
+    "pdf": true,
+    "company": "Chips Joint Undertaking",
+    "url": "https://www.chips-ju.europa.eu/Vacancies/"
+  },
+  {
+    "name": "Rapid7",
+    "platform": "html_list",
+    "list": "https://careers.rapid7.com/jobs/search",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://careers\\.rapid7\\.com)?/jobs/(?!search)[a-z0-9-]+)\"[^>]*>(?P<title>.*?)</a>",
+    "next": "href=\"([^\"]*/jobs/search\\?page=\\d+[^\"]*)\"",
+    "company": "Rapid7",
+    "url": "https://careers.rapid7.com/jobs/search"
+  },
+  {
+    "name": "Truesec",
+    "platform": "html_list",
+    "list": "https://www.truesec.com/jobs",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://www\\.truesec\\.com)?/jobs/\\d+-[a-z0-9-]+)\"",
+    "company": "Truesec",
+    "url": "https://www.truesec.com/jobs"
+  },
+  {
+    "name": "Utimaco",
+    "platform": "html_list",
+    "list": "https://utimaco.com/careers",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://utimaco\\.com)?/careers/[a-z0-9-]+)\"[^>]*>(?P<title>.*?)</a>",
+    "exclude": "/careers/(?:students|benefits|culture|locations|faq|why-utimaco|life-at-utimaco|graduates|internships|job-alert)$",
+    "title_strip": "^Learn More about\\s+",
+    "company": "Utimaco",
+    "url": "https://utimaco.com/careers"
+  },
+  {
+    "name": "HuntAndHackett",
+    "platform": "html_list",
+    "list": "https://www.huntandhackett.com/jobs",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://www\\.huntandhackett\\.com)?/jobs/[a-z0-9-]+)\"",
+    "company": "Hunt & Hackett",
+    "url": "https://www.huntandhackett.com/jobs"
+  },
+  {
+    "name": "Defion",
+    "platform": "html_list",
+    "list": "https://defion.security/en/careers/",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://defion\\.security)?/en/careers/[a-z0-9-]+/)\"",
+    "company": "DEFION Security",
+    "url": "https://defion.security/en/careers/"
+  },
+  {
+    "name": "Cyberus",
+    "platform": "html_list",
+    "list": "https://www.cyberus-technology.de/careers",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://www\\.cyberus-technology\\.de)?/careers/[a-z0-9-]+)\"",
+    "company": "Cyberus Technology",
+    "url": "https://www.cyberus-technology.de/careers#job-openings"
+  },
+  {
+    "name": "Cyberoo",
+    "platform": "html_list",
+    "list": "https://cyberoo.com/news/category/jobs/",
+    "link": "<h[23][^>]*>\\s*<a href=\"(?P<url>https://cyberoo\\.com/news/[a-z0-9-]+/)\"[^>]*>(?P<title>.*?)</a>",
+    "company": "CYBEROO",
+    "url": "https://cyberoo.com/jobs/"
+  },
+  {
+    "name": "S2Grupo",
+    "platform": "html_list",
+    "list": "https://s2grupo.es/talento/ofertas-de-empleo/?id=estudiantes",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://s2grupo\\.es)?/ofertas-empleo/[a-z0-9-]+/)\"",
+    "company": "S2 Grupo",
+    "url": "https://s2grupo.es/talento/ofertas-de-empleo/?id=estudiantes"
+  },
+  {
+    "name": "SpaceApplications",
+    "platform": "html_list",
+    "list": "https://www.spaceapplications.com/open-positions",
+    "render": true,
+    "link": "href=\"(?P<url>\\./career\\?id=\\d+)\"",
+    "company": "Space Applications Services",
+    "url": "https://www.spaceapplications.com/open-positions"
+  },
+  {
+    "name": "RollsRoyce",
+    "platform": "html_list",
+    "list": "https://careers.rolls-royce.com/en/jobs?search=cyber&country=Germany",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://careers\\.rolls-royce\\.com)?/en/jobs/[a-z0-9-]+/jr\\d+)\"",
+    "company": "Rolls-Royce",
+    "url": "https://careers.rolls-royce.com/en/jobs?search=cyber&country=Germany"
+  },
+  {
+    "name": "L3Harris",
+    "platform": "html_list",
+    "list": "https://careers.l3harris.com/en/search-jobs/cyber%20security/4832/1",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://careers\\.l3harris\\.com)?/en/job/[a-z0-9-]+/[a-z0-9-]+/\\d+/\\d+)\"",
+    "next": "href=\"([^\"]*/en/search-jobs/cyber%20security/4832/\\d+)\"",
+    "company": "L3Harris",
+    "url": "https://careers.l3harris.com/en/search-jobs/cyber%20security/4832/1"
+  },
+  {
+    "name": "Exprivia",
+    "platform": "html_list",
+    "list": "https://exprivia.intervieweb.it/app.php?module=iframeAnnunci&lang=it&k=970397846fa743f2524e7443c87841d7&act1=23&defgroup=name&gnavenable=1&desc=0&typeView=large&annType=published&d=exprivia.it",
+    "link": "href=\"(?P<url>[^\"]*IdAnnuncio=\\d+[^\"]*)\">\\s*<h3>\\s*(?P<title>.*?)</h3>",
+    "company": "Exprivia",
+    "url": "https://www.exprivia.it/people-innovation/job-posts/"
+  },
+  {
+    "name": "HWGSababa",
+    "platform": "html_list",
+    "list": "https://zinrec.intervieweb.it/app.php?module=iframeAnnunci&lang=it&k=b6883292adeb8ecef461608d6b058e24&act1=23&defgroup=name&gnavenable=1&desc=1&typeView=large&annType=published&LAC=hwgsababa&d=hwgsababa.com",
+    "link": "href=\"(?P<url>[^\"]*IdAnnuncio=\\d+[^\"]*)\">\\s*<h3>\\s*(?P<title>.*?)</h3>",
+    "company": "HWG Sababa",
+    "url": "https://www.hwgsababa.com/careers/"
+  },
+  {
+    "name": "Fincantieri",
+    "platform": "html_list",
+    "list": "https://www.fincantieri.com/it/persone/lavora-con-noi/posizioni-aperte?LOV5=8978&Resultsperpage=10&keywords=cyber&Reg=All&LOV1=All&LOV20=All&LOV19=All&srcsubmit=Ricerca&statlog=1&ID=Q4NFK026203F3VBQB796868LB&mask=fincantieri2&LG=IT",
+    "render": true,
+    "render_detail": true,
+    "link": "href=\"(?P<url>[^\"]*/posizioni-aperte/dettaglio-posizione\\.html\\?nPostingID=\\d+[^\"]*)\"[^>]*>(?P<title>.*?)</a>",
+    "company": "Fincantieri",
+    "url": "https://www.fincantieri.com/it/persone/lavora-con-noi/posizioni-aperte?LOV5=8978&Resultsperpage=10&keywords=cyber&Reg=All&LOV1=All&LOV20=All&LOV19=All&srcsubmit=Ricerca&statlog=1&ID=Q4NFK026203F3VBQB796868LB&mask=fincantieri2&LG=IT"
+  },
+  {
+    "name": "FSecure",
+    "platform": "html_list",
+    "list": "https://company.f-secure.com/en/careers",
+    "render": true,
+    "link": "href=\"(?P<url>https://emp\\.jobylon\\.com/jobs/\\d+[^\"]*)\"",
+    "company": "F-Secure",
+    "url": "https://company.f-secure.com/en/careers#latest-jobs"
+  },
+  {
+    "name": "EUMETSAT",
+    "company": "EUMETSAT",
+    "url": "https://www.eumetsat.int/work-us/vacancies",
+    "platform": "onlyfy",
+    "host": "eumetsat.onlyfy.jobs"
+  },
+  {
+    "name": "GData",
+    "company": "G DATA CyberDefense",
+    "url": "https://gdata.onlyfy.jobs/de",
+    "platform": "onlyfy",
+    "host": "gdata.onlyfy.jobs",
+    "lang": "de"
+  },
+  {
+    "name": "Davinsi",
+    "platform": "html_list",
+    "list": "https://davinsi.com/en/careers",
+    "link": "<h2 class=\"job-item--teaser__title\">(?P<title>.*?)</h2>(?:(?!job-item--teaser__title).)*?href='(?P<url>https://davinsi\\.com/en/careers/[a-z0-9-]+)'",
+    "title_link": true,
+    "company": "Davinsi Labs",
+    "url": "https://davinsi.com/en/careers"
+  },
+  {
+    "name": "Certego",
+    "platform": "html_inline",
+    "list": "https://www.certego.net/company/careers/",
+    "item": "<summary[^>]*>.*?<div class=\"grow self-center\">(?P<title>[^<]+)</div>\\s*</summary>(?P<body>.*?)</details>",
+    "company": "Certego",
+    "url": "https://www.certego.net/company/careers/"
+  },
+  {
+    "name": "Neuraspace",
+    "platform": "html_list",
+    "list": "https://www.neuraspace.com/all-jobs",
+    "render": true,
+    "link": "<p><strong>(?P<title>[^<]+)</strong></p></div>(?:<div[^>]*><p><strong>[^<]*</strong></p>)?(?:(?!<p><strong>).)*?href=\"(?P<url>https://neuraspace\\.cdn\\.prismic\\.io/neuraspace/[^\"]+)\"",
+    "pdf": true,
+    "company": "Neuraspace",
+    "url": "https://www.neuraspace.com/all-jobs"
+  },
+  {
+    "name": "Cineca",
+    "platform": "html_list",
+    "list": "https://pica.cineca.it/cineca/",
+    "link": "href=\"(?P<url>/cineca/[0-9a-z-]+/)\" class=\"card\">.*?<h1 class=\"search_title\">(?P<title>.*?)</h1>",
+    "company": "Cineca",
+    "url": "https://pica.cineca.it/cineca/"
+  },
+  {
+    "name": "Beretta",
+    "company": "Beretta USA",
+    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=b657ab8e-abed-48cd-a667-fb76db90b5b6&ccId=19000101_000001&lang=en_US",
+    "platform": "adp",
+    "cid": "b657ab8e-abed-48cd-a667-fb76db90b5b6"
+  },
+  {
+    "name": "ELT",
+    "company": "ELT Group",
+    "url": "https://www.eltgroup.net/people-careers/join-us/#tabs",
+    "platform": "html_list",
+    "list": "https://www.eltgroup.net/people-careers/join-us/",
+    "link": "<div class=\"post-title\">(?P<title>[^<]+)</div>(?:(?!post-title).)*?href=\"(?P<url>https://career5\\.successfactors\\.eu/sfcareer/jobreqcareer\\?jobId=\\d+&(?:amp;)?company=[A-Za-z0-9]+)\"",
+    "next": "<a class=\"next page-numbers\" href=\"([^\"]+)\"",
+    "desc_class": "joqReqDescription",
+    "title_link": true,
+    "exclude": "Candidatura Spontanea"
+  },
+  {
+    "name": "CEA",
+    "company": "CEA",
+    "url": "https://www.emploi.cea.fr/accueil.aspx?LCID=1036",
+    "platform": "talentsoft",
+    "host": "www.emploi.cea.fr"
+  },
+  {
+    "name": "EPPO",
+    "company": "European Public Prosecutor’s Office (EPPO)",
+    "url": "https://www.eppo.europa.eu/careers/vacancies_en?prefLang=it&f%5B0%5D=oe_consultation_status%3Aupcoming&f%5B1%5D=oe_consultation_subject%3Ahttp%3A//data.europa.eu/uxp/5188",
+    "platform": "html_list",
+    "list": "https://www.eppo.europa.eu/careers/vacancies_en?prefLang=it&f%5B0%5D=oe_consultation_status%3Aupcoming&f%5B1%5D=oe_consultation_subject%3Ahttp%3A//data.europa.eu/uxp/5188",
+    "render": true,
+    "link": "href=\"(?P<url>(?:https://www\\.eppo\\.europa\\.eu)?/careers/vacancies/[a-z0-9-]+_en[^\"]*)\"",
+    "empty": "No results have been found"
+  },
+  {
+    "name": "UnitedNations",
+    "company": "United Nations",
+    "url": "https://careers.un.org/jobopening?language=en&data=%257B%2522keyword%2522:%2522cyber%2522%257D",
+    "platform": "un_careers",
+    "query": "cyber"
+  },
+  {
+    "name": "Argotec",
+    "company": "Argotec",
+    "url": "https://www.argotecgroup.com/join-us",
+    "platform": "html_inline",
+    "list": "https://www.argotecgroup.com/join-us",
+    "item": "text-secondary font-light\">(?P<title>[^<]+)</p></div><div class=\"flex  items-center \">(?P<body>.*?)</button>",
+    "flight": true
+  },
+  {
+    "name": "OriginRobotics",
+    "company": "Origin Robotics",
+    "url": "https://origin-robotics.com/open-positions",
+    "platform": "html_list",
+    "list": "https://origin-robotics.com/open-positions",
+    "link": "href=\"(?P<url>https://talent\\.sage\\.hr/jobs/[0-9a-f-]+)\"[^>]*>\\s*(?P<title>[^<]+?)\\s*<",
+    "detail": false
+  },
+  {
+    "name": "EclecticIQ",
+    "company": "EclecticIQ",
+    "url": "https://eclecticiq.bamboohr.com/careers",
+    "platform": "bamboohr",
+    "board": "eclecticiq"
+  },
+  {
+    "name": "SpaceOpal",
+    "company": "Spaceopal",
+    "url": "https://spaceopal.com/career/",
+    "platform": "personio",
+    "board": "spaceopal",
+    "domain": "de"
+  },
+  {
+    "name": "Auterion",
+    "company": "Auterion",
+    "url": "https://auterion.com/company/careers/",
+    "platform": "greenhouse",
+    "board": "auterion"
+  },
+  {
+    "name": "DassaultAviation",
+    "company": "Dassault Aviation",
+    "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/liste-offres.aspx",
+    "platform": "talentsoft",
+    "host": "dassault-aviation-cand.talent-soft.com"
+  },
+  {
+    "name": "KNDSFrance",
+    "company": "KNDS France",
+    "url": "https://recrutement.knds.fr/",
+    "platform": "talentsoft",
+    "host": "knds-recrutement.profils.org"
+  },
+  {
+    "name": "PiaggioAerospace",
+    "company": "Piaggio Aerospace",
+    "url": "https://www.piaggioaerospace.it/en/career/program-detail/general-application",
+    "platform": "html_list",
+    "list": "https://www.piaggioaerospace.it/en/career/programs?type=1",
+    "render": true,
+    "render_detail": true,
+    "link": "href=\"(/en/career/program-detail/[^\"?#]+)\"",
+    "exclude": "general-application|internship-application"
+  },
+  {
+    "name": "Eni",
+    "company": "Eni",
+    "url": "https://jobs.eni.com/en/sites/CX_1004/jobs?keyword=%E2%80%8BCybersecurity&mode=location",
+    "platform": "oracle_hcm",
+    "host": "fa-evkm-saasfaprod1.fa.ocs.oraclecloud.com",
+    "site": "CX_1004"
+  },
+  {
+    "name": "Satispay",
+    "company": "Satispay",
+    "url": "https://jobs.ashbyhq.com/satispay?utm_source=ourpeople",
+    "platform": "ashby",
+    "board": "satispay"
+  },
+  {
+    "name": "Nexi",
+    "company": "Nexi Group",
+    "url": "https://fa-ewwx-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?location=Italy&locationId=300000000462006&locationLevel=country&mode=location",
+    "platform": "oracle_hcm",
+    "host": "fa-ewwx-saasfaprod1.fa.ocs.oraclecloud.com",
+    "site": "CX_1",
+    "location_id": "300000000462006"
+  },
+  {
+    "name": "Scalapay",
+    "company": "Scalapay",
+    "url": "https://careers.scalapay.com/career-opportunities/",
+    "platform": "greenhouse",
+    "board": "scalapaysrl"
+  },
+  {
+    "name": "DeutscheTelekom",
+    "company": "Deutsche Telekom",
+    "url": "https://careers.telekom.com/en/jobs?search=cyber",
+    "platform": "telekom",
+    "query": "cyber"
+  },
+  {
+    "name": "Optiver",
+    "company": "Optiver",
+    "url": "https://www.optiver.com/join-us/jobs/?q=security",
+    "platform": "html_list",
+    "list": "https://www.optiver.com/join-us/jobs/?q=security",
+    "link": "\"title\":\"(?P<title>[^\"]+)\",\"location\":\"(?P<location>[^\"]*)\",\"experience\":\"[^\"]*\",\"domain\":\"[^\"]*\",\"href\":\"(?P<url>/join-us/jobs/[^\"]+)\"",
+    "count": "\"totalCount\":(\\d+)"
+  },
+  {
+    "name": "JaneStreetLondonGrads",
+    "company": "Jane Street",
+    "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=students-and-new-grads&location=london",
+    "platform": "janestreet",
+    "type": "students-and-new-grads",
+    "city": "LDN"
+  },
+  {
+    "name": "JaneStreetLondonExperienced",
+    "company": "Jane Street",
+    "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=experienced-candidates&location=london",
+    "platform": "janestreet",
+    "type": "experienced-candidates",
+    "city": "LDN"
+  },
+  {
+    "name": "Stripe",
+    "company": "Stripe",
+    "url": "https://stripe.com/careers/search?query=security&locations=Europe",
+    "platform": "stripe",
+    "query": "security",
+    "region": "Europe"
+  },
+  {
+    "name": "IMC",
+    "company": "IMC Trading",
+    "url": "https://www.imc.com/eu/search-careers?jobQuery=security&jobOffices=Aarhus%2CAmsterdam%2CLondon%2CZug&page=1",
+    "platform": "html_list",
+    "list": "https://www.imc.com/eu/search-careers?jobQuery=security&jobOffices=Aarhus%2CAmsterdam%2CLondon%2CZug&page=1",
+    "render": true,
+    "link": "href=\"(?P<url>/eu/careers/jobs/\\d+)\"",
+    "count": "Showing \\d+ of (\\d+) jobs"
+  },
+  {
+    "name": "Adyen",
+    "company": "Adyen",
+    "url": "https://careers.adyen.com/vacancies?team=Security",
+    "platform": "greenhouse",
+    "board": "adyen",
+    "department": "Security"
+  },
+  {
+    "name": "FlowTraders",
+    "company": "Flow Traders",
+    "url": "https://www.flowtraders.com/careers/job-search/",
+    "platform": "greenhouse",
+    "board": "flowtraders"
+  },
+  {
+    "name": "Booking",
+    "company": "Booking.com",
+    "url": "https://jobs.booking.com/booking/jobs?keywords=cyber%20security&sortBy=relevance&page=1&limit=100",
+    "platform": "booking",
+    "query": "cyber security"
+  },
+  {
+    "name": "Klarna",
+    "company": "Klarna",
+    "url": "https://jobs.deel.com/klarna",
+    "platform": "deel",
+    "board": "klarna"
+  },
+  {
+    "name": "SpotifyStockholm",
+    "company": "Spotify",
+    "url": "https://www.lifeatspotify.com/jobs?l=stockholm",
+    "platform": "spotify",
+    "params": "l=stockholm"
+  },
+  {
+    "name": "Datadog",
+    "company": "Datadog",
+    "url": "https://careers.datadoghq.com/all-jobs/?s=security",
+    "platform": "datadog",
+    "query": "security"
+  },
+  {
+    "name": "HudsonRiverTrading",
+    "company": "Hudson River Trading",
+    "url": "https://www.hudsonrivertrading.com/careers/?search=cyber&locations=dublin%2Clondon%2Cnorway%2C",
+    "platform": "greenhouse",
+    "board": "wehrtyou",
+    "query": "cyber",
+    "locations": [
+      "Dublin",
+      "London",
+      "Norway",
+      "Oslo"
+    ]
+  },
+  {
+    "name": "Revolut",
+    "company": "Revolut",
+    "url": "https://www.revolut.com/careers/?text=security",
+    "platform": "revolut",
+    "query": "security"
+  },
+  {
+    "name": "Akamai",
+    "company": "Akamai",
+    "url": "https://jobs.akamai.com/en/sites/CX_1/jobs?mode=location",
+    "platform": "oracle_hcm",
+    "host": "fa-extu-saasfaprod1.fa.ocs.oraclecloud.com",
+    "site": "CX_1"
+  },
+  {
+    "name": "RTX",
+    "company": "RTX",
+    "url": "https://careers.rtx.com/global/en/search-results?keywords=cyber%20security",
+    "platform": "workday",
+    "host": "globalhr.wd5.myworkdayjobs.com",
+    "tenant": "globalhr",
+    "site": "REC_RTX_Ext_Gateway",
+    "query": "cyber security"
+  },
+  {
+    "name": "ESET",
+    "company": "ESET",
+    "url": "https://jobs.eset.com/en-US/ESET_External",
+    "platform": "workday",
+    "host": "jobs.eset.com",
+    "tenant": "eset",
+    "site": "ESET_External"
+  },
+  {
+    "name": "Forescout",
+    "company": "Forescout",
+    "url": "https://www.forescout.com/company/careers/",
+    "platform": "html_list",
+    "list": "https://jobs.jobvite.com/forescout/jobs",
+    "link": "href=\"(?P<url>/forescout/job/[A-Za-z0-9]+)\""
+  },
+  {
+    "name": "BlueVoyant",
+    "company": "BlueVoyant",
+    "url": "https://www.bluevoyant.com/company/careers",
+    "platform": "html_list",
+    "list": "https://bluevoyant.applytojob.com/apply",
+    "link": "href=\"(?P<url>https?://bluevoyant\\.applytojob\\.com/apply/[A-Za-z0-9]+/[^\"]+)\""
+  }
+]

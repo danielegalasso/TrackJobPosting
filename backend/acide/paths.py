@@ -18,6 +18,9 @@ DATA_DIR = Path(os.environ.get("ACIDE_DATA_DIR", REPO_ROOT / "data")).resolve()
 CONFIG_PATH = Path(os.environ.get("ACIDE_CONFIG_PATH", DATA_DIR / "setup.json"))
 DB_PATH = Path(os.environ.get("ACIDE_DB_PATH", DATA_DIR / "acide_storage.db"))
 RESUME_DIR = DATA_DIR / "resume"
+# The operator's own words on who they are and how to rank postings: what the
+# priority review sends to the model. Personal, so it lives with the data.
+RANKING_BRIEF_PATH = DATA_DIR / "ranking-brief.md"
 
 # Built single-page app, served by the API process when present.
 FRONTEND_DIST = Path(
@@ -25,6 +28,12 @@ FRONTEND_DIST = Path(
 )
 
 EXAMPLE_CONFIG_PATH = REPO_ROOT / "setup.example.json"
+
+# Where the per-site extractors write their results, one folder per site with
+# a latest.json in it (ExtractFromTheCarrerPageTheJobs/run_all.py).
+EXTRACTS_DIR = Path(
+    os.environ.get("ACIDE_EXTRACTS_DIR", REPO_ROOT / "ExtractFromTheCarrerPageTheJobs")
+)
 
 
 def ensure_dirs() -> None:
