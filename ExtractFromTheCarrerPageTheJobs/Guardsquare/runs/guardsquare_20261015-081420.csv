@@ -1,0 +1,1500 @@
+job_id,requisition_id,title,location,offices,country,department,start_date,updated,deadline,url,description
+6704120,,C++/LLVM Team Lead,Leuven (BE),"Leuven, Belgium",Belgium,R&D,2025-03-12,2026-09-24,,https://job-boards.greenhouse.io/guardsquare/jobs/6704120,"Summary
+
+Guardsquare is looking for an R&D Team Lead to join us in our Leuven office and lead one of our Leuven based C++/LLVM teams.
+
+In this role you will be responsible for a team of about 5 to 7 C++/LLVM compiler engineers working within an agile software development environment. The ideal candidate started their career technically and has a good understanding of software engineering within a high-tech start/scale-up, and grew into or is now ready for a team lead role.
+
+Your key responsibilities will be:
+
+- Own the results delivered by your team. You lead day-to-day development; assign tasks, track progress, ensure timely delivery and high quality.
+
+- Mentor engineers, foster collaboration, and motivate the team to reach company and personal objectives.
+
+- Set coding standards and best practices for maintainable solutions.
+
+- Work with product teams to translate business needs into technical specifications.
+
+- Implement and enforce testing practices to deliver reliable software.
+
+- Encourage new ideas and own engineering processes to drive continuous improvement.
+
+- Represent Guardsquare’s R&D values, its products and its culture.
+
+Requirements:
+
+- Masters in computer science with 5+ years of experience, of which at least 3 as a Team Lead
+
+- Proven track record of achieving results with teams
+
+- Experience setting performance goals and performing appraisals
+
+- Strong programming fundamentals
+
+- Previous experience with low level programming is an asset
+
+- Deep knowledge of C++ is also a nice plus
+
+- A no-nonsense and pragmatic attitude, continuously raising the bar
+
+- Excellent English communication
+
+- Understanding the value of in-person leadership in a hybrid work environment
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+Do you want to make a difference? What are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+8078823,,Compiler Engineer C++/LLVM (Singapore),Singapore,Singapore,Singapore,R&D,2026-07-22,2026-10-01,,https://job-boards.greenhouse.io/guardsquare/jobs/8078823,"Build software that makes reverse engineering harder
+
+As Guardsquare expands across Asia-Pacific, we are looking for C++/LLVM Compiler Engineers with a passion for low-level engineering, compiler technology, and software security.
+
+You will work on iXGuard and other products built on C++ and LLVM, developing technology that protects mobile applications against reverse engineering and tampering. Your work will involve improving a complex codebase, researching new code-hardening techniques, and solving challenging engineering problems where security, performance, compatibility, and binary impact all matter.
+
+As one of our first engineers in Singapore, you will help establish and shape our local R&D presence alongside newly hired engineers and experienced colleagues relocating from our headquarters in Leuven.
+
+Up to 50% of your role will focus on R&D Customer Support. This is not traditional helpdesk support: you will investigate, reproduce, and debug complex technical issues while working closely with customers and internal engineering teams to find robust solutions.
+
+You will report to the local Managing Director for office-related matters and functionally to your R&D Team Lead for technical priorities, guidance, and professional development.
+
+What You’ll Work On
+
+- Develop and improve our C++/LLVM-based products.
+
+- Research, test, and implement new functionalities and code-hardening techniques.
+
+- Work with compiler internals, LLVM tools and libraries, and complex application-processing pipelines.
+
+- Maintain and continuously improve a large, mature codebase.
+
+- Investigate, reproduce, and debug complex technical issues.
+
+- Help customers integrate and use our software successfully.
+
+- Collaborate with customers and internal R&D teams to solve challenging engineering problems.
+
+- Improve software quality through extensive testing.
+
+- Stay ahead of developments in compiler technology, mobile application security, and reverse engineering.
+
+What You Bring
+
+- Master’s degree in Computer Science or a related field.
+
+- At least 2–3 years of relevant software engineering experience.
+
+- Excellent C++ skills.
+
+- Experience working with large or complex codebases.
+
+- Knowledge of compiler internals.
+
+- Familiarity with LLVM tools and libraries.
+
+- Experience with low-level programming and debugging.
+
+- Strong analytical and problem-solving skills.
+
+- The ability to communicate complex technical topics clearly and collaborate directly with customers.
+
+- An interest in software security and reverse engineering.
+
+Why Guardsquare?
+
+This is not standard application development.
+
+You will work at the intersection of compiler engineering, low-level programming, mobile security, and reverse engineering. You will solve real-world LLVM challenges, explore mobile technology stacks beyond the application layer, and help shape the products, features, and engineering practices you work with.
+
+The technology you develop can quickly make its way into industry-leading mobile applications used by some of the world’s largest payment providers, banks, and social media companies.
+
+We offer:
+
+- A full-time, office-based position in our new Singapore office.
+
+- Challenging engineering work at the forefront of software protection and reverse engineering.
+
+- Real-world problems that will expand your C++ and LLVM expertise.
+
+- The opportunity to help build a new R&D team from its early stages.
+
+- An international environment focused on technical ownership, collaboration, and continuous learning.
+
+- The ability to share your ideas and turn them into working solutions.
+
+At Guardsquare, we bring together colleagues from many different backgrounds and nationalities. We value open technical discussion, different perspectives, knowledge sharing, and continuous growth.
+
+Candidates must be legally authorized to work in Singapore at the time of application (Citizen, PR or EP).
+
+Ready to make software significantly harder to reverse engineer? Join us.
+
+Apply by completing the application form below.
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+5432684,,Compiler Engineer C++/LLVM - Gent,Gent (BE),"Gent, Belgium",Belgium,R&D,2023-10-12,2026-07-17,,https://job-boards.greenhouse.io/guardsquare/jobs/5432684,"Summary
+
+We are looking for a passionate compiler engineer with a strong interest in software security to join our team working on iXGuard. Our LLVM-based software protection product focuses on hardening iOS applications against both static analysis and dynamic tampering.
+
+The ideal candidate loves to come up with new ideas for our next code hardening layer to counter reverse engineering techniques and runtime hooking. You make good use of the available flexibility in our team to test those ideas and experiment further. The person we are looking to hire is able to prioritize tasks and constantly tries to improve our codebase. He or she is a disciplined and independent worker who takes pride in his or her work.
+
+Responsibilities
+
+- Maintain and improve our existing code base.
+
+- Research, test and implement additional code hardening techniques.
+
+- Support customers in the usage of our software.
+
+- Continuously improve the code quality through extensive testing.
+
+- Stay up-to-date with reverse engineering practices.
+
+Profile
+
+- Master's degree in Computer Science.
+
+- Ideally 2 to 3 years of experience in a similar role.
+
+- Excellent modern C++ skills.
+
+- Previous experience working with complex code bases.
+
+- Familiarity with LLVM tools and libraries.
+
+- Experience with compiler internals.
+
+- Interest in low level programming and debugging practices that come with it.
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+8159017,,Director of Engineering,Leuven (BE),"Leuven, Belgium",Belgium,R&D,2026-08-26,2026-08-26,,https://job-boards.greenhouse.io/guardsquare/jobs/8159017,"Build the Category Leader in Mobile App Security
+
+Guardsquare is the global leader in mobile application protection. We protect 1,000+ customers across 85+ countries, securing more than 6 billion mobile devices worldwide.
+
+As we enter an ambitious new chapter to become the undisputed category leader in mobile security, we are seeking a Director of Engineering to bridge the gap between high-level strategic vision and day-to-day tactical execution.
+
+In this role, you will scale our R&D organization while remaining deeply connected to the technology. You will oversee Engineering Leads and agile teams building our core products, such as iXGuard (C++/LLVM) and DexGuard (Java). The ideal candidate is a technical expert turned manager of managers who can translate bold company goals into concrete specifications, rigorous standards, and predictable software delivery.
+
+The Opportunity
+
+Working with our VP of Engineering and our Software Engineering Leads, you will lead a critical segment of our R&D organization. Our complex, threat-driven domain requires a leader comfortable with the ambiguity of security research who is comfortable with ambiguity in security research, but who can forcefully translate that research into clear technical specifications, rigorous agile practices, and reliable, high-quality code.
+
+What You Will Own
+
+- Leadership & Mentorship: Manage and grow a team of Engineering Leads, fostering a culture of ownership, craftsmanship, and a bias for action.
+
+- Organizational Execution: Own the results delivered by your teams, ensuring predictable, high-quality product delivery and reliable releases that balance research with market needs.
+
+- Technical Strategy: Collaborate with Product Management and the VP of Engineering to translate business requirements into technical specifications and maintainable, scalable architectures.
+
+- Process Standards: Drive cross-team coding standards and testing practices, encouraging continuous improvement without stifling the creative spirit of R&D.
+
+Who You Are
+
+You are a passionate technical leader who has successfully transitioned from hands-on engineering to leading multiple teams in a fast-growth environment. You excel at unifying engineers toward an ambitious, shared mission.
+
+Requirements:
+
+- Masters in Computer Science with 8+ years of software engineering experience, including 3+ years as a manager of managers.
+
+- Leadership Depth: Proven track record of scaling R&D groups, setting performance goals, and achieving results through others in a fast-growth environment.
+
+- Technical Expertise: Strong fundamentals in Java or C++; experience with low-level programming is a significant asset.
+
+- Communication: Excellent English communication skills and a commitment to in-person leadership within a hybrid model in Leuven.
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+Do you want to make a difference? What are you waiting for? Join us!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+8064225,,Field Marketing Specialist - APAC,Singapore,Singapore,Singapore,Marketing,2026-07-14,2026-09-22,,https://job-boards.greenhouse.io/guardsquare/jobs/8064225,"About the Role
+As Guardsquare continues to expand across Asia Pacific, we are looking for a Field Marketing Specialist to join our Singapore office as our first dedicated marketing team member in the region.
+
+Reporting to the Chief Marketing Officer (CMO), with local support from the Regional Managing Director, you will help shape and execute Guardsquare’s marketing activities across APAC. You will work closely with Marketing, Sales and Product Management teams in Leuven, Boston and Singapore to adapt global initiatives to regional markets and drive local demand.
+
+This is a hands-on role in which you’ll have significant ownership while working alongside an experienced global marketing team that will support your growth and development. You will manage initiatives from planning through execution, including digital programs, events, partner marketing and regional content.
+
+As the only dedicated marketing professional based in Singapore, we're looking for someone who enjoys variety, is resourceful, and is happy to step beyond traditional marketing responsibilities, when needed, to help support our growing regional office.
+
+What You’ll Do
+
+Regional Marketing & Demand Generation
+
+- Adapt global campaigns, programs and content to regional markets, industries and buyer needs.
+
+- Plan and execute integrated demand generation initiatives, including webinars, digital campaigns and paid media.
+
+- Develop regional messaging, presentations, and assets in collaboration with product marketing.
+
+- Help manage the regional marketing budget.
+
+Events & Programs
+
+- Plan and execute all aspects of impactful regional conferences, trade shows, roundtables, dinners and other marketing events.
+
+Sales & Partner Marketing
+
+- Support the adoption of marketing campaigns and assets across regional sales team.
+
+- Execute co-marketing initiatives with strategic partners and help measure campaign performance and ROI.
+
+Customer Marketing & Localization
+
+- Identify opportunities for regional customer success stories and case studies.
+
+- Support upsell and cross-sell marketing initiatives.
+
+- Adapt content and messaging to local languages, cultures, industries and market needs.
+
+PR, Operations & Analytics
+
+- Support the global marketing team and external agencies with regional PR initiatives including awards, media opportunities, and rapid-response activities.
+
+- Track, analyze and report on program performance using HubSpot and other marketing tools.
+
+What We’re Looking For
+
+- 3–5 years of experience in B2B marketing, field marketing or demand generation, preferably within enterprise software, SaaS or cybersecurity.
+
+- Experience working across APAC markets.
+
+- Experience planning and executing both digital and in-person marketing programs.
+
+- Strong project management and organizational skills, with the ability to manage multiple initiatives simultaneously.
+
+- A hands-on, resourceful mindset and the ability to work independently while collaborating across regions and functions.
+
+- Experience partnering with Sales to support pipeline generation and campaign execution.
+
+- A data-driven approach and an interest in measuring and improving marketing performance.
+
+- Willingness to travel across APAC up to 20% of the time.
+
+Nice to Have
+
+- Experience marketing developer-focused or cybersecurity products.
+
+- Experience with marketing automation platforms such as HubSpot.
+
+- Knowledge of regional languages such as Mandarin, Malay or Indonesian.
+
+- Experience working in a fast-growing international SaaS company.
+
+What We Offer
+
+- The opportunity to help shape Guardsquare’s marketing presence across APAC.
+
+- Significant ownership while receiving support from an experienced global Marketing team.
+
+- A collaborative, international working environment.
+
+- The opportunity to work alongside leading security experts and product teams.
+
+- Opportunities to learn, develop and grow as the business expands across the region.
+
+Additional Information
+
+- This is a full-time, office-based position in Singapore.
+
+- Candidates must be legally authorized to work in Singapore at the time of application. We are unable to provide visa or work permit sponsorship for this role.
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+Do you want to make a difference? What are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+8239328,,Java R&D Software Engineer - Leuven,Leuven (BE),"Leuven, Belgium",Belgium,R&D,2026-09-29,2026-09-29,,https://job-boards.greenhouse.io/guardsquare/jobs/8239328,"Summary
+
+We are looking for a passionate Java Software Engineer with a strong interest in software security and low-level software engineering to join our R&D team in Leuven, working on our Java based products, such as ProGuard and DexGuard.
+
+Our technology processes and transforms Java and Android applications using techniques such as bytecode analysis, obfuscation, optimization, encryption, and code hardening to make applications smaller, faster, and more resilient against reverse engineering and tampering.
+
+The ideal candidate enjoys solving complex technical problems, working with challenging codebases, and experimenting with new ideas. You’ll have the opportunity to research new optimization and code hardening techniques and turn promising concepts into production-ready solutions.
+
+Responsibilities
+
+- Maintain and improve our Java-based technology, including ProGuard and DexGuard.
+
+- Research, test, and implement new code hardening techniques.
+
+- Work with Java bytecode, obfuscation, encryption, and application processing.
+
+- Continuously improve code quality through extensive testing.
+
+- Stay up-to-date with reverse engineering and software security practices.
+
+- Support customers with complex technical questions related to our software.
+
+Profile
+
+- Master's degree in Computer Science, Software Engineering, or a related field.
+
+- Ideally 2 to 3 years of experience in a similar software engineering role.
+
+- Excellent Java & Kotlin skills.
+
+- Experience working with complex codebases.
+
+- Interest in low-level programming, debugging, and software security.
+
+Useful Skills
+
+- Knowledge of compiler technology, Java bytecode, or complex application processing.
+
+- Knowledge of obfuscation, optimization, or software protection techniques.
+
+- Experience with reverse engineering and related tools.
+
+- Familiarity with Android, Gradle, or ProGuard.
+
+- Knowledge of information or application security.
+
+What Guardsquare Offers You
+
+- A full-time job with a competitive salary package.
+
+- The tools and flexibility to develop yourself successfully.
+
+- An international environment where you’ll interact with motivated and open colleagues from diverse backgrounds.
+
+- A workplace where you can share and implement your ideas.
+
+- A hybrid work policy that helps ensure an excellent work-life balance.
+
+At Guardsquare, we take pride in being a diverse and multicultural company. You’ll be part of a dynamic team that strives for excellence, encourages collaboration, and focuses on continuous learning and technical growth.
+
+So, what are you waiting for? Join us!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, covering the full development cycle from mobile app security testing and code hardening to real-time threat detection and API security.
+
+More than 1,000 customers worldwide rely on Guardsquare to identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering.
+
+Guardsquare is based in Leuven (Belgium), with offices in Ghent (Belgium), Boston (USA), and Munich (Germany)."
+8163970,,Java R&D Team Lead - Munich,München DE,"München, Germany",Germany,R&D,2026-08-28,2026-08-28,,https://job-boards.greenhouse.io/guardsquare/jobs/8163970,"Summary
+
+Guardsquare is looking for a hands-on R&D Team Lead to join our Munich office and lead one of our Java engineering teams.
+
+In this role, you will lead a small team of approximately 3 to 4 Java Software Engineers while remaining an active individual contributor. Given the size of the team, this is a highly technical leadership position: alongside coaching the team and taking ownership of its delivery, you will continue to contribute directly to the design, development and evolution of our software.
+
+The ideal candidate has a strong background in Java software engineering and an interest in software security. You enjoy solving complex technical problems, working with sophisticated codebases and translating ideas into robust and maintainable solutions. At the same time, you are ready to take ownership of a small team, provide technical direction and help other engineers perform at their best.
+
+Your key responsibilities will be:
+
+Hands-on engineering
+
+As Team Lead, you’ll remain close to the technology and contribute directly to the engineering work alongside your team. This is not a typical Java development role: you’ll work on technically complex problems at the intersection of Java, compiler technology, and application security.
+
+- Design and evolve Java-based security products, working with bytecode and compiler technology.
+
+- Research advanced code hardening, optimization, and obfuscation techniques.
+
+- Solve complex engineering challenges to protect mobile applications against reverse engineering.
+
+- Maintain a complex codebase while upholding high coding standards and best practices.
+
+- Debug technical issues and support customers with in-depth integration challenges.
+
+- Drive architectural decisions and stay ahead of trends in Java and mobile security.
+
+Team leadership
+
+- Ensure timely, high-quality delivery of team results.
+
+- Lead daily development: prioritize tasks, distribute work, and remove blockers.
+
+- Mentor and coach team members on technical and career growth.
+
+- Set performance goals, provide feedback, and conduct appraisals.
+
+- Foster a culture of collaboration, continuous learning, and excellence.
+
+- Drive process improvements and innovation while representing Guardsquare's R&D values and culture.
+
+Requirements
+
+- Master’s degree in Computer Science, Software Engineering, or a related field (or equivalent practical experience), with at least 5 years of professional Java software engineering experience and previous experience leading or mentoring software engineers, ideally in a Team Lead or similar role.
+
+- Excellent Java programming skills and strong software engineering fundamentals.
+
+- Experience with or a strong interest in software and mobile application security.
+
+- Experience with low-level programming, compiler technology, code analysis and/or optimization techniques is an asset.
+
+- A pragmatic, hands-on and no-nonsense attitude with a drive to continuously raise the bar.
+
+- Excellent English communication skills.
+
+- Understanding of the value of in-person leadership and collaboration in our Munich office within a hybrid working environment.
+
+Useful skills
+
+- Experience with Android application development and the Android ecosystem.
+
+- Knowledge of Android build tools such as Gradle and ProGuard.
+
+- Experience with reverse engineering and commonly used tools such as JADX, apktool or similar.
+
+- Knowledge of Android bytecode, application internals or code analysis.
+
+- Previous experience working on developer tools, security products or static analysis solutions.
+
+What Guardsquare offers you
+
+- A full-time position with a competitive salary package.
+
+- A role that combines hands-on software engineering with team leadership, allowing you to remain close to the technology while developing as an engineering leader.
+
+- The opportunity to work on technically challenging problems within software and mobile application security.
+
+- The tools and flexibility to develop yourself successfully.
+
+- An international environment where you will interact with motivated and open colleagues from different backgrounds.
+
+- A workplace where you can share and implement your ideas.
+
+- A hybrid work policy supporting a healthy work-life balance while maintaining strong in-person collaboration within the Munich team.
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business, which has contributed to our position as a market leader in mobile application security.
+
+You will be part of a dynamic R&D organization that strives for excellence and focuses on continuous learning and improvement. We encourage and empower our colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+Do you want to combine hands-on engineering with leading and developing a talented team? Join us!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security.
+
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven, Belgium, with offices in Ghent, Boston and Munich."
+8078846,,Java Software Engineer (Singapore),Singapore,Singapore,Singapore,R&D,2026-07-22,2026-10-01,,https://job-boards.greenhouse.io/guardsquare/jobs/8078846,"Build software that protects billions of Java and Android applications
+
+As Guardsquare expands across Asia-Pacific, we are looking for Java Software Engineers with a passion for Java internals, compiler technology, software engineering, and application security.
+
+You will work on DexGuard and other Java-based products, developing technology that makes Java and Android applications smaller, faster, and significantly harder to reverse engineer and tamper with. Your work will involve improving a complex codebase, researching new code-hardening and optimization techniques, and solving challenging engineering problems where security, performance, compatibility, and developer experience all matter.
+
+As one of our first engineers in Singapore, you will help establish and shape our local R&D presence alongside newly hired engineers and experienced colleagues relocating from our headquarters in Leuven.
+
+Up to 50% of your role will focus on R&D Customer Support. This is not traditional helpdesk support: you will investigate, reproduce, and debug complex technical issues while working closely with customers and internal engineering teams to find robust solutions.
+
+You will report to the local Managing Director for office-related matters and functionally to your R&D Team Lead for technical priorities, guidance, and professional development.
+
+What You'll Work On
+
+- Develop and improve our Java-based products, including ProGuard, DexGuard, and future Java technologies.
+
+- Research, test, and implement new code-hardening, optimization, and application-processing techniques.
+
+- Work with Java bytecode, compiler technology, build pipelines, and complex application-processing workflows.
+
+- Maintain and continuously improve a large, mature codebase.
+
+- Investigate, reproduce, and debug complex technical issues.
+
+- Help customers successfully integrate and use our software.
+
+- Collaborate with customers and internal R&D teams to solve challenging engineering problems.
+
+- Improve software quality through extensive testing.
+
+- Stay ahead of developments in Java, compiler technology, mobile application security, and reverse engineering.
+
+What You Bring
+
+- Master's degree in Computer Science or a related field.
+
+- At least 2–3 years of relevant software engineering experience.
+
+- Excellent Java skills.
+
+- Experience working with large or complex codebases.
+
+- Experience with Linux.
+
+- Experience with low-level programming and debugging.
+
+- Strong analytical and problem-solving skills.
+
+- The ability to communicate complex technical topics clearly and collaborate directly with customers.
+
+- An interest in software security and reverse engineering.
+
+Nice to Have
+
+- Knowledge of compiler technology, Java bytecode, or complex application processing.
+
+- Experience with code obfuscation or optimization techniques.
+
+- Knowledge of information security.
+
+- Experience with reverse engineering and commonly used tools.
+
+- Familiarity with Android and Android build tools such as Gradle and ProGuard.
+
+Why Guardsquare?
+
+This is not standard Java application development.
+
+You will work at the intersection of Java engineering, compiler technology, mobile security, and reverse engineering. You'll solve challenging problems involving Java bytecode, application optimization, code hardening, and build pipelines while helping shape the products, features, and engineering practices you work with.
+
+The technology you develop can quickly make its way into industry-leading Java and Android applications used by some of the world's largest payment providers, banks, and social media companies.
+
+We offer:
+
+- A full-time, office-based position in our new Singapore office.
+
+- Challenging engineering work at the forefront of Java application protection and reverse engineering.
+
+- Real-world problems that will deepen your expertise in Java, compiler technology, and mobile security.
+
+- The opportunity to help build a new R&D team from its early stages.
+
+- An international environment focused on technical ownership, collaboration, and continuous learning.
+
+- The ability to share your ideas and turn them into working solutions.
+
+At Guardsquare, we bring together colleagues from many different backgrounds and nationalities. We value open technical discussion, different perspectives, knowledge sharing, and continuous growth.
+
+Candidates must be legally authorized to work in Singapore at the time of application (Citizen, PR or EP).
+
+Ready to build technology that protects billions of Java and Android applications? Join us.
+
+Apply by completing the application form below.
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+7303851,,Java Team Lead,Leuven (BE),"Leuven, Belgium",Belgium,R&D,2025-10-07,2026-08-14,,https://job-boards.greenhouse.io/guardsquare/jobs/7303851,"Summary
+
+Guardsquare is looking for an R&D Team Lead to join us in our Leuven office and lead one of our Leuven based Java teams.
+
+In this role you will be responsible for a team of about 5 to 7 Java Software Engineers working within an agile software development environment. The ideal candidate started their career technically and has a good understanding of software engineering within a high-tech start/scale-up, and grew into or is now ready for a team lead role.
+
+Your key responsibilities will be:
+
+- Own the results delivered by your team. You lead day-to-day development; assign tasks, track progress, ensure timely delivery and high quality.
+
+- Mentor engineers, foster collaboration, and motivate the team to reach company and personal objectives.
+
+- Set coding standards and best practices for maintainable solutions.
+
+- Work with product teams to translate business needs into technical specifications.
+
+- Implement and enforce testing practices to deliver reliable software.
+
+- Encourage new ideas and own engineering processes to drive continuous improvement.
+
+- Represent Guardsquare’s R&D values, its products and its culture.
+
+Requirements:
+
+- Masters in computer science with 5+ years of experience, of which at least 3 as a Team Lead
+
+- Proven track record of achieving results with teams
+
+- Experience setting performance goals and performing appraisals
+
+- Strong programming fundamentals
+
+- Previous experience with low level programming is an asset
+
+- Deep knowledge of Java is also a nice plus
+
+- A no-nonsense and pragmatic attitude, continuously raising the bar
+
+- Excellent English communication
+
+- Understanding the value of in-person leadership in a hybrid work environment
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+Do you want to make a difference? What are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+7174604,,Junior Accountant (Temp to Perm),Leuven (BE),"Leuven, Belgium",Belgium,Finance,2025-08-18,2026-09-28,,https://job-boards.greenhouse.io/guardsquare/jobs/7174604,"Summary
+
+We are looking for an Accountant to join our Finance team in Leuven. In this role you will support the financial department by managing daily accounting tasks. The ideal candidate will be well versed in Belgian accounting principles and demonstrate strong numerical skills with exceptional attention to detail. The goal is to contribute to the overall efficient operation of the department and help the company be fully aware of its financial condition.
+
+Responsibilities
+
+Your duties will include amongst others:
+
+AP accounting:
+
+- Register incoming invoices according to Belgian accounting and VAT principles and get them through the approval cycle;
+
+- Payments of suppliers and reconciliation of outgoing payments;
+
+- Review and register expense notes.
+
+General accounting
+
+- Book and reconcile bank statements;
+
+- Register journal entries;
+
+- Register payroll bookings;
+
+- Register fixed assets and book depreciations;
+
+- Register prepaid expenses and provisions;
+
+- Filing Belgian VAT returns;
+
+- Register prepaid expenses and provisions.
+
+Profile
+
+- Bachelor in a relevant field (Finance, Accountancy) or assimilated by experience.
+
+- 0–2 years of relevant accounting experience. A first professional experience is preferred, but strong recent graduates with relevant internship experience and a good understanding of Belgian GAAP and VAT are equally encouraged to apply.
+
+- Excellent knowledge of English and good knowledge of Dutch (spoken & written).
+
+- Great attention to detail.
+
+- Good with numbers and figures and an analytical acumen.
+
+- Good understanding of Belgian accounting and financial reporting principles and practices.
+
+- Excellent knowledge of MS Office and familiarity with relevant computer software.
+
+- Experience with NetSuite and/or Salesforce is a plus.
+
+What Guardsquare offers you
+
+- Temporary contract with the opportunity to transition to a permanent position after 6 months
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+7303853,,R&D Team Lead,Leuven (BE),"Leuven, Belgium",Belgium,R&D,2025-10-07,2026-08-14,,https://job-boards.greenhouse.io/guardsquare/jobs/7303853,"Summary
+
+Guardsquare is looking for Team Leads to join us in our Leuven office and lead one of our Leuven based C++/LLVM or Java teams.
+
+In this role you will be responsible for a team of about 5 to 7 C++ or Java software engineers working within an agile software development environment. The ideal candidate started their career technically and has a good understanding of software engineering within a high-tech start/scale-up, and grew into or is now ready for a team lead role.
+
+Your key responsibilities will be:
+
+- Own the results delivered by your team. You lead day-to-day development; assign tasks, track progress, ensure timely delivery and high quality.
+
+- Mentor engineers, foster collaboration, and motivate the team to reach company and personal objectives.
+
+- Set coding standards and best practices for maintainable solutions.
+
+- Work with product teams to translate business needs into technical specifications.
+
+- Implement and enforce testing practices to deliver reliable software.
+
+- Encourage new ideas and own engineering processes to drive continuous improvement.
+
+- Represent Guardsquare’s R&D values, its products and its culture.
+
+Requirements:
+
+- Masters in computer science with 5+ years of experience, of which at least 3 as a Team Lead
+
+- Proven track record of achieving results with teams
+
+- Experience setting performance goals and performing appraisals
+
+- Strong programming fundamentals
+
+- Previous experience with low level programming is an asset
+
+- Deep knowledge of Java or C++ is also a nice plus
+
+- A no-nonsense and pragmatic attitude, continuously raising the bar
+
+- Excellent English communication
+
+- Understanding the value of in-person leadership in a hybrid work environment
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+Do you want to make a difference? What are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+8018275,,Sales Executive - APAC (Singapore),Singapore,Singapore,Singapore,Sales,2026-06-19,2026-10-09,,https://job-boards.greenhouse.io/guardsquare/jobs/8018275,"We’re looking for a driven and commercially minded Sales Executive to help accelerate our growth across the APAC region.
+
+This is a high-impact, hybrid role combining new business acquisition and strategic account expansion. You’ll be responsible for acquiring new customer prospects and expanding revenues across existing customer accounts. We are looking for someone who has a strong track record in software or SaaS sales across direct and partner-led channels.
+
+You bring a solid SaaS sales background, a consistent history of meeting or exceeding targets, and experience managing multi-stakeholder sales cycles. Experience within cybersecurity, specifically Mobile Security, Mobile Threat Defense (MTD), or Application Security (AppSec), is a strong plus, especially if you’ve worked with customers in banking, financial services, or fintech environments.
+
+Candidates must be legally authorized to work in Singapore at the time of application. Please note that we are unable to provide visa or work permit sponsorship for this role.
+
+So, what will you be doing all day?
+
+- Drive new business acquisition across high-growth APAC markets.
+
+- Manage and grow existing customer relationships through strategic account management and land-and-expand opportunities.
+
+- Own the full sales cycle from prospecting and qualification to negotiation and closing.
+
+- Position Guardsquare’s Mobile Security, Mobile Threat Defense (MTD), and mobile application security solutions to prospective clients.
+
+- Build trusted relationships with technical and business decision-makers, including Security Leaders, Heads of AppSec, and Mobile Development managers across mid-market and enterprise accounts.
+
+- Work closely with Solutions Engineering, Marketing, and Product teams to support customer success and pipeline generation.
+
+- Identify market opportunities and contribute to regional go-to-market strategies across APAC.
+
+- Maintain accurate pipeline forecasting and CRM hygiene.
+
+- Represent Guardsquare at customer meetings, industry events, and regional cybersecurity conferences when needed.
+
+This is the perfect job for someone who has
+
+- 3 to 5 years of experience in a similar hybrid sales role, managing both hunting and farming responsibilities, within software or SaaS environments.
+
+- A proven track record of consistently achieving or exceeding revenue targets, including annual quotas of at least >1M SGD.
+
+- Strong experience with land-and-expand sales motions and growing existing accounts.
+
+- Experience selling across mid-market and enterprise environments in APAC.
+
+- Exposure to banking, financial services, insurance (FSI), and fintech customers.
+
+- Experience selling cybersecurity solutions, with exposure to Mobile Security, Mobile Threat Defense (MTD), Application Security (AppSec), or DevSecOps being a strong plus.
+
+- Experience working across APAC regional markets.
+
+- Strong commercial acumen and the ability to navigate multi-stakeholder environments.
+
+- Comfortable selling technical solutions to business, technical, and security leaders (such as Heads of Security, CISOs, and Mobile Leads).
+
+- Excellent communication and relationship-building skills.
+
+- Excellent English communication skills, both written and spoken.
+
+- Singaporean citizenship or permanent residency in Singapore.
+
+- Ability to be based out of our Singapore office on a full-time basis to help establish and anchor our regional hub, alongside field travel across APAC as required.
+
+Bonus points if you
+
+- Have experience working in high-growth SaaS or cybersecurity companies.
+
+- Have familiarity selling against or alongside Mobile Device Management (MDM/UEM) or Mobile Application Management (MAM) platforms.
+
+- Have experience working in international or regional APAC sales environments.
+
+What Guardsquare offers you
+
+- A full-time role with a competitive salary package and performance-based incentives.
+
+- The opportunity to play a key role in establishing and growing Guardsquare's Singapore office, while building on an already successful and fast-growing business across the APAC region.
+
+- The chance to make a tangible impact by helping shape our commercial presence, build lasting customer relationships, and accelerate growth in one of the world's most dynamic technology markets.
+
+- The tools, autonomy, and flexibility to succeed, with plenty of opportunities to develop both professionally and personally.
+
+- An international environment where you'll collaborate with talented, motivated colleagues from a wide range of cultures and backgrounds across Europe, North America, and Asia-Pacific.
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA), Munich (Germany), Singapore, Glasgow (UK), and Helsinki (Finland)."
+8226139,,Senior Accountant,Leuven (BE),"Leuven, Belgium",Belgium,Finance,2026-09-23,2026-09-23,,https://job-boards.greenhouse.io/guardsquare/jobs/8226139,"Position Summary
+
+We are looking for a skilled Senior Accountant to join our Finance team in Leuven. In this role, you will be a key pillar of our 6-member financial department, taking ownership of accounting tasks from A to Z.
+
+To succeed, you must be experienced in Belgian and familiar with international accounting principles, highly analytical, and possess an high attention to detail. Your goal will be to drive the overall efficiency of our financial operations, ensure the accuracy and compliance of the day-to-day accounting and manage the month end closing process.
+
+Key Responsibilities
+
+Accounts Payable (AP) Accounting
+
+- Support our AP accountant with incoming invoices in accordance with Belgian accounting and VAT principles.
+
+- Manage the AP invoice approval cycle efficiently.
+
+- Take ownership of the AP accounting for our subsidiaries (Germany, The Netherlands, UK, Finland, and Singapore).
+
+General Accounting & Reporting
+
+- Support bookings and meticulously reconcile bank statements.
+
+- Register journal entries payroll bookings for Belgium and international entities.
+
+- Manage fixed assets and book depreciations across all subsidiaries.
+
+- Register prepaid expenses, accruals, and provisions.
+
+- Prepare and file Belgian VAT returns, as well as VAT filings for foreign subsidiaries.
+
+- Lead the monthly closing process for all corporate entities.
+
+- Assist with group-level financial reconciliations, consolidation and reporting.
+
+Your Profile
+
+- Education: minimum Bachelor’s degree in a relevant field (Finance, Accountancy) or equivalent experience.
+
+- Experience: Minimum of 5 years of hands-on experience with Belgian accounting rules and VAT.
+
+- Languages: Excellent command of English (spoken and written) alongside a good working knowledge of Dutch.
+
+- Skills: Strong analytical acumen, great comfort with numbers, and an uncompromising attention to detail.
+
+- Technical Proficiency: Deep understanding of Belgian accounting and financial reporting practices. Advanced knowledge of MS Office is required.
+
+- Pluses: Previous experience with NetSuite and/or Salesforce is considered a strong asset.
+
+What Guardsquare Offers You
+
+- A competitive salary package tailored to your experience.
+
+- The tools, resources, and flexibility you need to successfully develop your career.
+
+- A vibrant, international environment where you will collaborate with motivated, open-minded colleagues from diverse backgrounds.
+
+- A collaborative workplace culture where your ideas are valued and implemented.
+
+- A flexible hybrid work policy to support an excellent work-life balance.
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+8204036,,Senior Compiler Engineer C++/LLVM - Gent,Gent (BE),"Gent, Belgium",Belgium,R&D,2026-09-15,2026-09-15,,https://job-boards.greenhouse.io/guardsquare/jobs/8204036,"Summary
+
+We are looking for an experienced compiler engineer with a strong interest in software security to join our team working on iXGuard. Our LLVM-based software protection product focuses on hardening iOS applications against both static analysis and dynamic tampering.
+
+The ideal candidate thrives on designing and executing new ideas for our next code hardening layer to counter reverse engineering techniques and runtime hooking. You make excellent use of the available flexibility in our team to test those ideas and experiment further. The person we are looking to hire strategically prioritizes tasks and actively improves our codebase. He or she is a disciplined and independent worker who takes pride in his or her work.
+
+Responsibilities
+
+- Maintain and improve our existing code base.
+
+- Research, test and implement additional code hardening techniques.
+
+- Support customers in the usage of our software.
+
+- Continuously improve the code quality through extensive testing.
+
+- Stay up-to-date with reverse engineering practices.
+
+Profile
+
+- Master's degree in Computer Science.
+
+- +5 years of experience in a similar role.
+
+- Excellent modern C++ skills.
+
+- Previous experience working with complex code bases.
+
+- Experience with LLVM tools and libraries.
+
+- Experience with compiler internals.
+
+- Strong command of low level programming and debugging practices that come with it.
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+8072068,,Senior Compiler Engineer C++/LLVM - Leuven,Leuven (BE),"Leuven, Belgium",Belgium,R&D,2026-07-17,2026-07-17,,https://job-boards.greenhouse.io/guardsquare/jobs/8072068,"Summary
+
+We are looking for an experienced compiler engineer with a strong interest in software security to join our team working on iXGuard. Our LLVM-based software protection product focuses on hardening iOS applications against both static analysis and dynamic tampering.
+
+The ideal candidate thrives on designing and executing new ideas for our next code hardening layer to counter reverse engineering techniques and runtime hooking. You make excellent use of the available flexibility in our team to test those ideas and experiment further. The person we are looking to hire strategically prioritizes tasks and actively improves our codebase. He or she is a disciplined and independent worker who takes pride in his or her work.
+
+Responsibilities
+
+- Maintain and improve our existing code base.
+
+- Research, test and implement additional code hardening techniques.
+
+- Support customers in the usage of our software.
+
+- Continuously improve the code quality through extensive testing.
+
+- Stay up-to-date with reverse engineering practices.
+
+Profile
+
+- Master's degree in Computer Science.
+
+- +5 years of experience in a similar role.
+
+- Excellent modern C++ skills.
+
+- Previous experience working with complex code bases.
+
+- Experience with LLVM tools and libraries.
+
+- Experience with compiler internals.
+
+- Strong command of low level programming and debugging practices that come with it.
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+7303895,,Software Engineering Team Lead,Leuven (BE),"Leuven, Belgium",Belgium,R&D,2025-10-07,2026-08-14,,https://job-boards.greenhouse.io/guardsquare/jobs/7303895,"Summary
+
+Guardsquare is looking for Software Engineering Team Leads to join us in our Leuven office and lead one of our Leuven based C++/LLVM or Java teams.
+
+In this role you will be responsible for a team of about 5 to 7 C++ or Java software engineers working within an agile software development environment. The ideal candidate started their career technically and has a good understanding of software engineering within a high-tech start/scale-up, and grew into or is now ready for a team lead role.
+
+Your key responsibilities will be:
+
+- Own the results delivered by your team. You lead day-to-day development; assign tasks, track progress, ensure timely delivery and high quality.
+
+- Mentor engineers, foster collaboration, and motivate the team to reach company and personal objectives.
+
+- Set coding standards and best practices for maintainable solutions.
+
+- Work with product teams to translate business needs into technical specifications.
+
+- Implement and enforce testing practices to deliver reliable software.
+
+- Encourage new ideas and own engineering processes to drive continuous improvement.
+
+- Represent Guardsquare’s R&D values, its products and its culture.
+
+Requirements:
+
+- Masters in computer science with 5+ years of experience, of which at least 3 as a Team Lead
+
+- Proven track record of achieving results with teams
+
+- Experience setting performance goals and performing appraisals
+
+- Strong programming fundamentals
+
+- Previous experience with low level programming is an asset
+
+- Deep knowledge of Java or C++ is also a nice plus
+
+- A no-nonsense and pragmatic attitude, continuously raising the bar
+
+- Excellent English communication
+
+- Understanding the value of in-person leadership in a hybrid work environment
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package
+
+- You are provided with the tools & flexibility to develop yourself successfully
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds
+
+- A workplace where you can share and implement your ideas
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+Do you want to make a difference? What are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+1872459,,Solution Engineer (Spanish/English) - Boston (US),Boston (US),"Boston, United States",United States,Sales,2019-09-18,2026-07-17,,https://job-boards.greenhouse.io/guardsquare/jobs/1872459,"Passionate about software engineering, mobile technologies, and cybersecurity? Join our Solutions Engineering team and help some of the world’s leading organizations protect their mobile applications against reverse engineering and tampering.
+
+The role
+
+We’re looking for a Solutions Engineer based in Boston to support customers and prospects across the LATAM region, while also collaborating on global opportunities when needed.
+
+This role sits at the intersection of Sales, Engineering, and Customer Success. You’ll work closely with prospects and customers throughout the sales processes, technical evaluations and onboarding journey, helping them understand how our solutions fit into their mobile security strategy.
+
+You are someone who enjoys combining technical expertise with customer interaction. You can explain complex technical concepts clearly to both technical and non-technical audiences and thrive in a highly collaborative, international environment.
+
+Candidates must be legally authorized to work in the US at the time of application. Please note that we are unable to provide visa or work permit sponsorship for this role.
+
+So, what will you be doing all day?
+
+- Support the Sales team during sales processes, demo’s, customer meetings, events and Proof of Concepts.
+
+- Guide prospects and customers through onboarding and implementation processes.
+
+- Help customers optimize their product setup and configuration to maximize value from our solutions.
+
+- Act as a trusted technical advisor throughout the customer journey.
+
+- Assist with technical support and configuration-related questions in collaboration with Support and Engineering teams.
+
+- Deliver product demos and technical presentations to both technical and executive audiences.
+
+- Provide valuable feedback from customers and prospects back to Product Management, Engineering, and Marketing teams.
+
+- Stay up to date with the latest developments in mobile security, reverse engineering, and application protection technologies.
+
+- Collaborate with international teams across different regions and time zones.
+
+This is the perfect job for someone who has
+
+- A Bachelor’s or Master’s degree in Computer Science, Software Engineering, Cybersecurity, or a related field.
+
+- Experience in a Solutions Engineering, PreSales or similar customer-facing technical role with a SaaS or Software Product company.
+
+- Strong coding and technical troubleshooting skills.
+
+- Excellent verbal and written communication skills in Spanish and English.
+
+- Experience working with Linux, Windows, and macOS environments.
+
+- Familiarity with Android and/or iOS application development.
+
+- Familiarity with Android Studio, Gradle, Xcode, and mobile build processes.
+
+- An interest in mobile application security and cybersecurity concepts.
+
+- The ability to communicate technical concepts confidently to developers, architects, and business stakeholders.
+
+- A proactive mindset and strong problem-solving skills.
+
+Nice to have
+
+- Experience within cybersecurity or application security.
+
+- Familiarity with our products (ProGuard, DexGuard, iXGuard, …).
+
+- Experience with reverse engineering and commonly used tooling.
+
+- Experience working with enterprise customers in industries such as banking, FSI, or fintech.
+
+- Proficiency in Portuguese is a plus.
+
+Other requirements
+
+US citizenship or permanent residency is required.
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package.
+
+- You are provided with the tools & flexibility to develop yourself successfully.
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds.
+
+- A workplace where you can share and implement your ideas.
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance.
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+270716,,Solution Engineer (Spanish/English) - Leuven,Leuven (BE),"Leuven, Belgium",Belgium,Sales,2025-05-08,2026-07-17,,https://job-boards.greenhouse.io/guardsquare/jobs/270716,"Passionate about software engineering, mobile technologies, and cybersecurity? Join our Solutions Engineering team and help some of the world’s leading organizations protect their mobile applications against reverse engineering and tampering.
+
+The role
+
+We’re looking for a Solutions Engineer based in Belgium to support customers and prospects across the LATAM region, while also collaborating on global opportunities when needed.
+
+This role sits at the intersection of Sales, Engineering, and Customer Success. You’ll work closely with prospects and customers throughout the sales processes, technical evaluations and onboarding journey, helping them understand how our solutions fit into their mobile security strategy.
+
+You are someone who enjoys combining technical expertise with customer interaction. You can explain complex technical concepts clearly to both technical and non-technical audiences and thrive in a highly collaborative, international environment.
+
+So, what will you be doing all day?
+
+- Support the Sales team during sales processes, demo’s, customer meetings, events and Proof of Concepts.
+
+- Guide prospects and customers through onboarding and implementation processes.
+
+- Help customers optimize their product setup and configuration to maximize value from our solutions.
+
+- Act as a trusted technical advisor throughout the customer journey.
+
+- Assist with technical support and configuration-related questions in collaboration with Support and Engineering teams.
+
+- Deliver product demos and technical presentations to both technical and executive audiences.
+
+- Provide valuable feedback from customers and prospects back to Product Management, Engineering, and Marketing teams.
+
+- Stay up to date with the latest developments in mobile security, reverse engineering, and application protection technologies.
+
+- Collaborate with international teams across different regions and time zones.
+
+This is the perfect job for someone who has
+
+- A Bachelor’s or Master’s degree in Computer Science, Software Engineering, Cybersecurity, or a related field.
+
+- Experience in a Solutions Engineering, PreSales or similar customer-facing technical role with a SaaS or Software Product company.
+
+- Strong coding and technical troubleshooting skills.
+
+- Excellent verbal and written communication skills in Spanish and English.
+
+- Experience working with Linux, Windows, and macOS environments.
+
+- Familiarity with Android and/or iOS application development.
+
+- Familiarity with Android Studio, Gradle, Xcode, and mobile build processes.
+
+- An interest in mobile application security and cybersecurity concepts.
+
+- The ability to communicate technical concepts confidently to developers, architects, and business stakeholders.
+
+- A proactive mindset and strong problem-solving skills.
+
+Nice to have
+
+- Experience within cybersecurity or application security.
+
+- Familiarity with our products (ProGuard, DexGuard, iXGuard, …).
+
+- Experience with reverse engineering and commonly used tooling.
+
+- Experience working with enterprise customers in industries such as banking, FSI, or fintech.
+
+- Proficiency in Portuguese is a plus.
+
+What Guardsquare offers you
+
+- A full time job with a competitive salary package.
+
+- You are provided with the tools & flexibility to develop yourself successfully.
+
+- An international environment where you will interact with motivated & open colleagues with different backgrounds.
+
+- A workplace where you can share and implement your ideas.
+
+- A hybrid work policy, which helps guarantee an excellent work-life balance.
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."
+8018370,,Solution Engineer - APAC (Singapore),Singapore,Singapore,Singapore,Sales,2026-06-19,2026-10-01,,https://job-boards.greenhouse.io/guardsquare/jobs/8018370,"Passionate about software engineering, mobile technologies, and cybersecurity? Join our Solutions Engineering team and help some of the world’s leading organizations protect their mobile applications against reverse engineering and tampering.
+
+The role
+
+We’re looking for a Solutions Engineer based in Singapore to support customers and prospects across the APAC region, while also collaborating on global opportunities when needed.
+
+This role sits at the intersection of Sales, Engineering, and Customer Success. You’ll work closely with prospects and customers throughout the sales processes, technical evaluations and onboarding journey, helping them understand how our solutions fit into their mobile security strategy.
+
+You are someone who enjoys combining technical expertise with customer interaction. You can explain complex technical concepts clearly to both technical and non-technical audiences and thrive in a highly collaborative, international environment.
+
+Candidates must be legally authorized to work in Singapore at the time of application (Citizen, PR or EP).
+
+So, what will you be doing all day?
+
+- Support the Sales team during sales processes, demo’s, customer meetings, events and Proof of Concepts.
+
+- Guide prospects and customers through onboarding and implementation processes.
+
+- Help customers optimize their product setup and configuration to maximize value from our solutions.
+
+- Act as a trusted technical advisor throughout the customer journey.
+
+- Assist with technical support and configuration-related questions in collaboration with Support and Engineering teams.
+
+- Deliver product demos and technical presentations to both technical and executive audiences.
+
+- Provide valuable feedback from customers and prospects back to Product Management, Engineering, and Marketing teams.
+
+- Stay up to date with the latest developments in mobile security, reverse engineering, and application protection technologies.
+
+- Collaborate with international teams across different regions and time zones.
+
+This is the perfect job for someone who has
+
+- A Bachelor’s or Master’s degree in Computer Science, Software Engineering, Cybersecurity, or a related field.
+
+- Experience in a Solutions Engineering, PreSales or similar customer-facing technical role with a SaaS or Software Product company.
+
+- Strong coding and technical troubleshooting skills.
+
+- Excellent communication and presentation skills in English, both written and spoken.
+
+- Experience working with Linux, Windows, and macOS environments.
+
+- Familiarity with Android and/or iOS application development.
+
+- Familiarity with Android Studio, Gradle, Xcode, and mobile build processes.
+
+- An interest in mobile application security and cybersecurity concepts.
+
+- The ability to communicate technical concepts confidently to developers, architects, and business stakeholders.
+
+- A proactive mindset and strong problem-solving skills.
+
+Nice to have
+
+- Experience within cybersecurity or application security.
+
+- Familiarity with our products (ProGuard, DexGuard, iXGuard, …).
+
+- Experience with reverse engineering and commonly used tooling.
+
+- Experience working with enterprise customers in industries such as banking, FSI, or fintech.
+
+- Additional language skills in Mandarin/Chinese and/or Malay.
+
+Other requirements
+
+- Singaporean citizenship or permanent residency is required.
+
+What Guardsquare offers you
+
+- A full-time role with a competitive salary package and performance-based incentives.
+
+- The opportunity to play a key role in establishing and growing Guardsquare's Singapore office, while building on an already successful and fast-growing business across the APAC region.
+
+- The chance to make a tangible impact by helping shape our commercial presence, build lasting customer relationships, and accelerate growth in one of the world's most dynamic technology markets.
+
+- The tools, autonomy, and flexibility to succeed, with plenty of opportunities to develop both professionally and personally.
+
+- An international environment where you'll collaborate with talented, motivated colleagues from a wide range of cultures and backgrounds across Europe, North America, and Asia-Pacific.
+
+At Guardsquare, we take pride in being a diverse and multicultural company with team members representing numerous nationalities. We value different perspectives and opinions throughout the business which has contributed to our being the market leader in mobile application security.
+
+You will be part of a dynamic team that strives for excellence and focuses on continuous education and enhancement in skills. We encourage & empower our trusted colleagues to share their opinions, actively collaborate, and continue to learn and grow.
+
+So, what are you waiting for? Join us!
+
+You can apply for this opportunity by filling out the application form below!
+
+About Guardsquare
+
+Guardsquare offers the most complete approach to mobile application security on the market, delivering the highest level of protection, with ease. Guardsquare integrates seamlessly across the full development cycle, from mobile app security testing and code hardening to real-time threat detection and API security. Guardsquare provides enhanced mobile application security across the entire development process.
+More than 1,000 customers worldwide across all major industries rely on Guardsquare to help them identify security risks and protect their mobile applications and SDKs against reverse engineering and tampering in the ever-evolving threat landscape.
+
+Guardsquare is based in Leuven (Belgium) with offices in Ghent (Belgium), Boston (USA) and Munich (Germany)."

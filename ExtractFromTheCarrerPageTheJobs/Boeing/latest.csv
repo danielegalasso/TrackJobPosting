@@ -1,5 +1,5 @@
 job_id,title,location,additional_locations,country,time_type,start_date,posted_on,legal_entity,url,description
-JR2026522010,Associate Software Engineer,"USA - Maryland Heights, MO",,United States of America,Full time,2026-10-08,Posted 2 Days Ago,Tapestry - G0G,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Associate-Software-Engineer_JR2026522010-1,"Associate Software Engineer
+JR2026522010,Associate Software Engineer,"USA - Maryland Heights, MO",,United States of America,Full time,2026-10-08,Posted 6 Days Ago,Tapestry - G0G,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Associate-Software-Engineer_JR2026522010-1,"Associate Software Engineer
 
 Company:
 Tapestry - G0G
@@ -379,78 +379,95 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026525122,Building Operational Technology Integration Specialist  (Senior or Lead),"USA - Mesa, AZ","USA - Seattle, WA; USA - Huntsville, AL; USA - Charleston, SC; USA - Everett, WA; USA - Plano, TX; USA - Arlington, VA; USA - Renton, WA; USA - Wichita, KS; USA - North Charleston, SC",United States of America,Full time,2026-09-24,Posted 16 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Mesa-AZ/Building-Operational-Technology-Integration-Specialist---Senior-or-Lead-_JR2026525122,"Building Operational Technology Integration Specialist  (Senior or Lead)
+JR2026511333,"Command and Data Handling/Networking Subsystem Engineers – Space Autonomy Systems - (Associate, Experienced, or Lead)","USA - El Segundo, CA",,United States of America,Full time,2026-10-13,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Command-and-Data-Handling-Networking-Subsystem-Engineers---Space-Autonomy-Systems----Associate--Experienced--or-Lead-_JR2026511333-1,"Command and Data Handling/Networking Subsystem Engineers – Space Autonomy Systems - (Associate, Experienced, or Lead)
 
 Company:
 The Boeing Company
 
-Boeing’s Enterprise Services Technology & Systems (ESTS) organization is currently seeking a Building Operational Technology Integration Specialist  (Senior or Lead) to join our Building Operational Technology team. This is primarily a remote position, with domestic travel to our site locations required up to 25% of the time, including but not limited to Arlington VA, Huntsville AL, Mesa AZ, North Charleston SC, Plano TX, Renton WA, Puget Sound WA, or Wichita KS. Our team is open to a broad range of experience levels including Level 4 and Level 5 Specialists to find the best fit for the position.
+Boeing Defense, Space & Security (BDS), Space Mission Systems is seeking Command and Data Handling/Networking Subsystem Engineers (Level 2, 3, or 4) to develop and manage C&DHN Subsystems for Boeing secured autonomous satellite network systems in El Segundo, CA.
 
-This position requires someone who thrives in a dynamic and fast-paced environment. You will be a key contributor to building and advancing the Operational Technology (OT) team, responsible for integrating systems, platforms, and data that support critical industrial and infrastructure systems. You will fulfill a broad range of responsibilities that are expected to change and evolve often as the Operational Technology landscape continues to develop. The ability to adapt and innovate within complex operational environments is paramount to being successful in this role.
+C&DHN Subsystem engineering assignments include requirements definition and flow down, systems design and analysis, systems integration, test, and verification. You will resolve technical issues and ensure hardware and software are flight worthy prior to delivery. Ability to work collaboratively in multidisciplinary teams is crucial. You will work with management and experts across multiple disciplines including GNC subsystem engineering, software engineering, Communications Security (COMSEC) design, Transmission Security (TRANSEC) design, electronic hardware design & test, spacecraft integration, and end-to-end system engineering. Foundational knowledge of networking principles including TCP/IP, routing, switching, and network protocols relevant to aerospace systems. Some familiarity with system modeling and simulation tools, including Model-Based Systems Engineering (MBSE) tools (e.g., SysML, Cameo) will be a plus.
 
 Position Responsibilities:
 
-- Build processes, standards, and operational frameworks from the ground up
+- Gather, define, and document system level requirements to support flight control and mission or trajectory requirements definition
 
-- Assesses current Operational Technology systems for compliance with IT and OT cybersecurity standards and regulations
+- Provide technical, cost, and schedule status to program and function
 
-- Support technical troubleshooting and remediation for Building Management Systems / Building Automation Systems, including controllers, field devices, sensors, and system integrations
+- Participate and support with cost and schedule reduction initiatives
 
-- Analyze and resolve Building Management System alarms, faults, and abnormal conditions; determine root cause (software, hardware, instrumentation, network) and implement corrective actions to reduce nuisance alarms and false trips
+- Develop and maintain comprehensive subsystem specifications and unit specs with REA support
 
-- Support alarm rationalization and tuning of fault detection and diagnostics (FDD) rules, applying the enterprise alarm and fault priority standard to improve signal quality and reduce operator workload
+- Work on subsystem-to-subsystem interface requirements and C&DHN subsystem hardware Subcontract/Contract Data Requirements List (SDRLs/CDRLs)
 
-- Evaluate integrations between Building Management Systems and enterprise systems (Information Technology interfaces, fault management, analytic platforms, and Computerized Maintenance Management System) to ensure reliable data flow and operational visibility
+- Create and release subsystem level analyses such as traffic analysis, TM accuracy, sampling, command pacing
 
-- Support nationwide rollout and integration of the enterprise Supervisory Control and Data Acquisition (SCADA) platform for building and infrastructure monitoring; analyze configuration and connectivity issues and coordinate fixes with the site teams, integrators, and vendors
+- Perform Subsystem Architecture (including Block Diagram) and technology insertion (including COMSEC Roadmap)
 
-- Facilitate discussions and meetings to address IT compliance requirements and operational needs, to include forecasting of new systems or enhancements and upgrades of existing systems
+- Assure COMSEC implementation and CNSSP-12 compliance including cybersecurity and information assurance
 
-- Troubleshoot industrial communication networks and protocols (BACnet/IP, BACnet MS/TP, Modbus TCP/RTU, Ethernet/IP) including use of network analyzers and diagnostic tools
+- Prepare and present C&DHN subsystem design reviews (PDR, CDR, etc.) for customer and Program SEIT interface
 
-- Assist with the development and maintenance of technical documentation, including integration specifications, as-built configurations, and site onboarding records
+- Input to Spacecraft Database, FSW, and Flight ROPs
 
-Basic Qualifications (Required Skills/Experience):
+- Define and maintain satellite C&DHN process writings (DMS guides)
 
-- Bachelor’s degree or higher
+This position is expected to be 100% onsite. The selected candidate will be required to work onsite the listed location.
 
-- 5+ years of experience with Operational Technology
+Basic Qualifications (Required Skills/ Experience):
 
-- 5+ years of experience in Real Estate, Facilities Operations and/or Facilities Management
+- Active U.S. Secret Security Clearance
 
-- Experience collecting, organizing, synthesizing, and analyzing data, then summarizing findings; developing conclusions and recommendations from appropriate data sources
+- Bachelor of Science degree in Engineering, Engineering Technology (including Manufacturing Technology), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement
 
-- Experience developing and managing internal processes and procedures
-- Domestic travel up to 25%
+- Foundational knowledge of networking principles including TCP/IP, routing, switching, and network protocols relevant to aerospace systems
+
+- Willing to travel 10% of the time domestically and internationally
 
 Preferred Qualifications (Desired Skills/Experience):
 
-- 10+ years' related work experience or an equivalent combination of education and experience
-- Experience with Operational Technology, industrial control systems, and relevant IT and OT frameworks (e.g., NIST SP 800-82, ISA/IEC 62443, ISO 27001)
+- Bachelor’s Degree or higher in Software, Electrical, or Aerospace Engineering
 
-- Experience in facilities Operational Technology (OT) systems, industrial control systems or facilities maintenance systems
+- Experience developing solutions to complex technical problems
 
-- Experience with SCADA and HMI platforms such as ICONICS GENESIS64, Niagara Framework, or COPA-DATA zenon
+- Experience working with CCSDS and IP (Internet Protocol)
 
-- Experience with major Building Automation System vendor platforms (e.g., Johnson Controls Metasys, Siemens Desigo, Honeywell, Schneider Electric EcoStruxure)
+- Experience working with MIL-STD-1553, SpaceWire, CAN, LVDS or Ethernet
 
-- Experience with fault detection and diagnostics (FDD), alarm management (e.g., ANSI/ISA-18.2), or building analytics platforms
+- Experience in MATLAB, Python, and VBA
 
-- Experience with cybersecurity principles specific to OT environments, including risk assessment and mitigation strategies
+- Strong understanding of network engineering concepts including network architecture design, network security, and network troubleshooting
 
-- Experience with multi-site programs and demonstrated ability to lead initiatives across geographic locations
+- Experience with network simulation and analysis tools
 
-- Experience with project management methodologies (e.g., Agile, Scrum, Waterfall) and project management tools (e.g., Wrike, Microsoft Project, Jira)
+- Familiarity with satellite communication network and protocols
+
+- Knowledge of cybersecurity best practices for networked embedded systems
+
+- Basic understanding of the Model-Based Systems Engineering (MBSE) principles and tools to support system design, analysis, and verification is a plus
 
 Conflict of Interest:
 
-Successful candidates for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
+Successful candidate for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
+
+Typical Education/Experienced:
+
+Associate, Level 2: Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 2 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
+
+Experienced, Level 3: Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 5 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
+
+Lead, Level 4: Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 9 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
+
+Relocation:
+This position offers relocation based on candidate eligibility. Note: Basic relocation will be offered for eligible internal candidates
 
 Drug Free Workplace:
+
 Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
 
-Pay & Benefits:
-At Boeing, we strive to deliver a Total Rewards package that will attract, engage, and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
+Pay and Benefits:
+
+At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
 
 The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
 
@@ -458,9 +475,11 @@ The specific programs and options available to any given employee may vary depen
 
 Pay is based upon candidate experience and qualifications, as well as market and business considerations.
 
-Summary Pay Range for Senior (Level 4): $111,350 - $173,650
+Associate (Level 2) Summary Pay Range: $100,300 - $135,700
 
-Summary Pay Range for Lead (Level 5): $138,550 - $215,050
+Experienced (Level 3) Summary Pay Range: $124,100 - $167,900
+
+Lead (Level 4) Summary Pay Range: $153,000 - $207,000
 
 Language Requirements:
 Not Applicable
@@ -469,7 +488,7 @@ Education:
 Bachelor's Degree or Equivalent
 
 Relocation:
-Relocation assistance is not a negotiable benefit for this position.
+This position offers relocation based on candidate eligibility.
 
 Export Control Requirement:
 This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
@@ -478,7 +497,7 @@ Safety Sensitive:
 This is not a Safety Sensitive Position.
 
 Security Clearance:
-This position does not require a Security Clearance.
+This position requires an active U.S. Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
 
 Visa Sponsorship:
 Employer will not sponsor applicants for employment visa status.
@@ -510,88 +529,125 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026512952,C++ Software Engineer,"GBR - Fleet, UK","GBR - Bristol, UK",United Kingdom,Full time,2026-08-19,Posted 30+ Days Ago,Boeing Defence United Kingdom Limited,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Fleet-UK/Software-Engineer-Simulation--Simulation-_JR2026512952-2,"C++ Software Engineer
+JR2026519724,"Command and Data Handling/Networking Subsystem Engineers – Space Autonomy Systems - (Associate, Experienced, or Lead)","USA - El Segundo, CA",,United States of America,Full time,2026-10-13,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Command-and-Data-Handling-Networking-Subsystem-Engineers---Space-Autonomy-Systems----Associate--Experienced--or-Lead-_JR2026519724-1,"Command and Data Handling/Networking Subsystem Engineers – Space Autonomy Systems - (Associate, Experienced, or Lead)
 
 Company:
-Boeing Defence United Kingdom Limited
+The Boeing Company
 
-At Boeing, we are all innovators on a mission to connect, protect, explore and inspire. We’re committed to fostering an environment for every teammate that’s welcoming, respectful and inclusive, with great opportunity for professional growth. Find your future with us.
+Boeing Defense, Space & Security (BDS), Space Mission Systems is seeking Command and Data Handling/Networking Subsystem Engineers (Level 2, 3, or 4) to develop and manage C&DHN Subsystems for Boeing secured autonomous satellite network systems in El Segundo, CA.
 
-The team: The Software Engineering and Systems Integration team in the UK is actively working across Boeing Defence, Commercial Airplanes, Global services and Uncrewed technologies.
+C&DHN Subsystem engineering assignments include requirements definition and flow down, systems design and analysis, systems integration, test, and verification. You will resolve technical issues and ensure hardware and software are flight worthy prior to delivery. Ability to work collaboratively in multidisciplinary teams is crucial. You will work with management and experts across multiple disciplines including GNC subsystem engineering, software engineering, Communications Security (COMSEC) design, Transmission Security (TRANSEC) design, electronic hardware design & test, spacecraft integration, and end-to-end system engineering. Foundational knowledge of networking principles including TCP/IP, routing, switching, and network protocols relevant to aerospace systems. Some familiarity with system modeling and simulation tools, including Model-Based Systems Engineering (MBSE) tools (e.g., SysML, Cameo) will be a plus.
 
-The Software Engineering team works in the development of Synthetic Environment Sub-systems, Mission Systems Capability, Autonomous Behaviours, enhancement of Ground Control Systems, Technical Publications and various in-house proprietary tools for the Defence platforms. The team is also contributing to Commercial Modification of aircrafts, development of Onboard Network Systems, Cabin Interiors and supporting Supplemental Type Certification effort.
+Position Responsibilities:
 
-About the role
+- Gather, define, and document system level requirements to support flight control and mission or trajectory requirements definition
 
-You’ll support Defence and Security domains at Boeing locations and Customer sites across the UK, including Autonomous Systems, Training and Simulation, Cyber, Space, Intelligence and Security.
+- Provide technical, cost, and schedule status to program and function
 
-You will join a rapidly growing Engineering Capability with a culture for development, collaboration and success. Initially you will be assigned to our Simulation Programmes, which operate across the Air, Land and Maritime domains, with future opportunity to develop your interests across the breadth of the Software Engineering portfolio.
+- Participate and support with cost and schedule reduction initiatives
 
-We work in an exciting, faced-paced and dynamic environment, but your wellbeing is important to us and we strive to find a healthy life balance and with an ethical team culture and strong emphasis on openness, collaboration, innovation, safety and first time quality.
+- Develop and maintain comprehensive subsystem specifications and unit specs with REA support
 
-Position Responsibilities
+- Work on subsystem-to-subsystem interface requirements and C&DHN subsystem hardware Subcontract/Contract Data Requirements List (SDRLs/CDRLs)
 
-- Supports the design, architecture, and development of simulation models, simulation visualizations, virtual environments/platforms and frameworks to enhance test performance, safety, and durability of software and hardware systems throughout the entire product lifecycle.
-- Supports partnership with stakeholders to review and identify simulation requirements and dynamics of the systems being simulated.
-- Supports designing, modeling, simulation, testing, and analysis to assess and optimize overall system performance and capabilities.
+- Create and release subsystem level analyses such as traffic analysis, TM accuracy, sampling, command pacing
 
-Basic Qualification/Skills:
+- Perform Subsystem Architecture (including Block Diagram) and technology insertion (including COMSEC Roadmap)
 
-- Bachelor of Science degree or higher from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), chemistry, physics, mathematics, data science, or computer science
-- Ability to obtain security clearance
-- Proficiency in C++, Lua Scripting or one of the similar programming languages
-- Familiarity with Physics based Modelling and Simulation system Engineering principals
+- Assure COMSEC implementation and CNSSP-12 compliance including cybersecurity and information assurance
 
-Preferred Qualifications/Skills:
+- Prepare and present C&DHN subsystem design reviews (PDR, CDR, etc.) for customer and Program SEIT interface
 
-- Familiarity with version control systems (e.g., Git, BitBucket etc).
-- Knowledge of Agile development methodologies.
-- Familiarity with DevOps, Automation and CICD concepts.
-- Understanding of testing frameworks and unit testing practices.
-- Experience working as a Software Simulation Engineer or a similar role
-- Experience across Software Development Lifecycle and Software standards such as ISO9001.
-- Understanding of the distributed interoperability simulation protocols used within defence collective training (e.g., DIS and HLA).
-- Understanding and experience of the COTS simulation and training environment development, execution, verification, validation and deployments
-- Strong understanding of object-oriented programming (OOP) and software design principles.
+- Input to Spacecraft Database, FSW, and Flight ROPs
 
-Location
+- Define and maintain satellite C&DHN process writings (DMS guides)
 
-The primary locations for our Engineering teams is Fleet, with the general expectation of minimum 3 days a week in the office to foster collaboration and team efficiency. We will also consider applicants who may prefer to be based out of our Bristol offices, and potentially others dependent on the suitability of the candidate.
+This position is expected to be 100% onsite. The selected candidate will be required to work onsite the listed location.
 
-Important information regarding this requisition:
+Basic Qualifications (Required Skills/ Experience):
 
-This requisition is for a locally hired position in the UK. CANDIDATES MUST BE A UK CITIZEN AND HAVE CURRENT LEGAL AUTHORIZATION TO WORK IN THE UK. BOEING WILL NOT ATTEMPT TO OBTAIN IMMIGRATION AND LABOR SPONSORSHIP FOR ANY APPLICANTS. Relocation is not available for this position. Benefits and pay are determined at the local level and are not part of Boeing U.S. based payroll.
+- This position requires the ability to obtain a US Security Clearance for which the US Government requires US Citizenship as a condition of employment. A final U.S. Secret Clearance Post Start is required.
 
-PLEASE NOTE: The successful candidate will be expected to undergo a SECURITY CHECK.
+- Bachelor of Science degree in Engineering, Engineering Technology (including Manufacturing Technology), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement
 
-The Boeing benefits package goes above and beyond, focusing on your physical, emotional, financial and social well-being. Here’s a snapshot of what we offer:
+- Foundational knowledge of networking principles including TCP/IP, routing, switching, and network protocols relevant to aerospace systems
 
-- Competitive salary and annual incentive plans
-- Continuous learning - you’ll develop the approach and skills to navigate whatever comes next
-- Success as defined by you - we’ll provide the tools and flexibility, so you can make a meaningful impact, your way
-- An inclusive culture - you’ll be embraced for who you are and empowered to use your voice to help others find theirs
-- Excellent Adoption and Parental leave options
-- 23 days plus UK public holidays and a Winter Break between Christmas and New Year
-- Pension Plan with up to 10% employer contribution
-- Company paid BUPA Medical Plan
-- Short Term Sickness: 100% pay for the first 26 weeks
-- Long Term Sickness: 66.67% of annual salary from 27th week
-- 6x annual salary life insurance
-- Learning Together Programme to support your on-going personal and career development
-- Access to Boeing’s Well Being Programs, tool and incentives
+- Willing to travel 10% of the time domestically and internationally
+
+Preferred Qualifications (Desired Skills/Experience):
+
+- Bachelor’s Degree or higher in Software, Electrical, or Aerospace Engineering
+
+- Experience developing solutions to complex technical problems
+
+- Experience working with CCSDS and IP (Internet Protocol)
+
+- Experience working with MIL-STD-1553, SpaceWire, CAN, LVDS or Ethernet
+
+- Experience in MATLAB, Python, and VBA
+
+- Strong understanding of network engineering concepts including network architecture design, network security, and network troubleshooting
+
+- Experience with network simulation and analysis tools
+
+- Familiarity with satellite communication network and protocols
+
+- Knowledge of cybersecurity best practices for networked embedded systems
+
+- Basic understanding of the Model-Based Systems Engineering (MBSE) principles and tools to support system design, analysis, and verification is a plus
+
+Conflict of Interest:
+
+Successful candidate for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
+
+Typical Education/Experienced:
+
+Associate, Level 2: Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 2 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
+
+Experienced, Level 3: Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 5 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
+
+Lead, Level 4: Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 9 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
+
+Relocation:
+This position offers relocation based on candidate eligibility. Note: Basic relocation will be offered for eligible internal candidates
+
+Drug Free Workplace:
+
+Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
+
+Pay and Benefits:
+
+At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
+
+The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
+
+The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
+
+Pay is based upon candidate experience and qualifications, as well as market and business considerations.
+
+Associate (Level 2) Summary Pay Range: $100,300 - $135,700
+
+Experienced (Level 3) Summary Pay Range: $124,100 - $167,900
+
+Lead (Level 4) Summary Pay Range: $153,000 - $207,000
 
 Language Requirements:
-
 Not Applicable
 
 Education:
-Not Applicable
+Bachelor's Degree or Equivalent
 
 Relocation:
-Relocation assistance is not a negotiable benefit for this position.
+This position offers relocation based on candidate eligibility.
+
+Export Control Requirement:
+This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
+
+Safety Sensitive:
+This is not a Safety Sensitive Position.
 
 Security Clearance:
-This position requires the ability to obtain United Kingdom Security Check.
+This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. An interim and/or final U.S. Secret Clearance Post-Start is required.
 
 Visa Sponsorship:
 Employer will not sponsor applicants for employment visa status.
@@ -600,8 +656,30 @@ Contingent Upon Award Program
 This position is not contingent upon program award
 
 Shift:
-Not a Shift Worker (United Kingdom)"
-JR2026526377,Customer Support Service Specialist (Mid-Level or Lead),"USA - Hill AFB, UT","USA - Layton, UT",United States of America,Full time,2026-10-07,Posted 3 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hill-AFB-UT/Customer-Support-Service-Specialist--Mid-Level-or-Lead-_JR2026526377,"Customer Support Service Specialist (Mid-Level or Lead)
+Shift 1 (United States of America)
+
+Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
+
+Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
+
+EEO is the law
+
+Boeing EEO Policy
+
+Request an Accommodation
+
+Applicant Privacy
+
+Boeing Participates in E – Verify
+
+- E-Verify (English)
+- E-Verify (Spanish)
+
+Right to Work Statement
+
+- Right to Work (English)
+- Right to Work (Spanish)"
+JR2026526377,Customer Support Service Specialist (Mid-Level or Lead),"USA - Hill AFB, UT","USA - Layton, UT",United States of America,Full time,2026-10-07,Posted 7 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hill-AFB-UT/Customer-Support-Service-Specialist--Mid-Level-or-Lead-_JR2026526377,"Customer Support Service Specialist (Mid-Level or Lead)
 
 Company:
 The Boeing Company
@@ -716,7 +794,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026517822,Cyber Security Analyst,"GBR - Bristol, UK",,United Kingdom,Full time,2026-09-24,Posted 16 Days Ago,Boeing Defence United Kingdom Limited,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Cyber-Security-Analyst_JR2026517822-2,"Cyber Security Analyst
+JR2026517822,Cyber Security Analyst,"GBR - Bristol, UK",,United Kingdom,Full time,2026-09-24,Posted 20 Days Ago,Boeing Defence United Kingdom Limited,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Cyber-Security-Analyst_JR2026517822-2,"Cyber Security Analyst
 
 Company:
 Boeing Defence United Kingdom Limited
@@ -809,7 +887,7 @@ This position is not contingent upon program award
 
 Shift:
 Shift Worker (United Kingdom)"
-JR2026525073,Cybersecurity - Information System Security Manager (ISSM),"USA - Fairfax, VA",,United States of America,Full time,2026-10-05,Posted 5 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Fairfax-VA/Cybersecurity---Information-System-Security-Manager--ISSM-_JR2026525073-2,"Cybersecurity - Information System Security Manager (ISSM)
+JR2026525073,Cybersecurity - Information System Security Manager (ISSM),"USA - Fairfax, VA",,United States of America,Full time,2026-10-14,Posted Today,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Fairfax-VA/Cybersecurity---Information-System-Security-Manager--ISSM-_JR2026525073-2,"Cybersecurity - Information System Security Manager (ISSM)
 
 Company:
 The Boeing Company
@@ -916,7 +994,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026526072,Cybersecurity - Information System Security Manager (ISSM),"USA - Herndon, VA",,United States of America,Full time,2026-10-05,Posted 5 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Herndon-VA/Cybersecurity---Information-System-Security-Manager--ISSM-_JR2026526072,"Cybersecurity - Information System Security Manager (ISSM)
+JR2026526072,Cybersecurity - Information System Security Manager (ISSM),"USA - Herndon, VA",,United States of America,Full time,2026-10-14,Posted Today,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Herndon-VA/Cybersecurity---Information-System-Security-Manager--ISSM-_JR2026526072,"Cybersecurity - Information System Security Manager (ISSM)
 
 Company:
 The Boeing Company
@@ -1019,7 +1097,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026515206,Electrical Design and Analysis Engineers (Mid and Senior Level),"USA - Robins AFB, GA",,United States of America,Full time,2026-10-06,Posted 4 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Robins-AFB-GA/Electrical-Design-and-Analysis-Engineers--Mid-and-Senior-Level-_JR2026515206,"Electrical Design and Analysis Engineers (Mid and Senior Level)
+JR2026515206,Electrical Design and Analysis Engineers (Mid and Senior Level),"USA - Robins AFB, GA",,United States of America,Full time,2026-10-06,Posted 8 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Robins-AFB-GA/Electrical-Design-and-Analysis-Engineers--Mid-and-Senior-Level-_JR2026515206,"Electrical Design and Analysis Engineers (Mid and Senior Level)
 
 Company:
 The Boeing Company
@@ -1145,133 +1223,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026519651,Electronic & Electrical System Design Engineer (Associate or Mid-Level),"USA - Tinker AFB, OK",,United States of America,Full time,2026-09-24,Posted 16 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Tinker-AFB-OK/Electronic---Electrical-System-Design-Engineer--Associate-or-Mid-Level-_JR2026519651-1,"Electronic & Electrical System Design Engineer (Associate or Mid-Level)
-
-Company:
-The Boeing Company
-
-The Boeing Test and Evaluation (BT&E) organization is seeking an Electronic & Electrical System Design Engineer for the B-1 Bomber Avionics Integrated Support Facility (AISF) at Tinker Air Force Base, OK.
-
-The AISF Laboratory Operations Team is responsible for maintaining, configuring, and upgrading avionics hardware and special test equipment used to support development and testing of operational flight software. Other areas of responsibility include engineering and hardware sustainment that extends to multiple air force bases and labs across the United States.
-
-The AISF lab team plays a key role supporting the B-1 platform requirements in areas of avionics and weapons integration, by making changes in the lab first to ensure the software and hardware design are ready prior to ground and flight test. This engineering position is part of a small highly collaborative design team working multiple lab changes to satisfy customer requirements and ultimately the airmen who use the weapon system.
-
-This position is part of the Laboratory Operations team, comprising engineers, technicians, and cybersecurity professionals.
-
-BT&E is currently hiring for a broad range of experience levels including Associate or Mid-Level Electronic & Electrical System Design Engineers.
-
-Travel: This position will require occasional domestic travel up to 10% to support program objectives.
-
-Position Responsibilities:
-
-- Design lab changes for new test articles and integration that support platform upgrades
-- Design lab changes to existing systems to resolve Diminishing Manufacturing Sources (DMS) incorporating new technology
-- Collaborate with the cyber security team to make design changes that support cyber security requirements
-- Develop and support the generation of hardware modification and configuration planning
-- Direct material procurement for lab design upgrades, modifications, and assembly oversight
-- Create test plans and procedures, perform engineering verification, analyze test results, and create test reports
-- Performs classification and de-classification of test equipment to support lab users
-- Support software engineers in the lab environment, troubleshooting laboratory and test-related problems
-- Contribute to proposal development for new business opportunities
-- Candidate must be willing to travel for short periods
-
-Basic Qualifications (Required Skills/Experience):
-
-- Ability to obtain a U.S. Secret Security Clearance for which the U.S. Government requires U.S. Citizenship
-- Bachelor of Science degree in Engineering (with a focus in Electrical, Mechanical or Aeronautical), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement
-- 2+ years of experience in electrical or mechanical engineering working on complex systems
-- 2+ years of experience troubleshooting avionic equipment, general electronics, and/or aircraft systems
-- Experience in a role that required creative, critical thinking and troubleshooting skills, strong collaborative skills, strong written and verbal communication
-- Willing and able to travel domestically 10% of the time
-
-Preferred Qualifications (Desired Skills/Experience):
-
-- Level 3: 3 or more years' related work experience or an equivalent combination of education and experience
-- An active U.S. Secret Security Clearance in the past 24 months
-- Degree in Electrical Engineering, Mechanical Engineering, Aerospace Engineering, and/or other Engineering discipline
-- Experience with simulation systems used to test avionics software
-- Ability to create or modify electrical and mechanical drawings per ASME Y14 standards
-- Experience using Microsoft Office Products (Word, Excel, PowerPoint, Project)
-- Experience with CATIA V5 drafting tools, Linux, and Windows operating systems is desirable
-- Avionics experience with the B-1 Bomber or another platform
-
-Drug Free Workplace:
-
-Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
-
-Conflict of Interest:
-
-Successful candidates for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
-
-Shift:
-
-This role is primarily first shift; however, there may be additional shift requirements to support program objectives.
-
-Pay & Benefits:
-
-At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
-
-The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
-
-The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining
-
-agreements.
-
-Pay is based upon candidate experience and qualifications, as well as market and business considerations.
-
-Summary Pay Range for Associate Level (Level 2): $85,000 – $115,000
-
-Summary Pay Range for Mid-Level (Level 3): $104,550 – $141,450
-
-Language Requirements:
-Not Applicable
-
-Education:
-Bachelor's Degree or Equivalent
-
-Relocation:
-This position offers relocation based on candidate eligibility.
-
-Export Control Requirement:
-This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
-
-Safety Sensitive:
-This is not a Safety Sensitive Position.
-
-Security Clearance:
-This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. An interim and/or final U.S. Secret Clearance Post-Start is required.
-
-Visa Sponsorship:
-Employer will not sponsor applicants for employment visa status.
-
-Contingent Upon Award Program
-This position is not contingent upon program award
-
-Shift:
-Shift 1 (United States of America)
-
-Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
-
-Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
-
-EEO is the law
-
-Boeing EEO Policy
-
-Request an Accommodation
-
-Applicant Privacy
-
-Boeing Participates in E – Verify
-
-- E-Verify (English)
-- E-Verify (Spanish)
-
-Right to Work Statement
-
-- Right to Work (English)
-- Right to Work (Spanish)"
-JR2026523235,"Embedded Software Engineer (Associate, Experienced or Lead)","USA - El Segundo, CA",,United States of America,Full time,2026-09-18,Posted 22 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Embedded-Software-Engineer--Associate--Experienced-or-Lead-_JR2026523235-1,"Embedded Software Engineer (Associate, Experienced or Lead)
+JR2026523235,"Embedded Software Engineer (Associate, Experienced or Lead)","USA - El Segundo, CA",,United States of America,Full time,2026-10-13,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Embedded-Software-Engineer--Associate--Experienced-or-Lead-_JR2026523235-1,"Embedded Software Engineer (Associate, Experienced or Lead)
 
 Company:
 The Boeing Company
@@ -1430,7 +1382,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026523750,Entry Level Command and Data Handling Network Engineer (Autonomous Navigation Systems),"USA - El Segundo, CA",,United States of America,Full time,2026-10-01,Posted 9 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Command-and-Data-Handling-Network--Autonomous-Navigation-Systems-_JR2026523750-1,"Entry Level Command and Data Handling Network Engineer (Autonomous Navigation Systems)
+JR2026523750,Entry Level Command and Data Handling Network Engineer (Autonomous Navigation Systems),"USA - El Segundo, CA",,United States of America,Full time,2026-10-01,Posted 13 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Command-and-Data-Handling-Network--Autonomous-Navigation-Systems-_JR2026523750-1,"Entry Level Command and Data Handling Network Engineer (Autonomous Navigation Systems)
 
 Company:
 The Boeing Company
@@ -1551,144 +1503,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026513298,Experienced Software Development Engineer,"USA - Hazelwood, MO","USA - Berkeley, MO; USA - Saint Louis, MO",United States of America,Full time,2026-09-28,Posted 12 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Experienced-Software-Development-Engineer_JR2026513298-1,"Experienced Software Development Engineer
-
-Company:
-The Boeing Company
-
-The Boeing Company is looking for an Experienced Software Development Engineer to join the Government Vehicle Health Maintenance team in Hazelwood, MO. This role supports the Boeing Global Services (BGS) Software Engineering organization by developing innovative solutions to enhance platform health management.
-
-As part of Boeing Global Services Software Engineering, you will design, implement, and maintain cloud-native microservices that capture and analyze platform health and usage data, perform automated assessments, and generate actionable maintenance recommendations. Your work will directly support mission readiness and lower lifecycle costs for platforms including F/A-18, MQ-25, F-15, T-38, T-7, and proprietary systems. Successful candidates will participate in all phases of the software development lifecycle on an Agile team working within a CI/CD pipeline.
-
-This position is expected to be 100% onsite. The selected candidate will be required to work onsite at one of the listed location options.
-
-Position Responsibilities:
-
-- Design, develop, test, and maintain non-embedded software across the full lifecycle, ensuring compliance with industry, customer, safety, and regulatory requirements
-
-- Translate customer needs and requirements into initial software designs and implementation plans
-
-- Develop, document, and maintain software architectures, algorithms, interfaces, and detailed designs
-
-- Develop, integrate, and optimize software products and system integrations, including supplier-supplied components
-
-- Debug complex issues, lead root-cause analysis, and implement corrective actions to ensure product reliability and performance
-
-- Respond to user inquiries, troubleshoot technical problems, and incorporate user feedback into improvements
-
-- Research and evaluate current and emerging technologies, tools, and frameworks; recommend and implement relevant solutions
-
-- Establish, monitor, and improve software processes, tools, and key performance metrics to align with organizational goals and industry benchmarks
-
-- Plan, execute, and document software research and development initiatives
-
-Basic Qualifications:
-
-- Bachelor’s Degree
-
-- Ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship
-
-- 5+ years of experience with Object Oriented Design and Programming in a high-level language like C#, .NET, Java, SQL, HTML, and CSS
-
-- 5+ years of experience with software development on Windows or Linux
-
-- 5+ years of experience developing software for containerized architectures (Docker, Podman, Kubernetes)
-
-- 5+ years of experience in Git
-
-- 5+ years of experience developing software products in a cloud environment
-
-Preferred Qualifications:
-
-- Level 3: Bachelor of Science degree from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), chemistry, physics, mathematics, data science, or computer science and 5+ years of related work experience OR Bachelor’s Degree and 9+ years of directly related work experience OR 13+ years of related, relevant experience
-
-- 2+ years of experience in cyber security
-
-- Working knowledge of specification formats, robust change control practices, and how standards drive aircraft/product certification and compliance strategies
-
-- Proven ability to lead requirements derivation and allocation across system, subsystem, and software levels and demonstrate complete traceability throughout the lifecycle
-
-- Strong expertise in software architecture and design methodologies; able to define and validate architectures that meet complex requirements and constraints
-
-- Advanced capability to architect, build, integrate, optimize, and debug software components across diverse host environments; leads resolution of complex, cross-cutting issues
-
-- Proficiency across multiple programming paradigms and languages (higher-order, auto-coded, and assembly), plus strong database design/use and performance considerations
-
-- Deep experience designing and overseeing implementation, validation, and verification strategies; expert use of development/test toolchains and process improvement
-
-- Broad domain mastery of systems that influence software architecture and integration (aircraft, missiles, airborne/shipboard/space/ground systems); anticipates and mitigates constraints such as OS limitations, fidelity, and processing capacity
-
-CodeVue Coding Challenge:
-
-To be considered for this position you will be required to complete a technical assessment as part of the selection process. Failure to complete the assessment will remove you from consideration.
-
-Drug Free Workplace:
-
-Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
-
-Pay & Benefits:
-
-At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
-
-The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
-
-The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
-
-Pay is based upon candidate experience and qualifications, as well as market and business considerations.
-
-Summary Pay Range for Experienced (Level 3): $126,650 - $171,350
-
-Potential signing bonus for eligible/qualified external candidates.
-
-Language Requirements:
-English
-
-Education:
-Bachelor's Degree or Equivalent
-
-Relocation:
-This position offers relocation based on candidate eligibility.
-
-Export Control Requirement:
-This is not an Export Control position.
-
-Safety Sensitive:
-This is not a Safety Sensitive Position.
-
-Security Clearance:
-This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. An interim and/or final U.S. Secret Clearance Post-Start is required.
-
-Visa Sponsorship:
-Employer will not sponsor applicants for employment visa status.
-
-Contingent Upon Award Program
-This position is not contingent upon program award
-
-Shift:
-Shift 1 (United States of America)
-
-Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
-
-Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
-
-EEO is the law
-
-Boeing EEO Policy
-
-Request an Accommodation
-
-Applicant Privacy
-
-Boeing Participates in E – Verify
-
-- E-Verify (English)
-- E-Verify (Spanish)
-
-Right to Work Statement
-
-- Right to Work (English)
-- Right to Work (Spanish)"
-JR2026508868,Flight Software Engineers (Associate / Experienced / Senior),"USA - El Segundo, CA",,United States of America,Full time,2026-10-02,Posted 8 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Flight-Software-Engineers--Associate---Experienced---Senior-_JR2026508868-1,"Flight Software Engineers (Associate / Experienced / Senior)
+JR2026508868,Flight Software Engineers (Associate / Experienced / Senior),"USA - El Segundo, CA",,United States of America,Full time,2026-10-02,Posted 12 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Flight-Software-Engineers--Associate---Experienced---Senior-_JR2026508868-1,"Flight Software Engineers (Associate / Experienced / Senior)
 
 Company:
 The Boeing Company
@@ -1900,7 +1715,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026518241,Flight Software Engineers (Associate / Experienced / Senior),"USA - El Segundo, CA",,United States of America,Full time,2026-10-06,Posted 4 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Flight-Software-Engineers--Associate---Experienced---Senior-_JR2026518241-1,"Flight Software Engineers (Associate / Experienced / Senior)
+JR2026518241,Flight Software Engineers (Associate / Experienced / Senior),"USA - El Segundo, CA",,United States of America,Full time,2026-10-06,Posted 8 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Flight-Software-Engineers--Associate---Experienced---Senior-_JR2026518241-1,"Flight Software Engineers (Associate / Experienced / Senior)
 
 Company:
 The Boeing Company
@@ -2115,7 +1930,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026526520,Full Stack Data Scientist,"USA - Seattle, WA","USA - Arlington, VA",United States of America,Full time,2026-10-09,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Full-Stack-Data-Scientist_JR2026526520,"Full Stack Data Scientist
+JR2026526520,Full Stack Data Scientist,"USA - Seattle, WA","USA - Arlington, VA",United States of America,Full time,2026-10-09,Posted 5 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Full-Stack-Data-Scientist_JR2026526520,"Full Stack Data Scientist
 
 Company:
 The Boeing Company
@@ -2258,7 +2073,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026524741,GPS IIF Mission System Administrator (Expert and Senior),"USA - El Segundo, CA",,United States of America,Full time,2026-10-06,Posted 4 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/GPS-IIF-Mission-System-Administrator--Expert-and-Senior-_JR2026524741-1,"GPS IIF Mission System Administrator (Expert and Senior)
+JR2026524741,GPS IIF Mission System Administrator (Expert and Senior),"USA - El Segundo, CA",,United States of America,Full time,2026-10-06,Posted 8 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/GPS-IIF-Mission-System-Administrator--Expert-and-Senior-_JR2026524741-1,"GPS IIF Mission System Administrator (Expert and Senior)
 
 Company:
 The Boeing Company
@@ -2385,81 +2200,80 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026525674,Ground Software Engineer  - Millennium Space Systems,"USA - Chantilly, VA","USA - El Segundo, CA",United States of America,Full time,2026-10-08,Posted 2 Days Ago,Millennium Space Systems,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Chantilly-VA/Ground-Software-Engineer----Millennium-Space-Systems_JR2026525674-1,"Ground Software Engineer - Millennium Space Systems
+JR2026523776,IMOSC Systems Administrator/Engineer (Expert),"USA - Schriever SFB, CO",,United States of America,Full time,2026-10-12,Posted 2 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Schriever-SFB-CO/GPS-IIF-Comm---Network-System-Engineer_JR2026523776-1,"IMOSC Systems Administrator/Engineer (Expert)
 
 Company:
-Millennium Space Systems
+The Boeing Company
 
-Millennium Space Systems, a part of Boeing Defense, Space and Security (BDS), is a fast, agile small satellite company focused on national security space. Our missions have direct impact to global security, like missile warning and Earth observation.
+Boeing Defense, Space, and Security (BDS) seeks a seeks a IMOSC Systems Administrator/Engineer (Expert) to serve on the Global Positioning System (GPS) IIF program, within our Space, Intelligence & Weapon Systems (SI&WS) division located at Schriever Space Force Base, about 10 miles east of Colorado Springs.
 
-Our team is curious, bold and innovative. We take risks, innovate and explore new techniques and technologies. We influence change because we challenge the status quo. And when we watch our satellites launch, we know each one of us made it happen.
+GPS is a satellite-based radio-navigation system owned by the United States government and operated by the United States Space Force and is the world's first global utility. GPS provides position, navigation, and timing (PNT) data to military and civilian users globally with countless applications and an unlimited number of users.
 
-Job Summary
+Boeing has over 45 years of history in GPS, including achieving full system capability in 1995. The current Boeing team supports the US Space Force by sustaining and monitoring the health and capabilities of the 12 GPS Block IIF satellites in the GPS constellation, launched from 2010 to 2016. The Boeing GPS sustainment team also provides support to our U.S. Space Force customer with reports and expertise on all aspects of the GPS system. Sustainment efforts will continue through the life of the Block IIF satellites, with a design life expectancy to 2031 and beyond. The program currently operates under a 10-year sustainment contract, from 2022 to 2031.
 
-As a Ground Software Engineer, you will maintain and develop software for command and control of satellites. You will write requirements with the guidance of subject matter experts and decompose them into long-term roadmaps, which you will also develop and test in collaboration with your end users. You will leverage modern frameworks to improve legacy software and tooling. Your position will also include root cause analysis and implementing fixes for the users of your team’s products. You will work closely with the operations team, spacecraft engineers, cybersecurity specialists, and technicians to ensure our company’s continued stewardship of our satellites and the space environment.
-
-This position's internal job code is SWE-Developer. Our team is currently hiring for level 1-2.
+As IMOSC Systems Administrator/Engineer, you will be a key member of a high-performing team engaged in critical projects related to the GPS IIF satellite constellation and supporting systems. As a member of our team, you will perform configuration management, system integration and reliability of hardware and software to include installation/repairs, and configuration and maintenance of domain system components to support the GPS architecture. This role will provide problem resolution and technical support for our classified systems. This position will support the maintenance, reliability, validation, and configuration management of computing delivery systems. This role will focus on maintaining and monitoring system performance to support and improve reliability of the GPS operational mission. As reliability an administrator, you will play a crucial role in integrating logistics, automation, data analytics, technological advances, and engineering into an ecosystem that supports the mission while meeting modern cybersecurity requirements.
 
 Position Responsibilities:
 
-- Supports the design, development, integration, testing, and delivery of large-scale ground software and mission control systems
-- Interacts with other Millennium staff to support testing on components, subsystems, and spacecraft in test configurations
-- Integrates Millennium software applications into Government-furnished software and infrastructure•
-- Assists in the execution for integrated system test events bridging Millennium-developed products and Government-furnished systems
-- Implements specific mission data processing applications into existing systems to support payloads and end data users
-- Supports software testing and installation in classified environments
-- Assists developers through development tasks, troubleshooting exercises
-- Assists in the planning and execution of validation/verification testing
-- Contributes to ground software or tool development by completing larger feature requests, taking ownership of larger software modules, analysis packages, and workflows
-- Other duties as assigned
+- Administer and support the GitLab platform, including automation, configuration management, and maintenance
 
-This position is expected to be 100% onsite. The selected candidate will be required to work onsite at one of the listed location options.
+- Develop and sustain automation and scripting tools to improve system administration, reliability, and operational efficiency
+- Perform system monitoring/analysis, and report system performance metrics, trends, and reliability issues using dashboards and data analytics tools
+- Install, configure, maintain, and troubleshoot multi-platform systems, including hardware, software, virtual machines, and databases in a mixed domain/enterprise environment
+- Support cybersecurity compliance, vulnerability remediation, configuration management, and system integration activities
+- Assist with application deployments, upgrades, disaster recovery planning, and restoration efforts
+- Support mission operations and test activities while ensuring system performance and reliability requirements are met
+- Prepare technical documentation and assist with system, cybersecurity, and related administrative tasks
 
-Security Clearance and Export Control Requirements
+This position requires an active (interim or final) secret or above U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship.
 
-This position must meet Export Control compliance requirements, therefore a “US Person” as defined by 22 C.F.R. § 120.15 is required. “US Person” includes US Citizen, lawful permanent resident, refugee, or asylee.
+This position is expected to be fully onsite at Schriever SFB, CO and necessitates the ability to navigate the military base worksite where there are buildings without elevators and a long walk from the parking lot.
 
 Basic Qualifications (Required Skills/Experience):
 
-- Bachelor’s degree in Computer Science, Computer Engineering, Aerospace Engineering, or a related field
-- Experience designing and developing software in a production environment
-- This position requires the ability to obtain a US Security Clearance for which the US Government requires US Citizenship. A Final U.S. secret clearance Prestart is required OR An interim and/or final U.S. secret clearance Post Start is required
+- Active interim or final U.S. Secret Security Clearance
+- Bachelor of Science degree in Engineering, Engineering Technology (including Manufacturing Technology), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement
+- 5 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications
+- Current Security+ certification.
 
 Preferred Qualifications (Desired Skills/Experience):
 
-- Active TS/SCI Clearance
+- Windows Enterprise Domain Systems Administration experience to include Active Directory/LDAP management
+- Scripting/Programming Proficiency. Python and Powershell preferred
+- Experience in Gitlab Platform and its administrative functions
+- Understanding of data analytics and business intelligence principles
+- Experience in troubleshooting and restoration of computing service operations
+- Ability to solve problems with critical thinking and a strategic approach for problem identification and resolution
+- Experience integrating cybersecurity solutions into information systems and associated processes. Splunk hands-on preferred
+- Basic experience in database configuration, management, and maintenance. Postgres preferred
+- Basic Windows System Administration (Server 2016+/Win10+) experience and/or RHEL 8+ (hybrid classified/on-prem physical and virtual environments)
+
+Typical Education/Experience:
+
+Expert, Level 3: Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 5 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
+
+Relocation:
+
+Relocation assistance is not a negotiable benefit for this position. Candidates must live in the immediate area or relocate at their own expense.
 
 Conflict of Interest:
-
-Successful candidates for this job must satisfy the Company’s Conflict of Interest (COI) assessment process
+Successful candidates for this job must satisfy the Company's Conflict of Interest (COI) assessment process.
 
 Drug Free Workplace:
 
-Millennium Space Systems, a Boeing Company, is a Drug Free Workplace (DFW) where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
+Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
 
-Shift:
+Pay & Benefits:
 
-- This role will be on 1st Shift
+At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
 
-Total Rewards:
-
-At Millennium Space Systems, a Boeing Company, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
-
-Millennium Space Systems also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
+The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
 
 The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
 
 Pay is based upon candidate experience and qualifications, as well as market and business considerations.
 
-Summary Pay Range:
-
-Level 1: $83,300 - $122,500
-
-Level 2: $106,250 - $156,250
-
-Millennium is DDTC-registered, ITAR-compliant Company. This position is located at a facility that requires special access. Applicants MUST be U.S. citizens and eligible for a security clearance. Additionally, applicants must be willing to apply for and maintain a security clearance. We encourage all interested candidates to apply for any open position for which they feel they are qualified.
-
-Category = Engineering
+Summary Pay Range: (Expert – Level 3): $112,200 - $151,800
 
 Language Requirements:
 Not Applicable
@@ -2477,7 +2291,7 @@ Safety Sensitive:
 This is not a Safety Sensitive Position.
 
 Security Clearance:
-This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. A final U.S. Secret Clearance Pre-Start is required.
+This position requires an active U.S. Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
 
 Visa Sponsorship:
 Employer will not sponsor applicants for employment visa status.
@@ -2509,7 +2323,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026525442,Information Digital Technology & Security (IDT&S) Business Partner (BP) Senior Manager **Sign on Bonus Potential**,"USA - Hazelwood, MO","USA - Berkeley, MO",United States of America,Full time,2026-10-09,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Information-Digital-Technology---Security--IDT-S--Business-Partner--BP--Senior-Manager---Sign-on-Bonus-Potential--_JR2026525442-1,"Information Digital Technology & Security (IDT&S) Business Partner (BP) Senior Manager **Sign on Bonus Potential**
+JR2026525442,Information Digital Technology & Security (IDT&S) Business Partner (BP) Senior Manager **Sign on Bonus Potential**,"USA - Hazelwood, MO","USA - Berkeley, MO",United States of America,Full time,2026-10-09,Posted 5 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Information-Digital-Technology---Security--IDT-S--Business-Partner--BP--Senior-Manager---Sign-on-Bonus-Potential--_JR2026525442-1,"Information Digital Technology & Security (IDT&S) Business Partner (BP) Senior Manager **Sign on Bonus Potential**
 
 Company:
 The Boeing Company
@@ -2639,106 +2453,99 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026522639,Lead DevSecOps Software Engineer,"USA - El Segundo, CA",,United States of America,Full time,2026-09-21,Posted 19 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Lead-DevSecOps-Software-Engineer_JR2026522639,"Lead DevSecOps Software Engineer
+JR2026523369,Lead Software Engineer Developer - DevSecOps,"USA - Richardson, TX",,United States of America,Full time,2026-10-14,Posted Today,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Richardson-TX/Lead-Software-Engineer-Developer---DevSecOps_JR2026523369-1,"Lead Software Engineer Developer - DevSecOps
 
 Company:
 The Boeing Company
 
-The Boeing Company has an exciting opportunity for a Lead DevSecOps Software Engineer to join our dynamic team in El Segundo, CA. This position will focus on supporting the Boeing Defense, Space & Security (BDS) Space Mission Systems Software Engineering organization.
+Boeing Defense, Space & Security (BDS) has an exciting opportunity for a Lead Software Engineer Developer - DevSecOps to join the Special Projects Dallas (SPD) P-8A Poseidon Maritime Patrol Aircraft Advanced Airborne Sensor (AAS) team in Richardson, TX.
 
-The ideal candidate is passionate about outer space and excited to work in a multi-disciplined, collaborative engineering environment that supports the design, development, and implementation of software for a new fleet of Boeing satellites.
+At Boeing, our software engineers apply their expertise to develop, secure, and sustain next-generation software capabilities for advanced aerospace platforms. The Boeing SPD AAS team provides mission systems software for the P-8A, enabling mission and tactic planning, sensor interfacing, sensor data display, and mission replay capabilities. The team also supports training system simulations that enhance fleet operator readiness on the AAS mission.
 
-This position will lead development of the pipeline infrastructure that aids multiple software engineering teams in the execution of full life-cycle software development. In this role you will lead DevSecOps activities for satellite system software teams developing embedded/real-time satellite flight software, satellite simulation software, satellite databases, cybersecurity software, satellite ground command/control/networking software. The selected candidate will deploy multiple environments (including dev, test and prod) that meet the requirements of the program and will leverage their knowledge of DevSecOps to implement and improve a robust continuous integration and delivery (CI/CD) pipelines, integrate automated testing, integrate automated metrics generation, and integrate vulnerability & quality scanning capabilities. A continuous improvement mindset is required at all times and the candidate will be encouraged to build automated processes wherever possible.
+In this role, you will lead and independently execute DevSecOps and software engineering activities across the full software development lifecycle, including design, development, integration, automated testing, security validation, deployment, and sustainment. You will help architect and implement secure, repeatable, and scalable software delivery pipelines that improve product quality, accelerate delivery, and strengthen cyber resilience across mission systems and training environments.
 
 Position Responsibilities:
 
-- Leads development, documentation and maintenance of standardized, efficient, and innovative DevSecOps processes, tools, methodologies, and performance metrics to streamline the software engineering lifecycle and enable continuous integration, delivery, and deployment of mission critical software
+- Leads and independently executes DevSecOps activities for mission systems and training software across build, test, deployment, and sustainment workflows
+- Partners with software, systems, cybersecurity, test, and IT teams to design, develop, secure, troubleshoot, and validate software solutions
+- Designs, implements, and maintains CI/CD pipelines that support continuous integration, automated testing, security scanning, and controlled deployment
+- Integrates security automation throughout the software lifecycle, including:
+- static code analysis
+- software composition analysis
+- container/image scanning
+- vulnerability triage and remediation
 
-- Leads automation, development, monitoring, improvement, and troubleshooting across software development, tooling, testing, integration, deployment, configuration processes, and security controls
+- Develops, documents, and maintains software architectures, requirements, interfaces, algorithms, and designs
+- Builds and maintains automation for software builds, packaging, environment provisioning, test execution, and software release processes
+- Supports Infrastructure as Code and environment automation to improve repeatability and reduce manual configuration
+- Drives secure coding practices, pipeline quality gates, and release readiness criteria
+- Collaborates with cybersecurity and compliance stakeholders to ensure software delivery workflows align with security requirements and development standards
+- Troubleshoot integration, deployment, performance, and runtime issues across development, test, and operational environments
+- Support automated and manual testing activities, document test results, and verify functional and cybersecurity requirements are met
+- Improve observability, logging, monitoring, and alerting capabilities to enhance operational awareness and system reliability
+- Mentor team members on DevSecOps practices, secure development, automation, and delivery best practices
+- Contribute to Agile development processes including sprint planning, backlog refinement, reviews, and retrospectives, and use Jira to track and manage work throughout the software lifecycle
 
-- Collaborates with cross functional teams to build and maintain robust, scalable, and secure software development pipelines
+- Drive modernization efforts to transition legacy build and release processes into automated, secure, and maintainable workflows
 
-- Leads implementation of current and emerging technologies, tools, frameworks, and regulations in the software engineering DevSecOps environment
-
-- Performs installation and configuration of an integrated software engineering environment based upon the DevSecOps framework
-
-- Designs and develops automation processes and aids in software build and releases activities
-
-- Performs technical support for the program and assists in satisfaction of Application Security, IT, and customer security directives and requirements
-
-- Manages software dependencies including evaluation, acquisition & licensing, integration, and maintenance for software used by developers to execute the program
-
-- Assists software teams and IT with server upgrades/patches, database support, and setup of virtual environments
-
-- Supports operating system, infrastructure, and platform hardening to ensure systems are secure against cybersecurity threats
-
-- Advises software engineering management and program leadership on software process adherence and implementation strategies to ensure engineering excellence and program success
-
-- Leads DevSecOps training to educate software teammates about usage and implementation of DevSecOps tooling and principles.
-
-Security Clearance:
-
-This position requires an active U.S. Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
+This position is expected to be 100% onsite. The selected candidate will be required to work onsite at one of the listed location options.
 
 Basic Qualifications (Required Skills/Experience):
 
-- Bachelor’s Degree or higher
-
-- 5+ years of experience in the Software Development lifecycle (including Requirements Analysis, Design, Code, Integration & Test)
-
-- 5+ years of experience leading software teams and/or projects
-
-- 5+ years of experience with Development Operations (DevOps) and/or Development Security Operations (DevSecOps)
-
-- 5+ years of experience with test automation
-
-- Experience working in Continuous Integration and Continuous Development (CI/CD) using appropriate code versioning, build and test automation tools
+- Bachelor’s Degree
+- This position requires an active U.S. Top Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active).
+- 9+ years’ experience with engineering development lifecycle tasks (requirements, design, software, test, and integration)
+- 4+ years’ experience with DevSecOps (examples ansible, chef, cyber applications)
 
 Preferred Qualifications (Desired Skills/Experience):
 
 - Bachelor of Science degree from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), chemistry, physics, mathematics, data science, or computer science and 9+ years of related work experience OR Bachelor’s Degree and 13+ years of directly related work experience OR 17+ years of related, relevant experience
+- Experience with source control, branching strategies, code review practices, and release management
+- Experience troubleshooting complex software issues in integrated environments
+- Experience working in a collaborative engineering environment with cross-functional teams
 
-- Experience in the satellite software domain
+- Experience with CI/CD and software delivery tooling such as:
+- Jenkins
+- Git, GitLab, or Bitbucket
+- GitHub Actions
+- Maven, Gradle, Make, or CMake
+- Nexus or Artifactory
+- Docker, Podman, or Apptainer, and orchestration platforms such as Kubernetes or OpenShift
 
-- Proficient with the GitLab ecosystem
+- Experience with Infrastructure as code and configuration management tools such as:
+- Ansible
+- Terraform
+- Puppet
+- Chef
 
-- Experience with Agile software development
+- Experience with automated testing and quality tools such as:
+- JUnit
+- Cucumber
 
-- Experience with software containerization and container orchestration
+- Experience with security tooling such as:
+- SAST
+- DAST
+- SCA
+- secret scanning tools
+- vulnerability management platforms
 
-- Experience in build automation
-
-- Experience with Risk Management Framework (RMF) security controls
-
-- Maintains a Security+ or equivalent certification
-
-- Proficient with modern software development methodologies
-
-- Proficient with a variety of software development languages, tools and techniques
-
-- Experience with configuration management and deployment
-
-- Experience leading projects and/or individuals in software development lifecycle tasks
+- Experience with secure software development, cyber compliance, and DevSecOps governance
+- Experience with Linux operating systems and shell scripting
+- Experience with programming/scripting languages such as JAVA, C/C++, Python, Bash, or PowerShell
+- Experience with observability tools such as Prometheus, Grafana, ELK or EFK logging /monitoring stacks or solutions
+- Experience developing, documenting, and maintaining architectures, requirements, interfaces, and designs for software systems
 
 Conflict of Interest:
 
 Successful candidates for this job must satisfy the Company's Conflict of Interest (COI) assessment process.
 
-Work Location:
+Drug Free Workplace:
 
-This position is expected to be 100% onsite. The selected candidate will be required to work onsite at one of the listed location options.
-
-Relocation:
-
-This position offers relocation based on candidate eligibility. Note: Basic relocation will be offered for eligible internal candidates.
+Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
 
 CodeVue Coding Challenge:
 
 To be considered for this position you will be required to complete a technical assessment as part of the selection process. Failure to complete the assessment will remove you from consideration.
-
-Drug Free Workplace:
-
-Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
 
 Total Rewards:
 
@@ -2750,13 +2557,7 @@ The specific programs and options available to any given employee may vary depen
 
 Pay is based upon candidate experience and qualifications, as well as market and business considerations.
 
-Summary pay range: USD $146,200 - $197,800
-
-The Boeing 401(k) helps you save for your future, with contributions from Boeing that can help you grow your retirement savings. Our best-in-class retirement benefit features:
-
-1. Best in class 401(k) plan: we'll match your contributions dollar for dollar, up to 10% of eligible pay with immediate 100% vesting
-
-2. Student Loan Match: The Boeing 401(k) Student Loan Match allows eligible enrolled U.S. employees to have their qualified student loan debt payments counted, along with any match-eligible contributions they make, for purposes of determining the Company Match to employees' Boeing 401(k) accounts.
+Summary Pay Range: USD $ 171,700 - $ 232,300
 
 Language Requirements:
 Not Applicable
@@ -2765,7 +2566,7 @@ Education:
 Bachelor's Degree or Equivalent
 
 Relocation:
-This position offers relocation based on candidate eligibility.
+Relocation assistance is not a negotiable benefit for this position.
 
 Export Control Requirement:
 This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
@@ -2774,7 +2575,7 @@ Safety Sensitive:
 This is not a Safety Sensitive Position.
 
 Security Clearance:
-This position requires an active U.S. Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
+This position requires an active U.S. Top Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
 
 Visa Sponsorship:
 Employer will not sponsor applicants for employment visa status.
@@ -2806,7 +2607,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026523547,Linux System Administrator (Mid-Level or Senior) **Sign on Bonus Potential**,"USA - Berkeley, MO",,United States of America,Full time,2026-10-01,Posted 9 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Linux-System-Administrator--Mid-Level-or-Senior----Sign-on-Bonus-Potential--_JR2026523547-2,"Linux System Administrator (Mid-Level or Senior) **Sign on Bonus Potential**
+JR2026523547,Linux System Administrator (Mid-Level or Senior) **Sign on Bonus Potential**,"USA - Berkeley, MO",,United States of America,Full time,2026-10-01,Posted 13 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Linux-System-Administrator--Mid-Level-or-Senior----Sign-on-Bonus-Potential--_JR2026523547-2,"Linux System Administrator (Mid-Level or Senior) **Sign on Bonus Potential**
 
 Company:
 The Boeing Company
@@ -2932,7 +2733,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026526480,Little Mountain Test Facility Senior Program Manager & Site Manager,"USA - Ogden, UT",,United States of America,Full time,2026-10-08,Posted 2 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Ogden-UT/Little-Mountain-Test-Facility-Senior-Program-Manager---Site-Manager_JR2026526480-1,"Little Mountain Test Facility Senior Program Manager & Site Manager
+JR2026526480,Little Mountain Test Facility Senior Program Manager & Site Manager,"USA - Ogden, UT",,United States of America,Full time,2026-10-08,Posted 6 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Ogden-UT/Little-Mountain-Test-Facility-Senior-Program-Manager---Site-Manager_JR2026526480-1,"Little Mountain Test Facility Senior Program Manager & Site Manager
 
 Company:
 The Boeing Company
@@ -3105,133 +2906,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026524431,Mid-Level Classified Linux System Administrator **Sign on Bonus Potential**,"USA - Berkeley, MO","USA - Hazelwood, MO",United States of America,Full time,2026-10-06,Posted 4 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Mid-Level-Classified-Linux-System-Administrator---Sign-on-Bonus-Potential--_JR2026524431-1,"Mid-Level Classified Linux System Administrator **Sign on Bonus Potential**
-
-Company:
-The Boeing Company
-
-Boeing’s Specialized United States (US) Infrastructure Operations Organization is currently seeking a Mid-Level Classified Linux System Administrator to join the team in Berkeley, MO or Hazelwood, MO.
-
-This role directly supports our Air Dominance (AD) programs. You will be tasked with installing, operating, securing, and maintaining the dedicated Program Information Technology Infrastructure necessary for delivering products to our customers. We offer Enterprise capabilities within closed networks, encompassing standard office functions, application development stacks, engineering workflows, vulnerability remediation, and more.
-
-This role is contingent upon award.
-
-Position Responsibilities:
-
-- Manages all aspects of a Linux environment, including scripting
-- Analyzes computing requirements
-- Leads a multi-disciplined range of technical systems and application activities
-- Leads activities to install, configure and maintain multiplatform systems hardware, software and components
-- Leads activities to plan, develop, design, and integrate all computer applications
-- Plans and coordinates highly complex software and hardware for enterprise release
-- Ensures systems conform to architectural objectives
-- Evaluates complex system's production readiness and supportability
-- Performs the restoration of complex computing service operations
-- Performs complex system problem identification and resolution
-- Leads activities to integrate security solutions into information systems
-- Develops project plans for the implementation of Linux systems into a computing environment
-
-Basic Qualifications (Required Skills/Experience):
-
-- Ability to obtain access to Special Access Programs (SAP)
-- Ability to obtain a Security+, a CISSP certification or equivalent Cyber Security certification within 6 months of employment in this role
-- 3+ years of experience in performing system administration tasks on Windows and Linux hosts including installing security patches and making configuration changes to support security requirements
-- 3+ years of experience with installing, configuring, troubleshooting, and administering support for RHEL 6 or higher
-- 3+ years of experience with installing, configuring, troubleshooting, and administering support for Windows 7 or higher
-
-Preferred Qualifications (Desired Skills/Experience):
-
-- 5+ years of experience with installing, configuring, troubleshooting, and administering support for Oracle Linux/Red Hat Enterprise Linux (RHEL) 6 or higher
-- 5+ years of experience with installing, configuring, troubleshooting, and administering support for Windows 7 or higher
-- 3+ years of experience installing, configuring, troubleshooting, and administering support for Oracle Linux/Red Hat Enterprise Linux (RHEL) 6 or higher
-- Experience packaging and updating the base Linux operating systems installations
-- Experience with Kickstart Scripts
-- Experience with Bash
-- Experience packaging and updating the base Linux operating systems installations
-- Experience creating and configuring modules in puppet, Ansible, and making shell scripts
-- Experience working with other teams to define the standard practices and the technology stack used to support our customers
-- Experience managing the execution of break/fix requests and larger long term projects to improve the technology stack
-- Experience with installation and integration of Windows and Linux operating systems and related Commercial Off The Shelf (COTS) products
-- Experience developing and managing the workflow tools and respective metrics to ensure delivery of services and team development
-- Experience evaluating and effectively communicating complex system problems and resolution
-- Experience integrating security solutions (McAfee, Splunk, Host Based Security System) into information systems
-- Experience administering user system access and establishing safeguards to protect information to meet security requirements
-- Experience with Network File Share (NFS) Storage
-- Experience with Diskless Booting
-- Experience with customer service
-- Experience with Grand Unified Bootloader (GRUB)
-
-Conflict of Interest:
-
-Successful candidates for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
-
-Drug Free Workplace:
-
-Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria are met as outlined in our policies.
-
-Pay & Benefits:
-
-At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
-
-The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
-
-The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
-
-Pay is based upon candidate experience and qualifications, as well as market and business considerations.
-
-Summary pay range: $96,050 – $129,950
-
-Potential signing bonus for eligible/qualified external candidates.
-
-Language Requirements:
-Not Applicable
-
-Education:
-Not Applicable
-
-Relocation:
-This position offers relocation based on candidate eligibility.
-
-Export Control Requirement:
-This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
-
-Safety Sensitive:
-This is not a Safety Sensitive Position.
-
-Security Clearance:
-This position requires an active U.S. Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
-
-Visa Sponsorship:
-Employer will not sponsor applicants for employment visa status.
-
-Contingent Upon Award Program
-The position is contingent upon program award
-
-Shift:
-Shift 1 (United States of America)
-
-Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
-
-Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
-
-EEO is the law
-
-Boeing EEO Policy
-
-Request an Accommodation
-
-Applicant Privacy
-
-Boeing Participates in E – Verify
-
-- E-Verify (English)
-- E-Verify (Spanish)
-
-Right to Work Statement
-
-- Right to Work (English)
-- Right to Work (Spanish)"
-JR2026505117,Mission Planning SME,"USA - Eglin AFB, FL","USA - Nellis AFB, NV",United States of America,Full time,2026-09-10,Posted 30 Days Ago,Tapestry - G0G,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Eglin-AFB-FL/Mission-Planning-SME_JR2026505117-1,"Mission Planning SME
+JR2026505117,Mission Planning SME,"USA - Eglin AFB, FL","USA - Nellis AFB, NV",United States of America,Full time,2026-09-10,Posted 30+ Days Ago,Tapestry - G0G,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Eglin-AFB-FL/Mission-Planning-SME_JR2026505117-1,"Mission Planning SME
 
 Company:
 Tapestry - G0G
@@ -3334,7 +3009,126 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026519263,Product Security Engineer (Product Security Engineer),"USA - El Segundo, CA",,United States of America,Full time,2026-10-07,Posted 3 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Product-Security-Engineer--Product-Security-Engineer-_JR2026519263-1,"Product Security Engineer (Product Security Engineer)
+JR2026523893,Product Security Engineer,"USA - Hazelwood, MO",,United States of America,Full time,2026-10-12,Posted 2 Days Ago,Tapestry - G0G,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Product-Security-Engineer_JR2026523893-2,"Product Security Engineer
+
+Company:
+Tapestry - G0G
+
+Tapestry Solutions, A Boeing Company, brings over 30 years of industry experience designing, implementing, training, and supporting high-quality, cost-effective information technology and business intelligence solutions. With a dedicated team of approximately 500 professionals, we proudly serve 75 defense, commercial, and government clients across more than 50 U.S. locations and 9 countries worldwide.
+
+As a trusted partner, our employees embody our core values by consistently delivering excellence, taking full ownership, and developing innovative solutions that enable critical missions and ensure the safety of our global customers and team members. Joining Tapestry Solutions means enjoying the best of both worlds: access to the vast resources of Boeing combined with the agility and people-focused, family-oriented culture of a small business where your contributions truly matter.
+
+Tapestry Solutions, a part of Boeing Global Services (BGS), is seeking a Product Security Engineer in Hazelwood, MO for the Department of Navy Tomahawk Land-Attack Missile program. The Tomahawk program is expanding to include additional US and foreign customers and will remain relevant for many more years. This position is essential for helping Tapestry Solutions and our customers navigate this expansion.
+
+The successful candidate for the role of Product Security Engineer will play a crucial role in supporting the development, deployment, and maintenance of computing and information security requirements for the Tomahawk program, while adhering to strict government regulations. You will have the opportunity to shape and guide compliance, information security, and data protection requirements, ensuring the highest level of protection. Your expertise will be instrumental in assessing the acceptability of unique configurations and implementing robust security controls. Additionally, you will be responsible for investigating and resolving security incidents, actively participating in security policy assessments and audits, and effectively managing regulatory compliance in the dynamic field of cybersecurity.
+
+Position Responsibilities:
+
+- Leads development, implementation, and sustainment of product security and resiliency throughout the requirements, design, build, test, production, operations, and support lifecycle
+
+- Leads the development and enhancement of system requirements and architectures for product security to meet all applicable certification and customer requirements
+
+- Ensures security of facilities, equipment, tools, data, networks, and resources used for product: design, development, build, test, storage, delivery, operations, and support
+
+- Leads the definition and identification of product security requirements for suppliers of components and subsystems for integration into complex Boeing products and services
+
+- Leads coordination with governments, customers, suppliers, and industry to identify risks and improve industry and regulatory security standards and requirements for programs and interfacing systems
+
+- Leads research and development activities resulting in innovative solutions
+
+- Leads the advisement of customers on maintaining product security and certification, including security consequences of modifying products and services
+
+Basic Qualifications (Required Skills/Experience):
+
+- Bachelor’s Degree
+
+- Active U.S. Secret clearance with the ability to obtain a TS/SCI/SAP
+
+- Ability to travel between 10% and 30% of the time to support customers at domestic and international locations
+
+- Qualified to meet the DoD 8140 Program Foundational qualifications
+
+- Experience with the installation, configuration, maintenance, and administration of Microsoft Windows operating systems
+
+- Working knowledge of PowerShell, Batch, and Bash scripting
+
+- Experience in all aspects of design and implementation of cybersecurity controls, processes, and procedures
+
+Preferred Qualifications (Desired Skills/Experience):
+
+- Bachelor of Science degree from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), chemistry, physics, mathematics, data science, or computer science and 5+ years of related work experience OR Bachelor’s Degree and 9+ years of directly related work experience OR 13+ years of related, relevant experience
+
+- Experience with the installation, configuration, and maintenance of RedHat Enterprise Linux.
+
+- Working knowledge of highly available virtualization clusters and Storage Area Networks (SAN)
+
+- Experience with the DoD Security Technical Implementation Guide (STIG) review process
+
+Drug Free Workplace:
+
+We are a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
+
+Pay & Benefits:
+
+We strive to deliver a total rewards package that will attract, engage and retain the top talent. Elements of this package include competitive base pay and variable compensation opportunities.
+
+We also provide eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
+
+The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location and date of hire.
+
+Pay is based upon candidate experience and qualifications, as well as market and business considerations.
+
+Summary base pay range $116,000 - $135,900
+
+Language Requirements:
+Not Applicable
+
+Education:
+Bachelor's Degree or Equivalent
+
+Relocation:
+Relocation assistance is not a negotiable benefit for this position.
+
+Export Control Requirement:
+This is not an Export Control position.
+
+Safety Sensitive:
+This is not a Safety Sensitive Position.
+
+Security Clearance:
+This position requires an active U.S. Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
+
+Visa Sponsorship:
+Employer will not sponsor applicants for employment visa status.
+
+Contingent Upon Award Program
+This position is not contingent upon program award
+
+Shift:
+Shift 1 (United States of America)
+
+Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
+
+Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
+
+EEO is the law
+
+Boeing EEO Policy
+
+Request an Accommodation
+
+Applicant Privacy
+
+Boeing Participates in E – Verify
+
+- E-Verify (English)
+- E-Verify (Spanish)
+
+Right to Work Statement
+
+- Right to Work (English)
+- Right to Work (Spanish)"
+JR2026519263,Product Security Engineer (Product Security Engineer),"USA - El Segundo, CA",,United States of America,Full time,2026-10-07,Posted 7 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Product-Security-Engineer--Product-Security-Engineer-_JR2026519263-1,"Product Security Engineer (Product Security Engineer)
 
 Company:
 The Boeing Company
@@ -3471,141 +3265,6 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026523910,Product Security Engineering Principal Manager,"USA - Berkeley, MO",,United States of America,Full time,2026-10-06,Posted 4 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Product-Security-Engineering-Principal-Manager_JR2026523910,"Product Security Engineering Principal Manager
-
-Company:
-The Boeing Company
-
-The Boeing Company has an exciting opening in the Air Dominance division. The Anti-Tamper Engineering Capability is seeking a Product Security Engineering Senior Manager located in Berkeley, MO.
-
-The manager will be responsible for leading a team of Air Dominance Product Security Engineers responsible for design and implementation of Anti-Tamper (AT) solutions.
-
-The successful candidate should have avionics hardware, software, or systems engineering management experience and an interest in product security and cyber security techniques such as cryptography. The leader is responsible for leading a team of engineers defining AT requirements as well as designing, implementing, and testing AT solutions. This position will require leadership of a team performing work for the Air Dominance division as well as supporting projects in other divisions.
-
-The candidate should have a demonstrated track record for leading through organizational culture change, process improvement, producing results and leading an engineering team. The candidate must also have the ability to develop and maintain relationships with customers, stakeholders, peers, and direct reports.
-
-The position will report to the Anti-Tamper Senior Manager for Air Dominance who is also located in Berkeley, MO. This leadership position is critical to Boeing’s execution and is a key leader in protecting the United States War-Fighter!
-
-Position Responsibilities:
-
-- Leads an engineering team of Anti-Tamper focused engineers
-- Oversee development of requirements, software implementation, and verification of solutions
-- Engages stakeholders to ensure that program, customer, and government entities are integrated into the development and status of development programs
-- Optimizes team execution and applies lessons learned across the organization
-- Leads performance of team and support organizations
-- Mitigates risks and issues
-- Coordinates supplier technical quality and execution
-- Performs lab oversight efforts as required
-- Leads investment projects related to AT development of products and services
-
-This position is expected to be 100% onsite. The selected candidate will be required to work onsite at one of the listed location options.
-
-This position requires an active U.S. Top Secret Security Clearance. A U.S. Security Clearance that has been active in the past 24 months is considered active.
-
-- A final Top Secret Clearance Pre-Start is required.
-
-This position requires ability to obtain program access, for which the U.S. Government requires U.S. Citizenship only
-
-Basic Qualifications:
-
-- Bachelor's degree or higher in an Engineering field
-- 1+ years’ experience with Engineering management, including senior management
-- 5+ years’ engineering experience providing technical leadership for an engineering team performing change management, configuration management, or data management in any of the following fields: systems engineering, systems integration, software engineering, electrical engineering, certification, network security and/or cybersecurity
-
-Preferred Qualifications / Desired Skills:
-
-- Bachelor’s degree or higher in electrical, software or computer engineering
-- Experience in the field of Anti-Tamper, Cybersecurity, or cryptography
-- Experience with avionics and/or aircraft computing systems
-- Experience leading supplier development efforts
-- Experience in program management
-
-Conflict of Interest:
-
-Successful candidates for this job must satisfy Company’s Conflict of Interest (COI) assessment process.
-
-Typical Education/Experience:
-
-Bachelor's degree or higher in an Engineering field
-
-Relocation:
-
-This position offers relocation based on candidate eligibility.
-
-Drug Free Workplace:
-
-Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
-
-Shift:
-
-This position is for 1st shift.
-
-Pay & Benefits:
-
-At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
-
-The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
-
-Boeing 401(k) helps you save for your future, with contributions from Boeing that can help you grow your retirement savings. Our best-in-class retirement benefit features:
-
-- Best in class 401(k) plan: we'll match your contributions dollar for dollar, up to 10% of eligible pay with Immediate 100% vesting
-- Student Loan Match: The Boeing 401(k) Student Loan Match allows eligible enrolled U.S. employees to have their qualified student loan debt payments counted, along with any match-eligible contributions they make, for purposes of determining the Company Match to employees' Boeing 401(k) accounts.
-
-The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
-
-Please note that the salary information shown below is a general guideline only. Pay is based upon candidate experience and qualifications, as well as market and business considerations.
-
-Summary pay range:
-
-Level L (Senior Manager) $170,000 - $230,000
-
-Language Requirements:
-Not Applicable
-
-Education:
-Bachelor's Degree or Equivalent
-
-Relocation:
-This position offers relocation based on candidate eligibility.
-
-Export Control Requirement:
-
-Safety Sensitive:
-This is not a Safety Sensitive Position.
-
-Security Clearance:
-This position requires an active U.S. Top Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
-
-Visa Sponsorship:
-Employer will not sponsor applicants for employment visa status.
-
-Contingent Upon Award Program
-This position is not contingent upon program award
-
-Shift:
-Shift 1 (United States of America)
-
-Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
-
-Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
-
-EEO is the law
-
-Boeing EEO Policy
-
-Request an Accommodation
-
-Applicant Privacy
-
-Boeing Participates in E – Verify
-
-- E-Verify (English)
-- E-Verify (Spanish)
-
-Right to Work Statement
-
-- Right to Work (English)
-- Right to Work (Spanish)"
 JR2026505728,Security Software Engineer,"USA - Swansea, IL",,United States of America,Full time,2026-08-13,Posted 30+ Days Ago,Tapestry - G0G,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Swansea-IL/Security-Software-Engineer_JR2026505728-1,"Security Software Engineer
 
 Company:
@@ -3705,7 +3364,292 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026525334,Senior DevSecOps Software Engineer,"USA - Colorado Springs, CO",,United States of America,Full time,2026-09-24,Posted 16 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Colorado-Springs-CO/Senior-DevSecOps-Software-Engineer_JR2026525334-1,"Senior DevSecOps Software Engineer
+JR2026511650,Senior Command and Data Handling/Networking Subsystem Engineers – Space Autonomy Systems,"USA - El Segundo, CA",,United States of America,Full time,2026-10-13,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Senior-Command-and-Data-Handling-Networking-Subsystem-Engineers---Space-Autonomy-Systems_JR2026511650-1,"Senior Command and Data Handling/Networking Subsystem Engineers – Space Autonomy Systems
+
+Company:
+The Boeing Company
+
+Boeing Defense, Space & Security (BDS), Space Mission Systems is seeking a Senior Command and Data Handling/Networking Subsystem Engineer to develop and manage C&DHN Subsystems for Boeing secured autonomous satellite network systems in El Segundo, CA.
+
+C&DHN Subsystem engineering assignments include requirements definition and flow down, systems design and analysis, systems integration, test, and verification. You will resolve technical issues and ensure hardware and software are flight worthy prior to delivery. Ability to work collaboratively in multidisciplinary teams is crucial. You will work with management and experts across multiple disciplines including GNC subsystem engineering, software engineering, Communications Security (COMSEC) design, Transmission Security (TRANSEC) design, electronic hardware design & test, spacecraft integration, and end-to-end system engineering. Foundational knowledge of networking principles including TCP/IP, routing, switching, and network protocols relevant to aerospace systems. Some familiarity with system modeling and simulation tools, including Model-Based Systems Engineering (MBSE) tools (e.g., SysML, Cameo) will be a plus.
+
+Position Responsibilities:
+
+- Gather, define, and document system level requirements to support flight control and mission or trajectory requirements definition
+
+- Provide technical, cost, and schedule status to program and function
+
+- Participate and support with cost and schedule reduction initiatives
+
+- Develop and maintain comprehensive subsystem specifications and unit specs with REA support
+
+- Work on subsystem-to-subsystem interface requirements and C&DHN subsystem hardware Subcontract/Contract Data Requirements List (SDRLs/CDRLs)
+
+- Create and release subsystem level analyses such as traffic analysis, TM accuracy, sampling, command pacing
+
+- Perform Subsystem Architecture (including Block Diagram) and technology insertion (including COMSEC Roadmap)
+
+- Assure COMSEC implementation and CNSSP-12 compliance including cybersecurity and information assurance
+
+- Prepare and present C&DHN subsystem design reviews (PDR, CDR, etc.) for customer and Program SEIT interface
+
+- Input to Spacecraft Database, FSW, and Flight ROPs
+
+- Define and maintain satellite C&DHN process writings (DMS guides)
+
+This position is expected to be 100% onsite. The selected candidate will be required to work onsite the listed location.
+
+Basic Qualifications (Required Skills/ Experience):
+
+- Active U.S. Top Secret/SCI Security Clearance
+
+- Bachelor of Science degree in Engineering, Engineering Technology (including Manufacturing Technology), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement
+
+- 5+ years of experience working with MIL-STD-1553, SpaceWire, CAN, LVDS or Ethernet
+
+- Minimum 10+ years of engineering experience
+
+- Familiar with networking principles including TCP/IP, routing, switching, and network protocols relevant to aerospace systems
+
+- Willing to travel 10% of the time domestically and internationally
+
+Preferred Qualifications (Desired Skills/Experience):
+
+- Bachelor’s Degree or higher in Software, Electrical, or Aerospace Engineering
+
+- Experience developing solutions to complex technical problems
+
+- Experience working with CCSDS and IP (Internet Protocol)
+
+- Experience in MATLAB, Python, and VBA
+
+- Strong understanding of network engineering concepts including network architecture design, network security, and network troubleshooting
+
+- Experience with network simulation and analysis tools
+
+- Familiarity with satellite communication network and protocols
+
+- Knowledge of cybersecurity best practices for networked embedded systems
+
+- Basic understanding of the Model-Based Systems Engineering (MBSE) principles and tools to support system design, analysis, and verification is a plus
+
+Conflict of Interest:
+
+Successful candidate for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
+
+Typical Education/Experience:
+
+Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 14 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
+
+Relocation:
+This position offers relocation based on candidate eligibility. Note: Basic relocation will be offered for eligible internal candidates.
+
+Drug Free Workplace:
+
+Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
+
+Pay and Benefits:
+
+At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
+
+The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
+
+The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
+
+Pay is based upon candidate experience and qualifications, as well as market and business considerations.
+
+Summary Pay Range: $182,750 - $247,250
+
+Language Requirements:
+Not Applicable
+
+Education:
+Bachelor's Degree or Equivalent
+
+Relocation:
+This position offers relocation based on candidate eligibility.
+
+Export Control Requirement:
+This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
+
+Safety Sensitive:
+This is not a Safety Sensitive Position.
+
+Security Clearance:
+This position requires an active U.S. Top Secret/SCI Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
+
+Visa Sponsorship:
+Employer will not sponsor applicants for employment visa status.
+
+Contingent Upon Award Program
+This position is not contingent upon program award
+
+Shift:
+Shift 1 (United States of America)
+
+Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
+
+Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
+
+EEO is the law
+
+Boeing EEO Policy
+
+Request an Accommodation
+
+Applicant Privacy
+
+Boeing Participates in E – Verify
+
+- E-Verify (English)
+- E-Verify (Spanish)
+
+Right to Work Statement
+
+- Right to Work (English)
+- Right to Work (Spanish)"
+JR2026513770,Senior DevSecOps Engineer,"USA - Berkeley, MO",,United States of America,Full time,2026-10-12,Posted 2 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Senior-DevSecOps-Engineer_JR2026513770-1,"Senior DevSecOps Engineer
+
+Company:
+The Boeing Company
+
+The Boeing Company is currently seeking a Senior DevSecOps Engineer to support our Air Proprietary 2 Mission Systems team located in Berkeley, Missouri. This position will focus on supporting the Boeing Defense, Space & Security (BDS) Software Engineering organization.
+
+The Mission Systems Senior DevSecOps Engineer will be responsible for establishing, configuring, and maintaining the Mission Systems (MS) software development environments across a variety of security levels. This role serves as the primary DevSecOps point of contact for Mission Systems and will coordinate closely with the Digital Engineering Environment team.
+
+Position Responsibilities:
+
+- Leads the development and management of the software development environment roadmap and vision
+
+- Leads the deployment and configuration of technologies and tools used in software development, including build servers, version control systems, CI/CD pipelines and automated testing frameworks
+
+- Leads the establishment, configuration, and maintenance of MS software development environments across multiple networks - which includes any tools required for developing, building, and releasing software
+
+- Leads the management and maintenance of cloud-based and on premises infrastructures
+
+- Leads the creation and maintenance of Infrastructure as Code (IaC) and automation to simplify infrastructure administration and software deployment
+
+- Establishes and maintains development and production environments
+
+- Ensure compliance and policy enforcement for applicable design practices and industry standards
+
+- Leads the creation of best practices/methodologies for provisioning, platform scaling, configuration management, monitoring and troubleshooting
+
+- Leads software development tool administration, maintenance, version upgrades, patch management, and integration between the tools (Jira, Gitlab, Artifactory, Confluence, SonarQube, etc)
+
+- Mentors and advises junior teammates and development teams on best practices in DevSecOps, providing technical leadership and fostering a culture of knowledge sharing and continuous learning
+
+- Coordinate across the Mission Systems solution team, the Digital Engineering Environment team and the Boeing Software Factory Enterprise team.
+
+This position is expected to be 100% onsite. The selected candidate will be required to work onsite at one of the listed location options.
+
+Basic Qualifications (Required Skills/ Experience):
+
+- Bachelor's Degree
+
+- 6+ years of experience working with engineering, infrastructure, cloud, and/or DevOps teams
+
+- 5+ years of experience in automated provisioning and configuring of software-defined infrastructure and designing for continuous deployment and continuous operations
+
+- 3+ years of experience with automation and/or CI/CD technics and design patterns
+
+- 3+ years of experience with infrastructure as code (IaC) and CI/CD environments
+
+- 3+ years of experience with cloud platforms (e.g., AWS, Azure, Google Cloud) and containerization technologies (e.g., Docker, Kubernetes)
+
+Preferred Qualifications (Desired Skills/Experience):
+
+- Bachelor of Science degree from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), chemistry, physics, mathematics, data science, or computer science and 9+ years of related work experience OR Bachelor’s Degree and 13+ years of directly related work experience OR 17+ years of related, relevant experience
+
+- 7+ years of experience with C, C++, C#, Java, or Python
+
+- Experience with cloud platforms
+
+- Experience with Agile software development and related processes
+
+- Knowledge of industry standards and best practices in the area DevSecOps
+
+- Knowledge of cybersecurity policies and regulations, ability to work across these areas to formulate solutions
+
+- Experience with secure software development environments at various levels of security
+
+- Experience with Linux
+
+- Ability to obtain Security+ certification
+
+Conflict of Interest:
+
+Successful candidates for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
+
+Drug Free Workplace:
+
+Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
+
+CodeVue Coding Challenge:
+
+To be considered for this position you will be required to complete a technical assessment as part of the selection process. Failure to complete the assessment will remove you from consideration.
+
+Pay & Benefits:
+
+At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
+
+The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
+
+The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
+
+Pay is based upon candidate experience and qualifications, as well as market and business considerations.
+
+Summary Pay Range: $136,850 - $185,150
+
+Language Requirements:
+Not Applicable
+
+Education:
+Bachelor's Degree or Equivalent
+
+Relocation:
+This position offers relocation based on candidate eligibility.
+
+Export Control Requirement:
+This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
+
+Safety Sensitive:
+This is not a Safety Sensitive Position.
+
+Security Clearance:
+This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. An interim and/or final U.S. Secret Clearance Post-Start is required.
+
+Visa Sponsorship:
+Employer will not sponsor applicants for employment visa status.
+
+Contingent Upon Award Program
+This position is not contingent upon program award
+
+Shift:
+Shift 1 (United States of America)
+
+Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
+
+Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
+
+EEO is the law
+
+Boeing EEO Policy
+
+Request an Accommodation
+
+Applicant Privacy
+
+Boeing Participates in E – Verify
+
+- E-Verify (English)
+- E-Verify (Spanish)
+
+Right to Work Statement
+
+- Right to Work (English)
+- Right to Work (Spanish)"
+JR2026525334,Senior DevSecOps Software Engineer,"USA - Colorado Springs, CO",,United States of America,Full time,2026-10-13,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Colorado-Springs-CO/Senior-DevSecOps-Software-Engineer_JR2026525334-1,"Senior DevSecOps Software Engineer
 
 Company:
 The Boeing Company
@@ -3829,7 +3773,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026520865,Senior Product Security Engineer,"USA - Berkeley, MO","USA - Hazelwood, MO",United States of America,Full time,2026-10-01,Posted 9 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Senior-Product-Security-Engineer_JR2026520865-1,"Senior Product Security Engineer
+JR2026520865,Senior Product Security Engineer,"USA - Berkeley, MO","USA - Hazelwood, MO",United States of America,Full time,2026-10-01,Posted 13 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Senior-Product-Security-Engineer_JR2026520865-1,"Senior Product Security Engineer
 
 Company:
 The Boeing Company
@@ -3949,63 +3893,118 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026518632,Senior Product Security Event Detection Engineer,"USA - Seattle, WA","USA - Everett, WA",United States of America,Full time,2026-09-28,Posted 12 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Senior-Product-Security-Event-Detection-Engineer_JR2026518632-1,"Senior Product Security Event Detection Engineer
+JR2026524455,Senior Spacecraft Avionics Security Engineer - Millennium Space Systems,"USA - El Segundo, CA",,United States of America,Full time,2026-10-12,Posted 2 Days Ago,Millennium Space Systems,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Senior-Spacecraft-Avionics-Security-Engineer---Millennium-Space-Systems_JR2026524455-1,"Senior Spacecraft Avionics Security Engineer - Millennium Space Systems
 
 Company:
-The Boeing Company
+Millennium Space Systems
 
-Boeing is seeking a Product Security Event Detection Engineer (Level 4) to join the Risk Management Capability team onsite in Seattle, WA or Everett, WA. This position serves as a senior technical contributor for the development and sustainment of detection capabilities, methods, and tools that help ensure the security, safety, and resiliency of digitally connected Boeing airplane models.
+Millennium Space Systems, a part of Boeing Defense, Space and Security (BDS), is a fast, agile small satellite company focused on national security space. Our missions have direct impact to global security, like missile warning and Earth observation.
 
-You will be a part of Boeing's Product Security Engineering Organization, which is a growing multi-disciplinary cybersecurity engineering organization that is responsible for the cyber security and resiliency of our products, platforms, and services. You will have the opportunity to shape and influence Product Security Engineering within Boeing and engage with Boeing’s Product Security community.
+Our team is curious, bold and innovative. We take risks, innovate and explore new techniques and technologies. We influence change because we challenge the status quo. And when we watch our satellites launch, we know each one of us made it happen.
 
-The selected candidate will apply advanced product security and log analytics expertise to support engineering, customer, supplier, and industry interfaces, with a focus on detection engineering, risk analysis, and continued airworthiness.
+Job Summary:
 
-Primary responsibilities:
+The Senior Spacecraft Avionics Security Engineer is the technical authority for all space vehicle and avionics product‑level security of Millennium’s space systems. You will design, implement, and sustain cryptographic subsystems, red/black separation, and end‑to‑end security architectures that protect hardware, software, data, and communications throughout the entire vehicle lifecycle and drive security requirements, processes, and verification at the product and mission level.
 
-- Leads the development of technical solutions for complex product security and detection engineering challenges affecting digitally connected airplane models.
-- Develops technical data and documentation in accordance with system security engineering processes and procedures for internal and external delivery.
-- Coordinates with security testers to validate coverage and assess impacts to analysis and detection capability.
-- Interfaces with external customers and internal stakeholders on detection capabilities in alignment with continued airworthiness strategies.
-- Supports the development, implementation, and communication of sustainment programs to maintain continued product security, safety, and resiliency of in-service airplane models.
-- Leads and participates in the definition and identification of product security requirements for suppliers of components and subsystems integrated into Boeing products and services.
-- Collaborates with governments, customers, suppliers, and industry partners to identify risks and improve security standards and requirements for programs and interfacing systems.
-- Leads and participates in research and development efforts that improve detection capabilities, methods, tools, and technical approaches.
+This position's internal job code is EE Sys Design Engineer. Our team is currently hiring for Levels 4-5.
 
-This position is expected to be 100% onsite. The selected candidate will be required to work onsite at one of the listed locations.
+Position Responsibilities:
 
-Basic Qualifications (Required Skills and Experience):
+- Mission and Product‑Level Security Management
 
-- Bachelor of Science degree in Engineering, Engineering Technology (including Manufacturing Technology), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement
-- 9+ years of experience in engineering related field (ie. Systems Engineering, Mathematics, Physics or Chemistry)
-- Experience in systems engineering, systems integration, software engineering, electrical engineering, certification, network security, and/or cybersecurity.
-- Experience supporting or working with manufacturing or engineering teammates or in a manufacturing or engineering environment
+- Define vehicle‑wide security architecture, select and integrate space‑qualified crypto devices, implement secure boot, key storage, and red/black isolation
 
-Preferred Qualifications (Desired Skills and Experience):
+- Develop and maintain system security requirements, verification plans, and certification artifacts (DoD RMF, customer security clauses)
 
-- Experience with system security engineering or systems engineering
+- Develop threat assessment models and tailored approaches to counter them
 
-- Experience with network and host-based Intrusion Detection Systems (IDSs) and Security Incident Event Management (SIEM)
-- Experience analyzing technical data and providing clear written and verbal presentation of the results
-- Experience with scripting languages such as, ACL, SQL Developer, Oracle, XML, MySQL, Python
-- Experience with system administration of complex infrastructure and software development systems
-- Security+, a CISSP certification, or equivalent Cyber Security certification
-- Experience with system administration of complex infrastructure and software development systems
+- Support product‑level security requirements definition, implementation, verification, and validation across the full lifecycle
+
+- Work with software, hardware, and systems engineering teams to develop new processes and procedures for enhanced cybersecurity implementations at both the product and system level
+
+- Networking Systems Engineering
+
+- Lead design, requirements management, and integration of space‑vehicle and constellation‑level networks (on‑board LANs, inter‑satellite mesh, space‑to‑ground links)
+
+- Define and maintain CONOPS, ICDs, and requirements for routing, virtualization, VPN tunneling, VLAN segmentation, and QoS across heterogeneous RF/optical links.
+
+- Apply enterprise networking principles (WAN/LAN/WLAN, IPv6, MPLS, IPsec) to distributed space systems while preserving red/black separation
+
+- Direct integration and verification activities that validate networking implementations
+
+- Stakeholder & Business Development Support
+
+- Lead customer interactions on product and system level cybersecurity for space systems
+
+- Develop presentation content and brief customers on Millennium product security approaches
+
+- Assist the business‑development team in crafting compliant proposals that meet customer cybersecurity and networking requirements
+
+- Supplier & Government Coordination
+
+- Define security and networking requirements for component/subsystem suppliers; review supplier deliverables; liaise with government agencies, customers, and industry groups to influence standards and risk‑acceptance processes
+
+- Other duties as assigned
+
+Basic Qualifications (Required Skills/Experience):
+
+- Bachelor of Science degree in Engineering (with a focus in Electrical, Mechanical or Aeronautical), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement
+
+- 5+ years experience working spacecraft/product security
+
+- Technical understanding of SV avionics architectures
+
+- Technical understanding of SV flight software architectures to include embedded Linux
+
+- Technical understanding of product cybersecurity features to include root of trust, secure boot, etc.
+
+- Familiarity with DoD Risk Management Framework (RMF)
+
+- This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. A final U.S. Security Clearance Post-Start is required
+
+Preferred Qualifications (Desired Skills/Experience):
+
+- Experience working with cryptography and Anti-Tamper design knowledge
+
+- Experience working with TEMPEST designs
+
+- Methodical design, testing, and troubleshooting capabilities
+
+- Must be versatile and able to perform and manage multiple tasks concurrently
+
+- Outstanding communication and presentation skills
+
+- Experience with DoD RMF controls implementation
+
+- 10+ years experience working spacecraft/product security
+
+- TS/SCI clearance
+
+Conflict of Interest:
+
+Successful candidates for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
 
 Drug Free Workplace:
 
-Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
+Millennium Space Systems, a Boeing Company, is a Drug Free Workplace (DFW) where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
 
-Pay & Benefits:
+Total Rewards:
 
-At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
+At Millennium Space Systems, a Boeing Company, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
 
-The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
+Millennium Space Systems also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
 
 The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
 
 Pay is based upon candidate experience and qualifications, as well as market and business considerations.
 
-Summary Pay Range: $173,400 - $234,600
+Summary pay range:
+
+- Level 4: $146,200 - $215,000
+
+- Level 5: $176,800 - $230,000
+
+Millennium is DDTC-registered, ITAR-compliant Company. This position is located at a facility that requires special access. Applicants MUST be U.S. citizens and eligible for a security clearance. Additionally, applicants must be willing to apply for and maintain a security clearance. We encourage all interested candidates to apply for any open position for which they feel they are qualified.
 
 Language Requirements:
 Not Applicable
@@ -4014,7 +4013,7 @@ Education:
 Bachelor's Degree or Equivalent
 
 Relocation:
-This position offers relocation based on candidate eligibility.
+Relocation assistance is not a negotiable benefit for this position.
 
 Export Control Requirement:
 This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
@@ -4023,7 +4022,7 @@ Safety Sensitive:
 This is not a Safety Sensitive Position.
 
 Security Clearance:
-This position does not require a Security Clearance.
+This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. An interim and/or final U.S. Secret Clearance Post-Start is required.
 
 Visa Sponsorship:
 Employer will not sponsor applicants for employment visa status.
@@ -4055,7 +4054,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026522093,Senior Spacecraft Command and Data Handling (C&DH)  Engineer - Millennium Space Systems,"USA - El Segundo, CA",,United States of America,Full time,2026-09-29,Posted 11 Days Ago,Millennium Space Systems,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Senior-Spacecraft-Command-and-Data-Handling--C-DH---Engineer---Millennium-Space-Systems_JR2026522093-1,"Senior Spacecraft Command and Data Handling (C&DH) Engineer - Millennium Space Systems
+JR2026522093,Senior Spacecraft Command and Data Handling (C&DH)  Engineer - Millennium Space Systems,"USA - El Segundo, CA",,United States of America,Full time,2026-09-29,Posted 15 Days Ago,Millennium Space Systems,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Senior-Spacecraft-Command-and-Data-Handling--C-DH---Engineer---Millennium-Space-Systems_JR2026522093-1,"Senior Spacecraft Command and Data Handling (C&DH) Engineer - Millennium Space Systems
 
 Company:
 Millennium Space Systems
@@ -4194,7 +4193,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026523837,"Site Reliability Engineer (Associate, Experienced, or Senior)","USA - Berkeley, MO",,United States of America,Full time,2026-10-09,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Site-Reliability-Engineer--Associate--Experienced--or-Senior-_JR2026523837-1,"Site Reliability Engineer (Associate, Experienced, or Senior)
+JR2026523837,"Site Reliability Engineer (Associate, Experienced, or Senior)","USA - Berkeley, MO",,United States of America,Full time,2026-10-09,Posted 5 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Site-Reliability-Engineer--Associate--Experienced--or-Senior-_JR2026523837-1,"Site Reliability Engineer (Associate, Experienced, or Senior)
 
 Company:
 The Boeing Company
@@ -4346,7 +4345,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026518109,Software Engineer,"USA - Maryland Heights, MO",,United States of America,Full time,2026-09-10,Posted 30 Days Ago,Tapestry - G0G,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Software-Engineer_JR2026518109-1,"Software Engineer
+JR2026518109,Software Engineer,"USA - Maryland Heights, MO",,United States of America,Full time,2026-09-10,Posted 30+ Days Ago,Tapestry - G0G,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Maryland-Heights-MO/Software-Engineer_JR2026518109-1,"Software Engineer
 
 Company:
 Tapestry - G0G
@@ -4458,7 +4457,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026518220,"Software Engineer (Associate, Experienced or Senior)","USA - Daytona Beach, FL",,United States of America,Full time,2026-10-05,Posted 5 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Daytona-Beach-FL/F-15-Software-Engineer--Associate--Experienced-or-Senior-_JR2026518220-1,"Software Engineer (Associate, Experienced or Senior)
+JR2026518220,"Software Engineer (Associate, Experienced or Senior)","USA - Daytona Beach, FL",,United States of America,Full time,2026-10-05,Posted 9 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Daytona-Beach-FL/F-15-Software-Engineer--Associate--Experienced-or-Senior-_JR2026518220-1,"Software Engineer (Associate, Experienced or Senior)
 
 Company:
 The Boeing Company
@@ -4590,7 +4589,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026519492,Software Engineer (Experienced or Lead),"USA - El Segundo, CA",,United States of America,Full time,2026-09-29,Posted 11 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Software-Engineer--Experienced-or-Lead-_JR2026519492-1,"Software Engineer (Experienced or Lead)
+JR2026519492,Software Engineer (Experienced or Lead),"USA - El Segundo, CA",,United States of America,Full time,2026-09-29,Posted 15 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Software-Engineer--Experienced-or-Lead-_JR2026519492-1,"Software Engineer (Experienced or Lead)
 
 Company:
 The Boeing Company
@@ -4739,7 +4738,144 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026524451,Spacecraft Command and Data Handling (C&DH) Engineer - Millennium Space Systems,"USA - El Segundo, CA",,United States of America,Full time,2026-10-02,Posted 8 Days Ago,Millennium Space Systems,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Spacecraft-Command-and-Data-Handling--C-DH--Engineer---Millennium-Space-Systems_JR2026524451-1,"Spacecraft Command and Data Handling (C&DH) Engineer - Millennium Space Systems
+JR2026519673,Software Engineer–DevSecOps,"USA - Berkeley, MO",,United States of America,Full time,2026-10-12,Posted 2 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Software-Engineer-DevSecOps_JR2026519673-1,"Software Engineer–DevSecOps
+
+Company:
+The Boeing Company
+
+The Boeing Company is currently seeking a Software Engineer–DevSecOps to support our Air Proprietary 2 Mission Systems team located in Berkeley, MO. This position will focus on supporting the Boeing Defense, Space & Security (BDS) Software Engineering organization.
+
+The Mission Systems DevSecOps Engineer will be responsible for assisting with developing, configuring, and maintaining the Mission Systems (MS) software development environments across a variety of security levels.
+
+Position Responsibilities:
+
+- Assists with the deployment and configuration of technologies and tools used in software development, including build servers, version control systems, CI/CD pipelines and automated testing frameworks
+
+- Assists with the implementation, configuration, and maintenance of MS software development environments across multiple networks - which includes any tools required for developing, building, and releasing software
+
+- Assists with the management and maintenance of cloud-based and on premises infrastructures
+
+- Assists with the creation and maintenance of Infrastructure as Code (IaC) and automation to simplify infrastructure administration and software deployment
+
+- Assists with establishing and maintaining development and production environments
+
+- Assist with ensuring compliance and policy enforcement for applicable design practices and industry standards
+
+- Assists with the software development tool administration, maintenance, version upgrades, patch management, and integration between the tools (Jira, Gitlab, Artifactory, Confluence, SonarQube, etc)
+
+- Check and review code to make sure it meets the necessary requirements and standards.
+
+- Work under general guidance and supervision.
+
+- Analyze and implement software processes and tools, and document best practices for future use and improvement.
+
+- Collaborate with different engineering teams and support functions like Supply Chain and Cyber Security to ensure effective collaboration across the organization.
+
+This position is expected to be 100% onsite. The selected candidate will be required to work onsite in Berkeley, MO.
+
+Basic Qualifications (Required Skills/ Experience):
+
+- This position requires the ability to obtain a US Security Clearance for which the US Government requires US Citizenship as a condition of employment (An interim and/or final U.S. Secret Clearance Post-Start may be required)
+
+- Bachelor's Degree
+
+- 2+ years of experience with C/C++, Python, or C#
+
+- 2+ years of experience with requirements, design, development, and test of software systems products
+
+Preferred Qualifications (Desired Skills/Experience):
+
+- Bachelor of Science degree from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), chemistry, physics, mathematics, data science, or computer science and 2+ years of related work experience or Bachelor’s Degree and 6+ years of directly related work experience or 10+ years of related, relevant experience
+
+- Active Secret Clearance
+
+- Experience with instituting and maintaining DevSecOps practices and processes
+
+- Experience with Agile software development
+
+- Experience with DevSecOps and/or complex software build plans
+
+- Experience with application DevOps tools, such as GitLab (CI/CD), Git Bash, Gradle, Maven, Jenkins, and Artifactory.
+
+- Experience with Continuous Integration / Continuous Deployment practices.
+
+- Experience with configuration management and collaboration tools such as (or similar to) Git, JIRA, Collaborator, Beyond Compare and VersionOne
+
+- Ability to work effectively in a team environment and communicate with stakeholders of different backgrounds and skill levels
+
+Conflict of Interest:
+
+Successful candidates for this job must satisfy the Company’s Conflict of Interest (COI) assessment process.
+
+Drug Free Workplace:
+
+Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
+
+CodeVue Coding Challenge:
+
+To be considered for this position you will be required to complete a technical assessment as part of the selection process. Failure to complete the assessment will remove you from consideration.
+
+Pay & Benefits:
+
+At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
+
+The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
+
+The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, and the applicability of collective bargaining agreements.
+
+Pay is based upon candidate experience and qualifications, as well as market and business considerations.
+
+Summary Pay Range: $91,800 - $124,200
+
+Language Requirements:
+Not Applicable
+
+Education:
+Bachelor's Degree or Equivalent
+
+Relocation:
+This position offers relocation based on candidate eligibility.
+
+Export Control Requirement:
+This position must meet U.S. export control compliance requirements. To meet U.S. export control compliance requirements, a “U.S. Person” as defined by 22 C.F.R. §120.62 is required. “U.S. Person” includes U.S. Citizen, U.S. National, lawful permanent resident, refugee, or asylee.
+
+Safety Sensitive:
+This is not a Safety Sensitive Position.
+
+Security Clearance:
+This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. An interim and/or final U.S. Secret Clearance Post-Start is required.
+
+Visa Sponsorship:
+Employer will not sponsor applicants for employment visa status.
+
+Contingent Upon Award Program
+This position is not contingent upon program award
+
+Shift:
+Shift 1 (United States of America)
+
+Stay safe from recruitment fraud! The only way to apply for a position at Boeing is via our Careers website. Learn how to protect yourself from recruitment fraud - Recruitment Fraud Warning
+
+Boeing is an Equal Opportunity Employer. Employment decisions are made without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, physical or mental disability, genetic factors, military/veteran status or other characteristics protected by law.
+
+EEO is the law
+
+Boeing EEO Policy
+
+Request an Accommodation
+
+Applicant Privacy
+
+Boeing Participates in E – Verify
+
+- E-Verify (English)
+- E-Verify (Spanish)
+
+Right to Work Statement
+
+- Right to Work (English)
+- Right to Work (Spanish)"
+JR2026524451,Spacecraft Command and Data Handling (C&DH) Engineer - Millennium Space Systems,"USA - El Segundo, CA",,United States of America,Full time,2026-10-02,Posted 12 Days Ago,Millennium Space Systems,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---El-Segundo-CA/Spacecraft-Command-and-Data-Handling--C-DH--Engineer---Millennium-Space-Systems_JR2026524451-1,"Spacecraft Command and Data Handling (C&DH) Engineer - Millennium Space Systems
 
 Company:
 Millennium Space Systems
@@ -4886,63 +5022,53 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026526294,Systems Engineer (Principal),"USA - Seal Beach, CA","USA - Leesburg, VA; USA - Herndon, VA; USA - Aurora, CO; USA - El Segundo, CA; USA - Colorado Springs, CO",United States of America,Full time,2026-10-07,Posted 3 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seal-Beach-CA/Systems-Engineer--Principal-_JR2026526294-1,"Systems Engineer (Principal)
+JR2026518818,"Sys-Admin/Cyber Engineering (Test Program Req & Planning) (Associate, Mid-Level or Senior)","USA - Long Beach, CA",,United States of America,Full time,2026-10-13,Posted Yesterday,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Long-Beach-CA/Test---Evaluation-Engineer--Test-Program-Req---Planning---Associate--Mid-Level-or-Senior-_JR2026518818-2,"Sys-Admin/Cyber Engineering (Test Program Req & Planning) (Associate, Mid-Level or Senior)
 
 Company:
 The Boeing Company
 
-Boeing Defense, Space & Security (BDS), Space Missions Systems seeks a Systems Engineer (Principal) provide project and technical leadership and ensure modern, best practices across programs and product lines, in a highly dynamic, collaborative environment.
+Boeing Test & Evaluation (BT&E) is seeking a Sys-Admin/Cyber Engineering (Test Program Req & Planning) (Associate, Mid-Level or Senior) to join our team in Long Beach, CA.
 
-Our multi-disciplinary team focuses on rapid prototyping to demonstrate a host of next-generation, mission-focused technologies, products, and services for a variety of customers. We work all facets of engineering from technology investment, concept development, proposal writing, architecture, requirements, and design, build, integration, test, and demonstration.
+The Sys-Admin/Cyber Engineering will support and secure a mixed legacy and modern lab environment used for aircraft LRU testing. This role is responsible for implementing NIST SP 800‑171 controls, managing Windows and Linux systems, and collaborating on network segmentation and modernization projects. The administrator will maintain and harden end-of-life systems using compensating controls, design and document segmented network architectures for CUI protection, manage backups, logging, and access controls, and work closely with engineering, security, and compliance teams to move the lab toward a fully compliant, segmented infrastructure.
 
 Position Responsibilities:
 
-- Lead an impactful team immersed in innovative development projects that encompass activities across the systems engineering spectrum in design, build, deployment, operations, and maintenance for a wide variety of critically important platforms and systems.
-- Lead development of vital architecture requirements and design, and direct our multidisciplinary engineering team as we progress on creative new endeavors.
-- Provide oversight of engineering activities to ensure process discipline, adherence to technical requirements, and performance to program commitments.
-- Understand and navigate complex system architecture development with multiple stakeholders.
-- Ensure modern, best practices across programs and product lines for development and integration activities.
-- Anticipate, communicate, and recommend actions and risk mitigations to technical teams and program leadership.
-- Contribute to strategy, product roadmaps, and technology plans for end-to-end mission integration, space operations, and ground architecture.
-
-This position is expected to be fully onsite in either Seal Beach, CA; Aurora, CO; Colorado Springs, CO; El Segundo, CA; Herndon, CA; or Leesburg, VA.
+- Support and secure legacy, end‑of‑life lab systems where standard patching and upgrades are not immediately possible, using risk‑based, compensating controls
+- Collaborate with network and security teams to design and implement network segmentation separating CUI, lab, and corporate environments
+- Participate in migration projects to refresh lab equipment and move systems into a segmented, NIST SP 800‑171‑aligned architecture
+- Document current‑state configurations, risks, and compensating controls, and contribute to POA&M items for 800‑171 compliance
+- Administer Windows and Linux systems in a controlled lab environment handling CUI
+- Implement and maintain NIST SP 800‑171 controls across lab networks and test benches
+- Design and maintain secure network segmentation and remote access for aircraft LRU test benches
+- Develop and maintain system build documentation, configuration baselines, and audit logs aligned with 800‑171
+- Collaborate with cybersecurity and compliance teams to support assessments and continuous monitoring
 
 Basic Qualifications (Required Skills/Experience):
 
-- Active U.S. Top Secret. (A U.S. Security Clearance that has been active in the past 24 months is considered active.)
-- 10+ years minimum of related experience.
-- Experience leading people in a technical environment as a team lead or manager.
-- Experience communicating with senior managers and executives, customers (internal and external), business partners, suppliers, subcontractors, and government representatives.
-- If not already within commuting distance to one of the listed locations, willingness and ability to relocate at own expense.
-- Bachelor of Science degree in Engineering, Engineering Technology (including Manufacturing Technology), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement.
+- Bachelor of Science degree in Engineering, Engineering Technology (including Manufacturing Technology), Computer Science, Data Science, Mathematics, Physics, Chemistry or non-US equivalent qualifications directly related to the work statement
+- 3+ years of experience with standardized Network Protocols and Services (i.e. TCP/IP, VLAN, DNS, DHCP, Firewalls, etc.)
+- 3+ years of experience with Operating systems such as RedHat Enterprise Linux, Oracle Enterprise Linux or SUSE Linux
+- 3+ years of experience in information security, compliance, or project management implementing and maintaining NIST SP 800-171 or similar NIST
+- undefined
+- 1+ years of experience with basic Windows operating system architecture and operation, including Windows server and SQL server
+- 1+ years of experience with Federal Information Security Management Act (FISMA)/RMF and National institute of Standards and Technology (NIST) 800-53 requirements
+- 1+ years of experience with cybersecurity and regulatory frameworks including NIST 800-53, NIST 800-171, CMMC, ISO, GDPR, ITAR or similar frameworks
 
 Preferred Qualifications (Desired Skills/Experience):
 
-- Ability to mentor entry to senior level engineers.
-- Able to produce make/buy decisions and proposals.
-- Excellent written and spoken communication, presentation and interpersonal skills.
-- Problem solving and troubleshooting in a clear and concise manner.
-- Strong communication skills and desire to integrate within a team that works under the principles of respect, trust, open-mindedness and fun.
-- Passion for innovation and creative exploration of new technologies.
-- Experience with agile development processes and methods.
-- Experience with environment transitions, cloud technologies, cyber security, AI LLM.
-- Experience with command and control, flight dynamics, or mission planning.
-- Willing and able to travel up to 10% domestically.
-
-Typical Education & Experience:
-
-Education/experience typically acquired through advanced technical education from an accredited course of study in engineering, engineering technology (includes manufacturing engineering technology), computer science, engineering data science, mathematics, physics or chemistry (e.g. Bachelor) and typically 20 or more years' related work experience or an equivalent combination of technical education and experience or non-US equivalent qualifications. In the USA, ABET accreditation is the preferred, although not required, accreditation standard.
-
-Conflict of Interest:
-Successful candidates for this job must satisfy the Company's Conflict of Interest (COI) assessment process.
+- Level 3: 3 or more years' related work experience or an equivalent combination of education and experience
+- Level 4: 5 or more years' related work experience or an equivalent combination of education and experience
+- 5+ years of experience with standardized Network Protocols and Services (i.e. TCP/IP, VLAN, DNS, DHCP, Firewalls, etc.)
+- Experience working in aerospace, defense, or similar high-tech industry
+- Experience with pursuing or maintaining NIST 800-53,NIST 800‑171, CMMC, or DFARS compliance
+- Certifications: CompTIA Security+, CompTIA A+, CompTIA Network+
 
 Drug Free Workplace:
 
 Boeing is a Drug Free Workplace where post offer applicants and employees are subject to testing for marijuana, cocaine, opioids, amphetamines, PCP, and alcohol when criteria is met as outlined in our policies.
 
 Pay & Benefits:
-
-At Boeing, we strive to deliver a Total Rewards package that will attract, engage and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
+At Boeing, we strive to deliver a Total Rewards package that will attract, engage, and retain the top talent. Elements of the Total Rewards package include competitive base pay and variable compensation opportunities.
 
 The Boeing Company also provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
 
@@ -4950,7 +5076,13 @@ The specific programs and options available to any given employee may vary depen
 
 Pay is based upon candidate experience and qualifications, as well as market and business considerations.
 
-Summary Pay Range: $197,200.00 - $285,200.00
+Summary pay range:
+
+Level 2: $90,950-$123,050
+
+Level 3: $111,350-$150,650
+
+Level 4: $135,150-$182,850
 
 Language Requirements:
 Not Applicable
@@ -4968,7 +5100,7 @@ Safety Sensitive:
 This is not a Safety Sensitive Position.
 
 Security Clearance:
-This position requires an active U.S. Top Secret Security Clearance (U.S. Citizenship Required). (A U.S. Security Clearance that has been active in the past 24 months is considered active)
+This position requires the ability to obtain a U.S. Security Clearance for which the U.S. Government requires U.S. Citizenship. An interim and/or final U.S. Secret Clearance Post-Start is required.
 
 Visa Sponsorship:
 Employer will not sponsor applicants for employment visa status.
@@ -5000,7 +5132,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026522904,Systems Integrations Engineer (Mid-level or Senior),"USA - North Charleston, SC",,United States of America,Full time,2026-10-06,Posted 4 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---North-Charleston-SC/Systems-Integrations-Engineer--Mid-level-or-Senior-_JR2026522904-1,"Systems Integrations Engineer (Mid-level or Senior)
+JR2026522904,Systems Integrations Engineer (Mid-level or Senior),"USA - North Charleston, SC",,United States of America,Full time,2026-10-06,Posted 8 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---North-Charleston-SC/Systems-Integrations-Engineer--Mid-level-or-Senior-_JR2026522904-1,"Systems Integrations Engineer (Mid-level or Senior)
 
 Company:
 The Boeing Company
@@ -5123,7 +5255,7 @@ Right to Work Statement
 
 - Right to Work (English)
 - Right to Work (Spanish)"
-JR2026522164,Vehicle Management Systems Architect (Lead or Principal),"USA - Berkeley, MO",,United States of America,Full time,2026-10-07,Posted 3 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Vehicle-Management-Systems-Architect--Lead-or-Principal-_JR2026522164-1,"Vehicle Management Systems Architect (Lead or Principal)
+JR2026522164,Vehicle Management Systems Architect (Lead or Principal),"USA - Berkeley, MO",,United States of America,Full time,2026-10-07,Posted 7 Days Ago,The Boeing Company,https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Berkeley-MO/Vehicle-Management-Systems-Architect--Lead-or-Principal-_JR2026522164-1,"Vehicle Management Systems Architect (Lead or Principal)
 
 Company:
 The Boeing Company

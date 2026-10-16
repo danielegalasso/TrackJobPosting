@@ -2,9 +2,9 @@
   "source": "https://jobs.dlr.de/search/?q=cyber+security",
   "company": "DLR",
   "query": "cyber security",
-  "extracted_at": "2026-10-10T10:49:29",
-  "site_total": 16,
-  "extracted": 16,
+  "extracted_at": "2026-10-15T08:14:18",
+  "site_total": 13,
+  "extracted": 13,
   "postings": [
     {
       "job_id": "6300",
@@ -25,24 +25,6 @@
       "description": "Kennziffer: 5802\nArbeitsort: Oberpfaffenhofen\nEintrittsdatum: sofort\nKarrierestufe: Berufserfahrene; Absolventinnen & Absolventen\nBeschäftigungsgrad: Vollzeit; Teilzeit\nDauer der Beschäftigung: 3 Jahre\nVergütung: Die Vergütung erfolgt gemäß der jeweils geltenden Tarifverträge des öffentlichen Dienstes (Bund).\n\nDas Deutsche Fernerkundungsdatenzentrum (DFD) ist vertreten an den Standorten in Oberpfaffenhofen bei München und Neustrelitz in Mecklenburg-Vorpommern. Zusammen mit dem Institut für Methodik der Fernerkundung (MF) bildet es das Earth Observation Center (EOC), das Kompetenzzentrum für Erdbeobachtung in Deutschland."
     },
     {
-      "job_id": "4577",
-      "title": "Ingenieur/in (w/m/d) - Space Cyber-/Informationssicherheit, Software Qualitätssicherung",
-      "location": "Bonn",
-      "additional_locations": "",
-      "start_date": "2026-04-10",
-      "url": "https://jobs.dlr.de/job/Ingenieurin-%28wmd%29-Space-Cyber-Informationssicherheit%2C-Software-Qualit%C3%A4tssicherung/4577-de_DE/",
-      "description": "Als Deutsche Raumfahrtagentur im Deutschen Zentrum für Luft- und Raumfahrt (DLR) sind wir der zentrale Ansprechpartner der Bundesregierung für Raumfahrtthemen. Wir entwickeln das Deutsche Raumfahrtprogramm und realisieren die Raumfahrtaktivitäten Deutschlands. Außerdem managen wir die deutschen Raumfahrttätigkeiten auf europäischer und internationaler Ebene. Kurzum: 100% Raumfahrt."
-    },
-    {
-      "job_id": "3517",
-      "title": "Ingenieur/in Luft- und Raumfahrt, Informatik o.ä. (w/m/d) - Drohnensicherheit, Lagebilderstellung",
-      "location": "Braunschweig",
-      "additional_locations": "",
-      "start_date": "2026-05-06",
-      "url": "https://jobs.dlr.de/job/Ingenieurin-Luft-und-Raumfahrt%2C-Informatik-o_%C3%A4_-%28wmd%29-Drohnensicherheit%2C-Lagebilderstellung/3517-de_DE/",
-      "description": "Das Institut für Flugführung betreibt in interdisziplinären Forscherteams grundlagen- und anwendungsorientierte Forschung zur optimalen Führung von Luftfahrzeugen am Boden und in der Luft. Dazu nutzt es eine integrierte Versuchsinfrastruktur. Ziel ist es, den Luftraum flexibler und effizienter zu nutzen und Flughäfen auf optimalen Durchsatz auszurichten, bei gleichzeitiger Minimierung des Treibstoffverbrauchs und der Umweltbelastung."
-    },
-    {
       "job_id": "5964",
       "title": "IT-Securitymanager/in (w/m/d) - Astronautische Raumfahrt",
       "location": "Oberpfaffenhofen",
@@ -50,15 +32,6 @@
       "start_date": "2026-09-17",
       "url": "https://jobs.dlr.de/job/IT-Securitymanagerin-%28wmd%29-Astronautische-Raumfahrt/5964-de_DE/",
       "description": "Der DLR Raumflugbetrieb und Astronautentraining ist die zentrale Instanz für deutsche Raumfahrt – von Satellitenmissionen für Erdbeobachtung, Kommunikation und Weltraumsicherheit über astronautische Raumfahrt bis zu Höhenforschung und Exploration. Zudem arbeiten wir im DLR Raumflugbetrieb und Astronautentraining an innovativen Technologien, um mit diesen auch schwierigste Raumfahrtprojekte der Zukunft meistern zu können."
-    },
-    {
-      "job_id": "4471",
-      "title": "Produkt- & Qualitätssicherungsmanager/in (w/m/d) - Groß-Projekte",
-      "location": "Bonn",
-      "additional_locations": "",
-      "start_date": "2026-04-10",
-      "url": "https://jobs.dlr.de/job/Produkt-%26-Qualit%C3%A4tssicherungsmanagerin-%28wmd%29-Gro%C3%9F-Projekte/4471-de_DE/",
-      "description": "Als Deutsche Raumfahrtagentur im Deutschen Zentrum für Luft- und Raumfahrt (DLR) sind wir der zentrale Ansprechpartner der Bundesregierung für Raumfahrtthemen. Wir entwickeln das Deutsche Raumfahrtprogramm und realisieren die Raumfahrtaktivitäten Deutschlands. Außerdem managen wir die deutschen Raumfahrttätigkeiten auf europäischer und internationaler Ebene. Kurzum:100% Raumfahrt."
     },
     {
       "job_id": "5269",

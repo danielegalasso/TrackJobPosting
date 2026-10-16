@@ -1,0 +1,677 @@
+job_id,title,location,department,team,contract,duration,salary,url,description
+8842136002,Cybersecurity Engineer,"London, United Kingdom",Cybersecurity,Cybersecurity,Full-Time: New Grad,Permanent,,https://www.janestreet.com/join-jane-street/position/8842136002/,"About the position
+
+We're looking to add a passionate Cybersecurity Engineer to our London office to help protect Jane Street’s employees, data, and infrastructure from the wilds of the internet. Our Cybersecurity Engineers are responsible for developing and using monitoring tools to guard the firm, as well as handling incident response and remediation when a threat is found.
+
+Our Cybersecurity team is a skilled group of programmers and security experts who are dedicated to keeping the firm safe. We consider ourselves to be tapped into developments in the broader cybersecurity space, and can tell the difference between the latest cool hack by security researchers and what actually matters in our day-to-day. In this role, you’ll carefully consider the context of our decisions as we think about the tradeoffs we’re making in our approach to resolving cybersecurity issues. We’ll expect you to apply a methodical approach to performing unstructured investigations to locate and repair the source of a security issue.
+
+You will also act as an ambassador of best practices to the rest of the firm. Team members understand and practice good personal cybersecurity hygiene, and are able to talk to others about it. A key component of doing well in this position is bringing everyone else along with you on the cybersecurity journey, and you should be excited to learn from your colleagues and pass that learning on to new analysts.
+
+About you
+
+- Graduating with a Bachelor’s degree in Computer Science, Engineering, Information Systems, or a related field
+
+- An avid follower of cybersecurity news
+
+- A strong programmer who can demonstrate high potential and an aptitude for learning
+
+- Comfortable and interested in managing your code and configs in version control, and knowledge of your editor (we don't care which though)
+
+- Familiar with threat modeling, and able to clearly communicate your understanding of the tradeoffs we’re making to internal stakeholders
+
+- Able to explain the cybersecurity decisions you’ve made in your own life, and how you’ve approached thinking about those decisions
+
+- Able to adapt to changing scenarios and make challenging decisions under pressure
+
+- Humble attitude about what you know and don’t know; not afraid to ask questions and admit mistakes
+
+- Curious problem solver with a positive, collaborative attitude
+
+- Fluent in English
+
+If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com."
+8651323002,Hardware Engineer (FPGA/ASIC),"London, United Kingdom",Technology,Software Engineering,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8651323002/,"About the Position
+
+Our goal is to give you a real sense of what it's like to work at Jane Street full time while also providing a truly unparalleled educational experience. As an intern, you are paired with full-time employees who act as mentors, collaborating with you on real-world projects we actually need done.
+
+In this internship, you'll learn how we use tools to make programming faster, more pleasant, and more reliable. We apply these same principles to our hardware engineering work, and we're looking for people who are interested in using programming language technology to improve the process of designing, testing, and validating hardware designs. We use Hardcaml, an OCaml library for succinctly describing hardware in RTL. Hardcaml is tightly integrated into our development environment, so you'll also gain lots of exposure to the libraries and tools that are foundational to our internal systems. No previous knowledge of Hardcaml is required.
+
+The hardware team at Jane Street works on both FPGA and ASIC designs. Depending on your background and experience, we'll craft a project that gives you exposure to our shared Hardcaml tech stack, as well as targeting an FPGA or ASIC platform.
+
+During the program, you'll dive deep on one project, mentored closely by the full-time employees who helped design it. Some intern projects consider big-picture questions that we're still trying to figure out, while others involve building something new. Your mentors will help you gain a better understanding of the wide range of problems we solve every day. We expect interns to build hardware applications from concept to a working design; your projects will predominantly involve OCaml & Hardcaml, for both RTL design and testing/integration.
+
+If you’d like to learn more, you can read about our interview process, meet some of our newest hires, or check out our OCaml All The Way Down talk and Programmable Hardware podcast episode. You can also learn more about Jane Street’s internship programme here.
+
+About You
+
+We don't expect you to have a background in finance, OCaml, functional programming, or any other specific field— we're looking for smart people who enjoy solving interesting problems. We're more interested in how you think and learn than what you currently know. You should be:
+
+- Comfortable with a software programming language
+
+- Experienced with a Hardware Description (or Construction) language (VHDL, Verilog, Chisel, Pymtl, or other), for both writing and testing hardware designs
+
+- Experienced working with FPGA or ASIC vendor tools - Vivado or Quartus for FPGAs, Genus or Innovus for ASICs
+
+- Experienced with building a working hardware project (either FPGA or ASIC) through an academic, professional, or personal project
+
+- Interested in learning how to use FPGAs or ASICs in the context of networking
+
+- Fluent in English"
+8651405002,Hardware Engineer (FPGA/ASIC),"London, United Kingdom",Technology,Software Engineering,Full-Time: New Grad,Permanent,,https://www.janestreet.com/join-jane-street/position/8651405002/,"About the Position
+
+We are looking to hire engineers with experience in both software and hardware design to help us build our FPGA or ASIC-based applications.
+
+We're big believers in the ability of tools to make programming faster, more pleasant, and more reliable. We apply these same principles to our hardware engineering work, and we’re looking for people who are interested in using programming language technology to improve the process of designing, testing, and validating hardware designs. The hardware team at Jane Street works on both FPGA and ASIC designs. We use Hardcaml, an OCaml library for succinctly describing hardware in RTL. Hardcaml is tightly integrated into our development environment, so you’ll also gain lots of exposure to the libraries and tools that are foundational to our internal systems. No previous knowledge of Hardcaml is required.
+
+In this role, you’ll work on the ground-up design and implementation of new FPGA or ASIC applications, and help extend and refine the high-level design and testing tools that we use internally. Your day-to-day work will predominantly involve OCaml & Hardcaml, for both RTL design and testing/integration, but you can also expect to work with some Verilog and C. While you don’t need to have worked with OCaml specifically, a good background in typed programming languages is a plus.
+
+If you’d like to learn more, you can read about our interview process, meet some of our newest hires, or check out our OCaml All The Way Down talk and Programmable Hardware podcast episode.
+
+About You
+
+We don’t expect you to have a background in OCaml, finance, or any other specific field - we’re looking for smart programmers who will approach hardware design with a software engineering mindset. We’re more interested in how you think and learn than what you currently know. You should be:
+
+- Comfortable with a software programming language
+
+- Experienced with a Hardware Description (or Construction) language (VHDL, Verilog, Chisel, Pymtl, or other), for both writing and testing hardware designs
+
+- Experienced working with FPGA or ASIC vendor tools - Vivado or Quartus for FPGAs, Genus or Innovus for ASICs
+
+- Experienced with building a working hardware project (either FPGA or ASIC) through an academic, professional, or personal project
+
+- Interested in learning how to use FPGAs or ASICs in the context of networking
+
+- A top-notch programmer with a love for technology
+
+- Intellectually curious, collaborative, and eager to learn
+
+- Humble and unafraid to ask questions and admit mistakes
+
+- Fluent in English
+
+If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com"
+8651274002,IT Operations Engineer,"London, United Kingdom",Technology,IT and Systems Engineering,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8651274002/,"About the Position
+
+If you are imagining a daily routine that involves making copies and watching as someone turns a computer off and back on, think again: this is not your typical IT internship. Our goal is to give you a real sense of what it's like to work at Jane Street full time while also providing a truly unparalleled educational experience. As an intern, you'll be paired with full-time employees who act as mentors, collaborating with you on real-world projects we actually need done.
+
+We will train you as if you're joining our full-time team of IT Operations Engineers who are responsible for the support, configuration and operation of multiple systems across all of our technology stacks, including desktop engineering, network and various application platforms. You will help in a hands-on capacity as we make improvements to our office environment. This can include: responding to technology support requests, building and configuring Windows and Linux devices, supporting our Windows domain infrastructure, monitoring and supporting systems and helping with projects to optimize the way we work using tools like PowerShell.
+
+Our IT interns are friendly and collaborative problem-solvers who enjoy helping people. They are able to troubleshoot in real time and engage with our end users, and are comfortable asking questions and admitting to mistakes. Our internships provide a great introduction to Jane Street and how we think about and solve problems across all teams. Often, successful interns have been invited to return for a full-time position after graduation.
+
+Learn more about Jane Street’s internship program here.
+
+About You
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you'll fit right in. We're more interested in how you think and learn than what you currently know. You should be:
+
+- Knowledgeable of computer hardware components and how they interact with each other
+
+- Familiar with the Windows operating system
+
+- Interested in learning about networking, programming or system administration
+
+- Eager to help people and solve problems; able to communicate clearly and respectfully
+
+- A reliable team player with a ""no job too small"" attitude
+
+- Comfortable working in a fast-paced environment
+
+- Humble and unafraid to ask questions and admit mistakes
+
+- Able to deconstruct technical problems, and willing to take a hands-on approach to gain experience in diagnosing, troubleshooting and resolving technical issues at the desktop, server and network levels
+
+- Able to develop and maintain technical documentation
+
+- Some familiarity (either personal, academic, or professional) with a scripting language, such as PowerShell or Bash, is a plus
+
+- Fluent in English"
+8626146002,Linux Engineer,"London, United Kingdom",Technology,IT and Systems Engineering,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8626146002/,"About the Position
+
+Our goal is to give you a real sense of what it's like to work at Jane Street full time while also providing a truly unparalleled educational experience. As an intern, you'll be paired with full-time employees who act as mentors, collaborating with you on real-world projects we actually need done.
+
+As a Linux Engineering intern, you'll work side by side with full-timers to learn how we build and maintain the critical infrastructure underlying our firm's technology, including our production trading systems. Our work is hugely varied, both in the technical areas we work on and the ways we work. However, a consistent theme is that we typically work closer to the operating system layer, and sometimes dive as deep as the firmware or physical hardware layer. On any given day, we might be chasing a performance issue from the application layer all the way to the hardware, fixing a kernel bug, responding to an overheating datacenter in real time, analyzing data to improve the predictiveness of our monitoring systems, or building robust automation to tackle a previously manual workflow. Our purposeful blending of in-house and open source software allows us to investigate and innovate at every level.
+
+During the program you'll spend the majority of your time working on a project, mentored closely by the full-time employees who designed it. Each project is carefully picked to challenge and develop both your in-depth understanding of Linux systems and your software engineering skills, both while delivering real value that is relevant to the challenges the firm is facing right now. Past projects have touched on a broad range of areas, including: investigating the resilience of different file system implementations at scale, automating the collection of diagnostic information from early boot failures, designing a scalable system for collecting extremely fine-grained TCP diagnostic data, or extending our infrastructure provisioning and management systems to support new forms of compute capacity.
+
+Alongside your project work and classes, you will also get to experience real-time operational work alongside experienced full-timers. This is a unique opportunity to see how our team interacts with almost every other group: resolving emerging issues in our production infrastructure, seeing what happens when things do go wrong, and helping us perform comprehensive root-cause analyses to ensure we learn from such mishaps.
+
+Learn more about Jane Street's internship program here.
+
+About You
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you'll fit right in. We're more interested in how you think and learn than what you currently know. You should be:
+
+- Knowledgeable about operating system fundamentals and computer architecture
+
+- Experienced with systems programming concepts like sockets, virtual memory, and the process life cycle
+
+- Able to understand network protocols at a basic level
+
+- Comfortable at the command-line of a Linux machine, whether that’s from coursework, time spent as a systems administrator for your campus computer lab, side projects, etc.
+
+- Fluent with basic introspection and troubleshooting common aspects of a Linux system (e.g. system health as a whole, individual processes, checking logs, etc.)
+
+- Someone who solves problems by writing code (in any language) and is invested in robust software engineering
+
+- Intellectually curious, collaborative, and eager to learn (including from mistakes)
+
+- Humble and unafraid to ask questions
+
+- A strong communicator
+
+- Fluent in English
+
+If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com"
+8651286002,Linux Engineer,"London, United Kingdom",Technology,IT and Systems Engineering,Full-Time: New Grad,Permanent,,https://www.janestreet.com/join-jane-street/position/8651286002/,"About the Position
+
+We're looking for Linux Engineers to join the team that maintains the critical infrastructure underlying the rest of Jane Street's technology. It's a broad role, and no two Linux Engineers look exactly alike. Our work spans on-prem and cloud infrastructure, every major pillar (compute, storage, networking), and every layer of the stack from the physical hardware to workload orchestration. You should expect to work in some (but not necessarily all) of these areas, and to go genuinely deep in a few.
+
+That might mean:
+
+- Building the in-house tools and systems that make up our platform, or integrating mainstream (often open-source) technologies so they feel native to our infrastructure
+
+- Acting as one of the firm's Linux experts, and teaching other engineers specialist skills like systems debugging
+
+- Automating our own work, because it makes us faster and more reliable (and we think it's fun)
+
+- Diagnosing and resolving production issues in real time, often under time pressure
+
+- Carrying out scheduled changes to the platform, like upgrades, migrations, capacity changes, and rollouts, planned meticulously and executed carefully
+
+The problem space runs from the physical to the abstract: datacenter provisioning and orchestration, kernels and drivers delivered through Nix and RPMs, production and research storage at scale, cloud that integrates cleanly with our on-prem platform, and, in partnership with our IT and Network Engineering colleagues, Linux desktops and how our hosts participate in the network.
+
+We see Linux Engineering and Software Engineering as two ends of a spectrum, and plenty of people could do either job well. Linux Engineering is likely the better fit if you treat Linux itself as your problem space: you like working close to the operating system, you want to look after production infrastructure, and you're happy spending more of your time in a consulting capacity than a typical developer would. (Compared with kernel development, the emphasis flips: you'd rarely develop the kernel itself, though targeted patches happen, and you'd spend far more time running production infrastructure.) We're hiring for both roles and are happy to advise you on which might fit best.
+
+We don't expect you to come in with deep experience; we're happy to hire smart problem-solvers and teach them what they need to know. But the job leans much more toward engineering than a traditional operations role: relentless automation instead of manual toil, and a large body of in-house technology rather than only off-the-shelf tools. You'll build systems, not just operate them.
+
+About You
+
+We don't expect you to have a background in finance or any other specific field - we're looking for smart people who enjoy solving interesting problems. We're more interested in how you think and learn than what you currently know. You should be:
+
+- Knowledgeable about operating system fundamentals, computer architecture, and systems programming concepts like sockets, virtual memory, and the process life cycle
+
+- Able to understand network protocols at a basic level
+
+- Comfortable at the command line of a Linux machine (whether from coursework, side projects, or time spent administering a campus computer lab) and fluent in basic introspection and troubleshooting: system health, individual processes, logs
+
+- Someone who solves problems by writing code (in any language) and cares about robust software engineering
+
+- Intellectually curious, collaborative, humble, and eager to learn (including from mistakes)
+
+- A strong communicator
+
+- Fluent in English
+
+If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com"
+8648474002,Machine Learning Engineer,"London, United Kingdom","Trading, Research, and Machine Learning",Machine Learning,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8648474002/,"About the Position
+
+Our goals are to give you a real sense of what it's like to work at Jane Street as a Machine Learning Engineer while also providing a truly unparalleled educational experience. You'll be paired with full-time employees who act as mentors, collaborating with you on real-world ML projects we actually need done. Many classes and activities are shared with our Software Engineering interns, while others focus specifically on machine learning applications and techniques.
+
+Machine learning is a critical pillar of Jane Street's global business. Our ever-changing trading environment serves as a unique, rapid-feedback platform for ML experimentation, allowing us to incorporate new ideas with relatively little friction. If you’d like to learn more, you can have a look at our Machine Learning page.
+
+During the programme, you'll work on projects mentored closely by the full-time employees who designed them. Some projects consider big-picture questions that we're still trying to figure out, while others involve building something new. You will get access to our growing GPU cluster containing thousands of H100/H200/B200s and gain an understanding of the differences between textbook machine learning and its application to noisy financial data.
+
+The interview process follows the same structure as our Software Engineering Intern interviews, with one key addition: after your initial technical coding interview over Zoom, you'll have an on-site interview with 2-4 technical rounds, including one dedicated to assessing ML engineering skills.
+
+Learn more about Jane Street's internship programme here.
+
+About You
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you'll fit right in. We're more interested in how you think and learn than what you currently know. You should be:
+
+- An undergraduate, postgraduate or PhD student with practical experience training an ML model, working on an ML library, or optimising an ML workflow
+
+- A top-notch programmer with a love for technology
+
+- Intellectually curious, collaborative, and eager to learn
+
+- Humble and unafraid to ask questions and admit mistakes
+
+- Fluent in English"
+8576931002,Machine Learning Researcher,"London, United Kingdom","Trading, Research, and Machine Learning",Machine Learning,Full-Time: New Grad,Permanent,,https://www.janestreet.com/join-jane-street/position/8576931002/,"About the Position
+
+We’re looking for smart and curious individuals to join our growing team and drive our ML work.
+
+On our Machine Learning team, you'll build the deep learning models that power our trading strategies, supported by our rapidly growing computing cluster with tens of thousands of high-end GPUs. Trading poses unusual challenges— large models and nonstationary datasets in a competitive multi-agent environment—that force us to search for novel techniques.
+
+At Jane Street, our researchers, engineers and traders sit a few feet away from each other and work together to train models, architect systems and run trading strategies. Depending on the day, we might be diving deep into market data, tuning hyperparameters, debugging distributed training performance or studying how our model likes to trade in production.
+
+We’ll rely on your in-depth knowledge of the machine learning landscape and understanding of a variety of approaches—drawn from LLMs, image models, RL agents, recommendation systems or classical ML methods—to shape the future of ML at Jane Street. You’ll train models for the next generation of our deep learning-based trading strategies, and build the fundamental understanding we need to tackle new markets and situations. You’ll also be hiring new colleagues, attending conferences and teaching techniques to teammates—all of which we consider to be real and impactful parts of the job.
+
+About You
+
+If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. If you have a curious mind and a passion for solving interesting problems, we have a feeling you’ll fit right in. There’s no fixed set of skills we are looking for, but you should bring:
+
+- Practical experience working on empirical ML problems
+
+- The ability to apply logical and mathematical thinking to all kinds of problems
+
+- Intellectual curiosity and excitement about state-of-the-art research across many ML problem domains
+
+- Fluency with a versatile set of models and tricks
+
+- The hands-on coding skills needed to rapidly implement and iterate on your ideas, in Python and your favourite ML framework
+
+- An eagerness to ask questions, admit mistakes and learn new things
+
+- Fluency in English
+
+If you’d like to learn more, you can read about our interview process and meet some of the team.
+
+If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com"
+8594416002,Machine Learning Researcher,"London, United Kingdom","Trading, Research, and Machine Learning",Machine Learning,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8594416002/,"About the Position
+
+Our goals are to give you a real sense of what it's like to work at Jane Street as a Machine Learning Researcher while also providing a truly unparalleled educational experience. You'll work side by side with experienced ML Researchers on projects that we've selected for their combination of novel ML ideas and relevance to real-world systematic trading strategies. You'll learn how we think about markets through challenging classes and activities, and practice using established methods alongside our own unique twists to train practical models.
+
+At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. Trading poses unusual challenges—large models and nonstationary datasets in a competitive multi-agent environment—that force us to search for novel techniques.
+
+You'll spend the bulk of your internship working closely with full-time machine learning researchers on projects drawn from their own work. You might conduct an end-to-end study of an unexplored dataset, try a new modelling paradigm for a thorny problem, or consider blue-sky approaches that we're still trying to figure out. The problems we work on rarely have clean, definitive answers, and they often require insights from colleagues across the firm with different areas of expertise. Depending on the day, you might be diving deep into market data, tuning hyperparameters, debugging training issues, or analysing the predictions your model makes.
+
+Note that given the IP-sensitive nature of machine learning research at Jane Street, it is unlikely that any research findings associated with the internship will be suitable for outside academic publication.
+
+About you
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind and a passion for solving interesting problems, we have a feeling you'll fit right in. We're more interested in how you think and learn than what you currently know. You should be:
+
+- An undergraduate, PhD student, or postdoc with practical experience working on ML problems
+
+- Interested in applying logical and mathematical thinking to all kinds of problems
+
+- Curious about the machine learning landscape and excited to apply state-of-the-art techniques drawn from many problem domains
+
+- Fluent with a versatile set of models and tricks
+
+- Able to rapidly implement and iterate on your ideas in Python and your favourite ML framework
+
+- Eager to ask questions, admit mistakes, and learn new things
+
+- Fluent in English
+
+If you'd like to learn more, you can read about our interview process and meet some of the team. Learn more about Jane Street's internship program here."
+8693554002,Procurement Specialist,"London, United Kingdom",Technology,IT and Systems Engineering,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8693554002/,"About the position
+
+Our goal is to give you a real sense of what it's like to work at Jane Street full time while also providing a truly unparalleled educational experience. As an intern, you are paired with full-time employees who act as mentors, collaborating with you on real-world projects we actually need done.
+
+As a procurement intern, you’ll work side-by-side with full-timers to learn how we procure goods and services for the firm on a global basis. You will see how we develop and execute requests for proposal (RFPs), negotiate with vendors, level disparate quotes, manage inventory, raise purchase orders, handle global logistics, and analyze spend data.
+
+Your internship project might focus on finding and implementing ways to improve efficiency in our internal processes, or helping us to plan and research our sourcing efforts. Your mentors will come from different areas of the team, so you’ll gain a better understanding of the planning, execution, and problem solving required pre-purchase and post-purchase. Your daily project work will be complemented by lunch seminars, real-time discussion on the desk, and classes that give you a sense of the broader fundamentals of Jane Street’s business and how your daily work fits into the big picture of our firm.
+
+Learn more about Jane Street's internship program here.
+
+About you
+
+If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you’ll fit right in. We're more interested in how you think and learn than what you currently know. You should be:
+
+- Passionate about supply chain management, including one or more of the following areas: global sourcing, inventory management, logistics, transportation
+
+- Ideally majoring in supply chain management, business administration/management, operations, or a related field
+
+- Highly proficient in Excel
+
+- Intellectually curious, collaborative, and eager to learn
+
+- Humble and unafraid to ask questions and admit mistakes
+
+- A strong communicator, both written and verbal
+
+- Comfortable working in a highly collaborative environment
+
+- A self-starter who enjoys working on problems that don’t have clear answers
+
+- Fluent in English"
+8474416002,Quantitative Researcher,"London, United Kingdom","Trading, Research, and Machine Learning",Quantitative Research,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8474416002/,"About the Position
+
+Our goals are to give you a real sense of what it's like to work as a Quantitative Researcher at Jane Street while also providing a truly unparalleled educational experience. You'll work side by side with our experienced Quantitative Researchers to learn how we identify market signals, analyse large datasets, build and test models, and create new trading strategies.
+
+At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don’t believe in “one-size-fits-all” modelling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem.
+
+You'll spend the bulk of your internship working closely with full-time researchers on projects drawn from their own work. You'll gain a better understanding of the diverse array of challenges we consider every day, learning how we think about experiment design, dataset generation, time series analysis, feature engineering, and model building for financial datasets. Your day-to-day project work will be complemented by classes on the broader fundamentals of markets and trading, lunch seminars, and activities designed to help you understand the entire process of creating a new trading strategy, from initial exploration to finding and productionizing a signal.
+
+About You
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. Most candidates will have experience with data science or machine learning, but ultimately, we're more interested in how you think and learn than what you currently know. You should be:
+
+- Able to apply logical and mathematical thinking to all kinds of problems
+
+- Intellectually curious; eager to ask questions, admit mistakes, and learn new things
+
+- A strong programmer who's comfortable with Python
+
+- An open-minded thinker and precise communicator who enjoys collaborating with colleagues from a wide range of backgrounds and areas of expertise
+
+- Fluent in English
+
+Most interns are current undergraduate or graduate students, but we also welcome applicants who have already graduated and are considering a new career in finance. Research experience is a plus.
+
+If you'd like to learn more, you can read about our interview process and meet some of the team. Learn more about Jane Street's internship program here."
+8600948002,Quantitative Researcher,"London, United Kingdom","Trading, Research, and Machine Learning",Quantitative Research,Full-Time: New Grad,Permanent,,https://www.janestreet.com/join-jane-street/position/8600948002/,"About the Position
+
+We are looking for Quantitative Researchers to help us build models, strategies, and systems that price and trade financial instruments. You’ll work side by side with experienced researchers who are committed to teaching, guiding, and supporting our newest hires, learning how we think about experiment design, dataset generation, time series analysis, feature engineering, and model building for financial datasets.
+
+At Jane Street, our researchers, engineers, and traders sit a few feet away from each other and work together to train models, architect systems, and run trading strategies. We work with petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. Depending on the day, we might be diving deep into market data, tuning hyperparameters, debugging distributed training performance, or studying how our model likes to trade in production.
+
+We don’t believe in “one-size-fits-all” modelling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. The most successful researchers will be driven by a curiosity for how their contributions fit into the larger picture of our trading operations, and how to adapt their findings into actionable strategies.
+
+About You
+
+If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. If you have a curious mind and a passion for solving interesting problems, we have a feeling you’ll fit right in. You should be:
+
+- Able to apply logical and mathematical thinking to all kinds of problems
+
+- Intellectually curious; eager to ask questions, admit mistakes, and learn new things
+
+- A strong programmer who’s comfortable with Python
+
+- An open-minded thinker and precise communicator who enjoys collaborating with colleagues from a wide range of backgrounds and areas of expertise
+
+- Fluent in English
+
+Most candidates will have experience with data science or machine learning, but ultimately, we’re more interested in how you think and learn than what you currently know. PhD or other research experience is a plus.
+
+If you’d like to learn more, you can read about our interview process and meet some of the team."
+8474407002,Quantitative Trader,"London, United Kingdom","Trading, Research, and Machine Learning",Quantitative Trading,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8474407002/,"About the Position
+
+Our goals are to give you a real sense of what it's like to work as a Quantitative Trader at Jane Street while also providing a truly unparalleled educational experience. You'll be paired with experienced quantitative traders who will teach you how to identify market signals, analyse and execute strategies, construct quantitative models, conduct statistical analysis, and build trading intuition.
+
+At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don't believe in ""one-size-fits-all"" modelling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem. You'll work closely with two different mentors on projects relating to their day-to-day work, giving you a sense of the variety of problems we solve every day. Past projects have included analysing new or existing datasets, training predictive models, simulating potential new trading strategies, writing tools that we use in production, and even working to answer big-picture questions we haven't yet figured out.
+
+During the internship, your work is reinforced with intensive classes, workshops, and team-based mock trading sessions. These will expose you to many of the dynamics we observe in real markets, illustrate the role that we play in making markets more efficient, and help build intuition for how we think about both trading and collaborating.
+
+As a quantitative trading intern, you’ll also have the opportunity to participate in one ""elective"" based on your interests. Electives consist of targeted classes and immersive activities, and are designed to give you a deeper and more nuanced look into one of the many aspects of what quantitative trading can look like at Jane Street:
+
+Machine Learning, Modelling, and Data Science
+
+You'll learn how Jane Street applies advanced machine learning and statistical techniques to make models and predictions using large datasets of both real and simulated market data. You'll learn how to train and use a variety of ML models, and gain an understanding of the differences between textbook machine learning and its application to noisy and complex financial data.
+
+Algorithmic Trading and Market Microstructure
+
+You'll learn the end-to-end process of developing an algorithmic trading strategy. You'll analyse market data to develop a tradable fair value and implement a trading strategy in Python. Your algorithmic strategy will connect directly to simulated markets with different market structures, and you will learn how to optimise your strategy given the unique attributes of each market. You will discover how various market dynamics affect strategy behaviour and learn how real-world trading differs from simulation.
+
+Trading Strategy and Scenarios
+
+You'll be introduced to a rotating set of new trading scenarios inspired by real events on a particular trading desk. You'll work in teams on multiple mock trading sessions related to each scenario and use the time between sessions to refine your strategies, write recaps, and hear how the story played out in real life from our seasoned full-time traders who lived through it.
+
+About you
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you'll fit right in. We're more interested in how you think and learn than what you currently know. You should be:
+
+- A strong quantitative thinker (no specific degree or major is required)
+
+- A clear and effective verbal and written communicator
+
+- Someone who enjoys working collaboratively on a team
+
+- Eager to ask questions, admit mistakes, and learn new things
+
+- Fluent in English
+
+A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.
+
+If you'd like to learn more, you can read about our interview process and meet some of the team. Learn more about Jane Street's internship program here."
+8576270002,Quantitative Trader,"London, United Kingdom","Trading, Research, and Machine Learning",Quantitative Trading,Full-Time: New Grad,Permanent,,https://www.janestreet.com/join-jane-street/position/8576270002/,"About the Position
+
+At Jane Street, quantitative traders identify market signals, analyse and execute strategies, construct quantitative models, conduct statistical analyses, build algorithmic trading systems, manage risk, develop new businesses, and more.
+
+Our trading desks are central to our collaborative and cooperative office environment. You can expect to work side by side with experienced traders who are committed to teaching, guiding, and supporting our newest hires. Through hands-on, interactive training, you’ll acquire significant trading responsibilities within weeks to months of being on the desk. In parallel, you will participate in our robust year-long firmwide educational curriculum.
+
+At Jane Street, the lines between research, technology, and trading are intentionally blurry, and you’ll have access to petabytes of data, a computing cluster with hundreds of thousands of cores, and a growing GPU cluster containing tens of thousands of high-end GPUs. We don’t believe in “one-size-fits-all” modelling solutions; we are open to and excited about applying all different types of statistical and ML techniques, from linear models to deep learning, depending on what best fits a given problem.
+
+About you
+
+If you’ve never thought about a career in finance, you’re in good company. Many of us were in the same position before working here. We’re looking for smart people who enjoy solving interesting problems, and we’re more interested in how you think and learn than what you currently know. You should be:
+
+- A critical thinker with a strong quantitative mind
+
+- A collaborative problem-solver who enjoys working on a team
+
+- Proactive, reliable, and courteous with strong organisational and communication skills
+
+- Eager to ask questions, admit mistakes, and learn new things
+
+- Fluent in English
+
+A profitable trading strategy is only as strong as the technology it runs on, and we consider ourselves as much a technology company as a trading firm. General programming experience is a plus, but knowing a particular programming language is not required.
+
+If you’d like to learn more, you can read about our interview process and meet some of the team."
+8537797002,Sales and Trading,"London, United Kingdom",Institutional Sales and Trading,Sales & Trading,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8537797002/,"About the Position
+
+As a Sales and Trading intern, you’ll work alongside our experienced Sales people and Sales-Traders, learning how we engage and cover institutional clients on their trading needs in the different asset classes that we cover. They’ll offer insight into the types of client inquiries we handle daily, and you’ll learn how we service our clients, issuers, and prospective clients. The internship is a fast-paced, immersive experience, and you will attend internal classes on various topics where we can teach you the broader fundamentals of finance and trading.
+
+About You
+
+We don’t expect you to have a background in one specific field - we’re looking for smart, driven people who would enjoy working with clients to solve interesting problems. We’re more interested in how you think and learn than what you currently know. You should be:
+
+- Studying towards a Bachelor’s or Master’s degree, coming into or having completed your final year
+
+- Proactive, reliable, and courteous with strong interpersonal, team working and communication skills
+
+- A self-motivated and entrepreneurial problem-solver who is excited about building relationships with our clients and partners
+
+- A highly analytical and logical thinker, comfortable working with numbers
+
+- Extremely organised with excellent attention to detail
+
+- Interest in learning SQL and/or Python
+
+- Fluent in English, with proficiency in Spanish, Italian, French, Portuguese or German is a plus
+
+Please note: Jane Street will provide flights to and from London as well as accommodation throughout the entirety of the program."
+8589868002,Software Engineer,"London, United Kingdom",Technology,Software Engineering,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8589868002/,"About the Position
+
+Our goal is to give you a real sense of what it's like to work at Jane Street full time while also providing a truly unparalleled educational experience. As an intern, you are paired with full-time employees who act as mentors, collaborating with you on real-world projects we actually need done.
+
+As a Software Engineering intern, you'll learn how we use OCaml (our primary development language) in our day-to-day work, and gain exposure to the libraries and tools that are foundational to our internal systems. Some teams also use Python, so depending on the project, you might do some work with Python as well.
+
+During the internship, you'll be closely mentored by full-time software engineers. Mentors design intern projects based on their team's current needs and are heavily invested in helping interns build maintainable, high-quality software that is intended to reach production. The projects you will work on are as varied and diverse as those full-timers work on, covering a wide range of problems, from high-performance trading systems to programming language design and everything in between.
+
+If you’d like to learn more, you can read about our interview and team placement processes and get a sense of what our most recent intern projects looked like! You can also learn more about Jane Street’s internship program here.
+
+About You
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you'll fit right in. We're more interested in how you think and learn than what you currently know. You should be:
+
+- A top-notch programmer with a love for technology
+
+- Intellectually curious, collaborative, and eager to learn
+
+- Humble and unafraid to ask questions and admit mistakes
+
+- Fluent in English"
+8647260002,Software Engineer,"London, United Kingdom",Technology,Software Engineering,Full-Time: New Grad,Permanent,,https://www.janestreet.com/join-jane-street/position/8647260002/,"About the Position
+
+We’re looking for Software Engineers who want to help us design and build the systems and tools that run the firm. You’ll find Software Engineers in all parts of Jane Street, solving real problems in critical areas ranging from trading desks to our accounting team, as well as building foundational infrastructure, whether that means implementing network monitoring or risk models.
+
+We are big believers in functional programming and, using OCaml, a statically -typed functional programming language, as our primary tool. More recently, Python has become a vital part of Jane Street’s research and trading work, acting as the go-to language for data analysis, visualization, and machine learning.
+
+Beyond our own environment, we also recognize the value of open source software, leveraging it in our daily work and releasing over a million lines of our own code as open source. We’re also always looking for ways to expand open source projects, and provide ongoing support to things like Mercurial, the OCaml compiler, and the OPAM package manager. That said, we’re interested in talented engineers with experience in any language—most of us came in with little to no practical experience in OCaml before we joined.
+
+If you’d like to learn more, you can read about our interview process and meet some of our newest hires.
+
+About You
+
+We don’t expect you to have a background in functional programming, OCaml, Python, finance, or any other specific field—we’re looking for smart programmers who enjoy solving interesting problems. We’re more interested in how you think and learn than what you currently know. You should be:
+
+- A top-notch programmer with a love for technology
+
+- Intellectually curious, collaborative, and eager to learn
+
+- Humble and unafraid to ask questions and admit mistakes
+
+- Fluent in English
+
+If you'd like to get an idea of what we cover in our software engineering interview process, you can visit our interview prep page.
+
+If you're a recruiting agency and want to partner with us, please reach out to agency-partnerships@janestreet.com."
+8518854002,Strategy and Product,"London, United Kingdom",Strategy and Product,Strategy and Product,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8518854002/,"About the Position
+
+SPs are versatile generalists who take a deeply analytical and strategic approach to solving Jane Street’s most pressing problems. They move across groups as firm priorities evolve, developing a holistic view of our business and driving cross-functional growth.
+
+As an SP Intern, you'll work on projects that combine big-picture thinking with rigorous analytical problem-solving. You'll learn to break down complex challenges into actionable steps, use data to inform decisions, and build frameworks to tackle business questions. This hands-on experience will give you direct insight into how SPs lead strategic initiatives across the organisation and leave you with a strong grasp of what an SP career looks like.
+
+If you’d like to learn more, you can explore our Strategy and Product program and interview process here. You can also learn more about Jane Street’s internship program here.
+
+About You
+
+We don’t expect you to have a background in finance or any other specific field - we’re looking for smart people who enjoy solving interesting problems. We’re more concerned with how you think and learn than what you currently know. You should be:
+
+- Someone who excels at taking a structured and careful approach to solving problems, communicates effectively, can drive projects forward, and has exceptional attention to detail
+
+- Excited to learn about a wide range of disciplines and subject matter, including global market dynamics, technical systems and tooling, operational infrastructure, and more
+
+- Eager to ask questions, admit mistakes, and constantly deepen your understanding
+
+- Available to start working full-time in 2028
+
+- Fluent in English
+
+We review applications on a rolling basis and treat all applications equally, regardless of when you apply.
+
+Please note: Jane Street will provide flights to and from London as well as accommodation throughout the entirety of the program."
+5866838002,Tools & Compilers Research and Development,"London, United Kingdom",Technology,Software Engineering,Summer Internship,Flexible,,https://www.janestreet.com/join-jane-street/position/5866838002/,"About the Position
+
+We are excited to announce research internships in our Tools and Compilers group. We're looking for PhD and masters students with outstanding research experience in programming languages, compilers, verification, and related areas.
+
+Jane Street's Compilers team focuses on improving OCaml as a foundation for Jane Street's ever-growing technology stack, in collaboration with the greater OCaml community. We work on many different aspects of the compiler, aiming to make it easier for developers to express their ideas in OCaml, to improve the performance of the generated code, and to make the OCaml compiler itself faster and easier to use.
+
+Over the years, we extended the type system with support for novel language features, re-engineered the optimizer ground-up, and added feedback-directed optimization. We also extend and enhance the surrounding toolchain, working on tools for profiling, debugging, documenting, and building automation. The vast majority of our work is open-source, and we upstream as much as we can to the mainstream OCaml compiler.
+
+During the internship, you will work in collaboration with your mentors on one project for about 10-12 weeks. You'll learn how we use OCaml in our day-to-day work, and gain exposure to the libraries and tools that are foundational to our internal systems. You'll gain a better understanding of the wide range of problems we solve every day. You'll try out new ideas and apply state-of-the-art research to a large actively-developed production codebase.
+
+We'll pick a project that combines your research background with our active work on the OCaml compiler and core libraries. Example project areas include:
+
+- Type systems that track locality and uniqueness
+
+- Formal verification of OCaml programs
+
+- New language features for systems programming
+
+- Compiler testing and validation
+
+You'll also be able to access our physical and virtual educational resources, attend guest speakers and social events, and hopefully get a real sense of what it would be like to work here full-time.
+
+About You
+
+We're looking for PhD and masters students with outstanding research experience in programming languages, compilers, verification, and related areas. We don't expect you to have a background in finance, OCaml, or functional programming. Please include the list of your peer-reviewed publications in your resume."
+8700980002,Trading Desk Operations Engineer,"London, United Kingdom","Trading, Research, and Machine Learning",Trading Desk Operations,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8700980002/,"About the position
+
+Our goal is to give you a real sense of what it's like to work at Jane Street full time while providing a truly unparalleled educational experience. We are looking for individuals of all majors who are interested in exploring what a career as a Trading Desk Operations Engineer (TDOE) might be like. Our TDOE internship is an immersive and fast-paced program that allows you to work on real-world projects directly tied to the challenges we face daily on the trading desk, all guided by a dedicated TDOE mentor.
+
+You will have the opportunity to wear many hats and tackle diverse projects such as:
+
+- Managing and optimizing infrastructure and operational processes
+
+- Supporting trading systems and workflows by executing data queries and coordinating with stakeholders
+
+- Designing and implementing solutions for a range of trading and operations-related issues on the desk
+
+Through these experiences, you'll gain a comprehensive understanding of the trading product, including its life cycle, regulatory considerations, and operational workflows. Plus, you'll have a chance to build off your new professional growth with bootcamps and classes that are tailored to accelerate your technical and operational expertise.
+
+Our collaborative trading desks are central to our office environment, and we believe the best way to integrate our interns is through a hands-on, interactive approach. Some of the tools developed by our interns have had a real impact on our trading desks. We can't wait to teach you what we know, and learn a few things from you as well.
+
+Learn more about Jane Street's internship programme here.
+
+About you
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you'll fit right in. We're more interested in how you think and learn than what you currently know.
+
+- Planning to graduate in 2027 or 2028, all backgrounds are welcome!
+
+- A critical thinker with a strong quantitative foundation and an interest in growing your programming skills
+
+- A team player with a ""no job too small"" attitude
+
+- Interested in finance and passionate about STEM
+
+- Able to balance competing priorities in a fast-paced environment
+
+- Proactive, organised, reliable, and courteous
+
+- An excellent verbal and written communicator; able to use technical knowledge and strong collaboration skills to reach solutions
+
+- Intellectually humble; eager to ask questions and learn new things
+
+- Fluent in English
+
+Please note: Jane Street will provide flights to and from London as well as accommodation throughout the entirety of the programme."
+8782247002,Trading Desk Operations Engineer,"London, United Kingdom","Trading, Research, and Machine Learning",Trading Desk Operations,Full-Time: New Grad,Permanent,,https://www.janestreet.com/join-jane-street/position/8782247002/,"About the position
+
+We are looking for individuals eager to use their technical, organisational, and communication skills in a fast-paced environment to join our TDOE team. Our TDOEs are integral to the firm’s success, building and maintaining desk infrastructure that supports the trading of thousands of financial products across 200 venues in over 45 countries.
+
+Trading Desk Operations Engineers wear many hats, helping to manage the operational side of the trading desk’s activities and interfacing with various groups within the firm to ensure our work is accurate and efficient. You’ll work alongside traders and developers to take on projects like:
+
+- Managing and optimising infrastructure and operational processes
+
+- Supporting trading systems and workflows by executing data queries and coordinating with stakeholders
+
+- Designing and implementing solutions for a range of trading and operational-related issues on the desk
+
+- Communicating with clearing firms and external counterparties to settle and clear trades
+
+Our trading desks are central to our collaborative office environment, and we believe the best way to integrate new hires is through a hands-on, interactive approach. You’ll receive mentorship from other TDOEs, traders, and developers as you take part in a number of development and training programs over your first few months. We don’t expect you to have a background in finance or any other specific field - we’re looking for curious people who enjoy solving interesting problems. We’re more interested in how you think and learn than what you currently know.
+
+It’s important to emphasise the hands-on nature of this role; you’ll be building the tools that allow our firm to operate smoothly and execute trades efficiently. You’ll utilise technical coding, skilled organisation, and collaborative problem-solving to deliver smart, innovative solutions that make our trading better.
+
+We believe that good ideas come from anywhere and are always open to new ways of thinking. The impact you will have on the firm will only increase as you gain experience and proficiency in your specific expertise.
+
+About you
+
+- A critical thinker with a strong technical foundation and an interest in expanding your programming skills
+
+- Able to use technical knowledge and strong collaboration skills to reach solutions
+
+- An agile and adaptive problem solver
+
+- Humble about what you know and don’t know; eager to ask questions and learn new things
+
+- A reliable team player with a “no job too small” attitude
+
+- Excellent verbal and written communication
+
+- Able to balance competing priorities in a fast-paced environment
+
+- Interested in finance and has a passion for STEM
+
+- Fluent in English"
+8755768002,Windows Engineer,"London, United Kingdom",Technology,IT and Systems Engineering,Summer Internship,June-September,,https://www.janestreet.com/join-jane-street/position/8755768002/,"About the position
+
+Our goal is to give you a real sense of what it's like to work at Jane Street full time while also providing a truly unparalleled educational experience. As an intern, you are paired with full-time employees who act as mentors, collaborating with you on real-world projects we actually need done.
+
+As a Windows Engineering intern, you'll work side by side with full-timers in the IT department to learn how we design, deploy, secure, and maintain the automation tools and key infrastructure components that are critical to Jane Street's success. Our Windows Engineers manage a combination of systems we've created ourselves, open-source tools meshed together to provide higher-level functions, and integrations with industry-leading third-party tools and platforms. All of these systems serve to support the Windows desktop and server estate, as well as the tech infrastructure across the company, regardless of platform. Our automation tools help Engineers develop solutions and integrations quickly, efficiently, and reliably.
+
+On any given day, you may be brainstorming approaches to improve systems and workflows, writing code, or learning about a new technology our team may want to deploy. You'll also learn how we use OCaml (our primary development language), F# (a similar language used with our Windows systems), and PowerShell (a scripting language used for the majority of our automation in IT) in our day-to-day work, and gain exposure to the libraries and tools that are foundational to our internal systems.
+
+After your initial training, you'll work in tandem with full-timers on projects drawn directly from our team's mission-critical stack. While your projects may vary in scope and content, they could include things like::
+
+- Developing and maintaining tools and applications related to Windows automation and configuration management
+
+- Improving our CI/CD systems, cross-platform frameworks, and software development environments
+
+- Improving the efficiency and scalability of our tools, services, and monitoring solutions
+
+- Implementing editor and workflow improvements to streamline coding and deployment workflows across IT
+
+Learn more about Jane Street's internship program here.
+
+About you
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you'll fit right in. We're more interested in how you think and learn than what you currently know. You should be:
+
+- A strong programmer who can demonstrate high potential and an aptitude for learning
+
+- Experienced with .NET languages (C# or F#)
+
+- Knowledgeable in operating system fundamentals and computer architecture
+
+- Able to understand network protocols at a basic level
+
+- Familiar with AI/LLMs and prompt engineering
+
+- Intellectually curious, collaborative, and eager to learn
+
+- Humble and unafraid to ask questions and admit mistakes
+
+- A strong communicator
+
+- As comfortable at the command line as you are in a GUI
+
+- Fluent in English"

@@ -223,8 +223,9 @@ export interface HandshakeResult {
 }
 
 /** What a review run covers: never-reviewed postings, those reviewed against
- *  an older brief (and the never-reviewed), or every one again. */
-export type ReviewMode = 'new' | 'stale' | 'all';
+ *  an older brief (and the never-reviewed), those reviewed before the latest
+ *  calibration, or every one again. */
+export type ReviewMode = 'new' | 'stale' | 'calibration' | 'all';
 
 export interface ReviewCounts {
   open: number;
@@ -232,6 +233,8 @@ export interface ReviewCounts {
   never: number;
   stale: number;
   current: number;
+  /** Scored with this prompt, but before the latest calibration. */
+  older_calibration: number;
   excluded_by_reason: Record<string, number>;
 }
 
@@ -281,6 +284,9 @@ export interface ReviewRun {
   reviewed: number;
   failed: number;
   cost: number;
+  calibration: number;
+  prompt_tokens: number;
+  cached_tokens: number;
   errors: string[];
   stopped: string;
   running: boolean;
@@ -294,6 +300,53 @@ export interface SearchStatus {
   counts: ReviewCounts;
   scoring: ScoringSettings;
   brief_present: boolean;
+  calibration: CalibrationStatus;
+}
+
+/** Words a posting's title, company or location must not have. */
+export interface ExclusionFilters {
+  title: string[];
+  company: string[];
+  location: string[];
+}
+
+export interface ExclusionFiltersState extends ExclusionFilters {
+  excluded: number;
+  by_filter: Record<string, number>;
+}
+
+export interface CalibrationExample {
+  action: 'starred' | 'removed';
+  score: number;
+  company: string;
+  title: string;
+  location: string;
+}
+
+export interface Calibration {
+  version: number;
+  created_at: string;
+  model: string;
+  cost: number;
+  feedback_total: number;
+  starred: number;
+  removed: number;
+  guidelines: string[];
+  notes: string;
+  examples: CalibrationExample[];
+}
+
+/** What the review learned from the postings starred and removed. */
+export interface CalibrationStatus {
+  settings: { auto: boolean; every: number };
+  current: Calibration | null;
+  /** Stars and removals since the latest calibration. */
+  pending: number;
+  running: boolean;
+  error: string;
+  finished_at: string;
+  /** The text added to the review prompt. */
+  section: string;
 }
 
 export interface Brief {

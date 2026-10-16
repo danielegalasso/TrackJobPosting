@@ -72,6 +72,116 @@ Nice to have
 - Experience with performance testing and network emulation tools
 - Knowledge of CI/CD practices and DevOps workflows
 - Interest in satellite communications and NTN technologies"
+497,Accelerated Computing Engineer,All Offices & Remote,Software,Permanent,2026-10-14,https://www.aerospacelab.com/jobs/detail/accelerated-computing-engineer-497,"About Aerospacelab
+
+Our mission is supported by an ambitious vertically integrated approach: design & manufacture of small satellites combined with development of earth observation services.
+
+Since its creation in 2018, the company has already grown substantially. Our team gathers more than 25 engineering expertise, from hardware design to software development & data science.
+
+In 2026, Aerospacelab counts offices in Louvain-la-Neuve (Belgium), Toulouse (France), Lausanne (Switzerland) and US West Coast with more than 450 full-time employees, with the ambition to position itself as the European leader in small satellites.
+
+Role overview
+
+Aerospacelab designs, builds and operates satellites, and more and more of our
+data processing is moving on board. We are looking for an engineer who can turn
+processing algorithms into efficient code on embedded hardware accelerators.
+
+You will take algorithms from our processing teams, then port, profile and
+optimize them so they run in real time within the power, memory and thermal
+limits of a satellite. You will work closely with algorithm developers, flight
+software engineers and hardware engineers. Your code will run in orbit.
+
+What you will work on
+
+- High-throughput
+signal processing pipelines.
+
+- Image
+processing chains, from raw sensor data to calibrated products.
+
+- Real-time
+processing of high-rate sensor data.
+
+- Reducing
+data volume on board before downlink.
+
+Our tech stack
+
+- Languages:
+C++, CUDA and other accelerator frameworks, Python/NumPy for reference
+models.
+
+- Platform:
+embedded Linux on heterogeneous computing hardware.
+
+- Tooling:
+GitLab CI, Docker, cmake, performance profilers.
+
+Key activities
+
+- Port
+reference algorithms (Python/MATLAB) to optimized C++ implementations on
+hardware accelerators.
+
+- Profile
+and optimize throughput, latency, memory bandwidth and power consumption.
+
+- Work
+with hardware engineers on how processing is split across compute
+resources.
+
+- Build
+validation tests that check optimized code against reference models.
+
+- Integrate
+processing pipelines with the on-board software.
+
+- Write
+technical documentation and take part in code reviews.
+
+Must have
+
+- BSc,
+MSc or PhD in Computer Engineering, Electrical Engineering, Applied
+Physics or a related field.
+
+- Professional
+experience programming hardware accelerators (e.g. CUDA, OpenCL, SYCL or
+HLS).
+
+- Solid
+understanding of parallel architectures: memory hierarchy, data movement,
+pipelining and parallelism.
+
+- Experience
+optimizing numerical code for performance (SIMD, multithreading,
+profiling).
+
+- Background
+in digital signal processing and/or image processing.
+
+- Experience
+developing on Linux.
+
+- Proficient
+in English.
+
+- Eligible
+to work from one of our office locations (Belgium / Switzerland / France).
+
+Nice to have
+
+- Experience
+with embedded accelerator platforms and power-constrained systems.
+
+- Knowledge
+of optimized math libraries (FFT, linear algebra).
+
+- Experience
+with heterogeneous designs combining processors, accelerators and FPGAs.
+
+- Experience
+in the space sector or with radiation-tolerant computing."
 22,AIT Engineer,Belgium,Manufacturing Operations,Permanent,2026-04-27,https://www.aerospacelab.com/jobs/detail/all-manufacturing-ait-ait-engineer-22,"About Aerospacelab
 
 Our mission is supported by an ambitious vertically integrated approach: design & manufacture of small satellites combined with development of earth observation services.
@@ -560,61 +670,6 @@ Nice to have
 
 - Experience contributing to space project milestones and qualification or acceptance campaigns for propulsion hardware.
 - Experience with EP modelling and analysis tools, such as plasma models, plume models, lifetime and erosion analysis."
-446,Electromechanical Engineer (AMOS),AMOS,Electro-Mechanics Engineering,Permanent,2026-07-09,https://www.aerospacelab.com/jobs/detail/electromechanical-engineer-amos-446,"About AMOS
-
-Located in Liège, AMOS (Advanced Mechanical & Optical Systems) is a company specialized in the development of ultra-high opto-mechanical systems, mostly dedicated to space industry and professional astronomy.
-
-Since 1983, AMOS has been a recognized player around the world. AMOS works with prestigious international clients and partners. More than 100 passionate employees put their expertise at the service of the development of innovative solutions, while respecting the values of the company:
-
-- Team spirit, to unite individual strengths and assets to achieve collective success;
-- Excellence, through the commitment and quality of everyone's work;
-- Respect, through recognition by listening, openness and consideration, whether colleague, partner, or client.
-
-Since 2024, the acquisition of AMOS by Aerospacelab—a leader in satellite manufacturing ranging from 50 kg to 1,000 kg—has created strong synergies, particularly in the field of embedded optical payloads at the heart of satellites. AMOS’s historical expertise in highprecision optics and mechanics now combines with Aerospacelab’s industrial capabilities, pace of innovation, and strategic vision. This dynamic strengthens our shared ability to develop advanced space technologies and deliver ambitious projects, from design to implementation.
-
-In order to strenghten its teams, AMOS is looking for an ""Electromechanical Engineer"" (M/F).
-
-Key responsibilities
-
-• Understand and analyze the specificities of the project and ensure that they are respected
-
-• In collaboration with the different teams involved in the project, produce a solution that meets the specifications
-
-• Size and choose various electromechanical components (bearings, choice of materials, etc.).)
-
-• Drafting of specifications and follow-up of subcontractors
-
-• Ensure the manufacturing follow-up of critical mechanical parts and electromechanical components
-
-• Take charge of the integration and validation of the electromechanical part of projects
-
-• Produce the required technical documentation
-
-Role
-
-Initially, you will be mainly involved in space projects (optical payload, VHR imagery, etc.) for which you will be responsible for the design, manufacturing follow-up and AIV of the electromechanical part of the project.
-
-Requirements
-
-- • Master's degree in Electromechanical Engineering or equivalent
-- • Be creative, know how to take initiative
-- • Ability to work in a team, communicate well and defend technological choices
-- • Be pragmatic, concerned about respecting technical and planning commitments
-- • Be flexible and have strong adaptability and learning skills
-- • Knowledge of CAD software, ideally CATIA V5
-- • English proficiency: Minimum B1 level
-- • Experience in space applications is a plus
-- • Experience in complex mechanisms design is a plus
-
-Interpersonal skills : Autonomous / Rigorous / Proactive / Flexible / Result-oriented
-
-Our Offer
-
-- An exciting industry, at the cutting edge of technology
-- Teamwork in a friendly environment
-- Opportunities for learning and development
-- A permanent contract with a full salary package
--"
 32,Electronics Engineer,Belgium,Avionics,Permanent,2025-10-16,https://www.aerospacelab.com/jobs/detail/all-engineer-avionics-ee-electronics-engineer-32,"About Aerospacelab
 
 Our mission is supported by an ambitious vertically integrated approach: design & manufacture of small satellites combined with development of earth observation services.
@@ -2481,6 +2536,67 @@ Must have
 - Curious and open-minded
 - Good at problem solving
 - Autonomous & Solution Oriented"
+498,Office & HR Administrator,Switzerland,Human Resources,Permanent,2026-10-14,https://www.aerospacelab.com/jobs/detail/office-hr-administrator-498,"About Aerospacelab
+
+Our mission is supported by an ambitious vertically integrated approach: design & manufacture of small satellites combined with development of earth observation services.
+
+Since its creation in 2018, the company has already grown substantially. Our team gathers more than 25 engineering expertise, from hardware design to software development & data science.
+
+In 2026, Aerospacelab counts offices in Louvain-la-Neuve (Belgium), Toulouse (France), Lausanne (Switzerland) and US West Coast with more than 500 full-time employees, with the ambition to position itself as the European leader in small satellites.
+
+Role overview
+
+Aerospacelab Switzerland has so far relied on our Belgian headquarters for most of its administrative and support functions. As our Lausanne site grows, we are creating our first on-site Office Manager & Happiness Officer position. You are the local point of reference for day-to-day life at the office and the relay of the Group corporate functions (HR, IT, Finance, Supply Chain & Logistics). This is a hands-on, multi-faceted role, reporting to Swiss site management and working closely with the corporate teams in Belgium.
+
+Duties
+
+HR administration
+
+- Act as the first point of contact for local employees on HR administrative matters
+- Support the employee lifecycle on site: contract paperwork, onboarding and offboarding logistics, permits and local formalities
+- Maintain employee files and local HR documentation, in coordination with Group HR
+- Support absence tracking, social insurance and pension-related administration with the relevant providers
+
+Office management
+
+- Ensure the office runs smoothly: premises, equipment, supplies, meeting rooms, access and security
+- Welcome visitors, customers and partners
+- Be the contact for the landlord and building-related matters
+
+Administration & coordination with corporate functions
+
+- Be the local relay for IT: equipment for new joiners, user support requests, coordination with the IT team
+- Be the local relay for Finance: expense reports, invoice flows, local accounting and fiduciary inputs, month-end and year-end support
+- Be the local relay for Supply Chain Management & Logistics: shipments, customs formalities, deliveries and reception of goods
+- Make sure information flows efficiently between the Swiss office and the Belgian corporate teams
+
+Direct administration
+
+- Organize business travel for the local office: flights, trains, hotels, visas
+- Manage local suppliers and service providers: fiduciary, cleaning company, bank, insurers and others
+
+Happiness & team life
+
+- Foster a positive, welcoming and inclusive atmosphere on site
+- Collect feedback and be the voice of the team towards site management
+- Help build the culture of the Swiss site and connect it to the wider group
+
+Must have
+
+- Minimum 5 years of experience in a similar role (office management, administrative or HR support, ideally in a tech, industrial or international environment)
+- Valid Swiss residence and work permit (B permit minimum)
+- Strong organisational skills, rigour and discretion
+- Proactive, service-oriented and hands-on mindset, with autonomy as the single on-site support person
+- Excellent command of English and French
+
+Nice to have
+
+- Knowledge of German
+- Experience in a fast-growing site or scale-up environment
+- Experience working with corporate functions in a multi-site or international group
+- Familiarity with Odoo
+- Experience in the aerospace industry or another high-tech environment
+- Ability to travel lightly (approximatively 3 days twice a year)"
 444,PCB Supply Chain Manager,Belgium,Sourcing & Supply Chain,Permanent,2026-07-08,https://www.aerospacelab.com/jobs/detail/pcb-supply-chain-manager-444,"About Aerospacelab
 
 Our mission is supported by an ambitious vertically integrated approach: design & manufacture of small satellites combined with development of earth observation services.

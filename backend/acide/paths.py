@@ -21,6 +21,10 @@ RESUME_DIR = DATA_DIR / "resume"
 # The operator's own words on who they are and how to rank postings: what the
 # priority review sends to the model. Personal, so it lives with the data.
 RANKING_BRIEF_PATH = DATA_DIR / "ranking-brief.md"
+# Words a posting must not have (exclusions.py), and what the review learned
+# from the postings the operator starred and removed (calibration.py).
+RANKING_FILTERS_PATH = DATA_DIR / "ranking-filters.json"
+RANKING_CALIBRATION_PATH = DATA_DIR / "ranking-calibration.json"
 
 # Built single-page app, served by the API process when present.
 FRONTEND_DIST = Path(

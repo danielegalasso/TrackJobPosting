@@ -289,7 +289,7 @@ Reports To: VP, Product
 Department: BlueVoyant Government Solutions (202 Group LLC)
 Location: Hybrid, Washington, DC Area (1–2 days per week in office) or Remote, Huntsville, AL (with client visits)
 Work Authorization: US Citizenship Required
-Clearance: Active TS/SCI Required
+Clearance: Active Top Secret Clearance Required
 
 BlueVoyant Government Solutions (202 Group LLC, a wholly owned subsidiary of BlueVoyant, Inc.) is seeking an experienced Federal Client Executive to serve as a regional sales leader and expand our government client base. In this role, you'll engage current and prospective federal customers, assess their mission needs, and position BlueVoyant's cybersecurity and supply chain risk capabilities. Partnering closely with technology and channel partners, you'll drive annual revenue growth and help clients advance their core missions.
 
@@ -591,6 +591,73 @@ Important Information for Applicants: BlueVoyant uses AI-assisted tools within o
 Interview Expectations: As part of our interview process, we assess your experience through real-time discussion, so we expect responses to be your own. While we embrace the use of AI within our business and recruitment process, we do not permit its use during interviews. Any suspected use of AI during an interview will be challenged, and this may include the use of detection tools.
 
 BlueVoyant Candidate Privacy Notice: To understand how we secure and manage your personal data upon submitting a job application, please see our Candidate Privacy Notice, which can be found here - Candidate Privacy Notice"
+uli8XuTh5Q,Security Engineer II,https://bluevoyant.applytojob.com/apply/uli8XuTh5Q/Security-Engineer-II,"Remote, US",,FULL_TIME,2026-10-13,2027-01-11,"Position: Security Engineer II
+Reports To: Senior Manager, Security Engineering
+Department: Deployment Engineering, Microsoft
+Location: Remote, US
+Work Authorization: US Citizenship Required
+
+BlueVoyant is seeking a Security Engineer II to join our Deployment Engineering team, focused on enabling our Managed Detection and Response (MDR) solutions in customer environments. This fully remote role uses your expertise in Microsoft Cloud security technologies and SIEM platforms to lead client-facing SIEM and XDR technical enablement projects, including hands-on deployment of a broad range of Microsoft Security and Azure solutions.
+
+What You'll Do:
+
+- Deliver Microsoft Sentinel and Defender implementations for customers remotely, from design and architecture through deployment and use case tuning.
+- Create and develop new detection, automation, and reporting use cases based on customer requirements.
+- Define and assist in building operational and executive security reports and dashboards.
+- Lead XDR integration activities across the Microsoft and Azure product stacks, applying Microsoft XDR and Zero Trust Architecture principles.
+- Serve as the lead technical delivery resource within a team for small to large client-facing projects.
+- Participate in research and development activities to drive process improvement and new product and feature enhancements.
+- Support client-facing environments on an ongoing basis to help mature and maintain our MDR practices.
+
+What You'll Bring:
+- 5+ years of technical experience with Microsoft Cloud Security technologies or equivalent SIEM and XDR solutions.
+- Hands-on experience deploying and/or managing Microsoft Sentinel.
+- Hands-on experience deploying and/or managing Microsoft Defender security products (e.g., Defender for Endpoint, Identity, Cloud Apps, Office 365, Defender for Cloud).
+- Hands-on engineering experience with SIEM and/or XDR technologies in production environments.
+- Strong experience with Azure Cloud technologies.
+- Experience with query languages and/or script development (KQL, SPL, SQL, PowerShell, or similar).
+- Knowledge of enterprise IT systems as they relate to cybersecurity.
+- Familiarity with Microsoft XDR and Zero Trust Architecture models.
+- Excellent communication skills and the ability to thrive in a dynamic, fast-paced team environment.
+
+Nice to Have:
+- Expertise in Kusto Query Language (KQL), including Sentinel Analytic Rules and Defender Custom Detection Rules.
+- Expertise in Azure Logic Apps, Function Apps, and other Azure technologies.
+- Experience in customer-facing roles.
+- Incident investigation and response skills.
+- Proficiency in Python, PowerShell, or C#/.NET.
+- Proficiency in Linux configuration and common administration tasks.
+- Experience with non-Microsoft SIEM or EDR tools.
+
+Education:
+- Bachelor's degree in a related field or equivalent professional experience and certifications.
+- Relevant Microsoft certifications (e.g., SC-200, AZ-500) are a plus.
+
+Why BlueVoyant?
+- Lead hands-on Microsoft Sentinel, Defender, and Azure deployments that directly shape how customers detect and respond to threats.
+- Work at the intersection of cloud security engineering, detection content, and customer delivery, building scalable solutions across diverse enterprise environments.
+- Join a global, mission-driven cybersecurity company defending organizations worldwide with cutting-edge data, technology, and expertise.
+- Competitive compensation and a comprehensive benefits package, with support for wellbeing, development, and career growth.
+
+About BlueVoyant
+BlueVoyant is an AI-driven cybersecurity company dedicated to standing between our customers and cyber threats. By combining human, artificial, and proprietary intelligence, we deliver a unified solution that protects every organization's network, identities, vendors, and digital footprints as a single attack surface. The company's award-winning Microsoft Security expertise helps organizations maximize their security investments while reducing risk and ensuring compliance.
+
+Led by CEO, John Hernandez, BlueVoyant's highly skilled team includes former government cyber officials with extensive frontline experience in responding to advanced cyber threats on behalf of the National Security Agency, Federal Bureau of Investigation, Unit 8200, and GCHQ, together with private sector experts. BlueVoyant services utilize large real-time datasets with industry leading analytics and technologies.
+
+Founded in 2017 by Fortune 500 executives, including Chairman of the Board, Jim Rosenthal, Vice Chairman, Tom Glocer, and former Government cyber officials, BlueVoyant is headquartered in New York City and has offices in Maryland, Tel Aviv, London, Budapest, and Latin America and is committed to building a workplace where talented people are empowered to do their best work in the fight against global cyber threats.
+
+All employees must be authorized to work in the United States of America. BlueVoyant provides equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, or genetics. In addition to federal law requirements, BlueVoyant complies with applicable state and local laws governing non-discrimination in employment in every location in which the company has facilities.
+
+Disclaimer: Please note that pursuant to contractual requirements and applicable law, for employees to perform work on some of the company's federal contracts, U.S. citizenship is required. Accordingly, an employee's ability to perform work on such contracts is contingent upon the company's verification of the employee's citizenship status.
+
+#LI-AH1
+#LI-Remote
+
+Important Information for Applicants: BlueVoyant uses AI-assisted tools within our applicant tracking system to help identify candidates whose experience and skills best match the requirements of a role. This technology provides hiring teams with added insights to support fair and efficient hiring decisions. All applications are reviewed by a member of our hiring team, and final hiring decisions are made by humans, not AI. By submitting your application, you acknowledge that AI tools may assist in the evaluation of your resume as part of the recruitment process.
+
+Interview Expectations: As part of our interview process, we assess your experience through real-time discussion, so we expect responses to be your own. While we embrace the use of AI within our business and recruitment process, we do not permit its use during interviews. Any suspected use of AI during an interview will be challenged, and this may include the use of detection tools.
+
+BlueVoyant Candidate Privacy Notice: To understand how we secure and manage your personal data upon submitting a job application, please see our Candidate Privacy Notice, which can be found here - Candidate Privacy Notice"
 jflLN1jXrN,"Senior Director, Digital Forensics and Incident Response - BlueVoyant - Career Page",https://bluevoyant.applytojob.com/apply/jflLN1jXrN/Senior-Director-Digital-Forensics-And-Incident-Response,,,,,,"Thanks for visiting our Job Board. Please review our open positions and apply to the positions that match your qualifications.
 Senior Director, Digital Forensics and Incident Response
 Position: Senior Director, Digital Forensics & Incident Response
@@ -803,7 +870,79 @@ Important Information for Applicants: BlueVoyant uses AI-assisted tools within o
 Interview Expectations: As part of our interview process, we assess your experience through real-time discussion, so we expect responses to be your own. While we embrace the use of AI within our business and recruitment process, we do not permit its use during interviews. Any suspected use of AI during an interview will be challenged, and this may include the use of detection tools.
 
 BlueVoyant Candidate Privacy Notice: To understand how we secure and manage your personal data upon submitting a job application, please see our Candidate Privacy Notice, which can be found here - Candidate Privacy Notice"
-SOC-Security-Analyst-L2,SOC Security Analyst L2,https://bluevoyant.applytojob.com/apply/CQjFqDTYse/SOC-Security-Analyst-L2,,,FULL_TIME,2026-10-08,2027-01-06,"Position: SOC Security Analyst L2
+CyYbkKtv8k,Senior Security Engineer,https://bluevoyant.applytojob.com/apply/CyYbkKtv8k/Senior-Security-Engineer,"Remote, US",,FULL_TIME,2026-10-13,2027-01-11,"Position: Senior Security Engineer
+Reports To: Senior Manager, Security Engineering
+Department: Deployment Engineering, Microsoft
+Location: Remote, US
+Work Authorization: US Citizenship Required
+
+BlueVoyant is seeking an experienced Senior Security Engineer to join our Deployment Engineering team, focused on enabling our Managed Detection and Response (MDR) solutions in customer environments. This fully remote role uses your advanced knowledge of Microsoft Cloud security technologies and SIEM platforms to lead large and enterprise-sized SIEM and XDR technical enablement projects, including hands-on deployment of a comprehensive range of Microsoft Security and Azure solutions.
+
+What You'll Do:
+
+- Lead complex Microsoft Sentinel and Defender XDR implementations for customers remotely, from design and architecture through deployment and use case tuning.
+- Create and develop new detection, automation, and reporting use cases based on customer requirements.
+- Assess and report on the maturity of client SIEM and XDR deployments, recommending improvements.
+- Define and assist in building operational and executive security reports and dashboards.
+- Lead XDR integration activities across the Microsoft and Azure product stacks, applying Microsoft XDR and Zero Trust Architecture principles.
+- Serve as a strategic and lead technical delivery resource for large and enterprise client-facing projects.
+- Act as a lead on the Deployment Engineering team, mentoring mid-level and junior engineers.
+- Participate in research and development activities to drive process improvement and new product and feature enhancements.
+- Identify and implement improvements to processes and technical enablement.
+- Support client-facing environments on an ongoing basis to help mature and maintain our MDR practices.
+- Contribute to knowledge sharing through internal documentation, lunch and learns, and public-facing blogs.
+
+What You'll Bring:
+- 8+ years of technical experience enabling security technologies, with a focus on Microsoft Cloud Security or equivalent SIEM and XDR solutions.
+- Strong hands-on experience deploying and/or managing Microsoft Sentinel.
+- Strong hands-on experience deploying and/or managing Microsoft Defender security products (e.g., Defender for Endpoint, Identity, Cloud Apps, Office 365, Defender for Cloud).
+- Hands-on engineering experience with SIEM and/or XDR technologies in enterprise production environments.
+- Strong experience with Azure Cloud technologies.
+- Experience with query languages and/or script development (KQL, SPL, SQL, PowerShell, or similar).
+- Knowledge of enterprise IT systems as they relate to cybersecurity.
+- Familiarity with Microsoft XDR and Zero Trust Architecture models.
+- Excellent communication skills and the ability to thrive in a dynamic, fast-paced team environment.
+
+Nice to Have:
+- Expertise in Kusto Query Language (KQL), including Sentinel Analytic Rules and Defender Custom Detection Rules.
+- Expertise in Azure Logic Apps, Function Apps, and other Azure technologies.
+- Expertise with Microsoft 365 productivity solutions (Exchange Online, Teams, SharePoint).
+- Expertise with Microsoft Intune.
+- Experience in customer-facing roles.
+- Incident investigation and response skills.
+- Proficiency in Python, PowerShell, or C#/.NET.
+- Proficiency in Linux configuration and common administration tasks.
+
+Education:
+- Bachelor's degree in a related field or equivalent professional experience and certifications.
+- Relevant Microsoft certifications (e.g., SC-200, AZ-500) are a plus.
+
+Why BlueVoyant?
+- Lead enterprise-scale Microsoft Sentinel, Defender XDR, and Azure deployments that directly shape how large organizations detect and respond to threats.
+- Grow as a technical leader, mentoring engineers and shaping how our Deployment Engineering team delivers across diverse enterprise environments.
+- Join a global, mission-driven cybersecurity company defending organizations worldwide with cutting-edge data, technology, and expertise.
+- Competitive compensation and a comprehensive benefits package, with support for wellbeing, development, and career growth.
+
+About BlueVoyant
+BlueVoyant is an AI-driven cybersecurity company dedicated to standing between our customers and cyber threats. By combining human, artificial, and proprietary intelligence, we deliver a unified solution that protects every organization's network, identities, vendors, and digital footprints as a single attack surface. The company's award-winning Microsoft Security expertise helps organizations maximize their security investments while reducing risk and ensuring compliance.
+
+Led by CEO, John Hernandez, BlueVoyant's highly skilled team includes former government cyber officials with extensive frontline experience in responding to advanced cyber threats on behalf of the National Security Agency, Federal Bureau of Investigation, Unit 8200, and GCHQ, together with private sector experts. BlueVoyant services utilize large real-time datasets with industry leading analytics and technologies.
+
+Founded in 2017 by Fortune 500 executives, including Chairman of the Board, Jim Rosenthal, Vice Chairman, Tom Glocer, and former Government cyber officials, BlueVoyant is headquartered in New York City and has offices in Maryland, Tel Aviv, London, Budapest, and Latin America and is committed to building a workplace where talented people are empowered to do their best work in the fight against global cyber threats.
+
+All employees must be authorized to work in the United States of America. BlueVoyant provides equal employment opportunities to all employees and applicants for employment without regard to race, color, religion, sex, national origin, age, disability, or genetics. In addition to federal law requirements, BlueVoyant complies with applicable state and local laws governing non-discrimination in employment in every location in which the company has facilities.
+
+Disclaimer: Please note that pursuant to contractual requirements and applicable law, for employees to perform work on some of the company's federal contracts, U.S. citizenship is required. Accordingly, an employee's ability to perform work on such contracts is contingent upon the company's verification of the employee's citizenship status.
+
+#LI-AH1
+#LI-Remote
+
+Important Information for Applicants: BlueVoyant uses AI-assisted tools within our applicant tracking system to help identify candidates whose experience and skills best match the requirements of a role. This technology provides hiring teams with added insights to support fair and efficient hiring decisions. All applications are reviewed by a member of our hiring team, and final hiring decisions are made by humans, not AI. By submitting your application, you acknowledge that AI tools may assist in the evaluation of your resume as part of the recruitment process.
+
+Interview Expectations: As part of our interview process, we assess your experience through real-time discussion, so we expect responses to be your own. While we embrace the use of AI within our business and recruitment process, we do not permit its use during interviews. Any suspected use of AI during an interview will be challenged, and this may include the use of detection tools.
+
+BlueVoyant Candidate Privacy Notice: To understand how we secure and manage your personal data upon submitting a job application, please see our Candidate Privacy Notice, which can be found here - Candidate Privacy Notice"
+SOC-Security-Analyst-L2,SOC Security Analyst L2,https://bluevoyant.applytojob.com/apply/CQjFqDTYse/SOC-Security-Analyst-L2,"Hybrid, Manilla",,FULL_TIME,2026-10-08,2027-01-06,"Position: SOC Security Analyst L2
 Reports To: SOC Team Lead / SOC Manager
 Department: Security Operations Center (SOC)
 Location: Hybrid, Manilla (Philippines)
@@ -883,7 +1022,85 @@ Important Information for Applicants: BlueVoyant uses AI-assisted tools within o
 Interview Expectations: As part of our interview process, we assess your experience through real-time discussion, so we expect responses to be your own. While we embrace the use of AI within our business and recruitment process, we do not permit its use during interviews. Any suspected use of AI during an interview will be challenged, and this may include the use of detection tools.
 
 BlueVoyant Candidate Privacy Notice: To understand how we secure and manage your personal data upon submitting a job application, please see our Candidate Privacy Notice, which can be found here - Candidate Privacy Notice"
-SOC-Security-Analyst-L3,SOC Security Analyst L3,https://bluevoyant.applytojob.com/apply/CoDa0z75sJ/SOC-Security-Analyst-L3,(Multiple States),,FULL_TIME,2026-10-08,2027-01-06,"Position: SOC Security Analyst L3
+SOC-Security-Analyst-L2,SOC Security Analyst L2,https://bluevoyant.applytojob.com/apply/nYJSavRvFV/SOC-Security-Analyst-L2,"Remote, Romania",,FULL_TIME,2026-10-13,2027-01-11,"Position: SOC Security Analyst L2
+Reports To: SOC Team Lead / SOC Manager
+Department: Security Operations Center (SOC)
+Location: Remote, Romania
+Shift Schedule: 4-on / 4-off, rotating every 28 days between Early (9:00 AM–7:00 PM), Middle (2:00 PM–12:00 AM) and Night (11:00 PM–9:00 AM), Romania time
+Work Authorization: Must be resident in, and legally authorized to work in, Romania
+
+BlueVoyant is seeking a SOC Security Analyst L2 to join our Security Operations Center, defending our global customers against constant and evolving adversary activity. In this role you will own and work through a queue of security alerts and tickets, carrying out thorough investigations, resolving cases accurately and efficiently, and escalating confirmed or complex incidents to L3 analysts with clear, well-documented findings. You will work closely with senior analysts and clients to reduce the impact and dwell time of security incidents. This role reports into BlueVoyant SOC leadership and operates under BlueVoyant processes, tooling, and supervision at all times, including when working within client environments.
+
+What You'll Do:
+
+- Monitor, triage, and investigate security alerts and tickets from multiple sources, including SIEM logs, endpoint logs, and EDR telemetry.
+- Own assigned tickets through to resolution, working within defined SLAs and prioritizing by severity and client impact.
+- Research indicators and activities to determine reputation and suspicious attributes.
+- Perform analysis of suspicious files, emails, URLs, and attacker infrastructure to support investigations.
+- Determine whether activity is malicious, benign, or a false positive, and escalate confirmed or complex incidents to L3 analysts with clear supporting evidence.
+- Document investigation steps, findings, and recommended actions accurately within the ticketing and case management system.
+- Take initial response actions in line with runbooks and client-approved procedures, such as isolating endpoints or disabling compromised accounts.
+- Communicate with clients to provide ticket updates, request information, and share remediation guidance.
+- Identify false-positive or benign detections and recommend tuning improvements.
+- Contribute to the improvement of runbooks, procedures, and automation.
+- Support and share knowledge with L1 analysts and incorporate feedback from L3 peer review and QA.
+- Operate across BlueVoyant-managed systems and client-provided environments in accordance with client-approved access controls, logging, and BlueVoyant operating procedures, maintaining strict separation and adherence to security policies.
+
+What You'll Bring
+- Ability to manage a high-volume ticket queue in a fast-paced environment while maintaining accuracy and attention to detail.
+- Strong written and verbal communication skills, with the ability to document findings clearly and explain technical issues in easy-to-understand language.
+- Strong teamwork and interpersonal skills, including working effectively within a globally distributed team.
+- Ability to work directly with clients to provide updates and gather information.
+- Knowledge and experience with SIEM solutions, Cloud App Security tools, and EDR.
+- Experience in endpoint, web, email, and authentication log analysis.
+- Solid understanding of network protocols and network telemetry.
+- Knowledge of common attack techniques, including phishing, business email compromise (BEC), credential harvesting, LOLBin use, and lateral movement.
+- Working knowledge of:
+- SIEM workflows (preferably Microsoft Sentinel and Splunk)
+- Microsoft 365 and Entra ID security alerts and sign-in logs
+- Email security and phishing analysis
+- Network monitoring metadata (web logs, firewall logs, WAF/IDS)
+- Windows and Unix operating system fundamentals and common forensic artifacts
+- Ticketing and case management systems
+
+- Ability to successfully complete a background check and any client-required security vetting.
+
+Nice to Have:
+- 3+ years of hands-on SOC/TOC/NOC experience.
+- Experience in an MSSP/MSP environment supporting multiple clients.
+- Basic malware analysis or sandboxing experience.
+- Experience writing SIEM queries (KQL or SPL).
+- Familiarity with Microsoft Sentinel, Splunk, Microsoft Defender suite, CrowdStrike Falcon, and SentinelOne.
+- Understanding of a scripting language such as Python or PowerShell.
+- Relevant certifications such as: Security+, CySA+, Network+, GIAC (e.g. GSEC, GCIH), Microsoft SC-200, CEH
+
+Education:
+- Bachelor's degree in Information Security, Computer Science, or another IT-related field, or equivalent professional experience.
+
+Why BlueVoyant?
+- Investigate real-world threats across a diverse global client base, building hands-on experience with leading Microsoft Security, SIEM, and EDR technologies.
+- Develop your skills alongside senior L3 analysts and incident responders, with clear opportunities to grow toward advanced investigation and response.
+- Join a global, mission-driven cybersecurity company defending organizations worldwide with cutting-edge data, technology, and expertise.
+- Competitive compensation and a comprehensive benefits package, with support for wellbeing, development, and career growth.
+
+About BlueVoyant
+BlueVoyant is an AI-driven cybersecurity company dedicated to standing between our customers and cyber threats. By combining human, artificial, and proprietary intelligence, we deliver a unified solution that protects every organization’s network, identities, vendors, and digital footprints as a single attack surface. The company’s award-winning Microsoft Security expertise helps organizations maximize their security investments while reducing risk and ensuring compliance.
+
+Led by CEO, John Hernandez, BlueVoyant’s highly skilled team includes former government cyber officials with extensive frontline experience in responding to advanced cyber threats on behalf of the National Security Agency, Federal Bureau of Investigation, Unit 8200, and GCHQ, together with private sector experts. BlueVoyant services utilize large real-time datasets with industry leading analytics and technologies.
+
+Founded in 2017 by Fortune 500 executives, including Chairman of the Board, Jim Rosenthal, Vice Chairman, Tom Glocer, and former Government cyber officials, BlueVoyant is headquartered in New York City and has offices in Maryland, Tel Aviv, London, Budapest, and Latin America and is committed to building a workplace where talented people are empowered to do their best work in the fight against global cyber threats.
+
+All employees must be legally authorized to work in Romania. BlueVoyant provides equal employment opportunities to all employees and applicants for employment without regard to sex, race, nationality, ethnicity, language, religion, social status, beliefs, sexual orientation, age, disability, chronic illness, family situation, or any other characteristic protected under Romanian law. BlueVoyant complies with all applicable laws governing non-discrimination in employment, including the Romanian Labour Code (Law No. 53/2003), Government Ordinance No. 137/2000, and Law No. 202/2002 on equal opportunities between women and men. Personal data submitted as part of your application will be processed in accordance with the EU General Data Protection Regulation (GDPR), Law No. 190/2018, and our Candidate Privacy Notice.
+
+#LI-AH1
+#LI-Remote
+
+Important Information for Applicants: BlueVoyant uses AI-assisted tools within our applicant tracking system to help identify candidates whose experience and skills best match the requirements of a role. This technology provides hiring teams with added insights to support fair and efficient hiring decisions. All applications are reviewed by a member of our hiring team, and final hiring decisions are made by humans, not AI. By submitting your application, you acknowledge that AI tools may assist in the evaluation of your resume as part of the recruitment process.
+
+Interview Expectations: As part of our interview process, we assess your experience through real-time discussion, so we expect responses to be your own. While we embrace the use of AI within our business and recruitment process, we do not permit its use during interviews. Any suspected use of AI during an interview will be challenged, and this may include the use of detection tools.
+
+BlueVoyant Candidate Privacy Notice: To understand how we secure and manage your personal data upon submitting a job application, please see our Candidate Privacy Notice, which can be found here - Candidate Privacy Notice"
+SOC-Security-Analyst-L3,SOC Security Analyst L3,https://bluevoyant.applytojob.com/apply/CoDa0z75sJ/SOC-Security-Analyst-L3,"Hybrid, Manilla",,FULL_TIME,2026-10-08,2027-01-06,"Position: SOC Security Analyst L3
 Reports To: SOC Team Lead / SOC Manager
 Department: Security Operations Center (SOC)
 Location: Hybrid, Manilla (Philippines)

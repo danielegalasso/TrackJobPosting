@@ -137,6 +137,15 @@ def test_saved_only_returns_bookmarks():
     assert titles(saved_only=True) == {"Saved"}
 
 
+def test_a_removed_starred_posting_stays_in_starred_and_removed():
+    job_id = seed(external_id="1", title="Both")
+    db.set_job_flag(job_id, "saved", True)
+    db.set_job_flag(job_id, "dismissed", True)
+    assert titles() == set()
+    assert titles(saved_only=True) == {"Both"}
+    assert titles(dismissed_only=True) == {"Both"}
+
+
 def test_sorting_options():
     seed(external_id="1", title="HighExp", experience_fit_score=95, interest_fit_score=10)
     seed(external_id="2", title="HighInterest", experience_fit_score=20, interest_fit_score=99)

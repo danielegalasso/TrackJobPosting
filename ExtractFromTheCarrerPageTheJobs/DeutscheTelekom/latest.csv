@@ -46,125 +46,6 @@ Attractive performance-related compensation with extensive benefits, e.g. in the
 None
 
 None"
-3548241,Business ICT Solutions Architect (m/f/d) Cybersecurity,"Warsaw, Gdańsk, Poland, Kraków, Poznań, Wrocław",Poland,Product Development,Professional,Other Employment Type,T-Mobile Business Solutions,2026-09-11,2026-10-11,https://system.erecruiter.pl/FormTemplates/RecruitmentForm.aspx?webid=2A3EB7BD-D56F-43DB-AD03-4AD1AB3EF7FB,"Your Task
-
-- Architectural design of cybersecurity solutions for corporate and institutional clients.
-
-- Development of technical concepts, logical architecture and design documentation.
-
-- Preparing and running Proof of Concept (PoC) environments.
-
-- Support of Presales teams during the preparation of offers and meetings with clients.
-
-- Technology consulting in the field of IT security solutions.
-
-- Support of product teams in the development of new cybersecurity services and solutions.
-
-- Analysis of business, technical and regulatory requirements of customers.
-
-- Cooperation with technology manufacturers and business partners.
-
-- Monitoring market trends and recommending new solutions to the company's portfolio
-
-Our technological environment
-
-We work with solutions from the world leaders in the cybersecurity market, including:
-
-- Splunk
-
-- Palo Alto Networks
-
-- Fortinet
-
-- CrowdStrike
-
-- Microsoft Seguridad
-
-- Sicurezza Cisco
-
-Your Profile
-
-Technical knowledge
-
-Knowledge of modern technologies and cybersecurity services, in particular:
-
-- XDR (Extended Detection and Response)
-
-- MDR (Managed Detection and Response)
-
-- SIEME
-
-- SOAR
-
-- SOCK
-
-- CTI (Cyber Threat Intelligence)
-
-- Cloud Security
-
-- Identity & Access Management (IAM)
-
-Regulatory knowledge and compliance
-
-Good knowledge of cybersecurity standards, norms and regulations:
-
-- ISO/IEC 27001
-
-- ISO 22301
-
-- DORA
-
-- National Cybersecurity System Act (UKSC)
-
-Competences and experience
-
-- Minimum of several years of experience in designing and implementing cybersecurity solutions.
-
-- Ability to conduct technical workshops and consult with customers.
-
-- Experience in preparing architectures for large and complex IT environments.
-
-- Ability to analyze risks and translate business requirements into technological solutions.
-
-- Communicative ability and ability to build relationships with customers and technology partners.
-
-- Knowledge of English allowing you to work freely with technical documentation.
-
-Certificates welcome
-
-We are looking for candidates with manufacturer certifications and industry certifications at Professional level or higher, such as:
-
-Technological Certifications
-
-- Palo Alto PCNSE
-
-- Fortinet FCSS/FCX
-
-- CrowdStrike Certified Falcon Administrator
-
-- Splunk Enterprise Security Certified Admin
-
-- Microsoft Cybersecurity Architect Expert
-
-- Cisco CyberOps Professional
-
-Industry Certifications
-
-- CompTIA Security+
-
-- CISP
-
-- BODY
-
-- TASSEL
-
-- ISO 27001 Lead Auditor
-
-About Us
-
-We are a leader in the ICT and cybersecurity market, implementing strategic projects for the largest companies and public institutions. We are looking for an ICT Solutions Architect for Cybersecurity who will be responsible for designing modern security architectures, developing a portfolio of services and supporting key projects for our clients.
-
-If you want to work with the best technologies, have a real impact on the direction of product development and participate in the largest cybersecurity transformation projects, you are welcome to join our team."
 563465374742512,Consultant Cyber/IT Security (all genders),Germany,Germany,Network/Infrastructure,Junior entry,Regular,Detecon International GmbH,2026-10-01,,https://growthhub.telekom.com/careers/apply?domain=telekom-growthhub.com&pid=563465374742512,"At Detecon, we combine strategic insights from management consulting with in-depth technological expertise. As a trusted partner, we guide organizations through every phase of digital transformation – from vision to implementation. By combining industry knowledge with technological innovation, we empower our clients to navigate complex changes, unlock new value, and build future-ready businesses.
 
 Location: Berlin, Dresden, Frankfurt a.M., Cologne, Munich, or remote
@@ -203,103 +84,117 @@ Do you have any questions? Please feel free to contact Maja directly at Recruiti
 None
 
 None"
-744000003530783,Cybersecurity Automation Engineer SOC SIEM/SOAR (m/f/d),"Madrid, Granada, Barcelona, Spain",Spain,Network/Infrastructure,Professional,Regular,T-Systems Iberia,2024-07-30,,https://jobs.smartrecruiters.com/T-SystemsIberia/744000003530783-cibersecurity-automation-engineer-soc-siem-soar-f-m-?oga=true,"Your Task
+744000003530783,Cybersecurity Automation Engineer (m/f/d) SOC SIEM/SOAR,"Granada, Spain, Madrid, Barcelona",Spain,Network/Infrastructure,Professional,Regular,T-Systems Iberia,2024-07-30,,https://jobs.smartrecruiters.com/T-SystemsIberia/744000003530783-cibersecurity-automation-engineer-soc-siem-soar-f-m-?oga=true,"Your Task
 
-T-Systems, a leading multinational in Information and Communication Technologies, is hiring a Cybersecurity Automation Engineer for their Madrid, Barcelona or Granada locations. This position is part of the T-Systems Cybersecurity area, specifically within the T-Systems SOC (Security Operations Center). The role focuses on supporting the automation of SOC operations through the use and integration of multiple tools that support SOC processes.
-
-As a cybersecurity engineer at the SOC, you will implement and maintain SIEM/SOAR platforms to analyze security events, configure alerts for proactive threat detection, and collaborate in adapting configurations. You'll utilize SOAR tools to automate incident responses, improving efficiency and effectiveness in cybersecurity operations. A deep understanding of cybersecurity principles and SIEM/SOAR systems is essential for implementing effective automated solutions and improving defense against cyber threats.
+T-Systems, a leading multinational in Information and Communication Technologies, is seeking a Cybersecurity Automation Engineer to join their team. This position is available in Madrid, Barcelona, or Granada. You will belong to the T-Systems Cybersecurity area, which brings together IT Security, Network Security, and Cybersecurity SOC services. Specifically, you will be part of the T-Systems SOC. Your main function will be to support the automation of SOC operations that are being carried out in the area through the use and integration of multiple tools that support the SOC processes. As a cybersecurity engineer at the SOC, you will carry out tasks related to the implementation and maintenance of SIEM/SOAR platforms to analyze security events, configure alerts for proactive threat detection, and collaborate in the adaptation of configurations. You will use SOAR tools to automate incident responses, improving efficiency and effectiveness in cybersecurity operations.
 
 Responsibilities
 
-- Perform SIEM configurations and use cases: Develop and implement complex configurations within the SIEM system to ensure optimal detection and response capabilities, including correlation rules, filters, and data source integrations.
+- Perform SIEM configurations and use cases: Develop and implement complex configurations within the SIEM system to ensure optimal detection and response capabilities, including correlation rules, filters, and data source integrations
 
-- Develop automations and playbooks in SOAR: Create custom scripts or automation workflows to improve the automation capabilities of the SOAR platform, allowing for more efficient incident response and mitigation.
+- Development of automations and playbooks in the SOAR: Develop custom scripts or automation workflows to improve the automation capabilities of the SOAR platform, allowing for more efficient incident response and mitigation
 
-- Integrate SOC tools through APIs to automate and improve the efficiency and effectiveness of SOC processes.
+- Integration of SOC tools through APIs to automate and improve the efficiency and effectiveness of SOC processes
 
-- Develop scripts and programs: Write code in languages such as Python, PowerShell or Bash to develop custom scripts for automation, integration and data manipulation.
+- Scripting and programming development: scripting in languages such as Python, PowerShell or Bash to develop custom scripts for automation, integration and data manipulation
 
-- Optimize systems: Continuously adjust and optimize the SIEM/SOAR modules to improve their effectiveness over time, adapting to changes in the threat landscape and organizational needs.
+- Optimization: Continuously adjusting and optimizing the SIEM/SOAR modules to improve their effectiveness over time, adapting to changes in the threat landscape and organizational needs
 
-- Collaborate across teams: Work closely with SOC teams, Cybersecurity Architecture, CuSM, and other IT teams to understand the organization's infrastructure, applications, and network architecture, ensuring effective SIEM/SOAR integration.
+- Collaboration with SOC teams, Cybersecurity Architecture, CuSM, and other IT teams: Work closely with IT and other security teams to understand the organization's infrastructure, applications, and network architecture, ensuring effective SIEM/SOAR integration
 
 Your Profile
 
-We are looking for a Cybersecurity Automation Engineer with experience in SOC operations, SIEM/SOAR platforms, and automation scripting to support and enhance cybersecurity operations.
+We are seeking a Cybersecurity Automation Engineer with extensive experience in SOC operations, SIEM/SOAR platforms, and automation development. The ideal candidate will have strong technical knowledge in cybersecurity fundamentals, scripting languages, and cloud security, combined with excellent problem-solving and communication skills.
 
 Must Have Skills
 
-- Spanish language proficiency (middle level)
+- Spanish language proficiency
 
-- University education in IT, telecommunications engineering, or similar technical qualification
+- Middle English language proficiency
 
-- At least 3 years of experience in cybersecurity
+- University education in technical or higher IT or telecommunications engineering or other similar technical qualification
 
-- At least 2 years of experience in a SOC or similar environment
+- Demonstrable experience of at least 3 years in the field of cybersecurity
 
-- Knowledge of cybersecurity fundamentals (CIA principles)
+- At least 2 years of experience in a SOC or similar in functions similar to those of the position
 
-- Understanding of threat types (malware, phishing, DoS attacks, APTs, TTPs)
+- Understanding of Security Principles: Confidentiality, Integrity, and Availability (CIA)
 
-- Experience with incident analysis, identification, containment, and investigation
+- Knowledge about malware, phishing, denial of service (DoS) attacks, APTs (Advanced Persistent Threats), and TTPS (attack techniques and tactics)
 
-- Knowledge of network architecture, topologies, and common protocols (TCP/IP, HTTP, HTTPS, DNS)
+- Understanding the full lifecycle of incident management, from detection to remediation and post-incident reporting
 
-- Familiarity with Windows, Linux, and Unix operating systems
+- Ability to quickly identify the nature of a security incident and take initial containment measures
 
-- Knowledge of event logging systems
+- Ability to delve into the technical details of an incident, using logs, network traffic analysis, and forensic analysis tools
 
-- Experience with SIEM tools
+- Familiarity with cloud computing environments (AWS, Azure, GCP)
 
-- Understanding of data intake, normalization, rules, and event correlation
+- Experience in protecting cloud-based infrastructures and services
 
-- Ability to analyze alerts and identify false positives
+- Understanding network architecture and topologies
 
-- Experience with SOAR platforms
+- Knowledge of common protocols such as TCP/IP, HTTP, HTTPS, DNS
 
-- Knowledge of workflow automation and orchestration
+- Familiarity with Windows, Linux and Unix operating systems
 
-- Scripting skills in Python
+- Knowledge about event logging systems in different operating systems (Event Viewer on Windows, syslog on Linux)
 
-- Experience with Bash/PowerShell scripting
+- Familiarity with SIEM tools
 
-- Ability to interact with security tool APIs
+- Understanding how record data is collected, normalized and stored
 
-- Effective communication skills with technical teams
+- Ability to create and adjust correlation rules to detect attack patterns and suspicious activities
 
-- Report writing and documentation abilities
+- Ability to analyze alerts and events generated by SIEM, identify false positives and prioritize incidents
 
-- Critical thinking and problem-solving skills
+- Experience with SOAR tools
 
-- Adaptability to new threats and emerging security technologies
+- Knowledge in creating and managing automatic playbooks and workflows to respond to security incidents
+
+- Ability to integrate multiple security tools and systems using SOAR to improve incident response
+
+- Ability to write scripts in Python to automate security tasks
+
+- Experience with scripting in Bash (for Linux systems)
+
+- Experience with scripting in PowerShell (for Windows systems)
+
+- Ability to interact with security tool APIs to integrate and automate workflows
+
+- Knowledge of how to automate repetitive tasks and workflows using scripting and automation tools
+
+- Ability to communicate effectively with other technical teams
+
+- Ability to write reports and documentation within the scope of their functions and tasks
+
+- Critical thinking ability to address and solve complex security problems
+
+- Ability to adapt to new threats and emerging security technologies
 
 Nice to Have Skills
 
-- High level English language proficiency
+- High English language proficiency
 
-- Master's degree or specialization in cybersecurity
+- Master's degree or specialization in cybersecurity or similar
 
-- Knowledge and experience with SPLUNK SIEM and/or Azure Sentinel
+- Knowledge and experience in SPLUNK SIEM
 
-- Experience with cloud security (AWS, Azure, GCP)
+- Knowledge and experience in Azure Sentinel
 
-- Experience with specific SOAR tools (SPLUNK SOAR, Palo Alto Cortex XSOAR/XSIAM, Azure Sentinel automation)
+- Experience with SPLUNK SOAR
+
+- Experience with Palo Alto Cortex XSOAR
+
+- Experience with Palo Alto XSIAM
+
+- Experience with automation in Azure Sentinel
 
 About Us
 
-T-Systems is where you'll find groundbreaking projects that add to social and ecological well-being. We want to welcome new talents like you, who bring fresh ideas, different points of view, who accept challenges and continuous learning, to grow and impact society... All of this, in a fun way!
+At T-Systems, you'll find groundbreaking projects that add to social and ecological well-being. We want to welcome new talents like you, who bring fresh ideas, different points of view, who accept challenges and continuous learning, to grow and impact society... All of this, in a fun way!
 
-It doesn't matter when or where you work. It's about doing work that matters to move society forward. For this reason, we will do our best to ensure that you have every possibility of development by offering you:
-
-- A support network
-
-- Excellent technology
-
-- A new work environment
-
-- The freedom to work autonomously
-
-We support you to constantly grow both personally and professionally, so that you can leave a notable mark on society.
+It doesn't matter when or where you work. It's about doing work that matters to move society forward. For this reason, we will do our best to ensure that you have every possibility of development by offering you a support network, excellent technology, a new work environment and the freedom to work autonomously. We support you to constantly grow both personally and professionally, so that you can leave a notable mark on society.
 
 T-Systems is a team of around 28,000 employees worldwide, making us one of the world's leading providers of end-to-end integrated solutions. We develop hybrid cloud and artificial intelligence solutions and promote the digital transformation of companies, industry, the public sector and, ultimately, of society as a whole.
 
@@ -523,7 +418,7 @@ Discover more solutions on T-Mobile Biznes Polska
 T Business is a place for people who want to combine technology with the development of clients' business. If you like to open up new collaboration opportunities on your own and work with a team of experts on business solutions, take a closer look at this role."
 744000130210483,Deal Support Specialist (m/f/d) Cyber Security - German speaking,"Budapest, Debrecen, Hungary",Hungary,Sales,Junior entry,Regular,Deutsche Telekom ITTC Hungary Kft.,2026-06-04,,https://jobs.smartrecruiters.com/DeutscheTelekomITSolutions/744000130210483-deal-support-specialist-cyber-security-german-speaking?oga=true,"Your Task
 
-This role focuses on sales support and opportunity management within the sales organization. The position involves administration and maintenance of opportunities and leads, supporting the sales team throughout the opportunity lifecycle, and ensuring accuracy and completeness of commercial data and deal-related documentation.
+This role focuses on sales support and administration, involving the management of opportunities and leads in Magenta-Force (Salesforce), supporting the sales organization throughout the opportunity lifecycle, and coordinating various sales-related activities and documentation.
 
 Responsibilities
 
@@ -557,7 +452,7 @@ Responsibilities
 
 Your Profile
 
-We are looking for a Sales Support Specialist with strong organizational and coordination skills, proficiency in CRM systems and MS Office applications, and the ability to support sales processes in an international environment.
+We are looking for a Sales Support Specialist with strong organizational and coordination skills, proficiency in German and English, and experience with MS Office applications to support sales operations and opportunity management.
 
 Must Have Skills
 
@@ -630,6 +525,57 @@ Benefits
 Company Policies
 
 - Remote working possibility is only available within Hungary due to European taxation regulation"
+320302,Dual Study Program Computer Science - Field of study Information Security (m/f/d),"Germany, Bonn",Germany,Product Development,Dual study program,Dual Study Programme,"Deutsche Telekom AG, Telekom Ausbildung",2026-09-30,2027-10-01,https://schueler.telekom.de/bewerberbogen/bb/angebote/registrierung.seam?angebot=320302,"Your Task
+
+In our dual Bachelor of Science degree program in Computer Science with a focus on Cyber Security, you will learn how to develop, implement and protect modern software solutions with high security standards. In addition to a full-fledged degree in computer science, you will receive in-depth knowledge in the area of IT security.
+During your 3.5 years of study, you will spend 3 or 2 days a week at the Bonn Rhein Sieg University of Applied Sciences and the remaining days in your telecommunications department.
+
+During your study and practice phases, you can expect:
+- information security, IT security
+- Mathematics and statistics
+- Programming, informatics, operating systems and software engineering
+- Databases and networks
+
+You can find more details about the course content here.
+
+Possible fields of application
+During your studies, you can be employed in various areas, such as:
+- Safety analyses
+- Implementation of protection mechanisms against cyber attacks
+- Development of secure web and application systems
+
+You can find out more about our business areas at Deutsche Telekom here.
+
+Your prospects
+With our wide range of continuing education opportunities, you will continue to grow. With our Bologna @Telekom program, you also have the opportunity to develop yourself even after your studies and study while working — in cooperation with selected universities.
+#IRE #
+
+Your Profile
+
+- Admission requirement for Bonn-Rhein-Sieg University
+- Enthusiasm for mathematics, computer science and safety
+- Interest in innovative technologies and digital media
+- English language skills
+
+Applying has never been easier!
+We welcome all people equally!
+No application deadline: As long as the position is online, there are still places available.
+Are you still unsure which dual study program is right for you? With Best Fit, we are happy to support you with individual career orientation and find your ideal career start together.
+
+Benefits
+
+- Attractive compensation: 1st year 1,573.04€, 2nd year 1,630.03€, 3rd year 1,698.42€, 4th year 1,752.83€
+- Tuition fees: We pay all tuition fees for you.
+- Work-life balance: 38 h/week, the option to work remotely and 30 days of vacation per year.
+- Financial provision: With us, you are already prepared for later thanks to a company pension plan and capital benefits.
+- Travel allowance: To make your journey to work easier, you get €20 extra for your mobility every month.
+- Future opportunities: After successful completion, you have chances of being taken over. It may also be possible to spend time abroad during your dual studies program!
+- Personal support: We will guide you individually through your studies and offer tailor-made learning opportunities as well as modern learning platforms.
+- Respectful cooperation: You can expect respectful interaction, an open working environment and a corporate culture in which diversity, solidarity and mutual support are very important.
+- Helping to shape innovative future topics: You contribute your ideas and work on solutions that help shape the digital future in a sustainable and socially positive way.
+- Modern equipment: Laptops and smartphones are a matter of course for us.
+- Exclusive benefits: Access to telecommunications contracts for employees and offers from many partners as well as cooperation with fitness studios.
+- Varied introductory phase: In your first few days, exciting topics await you, you will get your first insights into the world of telecommunications and get to know your fellow student."
 744000128228842,Expert Sales T Security (m/f/d),"Madrid, Spain",Spain,Sales,Professional,Regular,T-Systems Iberia,2026-05-25,,https://jobs.smartrecruiters.com/T-SystemsIberia/744000128228842-expert-sales-t-security-m-f-d-?oga=true,"Your Task
 
 We are seeking an experienced Cybersecurity Sales oriented Expert with a strong hunter profile to develop new business opportunities in the Spanish market. The role focuses on generating pipeline, conducting proactive prospecting, and positioning advanced cybersecurity and MSSP services. The demand for cybersecurity product and MSSP-oriented sales roles in Madrid continues to grow, reflecting a highly dynamic and competitive market landscape.
@@ -1322,76 +1268,7 @@ Welcomed
 - Experience in IT systems administration.
 
 - Cyber Security Training, Licenses, Memberships and Certificates."
-894405,Trainee (m/w/f/x) Focus Technology - Board Area Germany,"Germany, Bonn",Germany,Network/Infrastructure,Graduate program,Apprenticeship,Telekom Deutschland GmbH,2026-08-27,,https://growthhub.telekom.com/careers/apply?domain=telekom-growthhub.com&pid=563465374525021,"Launch Your Career at Deutsche Telekom – Become Part of a Global Team!
-
-Ready to make an impact on the world? Then you’ve come to the right place. Deutsche Telekom operates in more than 50 countries worldwide and is one of Europe’s leading telecommunications providers. Our products and services connect people and enhance everyday life. With a best-in-class network and a strong presence in the gigabit society, we are setting new standards. More than 230,000 innovative minds are driving our digital future. Join our team and shape your future with us.
-
-Your start date – Flexible to suit you
-
-Our trainee program starts every quarter, giving you the flexibility to choose the start date that works best for you.
-
-What are you waiting for?
-
-Positions are available for immediate placement, so don’t wait too long – apply as soon as possible!
-
-We look forward to receiving your application, including your CV and relevant certificates, in either English or German.
-
-For more information about our trainee program, please visit our careers page.
-
-Launch your career with us and help shape the digital future.
-
-Additional Benefits
-
-- Guaranteed Permanent Position: From day one, our trainees receive a permanent employment contract.
-- Dedicated Onboarding Program: You will take part in a comprehensive one-week onboarding program, including networking opportunities, to ensure the best possible start.
-- A Strong Community: Our trainee community is closely connected, with regular events designed to strengthen collaboration and a sense of belonging.
-- Build Your Network: You shape your program according to your individual interests. We support you along the way and help you build a strong professional network.
-- Mentoring Program: The Start up! community offers a mentoring program with experienced leaders who support you in your career development.
-- Buddy Program: Every trainee is supported by a buddy during onboarding who is available to answer questions and help you settle in.
-- Strategic Thinking: In addition to your individual project assignments, you will have opportunities to contribute to further strategic projects.
-
-Tasks
-
-If you have an entrepreneurial mindset and the courage to shape the future, our 18-month Start up! Trainee Program provides the ideal environment to learn, grow, and develop. You will gain broad insights into our organization while being encouraged to step outside your comfort zone, explore new areas, and unlock your full potential.
-
-- Take ownership of your career: You will complete five project assignments. Your first assignment will be within HR. After that, you can select your remaining assignments individually from opportunities across the entire Deutsche Telekom Group.
-- Step outside your comfort zone: After your first assignment, you decide which areas you would like to explore in greater depth. Throughout the program, we encourage you to challenge yourself and discover new fields within Deutsche Telekom. Our extensive network will support you along the way.
-- Expand your network and experience the trainee community: Fridays are reserved for Magenta Friday, when all trainees come together to work on strategic and innovative growth topics beyond their individual project assignments. Trainees collaborate in different teams to organize events, drive their personal and professional development, or contribute to social initiatives.
-- Go international: A leading digital telecommunications company without international experience? Unthinkable! One of your three-month assignments will take place abroad. You decide which country and city you would like to experience.
-- Understand our business: Take the opportunity to experience Deutsche Telekom’s operational business first-hand. During our Service Days, you can gain direct insights into how we interact with our customers. Choose from experiences such as spending a day in customer service, visiting a Telekom Shop, or joining one of our service centers. You will see first-hand how we turn customers into fans every day.
-- Choose your start date: You can join the program at the beginning of any quarter. Simply discuss with your contact person which start date works best for you.
-
-Profile
-
-You have successfully completed a degree in engineering, business/economics, or a comparable field. We welcome candidates with all degree levels, including Bachelor’s, Master’s, and doctoral degrees.
-
-You bring the following skills and experience:
-
-Technical expertise: Ideally, you have knowledge of information technology, particularly in one or more of the following areas:
-
-- Technology and infrastructure: e.g., cloud technologies, networks, mobile communications, 5G, IoT, programming, or software development
-- Digitalization and processes: e.g., process analysis and design, automation, digital transformation, or the implementation of digital solutions
-- Cybersecurity and information security
-- Project management: You have gained initial project experience and are able to plan tasks, bring different stakeholders together, and collaborate effectively to implement reliable solutions.
-- Data analytics: You have a strong understanding of data and are able to analyze technical, operational, or process-related data to support evidence-based decision-making and make improvements measurable.
-- Employee-centric mindset: You are a passionate team player and enthusiastic about creating outstanding experiences for our employees.
-- Relevant experience: You have gained at least six months of initial relevant internship or work experience in areas such as IT, cloud, network architecture, cybersecurity, and/or data-related environments. Ideally, you have up to about 1 year of relevant professional experience in total and wish to specifically advance your career through a trainee program.
-- Understanding of corporate strategy: You have a fundamental understanding of how corporate strategies contribute to achieving business objectives.
-- Intercultural competence: Internationality is at the heart of our Start up! community. Strong intercultural skills are therefore essential.
-- International experience – for example through studying abroad, Work & Travel, or a comparable experience – is a requirement (at least three months).
-- Commitment and entrepreneurial spirit: As a Start up! trainee, you are passionate about driving change and making things happen. Experience in social engagement and/or entrepreneurial projects is therefore highly valued.
-- Language skills: You are fluent in both English and German, written and spoken, at C1 level.
-
-Applicants with severe disabilities will be given preferential consideration if equally qualified.
-
-XING – Deutsche Telekom AG
-
-LinkedIn – Deutsche Telekom
-
-None
-
-None"
-733423,Trainee Focus Product & Technology (m/f/d/x),"Germany, Bonn",Germany,Product Development,Graduate program,Apprenticeship,Deutsche Telekom AG,2026-09-16,,https://growthhub.telekom.com/careers/apply?domain=telekom-growthhub.com&pid=563465374629258,"Start your career at Telekom – become part of a global team!
+733423,Trainee (m/f/d/x) Focus Product & Technology,"Bonn, Germany",Germany,Product Development,Graduate program,Apprenticeship,Deutsche Telekom AG,2026-09-16,,https://growthhub.telekom.com/careers/apply?domain=telekom-growthhub.com&pid=563465374629258,"Start your career at Telekom – become part of a global team!
 
 Are you ready to conquer the world? Then you've come to the right place! Deutsche Telekom is represented in over 50 countries worldwide and is one of Europe's leading telecommunications providers. Our products and services connect people and improve daily life. With the best network and a strong presence in the gigabit society, we set standards. Our digital future is driven by more than 230,000 innovative minds. Become part of our team and shape your future with us.
 
@@ -1472,6 +1349,75 @@ Commitment and Entrepreneurial Spirit: As a Start up! trainee, you are passionat
 Language Skills: You are fluent in English, both written and spoken, at C1 level and German at B2 level. Furthermore, you are motivated to improve your German skills during the program.
 
 Severely disabled applicants will be given preference in the case of equal qualifications.
+
+XING – Deutsche Telekom AG
+
+LinkedIn – Deutsche Telekom
+
+None
+
+None"
+894405,Trainee (m/w/f/x) Focus Technology - Board Area Germany,"Germany, Bonn",Germany,Network/Infrastructure,Graduate program,Apprenticeship,Telekom Deutschland GmbH,2026-08-27,,https://growthhub.telekom.com/careers/apply?domain=telekom-growthhub.com&pid=563465374525021,"Launch Your Career at Deutsche Telekom – Become Part of a Global Team!
+
+Ready to make an impact on the world? Then you’ve come to the right place. Deutsche Telekom operates in more than 50 countries worldwide and is one of Europe’s leading telecommunications providers. Our products and services connect people and enhance everyday life. With a best-in-class network and a strong presence in the gigabit society, we are setting new standards. More than 230,000 innovative minds are driving our digital future. Join our team and shape your future with us.
+
+Your start date – Flexible to suit you
+
+Our trainee program starts every quarter, giving you the flexibility to choose the start date that works best for you.
+
+What are you waiting for?
+
+Positions are available for immediate placement, so don’t wait too long – apply as soon as possible!
+
+We look forward to receiving your application, including your CV and relevant certificates, in either English or German.
+
+For more information about our trainee program, please visit our careers page.
+
+Launch your career with us and help shape the digital future.
+
+Additional Benefits
+
+- Guaranteed Permanent Position: From day one, our trainees receive a permanent employment contract.
+- Dedicated Onboarding Program: You will take part in a comprehensive one-week onboarding program, including networking opportunities, to ensure the best possible start.
+- A Strong Community: Our trainee community is closely connected, with regular events designed to strengthen collaboration and a sense of belonging.
+- Build Your Network: You shape your program according to your individual interests. We support you along the way and help you build a strong professional network.
+- Mentoring Program: The Start up! community offers a mentoring program with experienced leaders who support you in your career development.
+- Buddy Program: Every trainee is supported by a buddy during onboarding who is available to answer questions and help you settle in.
+- Strategic Thinking: In addition to your individual project assignments, you will have opportunities to contribute to further strategic projects.
+
+Tasks
+
+If you have an entrepreneurial mindset and the courage to shape the future, our 18-month Start up! Trainee Program provides the ideal environment to learn, grow, and develop. You will gain broad insights into our organization while being encouraged to step outside your comfort zone, explore new areas, and unlock your full potential.
+
+- Take ownership of your career: You will complete five project assignments. Your first assignment will be within HR. After that, you can select your remaining assignments individually from opportunities across the entire Deutsche Telekom Group.
+- Step outside your comfort zone: After your first assignment, you decide which areas you would like to explore in greater depth. Throughout the program, we encourage you to challenge yourself and discover new fields within Deutsche Telekom. Our extensive network will support you along the way.
+- Expand your network and experience the trainee community: Fridays are reserved for Magenta Friday, when all trainees come together to work on strategic and innovative growth topics beyond their individual project assignments. Trainees collaborate in different teams to organize events, drive their personal and professional development, or contribute to social initiatives.
+- Go international: A leading digital telecommunications company without international experience? Unthinkable! One of your three-month assignments will take place abroad. You decide which country and city you would like to experience.
+- Understand our business: Take the opportunity to experience Deutsche Telekom’s operational business first-hand. During our Service Days, you can gain direct insights into how we interact with our customers. Choose from experiences such as spending a day in customer service, visiting a Telekom Shop, or joining one of our service centers. You will see first-hand how we turn customers into fans every day.
+- Choose your start date: You can join the program at the beginning of any quarter. Simply discuss with your contact person which start date works best for you.
+
+Profile
+
+You have successfully completed a degree in engineering, business/economics, or a comparable field. We welcome candidates with all degree levels, including Bachelor’s, Master’s, and doctoral degrees.
+
+You bring the following skills and experience:
+
+Technical expertise: Ideally, you have knowledge of information technology, particularly in one or more of the following areas:
+
+- Technology and infrastructure: e.g., cloud technologies, networks, mobile communications, 5G, IoT, programming, or software development
+- Digitalization and processes: e.g., process analysis and design, automation, digital transformation, or the implementation of digital solutions
+- Cybersecurity and information security
+- Project management: You have gained initial project experience and are able to plan tasks, bring different stakeholders together, and collaborate effectively to implement reliable solutions.
+- Data analytics: You have a strong understanding of data and are able to analyze technical, operational, or process-related data to support evidence-based decision-making and make improvements measurable.
+- Employee-centric mindset: You are a passionate team player and enthusiastic about creating outstanding experiences for our employees.
+- Relevant experience: You have gained at least six months of initial relevant internship or work experience in areas such as IT, cloud, network architecture, cybersecurity, and/or data-related environments. Ideally, you have up to about 1 year of relevant professional experience in total and wish to specifically advance your career through a trainee program.
+- Understanding of corporate strategy: You have a fundamental understanding of how corporate strategies contribute to achieving business objectives.
+- Intercultural competence: Internationality is at the heart of our Start up! community. Strong intercultural skills are therefore essential.
+- International experience – for example through studying abroad, Work & Travel, or a comparable experience – is a requirement (at least three months).
+- Commitment and entrepreneurial spirit: As a Start up! trainee, you are passionate about driving change and making things happen. Experience in social engagement and/or entrepreneurial projects is therefore highly valued.
+- Language skills: You are fluent in both English and German, written and spoken, at C1 level.
+
+Applicants with severe disabilities will be given preferential consideration if equally qualified.
 
 XING – Deutsche Telekom AG
 

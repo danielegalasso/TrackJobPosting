@@ -2,10 +2,23 @@
   "source": "https://join.tesorion.com/",
   "company": "Tesorion",
   "query": "",
-  "extracted_at": "2026-10-10T10:49:43",
-  "site_total": 5,
-  "extracted": 5,
+  "extracted_at": "2026-10-15T08:14:36",
+  "site_total": 6,
+  "extracted": 6,
   "postings": [
+    {
+      "job_id": "964076",
+      "title": "(Afstudeer) stage - Nieuwegein/Enschede",
+      "location": "Nieuwegein, Utrecht, Nederland",
+      "country": "Nederland",
+      "department": "SOC/Software Development/CERT/Consultancy/Internal & Operational IT",
+      "contract": "fulltime_fixed_term",
+      "remote_type": "",
+      "published": "2026-10-13",
+      "deadline": "",
+      "url": "https://join.tesorion.com/o/afstudeer-stage-nieuwegeinenschede",
+      "description": "Op zoek naar een interessante (afstudeer) stage bij een tof bedrijf binnen de Cyber Security? Wij hebben doorlopend (afstudeer) stage mogelijkheden binnen Tesorion. Dit kan een (meeloop) stage binnen ons Security Operating Center (SOC) zijn maar kan ook een afstudeeropdracht in de richting Security Management of binnen onze Internal IT afdeling zijn. Daarnaast hebben wij een eigen software development afdeling in Enschede met stagemogelijkheden.\n\nWat biedt Tesorion mij?\n\n- Uiteraard een inhoudelijk interessante stage\n\n- Stagebegeleiding van experts in ons vakgebied\n\n- Praktijkervaring op doen naast je opdracht/ onderzoek\n\n- De mogelijkheid om naast je stage ook mee te kijken bij andere teams/afdelingen die je interessant vindt\n\n- Deelname aan interne kennissessies\n\n- Een laptop in bruikleen\n\n- Een stagevergoeding van 400 EURO per maand.\n\n- Gratis deelname aan activiteiten van onze personeelsvereniging\n\n- Hybride werken vanuit onze kantoren (Nieuwegein/Enschede) en vanuit huis\n\nHet gebeurd zelfs regelmatig dat een stagair(e) na zijn/haar stage bij Tesorion blijft!\n\nBijvoorbeeld Katy, onze system engineer Internal IT:\n\n“Tijdens mijn stage bij Tesorion kreeg ik de kans om te ontdekken welke kant van IT bij mij past. Die ruimte en het vertrouwen om te blijven na mijn stage hebben ervoor gezorgd dat ik nu in een rol zit waar ik echt op mijn plek ben. De afwisseling tussen techniek en collega’s helpen maakt mijn werk leuk én leerzaam – en dankzij mijn team blijf ik elke dag groeien.”\n\nJij bent een student met affiniteit met cyber security. Je volgt een MBO/HBO opleiding in de richting van IT Security, Security Management of Software development. Je zoekt naar een stage waar je veel kunt leren van experts in ons vakgebied. Je hebt een proactieve opstelling in de invulling van je stage en het opzoeken van de daarvoor benodigde mensen binnen onze organisatie.\n\nZijn wij een match?\n\nHeb je interesse in een stage bij Tesorion? Stuur dan je motivatie (wie ben je, welke opleiding volg je en wanneer wil je stage lopen) naar ons toe. Heb je eerst nog even behoefte aan wat informatie? Neem dan gerust contact op met onze Office Manager, Alena Tap, via 088 2747880.\n\nHopelijk tot binnenkort!"
+    },
     {
       "job_id": "2091538",
       "title": "Junior SOC Analyst",

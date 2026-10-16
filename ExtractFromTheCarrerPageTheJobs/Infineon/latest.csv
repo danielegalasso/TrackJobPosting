@@ -155,59 +155,93 @@ Learn more about our various contact channels and about Diversity & Inclusion at
 Francisca Dias
 
 LinkedIn"
-HRC1562969,Cyber Security Consultant - Identity and Access Management (f/m/div),Porto (Maia) (Portugal),Klagenfurt (Austria); Villach (Austria); Munich (Germany),CYBER,hybrid,2026-07-20,https://jobs.infineon.com/careers/job/563808969780467,"#WeAreIn for jobs that impact everyone’s life
+HRC1828114,Cyber Security Specialist – Vulnerability Management (f/m/div),Porto (Maia),,CYBER,hybrid,2026-10-14,https://jobs.infineon.com/careers/job/563808972151656,"#WeAreIn
+for jobs that impact everyone's life.
 
-Behind every success, there is a plan: your strategic thinking, creative skills, and ability to communicate with others will drive innovation and turn ideas into impact.
+Behind
+every breakthrough is a blueprint: ready to shape the strategy that propels
+innovation?
 
-As a Cyber Security Consultant - Identity and Access Management in our Corporate team, you’ll play a vital part in building the frameworks, relationships, and processes that keep Infineon’s Business thriving.
+As Cyber Security Specialist – Vulnerability Management in our Corporate Functions team become the heart of our
+organization by developing strategies, refining processes, and implementing
+initiatives that empower our business to thrive.
 
-Are you in?
+Are
+you in?
 
-Your Role
+Your roleKey responsibilities in your new role
 
-Key responsibilities in your new role
-As a Cyber Security Consultant - Identity and Access Management, you will play a key role in our Business Technology team within Corporate Cyber Security & Privacy. You’ll be the go-to expert for Identity & Access Management (IAM), shaping secure solutions, setting IAM standards, driving risk assessments, and influencing cutting-edge architectural decisions to protect and future-proof critical systems.
+You
+will support vulnerability management activities across enterprise and OT
+environments, from risk assessment and remediation to reporting and continuous
+security improvement.
 
-- Act as a trusted subject matter expert for Identity & Access Management, advising architecture, engineering, and operational teams on the secure design, implementation, and operation of identity services and access control mechanisms
-- Define and establish IAM-related security controls that reflect current threats, emerging technologies, and modern Zero Trust and identity-centric security models
-- Advise on and establish consistent IAM standards, patterns, and best practices across Infineon departments, covering authentication, authorization, identity lifecycle management, and privileged access
-- Lead and facilitate risk assessments, threat modelling, and secure design reviews for business-critical systems, platforms, and services (e.g., cloud, manufacturing, R&D platforms)
-- Partner with enterprise architects, domain architects, and service owners to translate IAM security controls into functional and non-functional requirements
-- Influence and challenge architectural and design decisions by balancing risks, business value, operational resilience, and engineering feasibility
+- Manage vulnerability
+findings from assessment to closure across cloud, manage IT, applications,
+network, DMZ, and OT
 
-Your Profile
+- Validate results, prioritize
+risk, and maintain an accurate vulnerability backlog
 
-Qualifications and skills to help you succeed
-You are a proactive and solutions-driven professional with strong communication skills, able to collaborate with diverse stakeholders and articulate ideas clearly in an international environment. With a customer-focused mindset and a drive to identify challenges, push initiatives forward, and continuously improve, you thrive in a role where critical thinking and innovation shape the way ahead.
+- Write and maintain vulnerability
+advisories with impact, affected scope, and clear remediation or mitigation guidance
 
-- Degree in Computer Science, Information Technology, IT Security or related field of study
-- Deep expertise in Identity & Access Management (IAM), including authentication, authorization, identity lifecycle management, privileged access, federation concepts, and IAM platforms (e.g., Microsoft Active Directory/Entra ID)
-- Strong knowledge of identity-related security controls for cloud, on-premises, and hybrid environments, including identity providers, directory services, and access management platforms
-- Advanced IAM architecture and system design skills, covering modern access control models, session management, API access security, and service-to-service identity
-- Experience performing cybersecurity risk assessments, threat modeling (e.g., STRIDE), across software and infrastructure systems
-- Strong understanding of security principles (least privilege, ZeroTrust, defense in depth, trust boundaries), and cryptographic concepts relevant to IAM (e.g., token signing, certificate-based authentication, key management)
-- Proven experience aligning IAM controls with enterprise risk management, compliance frameworks (e.g., NIST, ISO 29146), regulatory expectations, and audit requirements
-- In-depth knowledge of IAM capabilities for modern cloud-native and distributed platforms, including token-based authentication, just-in-time access, workload identity, and federation protocols
-- Fluency in English (mandatory)
+- Support technical teams with environment-specific fix and mitigation options, including compensating
+controls where patching is not immediately possible
 
-Please send us your CV in English.
+- Track remediation,
+exceptions, and retesting, and report status and trends to
+stakeholders
 
-For Austria:
+- Turn recurring findings into concrete improvements in hardening, exposure reduction, and vulnerability-handling processes
 
-We offer competitive salaries and additional benefits based on your performance, experience and qualification. The employment is in accordance with the collective salary and wage agreement for employees of the electrical and electronics industry, employment group H (https://www.feei.at/wp-content/uploads/2022/05/minimumsalaries-white-collar-workers-2023.pdf). The monthly salary is paid 14 times p.a. We offer a higher compensation depending on your expertise and skills.
+Your profileQualifications and skills to help you succeed
 
-Contact:
-Regan Lottering, LinkedIn
+You
+are a strong communicator and collaborative professional, able to effectively
+coordinate with infrastructure, application, network, third-party, and other
+cross-functional teams and stakeholders, while providing clear updates,
+advisories, and management reporting. You are structured and detail-oriented,
+with strong organizational and prioritization skills, balancing technical
+accuracy with realistic timelines to drive issues through to resolution or
+formal risk acceptance.
 
-#WeAreIn for driving decarbonization and digitalization.
-As a global leader in semiconductor solutions in power systems and IoT, Infineon enables game-changing solutions for green and efficient energy, clean and safe mobility, as well as smart and secure IoT. Together, we drive innovation and customer success, while caring for our people and empowering them to reach ambitious goals. Be a part of making life easier, safer and greener.
-Are you in?
+- Degree in IT, Cybersecurity, or a related field, or equivalent practical experience - relevant certifications, such as OSCP, CISSP, CompTIA Security+, or vendor cloud/security are a plus
 
-We are on a journey to create the best Infineon for everyone.
-This means we embrace diversity and inclusion and welcome everyone for who they are. At Infineon, we offer a working environment characterized by trust, openness, respect and tolerance and are committed to give all applicants and employees equal opportunities. We base our recruiting decisions on the applicant´s experience and skills. Learn more about our various contact channels.
-We look forward to receiving your resume, even if you do not entirely meet all the requirements of the job posting.
-Please let your recruiter know if they need to pay special attention to something in order to enable your participation in the interview process.
-Click here for more information about Diversity & Inclusion at Infineon."
+- At least 3 years experience in vulnerability management, security assessments, or a closely related security
+role, with hands-on work on findings, advisories, and remediation tracking
+
+- Experience across more than one environment, such as cloud, managed IT, applications, network, DMZ and OT
+
+- Solid understanding of common
+vulnerabilities, risk rating, exposure, and practical remediation or mitigation
+options, including compensating controls
+
+- Ability to read assessment
+reports, validate findings, and turn them into clear advisories and prioritized
+actions for technical teams
+
+- Working knowledge of network
+concepts and of how risk differs between cloud, application, perimeter, and possibly OT environments
+
+- Fluency in English
+
+Please send us your CV in
+English.
+
+#WeAreIn for driving decarbonization and digitalization.As a global leader in semiconductor solutions in power systems and IoT, Infineon enables game-changing solutions for green and efficient energy, clean and safe mobility, as well as smart and secure IoT. Together, we drive innovation and customer success, while caring for our people and empowering them to reach ambitious goals. Be a part of making life easier, safer and greener.Are you in?We are on a journey to create the best Infineon for everyone.
+
+We strive to create the best Infineon for everyone by embracing diversity and inclusion. We welcome applicants for who they are and offer a workplace built on trust, openness, respect and equal opportunity.
+
+Our hiring decisions are based on skills and experience. Even if you don’t meet every requirement, we encourage you to apply.
+
+Please let your recruiter know if you need any accommodations during the interview process.
+
+Learn more about our various contact channels and about Diversity & Inclusion at Infineon.
+
+Regan Lottering,
+
+LinkedIn"
 HRC1720187,Functional Safety and Cyber Security Quality Manager (f/m/div),Bucharest,,ATV,hybrid,2026-07-21,https://jobs.infineon.com/careers/job/563808971725346,"#WeAreIn for jobs that impact everyone's life.
 
 Excellence isn’t an act - it’s in the DNA of everything we do.
@@ -440,59 +474,6 @@ Please let your recruiter know if you need any accommodations during the intervi
 Learn more about our various contact channels and about Diversity & Inclusion at Infineon.
 
 Crystal.Wei@infineon.cn"
-HRC1716519,Manager Functional Safety and Cybersecurity Quality Management for Radio Frequency products (f/m/div),Munich,,ES,hybrid,2026-09-25,https://jobs.infineon.com/careers/job/563808971723829,"#WeAreIn
-for jobs that impact everyone's life. Are you passionate about functional safety and eager to contribute to safe, reliable and innovative automotive semiconductor products? As a Quality Manager for Functional Safety & Cybersecurity in our Quality & Excellence team for Radio Frequency products you uncover the root causes behind every single error, drive transformational improvements, and implement forward-thinking solutions to ensure our products exceed the highest standards of quality, reliability, and performance. Are you in?
-
-Your roleKey responsibilities in your new role
-
-In this role, you will support our growing business line Radio Frequency (RF) by ensuring functional safety/ cybersecurity compliance according to ISO 26262, IEC 61508, ISO 21434 and by guiding development teams in applying safety/security-related requirements throughout the product lifecycle. You will work in an international environment with cross-functional teams to strengthen Infineon as a quality leader - in established markets like automotive as well as emerging markets like robotics.
-
-- Ensure functional safety/cybersecurity
-compliance according to ISO 26262, IEC 61508 and ISO
-21434 for products throughout the lifecycle
-- Confirm the compliant tailoring of product
-development processes and support teams in
-applying the required confirmation measures
-- Advise and guide development teams in creating, reviewing and improving safety/security concepts and analysis
-- Guide projects towards conformity with functional safety/cyber security requirements, review project
-plans and development deliverables to ensure alignment with internal requirements and applicable standards and approve the final compliance status
-- Create and maintain Quality Assurance Plan, execute confirmation reviews and other confirmation
-measures
-- Act as auditor or assessor in product audits and assessments for components developed according
-to functional safety/cybersecurity standards
-- Collaborate with international project teams, including Development, Quality Management, Project Management and other
-relevant stakeholders
-
-Your profileQualifications and skills to help you succeed
-
-You live up to high quality standards, work effectively and have a sense for costs. You strive for continuous improvement while developing and implementing effective solutions. As a team player, you collaborate constructively and trustfully within an intercultural team. Furthermore, you are proactive and open-minded about new ideas.
-
-- A degree in Electrical Engineering,
-Physics or a comparable degree
-- At least 3-5 years of relevant professional experience in functional safety according to ISO 26262 and/or IEC
-61508
-- Experience in automotive and/or robotics (or other highly regulated industries) product development & maintenance, combined with a semiconductor hardware background
-- A systematic approach to analyzing product safety and managing technical risks
-- Strong moderation and communication
-skills as well as experience in working with cross-functional teams e.g. in audits, assessments and reviews
-- Ideally, you have a good knowledge in ISO
-21434-compliant product development, ASPICE and/or Quality
-management methods
-- Fluent English and good German skills (written and spoken)
-
-#WeAreIn for driving decarbonization and digitalization.As a global leader in semiconductor solutions in power systems and IoT, Infineon enables game-changing solutions for green and efficient energy, clean and safe mobility, as well as smart and secure IoT. Together, we drive innovation and customer success, while caring for our people and empowering them to reach ambitious goals. Be a part of making life easier, safer and greener.Are you in?We are on a journey to create the best Infineon for everyone.
-
-We strive to create the best Infineon for everyone by embracing diversity and inclusion. We welcome applicants for who they are and offer a workplace built on trust, openness, respect and equal opportunity.
-
-Our hiring decisions are based on skills and experience. Even if you don’t meet every requirement, we encourage you to apply.
-
-Please let your recruiter know if you need any accommodations during the interview process.
-
-Learn more about our various contact channels and about Diversity & Inclusion at Infineon.
-
-Jara Bremicker
-
-https://www.linkedin.com/in/jara-bremicker-b49056225/"
 HRC1771832,Principal Engineer - SW & FW,Bangalore MG,,QM,onsite,2026-09-07,https://jobs.infineon.com/careers/job/563808971934066,"strategic FS/CS leader with deep software engineering expertise, guiding projects, influencing organizational direction, and championing safe and secure product development while successfully navigating customer audits and assessments.
 
 Your roleKey responsibilities in your new role

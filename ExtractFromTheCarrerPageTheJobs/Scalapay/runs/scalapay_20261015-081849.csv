@@ -1,0 +1,897 @@
+job_id,requisition_id,title,location,offices,country,department,start_date,updated,deadline,url,description
+4990112101,298,2 x Full Stack Software Engineer - JavaScript Environment,"Wollongong, New South Wales, Australia",Wollongong,Australia,Engineering,2026-10-08,2026-10-14,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4990112101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+The Mission
+
+While most teams are still talking about AI-first engineering. We're doing it.
+
+We're growing, and we're hiring two experienced Full-Stack Software Engineers to join our Experiences and B2B Platform teams. Wherever you land, you won't be a small cog in a big machine. You'll take features from idea to production and see your work make a real difference.
+
+About the role
+
+At Scalapay, AI-first is how we work every day, not a slide in a strategy deck. You'll write sharp specs and technical designs, AI coding agents like Claude Code take on the heavy lifting, and you direct, review and test what they produce. You spend less time on boilerplate and more on what great engineers do best: architecture, tricky problems, and making things fast, robust and scalable.
+
+This role will be integral in designing, developing, and maintaining scalable and efficient applications leveraging AI.
+
+What You'll Do
+
+- AI Spec-Driven Development: Write clear specifications and technical design documents that AI coding agents implement from, then direct, review and test what the agents produce.
+
+- Application Development: Design, develop, and maintain high-quality web applications using Node.js, TypeScript, and React.js.
+
+- Database Management: Work with both relational (e.g MySQL) and non-relational (e.g., Dynamodb, Redis) databases, ensuring efficient data storage and retrieval.
+
+- Testing: Write unit and integration tests to ensure code quality and robustness. Experience with frameworks such as Jest, or similar.
+
+- Framework Utilisation: Leverage modern frameworks like NestJS and Next.js to build scalable and maintainable backend and frontend architectures.
+
+- Code Review: Participate in code reviews, providing and receiving constructive feedback to maintain high code standards.
+
+- Agile Development: Collaborate with cross-functional teams in an Agile environment, contributing to sprint planning, daily stand-ups, and retrospectives.
+
+- Performance Optimisation: Optimise applications for maximum speed and scalability.
+
+- Continuous Integration & Deployment: Work with CI/CD tools to automate testing, building, and deployment processes.
+
+- Collaboration & Communication: Work closely with product managers, designers, and other engineers to understand requirements, share knowledge, and deliver high-quality software
+
+What We're Looking For:
+
+- Experience: Minimum 5 years of professional development experience ideally within a high volume financial transactional environment (payments, e-commerce)
+
+- AI-Assisted Development: Hands-on experience with AI coding tools such as Claude Code, and a spec-driven way of working: writing clear specifications and technical designs first, then directing, reviewing and testing what the agents produce.
+
+- Proficiency: Strong knowledge and hands-on experience with Node.js, TypeScript, and React.js.
+
+- Database Skills: Extensive experience with both relational and non-relational databases.
+
+- Testing: Proven experience in writing unit and integration tests.
+
+- Frameworks: Experience with frameworks like NestJS and Next.js.
+
+- Methodologies: Solid experience working with Agile methodologies
+
+- Version Control: Proficient in using Git for version control.
+
+- Problem Solving: Strong problem-solving skills with the ability to think critically and creatively.
+
+- Communication: Excellent verbal and written communication skills, with the ability to articulate technical concepts to non-technical stakeholders.
+
+- Team Player: Ability to work well in a team-oriented, collaborative environment.
+
+Preferred Qualifications:
+
+- Cloud Experience: Experience with cloud platforms like AWS or similar is a plus.
+
+- DevOps Knowledge: Familiarity with DevOps practices, containerization (Docker) is a plus.
+
+- Microservices Architecture: Experience in designing and implementing microservices-based systems.
+
+- CI/CD Tools: Experience with CI/CD tools like Buildkite or similar.
+
+Why you should join Scalapay:
+
+- International Fintech with AI First approach raising the bar daily on how we build software and solve complex problems
+
+- Direct impact on how thousands of European merchants offer BNPL solutions
+
+- Work with a team of industry tech leaders who are focused on delivering products that offer exceptional user experiences
+
+- Accelerate your professional growth with ownership of product delivery
+
+- Work in a lean, people-focused Agile environment
+
+- Access to latest technologies with room for creative input
+
+- Personalised support to accelerate your professional growth and take ownership of the products you deliver: we want to help you grow!
+
+- Flexible work arrangements supporting work-life balance
+
+Recruitment Process:
+
+- A quick chat with one of our Talent Acquisition team members
+
+- The first interview with the Hiring Manager to dive deep into your experiences and better understand your motivation
+
+- A case study to test your hard skills
+
+- A final chat with Simone, our CEO
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4905135101,281,Account Manager,"Milan, Italy",Milan,Italy,Account Management,2026-06-22,2026-10-08,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4905135101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE MISSION
+
+We are looking for a motivated Account Manager to create long-term, trusting relationships with our merchant partners in Italy. The Account Manager’s role is to oversee a portfolio of assigned merchant partners, actively driving growth through product upselling and the cross-selling of additional services. Additionally, the Account Manager will be responsible for collecting, analyzing, preparing, and reporting key data points.
+
+Key Responsibilities:
+
+- Retain and grow your portfolio by leading sales calls, business reviews, and recurring check-ins with the purpose to increase the current Total Transaction Volume and Revenue generated by the assigned Merchants Portfolio;
+
+- Maximize account value by systematically identifying opportunities for product upselling and the cross-selling of Scalapay’s ecosystem of services;
+
+- Lead cross-functional projects end-to-end (merchant launches, POCs, new channel and product activations), owning planning, timelines and milestones, aligning internal stakeholders and merchant teams, and proactively flagging risks and blockers to keep delivery on track;
+
+- Manage the Go-Live of your assigned portfolio, assisting the sales team in reducing time-to-market and negotiating the best setting with the merchant;
+
+- Optimize integration and collaboration to achieve maximum penetration with all your assigned portfolio, by enabling Scalapay for the full customer base and making us the most appealing option;
+
+- Provide consultancy to our merchants on how to optimize revenue and marketing, leveraging Scalapay Value Proposition and your knowledge;
+
+- Manage co-marketing activities with your merchants to attract the Scalapay’s customer audience to increase revenue, collaborating with our internal Affiliate and Marketing team;
+
+- Use data analysis to spot business opportunities and presenting custom sales presentations with relevant findings and research;
+
+- Create case studies and best practices regularly, and share them internally and externally with the goal of scaling your account management activities and improve our sales conversion;
+
+- Test new approaches to increase Total Transaction Volume and Revenue and provide weekly forecast to your manager;
+
+- Be an advocate for your merchants with internal stakeholders with the goal of improving our business model, integrations, products and services;
+
+- Meet your merchants face-to-face regularly via on-site visits, fairs, events, and other field activities (traveling time will account for at least 30% of the role);
+
+Minimum Qualifications:
+
+- Strong business acumen;
+
+- Prior experience in retail or travel is a definite asset;
+
+- Proven ability to grow partnerships;
+
+- Proven experience in upselling and cross selling to maximize Merchants portfolios Total Transaction Volume;
+
+- Excellent communication skills; proactive, organized and data-driven profile;
+
+- Demonstrated ability to manage concurrent multiple projects and execute on tight deadlines;
+
+- Proficiency in Italian (C1-C2), and English (B2+) is a must;
+
+- If you speak MEDDIC, it’s a plus;
+
+- 2/3 years experience in account management and/or business consultant.
+
+Hiring process
+
+- An initial chat with our Talent team;
+
+- An interview with the Hiring Manager to deep dive into your experiences and better understand your motivation;
+
+- A case study to test your hard skills, that will be debriefed with the Hiring Manager and VP Growth;
+
+- A final chat with Simone (our CEO) where he will share and assess the Scalapay Values.
+
+Compensation will be determined based on skills, experience, and qualifications.
+Expected gross annual base salary: EUR 35,000 - 40,000, plus variable compensation of EUR 10,000 - 15,000 based on performance.
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4983933101,297,Credit Risk Analyst,"Barcelona, Spain",Barcelona,Spain,Risk,2026-09-23,2026-09-23,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4983933101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE MISSION
+
+Behind every purchase paid in installments at one of our merchants there is a credit decision we make and own. The Credit Risk team is responsible for those decisions: who we approve, how much we extend, on what terms, and how the portfolio performs afterwards.
+
+We're looking for a Credit Risk Analyst to join the team in Barcelona. The portfolio we manage is growing, BNPL is coming into the European regulatory perimeter, and we're building the team and the tooling to match. You'll work with the CRO, with Data Science and Data Engineering, and with Commercial, and you'll have the opportunity to fully own parts of the portfolio from early on.
+
+WHAT YOU WILL DO
+
+Portfolio strategy
+
+- Manage the credit strategy of a consumer portfolio built on millions of customers and thousands of merchants across multiple European countries: how much we extend, to whom and through which merchants. You'll work with Commercial and Account Management so that risk appetite and growth pull in the same direction.
+
+- Review merchants and segments, decide where the portfolio should be adjusted, and make it happen.
+
+Decisioning and changes
+
+- Take credit decisions from analysis to production. Rules, credit limits, thresholds: propose the change, size it, test it, ship it, and measure what happened.
+
+- You take the decisions, not only prepare them. You'll hold a clear mandate on merchant and portfolio decisions from the start, with the team behind you and room to grow it.
+
+Monitoring and tooling
+
+- Build the monitoring that tells us whether the portfolio and our decisions are doing what we expect, with risk-adjusted profitability as the organising metric.
+
+- Monitor the portfolio across customers, merchants and countries, and dig into what's moving before it turns into losses.
+
+- Build the team's knowledge base as you go: the decisions we take, the changes we ship and the reasoning behind them.
+
+Collaboration
+
+- Work with Data Science and Data Engineering on the models, features, pipelines and data that feed our decisions. We’re aiming for a self-sufficient team on the data stack.
+
+- Work with the rest of the Risk function, Fraud included, on the patterns that drive losses and what to do about them.
+
+As you settle in, you'll take on a project of your own end to end.
+
+WHO WE ARE LOOKING FOR
+
+Must have
+
+- A degree in engineering, physics, computer science, mathematics, statistics, economics or another quantitative field, or equivalent demonstrated quantitative ability.
+
+- 4+ years in an analytical role where your output drove decisions.
+
+- Strong SQL. You use it every day, you're comfortable with complex joins and window functions, and you can read someone else's query and work out why two numbers disagree.
+
+- Working Python. You can read and modify a pandas script, write a function and get to a result. You don't need to be a software engineer.
+
+- Proactivity and technical curiosity. Our domain is technical: decisions live in code, configs and pipelines, and the people who do well here go and look at how things work rather than waiting to be told.
+
+- Clear communication. You can explain a complex analysis to different audiences, from Commercial to leadership, and you can stand behind your conclusions.
+
+- Fluent English (B2+ level). This is our global internal language.
+
+Nice to have
+
+- Exposure to consumer credit, BNPL, lending or e-commerce risk.
+
+- Familiarity with git (or another version control system), CI/CD and how pipelines and code get released to production.
+
+- dbt, or other analytics engineering and data modelling experience.
+
+- Experience with experiments, control groups or A/B testing.
+
+WHY YOU SHOULD JOIN SCALAPAY
+
+- Attractive packages based on skills and experience. The salary band for this position is 32.000 - 44.000 euros.
+
+- Your analysis turns into decisions, and you see the results.
+
+- Exposure to the full credit lifecycle, from approval to portfolio performance.
+
+- A technical environment: you work close to the decision engine and the data pipelines, not only on their outputs.
+
+OUR HIRING PROCESS
+
+- An initial chat with our Talent team
+
+- An interview with the Hiring Manager, to dive into your experience and understand your motivation
+
+- A case study with the Hiring Manager and another Risk team lead
+
+- A final chat with Simone, our CEO
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4739799101,226,In-Store Operations intern - bilingual French/Italian (6-months),"Milan, Italy; Paris, Paris, France",Milan; Paris,Italy; France,Sales,2025-12-17,2026-07-29,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4739799101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE ROLE
+
+As Scalapay continues to grow, our In-Store Operations Team is looking for an Operations Intern to join their team for the next 6 months to assist with the development and management of our in-store merchants.
+This position can be based either in Paris OR Milan, where we expect you to be on-site a minimum of three days a week while the other two can be worked remotely each week. This position requires a 2-week training in our Milan Headquarters, and then a couple of days every 6 weeks in either Paris or Milan (based on your primary location). The position is expected to start as of mid-September/beginning of October 2026.
+
+As an In-Store Operations Intern you will play a key role within the in-store Sales Operations team. You will be responsible for ensuring that in-store activations and integrations with our merchants and partners run smoothly, quickly, and with the highest quality, while also managing post-sales activities (e.g., provide marketing materials, merchant support and success, etc.).
+
+You will support merchants during and after the integration of Scalapay into their stores, acting as the main point of contact for technical and operational matters and ensuring a smooth and successful experience.
+
+You will collaborate with the Sales, Account, and Product teams to ensure that each project is completed on time and meets the highest quality standards.
+
+WHAT YOU WILL DO:
+
+- Collaborate closely with the sales team, joining merchant presentations and providing support throughout the sales process.
+
+- Work closely with the account team to support upselling initiatives.
+
+- Train merchants on how to use and how to sell using Scalapay
+
+- Perform all activities required to activate new in store merchants.
+
+- Communicate with merchants and partners, both via phone and email.
+
+- Continuously analyze and identify opportunities for improvement to implement best practices.
+
+- Customer Success activities such as store visits (driver's licence needed), deep dive meetings to understand pains and improve performances, gather feedback, etc.
+
+- Cooperate with the Merchant Support team to implement new processes.
+
+- Manage our in-store marketing initiatives
+
+WHO YOU ARE:
+
+- You have an execution-driven mindset.
+
+- You speak BOTH French AND Italian at a native or near-native level (C1-C2). Extra working proficiency in English (B2+) is required.
+
+- With an analytical mindset, you are proficient with tools such as Excel/Google sheets as well as presentation tools such as Power Point/Google slides
+
+- You have a strong interest in the in-store and payment industry.
+
+- You have already been exposed to startup or scale-up environments
+
+- You hold a valid driver's licence
+
+YOUR SOFT SKILLS:
+
+- Strong attention to detail and excellent organisational skills, ensuring tasks are completed efficiently and accurately
+
+- Effective communications skills, comfortable working in teams and collaborating with colleagues from different departments
+
+- We value individuals who are proactive, adaptable, and eager to learn, as this role offers growth opportunities
+
+- The ability to work well in fast-paced environments where meeting deadlines is crucial, along with a positive attitude and a solution-oriented mindset to overcome challenges.
+
+WHY YOU SHOULD JOIN SCALAPAY:
+
+- International environment with significant challenges to be met every day
+
+- Lots of opportunities to work with a team of industry leaders who are focused on delivering products that offer exceptional user experiences
+
+- Personalised support to accelerate your professional growth and take ownership of the products you deliver: we want to help you grow!
+
+HIRING PROCESS
+
+- An initial chat with our Talent Acquisition team
+
+- A first interview with the Hiring Manager to deep dive into your experiences and better understand your motivation
+
+- A short case study to test your hard skills, that will be debriefed with a panel of future internal stakeholders
+
+- A final interview with a board member to discuss the values of Scalapay
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4961983101,294,Junior Legal Counsel - Regulatory and Complaints handling (12-month fixed-term contract),"Milan, Italy",Milan,Italy,Legal,2026-08-27,2026-10-07,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4961983101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE MISSION
+
+We are looking for a Junior Legal Counsel for a 12-month fixed-term contract.
+
+Inside the Legal Department, your role will be providing support to the Team regarding the legal aspects of the business, the internal processes of the Company and the Group, with a focus on regulatory matters and complaint handling.
+
+This role is based in Milan where we will expect to see you at the office three days per week, as per our smart working policy.
+
+YOU WILL :
+
+- Support the management of customer complaints, both through internal procedures and in proceedings before the Italian Banking and Financial Ombudsman (ABF), preparing legal assessments and draft responses under the supervision of the Complaints Officer.
+
+- Provide legal support to the Company and the Group on regulatory matters, with a particular focus on payment services, consumer credit, consumer protection, contract law and other legislation relevant to the business.
+
+- Draft, review and negotiate commercial agreements, escalating complex or material matters to senior members of the Legal Team.
+
+- Prepare internal legal memoranda, opinions and practical recommendations for business stakeholders.
+
+- Conduct independent legal research on legislation, regulatory guidance, case law and legal scholarship, translating findings into actionable advice.
+
+- Monitor legal and regulatory developments and support the implementation of any required changes to internal processes, documentation and commercial practices.
+
+- Work closely with cross-functional teams to identify legal risks, provide practical guidance and ensure the consistent implementation of legal requirements and best practices.
+
+- Support the development and maintenance of internal templates, policies, procedures and legal knowledge resources.
+
+YOU MUST :
+
+- Have an Italian Law Degree (or equivalent)
+
+- Be fluent both in Italian and English (C1-C2)
+
+- You have high attention to detail and strong organizational skills
+
+YOU'LL BE GREAT FOR THE ROLE IF :
+
+- You have some previous experience in a structured Law Firm or a Company (specialization payment services and consumer credit is a plus)
+
+- You are admitted to the Italian Bar
+
+- You speak any additional language such as French or Spanish (B2+ level)
+
+- You are proficient with the Microsoft Office Suite (Word, Excel, PowerPoint) and/or the Google Suite (Google Docs, Google Sheets, Google Slides)
+
+- You are familiar with AI tools (such as Claude, ChatGPT or Gemini)
+
+OUR COMPENSATION PACKAGE :
+
+- Annual compensation range based on experience: 30000-40000 euros
+
+OUR SELECTION PROCESS
+
+- Initial Chat: A brief conversation with our Talent Acquisition Team.
+
+- Interview with the Role Coordinator: A deep dive into your motivation and learning goals for the role.
+
+- Case Study: A skills-based test with a debriefing session involving key stakeholders, conducted in our Milan office or online.
+
+- Final Chat with Simone (CEO): An opportunity to discuss Scalapay’s values and assess cultural alignment.
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4961960101,293,Legal Counsel Intern - Regulatory and Complaints handling - (6 months),"Milan, Italy",Milan,Italy,Legal,2026-08-27,2026-08-27,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4961960101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE MISSION
+
+We are looking for a 6 months Legal Counsel Intern.
+Inside the Legal Department, your role will be providing support to the Team regarding the legal aspects of the business, the internal processes of the Company and the Group, with a focus on regulatory matters and complaint handling. This role is based in Milan where we will expect to see you at the office three days per week, as per our smartworking policy.
+
+YOU WILL :
+
+- Assist the Complaint Handling Function in reviewing and preparing responses to customer complaints, both through internal procedures and in proceedings before the Italian Banking and Financial Ombudsman (ABF), under the supervision of the Complaints Officer.
+
+- Support the Legal Team with the day-to-day legal affairs of the Company and the Group, with a particular focus on payment services, consumer credit, consumer protection, contract law and other relevant legislation. The support will include:
+
+- Drafting and reviewing commercial agreements;
+
+- Drafting internal legal memoranda and analysis;
+
+- Legal research on case law and scholar’s papers;
+
+- Collaborate with cross-functional teams by collecting information, supporting legal reviews and helping implement internal legal guidelines and best practices.
+
+- YOU MUST :
+
+- Have an Italian Law Degree (or equivalent)
+
+- Be fluent both in Italian and English (C1-C2)
+
+- You have high attention to detail and strong organizational skills
+
+YOU'LL BE GREAT FOR THE ROLE IF :
+
+- You speak any additional language such as French or Spanish
+
+- You are proficient with the Microsoft Office Suite (Word, Excel, PowerPoint) and/or the Google Suite (Google Docs, Google Sheets, Google Slides)
+
+OUR COMPENSATION PACKAGE :
+
+- All our internships are compensated 800€/month + buonipasto
+
+OUR SELECTION PROCESS
+
+- Initial Chat: A brief conversation with our Talent Acquisition Team.
+
+- Interview with the Manager: A deep dive into your motivation and learning goals for the role.
+
+- Case Study: A skills-based test with a debriefing session involving key stakeholders, conducted in our Milan office or online.
+
+- Final Chat with Simone (CEO): An opportunity to discuss Scalapay’s values and assess cultural alignment.
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4997816101,301,Office Assistant - Fixed Term (6 months),"Milan, Italy",Milan,Italy,People & Culture,2026-10-06,2026-10-08,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4997816101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE MISSION
+
+We are looking for an Office Assistant who will serve as the primary point of contact for guests and employees, while also supporting internal events when needed.
+Please note that this role requires full-time, 100% on-site presence (5 days a week) at our office.
+
+You will:
+
+- Manage the front desk independently, welcoming visitors and handling access keycards for employees and guests;
+
+- Act as the primary point of contact for building policies and procedures, keeping employees informed and addressing general inquiries from both staff and visitors;
+
+- Handle incoming and outgoing mail and packages, ensuring timely and accurate distribution;
+
+- Manage and organize the front desk, common areas, and meeting rooms;
+
+- Support general services by collecting any reports related to facility issues;
+
+- Contribute to the planning and on-site execution of company events.
+
+You’ll be great for this role if you have:
+
+- Good standing;
+
+- Proficiency in English (B2+);
+
+- Good knowledge of Google Suite and Microsoft Office Tools (Word, Excel, PowerPoint);
+
+- At least 6 months of experience as a receptionist, office assistant or in a similar front-office role.
+
+Recruitment Process:
+
+- A quick chat with Talent Acquisition and Hiring Manager to dive deep into your experiences and better understand your motivation;
+
+- An in-person meeting at our Milan office, where you'll get to know the team and see where you'd be working;
+
+- A final chat with Simone (our CEO) where he will share and assess the Scalapay Values.
+
+Expected gross annual base salary: EUR 24,000.
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4990707101,300,Risk Analyst,"Milan, Italy",Milan,Italy,Risk,2026-09-30,2026-10-06,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4990707101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE MISSION:
+
+As a Risk Analyst, you will be the dedicated risk owner for Scalapay's subscription products. This is a high-impact role where you design the decisioning logic behind a growing product line, take it live in our rules engine, and own its performance from there.
+
+You will work as the risk counterpart to the Subscription team, turning product ambitions into risk requirements, and you will contribute to the fraud prevention work that protects the whole portfolio.
+
+WHAT YOU WILL DO:
+
+Subscription Risk Ownership
+
+- Own the risk framework for subscription products end to end: eligibility criteria, decisioning logic, and the data and signals behind them.
+
+- Partner with the Subscription team as their single point of contact on risk, flagging exposure early and shaping product decisions before they ship.
+
+- Design the risk layer for new launches rather than inheriting it, working alongside product, engineering and compliance from the start.
+
+Decisioning & Performance Monitoring
+
+- Implement and maintain rules in our decisioning engine, with clear documentation and measurable expected impact.
+
+- Build the reporting that shows how approval rates, losses and fraud are trending across your product area, and act on what it tells you.
+
+- Run post-implementation analysis on every significant change: what we expected, what happened, what we do next.
+
+Fraud Prevention & Detection
+
+- Contribute to fraud monitoring, investigation and intervention across the portfolio, including during volume peaks.
+
+- Investigate emerging fraud patterns and translate them into detection logic and rule changes.
+
+- Work with our external fraud and identity data providers to get the most out of the signals we buy.
+
+Cross-Functional Collaboration
+
+- Work closely with data, engineering, finance, compliance, legal and customer support to get decisions shipped, documented and understood.
+
+- Communicate findings and recommendations clearly to both product stakeholders and risk leadership.
+
+WHO WE ARE LOOKING FOR:
+
+- Holder of a Bachelor's or Master's degree in Economics, Statistics, Engineering, Data Science, or a related field.
+
+- 2+ years in risk, fraud, credit decisioning, payments or a comparable analytical role, preferably in fintech, BNPL or consumer lending.
+
+- Proficiency in SQL and comfort working independently in a data warehouse; Python is a plus.
+
+- Sound judgement: you can make a decision with incomplete data, and the discipline to measure it afterwards.
+
+- Genuine interest in both credit and fraud rather than a strong preference for one.
+
+- Excellent communication skills, with the ability to explain a risk decision to a product manager and to a compliance reviewer alike.
+
+- High attention to detail and strong ownership of deliverables.
+
+- Exceptional communication skills in English, both written and verbal (B2-C1). Italian is a plus.
+
+Nice to have: exposure to card, subscription or account-based products; experience with a rules or decision engine in production; familiarity with external fraud and identity data providers.
+
+WHY YOU SHOULD JOIN SCALAPAY:
+
+- Attractive packages based on skills and experience — the salary band we have for this position is of 32'000– 44'000 € (Gross Annual Salary)
+
+- International environment with significant challenges to be met every day
+
+- Lots of opportunities to work with a team of industry tech leaders who are focused on delivering products that offer exceptional user experiences
+
+- Personalised support to accelerate your professional growth and take ownership of the products you deliver: we want to help you grow!
+
+- Latest technologies and being encouraged to bring your flair to the role.
+
+OUR HIRING PROCESS:
+
+- An initial chat with our Talent team
+
+- The first interview with the Hiring Manager to dive deep into your experiences and better understand your motivation
+
+- A case study to test your hard skills
+
+- A final chat with Simone, our CEO
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4973323101,296,Risk Data Scientist,"Milan, Italy",Milan,Italy,Risk,2026-09-15,2026-09-24,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4973323101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE MISSION:
+
+As a Risk Data Scientist, you will own the design, implementation, and oversight of credit & fraud model and reporting. This is a high-impact role where you will collaborate with cross-functional teams to align on product and risk strategy changes to understand impact on loss performance and approval rates.
+This role will ensure accurate projections of portfolio performance, early detection of risk trends, and actionable insights to drive business decisions.
+
+WHAT YOU WILL DO:
+
+Risk Modelling & Portfolio Analytics
+
+- Develop, implement, and maintain Credit Risk & Fraud models across the BNPL & Lending portfolio.
+
+- Build analytical tools and produce analysis to find Risk & Losses drivers.
+
+- Monitor approval rates, fraud & credit performance and recovery trends.
+
+- Build scalable BI dashboards
+
+Business Intelligence & Reporting
+
+- Own the design, automation, and delivery of Risk models & BI reporting for leadership and stakeholders.
+
+- Partner with cross functional areas like Finance, payments, product risk to provide data-driven insights into credit losses, profitability, and risk-adjusted returns.
+
+- Ensure regulatory and management reporting requirements are met with high accuracy.
+
+Cross-Functional Collaboration
+
+- Work closely with credit risk, data science, finance, and product teams to align loss assumptions with pricing, provisioning, and strategic planning.
+
+- Communicate findings and recommendations to senior leadership and external stakeholders (e.g., auditors, regulators, investors).
+
+Risk Governance
+
+- Contribute to credit policy development by identifying emerging risks and recommending mitigation strategies.
+
+- Support provisioning under IFRS9 or equivalent regulatory frameworks.
+
+- Ensure data integrity, consistency, and strong governance across risk reporting processes.
+
+- Provide scenario analyses and stress testing to anticipate potential risks under different macroeconomic environments.
+
+WHO WE ARE LOOKING FOR:
+
+- Holder of a Master’s degree in Finance, Economics, Statistics, Data Science, or related field. Advanced degree preferred.
+
+- 4+ years in risk management, data science, or risk modelling, preferably in fintech, BNPL, or consumer lending or advanced analytics consulting.
+
+- Proven track record in developing loss risk models and reporting processes.
+
+- Proficiency in SQL, R, Python for data analysis and modeling.
+
+- Proficiency in AI for analytical and modeling.
+
+- Strong analytical and problem-solving mindset.
+
+- Excellent communication skills with an ability to simplify complex data into actionable insights
+
+- High attention to detail and strong ownership of deliverables.
+
+- Exceptional communication skills in English, both written and verbal, to effectively convey complex ideas to diverse audiences.
+
+WHY YOU SHOULD JOIN SCALAPAY:
+
+- Attractive packages based on skills and experience - the salary band we have for this position is of 32000-44000 € (Gross Annual Salary)
+
+- International environment with significant challenges to be met every day
+
+- Lots of opportunities to work with a team of industry tech leaders who are focused on delivering products that offer exceptional user experiences
+
+- Personalised support to accelerate your professional growth and take ownership of the products you deliver: we want to help you grow!
+
+- Latest technologies and being encouraged to bring your flair to the role.
+
+OUR HIRING PROCESS:
+
+- An initial chat with our Talent team
+
+- The first interview with the Hiring Manager to dive deep into your experiences and better understand your motivation
+
+- A case study to test your hard skills
+
+- A final chat with Simone, our CEO
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4927248101,287,SDR Intern,"Milan, Italy",Milan,Italy,Sales,2026-07-16,2026-07-16,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4927248101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+We are looking for an SDR intern to help us further develop our business across the Fashion & Apparel, Travel, and Electronics sectors, among others, by managing the top of the Sales funnel.
+
+You will:
+
+- Help target and qualify prospects and merchant accounts in line with the sales strategy & needs;
+
+- Work closely with the Account Executive team in order to align on strategies and action plan;
+
+- Generate qualified appointments with C-Levels;
+
+- Update all Sales activities in our CRM (today we're using Hubspot).
+
+Must have:
+
+- Data-driven approach;
+
+- Hunting and never give up attitude;
+
+- Full-fluency in Italian (C1-C2) and English (B2+);
+
+- Humility and eagerness to learn new methodologies;
+
+- Strong determination: nothing stops you from generating appointments!
+
+Expected Outcomes
+
+- Meet or exceed the target every quarter;
+
+- Become a fundamental part of the italian team and help the company grow;
+
+- Foster a positive and inclusive team culture within the local team, encouraging collaboration, innovation, and a strong sense of ownership.
+
+Hiring process
+
+- A quick chat with our Talent Acquisition team;
+
+- A first interview with our Head of Sales to deep dive into your experiences and better understand your motivation;
+
+- A case study to test your hard skills, that will be debriefed with a panel of future internal stakeholders.
+
+- A short interview with our CEO to understand your personal values and critical thinking skills
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4736651101,276,Strategic Enterprise Account Executive FRANCE,"Paris, Paris, France",Paris,France,Sales,2025-12-12,2026-10-09,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4736651101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+THE MISSION
+
+We are looking for a Strategic Enterprise Account Executive that will help us drive Scalapay’s growth by forging and managing partnerships with global enterprise clients in key industries like Cosmetics, Fashion, Travel, and more. As a strategic dealmaker, you’ll collaborate with C-level decision-makers to deliver tailored, high-impact solutions.
+
+WHAT YOU WILL DO
+
+- Win Big Deals: Target, pitch, and close enterprise-level partnerships, crafting strategies to expand Scalapay’s presence.
+
+- Own Relationships: Build trust with CEOs, CMOs, CFOs, and other senior stakeholders, becoming their go-to advisor.
+
+- Strategize & Close: Design sales plans, negotiate contracts, and guide deals from start to finish.
+
+- Collaborate: Work with Marketing, Product, and Customer Success teams to ensure client success and shape Scalapay’s growth.
+
+- Report Smarter: Leverage CRM (Hubspot) and data to track progress, share insights, and exceed targets.
+
+WHO YOU ARE
+
+- Experience: 10+ years in enterprise SaaS sales, in Payments (preferred), Fintech, or eCommerce.
+
+- Proven Success: a history of closing global deals from scratch with >10 months sales cycles, smashing targets, and understanding enterprise needs in industries like Fashion and Travel.
+
+- Sales Mastery: as a natural hunter, you follow a strong value-selling methodology (MEDDIC/MEDDPICC preferred), with exceptional negotiation and communication skills.
+
+- Strategic Edge: Big-picture thinker with sharp business acumen and a disciplined sales approach.
+
+- Tech Savvyness: Proficient in CRM and analytics tools (Hubspot experience is a bonus).
+
+WHY YOU SHOULD JOIN SCALAPAY
+
+- Compensation packages based on experience, skills, qualifications and overall fit for the role: our OTE salary band for this position is €120,000 – €140,000 (inc. base + uncapped variable compensation)
+
+- International environment with significant challenges to be met every day
+
+- Lots of opportunities to work with a team of industry leaders who are focused on delivering products that offer exceptional user experiences
+
+- Personalised support to accelerate your professional growth and take ownership of the products you deliver: we want to help you grow!
+
+HIRING PROCESS
+
+- An initial chat with our Talent team
+
+- An interview with our Strategic Enterprise Account Executive to deep dive into your experiences and better understand your motivation
+
+- A case study to test your hard skills, that will be debriefed with the a panel of managers
+
+- A final chat with Simone (our CEO) where he will share and assess the Scalapay Values
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."
+4849960101,262,Strategic Sales Executive,"Milan, Italy",Milan,Italy,Sales,2026-04-24,2026-10-07,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4849960101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+
+If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
+
+#MakeItHappen #PlayAsATeam #StayCurious #FocusOnCustomer.
+
+The Mission:
+We are looking for an Strategic Sales Executive that will help us drive Scalapay’s growth by forging and managing partnerships with global enterprise clients in key industries like Cosmetics, Fashion & Apparel, Beauty, Electronics, and more.
+As a strategic dealmaker, you’ll collaborate with C-level decision-makers to deliver tailored, high-impact solutions.
+
+What You’ll Do:
+
+- Target, pitch, and close enterprise-level partnerships, crafting strategies to expand Scalapay’s presence.
+
+- Build trust with CEOs, CMOs, CFOs, and other senior stakeholders, becoming their go-to advisor.
+
+- Design sales plans, negotiate contracts, and guide deals from start to finish.
+
+- Work with Marketing, Product, and Customer Success teams to ensure client success and shape Scalapay’s growth.
+
+- Leverage CRM (Hubspot) and data to track progress, share insights, and exceed targets.
+
+Who You Are:
+
+- 10+ years of experience, including 2+ years in enterprise sales across Payments, Fintech, or eCommerce;
+
+- A history of closing global deals, smashing targets, and understanding enterprise needs in industries like Fashion, Beauty, Electronics and so on;
+
+- You follow a sales methodology, with exceptional negotiation and communication skills;
+
+- Big-picture thinker with sharp business acumen and a disciplined sales approach (if you speak MEDDIC its a plus);
+
+- Proficient in CRM and analytics tools (Hubspot experience is a bonus).
+
+Why you should join Scalapay:
+
+- International environment with significant challenges to be met every day
+
+- Lots of opportunities to work with a team of industry leaders who are focused on delivering products that offer exceptional user experiences
+
+- Personalised support to accelerate your professional growth and take ownership of the products you deliver: we want to help you grow!
+
+Hiring Process:
+
+- A quick chat with one of our Talent Acquisition team members
+
+- A first interview with the Head of Sales to deep dive into your experiences and better understand your motivation
+
+- A case study to test your hard skills, that will be debriefed with the a panel of managers
+
+- A final chat with Simone (our CEO) where he will share and assess the Scalapay Values
+
+Compensation will be determined based on skills, experience, and qualifications.
+Expected gross annual base salary: EUR 70,000 - 90,000, plus variable compensation of EUR 20,000 - 40,000 based on performance.
+
+Want to learn more? Don't hesitate to explore our Careers website, our LinkedIn and Glassdoor pages.
+
+Pro tip: send your CV in English 😉
+
+Super Pro tip: we know that application processes can be scary and frustrating but… we look for talent, not people that tick all our boxes."

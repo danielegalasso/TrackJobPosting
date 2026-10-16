@@ -1,0 +1,276 @@
+job_id,title,location,country,department,contract,remote_type,published,deadline,url,description
+2776966,Développeur Back-end (F/H),"Toulouse, Occitanie, France",France,Logiciel,fulltime_permanent,,2026-10-08,,https://lookup.recruitee.com/o/developpeur-back-end-fh-1,"Rejoignez LOOK UP pour contribuer à un projet d’envergure : Vous intégrez une équipe R&D dédiée à la plateforme Synapse, un système critique pour la gestion des données orbitales et des débris spatiaux. Votre expertise en back-end sera essentielle pour :
+
+- Développer et optimiser des services Java / Spring gérant des processus critiques.
+
+- Garantir la fiabilité, performance et évolutivité de la plateforme, en collaboration avec des équipes pluridisciplinaires (Data, Front-end, Mécanique orbitale).
+
+- Participer à des défis technologiques uniques : simulations de changement d’orbite, détection de collisions, intégration de données Big Data (Spark).
+
+Un poste idéal pour les passionnés de technologies spatiales et d’architectures distribuées !
+
+Missions principales
+
+- Conception et développement d’applications back-end en utilisant Java 17+ et Spring Boot.
+
+- Gestion des bases de données : conception, optimisation et maintenance de schémas avec SQL et PostgreSQL.
+
+- Intégration et exploitation de solutions de recherche et d’authentification :
+
+- OpenSearch pour la recherche avancée.
+
+- Keycloak pour la gestion des identités et des accès.
+
+- Déploiement et orchestration d’applications avec Kubernetes et Helm.
+
+- Collaboration agile : participation aux sprints, revues de code et amélioration continue des processus (CI/CD).
+
+Diplôme en informatique (Bac+3/5) ou équivalent par l’expérience.
+
+Compétences techniques
+
+- Expérience solide en développement back-end avec Java et Spring Boot.
+
+- Maîtrise des bases de données relationnelles (SQL/PostgreSQL).
+
+- Connaissance des outils d’orchestration (Kubernetes, Helm) et des pratiques CI/CD serait un plus.
+
+- Familiarité avec les solutions d’authentification (Keycloak) et de recherche (OpenSearch) serait un plus.
+
+Soft skills
+
+- Autonomie, rigueur et esprit d’équipe.
+
+- Capacité à travailler dans un environnement agile.
+
+- Curiosité et envie d’apprendre de nouvelles technologies.
+
+Pourquoi nous rejoindre ?
+
+- Un impact direct sur des systèmes critiques pour la sécurité spatiale
+
+- Des défis techniques concrets sur des technologies de pointe
+
+- Un environnement Scale up, où chaque contribution compte
+
+Notre process de recrutement
+
+- Entretien RH
+
+- Entretien technique avec le Manager opérationnel
+
+- Mise en situation technique
+
+- Entretien final avec un membre de la direction"
+2667368,Ingénieur Lead Exploitation Réseau de Radar (F/H),"Toulouse, Occitanie, France",France,Radar,fulltime_permanent,,2026-07-21,,https://lookup.recruitee.com/o/ingenieur-lead-exploitation-reseau-de-radar-fh,"Look Up, société Deeptech spatiale (SpaceTech), développe une capacité souveraine qui répond aux enjeux de sécurité civile (Space Trafic Management) et de défense dans l’espace. Cette capacité repose sur un réseau de radars de surveillance de l’espace constitué d'une combinaison d'infrastructures cloud, de serveurs physiques, d'équipements réseau, de contrôleurs industriels et de logiciels.
+
+Au sein du pôle Radar Network Operations, en qualité d’Ingénieur Lead Exploitation Réseau de Radar (F/H), au croisement de l’exploitation, du support avancé (niveau 2/3) et de l’amélioration continue du réseau de radar, vous intervenez dans le cadre de la structuration et de la montée en puissance du réseau de capteurs radar. Vous renforcez la supervision opérationnelle, la gestion des incidents complexes et la fiabilisation globale des systèmes, au travers des missions suivantes :
+
+Supervision et performance du réseau
+
+- Contribuer à l’industrialisation de la supervision
+
+- Définir, suivre et améliorer les indicateurs de performance (KPI)
+
+- Superviser le réseau de capteurs radar et la data supply chain associée
+
+Gestion des opérations et disponibilité
+
+- Coordonner la supervision opérationnelle du réseau
+
+- Assurer la disponibilité des systèmes en lien avec les équipes MCO
+
+- Valider et prioriser les interventions techniques selon les contraintes opérationnelles
+
+Gestion des incidents complexes
+
+- Intervenir en support des opérateurs sur les incidents complexes (niveau 2)
+
+- Réaliser des diagnostics techniques approfondis (logs, télémétrie, systèmes)
+
+- Piloter l’escalade vers les équipes d’ingénierie et de maintenance
+
+- Assurer le suivi et la résolution des incidents critiques
+
+Amélioration continue et fiabilisation
+
+- Analyser les incidents récurrents et identifier les causes racines
+
+- Proposer des actions d’amélioration validées par le Head of radar opérations et piloter leur déploiement
+
+- Faire évoluer les procédures d’exploitation et de remédiation sous validation du Head of radar opérations
+
+- Contribuer à la fiabilisation globale des systèmes
+
+Documentation et structuration
+
+- Rédiger et maintenir les procédures opérationnelles
+
+- Structurer les bonnes pratiques d’exploitation
+
+- Capitaliser sur les retours d’expérience (REX)
+
+- Bac +5 (école d’ingénieur ou Master) en Électronique ou Télécommunications ou Systèmes embarqués ou Informatique / réseaux
+
+- 5 ans d’expérience, a minima, en exploitation de systèmes techniques complexes ou opérations techniques (NOC, systèmes industriels, télécoms, …)
+
+Compétences techniques requises (savoir-faire) :
+
+- Maîtrise des environnements de supervision et d’exploitation de systèmes complexes
+
+- Connaissance des systèmes radar ou capteurs de détection
+
+- Solides bases en réseaux et systèmes (Linux)
+
+- Compréhension des architectures distribuées
+
+- Gestion d’incidents et diagnostic technique avancé
+
+- Analyse de données techniques (logs, métriques, télémétrie)
+
+- Capacité à structurer et améliorer des procédures techniques
+
+- Expérience en support niveau 2/3 ou en tant que référent(e) technique
+
+- Anglais : à partir de B1, intermédiaire
+
+Compétences personnelles requises (savoir-être) :
+
+- Leadership technique et capacité à coordonner en transverse
+
+- Excellente communication avec des interlocuteurs variés
+
+- Esprit analytique et résolution de problèmes complexes
+
+- Rigueur et sens des responsabilités
+
+- Capacité à prendre des décisions en environnement contraint
+
+- Orientation résultat et culture de la performance opérationnelle.
+
+Les + appréciés :
+
+- Environnement radar, spatial, défense ou surveillance
+
+- Systèmes critiques à forte exigence de disponibilité
+
+- Exploitation 24/7 et systèmes temps réel
+
+- Coordination technique ou rôle transverse
+
+- Notions de cybersécurité ou systèmes sécurisés
+
+Conditions & contexte
+
+- Astreintes
+
+- Déplacements professionnels en France
+
+- Matériel fourni : ordinateur, téléphone portable, EPI
+
+Pourquoi nous rejoindre ?
+
+- Un impact direct sur des systèmes critiques pour la sécurité spatiale
+
+- Des défis techniques concrets sur des technologies de pointe
+
+- Un environnement Scale up, où chaque contribution compte
+
+Notre process de recrutement
+
+- Entretien RH
+
+- Entretien technique avec le Manager opérationnel
+
+- Entretien final avec un membre de la direction"
+2668650,Technicien - Intégration et Maintenance Radar (F/H),"Papenoo , Polynésie française",Polynésie française,Radar,fulltime_permanent,,2026-07-20,,https://lookup.recruitee.com/o/technicien-integration-et-maintenance-radar-fh,"Look Up, société Deeptech spatiale (SpaceTech), développe une capacité souveraine qui répond aux enjeux de sécurité civile (Space Trafic Management) et de défense dans l’espace. Cette capacité repose sur un réseau planétaire de radars de surveillance de l’espace et sur une architecture numérique, d’algorithmes, de logiciels et d’applicatifs.
+
+En tant que Technicien intégration et maintenance Radar (F/H), vous intégrez l’équipe IVVQ, au sein du pôle Radar, chargé du développement et de l’exploitation des Radars de surveillance de l’espace.
+
+Vous intervenez dans l’assemblage, le câblage, l’intégration, le test et la maintenance de sous-ensembles électroniques, mécaniques et électriques des Radars et, à ce titre, vos principales missions sont :
+
+Intégration et assemblage
+
+- Effectuer le câblage électrique et filaire de sous-ensembles : alimentation, harnais électriques et RF, liaisons de données, connecteurs, borniers, …
+
+- Participer au montage des équipements électroniques du radar, et assurer la conformité des montages selon les plans mécaniques et schémas électriques.
+
+- Configurer les équipements informatiques, réseaux et électroniques qui constituent le radar
+
+Tests et contrôles
+
+- Effectuer des tests fonctionnels (alimentation, continuité, isolement, réseau IP…) et de performances RF en conduit et en rayonné : paramètres S, utilisation d’analyseurs de réseau, analyseur de spectre
+
+- Identifier et corriger les défauts d’assemblage ou de câblage
+
+- Renseigner les documents de traçabilité (fiches de contrôle, rapports d’intégration)
+
+Maintenance
+
+- Participer à la mise en place d’un plan de maintenance global incluant des fiches périodiques (hebdomadaires, mensuelles, annuelles)
+
+- Réaliser la maintenance préventive, corrective et évolutive du système en accord avec les besoins opérationnels
+
+- Rédiger et maintenir à jour la documentation technique, les plans de maintenance, les gammes d’intervention, les fiches de retour d'expérience, les rapports d’incident
+
+Support production / amélioration continue
+
+- Collaborer avec les équipes d’ingénierie, d’opération, méthodes et qualité
+
+- Contribuer à la gestion des anomalies
+
+- Participer à la mise en place de procédures de montage, de maintenance et d’exploitation et à leur amélioration continue
+
+- Participer à la capitalisation du savoir, à l’optimisation des activités MCO ainsi qu’à l’amélioration des systèmes pour les futures campagnes d’intégration et de tests
+
+Compétences requises
+
+- Solides connaissances en intégration et tests de systèmes électroniques complexes
+
+- Expérience en tests de qualification et analyse de résultats
+
+- Maîtrise du diagnostic de pannes et des outils de test et de mesure
+
+- Connaissances des outils de GMAO
+
+Savoir-être
+
+- Esprit d’équipe et goût pour le travail collaboratif
+
+- Rigueur, autonomie et réactivité
+
+- Capacité à résoudre des problèmes techniques complexes
+
+- Bon niveau de communication écrite et orale
+
+- Flexibilité et disponibilité en contexte opérationnel
+
+Formation & expérience
+
+- de BAC+2 à BAC+3 en électronique, systèmes embarqués ou télécommunications
+
+- 5 ans d’expérience minimum en IVVQ et/ou MCO de systèmes industriels complexes à dominante électrique, électronique et/ou radiofréquence
+
+- Expérience en protocoles IP pour la supervision d’équipements fortement appréciée
+
+Conditions & contexte
+
+- Astreintes 24/7 rémunérées
+
+- Matériel fourni : ordinateur, téléphone portable, EPI
+
+Pourquoi nous rejoindre ?
+
+- Un impact direct sur des systèmes critiques pour la sécurité spatiale
+
+- Des défis techniques concrets sur des technologies de pointe
+
+- Un environnement Scale up, où chaque contribution compte
+
+Notre Process de recrutement
+
+- Entretien RH
+
+- Entretien technique avec le Manager opérationnel
+
+- Entretien final avec un membre de la direction (30 min)"

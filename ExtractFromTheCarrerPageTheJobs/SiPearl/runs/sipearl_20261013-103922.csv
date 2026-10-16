@@ -1,0 +1,1091 @@
+job_id,title,location,additional_locations,department,remote_type,published,url,description
+d56d8af5-fd10-47cf-aaef-afa672235e4f,[Permanent position] Benchmark Cloud & HPC engineer,"Maisons-Laffitte, France","Castelldefels, Spain; Grenoble, France; Massy, France; Bologna, Italy",Performance Engineering,hybrid,2026-02-11,https://careers.sipearl.com/jobs/7215210-permanent-position-benchmark-cloud-hpc-engineer,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+In this role, you will work closely with the Benchmark Team Leader and the R&D System & Software teams to test, analyse and optimise benchmark and application codes used for pre-silicon, simulation and silicon performance analysis of SiPearl processors, while contributing to collaborative and partner projects.
+
+🎯Your missions
+
+- Analyse and optimise benchmark and application codes to leverage SiPearl processor architectures
+
+- Design, runn and monitor test scenarios, collect and validate performance results
+
+- Produce detailed performance analyses and forecasts for pre-silicon, simulation and silicon phases
+
+- Identify and fix software issues impacting benchmarks and applications
+
+- Package, document and present benchmark results and improvements internally and externally
+
+- Contribute to collaborative R&D projects with academic and industrial partners
+
+🔍 What will help you succeed in this role
+
+- Strong experience in benchmarking and performance analysis in Cloud and/or HPC environments
+
+- Solid knowledge of programming languages and parallel computing models (C, C++, Fortran, OpenMP, MPI)
+
+- Good understanding of processor architectures (Aarch64, x86)
+
+- A rigorous and analytical mindset, with the ability to interpret performance data and propose optimisations
+
+- Strong collaboration and communication skills in an international environment
+
+➕ Experience in the following areas is a plus
+
+- Pre-silicon, simulation or silicon performance evaluation
+
+- Benchmark development, validation and packaging
+
+- Participation in collaborative research or industrial projects
+
+- Supervision or mentoring of trainees
+
+Note: The tasks listed above are not exhaustive. You may be assigned additional activities to ensure service continuity or support other team objectives.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona), Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+6890a948-5cd4-474f-bdb2-263577dc10fb,[Permanent position] Compiler engineer,"Maisons-Laffitte, France","Castelldefels, Spain; Grenoble, France; Massy, France; Bologna, Italy",Performance Engineering,hybrid,2023-11-06,https://careers.sipearl.com/jobs/3333621-permanent-position-compiler-engineer,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+In this position, you will work closely with the Compiler team leader, to enhance and support SiPearl’s development toolchains while contributing to collaborative projects and mentoring interns.
+
+🎯Your missions
+
+- Improve and implement innovative features in compilers, libraries, and development tools based on SiPearl’s product specifications.
+
+- Detect, correct, and generalize software issues impacting SiPearl products, and deliver robust toolchains.
+
+- Participate in collaborative and partnership projects, contributing to development, testing, validation, and delivery of project deliverables.
+
+- Conduct software monitoring in compilers, libraries, and tools, sharing insights internally to guide team decisions.
+
+- Mentor interns, define project topics, and handle administrative aspects related to internship supervision.
+
+🔍 What will help you succeed in this role
+
+- At least 5 years of experience in a similar position
+
+- Strong understanding of software development tools, compilers, and libraries.
+
+- Ability to analyze product-specific requirements and implement innovative solutions.
+
+- Excellent collaboration, communication, and mentoring skills.
+
+➕ Experience in the following areas is a plus
+
+- Participation in open-source projects or software toolchains.
+
+- Previous experience in project management or academic partnerships.
+
+- Attendance at industry seminars or conferences.
+
+Note: The tasks listed above are not exhaustive. You may be assigned additional activities to ensure service continuity or support other team objectives.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble), Spain (Castelldelfels - Barcelona), Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+0d40fa32-2eeb-44d2-862c-a60bd0f4dfb5,[Permanent position] Emulation engineer,"Grenoble, France","Castelldefels, Spain; Maisons-Laffitte, France; Massy, France; Valbonne, France; Bologna, Italy",System validation,hybrid,2026-03-10,https://careers.sipearl.com/jobs/7360384-permanent-position-emulation-engineer,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+At SiPearl, we are developing highly complex multi-chiplets/multi-sockets CPUs, based on latest technologies for processors, NoCs and overall architecture. Those need best in class emulation platforms, and that's what our team is proud to provide.
+
+SiPearl owns one of the biggest emulation platform in Europe (in-house), a dual Veloce StratoM+, with a total capacity of 128 boards (6BGates) and up to 30 concurrent users 24/7.
+
+We even model our physical evaluation board (BMC) to shift left the Firmware and Software development pre-silicon and validate pre-tape-out the entire software stack.
+
+As an Emulation Engineer at SiPearl, you will be at the heart of our projects and R&D, and an enabler for all teams success.
+
+🎯Your missions
+
+- Contribute to emulation setup: Participate in capturing emulation needs and help define emulator configurations. Support compilation, execution, and debugging flows.
+
+- Support RTL adaptation for emulation: Assist in identifying and documenting required RTL changes and related collaterals needed for emulation.
+
+- Participate in verification activities: Contribute to the pre-silicon verification effort by supporting the emulation environment and validation activities.
+
+- Develop and maintain emulation workflows: Contribute to the development and maintenance of emulation workflows and help integrate hardware and software collaterals.
+
+- Improve and automate workflows: Implement improvements and develop scripts/tools to facilitate debugging and improve the user experience.
+
+- Generate and maintain emulation models: Use EDA tools to build and maintain emulation models, debug issues, and help optimize execution performance and model size.
+
+- Interact with tool vendors: Report issues, follow up on resolutions, and test fixes or new features provided by EDA vendors.
+
+- Provide user support: Assist engineers using the emulation platform, help troubleshoot issues, and propose practical solutions or workarounds.
+
+🔍 What would make you succeed in this role
+
+- At least 6 years of digital ASIC
+
+- At least 4 years of experience on emulation plateform
+
+- Good knowledge on modern CPU architecture
+
+- Experience using verification tools
+
+- Experience with embedded C
+
+- Python, HDL, bash
+
+- Flexibility and adaptability
+
+- Autonomy & responsability
+
+Dear candidate, even if you consider you do not fulfill all the qualifications mentioned above, please still apply and share with us why you believe you would be a good fit.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona), Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+f5dc1ede-1899-4d11-a01e-193e5bd3b74d,[Permanent position] Semi-conductor Program Manager,"Maisons-Laffitte, France",,,hybrid,2024-02-19,https://careers.sipearl.com/jobs/3633085-permanent-position-semi-conductor-program-manager,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+The Semiconductor Program Manager coordinates Semiconductor Platform Development project(s), from idea to product launch. He/she covers both hardware and software aspects. He/she interacts closely with all project stakeholders : Management, Sales & Marketing, R&D, Operations, Finance
+
+🎯 Your missions
+
+- Analyze product requirements with the marketing team
+
+- Work with hardware and software architects to analyze technical requirements and draw up a high-level list of work to be carried out, required profiles & resources
+
+- Draw up the list of work packages and plans project phases
+
+- Communicate major escalations and corrective actions to management
+
+- Contribute to the development of new procedures for project planning, accounting, monitoring and reporting
+
+- Promote and support deployment of methodology and tools
+
+- You will closely collaborate with Internal relations (Project managers, Management, Sales, Marketing, and Finance) and external relations ( Subcontractors, and suppliers of product-integrated IP)
+
+🔍 What would make you succeed in this role
+
+- Minimum experience of 5-10 years in a similar position supervising technical teams, managing projects and subcontractors in the electronics industry and subcontractors in the semiconductor sector.
+
+- Engineering degree in electronics or equivalent level of expertise
+
+Technical skills
+
+- Ability to translate company vision into executable projects
+
+- Mastery of traditional and agile project management tools and methodologies
+
+- Mastery of microprcessor design flow, FPGA flow or embedded software
+
+- Excellent oral communication skills
+
+- Fluent in English
+
+Softskills
+
+- Ability to work in project mode and as part of a team
+
+- Initiative and responsiveness
+
+- Organizational skills, rigor
+
+- Synthesis skills
+
+- Sense of ethics and integrity
+
+- Good stress, time and contingency management, adaptability
+
+Dear candidate, even if you consider you do not fulfill all the qualifications mentioned above, please still apply and share with us why you believe you would be a good fit.
+
+Recruitment process
+
+✔️First HR interview (30')
+
+✔️ Personality test - no need to worry, there is no wrong or right answer; our goal is to get to see beyond your resume (45')
+
+✔️ Technical interview (1h)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: meal vouchers (Sodexo), health insurance (70% covered by SiPearl), 8 to 9 RTTs, 5 days per year of remote work from any EU location)
+
+- Work model: Hybrid (2 days remote)
+
+- 📍 Location: Maisons-Laffitte (RER A/ Line L).
+
+- Awesome activities such as: Hackathons, Training Challenges, Quarterly Kick-off sessions, team events, Company events and much more
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+3b8f607c-e494-4c4e-b003-384cf340a0c3,[Permanent position] Senior CAD flow engineer,"Grenoble, France","Maisons-Laffitte, France; Valbonne, France; Castelldefels, Spain; Massy, France",CAD Flow & Methodology DevOps,hybrid,2024-05-23,https://careers.sipearl.com/jobs/4528476-permanent-position-senior-cad-flow-engineer,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+In this role, you will work closely with ASIC development teams, IT, and external partners to define, deploy and continuously improve the ASIC development methodology and design flow, ensuring efficiency, robustness and alignment with user needs and project constraints.
+
+You will act as a technical reference for methodology and tools, driving best practices, supporting teams and contributing to strategic technology decisions.
+
+🎯 Your missions
+
+- Define and evolve the ASIC development methodology and design flow based on user needs and project constraints
+
+- Lead the evaluation, deployment and optimization of EDA tools and internal automation
+
+- Supervise or contribute to the development, validation and performance optimization of tools, utilities and scripts
+
+- Provide expert-level support to development teams and collaborate with IT on efficient working environments
+
+- Act as the primary technical interface with tool vendors and external partners
+
+- Document, present and promote best practices and methodologies across teams
+
+- Mentor and coach engineers while contributing to planning, roadmap and technology watch activities
+
+🔍 What will help you succeed in this role
+
+- Strong expertise in ASIC design flows and development methodologies
+
+- Proven experience with EDA tools, automation and scripting
+
+- Ability to translate user needs into robust, scalable and efficient design flows
+
+- Strong leadership, mentoring and communication skills
+
+- High level of autonomy, ownership and organizational skills
+
+- Ability to work across teams and interfaces in a complex technical environment
+
+- Professional proficiency in English in an international context
+
+- Scientific rigor, problem-solving mindset and attention to detail
+
+➕ Experience in the following areas is a plus
+
+- Advanced ASIC toolchain integration and optimization
+
+- Development of internal tools and automation frameworks
+
+- Tool evaluation, benchmarking and vendor management
+
+- Participation in collaborative or multi-partner projects
+
+- Performance optimization and large-scale design environments
+
+- Technology scouting and standardization initiatives
+
+Dear candidate, even if you consider you do not fulfill all the qualifications mentioned above, please still apply and share with us why you believe you would be a good fit.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+3a3ebbea-24b0-4d23-86e8-522c38fdfc21,[Permanent position] Senior emulation engineer / Team lead,"Grenoble, France","Castelldefels, Spain; Maisons-Laffitte, France; Massy, France; Valbonne, France; Bologna, Italy",System validation,hybrid,2026-01-30,https://careers.sipearl.com/jobs/7144203-permanent-position-senior-emulation-engineer-team-lead,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+At SiPearl, we are developing highly complex multi-chiplets/multi-sockets CPUs, based on latest technologies for processors, NoCs and overall architecture. Those need best in class emulation platforms, and that's what our team is proud to provide.
+
+SiPearl owns one of the biggest emulation platform in Europe (in-house), a dual Veloce StratoM+, with a total capacity of 128 boards (6BGates) and up to 30 concurrent users 24/7.
+
+We even model our physical evaluation board (BMC) to shift left the Firmware and Software development pre-silicon and validate pre-tape-out the entire software stack.
+
+As a Senior Emulation Engineer at SiPearl, you will be at the heart of our projects and R&D, and an enabler for all teams success. You will have a key and highly visible lead role to drive a team, deploy new projects, and ensure the highest quality of platform deliveries.
+
+🎯Your missions
+
+- Define emulation strategy: Capture emulation needs, define emulator size, and specify flow for compilation, execution, and debugging.
+
+- Specify RTL changes: Document required RTL modifications for emulation and identify necessary collaterals.
+
+- Collaborate on verification strategy: Contribute to overall pre-silicon verification strategy.
+
+- Develop emulation workflows: Supervise and contribute to developing emulation workflows and integrate hardware/software collaterals.
+
+- Optimize workflows: Propose and implement improvements and automate tools/scripts for debugging and user experience.
+
+- Generate emulation models: tools integrate new EDA vendor features to create models adapted to user needs, debug, and optimize execution speed and model size.
+
+- Interface with suppliers: Work with tool vendors to address issues, provide feedback, and ensure resolution.
+
+- Provide user support: Assist users with emulation platform issues, optimize validation environments, and suggest workarounds.
+
+- Lead collaborative projects: Take responsibility for work packages, act as the main point of contact for partners, and manage project deliverables.
+
+- Lead a highly efficient team: Take leadership of the emulation team. Define and drive the team's tasks execution and mentor your teammates
+
+🔍 What would make you succeed in this role
+
+- At least 10 years of digital ASIC
+
+- At least 7 years of experience on emulation plateform
+
+- Good knowledge on modern CPU architecture
+
+- Experience using verification tools
+
+- Experience with embedded C
+
+- Python, HDL, bash
+
+- Leadership, flexibility and adaptability
+
+- Autonomy & responsability
+
+Dear candidate, even if you consider you do not fulfill all the qualifications mentioned above, please still apply and share with us why you believe you would be a good fit.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona), Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+0949880f-ed1a-4c8b-a12b-f2a800d1723b,[Permanent position] Senior FPGA prototyping engineer,"Grenoble, France","Castelldefels, Spain; Maisons-Laffitte, France; Massy, France; Valbonne, France; Bologna, Italy",System validation,hybrid,2026-02-02,https://careers.sipearl.com/jobs/7156892-permanent-position-senior-fpga-prototyping-engineer,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+To validate our first tape-out, we developed an initial prototyping platform, using a smart hybrid approach, connecting a real hardware system development board (socket ready) with a small prototyping FPGA board.
+
+Given the success and eager adoption of this approach by our Firmware team, we decided to think even bigger and build a full stack prototyping and demonstration platform, porting the full complexity of our designs to FPGA prototyping, and enabling the development of the entire FW and SW (BIOS, Kernel or high speed-interfaces like PCIe/DDR/UCIe) pre-silicon!
+
+To tackle that task, we are building an entire new team, who will be using state of the art multi-FPGA prototyping platforms (Ultrascale+ VP1902, the largest FPGAs in the industry), porting and modeling our entire design and connecting it with real hardware.
+
+🎯 Your missions
+
+• Design, develop and continuously improve the FPGA prototyping workflow, integrating it into the company-wide HW and SW flows
+• Generate, test and debug complex FPGA platforms from RTL, ensuring performance, robustness and maintainability
+• Develop and integrate hardware and software blocks, as well as automation tools and scripts to improve productivity and user experience
+• Provide expert-level technical support to internal users, analyze complex issues and propose long-term, scalable solutions
+• Act as a primary technical interface with EDA tool vendors and IP providers, driving technical discussions and tracking issue resolution
+• Contribute to technology watch, evaluate new tools and share best practices across teams
+
+🔍 What would make you succeed in this role
+
+- Strong expertise in FPGA development and prototyping on complex platforms
+
+- Solid knowledge of HDL languages (SystemVerilog, VHDL), timing constraints (SDC) and advanced design rules
+
+- Ability to architect robust solutions, take ownership of technical topics and drive continuous improvements
+
+- Professional proficiency in English within an international environment
+
+- Strong communication skills, team spirit and a high level of autonomy
+
+- Scientific rigor, curiosity, adaptability and a strong problem-solving mindset
+
+Dear candidate, even if you consider you do not fulfill all the qualifications mentioned above, please still apply and share with us why you believe you would be a good fit.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona); Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+692fe3f9-632e-4b98-9f32-999bb736e222,[Permanent position] Senior IP subsystem SoC architect,"Massy, France","Maisons-Laffitte, France; Grenoble, France; Valbonne, France; Bologna, Italy; Castelldefels, Spain",Architecture,hybrid,2024-03-22,https://careers.sipearl.com/jobs/3746403-permanent-position-senior-ip-subsystem-soc-architect,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+In this role, you will work closely with the Design, Verification, Physical Implementation and Software teams to define, drive and evolve IP, subsystem and SoC architectures aligned with performance, cost, manufacturability and market requirements.
+
+You will act as a technical authority and architectural reference, contributing to strategic decisions, cross-team alignment, external partnerships and team development.
+
+🎯About the missions
+
+- Define IP, subsystem and SoC architectures to meet performance, silicon area, cost and manufacturing constraints
+
+- Break down architectures into functional sub-blocks and write high-level architecture specifications, including interfaces and configuration mechanisms
+
+- Participate in commercial IP selection and process technology choices
+
+- Provide detailed definitions of software programming and configuration interfaces
+
+- Support RTL, physical design, verification, virtual and software prototyping teams by clarifying architectural intent and constraints
+
+- Review microarchitecture specifications, verification strategies and validation plans
+
+- Interface closely with marketing and product teams to ensure architectural alignment with roadmap and customer needs
+
+- Contribute to technology intelligence, monitoring standards, market trends and emerging technologies
+
+- Represent the company at seminars, conferences and technical forums, and share key learnings internally
+
+- Take ownership of work packages in collaborative and partnership projects, acting as a technical point of contact
+
+- Coordinate project deliverables and contribute regularly to partner exchanges
+
+- Mentor, coach and technically supervise junior engineers, trainees and service providers
+
+- Contribute to effort estimation, milestone planning, onboarding and training programs
+
+- Support the manager in supervising team members within the defined scope
+
+🔍 What will help you succeed in this role
+
+- Extensive experience in complex chip architecture and microarchitecture
+
+- Strong background in electronic engineering, microelectronics or computer engineering
+
+- Ability to translate market and product requirements into robust technical architectures
+
+- Excellent communication skills, with the ability to explain complex concepts to diverse audiences
+
+- Strong leadership, mentoring and cross-functional collaboration skills
+
+- High level of autonomy, accountability and strategic thinking
+
+- Professional proficiency in English in an international environment
+
+- Scientific rigor, attention to detail and strong analytical capabilities
+
+➕ Experience in the following areas is a strong plus
+
+- Core architecture design, PCIe, UCIe, memory interfaces
+
+- Cache architectures, memory consistency models, Network-on-Chip (NoC)
+
+- Communication protocols and system-level integration
+
+- Advanced ASIC design flows and semiconductor technologies
+
+- Strong software background and hardware/software co-design
+
+- Proficiency in scripting languages (Python, TCL, etc.)
+
+- Leadership roles in collaborative or multi-partner projects
+
+Dear candidate, even if you consider you do not fulfill all the qualifications mentioned above, please still apply and share with us why you believe you would be a good fit.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona), Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+d26159e4-d13f-4e7b-b847-017c2633014a,[Permanent position] Senior system architect,"Massy, France","Maisons-Laffitte, France; Grenoble, France; Valbonne, France; Bologna, Italy",Architecture,hybrid,2026-02-19,https://careers.sipearl.com/jobs/7261866-permanent-position-senior-system-architect,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+In this role, you will work closely with the Architecture Team Leader to define, document and drive system architecture for cutting-edge HPC systems, while contributing to collaborative projects with industrial and academic partners.
+
+🎯 Your missions
+
+- Define and structure the integration framework for SiPearl microprocessors, including use cases, hardware and software interfaces, and lifecycle compliance management
+
+- Lead architectural engagements with partners and customers to design optimized HPC nodes based on one or multiple SiPearl processors
+
+- Develop integration, performance measurement, benchmarking, and optimization tools to ensure processing efficiency and energy performance across the product lifecycle
+
+- Contribute actively to collaborative projects, technical deliverables, technology watch activities, and partner workshops
+
+- Support customers in migrating their applications toward new system architectures integrating SiPearl microprocessors
+
+- Mentor interns and contribute to recruitment and knowledge-sharing initiatives within the team
+
+🔍 What will help you succeed in this role
+
+- Strong expertise in system and software architecture, particularly in HPC environments (multi-core architectures, mesh networks, low latency and high bandwidth interfaces, benchmarking and troubleshooting)
+
+- Solid experience with microprocessor hardware and software interfaces (SPI, I2C, DDR, HBM, PCIe) and server management protocols (RedFish, IPMI, PSCI, SCMI, PLDM)
+
+- Proficiency in C/C++ and other relevant programming languages, with strong Linux and Windows development experience and ARM programming knowledge
+
+- Proven ability to define proof of concepts, analyze data flows and bandwidth requirements, and deliver architecture recommendations balancing performance and energy efficiency
+
+- Strong debugging skills across multiple subsystems and the ability to identify root causes and resolve complex integration issues
+
+- Familiarity with development tools such as GitLab, Polarion, and PlantUML
+
+- Scientific rigor, structured thinking, and strong synthesis capabilities
+
+- Leadership mindset, proactive risk management, and the ability to work effectively in cross-functional and international environments
+
+➕ Experience in the following areas is a plus
+
+- Embedded systems constraints and security
+
+- HPC system benchmarking, performance optimization, and large-scale system integration
+
+- Participation in collaborative R&D projects and technical reporting
+
+- Technical mentoring, workshop facilitation, and cross-organizational architectural governance
+
+- Minimum 7 years of experience as a System Architect or Software Architect
+
+- Proven experience in HPC environments, including multi-core architectures, mesh interconnects, low-latency systems, high-bandwidth interfaces, benchmarking, troubleshooting, security, and system integration
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona), Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+97abce6e-7b69-4b23-8976-13c50c648434,[Permanent position] Senior verification engineer / team lead,"Valbonne, France","Maisons-Laffitte, France; Massy, France; Castelldefels, Spain; Grenoble, France; Bologna, Italy",SoC & IP engineering,hybrid,2025-09-29,https://careers.sipearl.com/jobs/6531642-permanent-position-senior-verification-engineer-team-lead,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+In this role, you will work closely with our Verification Team Lead to define and drive the architecture of SiPearl’s microprocessor verification platform. You will play a key role in designing and validating our next-generation SoCs while leading a team of engineers.
+
+🎯 What a regular day at the job might look like
+
+- Define the verification platform architecture (UVM/SystemVerilog, C/C++, Python…)
+
+- Develop and maintain test environments, verification benches, and functional simulations
+
+- Plan, prioritize, and track verification activities throughout the development cycle
+
+- Lead and mentor a team of verification engineers
+
+- Collaborate with system architects, design teams, and embedded software teams.
+
+🔍 What would make you succeed in this role
+
+- Minimum 7–10 years of experience in ASIC/SoC verification, including 3–5 years as an architect or lead
+
+- Proficiency in SystemVerilog/UVM, VHDL/Verilog, C/C++, Python/TCL scripting.
+
+- Proven experience in team management and leading technical projects
+
+- Strong understanding of SoC architectures and communication protocols (AXI, AHB, PCIe, Ethernet…)
+
+- Leadership, ability to bring a team together, and excellent communication skills
+
+- Education: Master’s degree or PhD in electronics, microelectronics, embedded computing, or equivalent
+
+- Languages: Fluent French and professional English (reading, writing, speaking).
+
+➕ Experience in the following areas is a plus:
+
+- Formal verification methodologies, assertions (SVA)
+
+- Simulation tools (Synopsys VCS, Cadence Xcelium, Mentor Questa)
+
+- Participation in cutting-edge innovative projects in an international environment.
+
+Dear candidate, even if you consider you do not fulfill all the qualifications mentioned above, please still apply and share with us why you believe you would be a good fit.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️ AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️ 2 Technical interviews (1h each)
+
+✔️ Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions :
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona), Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+c43cf70e-7377-4a22-be55-b5327de6f650,[Permanent position] System Software Validation Engineer,"Grenoble, France","Castelldefels, Spain; Maisons-Laffitte, France; Massy, France; Valbonne, France; Bologna, Italy",System validation,hybrid,2026-02-04,https://careers.sipearl.com/jobs/7173295-permanent-position-system-software-validation-engineer,"❓ About SiPearl…
+
+SiPearl is the European fabless designer of sovereign secure high-performance energy-efficient CPUs for HPC, AI and data centres. These CPUs will help address strategic challenges in the fields of security, defence, medical research, energy, climate and engineering with a reduced environmental footprint.
+
+In June 25, SiPearl completed the design of the most complex CPU ever designed in Europe, Rhea1. Featuring 80 Arm Neoverse V1 cores, with 61 billion transistors, it is currently in production at TSMC. Sipearl CPUs will equip the two first European exascale supercomputers belonging to EuroHPC JU: Rhea1 will be integrated into the JUPITER machine based in Germany and Rhea2 will be part of Alice Recoque in France.
+
+Incubated within the European Processor Initiative (EPI) consortium and seed-funded by the European Union, SiPearl employs almost 200 people in :
+
+- France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+- Spain (Barcelona)
+
+- and Italy (Bologna)
+
+Following a €130 million Series A, the company has launched its Series B round.
+
+💻 About the role
+
+To validate our first tape-out, we developed an initial prototyping platform, using a smart hybrid approach, connecting a real hardware system development board (socket ready) with a small prototyping FPGA board. We also developed a full design emulation platform (Veloce/Siemens) to model the Silicon.
+Our team is using those systems to prepare and test the full validation suit and be ready to deploy it when our silicon comes back.
+
+We work closely with all levels of software (BMC, System Control, TFA, BIOS, Kernel) to ensure all firmware and software developed at SiPearl work seamlessly before reaching our customers.
+
+Under the direction of the System Validation Team Leader or any other manager designated by Management, you will play a key role in ensuring the quality, reliability and compliance of the company’s software solutions.
+
+You will be responsible for designing and executing comprehensive test strategies to identify defects, document anomalies and verify that software products fully meet user expectations, functional specifications and quality standards, while working closely with development and project teams.
+
+🎯 Your missions
+
+• Define and maintain test strategies and test plans aligned with functional and technical specifications
+• Design, develop and maintain manual and automated test cases and scripts
+• Ensure that all FW/SW stacks are integrated properly and meet the system requirements
+• Execute functional, non-regression and performance tests, analyze results and track defects
+• Work closely with development and project teams to investigate issues and improve product quality
+• Communicate test results, risks and quality indicators to stakeholders
+• Contribute to the continuous improvement of testing processes and tools
+• Supervise and mentor interns, contributing to topic definition and recruitment-related activities
+
+🔍 What would make you succeed in this role
+
+- Professional fluency in English within an international environment
+
+- Strong expertise in software testing tools, methodologies and best practices
+
+- Solid knowledge of programming languages, test automation and scripting
+
+- Experience with continuous integration tools and version control systems (Git)
+
+- Practical experience with software protocols and interfaces (SCMI, PLDM, PSCI etc... Redfish, Robo framework)
+
+- Strong understanding of different software stack (BLx, TFA, UEFI, BIOS etc...)
+
+- Good understanding of board level components and their physical interfaces (BMC, VRMs, FLASH etc... I2C/I3C/SPI/GPIOs)
+
+- Ability to analyze complex issues, identify root causes and propose effective solutions
+
+- Strong communication and interpersonal skills, with a collaborative mindset
+
+- High level of autonomy, adaptability and initiative
+
+- Strong organizational skills, attention to detail and scientific rigor
+
+- Ethical mindset, respect for confidentiality and reliable time management
+
+- Degree in Engineering or a Master’s in electronics, software engineering or a related field
+
+- At least 7 years of professional experience in software testing or quality assurance
+
+Dear candidate, even if you consider you do not fulfill all the qualifications mentioned above, please still apply and share with us why you believe you would be a good fit.
+
+Recruitment process
+
+✔️Discovery interview with our Talent Acquisition Partner (30 min)
+
+✔️AssessFirst personality test - no need to worry, there is no wrong or right answer; our goal is to see beyond your resume (45')
+
+✔️2 Technical interviews (1h each)
+
+✔️Interview with one HRBP in order to answer to your last questions (30 min)
+
+💡 Benefits and conditions
+
+- Contract: Permanent Contract
+
+- Benefits: annual bonus*; meal vouchers (60% covered by SiPearl); health insurance (70% covered by SiPearl); illimited access and pre-paid sessions with a practitioner of your choice on our mental health partner app, moka.care; technical, linguistic and personal development training; BSPCE
+
+- Work model: On-Site or Hybrid (2 days/week remote)
+
+- 📍 Office: This role is open for our locations in France (Maisons-Laffitte, Massy, Grenoble and Sophia Antipolis), Spain (Castelldelfels - Barcelona), Italy (Bologna)
+
+- ⚠️ Please note that while we do not provide VISA Sponsorship, we are committed to assisting international candidates with the visa application process to the best of our ability.
+
+Are you curious to learn more about us?
+
+- Follow us on LinkedIn to stay updated with our latest news
+
+- Get updated about our recruiting activities: Sipearl careers webpage
+
+- Get to know a bit more about our team culture: Welcome to the jungle
+
+At SiPearl, we are dedicated to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with our company's goals and values."
+5024f737-b036-4769-adfc-fa771c1bac8f,Spontaneous application 🌐,"Grenoble, France","Castelldefels, Spain; Maisons-Laffitte, France; Massy, France; Valbonne, France; Bologna, Italy",,hybrid,2025-03-18,https://careers.sipearl.com/jobs/5696368-spontaneous-application,"At SiPearl, we are constantly looking for new talent! 🚀
+
+If you are passionate about your profession and wish to grow in a stimulating environment, don’t hesitate to send us your spontaneous application.
+
+We are open to all applications and will carefully consider each profile.
+
+Join us to help create Rhea, the ""Made in Europe"" microprocessor that will be the technological heart of European supercomputers, and develop your skills within a fast-growing company.
+
+💻
+
+Who are we?
+
+Founded in 2019 with the support of the European Union 🇪🇺, SiPearl embodies Europe's dream of mastering the technological heart of its supercomputers: the microprocessor.
+
+SiPearl is developing Rhea, the high-performance, low-power European microprocessor dedicated to supercomputing and AI.
+
+This new generation of microprocessors will initially target the EuroHPC ecosystem, which is deploying world-class high-performance computing infrastructures in Europe to tackle major challenges in medical research, artificial intelligence, security, energy management, and climate with a reduced carbon footprint.
+
+SiPearl works closely with its 30 partners from the European Processor Initiative (EPI) consortium – major names from the scientific community, high-performance computing centers, and industry – who are its stakeholders, future clients, and end users.
+
+SiPearl employs over 190 people in:
+
+France (Maisons-Laffitte, Grenoble, Massy, Sophia Antipolis),
+
+Spain (Barcelona),
+
+Italy (Bologna).
+
+Are you curious to learn more about us?
+
+• Follow us on LinkedIn to stay informed about our latest news
+
+• Stay updated on our recruitment activities: SiPearl Careers
+• Discover our culture: Welcome to the Jungle
+
+At SiPearl, we are committed to building a diverse and inclusive workplace that thrives on the strength of varied perspectives and backgrounds. We recruit talent based on merit, experience, and alignment with the goals and values of our company."

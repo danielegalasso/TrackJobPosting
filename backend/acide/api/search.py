@@ -7,8 +7,9 @@ from typing import Any
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 
+from .. import calibration, exclusions, ranking, search
 from .. import config as config_module
-from .. import ranking, search
+from ..logbus import bus
 from ..models import REASONING_EFFORTS
 
 router = APIRouter(prefix="/api/search", tags=["search"])
@@ -46,6 +47,7 @@ def status() -> dict[str, Any]:
         "counts": ranking.review_counts(_digest()),
         "scoring": _scoring_settings(),
         "brief_present": bool(_digest()),
+        "calibration": calibration.status(),
     }
 
 
@@ -126,7 +128,7 @@ def _list_price(model: str) -> float | None:
 
 @router.get("/estimate")
 def estimate(
-    mode: str = Query("stale", pattern="^(new|stale|all)$"),
+    mode: str = Query("stale", pattern="^(new|stale|calibration|all)$"),
     limit: int | None = Query(None, ge=1),
 ) -> dict[str, Any]:
     """How many reviews a run would make, and what they would cost."""
@@ -137,7 +139,7 @@ def estimate(
     # or postings imported but not yet ranked are left out of it.
     ranking.refresh()
     count = len(
-        ranking.candidates_for_review(limit, digest, again=mode == "all", mode="new" if mode == "new" else "stale")
+        ranking.candidates_for_review(limit, digest, again=mode == "all", mode=_review_mode(mode))
     )
     model = config_module.load().openrouter.model
     per_posting, samples = ranking.average_cost(model)
@@ -158,8 +160,13 @@ def estimate(
     }
 
 
+def _review_mode(mode: str) -> str:
+    """"all" is "stale" taken again (`again`); the others are themselves."""
+    return "stale" if mode == "all" else mode
+
+
 class ReviewBody(BaseModel):
-    mode: str = Field(pattern="^(new|stale|all)$")
+    mode: str = Field(pattern="^(new|stale|calibration|all)$")
     limit: int | None = Field(default=None, ge=1)
 
 
@@ -171,8 +178,7 @@ def review(body: ReviewBody) -> dict[str, Any]:
         raise HTTPException(status_code=409, detail="write the brief first")
     if not config_module.load().openrouter.api_key:
         raise HTTPException(status_code=409, detail="add an OpenRouter key in Settings first")
-    mode = "new" if body.mode == "new" else "stale"
-    if not search.start_review(mode, body.limit, again=body.mode == "all"):
+    if not search.start_review(_review_mode(body.mode), body.limit, again=body.mode == "all"):
         raise HTTPException(status_code=409, detail="a search or a review is already running")
     return {"started": True}
 
@@ -181,3 +187,71 @@ def review(body: ReviewBody) -> dict[str, Any]:
 def stop_review() -> dict[str, Any]:
     ranking.stop_review()
     return {"stopping": True}
+
+
+class FiltersBody(BaseModel):
+    title: list[str] = Field(default_factory=list)
+    company: list[str] = Field(default_factory=list)
+    location: list[str] = Field(default_factory=list)
+
+
+def _filters_payload(filters: exclusions.Filters) -> dict[str, Any]:
+    counts = ranking.review_counts(_digest())
+    by_filter = {
+        reason: n
+        for reason, n in counts["excluded_by_reason"].items()  # type: ignore[union-attr]
+        if reason.startswith(exclusions.REASON_PREFIX)
+    }
+    return {**filters.as_dict(), "excluded": sum(by_filter.values()), "by_filter": by_filter}
+
+
+@router.get("/filters")
+def get_filters() -> dict[str, Any]:
+    """The words a posting's title, company or location must not have."""
+    return _filters_payload(exclusions.load())
+
+
+@router.put("/filters")
+def put_filters(body: FiltersBody) -> dict[str, Any]:
+    """Save the filters and apply them to every posting at once."""
+    filters = exclusions.save(body.model_dump())
+    ranking.refresh()
+    return _filters_payload(filters)
+
+
+@router.get("/calibration")
+def get_calibration() -> dict[str, Any]:
+    return calibration.status()
+
+
+class CalibrationSettingsBody(BaseModel):
+    auto: bool
+    every: int = Field(ge=5, le=1000)
+
+
+@router.put("/calibration")
+def put_calibration(body: CalibrationSettingsBody) -> dict[str, Any]:
+    """Whether to learn from the feedback by itself, and how often."""
+    calibration.save_settings(auto=body.auto, every=body.every)
+    return calibration.status()
+
+
+@router.post("/calibration/run")
+def run_calibration() -> dict[str, Any]:
+    """Learn from the feedback now, whatever the count."""
+    if not _digest():
+        raise HTTPException(status_code=409, detail="write the brief first")
+    if not config_module.load().openrouter.api_key:
+        raise HTTPException(status_code=409, detail="add an OpenRouter key in Settings first")
+    if not calibration.feedback():
+        raise HTTPException(status_code=409, detail="star or remove some postings first")
+    if not calibration.start(say=lambda line: bus.publish(line, "info")):
+        raise HTTPException(status_code=409, detail="a calibration is already running")
+    return {"started": True}
+
+
+@router.delete("/calibration")
+def reset_calibration() -> dict[str, Any]:
+    """Forget what was learned; the reviews go back to the brief alone."""
+    calibration.reset()
+    return calibration.status()

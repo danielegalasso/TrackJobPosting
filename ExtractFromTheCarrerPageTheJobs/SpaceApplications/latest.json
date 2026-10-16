@@ -2,9 +2,9 @@
   "source": "https://www.spaceapplications.com/open-positions",
   "company": "Space Applications Services",
   "query": "",
-  "extracted_at": "2026-10-10T10:53:09",
-  "site_total": 20,
-  "extracted": 20,
+  "extracted_at": "2026-10-15T08:18:13",
+  "site_total": 21,
+  "extracted": 21,
   "postings": [
     {
       "job_id": "1053503244",
@@ -192,6 +192,17 @@
       "published": "2026-08-26",
       "deadline": "",
       "description": "Back\nCareer\nRobotics Engineer – Manipulation & Perception\nInternship - Commercial Strategy & Market Analysis\nsee\nThe Robotics Software and Intelligence (RSI) Division is responsible for the study, design, prototyping and development of state-of-the-art robotics products for our customers.\nPosition\nIn the context of multiple projects, autonomous manipulation solutions are required for robotic arms coupled with perception in the loop.\nThe successful candidate will contribute to developing, prototyping and testing trajectory planning, kinematics and dynamics based control algorithms for mobile manipulators for ongoing projects of the RSI division, as well as testing on mobile robotics platforms.\nLocation: Sint-Stevens-Woluwe (Brussels Area)\nStart date: At the earliest.\nTasks and Responsibilities\nAnalyse project requirements from use cases\nIdentify solutions from the State-of-the-Art manipulation strategies linked with perception of the environment\nDesign software architecture, software development of algorithms and testing with simulated and real data sets\nIntegrate hardware updates to existing manipulators in terms of sensors and effectors\nDevelop and evaluate software for autonomous manipulation modalities for diverse end effectors in unstructured environments\nParticipate to end-to-end implementation, testing, integration and optimisation on target robot architecture and simulated twin\nWillingness to commit and take major responsibilities in challenging robotic field test campaigns\nSkills and Experience\nMSc or PhD in relevant fields (robotics, automation & control, computer science, mechatronics, software engineering)\nAt least 2-3 years of demonstrable experience in industrial and/or research domains of mobile manipulation control\nStrong theory and experience in trajectory planning/generation, kinematic and dynamics solvers and control of manipulators, end effectors and/or mobile robots\nGood background in computer vision – Mapping/3D reconstruction, object detection, tracking, 3D pose estimation of targets\nManipulator control coupled with Vision - visual servoing, tracking targets etc\nVery strong programming skills (C++, Python) on Linux environment, Git tools and docker\nGood experience of robotics software development in ROS/ROS2, kinematics/dynamics frameworks (Ex. MoveIt2)\nProven experience on integration and testing of developed SW, Drivers and HW components on real robots - industrial setting or field testing and validation campaigns\nGood proficiency with technical documentation\nStrength to cope with schedules and deadlines\nGood written and spoken English.\nOur Offer\nWorking within an exceptional sector with Staff located in Belgium, Germany and the Netherlands\nA professional and modern working environment with motivated Administrative Staff, Engineers, Astronaut Training Instructors and Scientists coming from all different horizons and countries with a common passion for space and their own expertise\nA full-time position with an indefinite contract of employment\nA competitive remuneration package and good working conditions\nWorking from home in part can be a possibility\nAn individualised training and development programmes.\nShare\nApply\nnow !"
+    },
+    {
+      "job_id": "1589855282",
+      "title": "Software Engineer – Ground Segment & Mission Control",
+      "url": "https://www.spaceapplications.com/career?id=1589855282",
+      "location": "",
+      "country": "",
+      "contract": "",
+      "published": "2026-08-14",
+      "deadline": "",
+      "description": "Space Applications Services is an independent Belgian company developing advanced space systems, applications and services. Our work spans human spaceflight and robotics, mission control and ground segment software, and Earth observation data systems, for ESA, national agencies, institutional customers and commercial operators across Europe and beyond.\n\nThe Control and Data Centres (CDC) team, part of the Ground and Software Systems Division, builds the software that operators use to fly spacecraft and to acquire, process and distribute mission data. We are the team behind Yamcs, the open-source mission control system used from university CubeSats to institutional missions at ESA and NASA, and we design and deliver cloud-native ground segment solutions for missions of every size."
     },
     {
       "job_id": "25529095",

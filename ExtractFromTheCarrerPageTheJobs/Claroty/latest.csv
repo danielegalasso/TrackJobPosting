@@ -1,5 +1,45 @@
 job_id,title,location,department,contract,published,url,description
-CE.079,AI Platform- Software Engineer Team Leader,"Tel Aviv, IL",Software Engineering,,2026-10-08,https://claroty.com/open-positions/CE.079,"Description
+66.271,"AI Platform, Backend Software Engineer","Tel Aviv, IL",Software Engineering,Full Time Employee,2026-10-13,https://claroty.com/open-positions/66.271,"Description
+We’re growing and looking to hire a Backend Software Engineer, AI Platform who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity
+
+Claroty is a global leader in cyber-physical systems (CPS) protection, dedicated to securing the critical infrastructure that keeps the world running. We’re a fast-growing, award-winning team where innovation meets purpose—and we want you to help us define the future of cybersecurity.
+
+At Claroty, our technology strategy is focused on solving real-world cyber-physical security problems at scale through robust, distributed, cloud-native architectures. We design and evolve a unified platform that serves as the technological backbone for all Claroty products, delivering deep visibility across CPS environments—without disrupting critical operations. Our architecture emphasizes scalability, resilience, and extensibility to support both cloud and on-prem deployments.
+
+About the Role:
+
+As a Backend Software Engineer, AI Platform at Claroty, you will design and build high-performance backend systems and production-grade AI solutions that secure critical cyber-physical environments. You will solve complex architecture, networking, and data challenges, integrating cutting-edge LLM and AI technologies directly into our core product platform.
+
+Responsibilities
+As a Backend Software Engineer, AI Platform your impact will be:
+
+- Feature & Architectural Ownership: Take end-to-end ownership over complex features from initial architecture to global deployment implementing scalable architectures across cloud and on-prem environments.
+- AI & LLM Integration: Design, build, and deploy production-grade LLM applications, RAG systems, and AI agents to enable intelligent natural language interfaces and automated security workflows.
+- AI-Assisted Engineering: Integrate modern AI development platforms (specifically Cursor, Claude, or GitHub Copilot) into daily workflows to accelerate code generation, optimize refactoring, and automate complex problem-solving.
+- Code Excellence: Promote engineering best practices, system resilience, and clean code architecture.
+
+Requirements
+What you need to succeed in this role:
+
+- Backend & Python Expertise: 5+ years of hands-on experience in server backend design and development, with a strong track record of building complex production applications in Python.
+- AI & LLM Applications (Hands-on): Practical experience building and deploying production-grade LLM applications, RAG systems, AI agents, or natural language interfaces.
+- Distributed Systems Architecture: Proven experience building distributed, high-availability, large-scale systems handling real-time data traffic and networking protocols.
+- AI-Driven Workflows: Proficiency in utilizing AI development tools (specifically Cursor and Claude) to streamline software development workflows and root-cause defect analysis.
+- Bonus Points: Cloud-Native experience (AWS/Azure/GCP, Docker, Kubernetes), cybersecurity background (ZTNA, IAM, VPN), and deep networking/security knowledge (TCP/IP, SSH, RDP, Encryption).
+
+About Claroty
+
+Claroty empowers organizations to protect the mission-critical infrastructure that underpins modern life. The AI-powered Claroty Platform serves as the single source of operational truth, providing the deepest visibility and broadest protection across cyber-physical systems (CPS), leveraging five core solutions: asset inventory, exposure management, network protection, secure access, and threat detection. Claroty helps organizations operationalize CPS protection through a programmatic approach designed to reduce risk, maintain operational integrity, and meet compliance–whether in the cloud with Claroty xDome or on-premise with Claroty Continuous Threat Detection (CTD). Claroty is deployed by hundreds of organizations at thousands of sites globally. The company is headquartered in New York City and has a presence in Europe, Asia-Pacific, and Latin America. To learn more, visit claroty.com.
+
+Claroty is an equal-opportunity employer committed to fostering a diverse and inclusive work environment for all. We encourage applications from candidates of ALL diverse backgrounds, and special accommodations are available upon request in all selection phases.
+
+Follow us on social media:
+
+- Linked﻿In
+- LinkedIn Life Page
+- Facebook
+- Instagram"
+CE.079,AI Platform- Software Engineer Team Leader,"Tel Aviv, IL",Software Engineering,,2026-10-14,https://claroty.com/open-positions/CE.079,"Description
 We’re growing and looking to hire a Software Engineer Team Leader who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -49,7 +89,7 @@ Follow us on social media:
 - LinkedIn life page
 - Facebook
 - Instagram"
-0A.374,Backend Software Engineer,"Tel Aviv, IL",Software Engineering,Full Time Employee,2026-10-09,https://claroty.com/open-positions/0A.374,"Description
+0A.374,Backend Software Engineer,"Tel Aviv, IL",Software Engineering,Full Time Employee,2026-10-13,https://claroty.com/open-positions/0A.374,"Description
 We’re growing and looking to hire a Backend Software Engineer who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -99,7 +139,68 @@ Follow us on social media:
 - LinkedIn Life Page
 - Facebook
 - Instagram"
-D5.076,DevOps Engineer,"Tel Aviv, IL",Devops,Full Time Employee,2026-10-08,https://claroty.com/open-positions/D5.076,"Description
+86.374,Corporate Counsel,"New York, US",Legal,,2026-10-14,https://claroty.com/open-positions/86.374,"Description
+We’re growing and looking to hire a strong Corporate Counsel / Senior Corporate Counsel who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
+
+Claroty is a global leader in protecting cyber-physical systems (CPS), dedicated to securing the critical infrastructure that keeps the world running. We’re a fast-growing, award-winning team where innovation meets purpose—and we want you to help us define the future of cybersecurity.
+
+Why This Role Is Different:
+
+Claroty sits at a unique strategic intersection: cybersecurity, critical infrastructure, and AI, at a moment of rapid growth and strong market opportunities. Our clients include many of the world’s largest and most recognized companies. Our work also expands to federal agencies and public sector organizations that protect national critical infrastructure.
+
+This is an opportunity to take part in shaping Claroty’s strategic shift to AI on every front. Internally, you will take part in designing how the legal department works with cutting edge AI technologies. On the product side, you will advise on how AI is revolutionizing our platform and be deeply involved in the go-to market and product mapping and structuring.
+
+You will have a seat at the table on M&A deals, strategic alliances, and federal and public sector growth initiatives that define the company’s next chapter.
+
+About the Role:
+
+As Corporate Counsel, you will serve as a trusted legal advisor, providing strategic and practical legal support across commercial transactions, operational matters, and corporate governance. You will partner closely with cross-functional leadership to negotiate key contracts, manage risk, and ensure regulatory compliance in a fast-paced environment. In this high-impact position, you will help shape risk-mitigation strategies while directly supporting the business's growth and strategic objectives.
+
+If you’re a sharp, commercially minded lawyer who likes solving hard problems, learning fast and owning things end-to-end, you’ll understand why people love it here.
+
+Responsibilities
+As Corporate Counsel, your impact will be:
+
+- Commercial Contracts & Deal Execution: Negotiate and close complex global commercial transactions with some of the world’s largest enterprises, including enterprise SaaS agreements and strategic partnerships.
+- Strategic Alliances & Partnerships: Structure and negotiate strategic alliances, channel, reseller, MSP, and technology partnerships, OEM arrangements, and joint go-to-market relationships with leading industrial automation and technology companies.
+- Federal & Public Sector: Support our federal and public sector business, including government contracting terms, FAR/DFARS flow-downs, reseller and prime/sub arrangements, and related compliance requirements.
+- M&A & Corporate Development: Play a hands-on role in M&A deals and strategic corporate transactions, from due diligence and deal documentation through closing and post-merger integration.
+- Corporate Governance: Lead international entity formation and management, support board and corporate governance matters as the company scales, and maintain the trademark portfolio.
+- AI Transformation: Help shape the company’s strategic transition to AI internally, in product, operationally within the legal department, and externally with customers and partners.
+- Cross-Functional Generalist Advisory: Serve as a go-to legal partner across Sales, Product, HR, and Operations, providing business-minded advice on everyday legal matters, IP, regulatory compliance, and risk mitigation.
+- Data Privacy & Regulatory Compliance: Support global privacy compliance programs, monitoring evolving domestic and international regulations impacting SaaS, AI, and cybersecurity technology.
+- Legal Operations & Automation: Build scalable legal processes and use legal tech tools (including CLMs such as Ironclad and AI-driven legal tools such as GC AI) to streamline workflows. You’ll help shape how a lean legal team uses legal operations and AI to scale.
+- Leadership & Executive Advisory: Provide pragmatic legal risk assessments directly to senior leadership to drive fast, high-impact business decisions as the company scales.
+
+Requirements
+What you need to succeed in this role:
+
+- In-House Tech Experience: 5+ years of legal experience, including hands-on experience in a high-growth tech company with a lean legal department.
+- Domain Expertise: Strong transactional background in SaaS, software, and global commercial technology deals. Experience in any of the following is a strong plus: M&A, strategic alliances, cybersecurity, healthcare (including HIPAA), public sector or federal government contracting, or Canada/LATAM transactions.
+- Pragmatic Generalist Mindset: Demonstrated ability to manage diverse legal streams (contracts, HR, privacy, IP) and deliver actionable, business-first advice without over-analyzing.
+- Legal Tech & AI Capabilities: Hands-on experience with CLM platforms such as Ironclad. Experience leading or implementing a CLM or legal tech rollout is a strong plus. A builder’s mindset: you actively use AI and modern legal tech tools to move faster, and you enjoy creating the playbooks, templates, and workflows that help a lean team scale.
+- Educational & Bar Qualifications: J.D. from an accredited law school and active bar admission in good standing; training in a top-tier law firm tech practice preferred.
+- Location & Travel Commitment: Based in the Eastern Time Zone (US), willing and able to travel 10–15% for offsites, team gatherings, and major initiatives.
+
+About Claroty
+
+Claroty empowers organizations to protect the mission-critical infrastructure that underpins modern life. The AI-powered Claroty Platform serves as the single source of operational truth, providing the deepest visibility and broadest protection across cyber-physical systems (CPS), leveraging five core solutions: asset inventory, exposure management, network protection, secure access, and threat detection. Claroty helps organizations operationalize CPS protection through a programmatic approach designed to reduce risk, maintain operational integrity, and meet compliance–whether in the cloud with Claroty xDome or on-premise with Claroty Continuous Threat Detection (CTD). Claroty is deployed by hundreds of organizations at thousands of sites globally. The company is headquartered in New York City and has a presence in Europe, Asia-Pacific, and Latin America. To learn more, visit claroty.com.
+
+Claroty is widely recognized as the industry leader in CPS protection, backed by the world’s largest investment firms and industrial automation vendors. The company has been named a Leader in 2026 Gartner® Magic Quadrant™ for CPS Protection Platforms two years in a row, a Customers’ Choice in the 2026 Gartner® Peer Insights™ Voice of the Customer for CPS Protection Platforms, and a Leader and a Customer Favorite in The Forrester Wave™: Operational Technology Security Solutions, Q3 2026. Claroty has also been named to the Forbes Cloud 100 and Deloitte Technology Fast 500 multiple consecutive years.
+
+Compensation: The expected total annual cash compensation (base salary + target bonus) for this role is approximately $190,000–$220,000, depending on experience and qualifications. This includes a base salary range of $172,700–$200,000 plus a target bonus of 10% of base. The position is also eligible for equity. Benefits include [medical, dental, and vision coverage; 401(k); paid time off; parental leave; and other benefits], subject to plan terms.
+
+Claroty is an equal-opportunity employer committed to fostering a diverse and inclusive work environment for all. We encourage applications from candidates of ALL diverse backgrounds, and special accommodations are available upon request in all selection phases.
+
+Follow us on social media:
+
+- LinkedIn
+- LinkedIn Life Page
+- Facebook
+- Instagram
+
+#LI-REMOTE"
+D5.076,DevOps Engineer,"Tel Aviv, IL",Devops,Full Time Employee,2026-10-14,https://claroty.com/open-positions/D5.076?t=1792001903163,"Description
 We’re growing and looking to hire a DevOps Engineer who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -150,7 +251,7 @@ Follow us on social media:
 - LinkedIn Life Page
 - Facebook
 - Instagram"
-77.C60,Director of Data & AI,"Tel Aviv, IL",Data,,2026-10-05,https://claroty.com/open-positions/77.C60,"Description
+77.C60,Director of Data & AI,"Tel Aviv, IL",Data,,2026-10-14,https://claroty.com/open-positions/77.C60,"Description
 We’re growing and looking to hire a Director of Data & AI who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -196,7 +297,7 @@ Follow us on social media:
 - LinkedIn Life Page
 - Facebook
 - Instagram"
-07.277,Enterprise Account Executive (Northeast),"New York, US",Sales,,2026-10-09,https://claroty.com/open-positions/07.277?-%5BSocial%5D%20Talent%20Acquisition&hss_channel=lcp-12898104,"Description
+07.277,Enterprise Account Executive (Northeast),"New York, US",Sales,,2026-10-14,https://claroty.com/open-positions/07.277,"Description
 We’re growing and looking to hire a Enterprise Account Executive who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -249,7 +350,7 @@ Follow us on social media:
 - Instagram
 
 #LI-REMOTE"
-5B.371,"Field CTO, Public Sector","New York, US",Public Sector,,2026-10-10,https://claroty.com/open-positions/5B.371,"Description
+5B.371,"Field CTO, Public Sector","New York, US",Public Sector,,2026-10-13,https://claroty.com/open-positions/5B.371,"Description
 We’re growing and looking to hire a Field CTO & Solution Engineering Leader for our Public Sector practice who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 Claroty’s Public Sector practice is rapidly expanding to secure the mission-critical cyber-physical systems (CPS), operational technology (OT), and industrial control systems (ICS) across federal civilian agencies, the Department of Defense (DoD), national security programs, and state and local government. We are looking for mission-driven professionals who want to join a high-growth team dedicated to protecting critical infrastructure, supporting defense and civilian mission outcomes, and ensuring essential services remain resilient and uninterrupted.
@@ -302,7 +403,7 @@ Follow us on social media:
 - Instagram
 
 #LI-REMOTE"
-E0.E63,"Manager, Security Operations Engineering","Tel Aviv, IL",IT,Full Time Employee,2026-10-09,https://claroty.com/open-positions/E0.E63,"Description
+E0.E63,"Manager, Security Operations Engineering","Tel Aviv, IL",IT,Full Time Employee,2026-10-14,https://claroty.com/open-positions/E0.E63,"Description
 We’re growing and looking to hire an Information Manager, Security Operations Engineering who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -374,7 +475,54 @@ Follow us on social media:
 - Instagram
 
 #LI-HYBRID"
-59.E64,RevOps Data Analyst,"New York, US",Revenue Operations,Full Time Employee,2026-10-09,https://claroty.com/open-positions/59.E64,"Description
+3C.374,QA Automation Engineer,"Tel Aviv, IL",Automation,Full Time Employee,2026-10-15,https://claroty.com/open-positions/3C.374?-updates,"Description
+We’re growing and looking to hire a QA Automation Engineer who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
+
+Claroty is a global leader in cyber-physical systems (CPS) protection, dedicated to securing the critical infrastructure that keeps the world running. We’re a fast-growing, award-winning team where innovation meets purpose—and we want you to help us define the future of cybersecurity.
+
+At Claroty, our technology strategy is focused on solving real-world cyber-physical security problems at scale through robust, distributed, cloud-native architectures. We design and evolve a unified platform that serves as the technological backbone for all Claroty products, delivering deep visibility across CPS environments—without disrupting critical operations. Our architecture emphasizes scalability, resilience, and extensibility to support both cloud and on-prem deployments.
+
+About the Role
+
+Drive end-to-end product quality and release confidence by designing, building, and maintaining scalable test automation frameworks and CI/CD pipeline integrations that validate Claroty’s critical cyber-physical security platform.
+
+Responsibilities
+As an QA Automation Engineer , Your impact will be:
+
+- Architect and expand reliable API and UI automation frameworks to drive comprehensive test coverage and minimize release risk.
+- Embed automated quality gates directly into CI/CD pipelines, accelerating feedback loops and enabling seamless continuous integration.
+- Lead deep root-cause analysis on complex automation and system failures, driving long-term stability and product resilience.
+- Partner across Engineering, Product, and QA to align testing scope, elevate software quality standards, and ensure release readiness.
+- Integrate modern AI solutions into day-to-day workflows to improve operational output, speed, and efficiency
+
+Requirements
+What do you need to succeed in this role:
+
+- Minimum of 4+ years of hands-on experience in software QA methodology and test automation development.
+- Deep proficiency in API and UI automated testing frameworks (e.g., Playwright, Selenium, or BE tools) with web application testing experience.
+- Strong programming fundamentals with hands-on experience in Python (Big advantage).
+- Demonstrated experience with version control systems (Git) and CI/CD pipelines (e.g., Jenkins).
+- Solid problem-solving mindset with the ability to tackle unstructured technical problems and execute end-to-end QA lifecycle strategies.
+- Practical experience using AI-assisted development tools (e.g., GitHub Copilot, Cursor, LLMs) to optimize testing workflows and code quality.
+- Familiarity with Linux environments, databases, and SQL queries (Advantage).
+
+About Claroty
+
+Claroty has redefined cyber-physical systems (CPS) protection with an unrivaled industry-centric platform built to secure mission-critical infrastructure. The Claroty Platform provides the deepest asset visibility and the broadest, built-for-CPS solution set in the market comprising exposure management, network protection, secure access, and threat detection – whether in the cloud with Claroty xDome or on-premise with Claroty Continuous Threat Detection (CTD). Backed by award-winning threat research and a breadth of technology alliances, The Claroty Platform enables organizations to effectively reduce CPS risk, with the fastest time-to-value and lower total cost of ownership. Our solutions are deployed by over 1,000 organizations at thousands of sites across all seven continents.
+
+A Great Place to Work® certified company, Claroty is headquartered in New York City with employees across the world. The company is widely recognized as the industry leader in CPS protection, with backing from the world’s largest investment firms and industrial automation vendors, named a Leader in The Forrester Wave™: IoT Security Solutions, Q3 2025, recognized by KLAS Research as Best in KLAS for Healthcare IoT Security five years in a row, and ranking on the Forbes Cloud 100 and Deloitte Technology Fast 500 for multiple consecutive years.
+
+Claroty is an equal-opportunity employer committed to fostering a diverse and inclusive work environment for all. We encourage applications from candidates of ALL diverse backgrounds, and special accommodations are available upon request in all selection phases.
+
+Follow us on social media:
+
+- LinkedIn
+- LinkedIn Life Page
+- Facebook
+- Instagram
+
+#LI-Hybrid"
+59.E64,RevOps Data Analyst,"New York, US",Revenue Operations,Full Time Employee,2026-10-10,https://claroty.com/open-positions/59.E64,"Description
 We’re growing and looking to hire a RevOps Data Analyst who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company
@@ -424,82 +572,7 @@ Follow us on social media:
 - Instagram
 
 #LI-REMOTE"
-91.F65,"RVP Customer Experience, Americas","New York, US",Customer Success,Full Time Employee,2026-10-05,https://claroty.com/open-positions/91.F65,"Description
-We’re growing and looking to hire a RVP Customer Experience who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
-
-About the Company:
-
-Claroty is a global leader in cyber-physical systems (CPS) protection, dedicated to securing the critical infrastructure that keeps the world running. We’re a fast-growing, award-winning team where innovation meets purpose—and we want you to help us define the future of cybersecurity.
-
-About the Role:
-
-The RVP Customer Experience – Americas will lead and scale the regional CX organization, overseeing Customer Success (CS) and Technical Account Management (TAM). This leader will manage a regional pod structure designed to unify these functions, ensuring a seamless, customer-centric lifecycle and superior outcomes across the Americas.
-
-Leading a large team, including two Directors - the RVP will drive adoption, retention, and growth. As a key member of the CX leadership team, you will partner cross-functionally with Sales, Product, Support, and Executive leadership to execute global strategies through localized regional excellence.
-
-Responsibilities
-As a RVP Customer Experience, your impact will be:
-
-Strategy & Leadership
-
-- Execute regional CX strategies that maximize retention, satisfaction, and long-term expansion.
-- Translate global objectives into high-impact regional execution plans and operational excellence.
-- Drive organizational planning, workforce development, and scaling initiatives to support growth.
-
-Execution & Alignment
-
-- Unify CS and TAM teams around shared business objectives and measurable customer value, through deep product fluency and OT security expertise.
-- Oversee the end-to-end lifecycle, from onboarding through renewal, as an executive sponsor for strategic accounts.
-- Partner with Sales to mitigate risk and drive expansion opportunities.
-- Executive Escalation Leadership: Act as the primary regional executive sponsor and escalation point for high-stakes customer friction, owning executive communication and crisis mitigation.
-
-﻿Cross-Functional Orchestration:
-
-- Drive de-escalation by aligning internal teams - including Product, Engineering, Support, Sales, and Data - to unblock technical health issues, deployments, stabilize operations and protect revenue.
-- Collaborate with Product and Support to ensure the ""voice of the customer"" informs the product roadmap.
-
-Requirements
-What you need to succeed in this role:
-
-- 10+ years in CX leadership (CS, TAM, or Professional Services) within cybersecurity or enterprise software.
-- 8+ years managing managers and multi-layered, technical, and business-focused organizations.
-- Proven track record of scaling teams and driving GRR/NRR in high-growth environments.
-- In-depth knowledge of OT/ICS terminology and fundamental knowledge of critical infrastructure environments, and the Americas market (NAM/LATAM).
-- Technical background with cybersecurity products within the OT/ICS environments, as well as in-depth knowledge of networking and cybersecurity principles.
-- CISSP and/or CISM
-- Knowledge of the core cybersecurity frameworks and standards, specifically against SA/IEC 62443, NIST SP 800-82, and NERC CIP.
-
-Organizational Scope
-
-- Reports directly to the EVP Customer Experience.
-- Leads two Directors of Customer Experience.
-- Responsible for Customer Success and Technical Account Management performance across North America and Latin America.
-
-Success Measures
-
-- Key Metrics: Gross Revenue Retention (GRR), Net Revenue Retention (NRR), and CSAT.
-- Execution: Successful Alignment with GTM teams in the Americas
-- Talent: High levels of team engagement and effective leadership development.
-- Delivery: Quality deployments, ongoing care, and maintenance.
-- Standards & Process: Adherence to and input against internal standards and processes.
-
-About Claroty
-
-Claroty empowers organizations to protect the mission-critical infrastructure that underpins modern life. The AI-powered Claroty Platform serves as the single source of operational truth, providing the deepest visibility and broadest protection across cyber-physical systems (CPS), leveraging five core solutions: asset inventory, exposure management, network protection, secure access, and threat detection. Claroty helps organizations operationalize CPS protection through a programmatic approach designed to reduce risk, maintain operational integrity, and meet compliance–whether in the cloud with Claroty xDome or on-premise with Claroty Continuous Threat Detection (CTD). Claroty is deployed by hundreds of organizations at thousands of sites globally. The company is headquartered in New York City and has a presence in Europe, Asia-Pacific, and Latin America. To learn more, visit claroty.com.
-
-Claroty is widely recognized as the industry leader in CPS protection, backed by the world’s largest investment firms and industrial automation vendors. The company has been named a Leader in 2026 Gartner® Magic Quadrant™ for CPS Protection Platforms two years in a row, a Customers’ Choice in the 2026 Gartner® Peer Insights™ Voice of the Customer for CPS Protection Platforms, and a Leader and a Customer Favorite in The Forrester Wave™: Operational Technology Security Solutions, Q3 2026. Claroty has also been named to the Forbes Cloud 100 and Deloitte Technology Fast 500 multiple consecutive years.
-
-The expected base salary range for this role is between $250,000 - $285,000, determined by objective criteria including skills, qualifications, and experience level. This range represents base salary only and does not include variable compensation components such as equity or bonuses. Details regarding the broader total rewards package will be shared prior to interviews. Claroty is an equal-opportunity employer committed to fostering a diverse and inclusive work environment for all. We encourage applications from candidates of ALL backgrounds, and special accommodations are available upon request in all selection phases.
-
-Follow us on social media:
-
-- LinkedIn
-- LinkedIn Life Page
-- Facebook
-- Instagram
-
-#LI-REMOTE"
-D6.27A,Sales Development Representative,"New York, US",Marketing,Full Time Employee,2026-10-10,https://claroty.com/open-positions/D6.27A?ref=1023053163,"Description
+D6.27A,Sales Development Representative,"New York, US",Marketing,Full Time Employee,2026-10-14,https://claroty.com/open-positions/D6.27A,"Description
 We’re growing and looking to hire a Sales Development Representative, who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -551,7 +624,7 @@ Follow us on social media:
 - Instagram
 
 #LI-REMOTE"
-13.F61,"Sales Director, SEA","Singapore, SG",Sales,Full Time Employee,2026-10-08,https://claroty.com/open-positions/13.F61,"Description
+13.F61,"Sales Director, SEA","Singapore, SG",Sales,Full Time Employee,2026-10-14,https://claroty.com/open-positions/13.F61,"Description
 We’re growing and looking to hire a Sales Director who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -644,7 +717,7 @@ Follow us on social media:
 - Instagram
 
 #LI-ONSITE"
-F8.E69,"Security Solutions Engineer, PNW","New York, US",Sales,Full Time Employee,2026-10-09,https://claroty.com/open-positions/F8.E69,"Description
+F8.E69,"Security Solutions Engineer, PNW","New York, US",Sales,Full Time Employee,2026-10-15,https://claroty.com/open-positions/F8.E69,"Description
 We’re growing and looking to hire a Solution Engineer who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -702,7 +775,7 @@ Follow us on social media:
 - Instagram
 
 #LI-REMOTE"
-30.370,Senior Federal Account Executive (Fed/Civ & DIB),"New York, US",Public Sector,,2026-10-09,https://claroty.com/open-positions/30.370?-%5BSocial%5D%20Talent%20Acquisition&hss_channel=lcp-12898104,"Description
+30.370,Senior Federal Account Executive (Fed/Civ & DIB),"New York, US",Public Sector,,2026-10-15,https://claroty.com/open-positions/30.370?-%5BSocial%5D%20Talent%20Acquisition&hss_channel=lcp-12898104,"Description
 We’re growing and looking to hire a Senior Federal Account Executive who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 Claroty’s Public Sector practice is rapidly expanding to secure the mission-critical systems that our society’s safety and stability depend on. We are looking for mission-driven professionals who want to join a high-growth team dedicated to protecting critical infrastructure and ensuring essential services remain resilient and uninterrupted.
@@ -761,7 +834,7 @@ Follow us on social media:
 - Instagram
 
 #LI-REMOTE"
-2D.073,Senior Manager - Software Engineering,"Tel Aviv, IL",Software Engineering,Full Time Employee,2026-10-06,https://claroty.com/open-positions/2D.073,"Description
+2D.073,Senior Manager - Software Engineering,"Tel Aviv, IL",Software Engineering,Full Time Employee,2026-10-14,https://claroty.com/open-positions/2D.073,"Description
 We’re growing and looking to hire a Senior Manager, Software Engineering - xDome who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company
@@ -814,7 +887,7 @@ Follow us on social media:
 - LinkedIn Life Page
 - Facebook
 - Instagram"
-1D.46B,Senior Product Manager,"Tel Aviv, IL",Product Management,Full Time Employee,2026-10-08,https://claroty.com/open-positions/1D.46B,"Description
+D4.F64,Senior Product Manager,"Tel Aviv, IL",Product Management,Full Time Employee,2026-10-14,https://claroty.com/open-positions/D4.F64,"Description
 We’re growing and looking to hire a Senior Product Manager who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -862,76 +935,8 @@ Follow us on social media:
 - LinkedIn
 - LinkedIn Life Page
 - Facebook
-- Instagram
-
-#LI-HYBRID"
-00.17D,"Senior QA Automation Engineer, Public Sector","New York, US",Public Sector,Full Time Employee,2026-10-08,https://claroty.com/open-positions/00.17D,"Description
-We’re growing and looking to hire a Senior QA Automation Engineer who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
-
-About the Company:
-
-Claroty Public Sector LLC is rapidly expanding to secure the mission-critical systems that our society’s safety and stability depend on. We are looking for mission-driven professionals who want to join a high-growth team dedicated to protecting critical infrastructure and ensuring essential services remain resilient and uninterrupted.
-
-About the Role:
-
-As a Senior QA Automation Engineer for Claroty’s Public Sector team, you will ensure our cyber-physical security solutions meet the highest standards of reliability, performance, and security across federal and government environments.
-
-Location: Remote (US-Based) | EST Preferred | Travel: Minimal (<10%)
-
-Responsibilities
-As a Senior QA Automation Engineer, Your impact will be:
-
-- Design, develop, and execute automated tests using modern automation frameworks tailored for cloud-native (EKS/AWS GovCloud) and air-gapped/federal environments.
-- Integrate test suites into CI/CD pipelines (GitLab CI/Jenkins) to validate builds prior to deployment across staging and production environments.
-- Perform full E2E testing across both frontend UI and backend services (CLI, logs, containerized microservices) in mixed Linux and Windows environments.
-- Validate compliance and security baselines to ensure releases conform to strict Federal compliance standards (e.g., FedRAMP, NIST guidelines).
-- Execute regression testing and smoke tests to ensure continuous deployment stability during sprint releases.
-- Maintain comprehensive test documentation, including test plans, test cases, automated runs, and defect reports in Jira/Allure.
-- Play a key role in safeguarding critical infrastructure across US Government and public sector agency environments.
-
-Requirements
-What you need to succeed in this role:
-
-- US Citizenship Required (due to US Federal and GovCloud compliance requirements).
-- Location & Availability: Remote within the United States (EST time zone preferred)
-- A minimum of 10 years of experience in QA and software automation development.
-- Strong proficiency in Python for automation script development — Must.
-- Proven experience in API testing (both manual and automated) — Must.
-- Hands-on experience with manual and automated UI testing — Must.
-- Practical experience leveraging AI tools (e.g., GitHub Copilot, ChatGPT, or AI-driven testing frameworks) to accelerate test case generation, automate script creation, and optimize QA workflows — Must.
-- Deep experience in Linux environments (RHEL, Ubuntu, Amazon Linux) and command-line diagnostics (CLI, logs, system metrics) — Must.
-- Solid experience with version control systems (Git / GitLab).
-- Familiarity with CI/CD pipeline integration (GitLab CI, Jenkins) and automated test reporting tools (Allure or similar).
-- Web Application testing using Playwright and BE tools.
-- Excellent teamwork skills, adaptability, and the ability to operate independently in a fast-paced environment.
-
-Preferred / Advantage Qualifications:
-
-- Experience testing applications deployed on Kubernetes / EKS or containerized environments (Docker).
-- Familiarity with AWS / AWS GovCloud services and architecture.
-- Experience with database query execution and SQL.
-- Understanding of FedRAMP, NIST 800-53, or DoD compliance and security frameworks.
-- Experience testing virtual machines, air-gapped infrastructure, or collector/edge devices.
-
-About Claroty
-
-Claroty has redefined cyber-physical systems (CPS) protection with an unrivaled industry-centric platform built to secure mission-critical infrastructure. The Claroty Platform provides the deepest asset visibility and the broadest, built-for-CPS solution set in the market comprising exposure management, network protection, secure access, and threat detection – on-premise with Claroty Continuous Threat Detection (CTD) or in the cloud with Claroty xDome. Backed by award-winning threat research and a breadth of technology alliances, The Claroty Platform enables organizations to effectively reduce CPS risk, with the fastest time-to-value and lower total cost of ownership. Claroty is deployed by hundreds of organizations at thousands of sites globally. The company is headquartered in New York City with Claroty Public Sector, LLC headquarters in Northern Virginia. To learn more, visit clarotygov.us.
-
-Claroty is widely recognized as the industry leader in CPS protection, backed by the world’s largest investment firms and industrial automation vendors. The company has been named a Leader in 2026 Gartner® Magic Quadrant™ for CPS Protection Platforms two years in a row, a Customers’ Choice in the 2026 Gartner® Peer Insights™ Voice of the Customer for CPS Protection Platforms, and a Leader and a Customer Favorite in The Forrester Wave™: Operational Technology Security Solutions, Q3 2026. Claroty has also been named to the Forbes Cloud 100 and Deloitte Technology Fast 500 multiple consecutive years..
-
-Expected compensation for the role is between $150,000 – $165,000. This is a good faith estimate but does not include equity, bonus, or other forms of payment. Pay will be determined by experience level, but those outside the salary band are welcome to apply.
-
-Claroty is an equal-opportunity employer committed to fostering a diverse and inclusive work environment for all. We encourage applications from candidates of ALL diverse backgrounds, and special accommodations are available upon request in all selection phases.
-
-Follow us on social media:
-
-- LinkedIn
-- LinkedIn Life Page
-- Facebook
-- Instagram
-
-#LI-REMOTE"
-E0.E67,Senior Security Operations Engineer,"Tel Aviv, IL",IT,Full Time Employee,2026-10-04,https://claroty.com/open-positions/E0.E67,"Description
+- Instagram"
+E0.E67,Senior Security Operations Engineer,"Tel Aviv, IL",IT,Full Time Employee,2026-10-14,https://claroty.com/open-positions/E0.E67,"Description
 We’re growing and looking to hire a Senior Security Operations Engineer who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -993,7 +998,7 @@ Follow us on social media:
 - Instagram
 
 #LI-HYBRID"
-89.B65,Software Engineering Team Lead,"Tel Aviv, IL",Software Engineering,,2026-10-09,https://claroty.com/open-positions/89.B65,"Description
+89.B65,Software Engineering Team Lead,"Tel Aviv, IL",Software Engineering,,2026-10-12,https://claroty.com/open-positions/89.B65,"Description
 We’re growing and looking to hire a Software Team Leader - XSA who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -1047,7 +1052,7 @@ LinkedIn Life Page
 Facebook
 
 Instagram"
-1D.071,Technical Account Manager,"Berlin, DE",Customer Services,Full Time Employee,2026-10-08,https://claroty.com/open-positions/1D.071,"Description
+1D.071,Technical Account Manager,"Berlin, DE",Customer Services,Full Time Employee,2026-10-15,https://claroty.com/open-positions/1D.071,"Description
 We’re growing and looking to hire a Technical Account Manager who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -1212,7 +1217,7 @@ Follow us on social media:
 - Instagram
 
 #LI-REMOTE"
-9F.F63,"Technical Account Manager, Public Sector","New York, US",Public Sector,Full Time Employee,2026-10-09,https://claroty.com/open-positions/9F.F63,"Description
+9F.F63,"Technical Account Manager, Public Sector","New York, US",Public Sector,Full Time Employee,2026-10-14,https://claroty.com/open-positions/9F.F63,"Description
 We’re growing and looking to hire a Technical Account Manager who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:
@@ -1274,7 +1279,7 @@ Follow us on social media:
 - Instagram
 
 #LI-REMOTE"
-94.A63,Vulnerability Research Team Lead,"Tel Aviv, IL",Team82,,2026-10-06,https://claroty.com/open-positions/94.A63,"Description
+94.A63,Vulnerability Research Team Lead,"Tel Aviv, IL",Team82,,2026-10-11,https://claroty.com/open-positions/94.A63,"Description
 We’re growing and looking to hire a Vulnerability Research Team Lead who embodies our core values: People First, Customer Obsession, Strive for Excellence, and Integrity.
 
 About the Company:

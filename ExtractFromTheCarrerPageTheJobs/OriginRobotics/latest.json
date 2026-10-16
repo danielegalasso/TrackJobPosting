@@ -2,9 +2,9 @@
   "source": "https://origin-robotics.com/open-positions",
   "company": "Origin Robotics",
   "query": "",
-  "extracted_at": "2026-10-10T10:53:36",
-  "site_total": 11,
-  "extracted": 11,
+  "extracted_at": "2026-10-15T08:18:36",
+  "site_total": 12,
+  "extracted": 12,
   "postings": [
     {
       "job_id": "3b7cb8fa-22ce-42be-8768-61ddffd5b821",
@@ -40,6 +40,12 @@
       "job_id": "ead6257b-d4dd-4aec-b35b-dc7a73c7bb18",
       "title": "MRO Lead",
       "url": "https://talent.sage.hr/jobs/ead6257b-d4dd-4aec-b35b-dc7a73c7bb18",
+      "description": ""
+    },
+    {
+      "job_id": "dc26a58f-2192-4221-aa26-49826fdab0c4",
+      "title": "MRO Maintenance Technician",
+      "url": "https://talent.sage.hr/jobs/dc26a58f-2192-4221-aa26-49826fdab0c4",
       "description": ""
     },
     {

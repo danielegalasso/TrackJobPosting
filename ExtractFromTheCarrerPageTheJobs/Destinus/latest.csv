@@ -407,6 +407,57 @@ Requirements
 - Experience with embedded software or close integration between flight hardware and software
 - Experience with environmental and EMC qualification
 - Experience designing electronics for long-term storage or canister-life requirements"
+7EF97F4025,Avionics Engineer,"Zürich, Switzerland",,Switzerland,R&D & Engineering,Full-time,,2026-10-13,https://apply.workable.com/j/7EF97F4025,"As an Avionics Engineer, you will define, integrate, and verify the electronic systems of guided aerospace vehicles. You will take ownership of avionics subsystems from requirements to flight hardware, and contribute to the overall avionics architecture. You will work with the GNC, embedded software, systems, propulsion, mechanical, and test teams to turn mission needs into avionics that operate correctly on real vehicles.
+
+At Destinus, we develop advanced unmanned aerial vehicles for demanding defense and aerospace applications. Our teams work across aircraft design, avionics, propulsion, software, testing, and operations to deliver high-performance systems for mission-critical use. Join us to help build practical, reliable technology for next-generation aerospace platforms.
+
+What You’ll Do
+
+· Architecture - Contribute to the hardware and software architecture of the vehicle avionics. Make trade-offs between performance, mass, volume, power, cost, reliability, and schedule.
+
+· Requirements - Write and maintain avionics requirements. Derive them from vehicle and mission requirements, trace them to the design, and support their verification.
+
+· Component selection - Select electronic components and avionics units. Evaluate performance, environmental ratings, availability, lifecycle, and supply chain risk.
+
+· Power - Define the power needs of the avionics. Design power distribution, conversion, protection, and management, and maintain the power budget.
+
+· Subsystem integration - Integrate the avionics with existing subsystems such as the flight computer, seekers, IMUs, actuators, and sensors. Define and control the electrical and data interfaces between them.
+
+· Telemetry and communication - Define the telemetry and communication systems. Select the hardware, data links, and protocols for vehicle, ground, and test use.
+
+· Interconnect and harness - Design the vehicle interconnect and harness. Select connectors, wires, and shielding, and make sure the design meets EMC, mechanical, and environmental requirements.
+
+· Verification and testing - Plan and do bench, integration, HIL, and environmental tests. Find and correct faults on real hardware.
+
+· Documentation and reviews - Write ICDs, design documents, and test procedures. Present and contribute to design reviews.
+
+· Flight test support - Support vehicle integration, flight-test preparation, and field operations when required.
+
+Requirements
+
+What You’ll Need
+
+· Experience - 2 or more years of professional experience in avionics, electronics, or embedded hardware development, preferably in aerospace, defense, automotive, or a similar industry.
+
+· Avionics architecture - Hands-on experience to define or contribute to avionics architectures for aircraft, UAVs, missiles, launch vehicles, or similar systems.
+
+· Requirements engineering - Experience to write, decompose, and trace requirements through design and verification.
+
+· Electronics design - Strong knowledge of analog and digital electronics. Able to read and review schematics and PCB designs. Altium experience is a plus.
+
+· Component selection - Experience to select components for harsh environments, including derating, temperature, vibration, and shock.
+
+· Power systems - Experience with DC/DC conversion, batteries, power distribution, protection circuits, and power budgets.
+
+· Interfaces and protocols - Practical experience with CAN-FD, Ethernet, RS-422/RS-485, SPI, I2C, and UART. Experience with RF data links is a plus.
+
+· Harness and connectors - Experience with harness design and connector selection, for example MIL-DTL-38999 or Micro-D. Knowledge of shielding, grounding, and EMC design.
+
+· Lab skills - Comfortable with oscilloscopes, power supplies, logic analyzers, multimeters, and protocol analyzers. Python for test automation is a plus.
+
+· Mindset - Structured, detail-oriented, and comfortable in a fast-moving, cross-disciplinary engineering environment.
+
+· Education - Bachelor’s or Master’s degree in Electrical Engineering, Aerospace Engineering, Electronics, or equivalent."
 CA5D13DF16,B2B Systems & Component Sales Manager,"Madrid, Spain",,Spain,Business Development & Sales,Full-time,,2026-09-22,https://apply.workable.com/j/CA5D13DF16,"About the Role
 
 As Components & Systems Sales Manager, you own the commercial success of our components and systems portfolio. You define the go-to-market approach, build and manage the pipeline, and win contracts with OEMs, system integrators, defense primes and government customers. Working closely with Commercial Head, Business Development, Sales Engineering and Bid Management, you translate customer requirements into competitive technical-commercial offers and negotiate deals that deliver long-term value. It is a senior sales, quota-carrying and highly visible, role for someone who combines technical understanding with commercial drive and who thrives in a fast-moving, mission-driven environment.
@@ -598,112 +649,6 @@ What You'll Need
 Who You Are
 
 You are commercially sharp, curious, and comfortable operating in an environment where things move fast. You know how to build credibility with customers and understand that strong business development is about relationships, timing, persistence, and understanding what the customer actually needs. You take ownership, open doors, connect the right people, and keep opportunities moving. You are equally comfortable discussing strategy with senior stakeholders and working closely with technical teams to turn ambitious ideas into real business."
-DA54EA6CCB,Business Development Director,Netherlands,,Netherlands,Business Development & Sales,Full-time,Remote,2026-08-17,https://apply.workable.com/j/DA54EA6CCB,"Imagine this. You are leading Destinus' business development strategy across Europe, turning defense requirements, government priorities, and emerging opportunities into strategic partnerships and major programs.
-
-As Business Development Director for Europe, you will identify and shape high-value opportunities, build senior relationships across governments and defense organizations, and lead opportunities from early engagement through contract award.This is a highly international role with significant travel across Europe.
-
-At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
-
-What You'll Do
-
-- Own and drive Destinus' business development strategy across Europe, defining priority markets, customers, and programs
-
-- Build trusted relationships with senior stakeholders across ministries of defense, armed forces, government agencies, defense primes, and strategic partners
-
-- Identify, qualify, and shape major defense opportunities from early engagement through proposal, negotiation, and contract award
-
-- Develop a strong understanding of European defense priorities, procurement dynamics, capability gaps, and competitive landscapes
-
-- Build market entry strategies and strategic partnerships across priority European countries
-
-- Represent Destinus in senior customer meetings, industry events, demonstrations, and strategic engagements
-
-- Own the European opportunity pipeline, ensuring clear prioritization, forecasting, and execution
-
-- Work closely with Destinus leadership and multidisciplinary teams on strategic accounts and high-value opportunities
-
-- Provide strategic direction and senior-level support to Business Development Managers across European markets
-
-Requirements
-
-What You’ll Need
-
-- Significant experience in business development, sales, or strategy within defense, aerospace, UAVs, autonomous systems, or a closely related sector
-
-- Proven experience developing business with European defense customers, governments, armed forces, or major industry players
-
-- A strong network within the European defense ecosystem and credibility with senior military, government, and industry stakeholders
-
-- Demonstrated success shaping and winning complex, high-value opportunities
-
-- Strong understanding of European defense procurement, government contracting, and multinational defense programs
-
-- Strong commercial judgment and ability to translate market opportunities into actionable business strategies
-
-- Experience leading negotiations, strategic partnerships, proposals, and major customer engagements
-
-- Excellent English communication skills. Additional European languages are highly valued
-
-- Willingness to travel extensively across Europe and internationally
-
-- Eligibility to work with defense-related technologies and obtain relevant security clearances where required
-
-Who You Are
-
-You combine strategic thinking with a strong commercial mindset and a bias for action. You are credible and confident in engaging with senior government, military, and industry stakeholders, and you know how to shape opportunities early and turn complex defense needs into business. You thrive with autonomy, work comfortably across countries and cultures, and bring ambition, collaboration, ownership, and integrity to everything you do."
-DA54EA6CCB,Business Development Director,Switzerland,,Switzerland,Business Development & Sales,Full-time,Remote,2026-08-17,https://apply.workable.com/j/DA54EA6CCB,"Imagine this. You are leading Destinus' business development strategy across Europe, turning defense requirements, government priorities, and emerging opportunities into strategic partnerships and major programs.
-
-As Business Development Director for Europe, you will identify and shape high-value opportunities, build senior relationships across governments and defense organizations, and lead opportunities from early engagement through contract award.This is a highly international role with significant travel across Europe.
-
-At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
-
-What You'll Do
-
-- Own and drive Destinus' business development strategy across Europe, defining priority markets, customers, and programs
-
-- Build trusted relationships with senior stakeholders across ministries of defense, armed forces, government agencies, defense primes, and strategic partners
-
-- Identify, qualify, and shape major defense opportunities from early engagement through proposal, negotiation, and contract award
-
-- Develop a strong understanding of European defense priorities, procurement dynamics, capability gaps, and competitive landscapes
-
-- Build market entry strategies and strategic partnerships across priority European countries
-
-- Represent Destinus in senior customer meetings, industry events, demonstrations, and strategic engagements
-
-- Own the European opportunity pipeline, ensuring clear prioritization, forecasting, and execution
-
-- Work closely with Destinus leadership and multidisciplinary teams on strategic accounts and high-value opportunities
-
-- Provide strategic direction and senior-level support to Business Development Managers across European markets
-
-Requirements
-
-What You’ll Need
-
-- Significant experience in business development, sales, or strategy within defense, aerospace, UAVs, autonomous systems, or a closely related sector
-
-- Proven experience developing business with European defense customers, governments, armed forces, or major industry players
-
-- A strong network within the European defense ecosystem and credibility with senior military, government, and industry stakeholders
-
-- Demonstrated success shaping and winning complex, high-value opportunities
-
-- Strong understanding of European defense procurement, government contracting, and multinational defense programs
-
-- Strong commercial judgment and ability to translate market opportunities into actionable business strategies
-
-- Experience leading negotiations, strategic partnerships, proposals, and major customer engagements
-
-- Excellent English communication skills. Additional European languages are highly valued
-
-- Willingness to travel extensively across Europe and internationally
-
-- Eligibility to work with defense-related technologies and obtain relevant security clearances where required
-
-Who You Are
-
-You combine strategic thinking with a strong commercial mindset and a bias for action. You are credible and confident in engaging with senior government, military, and industry stakeholders, and you know how to shape opportunities early and turn complex defense needs into business. You thrive with autonomy, work comfortably across countries and cultures, and bring ambition, collaboration, ownership, and integrity to everything you do."
 CEC920F582,Business Development Manager (Baltic Region),Lithuania,,Lithuania,Business Development & Sales,Full-time,Remote,2026-09-23,https://apply.workable.com/j/CEC920F582,"About the Role
 
 Imagine this. You are building Destinus' presence across one of Europe's most strategically important defense markets, connecting advanced autonomous flight technologies with the governments, armed forces, and industry partners shaping the future of Baltic security.
@@ -767,6 +712,64 @@ What You'll Need
 Who You Are
 
 You are commercially sharp, proactive, and comfortable operating in a defense environment where relationships, timing, and execution matter. You know how to open doors, understand what customers actually need, and turn conversations into real opportunities. You are equally comfortable speaking with military stakeholders, procurement teams, engineers, and senior decision-makers. You take ownership, move quickly, and enjoy building a market rather than inheriting one."
+40B5A9F31F,Business Development Manager (India),"Delhi, India",,India,Business Development & Sales,Full-time,Remote,2026-10-14,https://apply.workable.com/j/40B5A9F31F,"About the Role
+
+Imagine this. You are helping build Destinus' presence in one of the world's most dynamic defense markets. Based in Delhi, you will develop business opportunities across India, build relationships with key defense and government stakeholders, and turn emerging requirements into real programs and partnerships.
+
+As Business Development Manager India, you will own opportunities from early market engagement through proposal, negotiation, and contract award. You will work closely with customers, local partners, and our international teams to position Destinus technologies in the Indian market and build a strong, sustainable pipeline.
+
+At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
+
+What You'll Do
+
+- Develop and manage business opportunities across the Indian defense market, building a strong pipeline for Destinus technologies and solutions
+- Build trusted relationships with the Ministry of Defence, Armed Forces, government agencies, procurement stakeholders, defense organizations, and relevant industry partners
+- Identify upcoming programs, tenders, RFIs, RFPs, and procurement opportunities and drive Destinus' engagement from the earliest stages
+- Manage the full business development cycle from opportunity identification and qualification through proposal development, negotiation, and contract award
+- Support the development of market entry and go-to-market strategies tailored to the Indian defense ecosystem
+- Lead and coordinate bids, proposals, and tender submissions together with engineering, legal, finance, operations, and other internal teams
+- Develop relationships with local defense companies, technology partners, integrators, and other strategic stakeholders
+- Track customer requirements, procurement developments, competitor activity, and broader defense market trends to identify new opportunities
+- Support commercial negotiations and contract discussions while protecting Destinus' strategic and commercial objectives
+- Represent Destinus at customer meetings, defense exhibitions, industry events, demonstrations, and relevant government engagements across India
+- Maintain accurate visibility of opportunities, customer engagement, pipeline development, and commercial priorities
+- Provide market intelligence and customer feedback to internal teams, helping shape product positioning and future business strategy in India
+
+Requirements
+
+What You'll Need
+
+- 5+ years of experience in business development, defense sales, capture management, government relations, or a related commercial role within the defense or aerospace sector
+- Strong understanding of the Indian defense ecosystem, including government procurement processes, key stakeholders, and acquisition frameworks
+- Experience developing relationships with government, military, procurement, or defense industry stakeholders in India
+- Proven ability to identify, develop, and progress complex B2G or B2B opportunities through long sales cycles
+- Experience supporting or leading defense tenders, RFIs, RFPs, proposals, and commercial negotiations
+- Strong communication, presentation, negotiation, and relationship-building skills
+- Commercial mindset with the ability to understand both customer requirements and the business case behind an opportunity
+- Ability to operate independently while coordinating effectively with international and cross-functional teams
+- Excellent English communication skills
+- Based in Delhi or willing to relocate to Delhi
+- Willingness to travel frequently across India and internationally
+
+Nice to Have
+
+- Experience within UAVs, autonomous systems, aerospace platforms, defense electronics, or advanced defense technologies
+- Hindi fluency
+- Existing professional network across the Indian defense ecosystem
+- Experience working with Indian defense primes, technology companies, integrators, or strategic partners
+- Understanding of localization, industrial partnerships, technology transfer, and Make in India requirements within defense programs
+- Technical, engineering, military, or defense-related educational background
+
+Benefits
+
+Why Join Us?
+
+✨ The Thrill of the Future – Work on cutting-edge projects that redefine aerospace.
+✨ Global Innovation Hub – Collaborate with top engineers from all over the world.
+✨ Fast-Paced & High-Growth – Experience the rush of working in a rapidly expanding company.
+✨ Real Impact – Your work won’t be theoretical—it will shape the future of flight.
+
+Destinus is an equal-opportunity employer. We value diversity in our companies and our teams and do not discriminate based on age, race, religion, color, country of origin, gender, sexual orientation, or disability status."
 EC2EF77FD0,Business Development Manager (Poland),"Warsaw, Poland",,Poland,,Full-time,Remote,2026-09-08,https://apply.workable.com/j/EC2EF77FD0,"At Destinus, we are revolutionizing aerospace and defense with cutting-edge drone technology. To expand our footprint in the Polish defense sector, we are seeking a dynamic and results-driven Business Development Manager with deep knowledge of the Polish defense ecosystem, experience in government procurement or the drone industry, and a strong track record in bid formulation and contract management.
 
 At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
@@ -930,262 +933,6 @@ Who You Are
 You are curious, analytical, and naturally driven to understand what is happening behind the numbers. You bring structure to complexity, challenge assumptions, and turn scattered information into insights people can actually use. You are comfortable taking ownership, working independently, and collaborating across teams in a fast-paced environment where priorities evolve quickly.
 
 Security screening is an integral component of the selection process, ensuring that candidates meet the organization's security standards and safeguarding against potential risks."
-41A0DABF27,Commercial Planning Manager,"Madrid, Spain",,Spain,Business Development & Sales,Full-time,,2026-09-24,https://apply.workable.com/j/41A0DABF27,"As Commercial Planning Manager, you will be the orchestrator who ensures Destinus’ commercial ambitions can be fast tracked and realised. You will drive the coordination of the activities that win and deliver business. Crucially, you will be the linking pin to a.o. our Business Development, Programme Management, Legal and Operational teams. You are a critical spider in the web to ensure the lead up to a commercial deal is validated, streamlined, and successful. This is a high-impact, cross-functional role for someone who brings order to fast-moving environments, is accurate and understands the rigour and trade-compliance discipline required when selling into government and defense customers.
-
-What You’ll Do
-
-Commercial Planning
-
-- Maintain a rolling commercial calendar of bids, milestones, demonstrations and deliveries, proactively flagging conflicts, capacity constraints and resourcing risks
-
-- Serve as the link between various teams within the organisation, ensuring commitments made during the sales process are handed over cleanly into delivery
-
-- Align commercial plans with programme schedules, milestones and resource plans, surfacing risks and dependencies in both directions
-
-Export Licensing & Trade-Compliance Administration
-
-- Own all associated administration for licence applications, end-user certificates and classification requests—ensuring complete, accurate and audit-ready documentation
-
-- Main entry point into the legal team for export license applications
-
-- Liaise with national export-control authorities, customs, and internal Legal and Compliance to resolve queries and keep applications moving
-
-- Advise commercial colleagues on licensing implications early in each pursuit and maintain the export-control knowledge base
-
-Demonstration Team Liaison (Commercial Linking Pin)
-
-- Ensure demonstration activity is prioritised against the pipeline and that outcomes and lessons learned feed back into the commercial plan
-
-- Act as the single commercial point of contact for the demonstration teams, translating customer and campaign requirements into clear demonstration briefs
-
-- Plan and coordinate the commercial aspects of demonstrations—scheduling, attendee management, and the approvals and export licences required
-
-Factory Site-Visit Coordination
-
-- Coordinate, on behalf of Commercial, all customer and partner visits to our sites & facilities
-
-- Work with Manufacturing, Security and Programme teams to ensure visits are well prepared, compliant, and aligned with commercial objectives
-
-Cross-Functional Collaboration
-
-- Partner with Business Development, Manufacturing, Legal and Programme Management to keep commercial plans aligned with contractual, financial and delivery realities
-
-- Support commercial teams during major pursuits by maintaining planning discipline under time pressure
-
-- Serve as a point of contact for internal and external audits relating to export-control administration
-
-Requirements
-
-What You’ll Need
-
-- Bachelor’s or Master’s degree in Business Administration, International Trade, Law, Supply Chain Management, Engineering, or a related discipline
-
-- 5–7 years of professional experience in commercial planning, sales operations, or commercial project management;
-
-- Experience in the defense or aerospace industry, as well as working knowledge of export-control regimes and hands-on experience with licence applications is a strong advantage
-
-- Strong planning skills and operate with high level of accuracy
-
-- Excellent coordination and stakeholder-management skills
-
-- Fluent in English.
-- Dutch, German or Spanish will be a plus
-
-Who You Are
-
-You are a structured, highly organised professional who creates clarity where there is ambiguity and keeps many moving parts on track at once. You combine a planner’s discipline with a hands-on, pragmatic approach, and you are comfortable being the connective tissue between various internal and external stakeholders. You understand the seriousness of export controls and treat compliance as non-negotiable. You are diplomatic enough to bring people along, yet firm enough to hold the line on deadlines and process. Above all, you are motivated by the mission, ensuring Destinus can compete and win in the global defense market through commercial excellence."
-41A0DABF27,Commercial Planning Manager,"Katwijk aan Zee, Netherlands",,Netherlands,Business Development & Sales,Full-time,,2026-09-24,https://apply.workable.com/j/41A0DABF27,"As Commercial Planning Manager, you will be the orchestrator who ensures Destinus’ commercial ambitions can be fast tracked and realised. You will drive the coordination of the activities that win and deliver business. Crucially, you will be the linking pin to a.o. our Business Development, Programme Management, Legal and Operational teams. You are a critical spider in the web to ensure the lead up to a commercial deal is validated, streamlined, and successful. This is a high-impact, cross-functional role for someone who brings order to fast-moving environments, is accurate and understands the rigour and trade-compliance discipline required when selling into government and defense customers.
-
-What You’ll Do
-
-Commercial Planning
-
-- Maintain a rolling commercial calendar of bids, milestones, demonstrations and deliveries, proactively flagging conflicts, capacity constraints and resourcing risks
-
-- Serve as the link between various teams within the organisation, ensuring commitments made during the sales process are handed over cleanly into delivery
-
-- Align commercial plans with programme schedules, milestones and resource plans, surfacing risks and dependencies in both directions
-
-Export Licensing & Trade-Compliance Administration
-
-- Own all associated administration for licence applications, end-user certificates and classification requests—ensuring complete, accurate and audit-ready documentation
-
-- Main entry point into the legal team for export license applications
-
-- Liaise with national export-control authorities, customs, and internal Legal and Compliance to resolve queries and keep applications moving
-
-- Advise commercial colleagues on licensing implications early in each pursuit and maintain the export-control knowledge base
-
-Demonstration Team Liaison (Commercial Linking Pin)
-
-- Ensure demonstration activity is prioritised against the pipeline and that outcomes and lessons learned feed back into the commercial plan
-
-- Act as the single commercial point of contact for the demonstration teams, translating customer and campaign requirements into clear demonstration briefs
-
-- Plan and coordinate the commercial aspects of demonstrations—scheduling, attendee management, and the approvals and export licences required
-
-Factory Site-Visit Coordination
-
-- Coordinate, on behalf of Commercial, all customer and partner visits to our sites & facilities
-
-- Work with Manufacturing, Security and Programme teams to ensure visits are well prepared, compliant, and aligned with commercial objectives
-
-Cross-Functional Collaboration
-
-- Partner with Business Development, Manufacturing, Legal and Programme Management to keep commercial plans aligned with contractual, financial and delivery realities
-
-- Support commercial teams during major pursuits by maintaining planning discipline under time pressure
-
-- Serve as a point of contact for internal and external audits relating to export-control administration
-
-Requirements
-
-What You’ll Need
-
-- Bachelor’s or Master’s degree in Business Administration, International Trade, Law, Supply Chain Management, Engineering, or a related discipline
-
-- 5–7 years of professional experience in commercial planning, sales operations, or commercial project management;
-
-- Experience in the defense or aerospace industry, as well as working knowledge of export-control regimes and hands-on experience with licence applications is a strong advantage
-
-- Strong planning skills and operate with high level of accuracy
-
-- Excellent coordination and stakeholder-management skills
-
-- Fluent in English.
-- Dutch, German or Spanish will be a plus
-
-Who You Are
-
-You are a structured, highly organised professional who creates clarity where there is ambiguity and keeps many moving parts on track at once. You combine a planner’s discipline with a hands-on, pragmatic approach, and you are comfortable being the connective tissue between various internal and external stakeholders. You understand the seriousness of export controls and treat compliance as non-negotiable. You are diplomatic enough to bring people along, yet firm enough to hold the line on deadlines and process. Above all, you are motivated by the mission, ensuring Destinus can compete and win in the global defense market through commercial excellence."
-41A0DABF27,Commercial Planning Manager,"Hengelo, Netherlands",,Netherlands,Business Development & Sales,Full-time,,2026-09-24,https://apply.workable.com/j/41A0DABF27,"As Commercial Planning Manager, you will be the orchestrator who ensures Destinus’ commercial ambitions can be fast tracked and realised. You will drive the coordination of the activities that win and deliver business. Crucially, you will be the linking pin to a.o. our Business Development, Programme Management, Legal and Operational teams. You are a critical spider in the web to ensure the lead up to a commercial deal is validated, streamlined, and successful. This is a high-impact, cross-functional role for someone who brings order to fast-moving environments, is accurate and understands the rigour and trade-compliance discipline required when selling into government and defense customers.
-
-What You’ll Do
-
-Commercial Planning
-
-- Maintain a rolling commercial calendar of bids, milestones, demonstrations and deliveries, proactively flagging conflicts, capacity constraints and resourcing risks
-
-- Serve as the link between various teams within the organisation, ensuring commitments made during the sales process are handed over cleanly into delivery
-
-- Align commercial plans with programme schedules, milestones and resource plans, surfacing risks and dependencies in both directions
-
-Export Licensing & Trade-Compliance Administration
-
-- Own all associated administration for licence applications, end-user certificates and classification requests—ensuring complete, accurate and audit-ready documentation
-
-- Main entry point into the legal team for export license applications
-
-- Liaise with national export-control authorities, customs, and internal Legal and Compliance to resolve queries and keep applications moving
-
-- Advise commercial colleagues on licensing implications early in each pursuit and maintain the export-control knowledge base
-
-Demonstration Team Liaison (Commercial Linking Pin)
-
-- Ensure demonstration activity is prioritised against the pipeline and that outcomes and lessons learned feed back into the commercial plan
-
-- Act as the single commercial point of contact for the demonstration teams, translating customer and campaign requirements into clear demonstration briefs
-
-- Plan and coordinate the commercial aspects of demonstrations—scheduling, attendee management, and the approvals and export licences required
-
-Factory Site-Visit Coordination
-
-- Coordinate, on behalf of Commercial, all customer and partner visits to our sites & facilities
-
-- Work with Manufacturing, Security and Programme teams to ensure visits are well prepared, compliant, and aligned with commercial objectives
-
-Cross-Functional Collaboration
-
-- Partner with Business Development, Manufacturing, Legal and Programme Management to keep commercial plans aligned with contractual, financial and delivery realities
-
-- Support commercial teams during major pursuits by maintaining planning discipline under time pressure
-
-- Serve as a point of contact for internal and external audits relating to export-control administration
-
-Requirements
-
-What You’ll Need
-
-- Bachelor’s or Master’s degree in Business Administration, International Trade, Law, Supply Chain Management, Engineering, or a related discipline
-
-- 5–7 years of professional experience in commercial planning, sales operations, or commercial project management;
-
-- Experience in the defense or aerospace industry, as well as working knowledge of export-control regimes and hands-on experience with licence applications is a strong advantage
-
-- Strong planning skills and operate with high level of accuracy
-
-- Excellent coordination and stakeholder-management skills
-
-- Fluent in English.
-- Dutch, German or Spanish will be a plus
-
-Who You Are
-
-You are a structured, highly organised professional who creates clarity where there is ambiguity and keeps many moving parts on track at once. You combine a planner’s discipline with a hands-on, pragmatic approach, and you are comfortable being the connective tissue between various internal and external stakeholders. You understand the seriousness of export controls and treat compliance as non-negotiable. You are diplomatic enough to bring people along, yet firm enough to hold the line on deadlines and process. Above all, you are motivated by the mission, ensuring Destinus can compete and win in the global defense market through commercial excellence."
-41A0DABF27,Commercial Planning Manager,"Dubai, United Arab Emirates",,United Arab Emirates,Business Development & Sales,Full-time,,2026-09-24,https://apply.workable.com/j/41A0DABF27,"As Commercial Planning Manager, you will be the orchestrator who ensures Destinus’ commercial ambitions can be fast tracked and realised. You will drive the coordination of the activities that win and deliver business. Crucially, you will be the linking pin to a.o. our Business Development, Programme Management, Legal and Operational teams. You are a critical spider in the web to ensure the lead up to a commercial deal is validated, streamlined, and successful. This is a high-impact, cross-functional role for someone who brings order to fast-moving environments, is accurate and understands the rigour and trade-compliance discipline required when selling into government and defense customers.
-
-What You’ll Do
-
-Commercial Planning
-
-- Maintain a rolling commercial calendar of bids, milestones, demonstrations and deliveries, proactively flagging conflicts, capacity constraints and resourcing risks
-
-- Serve as the link between various teams within the organisation, ensuring commitments made during the sales process are handed over cleanly into delivery
-
-- Align commercial plans with programme schedules, milestones and resource plans, surfacing risks and dependencies in both directions
-
-Export Licensing & Trade-Compliance Administration
-
-- Own all associated administration for licence applications, end-user certificates and classification requests—ensuring complete, accurate and audit-ready documentation
-
-- Main entry point into the legal team for export license applications
-
-- Liaise with national export-control authorities, customs, and internal Legal and Compliance to resolve queries and keep applications moving
-
-- Advise commercial colleagues on licensing implications early in each pursuit and maintain the export-control knowledge base
-
-Demonstration Team Liaison (Commercial Linking Pin)
-
-- Ensure demonstration activity is prioritised against the pipeline and that outcomes and lessons learned feed back into the commercial plan
-
-- Act as the single commercial point of contact for the demonstration teams, translating customer and campaign requirements into clear demonstration briefs
-
-- Plan and coordinate the commercial aspects of demonstrations—scheduling, attendee management, and the approvals and export licences required
-
-Factory Site-Visit Coordination
-
-- Coordinate, on behalf of Commercial, all customer and partner visits to our sites & facilities
-
-- Work with Manufacturing, Security and Programme teams to ensure visits are well prepared, compliant, and aligned with commercial objectives
-
-Cross-Functional Collaboration
-
-- Partner with Business Development, Manufacturing, Legal and Programme Management to keep commercial plans aligned with contractual, financial and delivery realities
-
-- Support commercial teams during major pursuits by maintaining planning discipline under time pressure
-
-- Serve as a point of contact for internal and external audits relating to export-control administration
-
-Requirements
-
-What You’ll Need
-
-- Bachelor’s or Master’s degree in Business Administration, International Trade, Law, Supply Chain Management, Engineering, or a related discipline
-
-- 5–7 years of professional experience in commercial planning, sales operations, or commercial project management;
-
-- Experience in the defense or aerospace industry, as well as working knowledge of export-control regimes and hands-on experience with licence applications is a strong advantage
-
-- Strong planning skills and operate with high level of accuracy
-
-- Excellent coordination and stakeholder-management skills
-
-- Fluent in English.
-- Dutch, German or Spanish will be a plus
-
-Who You Are
-
-You are a structured, highly organised professional who creates clarity where there is ambiguity and keeps many moving parts on track at once. You combine a planner’s discipline with a hands-on, pragmatic approach, and you are comfortable being the connective tissue between various internal and external stakeholders. You understand the seriousness of export controls and treat compliance as non-negotiable. You are diplomatic enough to bring people along, yet firm enough to hold the line on deadlines and process. Above all, you are motivated by the mission, ensuring Destinus can compete and win in the global defense market through commercial excellence."
 BA4EE37ABF,Computer Vision Engineer,"Zürich, Switzerland",,Switzerland,R&D & Engineering,Full-time,,2026-05-28,https://apply.workable.com/j/BA4EE37ABF,"About the role
 
 Imagine pushing the boundaries of what machines can perceive and decide, refining the intelligence behind autonomous flight systems that operate in the real world. You'll work directly improves the accuracy, reliability, and adaptability of cutting-edge AI products, while also opening the door to entirely new capabilities and applications. You will evolve existing algorithms and models, and design new ones that allow our systems to perform in increasingly complex and demanding environments.
@@ -1211,6 +958,55 @@ What You’ll Need
 Who You Are
 
 You thrive in complex, high-stakes environments where precision matters, driven by curiosity to make systems smarter and more reliable. You experiment, iterate, and solve without waiting for direction, balancing deep technical thinking with real-world impact. Ownership comes naturally, collaboration is seamless, and there is a constant drive to push for excellence."
+A1EF0936B8,Coordinador/a de Almacén,"Madrid, Spain",,Spain,Logistics & Warehouse,Full-time,,2026-10-13,https://apply.workable.com/j/A1EF0936B8,"Imagina esto. Eres la persona que conecta las operaciones del almacén con los equipos que hacen posible nuestra producción. Como Coordinador/a de Almacén en Destinus, asumirás un papel de coordinación dentro del equipo, apoyando al Supervisor de Almacén y tomando el relevo cuando sea necesario.
+
+Tu trabajo irá más allá de las operaciones diarias. Analizarás datos, investigarás y resolverás discrepancias complejas de inventario y actuarás como punto de contacto entre el almacén y otros departamentos, asegurando que los procesos funcionen de manera eficiente.
+
+Si disfrutas trabajando en entornos dinámicos, tienes una mentalidad analítica y te gusta coordinar equipos y procesos, esta es tu oportunidad para contribuir directamente a nuestra misión.
+
+En Destinus estamos revolucionando la industria de defensa con vehículos aéreos no tripulados (UAV) de última generación. Nuestras tecnologías están diseñadas para responder a las necesidades específicas de las operaciones de defensa modernas, ofreciendo velocidad, precisión y eficiencia en costes. Colaboramos con organismos gubernamentales y organizaciones de defensa de todo el mundo para desarrollar soluciones avanzadas destinadas a operaciones críticas. Únete a nosotros para dar forma al futuro de la defensa a través de innovaciones aeroespaciales revolucionarias.
+
+Que haras
+
+- Apoyar y sustituir al Supervisor de Almacén - Actuar como punto de referencia para consultas y decisiones operativas cuando el Supervisor no esté disponible, asumiendo las tareas de planificación y coordinación que te sean delegadas.
+- Formar y orientar al equipo - Participar en la formación e incorporación de nuevos empleados y perfiles junior del almacén, convirtiéndote en una persona de referencia para resolver dudas relacionadas con procesos y sistemas.
+- Resolver discrepancias complejas - Investigar y solucionar diferencias significativas de inventario o datos que vayan más allá de las incidencias operativas habituales, colaborando con Finanzas, Planificación de Producción y otros departamentos cuando sea necesario.
+- Preparar y analizar informes - Elaborar informes sobre las operaciones del almacén, niveles de inventario y cumplimiento de pedidos, identificando oportunidades de mejora y proponiendo acciones correctivas.
+- Garantizar la calidad de los datos - Mantener actualizada y precisa la información registrada en Microsoft Dynamics (MSD), supervisando también la calidad de los datos introducidos por el resto del equipo de almacén.
+- Coordinarse con otros departamentos - Participar activamente en reuniones con Producción, Compras, Ingeniería y otras áreas, representando las necesidades del almacén y asegurando el seguimiento de las acciones acordadas.
+- Impulsar la mejora continua - Identificar ineficiencias y cuellos de botella, mejorar y estandarizar los procesos del almacén, y desarrollar e implementar planes de mejora.
+- Apoyar la seguridad y el cumplimiento normativo - Participar en auditorías de seguridad y colaborar en su organización, apoyando al Supervisor para garantizar el cumplimiento de las normas de seguridad y salud laboral
+
+Requirements
+
+Que necesitas
+
+Requisitos imprescindibles
+
+- Al menos 5 años de experiencia relevante en operaciones de almacén o logística, incluyendo responsabilidades de coordinación o supervisión.
+- Experiencia práctica con los módulos de almacén de Microsoft Dynamics (MSD), con capacidad para analizar e interpretar la información del sistema.
+- Sólidas habilidades analíticas y experiencia elaborando informes y transformando datos en información útil para la toma de decisiones.
+- Experiencia investigando y resolviendo discrepancias de inventario, colaborando con diferentes departamentos para identificar sus causas.
+- Experiencia formando, orientando o acompañando a otros compañeros en su desarrollo e incorporación.
+- Buenas habilidades de comunicación y gestión de interlocutores, con capacidad para representar al almacén en reuniones con otros departamentos.
+- Alta flexibilidad y disponibilidad para adaptar los horarios de trabajo y apoyar al equipo durante periodos de mayor actividad o situaciones urgentes.
+- Dominio del español y buen nivel de inglés para trabajar eficazmente en un entorno internacional.
+
+Se valorará positivamente
+
+- Experiencia con documentación de importación y exportación, procesos aduaneros o manipulación de mercancías reguladas o peligrosas.
+- Experiencia previa sustituyendo o apoyando a un supervisor o responsable de equipo.
+- Experiencia en entornos industriales, de fabricación, automoción, aeroespaciales u otros sectores técnicos similares.
+
+Quien eres
+
+Tienes una capacidad natural para coordinar personas y procesos. Te sientes cómodo/a trabajando con datos, sabes resolver problemas complejos y tienes la confianza necesaria para asumir responsabilidades cuando el Supervisor no está disponible.
+
+Te comunicas con claridad con diferentes departamentos y no te conformas con soluciones superficiales. Cuando encuentras una discrepancia, investigas hasta comprender su origen y encontrar una solución.
+
+Eres una persona organizada, proactiva y orientada a la mejora continua. Te gusta asumir responsabilidades, colaborar con otros equipos y contribuir a que las operaciones funcionen cada día mejor.
+
+Si buscas un puesto con impacto real y quieres formar parte de una empresa innovadora y en pleno crecimiento, queremos conocerte."
 4AAFEE1F9E,Defense Program Manager,"Katwijk aan Zee, Netherlands",,Netherlands,Program Management,Full-time,,2026-09-03,https://apply.workable.com/j/4AAFEE1F9E,"About the role
 
 Imagine this. You are leading complex defence programmes where advanced aerospace and defence systems move from engineering development into testing, qualification, certification and operational delivery. You bring structure to complexity, connect technical teams with customer requirements, and make sure critical programmes keep moving forward.
@@ -2318,44 +2114,6 @@ You are curious, precise, and hands-on. You enjoy getting into the details and u
 Important considerations
 
 All technical interview stages will be led on-prem at Destinus in Zurich."
-7733757D52,EPFL Forum Event - Spontaneuous Candidatures,"Lausanne, Switzerland",,Switzerland,,,,2026-10-08,https://apply.workable.com/j/7733757D52,"Meet Destinus at EPFL Forum 2026! 🚀
-
-Are you passionate about engineering, technology, and innovation? Are you looking for an opportunity to kick-start your career in a dynamic, fast-growing company?
-
-Destinus is attending EPFL Forum 2026, and we'd love to meet you!
-
-At Destinus, we are developing cutting-edge aerospace and defence technologies, pushing the boundaries of innovation and engineering.
-
-As part of our participation in EPFL Forum, we are opening this Spontaneous Application opportunity exclusively on October 8th and 9th, 2026, giving students and recent graduates the chance to introduce themselves and explore potential career opportunities with us.
-
-Who Are We Looking For?
-
-We are always interested in connecting with curious, motivated, and talented individuals from different academic backgrounds, particularly in:
-
-- Aerospace & Mechanical Engineering
-- Electrical & Electronics Engineering
-- Software Engineering & Computer Science
-- Artificial Intelligence & Machine Learning
-- Robotics, Automation & Control Systems
-- Other technical and business-related disciplines
-
-Whether you're looking for an internship, your first professional experience, or a full-time opportunity, we'd love to hear from you!
-
-How to Apply
-
-It's simple!
-
-Submit your CV through this application and become part of our talent pool.
-
-Our Talent Acquisition team will review your profile and may reach out if your background matches current or future opportunities at Destinus.
-
-Please note that this is not an application for a specific open position, but rather an opportunity to connect with our team and be considered for potential career opportunities.
-
-Let's Connect!
-
-Come and meet our team at EPFL Forum on October 8th and 9th, discover more about our projects, and learn what it's like to work at Destinus.
-
-Your next career adventure could start here. We look forward to meeting you! (We are at the 17 Stand)."
 D0D2241E98,ERP Specialist - Finance,"Zürich, Switzerland",,Switzerland,IT & Business Application,Full-time,,2026-09-09,https://apply.workable.com/j/D0D2241E98,"Imagine taking the lead in planning, executing, and delivering ERP projects, ensuring timelines, budgets, and quality expectations are met in close collaboration with our external ERP implementation partner. As our ERP Specialist - Finance you will focus on maintaining the system, optimising workflows, safeguarding data integrity, and partnering with multiple departments to ensure ERP functions align with real business needs.
 
 At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
@@ -2503,7 +2261,7 @@ Why Join Us?
 Destinus is an equal-opportunity employer. We value diversity in our companies and our teams and do not discriminate based on age, race, religion, color, country of origin, gender, sexual orientation, or disability status.
 
 🚀 Destinus – Challenge the limits of time, space, and human potential."
-079ECA3678,Executive Driver,"Madrid, Spain",,Spain,Administration & Office Management,Full-time,,2026-08-04,https://apply.workable.com/j/079ECA3678,"About the role
+079ECA3678,Executive Driver,"Madrid, Spain",,Spain,Administration & Office Management,Full-time,,2026-10-14,https://apply.workable.com/j/079ECA3678,"About the role
 
 Imagine being the person who keeps our leadership and teams moving safely, smoothly, and on time while we build the future of aerospace and defense. As a Company Driver at Destinus, you are more than a driver. You are a trusted professional who ensures reliable transportation, discretion, security awareness, and operational support in a fast-moving international environment.
 
@@ -2886,6 +2644,77 @@ Requirements
 - Experience developing and implementing flight-proven systems for hypersonic and/or space applications, including qualified hardware and software
 - Strong MATLAB, Simulink and/or Python skills
 - Nice to have: Experience taking GNC systems through hardware-in-the-loop testing and/or flight testing"
+9231277759,Head of Air & Missile Defence,"Munich, Germany",,Germany,,,,2026-10-14,https://apply.workable.com/j/9231277759,"About the Role
+
+Imagine this. You own what Destinus will put in the air to stop the next generation of threats, from interceptor architecture through to the demonstrator that proves it works.
+
+At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
+
+This role sits in the Future Capabilities organisation of Destinus Germany. You lead the air and missile defence capability line, covering interceptors, counter-UAS and layered defence concepts against the German and NATO threat picture.
+
+This is a hands-on technical leadership role, and a collaborative one. You spend your time in trade studies, architecture discussions and test campaigns. You develop the concept and you prove it, together with Engineering on realisation, with Commercial on the customer case, and with research and industry partners across Europe.
+
+What You’ll Do
+
+- Own the air and missile defence capability line: interceptors, counter-UAS and layered defence concepts.
+
+- Develop capability theses and system concepts against the German and NATO threat picture, and turn them into requirements the engineering organisation can build against.
+
+- Lead interceptor and effector architecture work at concept level together with Engineering, including seeker, guidance, propulsion and warhead trade studies.
+
+- Define demonstrators and test campaigns, and generate the evidence that a concept holds against a real threat.
+
+- Hold the technical and programmatic interface to BAAINBw, the Bundeswehr air defence community and relevant NATO bodies.
+
+- Feed the capability view into study contracts, technology programmes and European cooperation frameworks.
+
+- Build the partner map across research institutes, seeker and propulsion suppliers, and European system houses.
+
+- Support capture together with Commercial, contributing technical content, threat analysis and concept of employment.
+
+- Grow and develop a small team of capability owners and concept engineers.
+
+Requirements
+
+What You’ll Need
+
+- Degree in aerospace or electrical engineering, physics, or a comparable technical field. A doctorate is an advantage.
+
+- Minimum 10 years of experience in guided interceptors, air defence systems, seekers or effector technology.
+
+- Deep technical grounding in at least one of: seeker and sensor technology, guidance and control, propulsion, or warhead and lethality.
+
+- Experience taking a concept through trade studies and simulation into a demonstrator and a customer-facing proposal.
+
+- Working knowledge of German air and missile defence programmes and the BAAINBw process.
+
+- Recognised standing in the national or European air defence community. Patents or publications are an advantage.
+
+- Proven ability to deliver in a matrix organisation, working closely with engineering, commercial and programme teams.
+
+- Aerospace and defence industry experience is mandatory.
+
+- Fluency in English and German is required.
+
+Who You Are
+
+You are an engineer first. You are happiest when a number in a simulation finally matches a number from a test range, and you test your own concepts hard before you present them. You explain an interceptor kill chain to a procurement officer in plain language, and you enjoy pulling specialists from different teams around a problem until it is solved. You are candid with customers about what physics allows. Most importantly, you take ownership of the technical truth and you share it early.
+
+Destinus is an equal-opportunity employer. We value diversity in our companies and our teams and do not discriminate based on age, race, religion, color, country of origin, gender, sexual orientation, or disability status.
+
+Security screening is an integral component of the selection process. The successful candidate must be willing to undergo a German security clearance under the Security Clearance Act (Sicherheitsueberpruefungsgesetz, SUEG).
+
+Benefits
+
+Why Join Us?
+
+- The Thrill of the Future - work on systems that decide whether European deterrence holds.
+
+- Global Innovation Hub - collaborate with engineers and operators from across Europe.
+
+- Fast-Paced & High-Growth - a company that is scaling quickly and gives you room to build.
+
+- Real Impact - your work will not stay theoretical, it will reach the field."
 CEFD7F361B,Head of Bid Management & Commercial Operations,"Madrid, Spain",,Spain,Business Development & Sales,Full-time,,2026-09-23,https://apply.workable.com/j/CEFD7F361B,"About the Role
 
 Imagine this. You are leading the team behind some of the most strategic defense bids at Destinus, turning complex technical capabilities and customer requirements into compelling, competitive proposals. As Head of Bid Management, you will own our end-to-end bid management approach, from opportunity qualification and bid strategy through submission, negotiation support, and post-bid analysis.
@@ -3849,6 +3678,44 @@ Destinus is an equal-opportunity employer. We value diversity in our companies a
 🚀 Destinus — Advanced defense. Built to scale.
 
 Security screening is an integral component of the selection process, ensuring that candidates meet the organization's security standards and safeguarding against potential risks."
+D9DF0A1809,Junior Terminal Ballistic Simulation Engineer,"Madrid, Spain",,Spain,R&D & Engineering,Temporary,,2026-10-14,https://apply.workable.com/j/D9DF0A1809,"About the Role
+
+Imagine this. You are building and improving the simulation tools that help our engineers understand how advanced warhead designs perform against complex targets before physical testing takes place. As a Junior Terminal Ballistics Simulation Engineer, you will join our Kinetics Team in Madrid and contribute directly to the development, validation and improvement of simulation models used to evaluate terminal ballistic performance against hardened structures.
+
+This is a hands-on engineering role for someone at the beginning of their career who wants to build strong expertise in computational mechanics and terminal ballistics while working on real defense systems. You will work alongside experienced engineers, gradually taking ownership of simulation activities and turning complex physical problems into reliable engineering models.
+
+At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
+
+Requirements
+
+What You'll Do
+
+- Develop, maintain and continuously improve terminal ballistic simulation models focused on warhead effects against hardened structures.
+
+- Build, run, validate and optimize computational models using engineering software such as NX, IMPETUS or similar CAE tools.
+
+- Work closely with engineers within the Kinetics Team to translate design requirements and physical scenarios into accurate computational models.
+- Analyze simulation results, identify trends and contribute to improving model accuracy, robustness and computational efficiency.
+- Compare simulation predictions with available analytical, experimental or test data to support model validation.
+- Document simulation methodologies, assumptions, results and conclusions to ensure clear technical traceability.
+- Support engineering investigations and design decisions through simulation and data-driven analysis.
+- Contribute ideas to improve simulation workflows, methodologies and engineering processes.
+
+What You'll Need
+
+- Bachelor's or Master's degree in Mechanical Engineering, Aerospace Engineering or a related technical discipline.
+- Academic or practical experience in computational mechanics, impact mechanics, terminal ballistics, penetration mechanics or related areas.
+- Experience with finite element analysis and computational simulation through academic projects, research or professional experience.
+- Knowledge of NX, IMPETUS or similar nonlinear explicit simulation software is highly desirable.
+- Good understanding of solid mechanics, dynamic loading and material behavior.
+- Ability to interpret simulation results and connect computational outputs with real physical behavior.
+- Programming or scripting experience for simulation automation or data processing is a plus.
+- Strong analytical thinking and a hands-on approach to solving engineering problems.
+- Fluent in English both speaking and writing.
+
+Who You Are
+
+You are curious about how advanced engineering problems are solved through simulation and enjoy transforming complex physics into reliable computational models. You take ownership of your work, enjoy learning from experienced engineers and are motivated by seeing your analyses contribute to real products. You thrive in a collaborative environment where innovation moves quickly, and you are excited by the opportunity to work on cutting-edge aerospace and defense technologies while continuously developing your technical expertise."
 FA2F844FC0,Kinetics Specialist,"Hengelo, Netherlands",,Netherlands,Production & Manufacturing,Full-time,,2026-02-09,https://apply.workable.com/j/FA2F844FC0,"About the Role
 
 You are at the heart of where precision meets production, turning complex kinetic designs into reliable, high performance reality. As Kinetics Specialist for Production, you step into a mission critical role where safety, quality, and execution must move in perfect sync. Reporting directly to the Head of Kinetics you become the technical anchor that keeps propulsion and energetic systems moving smoothly from design intent to industrial scale production.
@@ -4520,6 +4387,50 @@ Here's what we expect in your resume as we think will help you be successful:
 - Knowledge of MIL-STD-810 or similar environmental test standards.
 - Proficiency with 3D-Printing technologies.
 - Expertise in composites and sandwich structures is a plus."
+414538BC1D,Operario/a Senior de Almacén,"Madrid, Spain",,Spain,Logistics & Warehouse,Full-time,,2026-10-13,https://apply.workable.com/j/414538BC1D,"Imagina esto. Formas parte de un equipo donde la precisión y la eficiencia son fundamentales para que la producción siga avanzando. Como Operario/a Senior de Almacén en Destinus, tendrás un papel clave en el funcionamiento de nuestra cadena de suministro, asegurando que cada material y componente esté en el lugar adecuado y en el momento preciso.
+
+Desde la recepción de mercancías y la preparación de envíos hasta la gestión de inventarios y el cumplimiento de las normas de seguridad, tu trabajo será esencial para el éxito de nuestras operaciones. Te sentirás cómodo/a trabajando con sistemas y datos, tendrás soltura utilizando Microsoft Dynamics (MSD) y serás capaz de resolver incidencias del día a día de forma autónoma, sin necesidad de escalar cada problema.
+
+Si disfrutas trabajando en entornos dinámicos, prestas atención a los detalles y te interesa trabajar con sistemas logísticos avanzados, esta es tu oportunidad para contribuir directamente a nuestra misión.
+
+En Destinus estamos revolucionando la industria de defensa con vehículos aéreos no tripulados (UAV) de última generación. Nuestras tecnologías están diseñadas para responder a las necesidades específicas de las operaciones de defensa modernas, ofreciendo velocidad, precisión y eficiencia en costes. Colaboramos con organismos gubernamentales y organizaciones de defensa de todo el mundo para desarrollar soluciones avanzadas destinadas a operaciones críticas. Únete a nosotros para dar forma al futuro de la defensa a través de innovaciones aeroespaciales revolucionarias.
+
+Que haras
+
+- Garantizar la continuidad de las operaciones - Recepcionar, inspeccionar y almacenar mercancías, preparar pedidos y envíos, y realizar recuentos de inventario, asegurando que cada artículo esté correctamente ubicado y listo para su expedición. Comunicar cualquier incidencia con equipos o maquinaria para minimizar las interrupciones operativas.
+- Gestionar la recepción e identificación de materiales - Identificar correctamente materiales, piezas y componentes, verificando cantidades, referencias, documentación y estado de los productos recibidos. Comunicar rápidamente cualquier discrepancia, daño, material incorrecto o incidencia en las entregas, incluidos pagos arancelarios pendientes o documentación incompleta, al equipo correspondiente o al departamento de Compras.
+- Abastecer a Producción - Preparar y suministrar materiales y componentes al equipo de Producción, asegurando su disponibilidad en el lugar y momento adecuados.
+- Mantener registros precisos - Registrar todos los pedidos, entregas y movimientos de stock en Microsoft Dynamics (MSD), manteniendo actualizado el inventario de entradas y salidas y participando en recuentos periódicos y auditorías de stock.
+- Resolver incidencias operativas - Identificar y solucionar de forma autónoma los problemas operativos o del sistema que surjan en el día a día, sabiendo cuándo es necesario escalar una incidencia.
+- Mantener el almacén organizado - Clasificar, identificar y registrar materiales que no tengan una ubicación o estado claramente definidos, contribuyendo al orden y la organización del almacén como parte de la actividad diaria.
+- Colaborar con otros departamentos - Trabajar estrechamente con Producción, Compras e Ingeniería para comprender las necesidades de materiales y resolver incidencias operativas.
+- Priorizar la seguridad y la eficiencia - Aplicar y mantener las buenas prácticas de seguridad y salud laboral, garantizando un entorno de trabajo organizado y conforme con la normativa.
+
+Requirements
+
+Requisitos imprescindibles
+
+- Entre 3 y 5 años de experiencia relevante en operaciones de almacén, logística interna o entornos industriales similares.
+- Experiencia práctica utilizando los módulos de almacén de Microsoft Dynamics (MSD), así como soltura con herramientas informáticas y registro de datos.
+- Carnet de carretillero en vigor.
+- Buenas habilidades organizativas, atención al detalle y una forma de trabajar metódica.
+- Capacidad para identificar y resolver de forma autónoma incidencias operativas o relacionadas con los datos.
+- Alta flexibilidad y disponibilidad para adaptar los horarios de trabajo y apoyar al equipo durante periodos de mayor actividad o situaciones urgentes, garantizando la continuidad de la producción.
+- Buenas habilidades de comunicación y capacidad para coordinarse eficazmente con Producción, Ingeniería y Compras.
+- Dominio del español y buen nivel de inglés para desenvolverse en un entorno internacional.
+
+Se valorará positivamente
+
+- Experiencia con documentación de importación y exportación, procesos aduaneros o manipulación de mercancías reguladas o peligrosas.
+- Experiencia previa en entornos industriales, de fabricación, automoción, aeroespaciales u otros sectores técnicos similares.
+
+Quien eres
+
+Eres mucho más que un/a operario/a de almacén. Eres una pieza clave para que nuestra cadena de suministro funcione de manera eficiente. Te responsabilizas de tu trabajo, te aseguras de que el inventario esté siempre actualizado y organizado, y tienes iniciativa para resolver problemas antes de que afecten a las operaciones.
+
+Te comunicas con claridad, disfrutas encontrando soluciones prácticas y te desenvuelves bien en un entorno estructurado, pero dinámico.
+
+Si buscas un puesto con impacto real y quieres formar parte de una empresa innovadora y en pleno crecimiento, queremos conocerte."
 59C80BDC35,Operations Finance Lead,"Hengelo, Netherlands",,Netherlands,Finance,,,2026-09-14,https://apply.workable.com/j/59C80BDC35,"About the role
 
 Imagine this. You are building the financial backbone behind a fast-scaling, multi-site manufacturing organization. As our Operations Finance Lead, you will take ownership of how we understand manufacturing costs, margins, inventory and operational performance across the group. This is not a role where you simply inherit established processes. You will build, standardize and improve them, creating the financial discipline and visibility needed to scale our operations.
@@ -4626,6 +4537,186 @@ What You’ll Need
 Who You Are
 
 You are hands-on, analytical and comfortable building structure where it does not yet exist. You can move from detailed product costing and inventory analysis to a strategic conversation with senior leadership without losing sight of either. You challenge numbers when they do not reflect operational reality, take ownership instead of waiting for instructions and know how to bring different sites and teams behind a common way of working. You thrive in a fast-moving environment where finance is expected to help drive the business, not simply report what already happened."
+D707E0562C,Polimi Career Day International 2026,"Madrid, Spain",,Spain,,,,2026-10-13,https://apply.workable.com/j/D707E0562C,"About the role
+
+Imagine this. You're studying at Politecnico di Milano, building the skills to solve complex engineering challenges. Now imagine taking that knowledge beyond the classroom and applying it to real aerospace technologies, autonomous flight systems, and next-generation UAVs.
+
+At Destinus, we're looking to connect with ambitious Polimi students and graduates who want to turn ideas into real-world engineering solutions. Whether your interests lie in aerospace, robotics, artificial intelligence, propulsion, software, or mechanical design, you'll have the opportunity to explore how your skills can contribute to technologies pushing the boundaries of modern aviation and defense.
+
+Your academic experience has taught you to think critically, solve problems, and challenge conventional approaches. At Destinus, you'll see how those skills translate into real engineering projects, from early-stage development and simulation to prototyping, integration, and testing.
+
+What you’ll get the chance to do
+
+- Apply your engineering knowledge from Politecnico di Milano to real aerospace and defense challenges.
+- Contribute to the development of advanced UAV systems, including autonomy, guidance, control, propulsion, and mechanical design.
+- Explore the full engineering process, from modelling and simulation to prototyping, testing, and validation.
+- Work with technologies involving robotics, embedded systems, software development, artificial intelligence, or advanced manufacturing.
+- Collaborate with experienced engineers across different disciplines and international teams.
+- Bring fresh ideas, university projects, research experience, and technical curiosity into real engineering applications.
+- Discover opportunities for internships, thesis projects, graduate positions, and early-career engineering roles.
+
+Requirements
+
+You’ll shine if you
+
+- Currently studying at or recently graduated from Politecnico di Milano, ideally in Aerospace Engineering, Mechanical Engineering, Automation and Control Engineering, Computer Science, Electrical Engineering, Robotics, or related technical fields.
+- A solid academic foundation in areas such as modelling, simulation, programming, control systems, system design, or mechanical engineering.
+- An interest in aerospace technologies, autonomous systems, and real-world engineering applications.
+- Curiosity to understand how complex systems work and the motivation to turn theoretical knowledge into practical solutions.
+- Confidence working in English within an international environment.
+- Experience with academic projects, student engineering teams, research activities, or personal technical projects is a plus.
+
+Who You Are
+
+You're curious, ambitious, and excited by engineering challenges that go beyond textbooks. You enjoy understanding how things work, experimenting with new ideas, and finding practical solutions to complex problems.
+
+Whether you're searching for an internship, a thesis opportunity, or your first professional role, you're ready to learn, contribute, and grow alongside engineers developing the next generation of autonomous flight technologies.
+
+You don't just want to study the future of aerospace. You want to help build it."
+D707E0562C,Polimi Career Day International 2026,"Zürich, Switzerland",,Switzerland,,,,2026-10-13,https://apply.workable.com/j/D707E0562C,"About the role
+
+Imagine this. You're studying at Politecnico di Milano, building the skills to solve complex engineering challenges. Now imagine taking that knowledge beyond the classroom and applying it to real aerospace technologies, autonomous flight systems, and next-generation UAVs.
+
+At Destinus, we're looking to connect with ambitious Polimi students and graduates who want to turn ideas into real-world engineering solutions. Whether your interests lie in aerospace, robotics, artificial intelligence, propulsion, software, or mechanical design, you'll have the opportunity to explore how your skills can contribute to technologies pushing the boundaries of modern aviation and defense.
+
+Your academic experience has taught you to think critically, solve problems, and challenge conventional approaches. At Destinus, you'll see how those skills translate into real engineering projects, from early-stage development and simulation to prototyping, integration, and testing.
+
+What you’ll get the chance to do
+
+- Apply your engineering knowledge from Politecnico di Milano to real aerospace and defense challenges.
+- Contribute to the development of advanced UAV systems, including autonomy, guidance, control, propulsion, and mechanical design.
+- Explore the full engineering process, from modelling and simulation to prototyping, testing, and validation.
+- Work with technologies involving robotics, embedded systems, software development, artificial intelligence, or advanced manufacturing.
+- Collaborate with experienced engineers across different disciplines and international teams.
+- Bring fresh ideas, university projects, research experience, and technical curiosity into real engineering applications.
+- Discover opportunities for internships, thesis projects, graduate positions, and early-career engineering roles.
+
+Requirements
+
+You’ll shine if you
+
+- Currently studying at or recently graduated from Politecnico di Milano, ideally in Aerospace Engineering, Mechanical Engineering, Automation and Control Engineering, Computer Science, Electrical Engineering, Robotics, or related technical fields.
+- A solid academic foundation in areas such as modelling, simulation, programming, control systems, system design, or mechanical engineering.
+- An interest in aerospace technologies, autonomous systems, and real-world engineering applications.
+- Curiosity to understand how complex systems work and the motivation to turn theoretical knowledge into practical solutions.
+- Confidence working in English within an international environment.
+- Experience with academic projects, student engineering teams, research activities, or personal technical projects is a plus.
+
+Who You Are
+
+You're curious, ambitious, and excited by engineering challenges that go beyond textbooks. You enjoy understanding how things work, experimenting with new ideas, and finding practical solutions to complex problems.
+
+Whether you're searching for an internship, a thesis opportunity, or your first professional role, you're ready to learn, contribute, and grow alongside engineers developing the next generation of autonomous flight technologies.
+
+You don't just want to study the future of aerospace. You want to help build it."
+D707E0562C,Polimi Career Day International 2026,"Munich, Germany",,Germany,,,,2026-10-13,https://apply.workable.com/j/D707E0562C,"About the role
+
+Imagine this. You're studying at Politecnico di Milano, building the skills to solve complex engineering challenges. Now imagine taking that knowledge beyond the classroom and applying it to real aerospace technologies, autonomous flight systems, and next-generation UAVs.
+
+At Destinus, we're looking to connect with ambitious Polimi students and graduates who want to turn ideas into real-world engineering solutions. Whether your interests lie in aerospace, robotics, artificial intelligence, propulsion, software, or mechanical design, you'll have the opportunity to explore how your skills can contribute to technologies pushing the boundaries of modern aviation and defense.
+
+Your academic experience has taught you to think critically, solve problems, and challenge conventional approaches. At Destinus, you'll see how those skills translate into real engineering projects, from early-stage development and simulation to prototyping, integration, and testing.
+
+What you’ll get the chance to do
+
+- Apply your engineering knowledge from Politecnico di Milano to real aerospace and defense challenges.
+- Contribute to the development of advanced UAV systems, including autonomy, guidance, control, propulsion, and mechanical design.
+- Explore the full engineering process, from modelling and simulation to prototyping, testing, and validation.
+- Work with technologies involving robotics, embedded systems, software development, artificial intelligence, or advanced manufacturing.
+- Collaborate with experienced engineers across different disciplines and international teams.
+- Bring fresh ideas, university projects, research experience, and technical curiosity into real engineering applications.
+- Discover opportunities for internships, thesis projects, graduate positions, and early-career engineering roles.
+
+Requirements
+
+You’ll shine if you
+
+- Currently studying at or recently graduated from Politecnico di Milano, ideally in Aerospace Engineering, Mechanical Engineering, Automation and Control Engineering, Computer Science, Electrical Engineering, Robotics, or related technical fields.
+- A solid academic foundation in areas such as modelling, simulation, programming, control systems, system design, or mechanical engineering.
+- An interest in aerospace technologies, autonomous systems, and real-world engineering applications.
+- Curiosity to understand how complex systems work and the motivation to turn theoretical knowledge into practical solutions.
+- Confidence working in English within an international environment.
+- Experience with academic projects, student engineering teams, research activities, or personal technical projects is a plus.
+
+Who You Are
+
+You're curious, ambitious, and excited by engineering challenges that go beyond textbooks. You enjoy understanding how things work, experimenting with new ideas, and finding practical solutions to complex problems.
+
+Whether you're searching for an internship, a thesis opportunity, or your first professional role, you're ready to learn, contribute, and grow alongside engineers developing the next generation of autonomous flight technologies.
+
+You don't just want to study the future of aerospace. You want to help build it."
+D707E0562C,Polimi Career Day International 2026,"Hengelo, Netherlands",,Netherlands,,,,2026-10-13,https://apply.workable.com/j/D707E0562C,"About the role
+
+Imagine this. You're studying at Politecnico di Milano, building the skills to solve complex engineering challenges. Now imagine taking that knowledge beyond the classroom and applying it to real aerospace technologies, autonomous flight systems, and next-generation UAVs.
+
+At Destinus, we're looking to connect with ambitious Polimi students and graduates who want to turn ideas into real-world engineering solutions. Whether your interests lie in aerospace, robotics, artificial intelligence, propulsion, software, or mechanical design, you'll have the opportunity to explore how your skills can contribute to technologies pushing the boundaries of modern aviation and defense.
+
+Your academic experience has taught you to think critically, solve problems, and challenge conventional approaches. At Destinus, you'll see how those skills translate into real engineering projects, from early-stage development and simulation to prototyping, integration, and testing.
+
+What you’ll get the chance to do
+
+- Apply your engineering knowledge from Politecnico di Milano to real aerospace and defense challenges.
+- Contribute to the development of advanced UAV systems, including autonomy, guidance, control, propulsion, and mechanical design.
+- Explore the full engineering process, from modelling and simulation to prototyping, testing, and validation.
+- Work with technologies involving robotics, embedded systems, software development, artificial intelligence, or advanced manufacturing.
+- Collaborate with experienced engineers across different disciplines and international teams.
+- Bring fresh ideas, university projects, research experience, and technical curiosity into real engineering applications.
+- Discover opportunities for internships, thesis projects, graduate positions, and early-career engineering roles.
+
+Requirements
+
+You’ll shine if you
+
+- Currently studying at or recently graduated from Politecnico di Milano, ideally in Aerospace Engineering, Mechanical Engineering, Automation and Control Engineering, Computer Science, Electrical Engineering, Robotics, or related technical fields.
+- A solid academic foundation in areas such as modelling, simulation, programming, control systems, system design, or mechanical engineering.
+- An interest in aerospace technologies, autonomous systems, and real-world engineering applications.
+- Curiosity to understand how complex systems work and the motivation to turn theoretical knowledge into practical solutions.
+- Confidence working in English within an international environment.
+- Experience with academic projects, student engineering teams, research activities, or personal technical projects is a plus.
+
+Who You Are
+
+You're curious, ambitious, and excited by engineering challenges that go beyond textbooks. You enjoy understanding how things work, experimenting with new ideas, and finding practical solutions to complex problems.
+
+Whether you're searching for an internship, a thesis opportunity, or your first professional role, you're ready to learn, contribute, and grow alongside engineers developing the next generation of autonomous flight technologies.
+
+You don't just want to study the future of aerospace. You want to help build it."
+D707E0562C,Polimi Career Day International 2026,"Paris, France",,France,,,,2026-10-13,https://apply.workable.com/j/D707E0562C,"About the role
+
+Imagine this. You're studying at Politecnico di Milano, building the skills to solve complex engineering challenges. Now imagine taking that knowledge beyond the classroom and applying it to real aerospace technologies, autonomous flight systems, and next-generation UAVs.
+
+At Destinus, we're looking to connect with ambitious Polimi students and graduates who want to turn ideas into real-world engineering solutions. Whether your interests lie in aerospace, robotics, artificial intelligence, propulsion, software, or mechanical design, you'll have the opportunity to explore how your skills can contribute to technologies pushing the boundaries of modern aviation and defense.
+
+Your academic experience has taught you to think critically, solve problems, and challenge conventional approaches. At Destinus, you'll see how those skills translate into real engineering projects, from early-stage development and simulation to prototyping, integration, and testing.
+
+What you’ll get the chance to do
+
+- Apply your engineering knowledge from Politecnico di Milano to real aerospace and defense challenges.
+- Contribute to the development of advanced UAV systems, including autonomy, guidance, control, propulsion, and mechanical design.
+- Explore the full engineering process, from modelling and simulation to prototyping, testing, and validation.
+- Work with technologies involving robotics, embedded systems, software development, artificial intelligence, or advanced manufacturing.
+- Collaborate with experienced engineers across different disciplines and international teams.
+- Bring fresh ideas, university projects, research experience, and technical curiosity into real engineering applications.
+- Discover opportunities for internships, thesis projects, graduate positions, and early-career engineering roles.
+
+Requirements
+
+You’ll shine if you
+
+- Currently studying at or recently graduated from Politecnico di Milano, ideally in Aerospace Engineering, Mechanical Engineering, Automation and Control Engineering, Computer Science, Electrical Engineering, Robotics, or related technical fields.
+- A solid academic foundation in areas such as modelling, simulation, programming, control systems, system design, or mechanical engineering.
+- An interest in aerospace technologies, autonomous systems, and real-world engineering applications.
+- Curiosity to understand how complex systems work and the motivation to turn theoretical knowledge into practical solutions.
+- Confidence working in English within an international environment.
+- Experience with academic projects, student engineering teams, research activities, or personal technical projects is a plus.
+
+Who You Are
+
+You're curious, ambitious, and excited by engineering challenges that go beyond textbooks. You enjoy understanding how things work, experimenting with new ideas, and finding practical solutions to complex problems.
+
+Whether you're searching for an internship, a thesis opportunity, or your first professional role, you're ready to learn, contribute, and grow alongside engineers developing the next generation of autonomous flight technologies.
+
+You don't just want to study the future of aerospace. You want to help build it."
 6A2904A1B9,Procurement Lead,"Hengelo, Netherlands",,Netherlands,"Procurement, Supply Chain & Planning",Full-time,,2026-09-21,https://apply.workable.com/j/6A2904A1B9,"About This Role
 
 Imagine this. You are leading procurement at one of Destinus' key European sites, turning global strategy into reliable, efficient local execution. As Procurement Lead, you will take ownership of operational procurement activities in the Netherlands, supporting our manufacturing and engineering teams while ensuring materials and services are available when and where they are needed.
@@ -4729,57 +4820,6 @@ What You´ll Need
 Who You Are
 
 You thrive in a fast-paced production environment where precision and performance go hand in hand. You’re a natural leader who knows how to inspire teams, drive results, and keep operations running smoothly under pressure. You take ownership of challenges and find smart, practical solutions to keep things moving forward. Collaboration is your strength—you build trust, motivate others, and know how to turn strategy into action. Above all, you care about quality, safety, and efficiency, and you lead by example to make sure every product that leaves the line reflects excellence."
-EF05D22781,Production Planner & Controller,"Born, Netherlands",,Netherlands,Production & Manufacturing,Full-time,,2026-08-05,https://apply.workable.com/j/EF05D22781,"Imagine this. You are the person who keeps production moving with precision. Every schedule you build, every material you coordinate, and every decision you make helps transform engineering innovation into reality. As a Production Planner at Destinus, you will ensure our manufacturing operations in Born (South Netherlands) run efficiently, balancing resources, materials, and production priorities to deliver high quality aerospace products on time.
-
-At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
-
-What You'll Do
-
-• Develop, maintain, and optimize production schedules to ensure efficient workflow and on time delivery.
-
-• Coordinate the flow of work orders, materials, and production priorities across manufacturing operations.
-
-• Monitor inventory levels of raw materials, components, and finished goods to maintain the right balance between availability and stock optimization.
-
-• Work closely with the Procurement team to ensure materials are available when needed and support material requirements planning.
-
-• Plan and coordinate the allocation of equipment, materials, and production capacity to maximize efficiency.
-
-• Collaborate with Production teams to monitor manufacturing progress, identify deviations from plan, and ensure production targets are achieved.
-
-• Identify production bottlenecks, material shortages, and operational constraints, implementing solutions to minimize disruptions.
-
-• Partner with Logistics to ensure finished products are delivered according to customer commitments.
-
-• Prepare and maintain accurate production records, schedules, inventory data, and performance reports.
-
-• Analyze production performance and recommend process improvements that increase productivity, reduce waste, and improve operational efficiency.
-
-Requirements
-
-What You'll Need
-
-• Bachelor's degree in Supply Chain, Industrial Engineering, Manufacturing, Operations Management, or a related field.
-
-• At least 5 years of previous experience in production planning, manufacturing planning, supply chain, or production control within an industrial environment.
-
-• Strong understanding of production planning methodologies, inventory management, and material requirements planning.
-
-• Experience working with ERP or MRP systems for production scheduling and inventory management.
-
-• Strong analytical skills with the ability to prioritize multiple production activities in a dynamic environment.
-
-• Proficiency in Microsoft Excel and production planning tools.
-
-• Excellent communication skills with the ability to collaborate across Production, Procurement, Logistics, and Operations teams.
-
-• Strong organizational skills with excellent attention to detail.
-
-• Fluent English. Additional languages are considered an advantage.
-
-Who You Are
-
-You enjoy bringing structure to complex operations and keeping multiple priorities moving at the same time. You are proactive, organized, and solution oriented, always looking for ways to improve efficiency without compromising quality. You communicate effectively across teams, take ownership of your work, and thrive in a fast paced manufacturing environment where planning and execution go hand in hand."
 822F304444,Production Support Engineer,"Sofia, Bulgaria",,Bulgaria,R&D & Engineering,,,2026-07-27,https://apply.workable.com/j/822F304444,"About the Role
 
 Imagine this, you are the engineer who keeps advanced aerospace systems moving from design into production. As a Production Support Engineer, you will build the tools, infrastructure, and processes that enable our production teams to manufacture complex electronic systems efficiently, reliably, and at scale. Working at the intersection of software, hardware, and manufacturing, you will remove production bottlenecks, automate repetitive tasks, and continuously improve how we build next generation UAV technologies.
@@ -5737,39 +5777,6 @@ Nice-to-Haves
 Who You Are
 
 You’re not just an inspector — you’re a perfectionist with purpose. You thrive in fast-paced, high-stakes environments where every detail matters, driven by curiosity to constantly question how things can be done better, faster, and smarter. You’re a problem solver who doesn’t just spot issues — you dive in, figure out what went wrong, and help make it right. Most importantly, you take ownership, knowing that when you’re part of a team reshaping aerospace defense, you don’t wait for someone else to lead the way — you set the standard."
-05B930165B,R&D Turbo Engine Technician,"Hengelo, Netherlands",,Netherlands,R&D & Engineering,,,2026-08-25,https://apply.workable.com/j/05B930165B,"Imagine being responsible for the mechanical assembly of turbojet engines in a high precision aerospace production environment. As the technician you´ll be focused on building integrating and troubleshooting complex propulsion systems according to engineering documentation quality standards and safety requirements. You work hands on with critical engine components supporting assembly testing and continuous improvement on the production floor. Your work directly impacts engine performance reliability and readiness for flight.
-
-At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
-
-Requirements
-
-What You’ll Do
-
-- Assemble components of turbojet engines following precise schematics and technical specifications.
-
-- Execute pre-assembly and assembly inspections to ensure compliance with quality standards.
-
-- Document all assembly activities meticulously, including accurate critical measurements, results, observations, and recommendations for improvements.
-
-- Ensure adherence to safety regulations and guidelines throughout all assembly procedures.
-
-- Participate in continuous improvement initiatives to enhance assembly efficiency and testing accuracy.
-
-What You’ll Need
-
-- MBO 3+ or equivalent work and thinking level in the field of rotational machinery or mechanics.
-
-- You are result-oriented, accurate, and have strong planning and organization skills.
-
-- Strong problem-solving skills and the ability to think critically.
-
-- A minimum of 3 years of hands-on experience in the assembly or testing
-
-- Strong analytical and troubleshooting skills, with a keen attention to detail.
-
-- Ability to read and interpret technical drawings, schematics, and maintenance manuals.
-
-- Good Dutch and English communication skills."
 B9AB17E106,Radar System Engineer,"Zürich, Switzerland",,Switzerland,R&D & Engineering,Full-time,,2026-10-01,https://apply.workable.com/j/B9AB17E106,"About the role
 
 Imagine shaping the future of radar technology by developing next generation digital radar systems built for high performance environments where every gram, watt, and millisecond matters. As a Radar System Engineer, you will work at the intersection of system architecture, advanced electronics, and mission-critical aerospace applications, collaborating with multidisciplinary teams to transform complex requirements into cutting-edge radar solutions. You will play a key role in defining system requirements, driving technical trade-offs, and selecting the right components to achieve demanding SWaP-C targets. This is a role for engineers who enjoy solving complex technical challenges, balancing performance with real-world constraints, and pushing advanced sensing systems to the next level.
@@ -6268,7 +6275,7 @@ Requirements
 What You’ll Need
 
 - Bachelor’s or Master’s degree in Security Management, Risk Management, Information Security, Engineering, or a related field
-- At least 7 years of experience in corporate, military, government, or comparable security environments
+- At least 5 years of experience in corporate, military, government, or comparable security environments
 - Experience within defense, critical infrastructure, or another highly regulated security environment
 - Proven experience managing security operations, teams, and facility protection
 - Experience working with licensed security service providers
@@ -8173,34 +8180,6 @@ Who You Are
 You’re not just a Warehouse Operator—you’re the backbone of an efficient supply chain. You take ownership of your work, ensuring that inventory is always accurate and organized. You communicate clearly, solve problems proactively, and thrive in a structured yet dynamic environment.
 
 If you’re ready to step into a high-impact role and be part of a fast-growing, innovative company, we’d love to hear from you!!"
-C10D2A2E51,Warehouse operator (magazijn medewerker),"Born, Netherlands",,Netherlands,Logistics & Warehouse,,,2026-10-08,https://apply.workable.com/j/C10D2A2E51,"About the Role
-
-Imagine being at the center of a high-performance operation where every movement matters and every detail counts. As a Warehouse Operator at Destinus, you keep the engine running behind the scenes, making sure materials, components, and products flow seamlessly through our facilities with precision and speed. Your role is hands-on, dynamic, and essential to keeping our aerospace operations on track.
-
-At Destinus, we are revolutionizing the defense industry with cutting-edge Unmanned Aerial Vehicles (UAVs). Our innovative technologies are designed to meet the unique demands of modern defense operations, delivering unparalleled speed, precision, and cost effectiveness. Destinus partners with government agencies and defense organizations worldwide to provide advanced solutions for mission-critical operations, enabling a new era of efficiency and technological superiority. Join us in shaping the future of defense with groundbreaking aerospace innovations.
-
-What You´ll Do
-
-- Receive, organize, and store products efficiently, ensuring every item is in its designated location.
-- Record all orders, deliveries, and stock movements in the ERP system, keeping inventory up to date.
-- Work closely with purchasing, engineering, and production teams to optimize warehouse operations and stock control.
-- Identify and report potential delivery issues, such as pending tariff payments or missing documentation to the Purchasing department.
-- Implement and uphold workplace health and safety practices, keeping the warehouse organized and compliant.
-
-Requirements
-
-What You’ll Need
-
-- Strong organizational skills with a detail-oriented and methodical approach.
-- Excellent communication and interpersonal skills, with the ability to coordinate across teams.
-- Experience using ERP systems for warehouse management.
-- Fluent in English —you’ll be working with international teams.
-- Experience with Microsoft Dynamics (MSD) warehouse modules.
-- Previous experience in a warehouse, logistics, or supply chain role.
-
-Who You Are
-
-You thrive in an environment where structure meets speed and every detail matters. You take ownership of your work, making sure inventory is always accurate, organized, and where it needs to be. When something is off, you don’t wait, you fix it.You communicate clearly with your team, stay one step ahead, and handle challenges with a practical, hands-on mindset. You’re reliable, proactive, and comfortable working in a dynamic setting where priorities can shift and precision is key.You enjoy being part of something bigger, knowing your work directly impacts operations and keeps everything moving forward."
 28C2D8FB47,Windows Systems Administrator,"Madrid, Spain",,Spain,IT & Business Application,Full-time,,2026-10-06,https://apply.workable.com/j/28C2D8FB47,"About The Role
 
 Imagine stepping into a place where every system you touch powers teams that are redefining aerospace and defence. As our Windows Systems Administrator, you will play a key role in managing, securing, and optimising a broad range of IT systems across the organisation. This role requires deep hands-on experience across Microsoft 365, Windows Server, Active Directory, and related infrastructure, while maintaining a proactive security mindset. We are looking for someone who can ensure the reliability, scalability, and security of all systems supporting business operations.

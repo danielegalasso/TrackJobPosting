@@ -10,6 +10,8 @@ import {
   type ReviewMode,
   type SearchRun,
 } from '../types';
+import { CalibrationSection } from './CalibrationSection';
+import { FiltersEditor } from './FiltersEditor';
 import { ModelPicker } from './ModelPicker';
 
 const LEVEL_STYLES: Record<LogLine['level'], string> = {
@@ -35,6 +37,7 @@ const PHASES: Record<SearchRun['phase'], string> = {
 const MODE_LABELS: Record<ReviewMode, string> = {
   new: 'Score the never-scored',
   stale: 'Rescore with the current prompt',
+  calibration: 'Rescore with the latest learning',
   all: 'Rescore everything again',
 };
 
@@ -76,7 +79,11 @@ export function SearchPanel() {
     queryKey: ['search-status'],
     queryFn: api.searchStatus,
     refetchInterval: (query) =>
-      query.state.data?.search.running || query.state.data?.review.running ? 2000 : 10000,
+      query.state.data?.search.running ||
+      query.state.data?.review.running ||
+      query.state.data?.calibration.running
+        ? 2000
+        : 10000,
   });
   const search = status?.search;
   const review = status?.review;
@@ -227,7 +234,22 @@ export function SearchPanel() {
 
       {status && <ScoringSection status={status} onAct={act} />}
 
+      <FiltersEditor
+        onSaved={() => {
+          refetch();
+          queryClient.invalidateQueries({ queryKey: ['jobs'] });
+        }}
+      />
+
       <BriefEditor busy={Boolean(review?.running)} onSaved={() => refetch()} />
+
+      {status && (
+        <CalibrationSection
+          calibration={status.calibration}
+          canRun={status.scoring.has_key && status.brief_present}
+          onAct={act}
+        />
+      )}
 
       <div>
         <div className="mb-1 flex items-center justify-between text-xs text-gray-500">
@@ -308,10 +330,11 @@ function ScoringSection({ status, onAct }: ScoringSectionProps) {
         Of {counts.open} open postings, {counts.excluded} are excluded by the rules
         {reasons.length > 0 && ` (${reasons.map(([reason, n]) => `${reason}: ${n}`).join(', ')})`}.
       </p>
-      <dl className="mb-4 grid grid-cols-3 gap-3">
+      <dl className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
         {[
           ['Scored with this prompt', counts.current, 'text-emerald-700'],
           ['Scored with an older prompt', counts.stale, 'text-amber-700'],
+          ['Scored before the latest learning', counts.older_calibration, 'text-amber-700'],
           ['Never scored', counts.never, 'text-gray-900'],
         ].map(([label, value, tone]) => (
           <div key={String(label)} className="rounded border border-gray-100 bg-gray-50 p-2">
@@ -365,7 +388,7 @@ function ScoringSection({ status, onAct }: ScoringSectionProps) {
             className="control w-28"
           />
         </label>
-        {(['new', 'stale', 'all'] as ReviewMode[]).map((mode) => (
+        {(['new', 'stale', 'calibration', 'all'] as ReviewMode[]).map((mode) => (
           <button
             key={mode}
             onClick={() => ask(mode)}
@@ -426,6 +449,9 @@ function ScoringSection({ status, onAct }: ScoringSectionProps) {
               {review.running ? 'Scoring' : 'Last scoring'}: {review.reviewed + review.failed}/{review.total}
               {review.failed > 0 && `, ${review.failed} failed`} · {review.model}
               {review.effort !== 'none' && ` (${review.effort})`}
+              {review.calibration > 0 && ` · learning update ${review.calibration}`}
+              {review.prompt_tokens > 0 &&
+                ` · ${Math.round((review.cached_tokens / review.prompt_tokens) * 100)}% of the prompt from cache`}
             </span>
             <span className="font-semibold text-gray-800">{dollars(review.cost, 4)}</span>
           </div>

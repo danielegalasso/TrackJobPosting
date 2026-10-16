@@ -2,9 +2,9 @@
   "source": "https://jobs.terna.it/search/?locale=it_it&searchResultView=LIST",
   "company": "Terna",
   "query": "",
-  "extracted_at": "2026-10-10T10:49:29",
-  "site_total": 4,
-  "extracted": 4,
+  "extracted_at": "2026-10-15T08:14:18",
+  "site_total": 5,
+  "extracted": 5,
   "postings": [
     {
       "job_id": "29886",
@@ -14,6 +14,15 @@
       "start_date": "2026-06-15",
       "url": "https://jobs.terna.it/job/Junior-Engineer-Categorie-Protette-%28L_-6899%29/29886-it_IT/",
       "description": "Terna, gestore della rete di trasmissione nazionale (RTN), è impegnata nel processo di transizione ecologica e come regista del sistema elettrico e abilitatore della Twin Transition (transizione energetica e innovazione digitale), ha il compito di sviluppare una rete in grado di gestire una sempre migliore integrazione delle rinnovabili e consentire la progressiva decarbonizzazione del sistema, garantendo al contempo il costante bilanciamento tra energia prodotta e consumata.\n\nVuoi essere protagonista della transizione energetica e vuoi dare il tuo contributo per la costruzione del sistema energetico di domani?\n\nTerna è alla ricerca di persone laureate o diplomate, appartenenti alle Categorie Protette e iscritte o iscrivibili alle Liste di Collocamento Mirato Legge 68/99, interessate ad un percorso professionale come Junior Engineer."
+    },
+    {
+      "job_id": "29642",
+      "title": "Junior Project Engineer",
+      "location": "Roma",
+      "additional_locations": "",
+      "start_date": "2026-10-14",
+      "url": "https://jobs.terna.it/job/Junior-Project-Engineer/29642-it_IT/",
+      "description": "Terna, gestore della rete di trasmissione nazionale (RTN), è impegnata nel processo di transizione ecologica e come regista del sistema elettrico e abilitatore della Twin Transition (transizione energetica e innovazione digitale), ha il compito di sviluppare una rete in grado di gestire una sempre migliore integrazione delle rinnovabili e consentire la progressiva decarbonizzazione del sistema, garantendo al contempo il costante bilanciamento tra energia prodotta e consumata.\n\nVuoi essere protagonista della transizione energetica e vuoi dare il tuo contributo per la costruzione del sistema energetico di domani?\n\nTerna è alla ricerca di persone da inserire nel ruolo di Junior Project Engineer per la sede di Roma."
     },
     {
       "job_id": "30278",

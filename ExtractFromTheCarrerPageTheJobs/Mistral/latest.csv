@@ -8082,105 +8082,6 @@ For the most up-to-date details on benefits available in your location, please r
 PRIVACY POLICY
 
 Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-dcf889f0-2f46-45e6-9394-51f9b62f3fe9,"CyberSecurity, Offensive Security Engineer",Paris,,France,Solutions,FullTime,,,2026-07-09,https://jobs.ashbyhq.com/mistral.ai/dcf889f0-2f46-45e6-9394-51f9b62f3fe9,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-Role summary
-
-At Mistral AI, we’re pushing the boundaries of what’s possible with agentic systems—building products like Mistral Studio and Mistral Vibe that redefine how users interact with AI. 
-
-
-
-As an Offensive Security Pentester, you’ll play a pivotal role in safeguarding these innovations by anticipating, identifying, and mitigating risks before they materialize. This isn’t just about finding vulnerabilities; it’s about shaping the future of secure AI by embedding an attacker’s mindset into everything we build.
-
-
-
-You’ll work at the intersection of offensive security, AI safety, and product development, collaborating with cross-functional teams to harden our systems against evolving threats. Your expertise will directly influence how we design, deploy, and protect our most critical assets, ensuring our agents remain resilient, trustworthy, and ahead of adversaries.
-
-
-
-This role is ideal for those who thrive in dynamic environments, where creativity, technical depth, and a passion for security converge to solve unprecedented challenges.
-
- 
-
-What you will do
-
- 
-
- - Proactively hunt for vulnerabilities in the interactions between our agentic applications, cloud infrastructure, and foundational models, with a focus on realistic, high-impact attack vectors.
-
- - Design and execute red and purple team exercises, simulating sophisticated adversarial scenarios to stress-test our defenses and refine our detection capabilities.
-
- - Partner with defensive teams to translate offensive insights into actionable improvements, from detection engineering to incident response.
-
- - Conduct in-depth penetration testing across our product suite, including AI-driven workflows, custom infrastructure, and user-facing interfaces.
-
- - Build and automate offensive tooling to scale your impact, leveraging cutting-edge techniques to stay ahead of emerging threats.
-
- - Communicate findings with clarity and conviction, ensuring technical and non-technical stakeholders understand risks and prioritize mitigations effectively.
-
- - Shape Mistral AI’s security strategy by contributing attacker-informed perspectives to threat modeling, risk assessment, and architectural decisions.
-
- 
-
-About you
-
- 
-
-You’re likely a strong fit if you bring:
-
- - 7+ years of offensive security experience, with a track record of identifying and exploiting subtle vulnerabilities in complex systems—or equivalent expertise demonstrated through exceptional achievements.
-
- - Deep knowledge of AI/ML security risks, including prompt injection, data leakage, model manipulation, and abuses of dynamic UI components.
-
- - Hands-on experience assessing modern technology stacks, such as:
-   
-   - Custom Kubernetes deployments and containerized environments
-   
-   - Cloud-native architectures (AWS, GCP, or Azure)
-   
-   - CI/CD pipelines and GitHub security best practices
-   
-   - macOS/Linux internals and Python/React-based applications
-   
-   - Data science toolchains and AI/ML infrastructure
-
- - A builder’s mindset: The ability to write robust tools, automate offensive workflows, and contribute to defensive solutions in complex codebases.
-
- - Strong intuition for trust boundaries and risk assessment in fast-moving, high-stakes environments.
-
- - Outstanding communication skills, with the ability to distill technical nuances into compelling narratives that drive change.
-
- - A collaborative spirit, eager to work alongside engineers, researchers, and product teams to embed security into every phase of development.
-
-Now, it would be ideal if you had experience with:
-
- - Background in AI, data science, or related fields, with an understanding of how security intersects with model behavior and system design.
-
- - Experience in high-growth startups or research-driven organizations, where agility and innovation are paramount.
-
- - Expertise in adjacent disciplines, such as software engineering, detection engineering, SRE, or security architecture.
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
 94097082-dd90-439e-8685-0dd07df0bb1d,"CyberSecurity, Platform Security Engineer",Paris,,France,Engineering & Infra,FullTime,,,2026-07-02,https://jobs.ashbyhq.com/mistral.ai/94097082-dd90-439e-8685-0dd07df0bb1d,"ABOUT MISTRAL
 
 Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
@@ -9504,6 +9405,91 @@ For the most up-to-date details on benefits available in your location, please r
 PRIVACY POLICY
 
 Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+6eba8817-79a2-4b3b-b1f4-e4a15d445834,"Engineering Team Lead, Serverless Containers",Paris,Amsterdam; Munich; London; Berlin,France,Engineering & Infra,FullTime,,,2026-10-12,https://jobs.ashbyhq.com/mistral.ai/6eba8817-79a2-4b3b-b1f4-e4a15d445834,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+
+THE TEAM
+
+Mistral is building a sovereign AI cloud for Europe. Our customers in finance, healthcare, and the public sector run frontier models on European-jurisdiction infrastructure, and the Cloud Platform team builds the systems that make that possible — compute orchestration, Kubernetes, bare metal, storage, networking, and the datacenter fleet that runs it all.
+
+We run it all on our own metal, our own network, our own datacenters — which means when something breaks, the fix is ours to write.
+
+European Compute Units let enterprises commit to multi-year capacity on that infrastructure, and we are scaling toward a gigawatt of compute across Europe by 2030. You will design and ship the layer every sovereign AI deployment depends on and shape the team building it.
+
+
+
+
+THE ROLE
+
+This is a people-leadership role from day one. You will manage the team — hiring, coaching, performance, growth paths, honest feedback — while staying close to the code: roughly half your time in architecture decisions and the hardest technical problems the team faces, the other half leading your squad. If you are looking for a senior IC role, this is not it.
+
+You will lead the team building our serverless containers product: the way developers run AI apps, MCP servers, APIs, and managed workers on our cloud without thinking about servers. Push a container, get an endpoint, scale from zero to thousands of instances and back down — across CPU and GPU.
+
+On a hyperscaler, the serverless layer is a product someone else built. Here you own it end to end: the scheduler that decides where a container lands, the routing path a request takes, the machinery that turns a scaled-to-zero service into a warm instance before a customer notices. All of it runs on metal, network, and datacenters we own.
+
+That tension is the product: scale-to-zero economics with cold starts in milliseconds, autoscaling that absorbs a launch spike without a config change, GPUs scheduled onto containers the way other platforms schedule CPU. The customers betting on this layer are the developers building the next generation of AI software on European infrastructure.
+
+
+
+
+WHAT YOU WILL DO
+
+ - Own the container platform end to end: image delivery, placement, request routing, scale-up, scale-to-zero — across CPU and GPU.
+
+ - Make cold starts a solved problem: snapshotting, prewarming, image-layer caching, whatever it takes for scale-from-zero to feel instant.
+
+ - Treat AI workloads as the normal case: GPU-backed containers, streaming responses, long-lived connections, MCP servers that cost almost nothing while idle.
+
+ - Write Go alongside your team and own the architecture and the hardest implementation decisions.
+
+ - Grow the engineers, not just the software — set the standard for ownership and coach people past their comfort zone.
+
+ - Own people management for the team: hiring, performance, growth paths, and honest feedback.
+
+ - Partner with Product Managers to turn platform decisions into a product developers want to deploy on.
+
+
+
+
+WHAT WE'RE LOOKING FOR
+
+ - 2+ years of real people leadership. You have managed engineers — hired, coached, given honest feedback, and grown them. Hands-on contribution matters here, but this role is judged on the team you build and lead, not just the code you write.
+
+ - You have shipped production systems in Go. Not dabbled. Shipped.
+
+ - You have built container or workload platforms — orchestration, scheduling, isolation, request routing — not just deployed onto someone else's serverless platform.
+
+ - Deep Linux: namespaces, cgroups, image layers, page cache — comfortable well below the application layer.
+
+ - Multi-tenancy instincts: density, isolation, and fairness when hundreds of customers share one fleet.
+
+ - Significant experience building complex backend or infrastructure systems.
+
+ - You have partnered with product, design, and business teams to ship software that reached real users.
+
+ - A low-ego, team-first mindset. We care less about your exact domain and more about whether you are the kind of technical force other engineers want to work alongside.
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
 81611d9e-112e-4512-a793-8f0b64f6a99c,"Engineering Team Lead, Storage",Paris,Zurich; Madrid; Amsterdam; Warsaw; Linz; Munich; London; Berlin,France,Engineering & Infra,FullTime,,,2026-10-06,https://jobs.ashbyhq.com/mistral.ai/81611d9e-112e-4512-a793-8f0b64f6a99c,"ABOUT MISTRAL
 
 Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
@@ -9567,104 +9553,6 @@ WHAT WE'RE LOOKING FOR
  - You have partnered with product, design, and business teams to ship software that reached real users.
 
  - A low-ego, team-first mindset. We care less about your exact domain and more about whether you are the kind of technical force other engineers want to work alongside.
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-4c78b767-a3bb-454c-914e-4d5c4d38a0ec,"Field CTO, APAC",Singapore,,Singapore,Solutions,FullTime,,,2026-09-24,https://jobs.ashbyhq.com/mistral.ai/4c78b767-a3bb-454c-914e-4d5c4d38a0ec,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-
-THE ROLE
-
-The Field CTO role is one of Mistral's senior external technical voices; a role for someone who has earned genuine credibility in the AI field and can engage enterprise boards, CIOs, and CTOs as a peer. You will shape how strategic accounts think about their AI strategy, represent Mistral at major industry events, and publish thought leadership that reflects a real point of view on where AI is going.
-
- 
-
-You will work closely with regional sales leadership across your territory and bring what you learn from executive conversations back into Mistral's product direction. This is an externally-facing, influence-driven role. The output is measured in relationships built, content published, and executive conversations that move.
-
- 
-
-
-WHAT YOU WILL DO
-
-
-Executive engagement
-
- 
-
-Run Mistral's Executive Briefing Center with your regional VP; a selective program for C-level stakeholders at strategic accounts. Build and sustain trusted-advisor relationships with CIOs, CTOs, CDOs, and VP Engineering across your territory.
-
- 
-
-Thought leadership
-
- 
-
-Publish regularly: articles, whitepapers, and analysis of where enterprise AI is heading. Brief Gartner and Forrester on Mistral's roadmap and market position. Track frontier research and bring it into customer conversations.
-
- 
-
-Conference and event presence
-
- 
-
-Represent Mistral at major industry events through keynotes, panels, and roundtables. Build a public presence that generates inbound interest from enterprise executives and the wider AI community.
-
- 
-
-Market feedback
-
- 
-
-Bring what you hear in executive conversations back into product direction. Patterns across accounts on governance requirements and deployment constraints should reach the people building the models.
-
- 
-
-
-WHAT WE'RE LOOKING FOR
-
- - Demonstrable credibility in the AI field. A public track record in AI: published papers, articles, or talks that reflect a clear, defensible position. Your work should read as credible next to Mistral's technical brand.
-
- - A stated position on open-weight models and what they change for the enterprises adopting them. Your existing public positions should sit comfortable next to Mistral's.
-
- - You are fluent in European data sovereignty and on-premise deployment, at the level that holds up with a CTO or VP Engineering asking hard questions.
-
- - You are comfortable engaging C-level stakeholders across multiple verticals on technical architecture and business strategy, in the same conversation.
-
- - Cross-vertical fluency, you can credibly engage across financial services, manufacturing, defense, and energy without being a domain specialist in any one of them.
-
- - 10–25 years of experience in enterprise technology. You have held roles such as: Field CTO, Principal Architect, or VP Engineering at a major cloud or AI company, or a founder who built technical credibility and executive relationships through their own company.
-
- - Comfortable with 30-50% travel depending on your region.
-
- 
-
-
-NICE TO HAVE
-
- - Existing network of CTO and CIO relationships at enterprise accounts in your region
-
- - Prior Field CTO or equivalent externally facing technical role at a major cloud or AI company
-
- - Fluent in multiple languages spoken across your region
 
 
 
@@ -9871,146 +9759,6 @@ WHAT WE'RE LOOKING FOR
  - A hands-on operator who enjoys moving between strategy and execution and isn't afraid to roll up their sleeves.
 
  - High ownership and low ego: you’re comfortable creating structure where there isn’t one, making decisions quickly, and taking responsibility for the outcome.
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-b485bde4-1c68-450f-9b28-622b55650da8,"Field Marketing Manager, DACH",Munich,Paris,Germany,Marketing,FullTime,Hybrid,,2026-08-21,https://jobs.ashbyhq.com/mistral.ai/b485bde4-1c68-450f-9b28-622b55650da8,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-
-ROLE SUMMARY
-
-As Field Marketing Manager for the DACH region, you will own and execute Mistral’s field marketing strategy, driving brand awareness, demand generation, and revenue growth. You’ll lead the end-to-end planning and delivery of external events, owned events, localized campaigns, ABM initiatives, and partner marketing activities.
-
-This role is ideal for a strategic thinker and hands-on project manager who excels in a collaborative, high-growth environment. Your work will directly advance our mission: delivering frontier AI to the world’s leading organizations to solve their toughest challenges.
-
-
-
-
-WHAT YOU WILL DO
-
- - Own the regional field marketing plan and budget for the DACH region aligned to go-to-market objectives.
-
- - Partner with regional sales leadership to translate territory priorities and target accounts into field marketing programs.
-
- - Execute the plan of field programs from end-to-end across third-party conference sponsorships, Mistral-owned events (e.g., summits, roundtables, forums), account-Based Marketing (ABM) programs and campaigns.
-
- - Manage project timelines, vendor relationships, logistics, and speaker coordination with precision.
-
- - Allocate and optimize the regional marketing budget aligned with field marketing objectives.
-
- - Monitor and report on progress against objectives and the regional territory plan. Analyze campaign-level results, extract learnings, and iterate on strategies for continuous improvement.
-
- - Proactively engage with key stakeholders to ensure program success from sales, product marketing, demand gen, comms, public affairs.
-
-
-
-
-ABOUT YOU
-
- - 5+ years of experience in field marketing, with a focus on owned events, conference sponsorships, partner marketing, and ABM.
-
- - Enterprise B2B tech background, with a deep understanding of enterprise selling and B2B tech business models.
-
- - Proven experience managing field marketing programs in the DACH region.
-
- - Strategic thinker and problem solver, able to translate business needs into actionable field marketing plans.
-
- - Strong project management skills, with the ability to deliver in a fast-paced, high-growth environment.
-
- - Fluent in German and English.
-
- - Self-starter mindset: Result-oriented, resourceful, innovative, and intellectually curious.
-
- - No ego, highly committed, with a growth mindset and the ability to quickly grasp complex topics.
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-561b67b5-26e9-4198-9711-af83046e5d39,"Field Marketing Manager, Northern Europe",London,,United Kingdom,Marketing,FullTime,Hybrid,,2026-08-21,https://jobs.ashbyhq.com/mistral.ai/561b67b5-26e9-4198-9711-af83046e5d39,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-
-ROLE SUMMARY
-
-As Field Marketing Manager for the Northern Europe region, you will own and execute Mistral’s field marketing strategy, driving brand awareness, demand generation, and revenue growth. You’ll lead the end-to-end planning and delivery of external events, owned events, localized campaigns, ABM initiatives, and partner marketing activities.
-
-This role is ideal for a strategic thinker and hands-on project manager who excels in a collaborative, high-growth environment. Your work will directly advance our mission: delivering frontier AI to the world’s leading organizations to solve their toughest challenges.
-
-
-
-
-WHAT YOU WILL DO
-
- - Own the regional field marketing plan and budget for the Northern Europe region across the UK and the Nordics aligned to go-to-market objectives.
-
- - Partner with regional sales leadership to translate territory priorities and target accounts into field marketing programs.
-
- - Execute the plan of field programs from end-to-end across third-party conference sponsorships, Mistral-owned events (e.g., summits, roundtables, forums), account-Based Marketing (ABM) programs and campaigns.
-
- - Manage project timelines, vendor relationships, logistics, and speaker coordination with precision.
-
- - Allocate and optimize the regional marketing budget aligned with field marketing objectives.
-
- - Monitor and report on progress against objectives and the regional territory plan. Analyze campaign-level results, extract learnings, and iterate on strategies for continuous improvement.
-
- - Proactively engage with key stakeholders to ensure program success from sales, product marketing, demand gen, comms, public affairs.
-
-
-
-
-ABOUT YOU
-
- - 5+ years of experience in field marketing, with a focus on owned events, conference sponsorships, partner marketing, and ABM.
-
- - Enterprise B2B tech background, with a deep understanding of enterprise selling and B2B tech business models.
-
- - Proven experience managing field marketing programs in the Northern Europe region.
-
- - Strategic thinker and problem solver, able to translate business needs into actionable field marketing plans.
-
- - Strong project management skills, with the ability to deliver in a fast-paced, high-growth environment.
-
- - Fluent in English.
-
- - Self-starter mindset: Result-oriented, resourceful, innovative, and intellectually curious.
-
- - No ego, highly committed, with a growth mindset and the ability to quickly grasp complex topics.
 
 
 
@@ -11308,7 +11056,7 @@ For the most up-to-date details on benefits available in your location, please r
 PRIVACY POLICY
 
 Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-10ec2ac6-ae7c-4b5d-9472-cf3f17c3bb41,Labour Legal Counsel,Paris,London,France,Legal,FullTime,Hybrid,,2026-09-25,https://jobs.ashbyhq.com/mistral.ai/10ec2ac6-ae7c-4b5d-9472-cf3f17c3bb41,"ABOUT MISTRAL
+10ec2ac6-ae7c-4b5d-9472-cf3f17c3bb41,Labour Legal Counsel,Paris,,France,Legal,FullTime,Hybrid,,2026-09-25,https://jobs.ashbyhq.com/mistral.ai/10ec2ac6-ae7c-4b5d-9472-cf3f17c3bb41,"ABOUT MISTRAL
 
 Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
 
@@ -11318,9 +11066,9 @@ We are a dynamic, collaborative team passionate about AI and its potential to tr
 
 Role Summary
 
-We are looking for a Labour Legal Counsel to join our Corporate Legal team. Reporting to our Lead Labour & Employment law, you will provide labour law expertise and play a pivotal role in harmonizing our labour law practices across Mistral AI’s global footprint. 
+We are looking for a French Labour Legal Counsel to join our Corporate Legal team. Reporting to our Lead Labour & Employment law, you will provide labour law expertise and play a pivotal role in harmonizing our labour law practices across Mistral AI’s global footprint. 
 
-The ideal candidate will have a minimum of 4-6 years of experience, including relevant experience in a multinational company, with a strong background in French labour law and a deep understanding of the labour challenges faced by a fast-growing worldwide company.
+The ideal candidate will have a minimum of 6-8 years of experience, including relevant experience in a multinational company, with a strong background in French labour law and a deep understanding of the labour challenges faced by a fast-growing worldwide company.
 
 In this role, you will serve as the legal liaison for Mistral’s HR teams and collaborate with Legal teams and local external counsels worldwide to ensure compliance, consistency, and best practices in all labour-related matters.
 
@@ -11346,7 +11094,7 @@ Qualifications and skills
 
  - Legal Master’s degree (Master’s in French Labour Law). Additional certifications in international labour law are a plus.
 
- - A minimum of 4-6 years experience, with strong experience in French labour law (individual and collective relationships) and good experience/exposure to other jurisdictions, ideally US and UK
+ - A minimum of 6-8 years experience, with strong experience in French labour law (individual and collective relationships) and good experience/exposure to other jurisdictions, ideally US and UK
 
  - International mindset: Experience working in a multicultural environment and coordinating with teams across multiple jurisdictions.
 
@@ -12222,213 +11970,6 @@ For the most up-to-date details on benefits available in your location, please r
 PRIVACY POLICY
 
 Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-5762dbcd-f106-491b-93da-9f4cacc0f26a,"Operations Engineer, Fleet Health & Delivery",Palo Alto,New York; San Francisco; Montréal,United States,Engineering & Infra,FullTime,Remote,,2026-07-06,https://jobs.ashbyhq.com/mistral.ai/5762dbcd-f106-491b-93da-9f4cacc0f26a,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-The Role
-At Mistral, you’ll build and support the infrastructure behind sovereign AI. As an Operations Engineer, you’ll work at the intersection of frontier models, products, and compute, ensuring our large-scale Linux environments, cloud systems, and AI workloads run reliably. This role is about more than just systems, it’s about enabling customers to leverage Mistral’s sovereign AI solutions with confidence, while helping us evolve toward modern, cloud-native technologies.
-
- 
-
-What You Will Do
-
- - Own and operate the infrastructure powering Mistral’s sovereign AI, including Linux environments, cloud systems, and AI workloads.
-
- - Troubleshoot and resolve incidents to ensure high availability, performance, and security for our models, products, and compute platforms.
-
- - Collaborate with research, product, and infrastructure teams to align systems with AI and customer needs.
-
- - Provide technical support to customers and internal teams, diagnosing issues, guiding solutions, and ensuring smooth operations.
-
- - Explore and contribute to modern cloud-native technologies, including Kubernetes and GPU orchestration, as we evolve our sovereign AI platform.
-
- 
-
-What We're Looking For
-
- - Strong Linux system administration experience at scale.
-
- - Proficiency in Slurm and/or Kubernetes to manage workloads effectively.
-
- - Familiarity with distributed storage, high performance networking, cloud security, or GPU/AI/ML workloads is a plus.
-
- - Customer-focused mindset: Ability to diagnose, explain, and resolve technical issues for users leveraging Mistral’s AI solutions.
-
- - Pragmatic, collaborative, and hands-on - you thrive at the intersection of AI, infrastructure, and customer success, and are eager to drive modernisation in a fast-evolving landscape.
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-8edf24c6-7d7c-41eb-a7e9-cdc710704faf,"Operations Engineer, Fleet Health & Delivery",Paris,Stockholm; Madrid; Amsterdam; London; Berlin,France,Engineering & Infra,FullTime,Remote,,2026-07-06,https://jobs.ashbyhq.com/mistral.ai/8edf24c6-7d7c-41eb-a7e9-cdc710704faf,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-The Role
-At Mistral, you’ll build and support the infrastructure behind sovereign AI. As an Operations Engineer, you’ll work at the intersection of frontier models, products, and compute, ensuring our large-scale Linux environments, cloud systems, and AI workloads run reliably. This role is about more than just systems, it’s about enabling customers to leverage Mistral’s sovereign AI solutions with confidence, while helping us evolve toward modern, cloud-native technologies.
-
-
-
-What You Will Do
-
- - Own and operate the infrastructure powering Mistral’s sovereign AI, including Linux environments, cloud systems, and AI workloads.
-
- - Troubleshoot and resolve incidents to ensure high availability, performance, and security for our models, products, and compute platforms.
-
- - Collaborate with research, product, and infrastructure teams to align systems with AI and customer needs.
-
- - Provide technical support to customers and internal teams, diagnosing issues, guiding solutions, and ensuring smooth operations.
-
- - Explore and contribute to modern cloud-native technologies, including Kubernetes and GPU orchestration, as we evolve our sovereign AI platform.
-
-
-
-What We're Looking For
-
- - Strong Linux system administration experience at scale.
-
- - Proficiency in Slurm and/or Kubernetes to manage workloads effectively.
-
- - Familiarity with distributed storage, high performance networking, cloud security, or GPU/AI/ML workloads is a plus.
-
- - Customer-focused mindset: Ability to diagnose, explain, and resolve technical issues for users leveraging Mistral’s AI solutions.
-
- - Pragmatic, collaborative, and hands-on - you thrive at the intersection of AI, infrastructure, and customer success, and are eager to drive modernisation in a fast-evolving landscape.
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-abfb0fc5-1d8e-4390-8666-64304594fd92,Partner Manager GSI France & South Europe,Paris,,France,Business,FullTime,,,2026-09-08,https://jobs.ashbyhq.com/mistral.ai/abfb0fc5-1d8e-4390-8666-64304594fd92,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-
-ROLE SUMMARY
-
-The Partnerships organization is accelerating its expansion globally. We now need the architecture to scale our delivery force through partnerships to meet the next wave of enterprise demand.
-
-This is a high-impact role offering exceptional exposure to the European market, focusing on Southern Europe (France, Belgium, Luxembourg, Iberia) and the opportunity to shape our partnership program from the ground up. You will work closely with Partnership & GTM leadership, Partner Solution Architects, and cross-functional teams to drive breakthrough co-sell motions, co-solutions, and joint go-to-market initiatives with strategic and regional partners.
-
-This is a critical hybrid responsibility: Partner management across Europe for Strategic Partners + building regional-flavored partnerships to set up the foundations for future success.
-
-In this role, you’ll report directly to the Europe GSI Director and will have functional accountability to our VP Southern Europe, playing a vital role in co-defining and executing our regional go-to-market strategy.
-
-
-
-
-WHAT YOU WILL DO
-
-
-
-
-STRATEGY & ARCHITECTURE
-
- - Architect and execute the GSI partner ecosystem model across Southern Europe, establishing high-value frameworks that align enterprise strategic goals with scalable revenue models.
-
- - Define and institutionalize multi-year strategic roadmaps with major German Systems Integrators to accelerate co-selling motions, technical alignment, and joint pipeline expansion.
-
- - Drive ecosystem vision and governance, orchestrating financial growth targets, technical solutions integration, and transformative co-marketing programs.
-
-
-COMMERCIAL VELOCITY
-
- - Spearhead regional partner-led revenue generation, surpassing growth targets through systematic joint deal acceleration and high-impact GTM execution.
-
- - Establish executive alignment and field resolution standards across partner networks to maximize strategic velocity and eliminate friction in large enterprise deals.
-
- - Build comprehensive performance insights and analytical models to track partnership health, ROI, and long-term ecosystem value creation.
-
- - Scale SI delivery capabilities through specialized enablement programs, ensuring partners become force multipliers for Mistral AI enterprise deployment.
-
-
-ECOSYSTEM INTERLOCK
-
- - Embed robust co-sell engagement rules, attribution frameworks, and deal registration workflows across the Southern Europe GTM organization to drive Tier 1 opportunity conversion.
-
- - Champion cross-functional collaboration across Solution Architects, Enablement, Marketing, and Product teams to champion seamless partnership delivery and pipeline maturity.
-
- - Lead Monthly Business Reviews and executive synchronization cadences with Southern Europe regional leadership to sustain strategic alignment.
-
- - Provide strategic feedback loops to product and engineering leadership, aligning model evolution and deployment architectures with Southern Europe enterprise needs.
-
-
-
-
-ABOUT YOU
-
-Education: Bachelor's degree in Business, Computer Science, Information Technology, or a related field. An MBA or advanced degree is preferred.
-
-Location: Our HQ is based in Paris, so Paris-based is preferred. Expect some travels to Europe.
-
-Experience: 10+ years, proven GSI/AE track record and experience
-
-You are a builder, added with:
-
- - Technical Credibility: Ability to understand and discuss AI/ML concepts, API integrations, and model deployment architectures. Experience with LLM platforms is a strong plus.
-
- - Executive Stakeholder Management: Experience working closely with C-level or senior leadership at partner organizations. High maturity in communication, influence, and prioritization.
-
- - Market Expertise: Strong network and understanding of the Southern Europe technology ecosystem and regional variations.
-
- - Scale and Ambiguity Mindset: Experience in fast-growing environments. Comfortable navigating ambiguity and evolving priorities. Ability to operate with high autonomy and judgment.
-
- - Industry Background: Experience in enterprise software, SaaS, AI, or infrastructure industries. Exposure to AI, data, or developer-focused products is a strong plus.
-
- - Languages: French, English fluent. Spanish would be a plus.
-
-
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
 df384485-38c0-4316-89d2-6f2b6517a503,Partner Manager Lead – Hardware OEMs,Austin,,USA,Business,FullTime,,,2026-09-28,https://jobs.ashbyhq.com/mistral.ai/df384485-38c0-4316-89d2-6f2b6517a503,"ABOUT MISTRAL
 
 Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
@@ -12561,97 +12102,6 @@ You are a builder, added with:
  - Industry Background: Experience in enterprise software, SaaS, AI, or infrastructure industries. Exposure to AI, data, or developer-focused products is a strong plus.
 
  - Languages: Business fluent English - other regional languages a plus.
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-09f7a20c-eb20-45f7-9edf-604930e42c21,"Partner Sales Manager, Cloudera",Dubai,,United Arab Emirates,Business,FullTime,,,2026-09-21,https://jobs.ashbyhq.com/mistral.ai/09f7a20c-eb20-45f7-9edf-604930e42c21,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-Role summary
-
-The Partnerships organization is accelerating its expansion globally. We now need the architecture to scale our delivery force through partnerships to meet the next wave of enterprise demand.
-
-As part of our rapid global expansion we are looking for a Partner Sales Manager for our Cloudera partnership in the META region to join our growing GTM team. Our ambitions are high and wide, and to bring to market the most advanced AI technology, we are building a best-in-class Go-To-Market team. Builders wanted!
-
-In this role you will be instrumental in driving the strategy and execution for our Cloudera partnership across the region. 
-
- 
-
-What You Will Do
-
-Build strategic partnership plans and executive relationships:
-
- - Negotiate or enhance partnership agreements and contracts, ensuring they are mutually beneficial and align with our company's interests
-
- - Develop and execute strategic plans to drive pipeline and co-selling activities with activities with Cloudera META
-
- - Own end-to-end partnership responsibilities including financial business outcomes, co-sell, technical integrations, joint marketing campaigns, etc.
-
- - Expand the partnership within Cloudera to new product teams, industry sales teams, etc.
-
- - Align partner executive stakeholders to key Mistral executive counterparts
-
-Execute Cloudera plans to drive results:
-
- - Execute strategic partnership plans to achieve pipeline and revenue results as a critical part of the Global Partners and Alliances team
-
- - Serve as a point of escalation to help resolve field conflicts using your network of key contacts within both companies as well as your knowledge of each company's strategic priorities
-
- - Lead the development and communication of the partnership performance analysis, including financial performance, agreed metrics, and related insights
-
- - Provide enablement and support to strategic partners to ensure they are effectively promoting and selling our products or services
-
-Company Builder and Collaborator:
-
- - Collaborate with cross-functional teams to ensure the successful implementation of partnership initiatives
-
- - Work with Mistral engineering and product teams to help advance the customer experience for Mistral's models and tools on Cloudera's platform, including defining new routes to market through the partnerships
-
- - Develop a strong collaboration with Mistral's META GTM team to help drive pipeline and advance opportunities to closure
-
- - Align Cloudera META sales teams with Mistral's sales counterparts and facilitate a regular MBR cadence
-
-
-
-About You
-
-Education: Bachelor's degree in Business, Computer Science, Information Technology, or a related field. An MBA or advanced degree is preferred.
-
-Location: META - Dubai or Abu Dhabi preferred. Expect travels within the META Region & to our HQ based in Paris.
-
-Experience: 10+ years, proven sales track record and experience in the ISV space.
-
-You are a builder, with:
-
- - Technical Credibility: Ability to understand and discuss AI/ML concepts, API integrations, and model deployment architectures. Experience with LLM platforms is a strong plus
-
- - Executive Stakeholder Management: Experience working closely with C-level or senior leadership at partner organizations. High maturity in communication, influence, and prioritization
-
- - Market Expertise: Strong network and understanding of the META technology ecosystem and regional enterprise market dynamics
-
- - Scale and Ambiguity Mindset: Experience in fast-growing environments. Comfortable navigating ambiguity and evolving priorities. Ability to operate with high autonomy and judgment
-
- - Industry Background: Experience in enterprise software, SaaS, AI, or infrastructure industries. Exposure to AI, data, or developer-focused products is a strong plus
-
- - Languages: Business fluent English & Arabic
 
 
 
@@ -14169,6 +13619,84 @@ For the most up-to-date details on benefits available in your location, please r
 PRIVACY POLICY
 
 Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+7b7f4718-a517-4a2f-8e6e-ef8b0508c84c,"Public Affairs, Head of Germany",Berlin,,Germany,Public Affairs and Communication,FullTime,OnSite,,2026-10-13,https://jobs.ashbyhq.com/mistral.ai/7b7f4718-a517-4a2f-8e6e-ef8b0508c84c,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+
+THE ROLE
+
+As a Head of Public Affairs for Germany  on the Policy and Government Relations team, you will shape Mistral AI’s presence and influence in Germany, ensuring the company plays a leading role in the future of AI policy and regulation.
+
+This role exists to establish Mistral AI as a trusted thought leader in Germany, driving both public interest and business growth by navigating complex regulatory landscapes.
+
+You will work closely with policymakers, industry leaders, and internal teams to build a regulatory ecosystem that supports innovation while enabling adoption in the public sector.
+
+Your impact will be immediate: from shaping policy strategies to unlocking revenue opportunities, you will help Mistral AI thrive in one of its most critical markets.
+
+This role directly reports to our Public Affairs Director for EMEA, and may evolve to a larger DACH and/or Central Europe scope in the future.
+
+
+
+
+WHAT YOU WILL DO
+
+ - Monitor and analyze AI-related policy developments in Germany and the EU, assessing their impact on Mistral AI.
+
+ - Develop and execute a long-term public affairs strategy, including parliamentary engagement, position papers, and lobbying campaigns.
+
+ - Engage with policymakers, industry leaders, and key opinion leaders to foster constructive dialogue on AI and technology policy.
+
+ - Prioritize and respond to policy issues affecting Mistral AI, proposing solutions that align with business and community interests.
+
+ - Advise cross-functional teams on regulatory changes, ensuring compliance and informing product and business decisions.
+
+ - Collaborate with Sales to design strategies that accelerate public sector adoption of AI.
+
+ - Track industry trends and best practices in public affairs, ensuring the team remains ahead of regulatory shifts.
+
+ - Build and maintain a strong network in Germany to amplify Mistral AI’s influence and reputation.
+
+
+
+
+WHAT WE'RE LOOKING FOR
+
+ - Extensive public affairs experience, with a track record of impacting policy-making, ideally in both public and private sectors.
+
+ - Deep understanding of German institutions (federal, regional, and local) and the ability to map decision-making power.
+
+ - Expertise in tech regulations, including GDPR, Copyright, AI Act, DMA, and tax laws.
+
+ - Experience in highly scrutinized environments, where public affairs are critical to business success.
+
+ - Trust-building skills, with the ability to defend positions rigorously, foster long-term relationships, and act as a thought partner.
+
+ - Team player with a bias for action, ownership, and the ability to navigate ambiguity.
+
+ - AI knowledge and familiarity with long-term industrial plans or model development (a plus).
+
+ - Open Source mindset, aligning with Mistral AI’s commitment to openness and collaboration.
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
 a5a1436f-a5a2-4133-b217-6afc85483559,Recruiting Coordinator,Paris,London,France,Human Resources,FullTime,,,2026-07-10,https://jobs.ashbyhq.com/mistral.ai/a5a1436f-a5a2-4133-b217-6afc85483559,"ABOUT MISTRAL
 
 Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
@@ -14833,6 +14361,64 @@ Ideally you have:
 • Contributed to open-source projects or libraries
 
 • Experience as a Customer Engineer, Forward Deployed Engineer, Sales Engineer, Solutions Architect or Technical Product Manager
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+de9344e8-cba8-4855-9272-c3a1711b85ca,"Research Engineer, GPU Performance",Paris,,France,Science,FullTime,,,2026-10-14,https://jobs.ashbyhq.com/mistral.ai/de9344e8-cba8-4855-9272-c3a1711b85ca,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+
+ABOUT THE ROLE
+
+As a Research Engineer, GPU performance, you will sit at the heart of that spectrum: your low-level work directly determines how fast our frontier models can be trained and served. Working hand-in-hand with Research Scientists, you'll make every GPU count.
+
+Mistral AI is hiring an expert in pushing large language model's GPU utilization and performance to their limits.. In this role, you will own the performance of our models end-to-end: writing the low-level code that extracts the maximum capacity from high-end hardware, and rethinking model architectures so they run efficiently at scale.
+
+
+
+
+WHAT YOU WILL DO
+
+ - Develop low-level code that takes full advantage of high-end GPUs and maxes out their capacity — from custom kernels to memory-layout and communication optimisations.
+
+ - Rethink parts of the generative model architecture to make them more suitable for efficient inference, in collaboration with Research Scientists.
+
+ - Integrate low-level efficient code into a high-level MLOps framework, so that optimisations benefit every training run and deployment rather than a single experiment.
+
+ - Profile, benchmark and squeeze performance out of large-scale training and inference on thousands of GPUs.
+
+ - Model LLM execution on various GPUs with high fidelity to assess hardware usage and build serving performance estimates.
+
+
+WHAT WE'RE LOOKING FOR
+
+ - High technical competence for writing custom low-level kernels and pushing GPUs to their limits.
+
+ - High expertise in the distributed computation infrastructure of current-generation GPU clusters.
+
+ - Overall understanding of the field of generative AI; knowledge of, or interest in, fine-tuning and using language models for applications.
+
+ - Strong software-design instincts: testing, code review, CI/CD.
+
+ - Self-starter, low-ego, collaborative.
 
 
 
@@ -15745,6 +15331,146 @@ For the most up-to-date details on benefits available in your location, please r
 PRIVACY POLICY
 
 Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+b485bde4-1c68-450f-9b28-622b55650da8,"Senior Field Marketing Manager, DACH",Munich,Paris,Germany,Marketing,FullTime,Hybrid,,2026-08-21,https://jobs.ashbyhq.com/mistral.ai/b485bde4-1c68-450f-9b28-622b55650da8,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+
+ROLE SUMMARY
+
+As a Senior Field Marketing Manager for the DACH region, you will own and execute Mistral’s field marketing strategy, driving brand awareness, demand generation, and revenue growth. You’ll lead the end-to-end planning and delivery of external events, owned events, localized campaigns, ABM initiatives, and partner marketing activities.
+
+This role is ideal for a strategic thinker and hands-on project manager who excels in a collaborative, high-growth environment. Your work will directly advance our mission: delivering frontier AI to the world’s leading organizations to solve their toughest challenges.
+
+
+
+
+WHAT YOU WILL DO
+
+ - Own the regional field marketing plan and budget for the DACH region aligned to go-to-market objectives.
+
+ - Partner with regional sales leadership to translate territory priorities and target accounts into field marketing programs.
+
+ - Execute the plan of field programs from end-to-end across third-party conference sponsorships, Mistral-owned events (e.g., summits, roundtables, forums), account-Based Marketing (ABM) programs and campaigns.
+
+ - Manage project timelines, vendor relationships, logistics, and speaker coordination with precision.
+
+ - Allocate and optimize the regional marketing budget aligned with field marketing objectives.
+
+ - Monitor and report on progress against objectives and the regional territory plan. Analyze campaign-level results, extract learnings, and iterate on strategies for continuous improvement.
+
+ - Proactively engage with key stakeholders to ensure program success from sales, product marketing, demand gen, comms, public affairs.
+
+
+
+
+ABOUT YOU
+
+ - 5+ years of experience in field marketing, with a focus on owned events, conference sponsorships, partner marketing, and ABM.
+
+ - Enterprise B2B tech background, with a deep understanding of enterprise selling and B2B tech business models.
+
+ - Proven experience managing field marketing programs in the DACH region.
+
+ - Strategic thinker and problem solver, able to translate business needs into actionable field marketing plans.
+
+ - Strong project management skills, with the ability to deliver in a fast-paced, high-growth environment.
+
+ - Fluent in German and English.
+
+ - Self-starter mindset: Result-oriented, resourceful, innovative, and intellectually curious.
+
+ - No ego, highly committed, with a growth mindset and the ability to quickly grasp complex topics.
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+561b67b5-26e9-4198-9711-af83046e5d39,"Senior Field Marketing Manager, Northern Europe",London,,United Kingdom,Marketing,FullTime,Hybrid,,2026-08-21,https://jobs.ashbyhq.com/mistral.ai/561b67b5-26e9-4198-9711-af83046e5d39,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+
+ROLE SUMMARY
+
+As Senior Field Marketing Manager for the Northern Europe region, you will own and execute Mistral’s field marketing strategy, driving brand awareness, demand generation, and revenue growth. You’ll lead the end-to-end planning and delivery of external events, owned events, localized campaigns, ABM initiatives, and partner marketing activities.
+
+This role is ideal for a strategic thinker and hands-on project manager who excels in a collaborative, high-growth environment. Your work will directly advance our mission: delivering frontier AI to the world’s leading organizations to solve their toughest challenges.
+
+
+
+
+WHAT YOU WILL DO
+
+ - Own the regional field marketing plan and budget for the Northern Europe region across the UK and the Nordics aligned to go-to-market objectives.
+
+ - Partner with regional sales leadership to translate territory priorities and target accounts into field marketing programs.
+
+ - Execute the plan of field programs from end-to-end across third-party conference sponsorships, Mistral-owned events (e.g., summits, roundtables, forums), account-Based Marketing (ABM) programs and campaigns.
+
+ - Manage project timelines, vendor relationships, logistics, and speaker coordination with precision.
+
+ - Allocate and optimize the regional marketing budget aligned with field marketing objectives.
+
+ - Monitor and report on progress against objectives and the regional territory plan. Analyze campaign-level results, extract learnings, and iterate on strategies for continuous improvement.
+
+ - Proactively engage with key stakeholders to ensure program success from sales, product marketing, demand gen, comms, public affairs.
+
+
+
+
+ABOUT YOU
+
+ - 5+ years of experience in field marketing, with a focus on owned events, conference sponsorships, partner marketing, and ABM.
+
+ - Enterprise B2B tech background, with a deep understanding of enterprise selling and B2B tech business models.
+
+ - Proven experience managing field marketing programs in the Northern Europe region.
+
+ - Strategic thinker and problem solver, able to translate business needs into actionable field marketing plans.
+
+ - Strong project management skills, with the ability to deliver in a fast-paced, high-growth environment.
+
+ - Fluent in English.
+
+ - Self-starter mindset: Result-oriented, resourceful, innovative, and intellectually curious.
+
+ - No ego, highly committed, with a growth mindset and the ability to quickly grasp complex topics.
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
 735e45b5-91f7-4c2e-a519-06c43245d711,"Senior Product Marketing Manager, Industries",New York,Palo Alto; San Francisco; Paris; London,United States,Marketing,FullTime,,,2026-07-10,https://jobs.ashbyhq.com/mistral.ai/735e45b5-91f7-4c2e-a519-06c43245d711,"ABOUT MISTRAL
 
 Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
@@ -16081,6 +15807,114 @@ Your application will be all the more interesting if you also have:
  
 
 
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+5762dbcd-f106-491b-93da-9f4cacc0f26a,"Site Reliability Engineer, Fleet Health & Delivery",Palo Alto,New York; San Francisco; Montréal,United States,Engineering & Infra,FullTime,Remote,,2026-07-06,https://jobs.ashbyhq.com/mistral.ai/5762dbcd-f106-491b-93da-9f4cacc0f26a,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+The Role
+At Mistral, you’ll build and support the infrastructure behind sovereign AI. As a Site Reliability Engineer in the Fleet team, you’ll work at the intersection of frontier models, products, and compute, ensuring our large-scale Linux environments, cloud systems, and AI workloads run reliably. This role is about more than just systems, it’s about enabling customers to leverage Mistral’s sovereign AI solutions with confidence, while helping us evolve toward modern, cloud-native technologies.
+
+ 
+
+What You Will Do
+
+ - Own and operate the infrastructure powering Mistral’s sovereign AI, including Linux environments, cloud systems, and AI workloads.
+
+ - Troubleshoot and resolve incidents to ensure high availability, performance, and security for our models, products, and compute platforms.
+
+ - Collaborate with research, product, and infrastructure teams to align systems with AI and customer needs.
+
+ - Provide technical support to customers and internal teams, diagnosing issues, guiding solutions, and ensuring smooth operations.
+
+ - Explore and contribute to modern cloud-native technologies, including Kubernetes and GPU orchestration, as we evolve our sovereign AI platform.
+
+ 
+
+What We're Looking For
+
+ - Strong Linux system administration experience at scale.
+
+ - Proficiency in Slurm and/or Kubernetes to manage workloads effectively.
+
+ - Familiarity with distributed storage, high performance networking, cloud security, or GPU/AI/ML workloads is a plus.
+
+ - Customer-focused mindset: Ability to diagnose, explain, and resolve technical issues for users leveraging Mistral’s AI solutions.
+
+ - Pragmatic, collaborative, and hands-on - you thrive at the intersection of AI, infrastructure, and customer success, and are eager to drive modernisation in a fast-evolving landscape.
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+8edf24c6-7d7c-41eb-a7e9-cdc710704faf,"Site Reliability Engineer, Fleet Health & Delivery",Paris,Stockholm; Madrid; Amsterdam; London; Berlin,France,Engineering & Infra,FullTime,Remote,,2026-07-06,https://jobs.ashbyhq.com/mistral.ai/8edf24c6-7d7c-41eb-a7e9-cdc710704faf,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+The Role
+At Mistral, you’ll build and support the infrastructure behind sovereign AI. As a Site Reliability Engineer in the Fleet team, you’ll work at the intersection of frontier models, products, and compute, ensuring our large-scale Linux environments, cloud systems, and AI workloads run reliably. This role is about more than just systems, it’s about enabling customers to leverage Mistral’s sovereign AI solutions with confidence, while helping us evolve toward modern, cloud-native technologies.
+
+
+
+What You Will Do
+
+ - Own and operate the infrastructure powering Mistral’s sovereign AI, including Linux environments, cloud systems, and AI workloads.
+
+ - Troubleshoot and resolve incidents to ensure high availability, performance, and security for our models, products, and compute platforms.
+
+ - Collaborate with research, product, and infrastructure teams to align systems with AI and customer needs.
+
+ - Provide technical support to customers and internal teams, diagnosing issues, guiding solutions, and ensuring smooth operations.
+
+ - Explore and contribute to modern cloud-native technologies, including Kubernetes and GPU orchestration, as we evolve our sovereign AI platform.
+
+
+
+What We're Looking For
+
+ - Strong Linux system administration experience at scale.
+
+ - Proficiency in Slurm and/or Kubernetes to manage workloads effectively.
+
+ - Familiarity with distributed storage, high performance networking, cloud security, or GPU/AI/ML workloads is a plus.
+
+ - Customer-focused mindset: Ability to diagnose, explain, and resolve technical issues for users leveraging Mistral’s AI solutions.
+
+ - Pragmatic, collaborative, and hands-on - you thrive at the intersection of AI, infrastructure, and customer success, and are eager to drive modernisation in a fast-evolving landscape.
 
 
 
@@ -18271,7 +18105,7 @@ We are a dynamic, collaborative team passionate about AI and its potential to tr
 
 THE ROLE
 
-As a Talent Acquisition Specialist, Early Careers, you will play a pivotal role in shaping the next generation of AI talent at Mistral. You will design, build, and run our global early careers strategy — spanning internships, graduate hiring, and campus recruitment — positioning Mistral as a premier destination for ambitious students and recent graduates in AI.
+As a Talent Acquisition Lead, Early Careers, you will play a pivotal role in shaping the next generation of AI talent at Mistral. You will design, build, and run our global early careers strategy — spanning internships, graduate hiring, and campus recruitment — positioning Mistral as a premier destination for ambitious students and recent graduates in AI.
 
 This is a rare opportunity to build early careers programs from the ground up at one of the world's leading AI companies. You will own the full lifecycle of the intern and graduate experience: from sourcing and selecting high-potential talent through international school and university partnerships, to designing inclusive, well-structured programs that develop and convert that talent into future Mistral employees. Working from our Paris HQ, you will partner closely with hiring managers across all our departments to ensure early careers pipelines keep pace with our rapid global growth.
 
@@ -18295,7 +18129,9 @@ WHAT YOU WILL DO
 
  - Drive global campus recruitment: represent Mistral at career fairs, host on-campus events, and develop targeted employer branding strategies for student markets.
 
- - Build scalable systems and best practices — workflows, documentation, and tools — to support rapid growth across geographies.
+ - Recruit, onboard, and lead a team of hands-on recruiters: set priorities, coach and develop the team, and scale capacity in step with hiring demand across geographies.
+
+ - Build scalable systems and best practices: workflows, documentation, and tools to support rapid growth across geographies.
 
  - Embody our culture as an ambassador for Mistral, on campus and internally.
 
@@ -18304,9 +18140,11 @@ WHAT YOU WILL DO
 
 WHAT WE'RE LOOKING FOR
 
- - Proven experience: 5+ years in recruiting, preferably in tech, high-growth, or competitive environments.
+ - Proven experience: 7+ years in recruiting, preferably in tech, high-growth, or competitive environments.
 
  - Early careers depth: Exposure to global early careers, internships, or graduate recruitment
+
+ - Team leadership: Demonstrated experience building, growing, and managing a team of recruiters in a fast-scaling environment.
 
  - Partnership expertise: Expertise in international school and university partnership development and global campus recruitment.
 
@@ -18615,107 +18453,6 @@ For the most up-to-date details on benefits available in your location, please r
 PRIVACY POLICY
 
 Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-3c2b1888-930a-4410-b62f-83945fb097c6,Technical Marketing Engineer,Paris,New York; London,France,Marketing,FullTime,Hybrid,,2026-07-13,https://jobs.ashbyhq.com/mistral.ai/3c2b1888-930a-4410-b62f-83945fb097c6,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-About the Role
-
-As a Technical Marketing Engineer (TME), you will bridge the gap between Mistral's science/engineering organisations and our marketing teams. You will create technical content to educate enterprise decision-makers, align technical capabilities with business goals, and accelerate sales cycles. Your role is critical in simplifying complex technical concepts, building trust, and driving adoption of our AI solutions.
-
- 
-
-What You Will Do
-
-Create and Deliver Technical Content:
-
-Develop model/product technical launch materials, technical proof points, presentation decks, demo videos, webinars, workshops, blogs, whitepapers, and sales training materials.
-
-Enable Sales and Partners:
-
-Equip sales teams and partners with technical knowledge to engage in deeper, more credible conversations with technical stakeholders.
-
-Support Model Launches:
-
-Collaborate on model launches, ensuring technical messaging is clear and impactful.
-
-Engage with Analysts and Industry Leaders:
-
-Participate in analyst briefings, technical advisory boards (TABs), and industry standards discussions to position Mistral AI as a thought leader.
-
-Build Trust and Drive Adoption:
-
-Work with solutions architects and developer relations to ensure seamless integration and implementation of our solutions through targeted technical content.
-
-Interface with Science and Engineering:
-
-Act as the technical liaison between engineering, science, and marketing teams, translating complex LLM concepts (including pre-training and post-training techniques) into actionable insights for enterprise audiences.
-
- 
-
-Who You Are
-
-Experience: 
-
-- 3+ years in technical marketing, solutions engineering, or a similar role, preferably in AI/ML or enterprise software.
-
-- Experience with large language models (LLMs), including pre-training and post-training techniques, is a strong plus.
-
- 
-
-Technical Skills:
-
-- Ability to understand and communicate complex technical concepts to both technical and non-technical audiences.
-
-- Familiarity with enterprise AI solutions, cloud environments, and technical sales enablement.
-
-- Strong written and verbal communication skills, with a knack for storytelling and simplifying complexity.
-
- 
-
-Mindset:
-
-- Collaborative, creative, and low-ego.
-
-- Passionate about AI and its potential to transform industries.
-
- 
-
-Academic Background: 
-
-Degree in Computer Science, Engineering, or a related technical field is preferred.
-
- 
-
-It Would Be Ideal If You:
-
-- Have hands-on experience with AI/ML models, especially in a technical marketing or solutions engineering capacity.
-
-- Are comfortable working in a fast-paced, innovative environment and thrive in cross-functional teams.
-
-- Have a track record of creating technical content that drives adoption and accelerates sales cycles.
-
-- Are based in or willing to relocate to Paris, EU OR are open to regular travel to our Paris office. 
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
 f1776857-196e-4eaa-80f0-cec349dd01a9,"Technical Program Manager, Engineering",Paris,,France,Engineering & Infra,FullTime,,,2026-09-15,https://jobs.ashbyhq.com/mistral.ai/f1776857-196e-4eaa-80f0-cec349dd01a9,"ABOUT MISTRAL
 
 Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
@@ -18929,101 +18666,6 @@ Nice to have criteria/ would be ideal if you have/are:
 
  
  
- 
-
-
-
-
-WHAT WE OFFER
-
-We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
-
-For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
-
-
-
-
-PRIVACY POLICY
-
-Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
-d547c15c-b047-4b44-a6c5-8f03523e31b0,"Technical Program Manager, Science Operations",Paris,Palo Alto; Warsaw; London,France,Science,FullTime,Hybrid,,2026-09-11,https://jobs.ashbyhq.com/mistral.ai/d547c15c-b047-4b44-a6c5-8f03523e31b0,"ABOUT MISTRAL
-
-Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
-
-We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
-
-
-
-
-THE ROLE 
-
-We are looking for a Technical Program Manager to build and drive the execution engine of our science organization.
-
-In this role, you will design and operationalize the systems, workflows, and processes that turn research goals into measurable, coordinated execution. You will ensure projects move from idea to impact with clarity, discipline, and alignment - tracking workstreams precisely, surfacing dependencies early, and maintaining momentum across teams.
-
-This role sits at the intersection of program management, technical operations, and research. You will partner closely with scientists and engineers to bring structure and visibility to complex initiatives, streamline delivery, and ensure our teams stay focused on what they do best - advancing the frontier of AI.
-
-
-
-We are currently hiring across a range of Technical Program Manager roles, varying in scope and seniority. Candidates will be evaluated and matched to the role that best aligns with their experience and strengths.
-
-
-
- 
-
-
-WHAT WILL YOU DO
-
- - Execution & Release Operations: Design and own systems for tracking ongoing pretraining and posttraining releases - providing real-time visibility into readiness, trade-offs, and impact. Evolve ad-hoc efforts into systematic release operations that enable disciplined, high-velocity execution
-
- - Strategic Planning & Roadmapping: Partner with science leads to translate research goals into actionable, company-aligned roadmaps. Frame scientific capabilities in business-relevant terms and ensure that priorities are consistently communicated and understood across teams
-
- - Operational Unblocking & Coordination: Keep science moving - anticipate and clear roadblocks, streamline cross-functional coordination, and maintain momentum. Own GPU allocation and quota management to ensure compute resources are scaled and accessible when needed
-
- - Visibility & Communication Cadence: Drive structured communication loops - own the bi-weekly science updates, science all-hands, and company-wide digests. Synthesize inputs into clear, high-signal narratives that inform leadership and align the broader organization
-
- - Learning & Continuous Improvement: Run retrospectives after major sprints and releases, distilling insights into repeatable systems. Refine processes, templates, and feedback loops to strengthen organizational learning and operational excellence over time
-
- 
-
-
-WHAT WE'RE LOOKING FOR
-
- - Bachelor’s degree in Computer Science, Engineering, or related field, or equivalent practical experience
-
- - 3+ years of experience in technical program management, operations, or research coordination
-
- - Strong analytical and problem-solving skills with experience in structuring ambiguous projects into clear deliverables
-
- - Proven ability to drive cross-functional initiatives and manage complex stakeholder landscapes
-
- - Excellent written and verbal communication skills; ability to synthesize technical detail into clear, strategic updates
-   
-   
-   
-   Nice to have criteria/ would be ideal if you have/are:
-
- - Experience in research-heavy or ML/AI organizations
-
- - Familiarity with model development pipelines (pretraining, posttraining, release readiness)
-
- - Experience managing infrastructure workflows (API keys, quota, access)
-
- - Track record of building systemic processes from the ground up
-
- - Comfort working in fast-paced, high-ambiguity environments where priorities shift quickly
-
- 
-
-
-WHY JOIN US?
-
- - Shape how frontier AI is built and released: You’ll design and operate the systems that connect scientific discovery to real-world deployment - ensuring our work scales with clarity, reliability, and speed
-
- - Work inside the Science OS: Join a team building the operational backbone of Mistral’s science organization - where structure meets creativity and processes evolve through use, not bureaucracy
-
- - Drive visible, high-leverage impact: Your work will sit at the intersection of research, engineering, and leadership - turning complexity into alignment and enabling confident, data-informed decisions across the company
-
  
 
 
@@ -19371,6 +19013,76 @@ For the most up-to-date details on benefits available in your location, please r
 PRIVACY POLICY
 
 Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+c55aa346-38ea-46b5-8b39-1ce40e56dfe1,"VP Product, Cloud & Inference",Paris,New York; London,France,Product,FullTime,Hybrid,,2026-10-14,https://jobs.ashbyhq.com/mistral.ai/c55aa346-38ea-46b5-8b39-1ce40e56dfe1,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+
+THE ROLE
+
+Mistral is building a sovereign AI cloud. Our product surface is expanding fast - GPU clusters, compute orchestration, storage, networking, serverless containers, inference, and training.
+
+We're hiring a VP Product to own our cloud infrastructure and inference portfolio end to end: the foundational systems that power Mistral's datacenters, and the inference platform that brings the world's most advanced generative AI models to production.
+
+This is a broad mandate. You'll own both scopes and, as the business scales, build the organization and stream leadership to delegate them. You'll define the vision, hire and grow the team, and set the operating rhythm that lets a fast-moving org deliver with focus. This is a highly visible role with the opportunity to shape how Mistral's technology is adopted globally and to unlock a major new line of business.
+
+
+
+
+WHAT YOU'LL DO
+
+ - Strategy & vision Define and evangelize the product vision, strategy, and annual goals for our Inference and Cloud products, aligned with customer needs, company objectives and market trends.
+
+ - Go-to-market Own adoption, revenue contribution, and gross margin. Partner with marketing and GTM teams on positioning, pricing and packaging, launch plans, and adoption strategy.
+
+ - Team leadership Build the product organization for these products: hire product managers and stream leads, set the operating cadence (quarterly product reviews, roadmap reviews), and develop PMs through clear growth paths.
+
+ - Customer & market fit Work directly with AI-native startups and enterprises running advanced AI workloads to drive product–market fit across the portfolio.
+
+ - Delivery & execution Partner with engineering leadership to build a world-class compute infrastructure and inference platform delivering high-performance, cost-efficient AI at scale, with reliability, SLAs, and cost-per-token economics as first-class product concerns.
+
+ - Market & technology insights Track the competitive landscape and emerging technologies across AI infrastructure and managed inference to inform product strategy and identify new opportunities
+
+ - Research & open source Partner with research and engineering teams to turn emerging model architectures and advances in open-source inference into product opportunities that improve performance and efficiency
+   
+   
+
+
+WHAT WE'RE LOOKING FOR
+
+ - Extensive experience in tech and infrastructure, including significant time leading product organizations with a proven track record of bringing cloud infrastructure, large-scale distributed systems, or inference products to market.
+
+ - Engineering background prior to moving into product management
+
+ - You've taken an infra or inference product from early stage to material revenue and adoption.
+
+ - Proven people leadership: you've hired and grown senior PMs, organized teams around clear stream ownership, and built durable operating cadences.
+
+ - Fluency in the economics of the business: comfortable owning gross margin, unit economics, and the tradeoffs behind pricing and capacity.
+
+ - Ability to align and inspire cross-functional teams without direct authority, and to communicate credibly with executives, engineers, and customers.
+
+ - Low ego, high bias for action, and comfort in ambiguity — equally at home crafting a strategy narrative and diving into metrics, a UX detail, or a customer escalation.
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
 3fdd4fe3-1136-401f-9301-5f3750ede372,"VP, Demand Generation",Paris,,France,Marketing,FullTime,,,2026-09-09,https://jobs.ashbyhq.com/mistral.ai/3fdd4fe3-1136-401f-9301-5f3750ede372,"ABOUT MISTRAL
 
 Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
@@ -19534,6 +19246,73 @@ Bonus Points If You Have
 
 
 
+
+
+
+
+WHAT WE OFFER
+
+We offer a comprehensive benefits package designed to support your well-being, growth, and work-life balance. Benefits vary by country and may include healthcare coverage, parental leave, retirement plans, relocation support, wellness programs, meal and transportation allowances, and other location-specific perks.
+
+For the most up-to-date details on benefits available in your location, please refer to our Benefits page https://app.notion.com/p/mistralai/Benefits-at-Mistral-36e6ba59a7fe836b93dd01737fcc27ef?source=copy_link.
+
+
+
+
+PRIVACY POLICY
+
+Your privacy matters to us. You can learn more about how we handle your personal data in our Applicant Privacy Policy https://legal.mistral.ai/terms/applicant-privacy-policy."
+676a6d7d-7f24-4c34-bff6-a59d98a6affe,Workplace Operations Manager,San Francisco,,United States,Human Resources,FullTime,OnSite,,2026-10-14,https://jobs.ashbyhq.com/mistral.ai/676a6d7d-7f24-4c34-bff6-a59d98a6affe,"ABOUT MISTRAL
+
+Mistral provides full-stack AI solutions: from frontier models to developer tools, applications, and compute. We partner with enterprises tackling the hardest problems across high-stakes industries like finance, manufacturing, defense, healthcare, and the public sector, co-creating customized AI systems that they can run on their terms.
+
+We are a dynamic, collaborative team passionate about AI and its potential to transform society. Our diverse workforce thrives in competitive environments and is committed to driving innovation. Our teams are distributed between Europe, North America, Asia and the Middle East. We are creative, low-ego and team-spirited.
+
+
+
+Role Summary
+
+We're looking for a proactive, detail-oriented Workplace Operations Manager to keep our San Francisco office running smoothly. You'll be the backbone of our day-to-day operations. Managing everything from vendor relationships and office logistics to event planning. This is a great fit for someone who thrives in a fast-paced environment, loves solving problems before they become problems, and takes pride in creating a great workplace experience for the whole team.
+
+What You Will Do:
+
+ - Provide on-site support and serve as a first point of contact for employee questions
+
+ - Perform daily inspections to keep the workplace clean, safe, and orderly.
+
+ - Manage office repairs, maintenance schedules, and vendor relationships, escalating issues when necessary.
+
+ - Handle incoming mail and package processing.
+
+ - Support and manage onsite programs including food, snack, and beverage services.
+
+ - Manage vendor relationships and contracts in partnership with Legal, Finance, and Procurement, from sourcing through renewal.
+
+ - Plan and execute employee engagement events for the local team.
+
+ - Serve as the primary point of contact for facilities issues and building management.
+
+ - Help maintain a safe, organized, and welcoming office environment.
+
+Who You Are:
+
+ - 3+ years of experience in an office management or workplace operations role (startup or tech company experience a plus)
+
+ - Excellent organizational skills with strong attention to detail
+
+ - Strong written and verbal communication skills, with a friendly, professional demeanor
+
+ - Ability to multitask and prioritize in a fast-paced, ever-changing environment
+
+ - A proactive, ""can-do,"" ""no task too small"" attitude and a genuine desire to help others
+
+ - Tech-savvy with Google Workspace, Slack, Notion, and ticketing systems
+
+ - Experience working across different time zones is a plus
+
+ - A collaborative team player who works well with colleagues across departments and builds strong relationships throughout the office
+
+ - Experience with access control and visitor management systems (e.g., badge provisioning, guest registration, security credentialing)
 
 
 

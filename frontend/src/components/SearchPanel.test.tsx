@@ -16,6 +16,13 @@ function stub(status = makeSearchStatus()) {
     digest: 'abc',
   });
   vi.spyOn(api, 'models').mockResolvedValue([]);
+  vi.spyOn(api, 'filters').mockResolvedValue({
+    title: ['Senior'],
+    company: [],
+    location: [],
+    excluded: 12,
+    by_filter: { 'Filtro titolo: Senior': 12 },
+  });
 }
 
 describe('SearchPanel', () => {
@@ -94,6 +101,53 @@ describe('SearchPanel', () => {
     await userEvent.click(screen.getByRole('button', { name: 'Save prompt' }));
     expect(save).toHaveBeenCalledWith('You are my career advisor. Score hard.');
     expect(await screen.findByText(/now marked ↻/)).toBeInTheDocument();
+  });
+
+  it('saves your filters, one word per line', async () => {
+    stub();
+    const save = vi.spyOn(api, 'saveFilters').mockResolvedValue({
+      title: ['Senior', 'Stage'],
+      company: [],
+      location: [],
+      excluded: 30,
+      by_filter: {},
+    });
+    renderWithQuery(<SearchPanel />);
+    const title = await screen.findByLabelText('Title must not contain');
+    await waitFor(() => expect(title).toHaveValue('Senior'));
+    expect(screen.getByText(/titolo: Senior 12/)).toBeInTheDocument();
+    await userEvent.type(title, '{enter}Stage{enter}');
+    await userEvent.click(screen.getByRole('button', { name: 'Save filters' }));
+    expect(save).toHaveBeenCalledWith({ title: ['Senior', 'Stage'], company: [], location: [] });
+    expect(await screen.findByText(/30 open postings are now excluded/)).toBeInTheDocument();
+  });
+
+  it('shows what was learned from stars and removals, and learns on request', async () => {
+    const status = makeSearchStatus();
+    status.calibration = {
+      ...status.calibration,
+      pending: 12,
+      current: {
+        version: 2,
+        created_at: '2026-10-16T10:00:00+00:00',
+        model: 'z-ai/glm-5.3-flash',
+        cost: 0.004,
+        feedback_total: 80,
+        starred: 10,
+        removed: 70,
+        guidelines: ['Abbassa i ruoli GRC di 15 punti.'],
+        notes: 'Meno GRC.',
+        examples: [],
+      },
+      section: '## Calibration from my feedback',
+    };
+    stub(status);
+    const calibrate = vi.spyOn(api, 'calibrate').mockResolvedValue({ started: true });
+    renderWithQuery(<SearchPanel />);
+    expect(await screen.findByText('Abbassa i ruoli GRC di 15 punti.')).toBeInTheDocument();
+    expect(screen.getByText('12/50 since the last update')).toBeInTheDocument();
+    await userEvent.click(screen.getByRole('button', { name: 'Learn now' }));
+    expect(calibrate).toHaveBeenCalled();
   });
 
   it('streams the console', async () => {

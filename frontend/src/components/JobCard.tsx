@@ -6,7 +6,7 @@ interface JobCardProps {
   job: Job;
   onToggleSave: (job: Job) => void;
   onDismiss: (job: Job) => void;
-  /** Shown in the Removed view: the dismiss control puts the posting back. */
+  /** Shown in the Removed view, where every card is removed: no chip says so. */
   removedView?: boolean;
 }
 
@@ -143,7 +143,7 @@ export function JobCard({ job, onToggleSave, onDismiss, removedView = false }: J
                 aria-hidden
               />
             </button>
-            {removedView ? (
+            {job.dismissed ? (
               <button
                 onClick={() => onDismiss(job)}
                 aria-label={`Restore ${job.title}`}
@@ -168,6 +168,11 @@ export function JobCard({ job, onToggleSave, onDismiss, removedView = false }: J
         <div className="mb-2 flex items-center gap-2 text-sm font-medium text-gray-700">
           <Building2 className="h-4 w-4 flex-shrink-0 text-gray-400" aria-hidden />
           <span className="truncate">{job.company}</span>
+          {job.dismissed && !removedView && (
+            <span className="chip bg-gray-100 text-gray-600" title="You removed this posting">
+              Removed
+            </span>
+          )}
           {job.closed && (
             <span
               className="chip bg-gray-100 text-gray-600"

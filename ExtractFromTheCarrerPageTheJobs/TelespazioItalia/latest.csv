@@ -1,5 +1,5 @@
 job_id,title,location,additional_locations,country,time_type,start_date,posted_on,legal_entity,url,description
-R0033823,Ground Operations and Mission Management,IT - Fucino,,Italy,Full time,2026-10-05,Posted 5 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Fucino/Ground-Operations-and-Mission-Management_R0033823,"Job Description:
+R0033823,Ground Operations and Mission Management,IT - Fucino,,Italy,Full time,2026-10-05,Posted 9 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Fucino/Ground-Operations-and-Mission-Management_R0033823,"Job Description:
 
 Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
 
@@ -183,7 +183,79 @@ Permanent
 
 Hybrid Working:
 Hybrid"
-R0033832,Program Manager,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-10-06,Posted 4 Days Ago,E-Geos,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Program-Manager_R0033832-1,"Job Description:
+R0033650,Mission Planning System Engineer,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-10-12,Posted 2 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Mission-Planning-System-Engineer_R0033650,"Job Description:
+
+Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
+
+Leonardo is a leading global industrial group in Aerospace, Defence and Security, delivering advance multi-domain technologies across Helicopters, Aircraft, Aerostructures, Electronics, Cybersecurity, and Space. As part of the Leonardo Space Division, Telespazio a joint venture between Leonardo (67%) and Thales (33%), is a global reference in the field of satellite solutions and services. With a workforce of over 3.500 professionals across its offices in Europe and around the world, Telespazio operates an international network of Space Centres and Teleports, offering cutting-edge solutions in Geoinformation Services, Satellite Systems and Operations, and Satellite Communications.
+
+Join us as we continue to push the boundaries of what’s possible in Space.
+
+For our headquarters in Rome, we are looking for a Mission Planning System Engineer with 5–7 years of experience in the design and development of Mission Planning Systems for satellite Ground Segments.
+
+The role focuses on the design and coordination of Mission Planning solutions for different satellite missions, including Earth Observation and Optical Communication, ensuring the generation of Mission Plans and compliance with key Power, Thermal, Guidance, Platform and Payload constraints. The candidate will work in a multidisciplinary team and collaborate closely with internal and external stakeholders, contributing to projects managed according to Agile/SCRUM methodologies.
+
+Activities/Responsibilities:
+
+- Analysing the mission requirements and mission constraints to determine the satellite models to be adopted
+- To design, coordinate the development of software solutions for Mission planning system also in big constellation scenarios
+- To analyse and integrate external satellite models (e.g. external guidance libraries) into the Mission Planning system
+- To contribute to the technical project documentation (such as Requirements Documents, Operations Concept Document, Operations Engineering Plan, User and Administration Manual, Test Procedures, etc.)
+- To assist in project reviews if/when required
+
+Competencies:
+
+- Master’s Degree in Aerospace, Automation or Information Engineering with competences in Flight Dynamics
+- Proven Experience in Mission Planning system design and implementation
+- Software Design Principles
+- Experience in Microservices applications design
+- Knowledge of Programming Languages: Java, Python
+- Knowledge of security coding standards (OWASP, CWE/SANS)
+- Knowledge of Container Orchestration frameworks (Kubernetes, OpenShift, etc)
+- High-level written and verbal English communication skills
+- Experience with the AI agent development ecosystem (e.g., LangChain, Semantic Kernel, CrewAI) and ability to integrate generative components within microservices architectures, handling aspects such as guardrails, output validation, and error management in asynchronous workflows
+
+Further Skills:
+
+- Knowledge about configuration management domain (GIT, GITLAB, etc)
+- Knowledge of software security mechanisms (encryption, signature)
+- Experience in Multiple technology stacks application development
+
+What We Offer:
+
+- Our applicable collective labor agreement is the CCNL for the Private Metalworking Industry and Plant Installation Sector
+- Working arrangement: Hybrid
+- Employment category: Employee
+- Contract type: Permanent-term
+- 13th-month salary payment
+- Performance bonus linked to Business results
+- Welfare vouchers worth €250 per year.
+- Meal vouchers worth €9, usable at the company cafeteria or for external expenses
+- Continuous learning and development opportunities to enhance both technical expertise and interpersonal skills
+
+The Company reserves the right to assess the job grade and compensation package based on objective criteria identified during the recruitment process and in line with the seniority level of the selected candidate and the position itself, in compliance with the principles of fairness, transparency and equal opportunities established by applicable legislation.
+
+How Does the Recruitment Process Work?
+
+Following the collection of applications, we review and identify the candidates whose profiles best match the required qualifications and skills. Selected candidates will participate in an initial interview with the Human Resources team, focused on getting to know the candidate, as well as assessing motivation and personal competencies. This is followed by a more in-depth technical interview conducted together with the relevant Business team. At the end of the selection process, candidates receive feedback regardless of the outcome, whether positive or negative. For more information, please visit the following link: Join a Global Company
+
+Why Telespazio: At Telespazio, the well-being, safety and development of our people are at the heart of our corporate culture. We actively foster an inclusive, diverse and stimulating work environment, promoting the principles of equity and the value of diversity. All qualified applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability or age.
+
+Seniority:
+Expert
+
+Primary Location:
+IT - Roma - Via Tiburtina, 965
+
+Contract Type:
+Permanent
+
+Total Base Pay Range:
+37.000€ - 51.000€
+
+Hybrid Working:
+Hybrid"
+R0033832,Program Manager,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-10-06,Posted 8 Days Ago,E-Geos,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Program-Manager_R0033832-1,"Job Description:
 
 Leonardo è un gruppo industriale internazionale, tra le principali realtà mondiali nell’Aerospazio, Difesa e Sicurezza che realizza capacità tecnologiche multidominio in ambito Elicotteri, Velivoli, Aerostrutture, Elettronica, Cyber Security e Spazio. All’interno della Divisione Spazio di Leonardo, e-GEOS, una società ASI (20%) e Telespazio (80%) è uno dei principali operatori internazionali nel settore dell'Osservazione della Terra e delle informazioni geospaziali e propone un portafoglio unico di servizi applicativi.
 
@@ -345,7 +417,7 @@ Contract Type:
 Permanent
 
 Hybrid Working:"
-R0030477,Program Manager – Space Programs / Ground Segment,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-09-24,Posted 16 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Program-Manager-per-Ground-Segment--SW---HW_R0030477-1,"Job Description:
+R0030477,Program Manager – Space Programs / Ground Segment,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-09-24,Posted 20 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Program-Manager-per-Ground-Segment--SW---HW_R0030477-1,"Job Description:
 
 Closer to Space, closer to the Future: entra in Telespazio – Divisione Spazio Leonardo!
 
@@ -422,97 +494,7 @@ Total Base Pay Range:
 
 Hybrid Working:
 Hybrid"
-R0033616,System Engineer,IT - Matera,,Italy,Full time,2026-09-29,Posted 11 Days Ago,E-Geos,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Matera/System-Engineer_R0033616-1,"Job Description:
-
-Leonardo è un gruppo industriale internazionale, tra le principali realtà mondiali nell’Aerospazio, Difesa e Sicurezza che realizza capacità tecnologiche multidominio in ambito Elicotteri, Velivoli, Aerostrutture, Elettronica, Cyber Security e Spazio. All’interno della Divisione Spazio di Leonardo, e-GEOS, una società ASI (20%) e Telespazio (80%) è uno dei principali operatori internazionali nel settore dell'Osservazione della Terra e delle informazioni geospaziali e propone un portafoglio unico di servizi applicativi.
-
-Nell’ambito della unità organizzativa “Engineering Support Services” presso il centro spaziale di Matera cerchiamo una risorsa per coprire la posizione di System engineer per l’inserimento nel team di Integrazione e Validazione.
-
-Principali responsabilità:
-
-La risorsa entrerà in un ambiente altamente tecnico e dinamico, dove sarà coinvolta nell’integrazione, validazione e troubleshooting di sistemi complessi in contesti operativi eterogenei.
-
-Responsabilità principali
-
-Supportare attività di integrazione, test e verifica (AIV) di sistemi complessi presso siti cliente e ambienti operativi internazionali
-
-Eseguire attività di troubleshooting avanzato su sistemi hardware/software in esercizio o in fase di integrazione
-
-Analizzare problematiche tecniche multi-dominio (sistemistiche, software, di interfaccia e integrazione) e proporre soluzioni efficaci
-
-Collaborare con team di sviluppo, system engineering e operations per la risoluzione di anomalie e non conformità
-
-Redigere report tecnici e contribuire alla documentazione di integrazione e test
-
-Operare in contesti nuovi o poco strutturati, adattandosi rapidamente a tecnologie e architetture differenti
-
-Requisiti richiesti
-
-Eccellenti capacità di analisi, problem solving e troubleshooting su sistemi complessi
-
-Familiarità con tecnologie moderne in ambito software, sistemi distribuiti e architetture ibride HW/SW
-
-Ottime capacità di comunicazione tecnica, anche in contesti internazionali e multi-team
-
-Attitudine pratica, autonomia operativa e capacità di “inventiva ingegneristica” nella risoluzione dei problemi
-
-Disponibilità a trasferte internazionali di 2–3 settimane
-
-Soft skills
-
-Mentalità pragmatica e orientata alla soluzione
-
-Curiosità tecnica e capacità di apprendere rapidamente nuovi domini
-
-Team working in contesti multiculturali
-
-Titoli preferenziali
-
-Esperienza nel disegno di architetture software distribuite e scalabili.
-
-Capacità di integrare applicazioni complesse con sistemi legacy e infrastrutture eterogenee.
-
-Competenze full stack nello sviluppo end-to-end di soluzioni web, dalla definizione dell’architettura alla realizzazione di interfacce utente e servizi backend.
-
-Conoscenza di metodologie DevOps e CI/CD per la gestione di pipeline di sviluppo e deployment.
-
-Attitudine al coordinamento tecnico e alla definizione di linee guida architetturali per team di sviluppo.
-
-E' richiesta una conoscenza delle lingua inglese B2
-
-Titolo di studio:
-
-Laurea in ingegneria elettronica / informatica / telecomunicazioni, scienze informatiche o assimilabili con esperienza il ruoli analoghi di 2-3 anni
-
-Cosa offriamo:
-
-Coinvolgimento, valorizzazione delle competenze, cura del benessere e della sicurezza delle persone sono i cardini della nostra cultura aziendale.
-Ci impegniamo ogni giorno a favorire un ambiente di lavoro inclusivo e stimolante, promuovendo attivamente i principi di inclusione, equità e valorizzazione delle diversità.
-Il nostro contratto collettivo del lavoro di riferimento è il CCNL per Industria Metalmeccanica Privata e della Installazione di Impianti;
-Modalità di lavoro: Ibrida
-Categoria contrattuale: Impiegato
-Tipologia contrattuale: tempo indeterminato
-Tredicesima mensilità;
-Premialità legata ai risultati di Business
-Buoni Welfare dal valore di 250 euro annui;
-Ticket da 9,00€
-Opportunità di formazione e aggiornamento continuo delle competenze professionali e delle soft skill
-
-Seniority:
-Junior
-
-Primary Location:
-IT - Matera
-
-Contract Type:
-Permanent
-
-Total Base Pay Range:
-35-44K€
-
-Hybrid Working:
-Hybrid"
-R0033339,Telespazio -  Design/Software engineer,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-10-01,Posted 9 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio----Design-Software-engineer_R0033339,"Job Description:
+R0033339,Telespazio -  Design/Software engineer,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-10-01,Posted 13 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio----Design-Software-engineer_R0033339,"Job Description:
 
 Closer to Space, closer to the Future: entra in Telespazio – Divisione Spazio Leonardo!
 
@@ -623,155 +605,171 @@ Contract Type:
 Permanent
 
 Hybrid Working:"
-R0033251,Telespazio - Cyber Security Analyst Operator,IT - Fucino,,Italy,Full time,2026-09-23,Posted 17 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Fucino/Telespazio---Cyber-Security-Analyst-Operator_R0033251-1,"Job Description:
+R0033658,Telespazio - Fullstack Software Engineer,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-10-12,Posted 2 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio---Fullstack-Software-Engineer_R0033658,"Job Description:
 
-Closer to Space, closer to the Future: entra in Telespazio – Divisione Spazio Leonardo!
+Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
 
-Leonardo è un gruppo industriale internazionale, tra le principali realtà mondiali nell’Aerospazio, Difesa e Sicurezza che realizza capacità tecnologiche multidominio in ambito Elicotteri, Velivoli, Aerostrutture, Elettronica, Cyber Security e Spazio. All’interno della Divisione Spazio di Leonardo, Telespazio joint venture tra Leonardo (67%) e Thales (33%), è leader globale nel settore delle soluzioni e dei servizi satellitari. Con oltre 3.400 professionisti distribuiti tra le sue sedi in Europa e nel mondo, Telespazio gestisce una rete internazionale di Centri Spaziali e Teleporti, fornendo soluzioni innovative per Servizi di Geoinformazione, Sistemi e Operazioni Satellitari e Comunicazioni Satellitari.
+Leonardo is a leading global industrial group in Aerospace, Defence and Security, delivering advance multi-domain technologies across Helicopters, Aircraft, Aerostructures, Electronics, Cybersecurity, and Space. As part of the Leonardo Space Division, Telespazio a joint venture between Leonardo (67%) and Thales (33%), is a global reference in the field of satellite solutions and services. With a workforce of over 3.500 professionals across its offices in Europe and around the world, Telespazio operates an international network of Space Centres and Teleports, offering cutting-edge solutions in Geoinformation Services, Satellite Systems and Operations, and Satellite Communications.
 
-Unisciti a noi mentre continuiamo a superare i confini del possibile nello Spazio.
+Join us as we continue to push the boundaries of what’s possible in Space.
 
-All’interno del settore Security Services, stiamo ricercando una/un Cyber Security Analyst Operator per la nostra sede di Centro Spaziale del Fucino – Avezzano (AQ);
+For our headquarters in Rome, we are looking for a Full-stack Software Engineer with 5–7 years of hands-on experience in designing, developing and testing software solutions for Ground Segment systems. The role involves the design and development of cloud-native applications, including multi-device and multi-platform front-end solutions using Angular, as well as enterprise back-end applications based on microservices architectures. The candidate will work in a multidisciplinary team and collaborate closely with internal and external stakeholders, contributing to projects managed according to Agile/SCRUM methodologies.
 
-Attività:
+Activities/Responsibilities:
 
-Il candidato si occuperà principalmente del monitoraggio di sicurezza, analisi dei Log di sicurezza, investigazioni ed Incidenti di sicurezza, nei centri operativi di un programma internazionale (Galileo).
+- Design, develop and unit test software solutions and end-to-end applications using modern technologies in public and hybrid cloud environments
+- Design and implement automated DevSecOps pipelines to support continuous integration, delivery and deployment
+- Contribute to the preparation and maintenance of technical project documentation, including Requirements Documents, Operations Concept Documents, Operations Engineering Plans, User Manuals and Administration Manuals
+- Support project reviews and technical meetings when required
 
-L’attività è in Turno, con matrice di rotazione h/24 365 gg l’anno. A mera descrizione, l’attività consiste in:
+Competencies:
 
-- Eseguire analisi dei log si sicurezza sui sistemi GMS/GCS/GDDN e TSP/GRSP Galileo, al fine di evidenziare potenziali eventi di sicurezza
+- Bachelor’s or Master’s Degree in Computer Science, Aerospace Engineering, Information Engineering, or a related field
+- Proven experience in software design principles and microservices application design
+- Strong knowledge of Java and Python
+- Proven knowledge of front-end technologies, including Angular, TypeScript, JavaScript, Flask and Liferay
+- Strong knowledge of back-end technologies, including Spring Boot, API Gateway and Message Queue systems such as Kafka and RabbitMQ
+- Knowledge of Linux and Linux scripting
+- Knowledge of software security standards and best practices, including OWASP and CWE/SANS
+- Knowledge of IaaS, PaaS, SaaS and CaaS concepts
+- Knowledge of container orchestration frameworks, such as Kubernetes and OpenShift
+- Experience with AI agent development ecosystems, such as LangChain, Semantic Kernel and CrewAI, with the ability to integrate generative AI components into microservices architectures, including guardrails, output validation and error management in asynchronous workflows
+- Knowledge of quality standards and applicable provisions
+- High-level written and verbal English communication skills
 
-- Interagire con gli enti operativi e di sicurezza previsti nel progetto Galileo
+Further Skills:
 
-- Interagire con l’ente di sicurezza aziendale Telespazio, tramite il SIO
+- Knowledge of relational database (PostgreSQL, Oracle)
+- Knowledge of not relational database and analytics (MongoDB, Elastic)
 
-- Notificare i potenziali incidenti di sicurezza al GSMC
+- Knowledge about configuration management domain (GIT, GITLAB, etc)
+- Knowledge of software security mechanisms (encryption, signature)
 
-- Gestire le richieste di investigazione di sicurezza ricevute dal GSMC
+- Experience in Multiple technology stacks application development
+- Experience writing for Applications automation in Cloud
+- Experience with at least one Commercial Public Cloud (AWS, Google Cloud, Azure, etc)
 
-- Gestire l’implementazione delle azioni di mitigazione richieste dal GSMC, nel caso di incidente di sicurezza (Security Incident Response)
+- Basic understanding of networking: TCP/IP, IP addresses, HTTP, DNS
 
-- Possibilità di analizzare e gestire eventi di sicurezza evidenziati dal SIEM
+What We Offer:
 
-- Possibilità di eseguire analisi eventi generati da sistemi Full Packet Capture (es. Whireshark)
+- Our applicable collective labor agreement is the CCNL for the Private Metalworking Industry and Plant Installation Sector
+- Working arrangement: Hybrid
+- Employment category: Employee
+- Contract type: Permanent-term
+- 13th-month salary payment
+- Performance bonus linked to Business results
+- Welfare vouchers worth €250 per year
+- Meal vouchers worth €9, usable at the company cafeteria or for external expenses
+- Continuous learning and development opportunities to enhance both technical expertise and interpersonal skills
 
-- Supportare il processo Lesson Learned, per evidenziare e migliorare eventuali GAP procedurali
+The Company reserves the right to assess the job grade and compensation package based on objective criteria identified during the recruitment process and in line with the seniority level of the selected candidate and the position itself, in compliance with the principles of fairness, transparency and equal opportunities established by applicable legislation.
 
-- Formazione ed aggiornamento continuo
+How Does the Recruitment Process Work?
 
-- Trasferte all’estero
+Following the collection of applications, we review and identify the candidates whose profiles best match the required qualifications and skills. Selected candidates will participate in an initial interview with the Human Resources team, focused on getting to know the candidate, as well as assessing motivation and personal competencies. This is followed by a more in-depth technical interview conducted together with the relevant Business team. At the end of the selection process, candidates receive feedback regardless of the outcome, whether positive or negative. For more information, please visit the following link: Join a Global Company
 
-Requisiti:
-
-Titolo di studio e Seniority
-
-- Diploma ITIS Informatica o specializzazione tecnica equivalente.
-
-- Diploma scientifico con esperienza in networking o cybersecurity.
-
-- Costituisce titolo preferenziale la certificazione CCNA e/o CCNP o equivalenti
-
-Competenze tecniche e IT
-
-- Buona conoscenza dei fondamenti di reti LAN-WAN basate sul protocollo IP,
-
-- Conoscenza dei principali protocolli di comunicazione
-
-- Buona conoscenza dei principali sistemi operativi server
-
-- Buona conoscenza dei sistemi di virtualizzazione Vmware e HYPER-V
-
-- Capacità di analisi dei log di sicurezza
-
-- Buona conoscenza degli apparati di rete, indirizzamenti, routing e vlan
-
-- Conoscenza dei sistemi di backup e replica
-
-- Concetti base relativi alle minacce e alle vulnerabilità dei sistemi informatici
-
-- Gestione centri di controllo SOC ed utilizzo applicazioni SIEM
-
-- Tecnologie di controllo degli accessi, identificazione, autenticazione, monitoraggio, sorveglianza, rilevamento effrazioni, ed investigazioni forensi in ambito security
-
-- Tecniche di Vulnerability Assessment & Penetration Testing
-
-- Conoscenza base dei principali Algoritmi e tecnologie per la crittografia simmetrica ed asimmetrica
-
-Soft skills
-
-- Riservatezza
-
-- Flessibilità
-
-- Gestione del tempo
-
-- Proattività
-
-- Disponibilità a viaggiare all’estero anche per lunghi periodi
-
-- Buone capacità di Problem Solving
-
-- Elevato Orientamento al Risultato
-
-- Spiccata attitudine alla collaborazione e al lavoro in team
-
-- Buone Capacità di Pianificazione e Organizzazione
-
-- Buona conoscenza della lingua inglese.
-
-È richiesta una buona conoscenza della lingua Inglese.
-
-Disponibilità ad effettuare trasferte di lavoro, se necessario.
-
-Cosa offriamo:
-
-- Il nostro contratto collettivo del lavoro di riferimento è il CCNL per Industria Metalmeccanica Privata e
-
-- della Installazione di Impianti;
-
-- Modalità di lavoro: in sede;
-
-- Categoria contrattuale: Impiegato;
-
-- Tipologia contrattuale: tempo indeterminato;
-
-- Tredicesima mensilità;
-
-- Premialità legata ai risultati di Business;
-
-- Buoni Welfare dal valore di 250 euro annui;
-
-- Buoni pasto 8,50€ da utilizzare presso mensa interna o per spese esterne
-
-- Offriamo percorsi di formazione continua e percorsi di sviluppo professionale per valorizzare e rafforzare sia le competenze tecniche sia le soft skill.
-
-L’azienda si riserva la possibilità di effettuare valutazioni in merito al livello di inquadramento e alla proposta economica, sulla base di criteri oggettivi emersi nel corso del processo di selezione e in coerenza con la seniority
-
-del/della candidato/a individuato/a e della posizione, nel rispetto dei principi di equità, trasparenza e pari opportunità previsti dalla normativa vigente.
-
-Come funziona il processo di selezione?
-
-A seguito della raccolta delle candidature, vengono valutati e identificati i CV maggiormente in linea con i requisiti richiesti. Le/i candidate/i selezionate/i sostengono un colloquio conoscitivo con il team delle Risorse Umane, motivazionale e attitudinale, seguito da un’intervista di approfondimento tecnico insieme con il Business. Al termine del processo, alla persona viene restituito un feedback, sia in caso di esito positivo che negativo.
-
-Per maggiori informazioni consultare il seguente link: Lavora con noi
-
-Perché Telespazio: In Telespazio, mettiamo le persone al centro di tutto ciò che facciamo. Offriamo un ambiente di lavoro inclusivo, diversificato e stimolante, in cui investiamo nel benessere e nello sviluppo di ogni dipendente. Valutiamo tutti i candidati qualificati senza discriminazioni di razza, religione, sesso, orientamento sessuale, nazionalità, disabilità o età.
+Why Telespazio: At Telespazio, the well-being, safety and development of our people are at the heart of our corporate culture. We actively foster an inclusive, diverse and stimulating work environment, promoting the principles of equity and the value of diversity. All qualified applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability or age.
 
 Seniority:
-Junior
+Expert
 
 Primary Location:
-IT - Fucino
+IT - Roma - Via Tiburtina, 965
 
 Contract Type:
 Permanent
 
 Total Base Pay Range:
-30.000 €
+37.000€ - 51.000€
 
 Hybrid Working:
-Onsite"
-R0033024,Telespazio - System Engineer,IT - Fucino,,Italy,Full time,2026-09-11,Posted 29 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Fucino/Telespazio---System-Engineer_R0033024-1,"Job Description:
+Hybrid"
+R0033655,Telespazio - Software Engineer,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-10-12,Posted 2 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio---Software-Engineer_R0033655-1,"Job Description:
+
+Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
+
+Leonardo is a leading global industrial group in Aerospace, Defence and Security, delivering advance multi-domain technologies across Helicopters, Aircraft, Aerostructures, Electronics, Cybersecurity, and Space. As part of the Leonardo Space Division, Telespazio a joint venture between Leonardo (67%) and Thales (33%), is a global reference in the field of satellite solutions and services. With a workforce of over 3.500 professionals across its offices in Europe and around the world, Telespazio operates an international network of Space Centres and Teleports, offering cutting-edge solutions in Geoinformation Services, Satellite Systems and Operations, and Satellite Communications.
+
+Join us as we continue to push the boundaries of what’s possible in Space.
+
+For our headquarters in Rome, we are looking for a Software Engineer with 3–5 years of hands-on experience in designing, developing and testing software solutions, services and front-end applications for Ground Segment systems. The ideal candidate has a strong full-stack orientation, with experience in cloud-native application development and in designing and developing enterprise applications based on microservices architectures and multi-device, multi-platform technologies. The candidate will work in a multidisciplinary team and collaborate closely with internal and external stakeholders, contributing to projects managed according to Agile/SCRUM methodologies.
+
+Activities and Responsibilities:
+
+- Design, develop and unit test software solutions and end-to-end applications using modern technologies in public and hybrid cloud environments
+- Design and adopt automated DevSecOps pipelines
+- Contribute to the preparation and maintenance of technical project documentation, including Requirements Documents, Operations Concept Documents, Operations Engineering Plans, User Manuals and Administration Manuals
+- Support project reviews and technical meetings when required
+
+Competencies:
+
+- Bachelor’s or Master’s Degree in Computer Science, Aerospace Engineering or Information Engineering
+- 3–5 years of hands-on experience in software development and microservices-based applications
+- Strong knowledge of software design principles
+- Proven experience in microservices application design
+- Knowledge of programming languages: Java, Python
+- Knowledge of front-end technologies: Angular, TypeScript, JavaScript, Flask, Liferay
+- Knowledge of back-end technologies: Spring Boot, API Gateway, Message Queue (Kafka, RabbitMQ, etc.)
+- Knowledge of IaaS, PaaS, SaaS and CaaS concepts
+- Knowledge of container orchestration frameworks, such as Kubernetes and OpenShift
+- Knowledge of Linux and Linux scripting
+- Knowledge of security coding standards, including OWASP and CWE/SANS
+- Experience with the AI agent development ecosystem, such as LangChain, Semantic Kernel and CrewAI, and ability to integrate generative AI components within microservices architectures, including guardrails, output validation and error management in asynchronous workflows
+- Knowledge of quality standards and applicable provisions
+- High-level written and verbal English communication skills
+- Ability to work effectively in a collaborative, multidisciplinary team
+- Familiarity with Agile/SCRUM methodologies
+
+Further Skills:
+
+- Knowledge of relational database (PostgreSQL, Oracle)
+- Knowledge of not relational database and analytics (MongoDB, Elastic)
+
+- Knowledge about configuration management domain (GIT, GITLAB, etc)
+- Knowledge of software security mechanisms (encryption, signature)
+
+- Experience in Multiple technology stacks application development
+- Experience writing for Applications automation in Cloud
+- Experience with at least one Commercial Public Cloud (AWS, Google Cloud, Azure, etc)
+
+- Basic understanding of networking: TCP/IP, IP addresses, HTTP, DNS
+
+What We Offer:
+
+- Our applicable collective labor agreement is the CCNL for the Private Metalworking Industry and Plant Installation Sector
+- Working arrangement: Hybrid
+- Employment category: Employee
+- Contract type: Permanent-term
+- 13th-month salary payment
+- Performance bonus linked to Business results
+- Welfare vouchers worth €250 per year
+- Meal vouchers worth €9, usable at the company cafeteria or for external expenses
+- Continuous learning and development opportunities to enhance both technical expertise and interpersonal skills
+
+The Company reserves the right to assess the job grade and compensation package based on objective criteria identified during the recruitment process and in line with the seniority level of the selected candidate and the position itself, in compliance with the principles of fairness, transparency and equal opportunities established by applicable legislation.
+
+How Does the Recruitment Process Work?
+
+Following the collection of applications, we review and identify the candidates whose profiles best match the required qualifications and skills. Selected candidates will participate in an initial interview with the Human Resources team, focused on getting to know the candidate, as well as assessing motivation and personal competencies. This is followed by a more in-depth technical interview conducted together with the relevant Business team. At the end of the selection process, candidates receive feedback regardless of the outcome, whether positive or negative. For more information, please visit the following link: Join a Global Company
+
+Why Telespazio: At Telespazio, the well-being, safety and development of our people are at the heart of our corporate culture. We actively foster an inclusive, diverse and stimulating work environment, promoting the principles of equity and the value of diversity. All qualified applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability or age.
+
+Seniority:
+Expert
+
+Primary Location:
+IT - Roma - Via Tiburtina, 965
+
+Contract Type:
+Permanent
+
+Total Base Pay Range:
+42.000€ - 46.000€
+
+Hybrid Working:
+Hybrid"
+R0033024,Telespazio - System Engineer,IT - Fucino,,Italy,Full time,2026-09-11,Posted 30+ Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Fucino/Telespazio---System-Engineer_R0033024-1,"Job Description:
 
 Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
 
@@ -996,7 +994,7 @@ Total Base Pay Range:
 
 Hybrid Working:
 Hybrid"
-R0028912,Telespazio- Electrical Infrastructures Engineer,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-09-10,Posted 30 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio--Electrical-Infrastructures-Engineer_R0028912,"Job Description:
+R0028912,Telespazio- Electrical Infrastructures Engineer,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-09-10,Posted 30+ Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio--Electrical-Infrastructures-Engineer_R0028912,"Job Description:
 
 Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
 
@@ -1104,74 +1102,95 @@ Total Base Pay Range:
 
 Hybrid Working:
 Hybrid"
-R0025584,Telespazio- IT Service Management Specialist,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-09-01,Posted 30+ Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio--IT-Service-Management-Specialist_R0025584,"Job Description:
+R0033421,Telespazio- Ground Segment AIV Manager,"IT - Roma - Via Tiburtina, 965",,Italy,Full time,2026-10-12,Posted 2 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio--Ground-Segment-AIV-Manager_R0033421,"Job Description:
 
 Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
 
-Leonardo is a leading global industrial group in Aerospace, Defence and Security, delivering advance multi-domain technologies across Helicopters, Aircraft, Aerostructures, Electronics, Cybersecurity, and Space. As part of the Leonardo Space Division, Telespazio a joint venture between Leonardo (67%) and Thales (33%), is a global reference in the field of satellite solutions and services. With a workforce of over 3.300 professionals across its offices in Europe and around the world, Telespazio operates an international network of Space Centres and Teleports, offering cutting-edge solutions in Geoinformation Services, Satellite Systems and Operations, and Satellite Communications.
+Leonardo is a leading global industrial group in Aerospace, Defence and Security, delivering advance multi-domain technologies across Helicopters, Aircraft, Aerostructures, Electronics, Cybersecurity, and Space. As part of the Leonardo Space Division, Telespazio a joint venture between Leonardo (67%) and Thales (33%), is a global reference in the field of satellite solutions and services. With a workforce of over 3.500 professionals across its offices in Europe and around the world, Telespazio operates an international network of Space Centres and Teleports, offering cutting-edge solutions in Geoinformation Services, Satellite Systems and Operations, and Satellite Communications.
 
 Join us as we continue to push the boundaries of what’s possible in Space.
 
-Within the Digital Solutions – Service Management team, we are looking for a resource to take on the role of Service Management Specialist, with experience in Project Management, process analysis, IT Service Management, and the management of digital transformation initiatives.
+Inside the Ground Segment and Systems Engineering Area in Rome, we are looking for a Ground Segment AIV Manager to be assigned to the System Deployment and Qualification Unit.
 
-Main Responsibilities
+The Ground Segment AIV Manager is responsible for planning, coordinating and executing all Assembly, Integration and Verification (AIV) activities related to Ground Segment systems for space missions. The role ensures that ground infrastructure, software, networks, mission control systems and operational environments are deployed, integrated, tested and validated according to program requirements, quality standards and project schedules.
 
-- Support the governance of ITSM platforms and processes through analysis, monitoring, and continuous improvement of operational workflows
+He/She will act as the technical and managerial focal point for Ground Segment AIV activities, coordinating multidisciplinary teams, suppliers and customers throughout the project lifecycle
 
-- Collaborate in managing Incident, Change, and Request Management processes, ensuring proper alignment with involved stakeholders
+Activities/Responsibilities:
 
-- Gather, analyze, and formalize functional and operational requirements from various business units
+- Define and maintain the Ground Segment AIV strategy, plans and procedures.
+- Develop Integration, Verification and Validation (IV&V) roadmaps aligned with project milestones.
+- Coordinate Assembly, Integration and Test activities across multiple Ground Segment elements.
+- Ensure traceability between requirements, test cases and verification evidence
+- Review and approve test procedures, test reports and verification documentation.
+- Lead and coordinate multidisciplinary AIV engineers and specialists.
+- Manage workload allocation, priorities and resource planning.
+- Interface with System Engineering, Operations, Software Development, Infrastructure and security teams.
+- Coordinate integration activities involving Mission Control Systems, Ground Stations, Network Infrastructure, Data Processing Systems and Operational Environments.
+- Support anomaly investigations and root cause analyses.
+- Oversee preparation and execution of infrastructure deployment, End-to-End Tests and Ground Qualification.
+- Support Operational Validation Tests and Customer Acceptance Tests.
 
-- Design and optimize workflows and business processes, with a focus on information flows and data quality
+Qualifications / Experience:
 
-- Support the creation and maintenance of process documentation (procedures, KPIs, reporting, operational materials)
+- Master's Degree or equivalent from an institution of higher education in Aerospace Engineering, Computer Science or related fields
+- Minimum 8 years of experience in Ground Segment, Space Systems Integration, System Engineering or AIV activities
+- Proven experience leading integration and test campaigns for complex systems
+- Strong understanding of Ground Segment architectures and operations
+- Experience managing multidisciplinary technical teams
 
-- Coordinate project activities, including planning, risk management, progress monitoring, and interaction with multidisciplinary teams
+Essential Skills
 
-- Collaborate with technical teams (infrastructure, security, workplace) to ensure solution consistency and integration with existing processes
+- Ground Segment systems integration and verification
 
-Role Requirements
+- Mission Control Systems
 
-- 3–5 years of experience in IT Project Management, or Process Management, preferably in consulting or corporate environments
+- Satellite Operations concepts
 
-- Experience coordinating IT and digital transformation projects (Agile/Waterfall)
+- IV&V methodologies
 
-- Familiarity with ITSM processes and ticketing tools (ServiceNow or Jira Service Management)
+- Requirements management and traceability
 
-- Strong stakeholder management and effective communication skills with both technical and business teams
+- Test planning and execution
 
-- Problem‑solving attitude, operational autonomy, and strong goal orientation
+- Configuration and change management
 
-- Experience working in multi‑team and multidisciplinary environments
+- Risk management
 
-Soft Skills
+- Fluent English knowledge
 
-- Excellent communication skills and customer‑oriented mindset
+Desirable Skills:
 
-- Strong problem‑solving abilities and priority‑management skills
+- Knowledge of space and ground system engineering processes, and system and software life-cycles and standards (e.g. ECSS)
+- Experience with ESA, EUMETSAT or institutional space programs
+- Experience with system virtualization, cloud environments and containerized deployments
+- Familiarity with cybersecurity requirements for Ground Segment infrastructures
+- Knowledge of automation frameworks for testing and deployment
 
-- Team‑oriented approach and ability to perform under pressure
-
-- Fluent in written and spoken English (C1 level)
+Place of work: Rome, Availability to travel EU and extra-EU
 
 What We Offer:
 
-- A stimulating and dynamic working environment with flexible working hours
+- Our applicable collective labor agreement is the CCNL for the Private Metalworking Industry and Plant Installation Sector
+- Working arrangement: Hybrid
+- Employment category: Employee
+- Contract type: Permanent-term
+- 13th-month salary payment
+- Performance bonus linked to Business results
+- Welfare vouchers worth €250 per year
+- Meal vouchers worth €9, usable at the company cafeteria or for external expenses
+- Continuous learning and development opportunities to enhance both technical expertise and interpersonal skills
 
-- Hybrid working (onsite and off-site)
+The Company reserves the right to assess the job grade and compensation package based on objective criteria identified during the recruitment process and in line with the seniority level of the selected candidate and the position itself, in compliance with the principles of fairness, transparency and equal opportunities established by applicable legislation.
 
-- Comprehensive health insurance
+How Does the Recruitment Process Work?
 
-- Meal voucher, company canteen and employee welfare programs
+Following the collection of applications, we review and identify the candidates whose profiles best match the required qualifications and skills. Selected candidates will participate in an initial interview with the Human Resources team, focused on getting to know the candidate, as well as assessing motivation and personal competencies. This is followed by a more in-depth technical interview conducted together with the relevant Business team. At the end of the selection process, candidates receive feedback regardless of the outcome, whether positive or negative. For more information, please visit the following link: Join a Global Company
 
-- Free access to online learning platform with courses from top universities
-
-- Opportunities for international experiences
-
-Why Telespazio: At Telespazio, the well-being, safety, and development of our people are at the heart of our corporate culture. We actively foster an inclusive, diverse, and stimulating work environment, promoting the principles of equity and the value of diversity. All qualified applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability, or age.
+Why Telespazio: At Telespazio, the well-being, safety and development of our people are at the heart of our corporate culture. We actively foster an inclusive, diverse and stimulating work environment, promoting the principles of equity and the value of diversity. All qualified applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability or age.
 
 Seniority:
-Junior
+Senior
 
 Primary Location:
 IT - Roma - Via Tiburtina, 965
@@ -1180,6 +1199,185 @@ Contract Type:
 Permanent
 
 Total Base Pay Range:
+51.000€ - 55.000€
+
+Hybrid Working:
+Hybrid"
+R0033422,Telespazio- System Integrator,"IT - Roma - Via Tiburtina, 965",IT - Fucino,Italy,Full time,2026-10-12,Posted 2 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio--System-Integrator_R0033422,"Job Description:
+
+Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
+
+Leonardo is a leading global industrial group in Aerospace, Defence and Security, delivering advance multi-domain technologies across Helicopters, Aircraft, Aerostructures, Electronics, Cybersecurity, and Space. As part of the Leonardo Space Division, Telespazio a joint venture between Leonardo (67%) and Thales (33%), is a global reference in the field of satellite solutions and services. With a workforce of over 3.500 professionals across its offices in Europe and around the world, Telespazio operates an international network of Space Centres and Teleports, offering cutting-edge solutions in Geoinformation Services, Satellite Systems and Operations, and Satellite Communications.
+
+Join us as we continue to push the boundaries of what’s possible in Space.
+
+Inside the Ground Segment and Systems Engineering Area in Rome, we are looking for an AIV System Integrator to be assigned to the System Deployment and Qualification Unit. He/She will participate to the integration, deployment, configuration and verification of Ground Segments for Space Missions, in an integrated IVV team for the preparation and execution of the test campaigns of complex systems.
+
+Activities/Responsibilities:
+
+- Setup, configure and maintain test, reference and target platforms
+- Install and update COTS and application SW
+- Develop and maintain the supporting environments and tools (including automated verification environments) required for the timely and efficient execution of planned test campaigns, including identification of new tools, maintenance and evolution of existing ones
+- Support deployment and management of OpenShift / Kubernetes platforms
+- Contribute to CI/CD pipeline implementation (Jenkins, GitLab CI/CD, ArgoCD)
+- Develop and maintain deployment automation initiatives using Infrastructure as Code (Terraform, Ansible), Test Execution and Test Results collection
+- Integrate the application SW and verify the correct behavior
+- Execute test procedure using the approved AIV plans and in agreement with the test campaigns, including as well contribution to Test Readiness Reviews (TRRs) and Test Review Board meetings (TRBs)
+- Prepare test execution and test installation report
+- Support the anomaly investigation by collecting various evidence (LOG, Screenshot, etc) in agreement with the Anomaly Management process
+- Contribute to scheduling, preparation and execution of the IVV campaigns
+
+Qualifications / Experience:
+
+- Bachelor’s Degree in Computer Science
+- At least 4 years of experience
+
+Essential Skills:
+
+- Experience in the area of complex Systems Verification & Validation (V&V) activities, including identification of necessary test data and tools, automated testing in support of system testing, software testing, unit testing, software debugging and profiling
+- Good knowledge of Linux and Windows
+- Good knowledge of Virtual Environments (KVM, VMWare, esxi, vsphere, openstack)
+- Good knowledge of Infrastructure as Code (IaC) – Terraform, Ansible
+- Good knowledge of automation, scripting (Bash, Python, javascript)
+- Knowledge of DevOps, Jenkins, GitLab CI/CD, ArgoCD
+- Knowledge of database
+- Good English knowledge
+
+Desirable Skills:
+
+- Knowledge of space and ground system engineering processes, and system and software life-cycles and standards (e.g. ECSS)
+- Knowledge of Cloud-based infrastructure and applications, microservices architectures
+- Knowledge of Networking, Network Protocols and related issues
+
+Qualities:
+
+- Strong written and oral communication skills
+- Team player, open and keen to contribute
+- Conscientious, hard working
+- Attention to detail
+- Execution effectiveness and continuity
+
+Place of work: Rome, Availability to travel EU and extra-EU
+
+What We Offer:
+
+- Our applicable collective labor agreement is the CCNL for the Private Metalworking Industry and Plant Installation Sector
+- Working arrangement: Hybrid
+- Employment category: Employee
+- Contract type: Permanent-term
+- 13th-month salary payment
+- Performance bonus linked to Business results
+- Welfare vouchers worth €250 per year.
+- Meal vouchers worth €9, usable at the company cafeteria or for external expenses.
+- Continuous learning and development opportunities to enhance both technical expertise and interpersonal skills.
+
+The Company reserves the right to assess the job grade and compensation package based on objective criteria identified during the recruitment process and in line with the seniority level of the selected candidate and the position itself, in compliance with the principles of fairness, transparency and equal opportunities established by applicable legislation.
+
+How Does the Recruitment Process Work?
+
+Following the collection of applications, we review and identify the candidates whose profiles best match the required qualifications and skills. Selected candidates will participate in an initial interview with the Human Resources team, focused on getting to know the candidate, as well as assessing motivation and personal competencies. This is followed by a more in-depth technical interview conducted together with the relevant Business team. At the end of the selection process, candidates receive feedback regardless of the outcome, whether positive or negative. For more information, please visit the following link: Join a Global Company
+
+Why Telespazio: At Telespazio, the well-being, safety and development of our people are at the heart of our corporate culture. We actively foster an inclusive, diverse and stimulating work environment, promoting the principles of equity and the value of diversity. All qualified applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability or age.
+
+Seniority:
+Expert
+
+Primary Location:
+IT - Roma - Via Tiburtina, 965
+
+Additional Locations:
+IT - Fucino
+
+Contract Type:
+Permanent
+
+Total Base Pay Range:
+42.000€ - 46.000€
+
+Hybrid Working:
+Hybrid"
+R0033411,Telespazio- Verification and Validation Engineer,"IT - Roma - Via Tiburtina, 965",IT - Fucino,Italy,Full time,2026-10-12,Posted 2 Days Ago,Telespazio,https://leonardocompany.wd3.myworkdayjobs.com/LeonardoCareerSite/job/IT---Roma---Via-Tiburtina-965/Telespazio--Verification-and-Validation-Engineer_R0033411,"Job Description:
+
+Closer to Space, closer to the Future: join Telespazio – Leonardo Space Division!
+
+Leonardo is a leading global industrial group in Aerospace, Defence and Security, delivering advance multi-domain technologies across Helicopters, Aircraft, Aerostructures, Electronics, Cybersecurity, and Space. As part of the Leonardo Space Division, Telespazio a joint venture between Leonardo (67%) and Thales (33%), is a global reference in the field of satellite solutions and services. With a workforce of over 3.500 professionals across its offices in Europe and around the world, Telespazio operates an international network of Space Centres and Teleports, offering cutting-edge solutions in Geoinformation Services, Satellite Systems and Operations, and Satellite Communications.
+
+Join us as we continue to push the boundaries of what’s possible in Space.
+
+Inside the Ground Segment and Systems Engineering Area in Rome, we are looking for a Verification and Validation Test Engineer to be assigned to the System Deployment and Qualification Unit.
+
+He/She is responsible for the definition and execution of tests campaign as part of the Integration, Verification and Validation activities for Satellite Systems Ground Segments (G/S). He/She shall work in an integrated IVV team for the preparation and execution of the test campaigns of complex systems.
+
+Activities/Responsibilities:
+
+- Contribute to scheduling, preparation and execution of the IVV campaigns
+- Requirements verification test method definition (DVCMs)
+- Test Scenarios definition
+- IVV Plans and procedures preparation
+- Participate in the execution of test procedures using the approved IVV plans and in agreement with the test campaigns, including contribution to Test Readiness Reviews (TRRs) and Test Review Board meetings (TRBs)
+- Prepare test execution and reports
+- Investigation and analysis of anomalies
+- Participate to formal reviews and key points
+- Support the Technical Manager in the IVV duties
+
+Qualifications / Experience:
+
+- Master's Degree or equivalent from an institution of higher education in Aerospace Engineering, Computer Science or related fields
+- At least 3 years of experience
+
+Essential Skills:
+
+- Proven experience in Integration, Verification & Validation (IVV) activities, including identification of necessary test data and tools, software testing, software debugging
+- Strong proficiency with Windows and Linux operating systems.
+- Knowledge of Virtual Environments (VMWare, esxi, vsphere, openstack, KVM)
+- Knowledge of containers technology and related environments (e.g. Dockers, Kubernetes)
+- Knowledge of shell scripting
+- Good English knowledgee
+
+Desirable Skills:
+
+- Knowledge of space and ground system engineering processes, and system and software life-cycles and standards (e.g. ECSS)
+- Knowledge of Agile/DevOps models and related testing approach (e.g. Jenkins)
+- Knowledge of programming languages (Java, Python, Bash script, Javascript)
+- Knowledge of Cloud-based infrastructure and applications, microservices architectures
+- Knowledge of Networking, Network Protocols and related issues
+
+Place of work: Rome, Availability to travel EU and extra-EU
+
+What We Offer:
+
+- Our applicable collective labor agreement is the CCNL for the Private Metalworking Industry and Plant Installation Sector.
+- Working arrangement: Hybrid
+- Employment category: Employee
+- Contract type: Permanent-term
+- 13th-month salary payment
+- Performance bonus linked to Business results
+- Welfare vouchers worth €250 per year.
+- Meal vouchers worth €9, usable at the company cafeteria or for external expenses.
+- Continuous learning and development opportunities to enhance both technical expertise and interpersonal skills.
+
+The Company reserves the right to assess the job grade and compensation package based on objective criteria identified during the recruitment process and in line with the seniority level of the selected candidate and the position itself, in compliance with the principles of fairness, transparency and equal opportunities established by applicable legislation.
+
+How Does the Recruitment Process Work?
+
+Following the collection of applications, we review and identify the candidates whose profiles best match the required qualifications and skills. Selected candidates will participate in an initial interview with the Human Resources team, focused on getting to know the candidate, as well as assessing motivation and personal competencies. This is followed by a more in-depth technical interview conducted together with the relevant Business team. At the end of the selection process, candidates receive feedback regardless of the outcome, whether positive or negative. For more information, please visit the following link: Join a Global Company
+
+Why Telespazio: At Telespazio, the well-being, safety and development of our people are at the heart of our corporate culture. We actively foster an inclusive, diverse and stimulating work environment, promoting the principles of equity and the value of diversity. All qualified applicants will receive consideration for employment without regard to race, religion, gender, sexual orientation, national origin, disability or age.
+
+Seniority:
+Junior
+
+Primary Location:
+IT - Roma - Via Tiburtina, 965
+
+Additional Locations:
+IT - Fucino
+
+Contract Type:
+Permanent
+
+Total Base Pay Range:
+42.000€ - 46.000€
 
 Hybrid Working:
 Hybrid"

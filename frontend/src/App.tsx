@@ -114,8 +114,16 @@ export default function App() {
     onMutate: async (job) => {
       await queryClient.cancelQueries({ queryKey: jobsKey });
       const previous = queryClient.getQueryData<{ pages: JobPage[]; pageParams: unknown[] }>(jobsKey);
+      // Starred keeps a removed posting, so there it only changes state;
+      // elsewhere removing or restoring moves it out of the list.
       queryClient.setQueryData(jobsKey, (current: typeof previous) =>
-        mapPages(current, (items) => items.filter((item) => item.id !== job.id)),
+        mapPages(current, (items) =>
+          view === 'saved'
+            ? items.map((item) =>
+                item.id === job.id ? { ...item, dismissed: !item.dismissed } : item,
+              )
+            : items.filter((item) => item.id !== job.id),
+        ),
       );
       return { previous };
     },

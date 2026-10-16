@@ -1,4 +1,93 @@
 job_id,title,location,additional_locations,country,department,contract,remote_type,compensation,published,url,description
+737807b3-651c-4361-b52f-74592e575a0b,(Senior) Director of Sales - Enterprise AI,California (remote),San Francisco Bay Area (remote),United States,Sales & Business Development,FullTime,Remote,,2026-09-15,https://jobs.ashbyhq.com/axelera/737807b3-651c-4361-b52f-74592e575a0b,"About Us
+
+Axelera AI https://www.axelera.ai is not your regular deep-tech company, we design AI inference silicon spanning edge and enterprise deployments, built on a low-power architecture that delivers strong performance-per-watt from embedded devices up through large-scale inference infrastructure. 
+
+We're building out our US presence to bring this technology directly to the American compute buyers who feel power and TCO constraints most acutely: hyperscalers, neoclouds, and frontier model vendors. Our product line spans today's shipping edge inference platforms through our next-generation architecture purpose-built for large-scale inference economics, and we're scaling our Americas commercial team to land it with these customers.
+
+We are creating the next-generation AI platform to support anyone who wants to help advance humanity and improve the world around us. In just five years, we have raised a total of $450 million and built a world-class team of 250+ employees (including 60+ PhDs with more than 40,000 citations). While headquartered at the High Tech Campus in Eindhoven, Netherlands, we are investing heavily in growing our footprint across the US to be close to the customers and partners driving the next wave of AI infrastructure.
+
+Our commitment to innovation has firmly established us as a global industry pioneer, and the US is central to that next chapter.
+
+Are you up for the challenge?
+
+
+
+Position Overview
+
+We're looking for a (Senior) Director of Sales to own new business and account growth across hyperscalers, neocloud/inference-as-a-service providers, enterprises, and frontier AI labs in the Americas. This is a hands-on, quota-carrying role for someone who has sold complex semiconductor or compute infrastructure before and knows how to navigate long, technical, multi-stakeholder sales cycles - from technical evaluation through capacity commitment and deployment at scale.
+
+These deals rarely fit one route to market cleanly - a direct relationship with the buyer, an OEM/ODM layer building the physical systems, and the buyer's own supplier qualification process are usually all in play at once. You need to understand how those pieces interact, not just have experience in each individually. Success in this role depends on relationships you already have - decision-makers and technical buyers at target accounts who will take your call on day one.
+
+
+
+Key responsibilities:
+
+ - Own and grow a book of business across hyperscalers, neocloud/inference-as-a-service providers, enterprises, and frontier model vendors in the US
+
+ - Manage complex, technical sales cycles involving infrastructure engineering, procurement, capacity planning, and executive stakeholders
+
+ - Navigate the layered routes to market inside each account - direct commercial relationship with the buyer, the OEM/ODM partners who build and integrate the physical systems, and any channel or qualification process the buyer runs for compute suppliers
+
+ - Translate technical differentiation (power ceiling as revenue ceiling, performance-per-watt, TCO versus incumbent GPU/accelerator options) into commercial outcomes at hyperscaler and neocloud scale
+
+ - Identify and close capacity commitments and design-in opportunities, from technical evaluation through deployment
+
+ - Build and manage a qualified pipeline, forecast accurately, and report progress through Salesforce
+
+ - Represent Axelera at industry events, customer visits, and technical reviews
+
+ - Partner closely with product, field applications engineering, and marketing to shape go-to-market strategy for new silicon launches
+
+ - Create, negotiate, and drive contracts through to close, working with legal and finance as needed
+   
+   
+
+Qualifications:
+
+ - 10–15+ years of semiconductor or compute infrastructure sales experience, with a track record selling to hyperscalers, neoclouds, enterprises, and/or frontier AI labs
+
+ - Fluency in how routes to market layer within a single account - direct commercial ownership of the buyer relationship, working through or alongside OEM/ODM system builders, and understanding any channel/qualification process the buyer runs — not just experience running separate direct, channel, and OEM motions in isolation
+
+ - Existing relationships with US hyperscaler, neocloud, or frontier model vendor buyers - infrastructure, procurement, or technical leaders evaluating customer inference silicon - that you can activate quickly
+
+ - Experience selling technical products with long, capacity-driven sales cycles, ideally AI/ML accelerators, GPUs, custom silicon, or related infrastructure
+
+ - Prior experience at a semiconductor chip company or hyperscaler, neocloud, enterprise, or frontier lab accounts -established or startup
+
+ - Comfort operating in a fast-moving startup environment with limited internal infrastructure
+
+ - Strong written and verbal communication skills; ability to translate deep technical concepts (power ceiling, TCO, performance-per-watt) for both engineering and executive audiences. Heavy use of AI skills and technology to drive efficiency in your role.
+
+ - Willingness to travel regularly for customer visits and industry events
+
+
+
+What Success Looks Like in Year One
+
+ - A qualified, forecastable pipeline built substantially from your own network across hyperscaler, neocloud, and frontier model accounts
+
+ - At least one significant capacity commitment or design-in secured
+
+ - Established presence at 2–3 key industry events representing Axelera
+
+
+
+Location
+
+This role is based in the Bay Area, CA. We currently offer a flexible remote setup, with the option to move to in-office work in the future as we establish our Bay Area office.
+
+
+
+What we offer 
+
+This is your chance to shape and be part of a dynamic, fast-growing, international organisation. We offer an attractive compensation package, including a pension plan, extensive employee insurances and the option to get company shares.   
+
+An open culture that supports creativity and continual innovation is awaiting you. Collaborative ownership and freedom with responsibility is characteristic for the way we act and work as a team. 
+
+
+
+At Axelera AI, we wholeheartedly embrace equal opportunity and hold diversity in the highest regard. Our steadfast commitment is to cultivate a warm and inclusive environment that empowers and celebrates every member of our team. We welcome applicants from all backgrounds to join us in shaping the future of AI."
 eab3ca32-1b9e-4425-8162-1eeebd7a260b,(Senior) Field Application Engineer - India,India (remote),Pune (on-site); Chennai (on-site); Mumbai (on-site); Bengaluru (on-site); Hyderabad (on-site),India,Customer Engineering & Success,FullTime,Remote,,2026-09-03,https://jobs.ashbyhq.com/axelera/eab3ca32-1b9e-4425-8162-1eeebd7a260b,"About Us
 
 Axelera AI https://www.axelera.ai is not your regular deep-tech company. We are creating the next-generation AI platform to support anyone who wants to help advancing humanity and improve the world around us. 
@@ -256,95 +345,6 @@ We offer a flexible working arrangement, with options to: 
  - Work fully remotely from the US or any European country (incl. the UK) you are already in. 
 
  - Relocate with us and work from Amsterdam or Eindhoven in the Netherlands, or Bologna, Florence or Milan in Italy.
-
-
-
-What we offer 
-
-This is your chance to shape and be part of a dynamic, fast-growing, international organisation. We offer an attractive compensation package, including a pension plan, extensive employee insurances and the option to get company shares.   
-
-An open culture that supports creativity and continual innovation is awaiting you. Collaborative ownership and freedom with responsibility is characteristic for the way we act and work as a team. 
-
-
-
-At Axelera AI, we wholeheartedly embrace equal opportunity and hold diversity in the highest regard. Our steadfast commitment is to cultivate a warm and inclusive environment that empowers and celebrates every member of our team. We welcome applicants from all backgrounds to join us in shaping the future of AI."
-737807b3-651c-4361-b52f-74592e575a0b,Director of Sales - Enterprise AI,California (remote),San Francisco Bay Area (remote),United States,Sales & Business Development,FullTime,Remote,,2026-09-15,https://jobs.ashbyhq.com/axelera/737807b3-651c-4361-b52f-74592e575a0b,"About Us
-
-Axelera AI https://www.axelera.ai is not your regular deep-tech company, we design AI inference silicon spanning edge and enterprise deployments, built on a low-power architecture that delivers strong performance-per-watt from embedded devices up through large-scale inference infrastructure. 
-
-We're building out our US presence to bring this technology directly to the American compute buyers who feel power and TCO constraints most acutely: hyperscalers, neoclouds, and frontier model vendors. Our product line spans today's shipping edge inference platforms through our next-generation architecture purpose-built for large-scale inference economics, and we're scaling our Americas commercial team to land it with these customers.
-
-We are creating the next-generation AI platform to support anyone who wants to help advance humanity and improve the world around us. In just five years, we have raised a total of $450 million and built a world-class team of 250+ employees (including 60+ PhDs with more than 40,000 citations). While headquartered at the High Tech Campus in Eindhoven, Netherlands, we are investing heavily in growing our footprint across the US to be close to the customers and partners driving the next wave of AI infrastructure.
-
-Our commitment to innovation has firmly established us as a global industry pioneer, and the US is central to that next chapter.
-
-Are you up for the challenge?
-
-
-
-Position Overview
-
-We're looking for a Director of Sales to own new business and account growth across hyperscalers, neocloud/inference-as-a-service providers, enterprises, and frontier AI labs in the Americas. This is a hands-on, quota-carrying role for someone who has sold complex semiconductor or compute infrastructure before and knows how to navigate long, technical, multi-stakeholder sales cycles - from technical evaluation through capacity commitment and deployment at scale.
-
-These deals rarely fit one route to market cleanly - a direct relationship with the buyer, an OEM/ODM layer building the physical systems, and the buyer's own supplier qualification process are usually all in play at once. You need to understand how those pieces interact, not just have experience in each individually. Success in this role depends on relationships you already have - decision-makers and technical buyers at target accounts who will take your call on day one.
-
-
-
-Key responsibilities:
-
- - Own and grow a book of business across hyperscalers, neocloud/inference-as-a-service providers, enterprises, and frontier model vendors in the US
-
- - Manage complex, technical sales cycles involving infrastructure engineering, procurement, capacity planning, and executive stakeholders
-
- - Navigate the layered routes to market inside each account - direct commercial relationship with the buyer, the OEM/ODM partners who build and integrate the physical systems, and any channel or qualification process the buyer runs for compute suppliers
-
- - Translate technical differentiation (power ceiling as revenue ceiling, performance-per-watt, TCO versus incumbent GPU/accelerator options) into commercial outcomes at hyperscaler and neocloud scale
-
- - Identify and close capacity commitments and design-in opportunities, from technical evaluation through deployment
-
- - Build and manage a qualified pipeline, forecast accurately, and report progress through Salesforce
-
- - Represent Axelera at industry events, customer visits, and technical reviews
-
- - Partner closely with product, field applications engineering, and marketing to shape go-to-market strategy for new silicon launches
-
- - Create, negotiate, and drive contracts through to close, working with legal and finance as needed
-   
-   
-
-Qualifications:
-
- - 10–15+ years of semiconductor or compute infrastructure sales experience, with a track record selling to hyperscalers, neoclouds, enterprises, and/or frontier AI labs
-
- - Fluency in how routes to market layer within a single account - direct commercial ownership of the buyer relationship, working through or alongside OEM/ODM system builders, and understanding any channel/qualification process the buyer runs — not just experience running separate direct, channel, and OEM motions in isolation
-
- - Existing relationships with US hyperscaler, neocloud, or frontier model vendor buyers - infrastructure, procurement, or technical leaders evaluating customer inference silicon - that you can activate quickly
-
- - Experience selling technical products with long, capacity-driven sales cycles, ideally AI/ML accelerators, GPUs, custom silicon, or related infrastructure
-
- - Prior experience at a semiconductor chip company or hyperscaler, neocloud, enterprise, or frontier lab accounts -established or startup
-
- - Comfort operating in a fast-moving startup environment with limited internal infrastructure
-
- - Strong written and verbal communication skills; ability to translate deep technical concepts (power ceiling, TCO, performance-per-watt) for both engineering and executive audiences. Heavy use of AI skills and technology to drive efficiency in your role.
-
- - Willingness to travel regularly for customer visits and industry events
-
-
-
-What Success Looks Like in Year One
-
- - A qualified, forecastable pipeline built substantially from your own network across hyperscaler, neocloud, and frontier model accounts
-
- - At least one significant capacity commitment or design-in secured
-
- - Established presence at 2–3 key industry events representing Axelera
-
-
-
-Location
-
-This role is based in the Bay Area, CA. We currently offer a flexible remote setup, with the option to move to in-office work in the future as we establish our Bay Area office.
 
 
 
@@ -745,3 +745,108 @@ An open culture that supports creativity and continual innovation is awaiting yo
 
 
 At Axelera AI, we wholeheartedly embrace equal opportunity and hold diversity in the highest regard. Our steadfast commitment is to cultivate a warm and inclusive environment that empowers and celebrates every member of our team. We welcome applicants from all backgrounds to join us in shaping the future of AI."
+06e3a556-7131-4b1b-b6e2-1892e81a28b2,"Partner Marketing Manager, Global Accounts",United States (remote),,United States,Marketing,FullTime,Remote,,2026-10-14,https://jobs.ashbyhq.com/axelera/06e3a556-7131-4b1b-b6e2-1892e81a28b2,"About Us
+
+Axelera AI https://www.axelera.ai is not your regular deep-tech company. We design AI inference silicon spanning edge and enterprise deployments, built on a low-power architecture that delivers strong performance-per-watt from embedded devices up through large-scale inference infrastructure.
+
+In just five years we have raised $450 million and built a team spanning 22 countries. We are headquartered at the High Tech Campus in Eindhoven in the Netherlands  and we placed No. 3 on Fast Company's 2026 Most Innovative Companies list in the Emerging Enterprise category.
+
+Our September 2026 launch of Europa brought physical and enterprise AI to market through a growing partner ecosystem that includes Dell and Supermicro. That ecosystem is now one of the most important things we have, and it needs someone whose whole job is ensuring it thrives.
+
+Are you up for the challenge?
+
+ 
+
+Position Overview
+
+You will own marketing with our largest global customers and with the customers who have become partners — the OEMs, system builders, and integrators who put Axelera silicon inside the products their own customers purchase.
+
+This is not a channel-program job where you administer MDF and chase logos for a partner page. You will partner with your sales counterparts, sit down with a handful of named accounts, understand what each strategy and how it aligns with Axelera, and build a joint marketing plan that helps them drive our collective business. Then you will execute it: the launch moments, the co-branded content, the event presence, the campaign that runs on their list and ours.
+
+The people you work with on the partner side are marketers with their own targets and their own executives to answer to. Your job is to make Axelera the easiest company they collaborate with all year; executing friction-free, high-impact campaigns where both companies win.
+
+
+
+What You'll Do
+
+ - Qualify, build and run joint marketing plans with a named set of global customers and customer-partners, ensuring every co-marketing effort aligns with Axelera’s strategic goals while delivering clear value to the partner, from goals through to results
+
+ - Produce the assets those plans need: co-branded campaigns, solution briefs, customer stories, launch content, demand generation
+
+ - Own partner presence at industry events — booth-in-booth, joint sessions, launch moments, the pre- and post-show follow-through that most people skip
+
+ - Work with Sales and Product to turn what each partner sells into positioning their buyers understand
+
+ - Bring partner voices into our launches, and get Axelera into theirs
+
+ - Report on what worked: pipeline influenced, content used, programs a partner asks to repeat
+
+ - Represent Axelera in front of partner marketing teams and their executives, in person and often
+
+
+
+What You Bring
+
+You need these:
+
+ - Experience in a partner, channel, or alliance marketing role — you have built joint plans with named partners and taken them to market. You know how to align partner desires with internal business priorities, steering joint opportunities toward mutual commercial return. We move fast, and this is the one thing we cannot teach you on the job
+
+ - A track record of working with large, structured organizations where marketing decisions pass through several people
+
+ - Comfort with technical products and the eagerness to learn a new set
+
+ - Strong writing. You will use AI in a lot of what you do, but you need to know what great writing is and can ensure what is produced meets a very high bar.
+
+ - Willingness to travel — see below
+
+Helpful, not required:
+
+ - Semiconductor, hardware, embedded, or AI infrastructure background
+
+ - Experience working across US and European teams or time zones
+
+ - A second language
+
+
+
+How We Work
+
+Autonomy is real here. You will not have a manager building your calendar or a marketing operations team queued up behind you. You will decide what matters this quarter, say so, and go do it. That includes evaluating partner opportunities with a commercial lens, prioritizing high-ROI initiatives over low-impact noise. People who need structure handed to them find this hard. People who have wanted this kind of room for years tend to do the best work of their careers.
+
+You will use AI every day. We expect it in research, drafting, analysis, and anywhere else it saves you hours. We also think the reason this role exists is that partner marketing runs on trust between specific human beings. The relationship with a partner marketing lead who takes your call, tells you the truth about their roadmap, and goes to bat for you internally is the thing AI cannot do. Use the tools to buy yourself more time for those relationships, not less.
+
+You will learn a lot. Just not the mechanics of this role. You should arrive knowing what great partner marketing looks like, and then help us build out that muscle here. Your experience and knowledge will shape the future of Axelera - this should excite you!
+
+
+
+What Success Looks Like in Year One
+
+ - Joint marketing plans in place and running with your named accounts, with each partner's marketing lead able to say what we are doing together and why
+
+ - A repeatable co-marketing motion — content, launch support, event presence — that a new partner can be brought into without starting from scratch
+
+ - Partner-sourced and partner-influenced pipeline you can point to and explain
+
+ - Partner presence at the industry events that matter to our verticals
+
+
+
+Location
+
+This role is remote in the United States. You should expect to travel roughly 15-20% of the time — partner sites, customer visits, and industry events across the Americas and Europe, with periodic trips to Europe, including our Eindhoven headquarters.
+
+
+
+What we offer 
+
+This is your chance to shape and be part of a dynamic, fast-growing, international organization. We offer an attractive compensation package, including a pension plan, extensive employee insurances and the option to get company shares.   
+
+An open culture that supports creativity and continual innovation is awaiting you. Collaborative ownership and freedom with responsibility is characteristic for the way we act and work as a team. 
+
+
+
+At Axelera AI, we wholeheartedly embrace equal opportunity and hold diversity in the highest regard. Our steadfast commitment is to cultivate a warm and inclusive environment that empowers and celebrates every member of our team. We welcome applicants from all backgrounds to join us in shaping the future of AI. 
+
+
+
+If you meet the must-haves and are unsure about the rest, we would still like to hear from you."

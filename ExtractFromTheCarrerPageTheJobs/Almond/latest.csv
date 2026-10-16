@@ -2085,7 +2085,7 @@ CWATCH regroupe trois pôles d’expertises complémentaires au sein d’une mê
 
 - CERT (Computer Emergency Response Team) : investigation, gestion de crise et retour à la normale après incidents.
 
-Le SOC dispose des centres de services dédiés ainsi qu’un centre mutualisé. Il est agnostique des sources de données et utilise des outils innovants et/ou leaders du marché. CWATCH intègre son propre service de gestion d’infrastructure, d’intégration et de R&D. Nous développons aussi nos propres outils !Le rôle de CWATCH est d’assurer une balance de coût efficace pour le client sans rogner sur sa posture de sécurité, tout en réalisant un travail de haute qualité. Grâce à des partenariats technologiques et des outils innovants, nous optimisons en continu la qualité de nos services, nos temps de détection et notre capacité de réponse aux menaces.
+Le SOC dispose des centres de services dédiés ainsi qu’un centre mutualisé. Il est agnostique des sources de données et utilise des outils innovants et/ou leaders du marché. CWATCH intègre son propre service de gestion d’infrastructure, d’intégration et de R&D. Nous développons aussi nos propres outils ! Le rôle de CWATCH est d’assurer une balance de coût efficace pour le client sans rogner sur sa posture de sécurité, tout en réalisant un travail de haute qualité. Grâce à des partenariats technologiques et des outils innovants, nous optimisons en continu la qualité de nos services, nos temps de détection et notre capacité de réponse aux menaces.
 
 Votre rôle :
 
@@ -2094,6 +2094,8 @@ Almond vous propose une opportunité unique d’intégrer notre Security Operati
 Le poste de Référent Technique SOC fait partie intégrante de l'équipe CWATCH, au sein de la sous-équipe ""Expertise & Gouvernance"" (E&G), une équipe pluridisciplinaire de pointe regroupant des expertises en SOC, CERT et CTI. Cette synergie permet d'offrir une approche complète et proactive face aux menaces cyber. Si vous souhaitez jouer un rôle stratégique dans l’optimisation des capacités cyber d’entreprises variées et évoluer dans un environnement stimulant, rejoignez-nous !
 
 Vos missions et activités au quotidien :
+
+Répartition des activités : En moyenne, 80 % de votre temps est consacré aux activités clients et 20 % aux activités d’innovation et au développement du service.
 
 Un rôle central dans la défense cyber
 
@@ -2115,7 +2117,7 @@ Vos principales missions :
 
 - Gestion des réunions et communication : Animation de canaux de communication Teams, organisation et participation aux comités opérationnels et stratégiques avec les clients, conduite des réunions internes de plan de charge.
 
-- Innovation : Identification de besoins clients et/ou de solutions innovantes et participation à leur développement, test et/ou adoption chez CWATCH.
+- Innovation : Identification de besoins clients et/ou de solutions innovantes, participation à leur développement, test et/ou adoption, ainsi que conception et pilotage de projets internes visant à améliorer et développer le service.
 
 Modalités
 
@@ -2206,6 +2208,8 @@ Le poste de Référent Technique SOC fait partie intégrante de l'équipe CWATCH
 
 Vos missions et activités au quotidien :
 
+Répartition des activités : En moyenne, 80 % de votre temps est consacré aux activités clients et 20 % aux activités d’innovation et au développement du service.
+
 Un rôle central dans la défense cyber
 
 En tant que Référent Technique SOC, vous disposerez de 4 à 6 clients, vous serez responsables de la stack technique SOC de ceux-ci ainsi que de la qualité des services opérationnels délivrés. Vous travaillerez en binôme avec le Service Delivery Manager (SDM) pour garantir une approche technique et stratégique optimale. Le Référent Technique SOC, avec le SDM, sont des pivots incontournables entre nos clients, CWATCH et toutes nos expertises Almond.
@@ -2226,7 +2230,7 @@ Vos principales missions :
 
 - Gestion des réunions et communication : Animation de canaux de communication Teams, organisation et participation aux comités opérationnels et stratégiques avec les clients, conduite des réunions internes de plan de charge.
 
-- Innovation : Identification de besoins clients et/ou de solutions innovantes et participation à leur développement, test et/ou adoption chez CWATCH.
+- Innovation : Identification de besoins clients et/ou de solutions innovantes, participation à leur développement, test et/ou adoption, ainsi que conception et pilotage de projets internes visant à améliorer et développer le service.
 
 Modalités
 
@@ -2285,6 +2289,129 @@ Qui sommes-nous ?
 Almond est un acteur majeur européen de la cybersécurité, doté des plus hauts niveaux de certifications et agréments (PASSI-LPM, CESTI, ANSSI, PCI QSA, Label France Cyber, etc.) et impliqué dans le développement de l’écosystème cyber.
 
 Fort de plus de 450 spécialistes, le groupe couvre l’ensemble de la chaîne de valeur cyber : conseil, audit, tests d’intrusion, intégration, SOC/CERT, GRC, sécurité cloud et évaluation de produits.
+
+Notre mission : protéger, innover et anticiper les menaces de demain, au service de la confiance numérique de nos clients publics et privés.
+
+Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier d’un environnement stimulant et profiter de nombreuses opportunités d’évolution au sein du groupe.
+
+Localisation et accès : Lyon (69) - T1,T2,T3, Métro B : Gare Part-Dieu"
+77ccb431-c2c6-459a-853a-5260ebbcbdbf,Service Delivery Manager SOC H/F,"Lyon, France",,Resilience Operation Center,hybrid,2024-09-06,https://careers.almond.eu/jobs/4947915-service-delivery-manager-soc-h-f,"Almond est un acteur Cyber de référence en Europe.
+
+Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !
+
+Nous sommes à la recherche d'un Service Delivery Manager SOC pour faire partie de notre équipe SOC & CERT CWATCH, en charge des opérations de détection et de réponses à incidents (CERT) composée de 40 consultants. Vous intervenez pour le compte de nos clients dans différents modèles de services :
+
+- Services Managés
+
+- SOC Hybrides avec équipe de proximité sur sites clients
+
+- Renfort SOC/CERT internalisé
+
+Intégrer nos équipes, c’est rejoindre un collectif passionné, bénéficier d’un environnement stimulant proposant des opportunités de formation et d’évolution au sein du groupe.
+
+Vos missions
+
+En tant que Service Delivery Manager, vous serez en charge pour plusieurs clients du SOC de :
+
+- Piloter au quotidien l’activité afin de fournir un service conforme aux engagements contractuels
+
+- Organiser le suivi des équipes techniques, en binôme avec le référent technique,
+
+- Participer aux réunions opérationnelles hebdomadaires
+
+- Organiser et animer les comités opérationnels et de pilotage de la prestation prévus dans la gouvernance
+
+- Rédiger et maintenir à jour les livrables contractuels (convention de services, stratégies de collecte / détection…)
+
+- Suivre l’avancement des projets et demandes complexes
+
+- Participer à la planification des opérations
+
+- Réaliser le suivi des KPI, de la facturation et des éventuelles pénalités
+
+- Gérer les situations de crise
+
+- Coordonner les intervenants
+
+- Assurer les escalades et le suivi managérial
+
+- S’assurer du suivi des plans d’actions définis
+
+- Contribuer aux propositions commerciales, en lien avec l’équipe commerciale
+
+- Accompagner le client sur les axes d’évolution et d’amélioration du service
+
+En fonction de votre expérience sur les sujets traités, vous serez accompagné et soutenu par votre manager et vos collègues experts tout au long de vos missions.
+
+Vos objectifs
+
+- Apporter immédiatement vos compétences relationnelles et votre expertise opérationnelle
+
+- Être présent pour notre équipe et les interlocuteurs client afin de les aider à trouver les solutions adaptées aux situations rencontrées
+
+- Savoir adapter son discours en fonction des interlocuteurs (métiers, experts, responsables, etc.)
+
+- Poursuivre la construction d’une relation de proximité avec le client
+
+- Participer à la pérennisation du client et au développement commercial de l’activité
+
+Modalités :
+
+- Déplacements professionnels chez les clients à prévoir (sur le territoire national) – en fonction du poste ou du besoin
+
+- Protection du secret de la défense : renseignement d’un dossier de demande d’habilitation étudié par l’autorité compétente
+
+Profil recherché :
+
+- Un diplôme d’ingénieur (ou équivalent Bac+5)
+
+- Une expérience dans la gestion de projet, d’équipe et de contrat, et idéalement, une première expérience sur un poste similaire
+
+- Un relationnel à toute épreuve pour démêler les situations les plus inextricables
+
+- De la rigueur, un bon sens du service et la volonté de délivrer un service de qualité pour accompagner l’activité du client
+
+- Un intérêt pour la cybersécurité
+
+- Un bagage technique IT général, complété par des connaissances en cybersécurité et en cloud, serait fortement apprécié
+
+- Pas de sueur froide à l’idée de se déplacer à temps partiel dans les locaux du client ou de prendre le téléphone pour fluidifier les échanges avec le client
+
+- A l’aise en anglais
+
+Ce que nous offrons :
+
+- Des projets à fort impact, sur des enjeux de souveraineté numérique, cloud et sécurité industrielle par exemple.
+
+- Un process d’intégration complet (plateforme d’onboarding, parrain/marraine, matinée et soirée d’intégration).
+
+- Une montée en compétences facilitée avec un centre de formation interne (Almond Institute), un management de proximité et un accompagnement personnalisé.
+
+- Un équilibre vie pro/vie perso favorisé (télétravail, horaires flexibles)
+
+- Un environnement convivial et une vie interne dynamique : afterworks, séminaires, week-end ski, activités CSE
+
+- Un package salarial et des primes de cooptations attractives
+
+- Des opportunités d’évolutions dans un groupe en pleine croissance (mobilité interne, spécialisation, management, international)
+
+Processus de recrutement :
+
+- Entretien RH
+
+- Rencontre avec un Opérationnel de la Practice
+
+- Rencontre avec le Manager de la Practice
+
+- Proposition finale
+
+Les entretiens peuvent être réalisés en présentiel ou en distanciel (via Teams). Nous vous garantissons un retour rapide.
+
+Qui sommes-nous ?
+
+Almond est un acteur majeur européen de la cybersécurité, doté des plus hauts niveaux de certifications et agréments (PASSI-LPM, CESTI, ANSSI, PCI QSA, Label France Cyber, etc.) et impliqué dans le développement de l’écosystème cyber.
+
+Fort de plus de 450 spécialistes, le groupe couvre l’ensemble de la chaîne de valeur cyber : conseil, audit, tests d’intrusion, intégration, SOC/CERT, GRC, sécurité cloud et évaluation de produits.
 
 Notre mission : protéger, innover et anticiper les menaces de demain, au service de la confiance numérique de nos clients publics et privés.
 
@@ -2608,61 +2735,6 @@ Notre mission : protéger, innover et anticiper les menaces de demain, au serv
 Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier d’un environnement stimulant et profiter de nombreuses opportunités d’évolution au sein du groupe.
 
 Localisation et accès : Rennes"
-afb392f6-0fd2-44d3-8400-c6854f8a7c38,Stage - Chef de projet clients cybersécurité H/F,"Sèvres, France",,Board of Cyber,hybrid,2025-10-01,https://careers.almond.eu/jobs/6548661-stage-chef-de-projet-clients-cybersecurite-h-f,"Board of Cyber est une startup française en hyper-croissance qui a pour mission de donner confiance aux entreprises en mesurant la performance cybersécurité de leur écosystème.
-
-Board of Cyber développe et commercialise 4 solutions SaaS Cyber :
-
-- Security Rating® : notre solution d’évaluation de la maturité cyber d’une organisation (via une notation en continu et 100 % automatisée de sa surface d’attaque) ;
-
-- AD Rating® : notre solution d’évaluation du niveau de l’Active Directory d’une organisation (via une notation en continu et 100 % automatisée de ses domaines Active Directory) ;
-
-- TrustHQ® : notre solution de Gouvernance cybersécurité pour les organisations et pilotage pour les RSSI ;
-
-- 365 Rating® : solution unique pour évaluer en continu le niveau de risque de l’environnement Microsoft 365 (Entra ID, outils collaboratifs, Microsoft Defender), offrant une vision consolidée et des recommandations d’actions prioritaires.
-
-Ces solutions ont pour but d’aider les entreprises et les acteurs du secteur public à améliorer leur maturité cyber et piloter la gouvernance cyber. Plus de 500 clients utilisent nos solutions, notamment AXA, Crédit Agricole, la Française des Jeux, Suez et Air France-KLM.
-
-Avec le lancement récent de notre quatrième outil, 365 Rating, et des projets ambitieux prévus pour 2026, nous renforçons notre équipe front-end pour continuer à offrir des produits performants et intuitifs.
-
-Vous souhaitez nous rejoindre ? Lancez-vous !
-
-Description du poste :
-
-En tant que Customer Success Manager, vous accompagnez et fidélisez les clients dans l’utilisation du Security Rating® pour qu’ils en tirent le maximum de valeur.
-
-- Participer au suivi du portefeuille clients et être l’interlocuteur de référence
-
-- Accompagner les clients dans l’usage du Security Rating® : conseiller, former et répondre au mieux à leurs besoins et à leurs attentes
-
-- Apporter un premier niveau de réponse aux demandes entrantes de nos clients
-
-- Fidéliser la clientèle et suivre la satisfaction client
-
-- Renseigner les suivis clients dans notre outil de gestion de projet interne (Hubspot)
-
-- Participer à l'automatisation de la relation clients et la structuration du département
-
-Profil recherché :
-
-- Vous êtes étudiant(e) en BAC + 4/5, en école d’ingénieur, université/école de management ou formation avec une dimension commerciale
-
-- Vous avez un bon degré d’autonomie et êtes toujours partant(e) pour vous emparer des sujets qui vous sont confiés
-
-- Vous avez une personnalité positive, enthousiaste et sociable
-
-- Vous avez déjà une première expérience commerciale
-
-- Vous êtes curieux(se)/intéressé(e) par le domaine de l'informatique et plus spécifiquement de la Cybersécurité
-
-Informations supplémentaires
-
-- Stage de 6 mois - basé à Sèvres
-
-- A partir de 1600€ / mois + Titre restaurant + Remboursement transport + Congés payés
-
-- Localisation et accès : Tram 2 : musée de Sèvres, métro 9 : Pont de Sèvres
-
-- Parking à disposition de nos collaborateurs"
 6c9f37c0-9a30-47cd-9a7d-0b18ad8cc3df,Stage - Chef de projet H/F,"Sèvres, France",,Resilience Operation Center,hybrid,2025-10-02,https://careers.almond.eu/jobs/6557039-stage-chef-de-projet-h-f,"Almond est un Pure Player de la Cybersécurité, indépendant, engagé et reconnu. Présents en France et en Europe, nous couvrons l’ensemble des expertises clés en cybersécurité :
 
 Audit, Conseil, Intégration, Protection, Défense, Remédiation, Reconstruction et Gouvernance SSI.
@@ -2930,6 +3002,93 @@ Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier 
 Localisation et accès : Sèvres (92) - Tram 2 : musée de Sèvres, métro 9 : Pont de Sèvres
 
 Parking à disposition de nos collaborateurs"
+e6137725-a464-4806-940b-60e42b989a9c,Stage - Cybersouveraineté des infrastructures H/F,"Rennes, France","Saint-Herblain, France","Governance, Risk & Compliance",hybrid,2026-10-01,https://careers.almond.eu/jobs/8485913-stage-cybersouverainete-des-infrastructures-h-f,"Almond est un acteur Cyber de référence en Europe.
+
+Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !
+
+Nous sommes à la recherche d'un stagiaire de fin d'étude pour faire partie de notre équipe Ouest.
+
+Intégrer nos équipes, c’est rejoindre un collectif passionné, bénéficier d’un environnement stimulant proposant des opportunités de formation et d’évolution au sein du groupe.
+
+De nombreuses organisations se trouvent actuellement dans un phénomène de multi dépendances vis-à-vis de ses fournisseurs de solutions de sécurité du SI : géopolitique avec un risque d’espionnage ou de rupture de service, hégémonique avec un risque d’augmentation non maitrisée des prix, ou encore technique avec un risque de perte de maitrise des fonctions (accentué par la SaaSification des services). Dans ce contexte, ces organisations pensent de plus en plus à renforcer le critère de « souveraineté » pour augmenter la maitrise de leur SI, mais sont confrontées à des limites de connaissances et de compétences sur le marché cyber EU ou FR pour faire les bons choix.
+
+L’objectif du stage sera dans un premier temps de comprendre les principaux concepts des architectures technique des organisations et des dépendances. Par la suite, l’étude portera sur les principales solutions de sécurité et architectures alternatives qui existent et peuvent être considérées plus souveraines, des offres privées EU jusqu’à l’opensource. Il s’agira également d’acquérir des convictions fortes sur le sujet, en identifiant les bonnes pratiques et des recommandations adaptées à un contexte client. Un focus particulier serait à faire sur l’ensemble des fonctions de la plateforme Microsoft 365 pour construire des schémas alternatifs, et étudier les méthodologies possibles de transition.
+
+Vos missions :
+
+Comprendre les concepts, les solutions, les architectures, et les recommandations liées à la « souveraineté » :
+
+- Qu’est ce la souveraineté, et dans quels contextes est-elle importante ? ;
+
+- Identifier les sources de risques liées au défaut de souveraineté dans un SI, et en évaluer le poids pour prioriser les chantiers d’infrastructure du SI ;
+
+- Comprendre l’articulation des composants et solutions de sécurité dans un SI
+
+Etudier les alternatives aux solutions de sécurité hégémoniques :
+
+- Proposer des scénarios d’études approfondies pour étudier les alternatives, M365 était un axe prioritaire à développer ;
+
+- Sur ces scénarios, étudier le marché des solutions, des fonctions, des architectures, des prix qui permettent des alternatives ;
+
+- Identifier les méthodes et moyens permettant les transitions pour chaque scénario (projet et technique).
+
+Mettre en place un PoC :
+
+- Mettre en place un tenant M365 et le peupler de manière standard ;
+
+- Choisir 1 à 2 scénarios alternatifs, implémenter les solutions cibles, et tester la bascule de modèle.
+
+Profil recherché :
+
+- Elève ingénieur ou équivalent BAC + 5, vous bénéficiez de connaissances générales sur les infrastructures IT.
+
+- Vous avez la capacité à prendre du recul face à un problème donné (étude-conseil), vous êtes un bon communicant et vous parlez couramment anglais ?
+
+- Vous avez un goût pour la cybersécurité et vous êtes désireux de travailler avec des clients et les équipes Almond ?
+
+Ce que nous offrons :
+
+- Des projets à fort impact, sur des enjeux de souveraineté numérique, cloud et sécurité industrielle par exemple.
+
+- Un process d’intégration complet (plateforme d’onboarding, parrain/marraine, matinée et soirée d’intégration).
+
+- Une montée en compétences facilitée avec un centre de formation interne (Almond Institute), un management de proximité et un accompagnement personnalisé.
+
+- Un équilibre vie pro/vie perso favorisé (télétravail, horaires flexibles)
+
+- Un environnement convivial et une vie interne dynamique : afterworks, séminaires, week-end ski, activités CSE
+
+- Un package salarial et des primes de cooptations attractives
+
+- Des opportunités d’évolutions dans un groupe en pleine croissance (mobilité interne, spécialisation, management, international)
+
+Process de recrutement
+
+- Entretien RH
+
+- Rencontre avec un Opérationnel de la Practice
+
+- Rencontre avec le Manager de la Practice
+
+- Proposition finale
+
+Informations supplémentaires :
+
+- Stage de 6 mois - basé à Nantes ou Rennes
+
+- Titre restaurant + Remboursement transport + Congés payés
+
+Qui sommes-nous ?
+
+Almond est un acteur majeur européen de la cybersécurité, doté des plus hauts niveaux de certifications et agréments (PASSI-LPM, CESTI, ANSSI, PCI QSA, Label France Cyber, etc.) et impliqué dans le développement de l’écosystème cyber.
+
+Fort de plus de 450 spécialistes, le groupe couvre l’ensemble de la chaîne de valeur cyber : conseil, audit, tests d’intrusion, intégration, SOC/CERT, GRC, sécurité cloud et évaluation de produits.
+
+Notre mission : protéger, innover et anticiper les menaces de demain, au service de la confiance numérique de nos clients publics et privés.
+
+Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier d’un environnement stimulant et profiter de nombreuses opportunités d’évolution au sein du groupe.
+
+Localisation et accès : Nantes ou Rennes"
 6b739ac0-f342-4ec5-8d28-4c66b5ec341a,"Stage - Data Protection – Industrialiser un Data Protection Operation Center associant DLP, DSPM et assistance IA H/F","Sèvres, France",,Cyber Technology & Transformation,hybrid,2026-10-01,https://careers.almond.eu/jobs/8484874-stage-data-protection-industrialiser-un-data-protection-operation-center-associant-dlp-dspm-et,"Almond est un acteur Cyber de référence en Europe.
 
 Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !
@@ -3385,6 +3544,105 @@ Notre mission : protéger, innover et anticiper les menaces de demain, au serv
 Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier d’un environnement stimulant et profiter de nombreuses opportunités d’évolution au sein du groupe.
 
 Localisation et accès : Rennes"
+2283c1cd-3cd2-434b-bc93-a659e6c2a055,Stage - Ingénieur Réseaux & Systèmes H/F,"Sèvres, France",,Resilience Operation Center,hybrid,2026-10-01,https://careers.almond.eu/jobs/8484076-stage-ingenieur-reseaux-systemes-h-f,"Almond est un acteur Cyber de référence en Europe.
+
+Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !
+
+Nous sommes à la recherche d'un stagiaire de fin d'étude pour faire partie de notre équipe Resilience Operation Center.
+
+Intégrer nos équipes, c’est rejoindre un collectif passionné, bénéficier d’un environnement stimulant proposant des opportunités de formation et d’évolution au sein du groupe.
+
+Vous intégrez l’équipe de production IT Operations, en charge de la gestion de plateformes techniques complexes (sites web, applications métiers web, SI et applications internes) pour une centaine de clients. L’équipe est composée de 60 passionnés par les technologies des infrastructures capables d’accomplir des prouesses techniques pour l’ensemble de nos clients.
+
+Dans le cadre de nos activités d’infogérance sécurité, système et réseau, nous gérons des plateformes techniques complexes pour le compte de nos clients Middle Market. Ces équipements sont pour partie situés sur les sites de nos clients, hébergés directement sur notre plateforme cloud privé ou encore sur du cloud Public (Azure ou AWS). Dans le cadre de la croissance de notre équipe de production, ce stage de 6 mois est pensé comme une première étape au sein de l’équipe de production. Si la collaboration fonctionne bien des deux côtés, nous souhaitons vous proposer de poursuivre l’aventure en CDI à l’issue du stage. La suite envisagée : deux années en VIE à Montréal ou Séoul, avant de revenir dans l’équipe en France. C’est donc une opportunité de construire un parcours sur la durée, entre expertise technique, environnements de production exigeants et expérience multiculturelle !
+
+Vos missions :
+
+Vous serez encadré par un ingénieur expérimenté et toute l’équipe sera là pour vous aider à monter en compétences sur les taches suivantes :
+
+- Résoudre des incidents de production;
+
+- Mettre en place les changements et évolutions sur les systèmes, y compris parfois sous forme de projets (ex: installation et configuration de nouveaux firewalls);
+
+- Aider au bon fonctionnement des plateformes de nos clients;
+
+- Rédiger la documentation technique;
+
+- Participer à l’optimisation de nos systèmes de production.
+
+Votre environnement : Désolé pour cette (longue) liste, mais nous n’avons pas trouvé mieux pour vous montrer l’étendue du scope technique sur lequel vous travaillerez !
+
+- Cloud : AWS, Microsoft Azure, Office 365;
+
+- Réseau et sécurité : LAN (Cisco Nexus et Catalyst, Meraki, HP, etc.), Firewalls (Fortinet, Palo Alto, Checkpoint);
+
+- Environnements Linux : Debian, NGINX, Apache, Proftpd, …;
+
+- Environnements Windows : OS Windows Server, Active Directory, PKI Microsoft;
+
+- Virtualisation / Infrastructure : VMware, SAN Dell EMC;
+
+- Supervision : Centreon;
+
+- BDD : MySQL, MS SQL server, ElasticSearch, PostgreSQL ou MongoDB;
+
+- Scripting : Puppet, Ansible, Shell, Powershell, Python;
+
+- Déploiement continu : GitLab-CI.
+
+Profil recherché :
+
+- Étudiant(e) en dernière année d’ école d’ingénieur ou en Master 2 avec une spécialisation dans le Réseau, Système ou Cloud computing, vous recherchez un stage de fin d’études de 6 mois en prévision d’une embauche.
+
+- Tu es un bon communicant et tu parles couramment anglais ?
+
+- Tu as un bon relationnel, tu es dynamique et motivé ?
+
+Ce que nous offrons :
+
+- Des projets à fort impact, sur des enjeux de souveraineté numérique, cloud et sécurité industrielle par exemple.
+
+- Un process d’intégration complet (plateforme d’onboarding, parrain/marraine, matinée et soirée d’intégration).
+
+- Une montée en compétences facilitée avec un centre de formation interne (Almond Institute), un management de proximité et un accompagnement personnalisé.
+
+- Un équilibre vie pro/vie perso favorisé (télétravail, horaires flexibles)
+
+- Un environnement convivial et une vie interne dynamique : afterworks, séminaires, week-end ski, activités CSE
+
+- Un package salarial et des primes de cooptations attractives
+
+- Des opportunités d’évolutions dans un groupe en pleine croissance (mobilité interne, spécialisation, management, international)
+
+Process de recrutement
+
+- Entretien RH
+
+- Rencontre avec un Opérationnel de la Practice
+
+- Rencontre avec le Manager de la Practice
+
+- Proposition finale
+
+Informations supplémentaires :
+
+- Stage de 6 mois - basé à Sèvres
+
+- Titre restaurant + Remboursement transport + Congés payés
+
+Qui sommes-nous ?
+
+Almond est un acteur majeur européen de la cybersécurité, doté des plus hauts niveaux de certifications et agréments (PASSI-LPM, CESTI, ANSSI, PCI QSA, Label France Cyber, etc.) et impliqué dans le développement de l’écosystème cyber.
+
+Fort de plus de 450 spécialistes, le groupe couvre l’ensemble de la chaîne de valeur cyber : conseil, audit, tests d’intrusion, intégration, SOC/CERT, GRC, sécurité cloud et évaluation de produits.
+
+Notre mission : protéger, innover et anticiper les menaces de demain, au service de la confiance numérique de nos clients publics et privés.
+
+Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier d’un environnement stimulant et profiter de nombreuses opportunités d’évolution au sein du groupe.
+
+Localisation et accès : Sèvres (92) - Tram 2 : musée de Sèvres, métro 9 : Pont de Sèvres
+
+Parking à disposition de nos collaborateurs"
 a9b990cb-6a13-461a-8471-5082c41f6994,Stage - Ingénieur Transformation Digitale Avant-Vente Cyber H/F,"Sèvres, France",,Sales,hybrid,2026-10-01,https://careers.almond.eu/jobs/8485615-stage-ingenieur-transformation-digitale-avant-vente-cyber-h-f,"Almond est un acteur Cyber de référence en Europe.
 
 Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !
@@ -3490,6 +3748,95 @@ Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier 
 Localisation et accès : Sèvres (92) - Tram 2 : musée de Sèvres, métro 9 : Pont de Sèvres
 
 Parking à disposition de nos collaborateurs"
+f71e80c5-3692-4828-aeec-b511a147414b,Stage - Méthodologie d’audit des applications LLM/RAG H/F,"Rennes, France","Saint-Herblain, France","Governance, Risk & Compliance",hybrid,2026-10-01,https://careers.almond.eu/jobs/8486057-stage-methodologie-d-audit-des-applications-llm-rag-h-f,"Almond est un acteur Cyber de référence en Europe.
+
+Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !
+
+Nous sommes à la recherche d'un stagiaire de fin d'étude pour faire partie de notre équipe Ouest.
+
+Intégrer nos équipes, c’est rejoindre un collectif passionné, bénéficier d’un environnement stimulant proposant des opportunités de formation et d’évolution au sein du groupe.
+
+L'adoption des assistants conversationnels et applications reposant sur des modèles de langage (LLM) s'est généralisée dans les organisations. Ces applications sont majoritairement construites selon une architecture RAG (Retrieval-Augmented Generation), qui connecte un modèle de langage au patrimoine documentaire de l'entreprise afin de produire des réponses contextualisées. Cette architecture introduit une classe de risques que les méthodologies de test d'intrusion traditionnelles ne couvrent pas. Certains référentiels (OWASP Top 10 for LLM Applications, MITRE, etc.) commencent à structurer ces risques, mais restent au niveau du catalogue et n'offrent pas de mode opératoire de test outillé et reproductible.
+
+L'objectif du stage sera, dans un premier temps, de comprendre le fonctionnement technique des architectures LLM/RAG et de cartographier leur surface d'attaque réelle. L'étude portera ensuite sur la construction d'une méthodologie d'audit structurée, reproductible et outillée, couvrant l'ensemble de la chaîne, de l'ingestion documentaire à la restitution à l'utilisateur. Cette méthodologie devra être confrontée au terrain à travers un environnement de maquette permettant d’éprouver les tests et servir de support de montée en compétences pour l’équipe. L'ensemble a vocation à alimenter directement l'offre d'audit et à être mobilisable en mission.
+
+Vos missions :
+
+Comprendre les architectures LLM/RAG et leurs enjeux de sécurité :
+
+- Assimiler les concepts fondamentaux liés aux LLM et environnements RAG ;
+
+- Décrire les architectures de déploiement rencontrées en entreprise ;
+
+- Cartographier la surface d'attaque de bout en bout : sources documentaires, pipeline d'indexation, modèle, interface utilisateur ;
+
+- Réaliser un état de l'art des référentiels existants, en identifier les points communs & les angles morts.
+
+Construire un outillage permettant d’assister les auditeurs pendant les audits :
+
+- Étudier les outils d’audit de LLM disponibles, évaluer leur apport réel par rapport aux tests manuels, et développer un outillage complémentaire si pertinent ;
+
+- Concevoir et développer une application RAG vulnérable en environnement interne, reproduisant un cas d'usage réaliste.
+
+Formaliser une méthodologie et un référentiel de tests :
+
+- Formaliser un référentiel de cas de test par catégorie de risque : injection de prompt, exfiltration de données, contournement des garde-fous
+
+- Définir le mode opératoire d'une mission type : cadrage, informations et accès à demander au client, périmètre technique, points de contrôle en revue d'architecture
+
+- Proposer un ensemble de recommandations et bonnes pratiques liées aux infrastructures LLM/RAG.
+
+Profil recherché :
+
+- Elève ingénieur ou équivalent BAC + 5, vous bénéficiez de connaissances générales sur les infrastructures IT.
+
+- Vous avez la capacité à prendre du recul face à un problème donné (étude-conseil), vous êtes un bon communicant et vous parlez couramment anglais ?
+
+- Vous avez un goût pour la cybersécurité et vous êtes désireux de travailler avec des clients et les équipes Almond ?
+
+Ce que nous offrons :
+
+- Des projets à fort impact, sur des enjeux de souveraineté numérique, cloud et sécurité industrielle par exemple.
+
+- Un process d’intégration complet (plateforme d’onboarding, parrain/marraine, matinée et soirée d’intégration).
+
+- Une montée en compétences facilitée avec un centre de formation interne (Almond Institute), un management de proximité et un accompagnement personnalisé.
+
+- Un équilibre vie pro/vie perso favorisé (télétravail, horaires flexibles)
+
+- Un environnement convivial et une vie interne dynamique : afterworks, séminaires, week-end ski, activités CSE
+
+- Un package salarial et des primes de cooptations attractives
+
+- Des opportunités d’évolutions dans un groupe en pleine croissance (mobilité interne, spécialisation, management, international)
+
+Process de recrutement
+
+- Entretien RH
+
+- Rencontre avec un Opérationnel de la Practice
+
+- Rencontre avec le Manager de la Practice
+
+- Proposition finale
+
+Informations supplémentaires :
+
+- Stage de 6 mois - basé à Nantes ou Rennes
+
+- Titre restaurant + Remboursement transport + Congés payés
+
+Qui sommes-nous ?
+
+Almond est un acteur majeur européen de la cybersécurité, doté des plus hauts niveaux de certifications et agréments (PASSI-LPM, CESTI, ANSSI, PCI QSA, Label France Cyber, etc.) et impliqué dans le développement de l’écosystème cyber.
+
+Fort de plus de 450 spécialistes, le groupe couvre l’ensemble de la chaîne de valeur cyber : conseil, audit, tests d’intrusion, intégration, SOC/CERT, GRC, sécurité cloud et évaluation de produits.
+
+Notre mission : protéger, innover et anticiper les menaces de demain, au service de la confiance numérique de nos clients publics et privés.
+
+Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier d’un environnement stimulant et profiter de nombreuses opportunités d’évolution au sein du groupe.
+
+Localisation et accès : Nantes ou Rennes"
 121ca182-4227-48b1-bfa5-f0881a8f1093,Stage - Protection des infrastructures IA – Concevoir et valider les mesures de sécurité d’une plateforme IA H/F,"Sèvres, France",,Cyber Technology & Transformation,hybrid,2026-10-01,https://careers.almond.eu/jobs/8485428-stage-protection-des-infrastructures-ia-concevoir-et-valider-les-mesures-de-securite-d-une,"Almond est un acteur Cyber de référence en Europe.
 
 Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !
@@ -4100,104 +4447,6 @@ Notre mission : protéger, innover et anticiper les menaces de demain, au serv
 Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier d’un environnement stimulant et profiter de nombreuses opportunités d’évolution au sein du groupe.
 
 Localisation et accès : Rennes"
-b9da47f0-40d3-4121-94a6-48c66a8e0c94,VIE  MONTREAL - Consultant SOC/CERT H/F,"Montreal, Canada",,Resilience Operation Center,hybrid,2024-09-13,https://careers.almond.eu/jobs/4974263-vie-montreal-consultant-soc-cert-h-f,"Almond est un acteur Cyber de référence en Europe.
-
-Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !
-
-Nous sommes à la recherche un Consultant SOC/CERT H/F en contrat VIE pour rejoindre notre équipe SOC, en charge des opérations de détection et de réponses à incidents (CERT) composée de 40 consultants.
-
-Vous intervenez pour le compte de nos clients dans différents modèles de services :
-
-- Services Managés
-
-- SOC Hybrides avec équipe de proximité sur sites clients
-
-- Renfort SOC/CERT internalisé
-
-Intégrer nos équipes, c’est rejoindre un collectif passionné, bénéficier d’un environnement stimulant proposant des opportunités de formation et d’évolution au sein du groupe.
-
-Description du poste :
-
-Notre équipe SOC/CERT est composée d’une quarantaine d’analyste intervenant chez nos clients et depuis nos locaux à Sèvres.
-
-En tant que VIE au Canada, vous intégrerez cette équipe dans l’objectif de :
-
-• Etendre la couverture horaire de certains services du SOC / CERT Almond CWATCH
-• Analyser le marché Canadien par rapport aux offres proposées par le SOC / CERT Almond CWATCH
-
-Vos missions :
-
-- Etendre la couverture horaire de services de détection d’attaques et de veille du SOC pour progresser vers une capacité d’analyse postée en 24x7 follow the sun
-
-- Réaliser des opérations de maintien en condition opérationnelle et de sécurité des infrastructures du SOC
-
-- Etudier les modalités d’investigations numériques locales et réglementations associées
-
-- Etablir des liaisons avec des CERT locaux
-
-- Analyser le marché canadien et définir les offres à déployer localement
-
-- Participer aux activités de projet en partenariat avec les équipes françaises
-
-Votre environnement technique : Sentinel one, Splunk, ELK, Microsoft, Chronicle etc
-
-Une période de formation d’un mois est prévue au sein de nos locaux à Sèvres afin de vous familiariser avec votre environnement avant de vous envoler pour le Canada 😊
-
-Profil recherché :
-
-Diplômé d'une école d'ingénieur ou équivalent, ayant connaissance des techniques d'attaque cybersécurité, maitrise des fondamentaux des infrastructures réseau et système. Capacité à rédiger des analyses et recommandations percutantes.
-
-Expérience souhaitée : 12 mois
-
-Spécialisation : Sécurité informatique
-
-Langues parlées : Français, Anglais
-
-Et si vous souhaitez vous investir encore plus dans la société, vous en aurez l’occasion !
-
-Être consultant chez Almond, c’est aussi : rejoindre une communauté de passionnés par leurs métiers, ouverts au partage de connaissances en tout genre, avec qui profiter des soirées organisées régulièrement au sein de l’entreprise, voire même du weekend ski annuel.
-
-Ce que nous offrons :
-
-- Des projets à fort impact, sur des enjeux de souveraineté numérique, cloud et sécurité industrielle par exemple.
-
-- Un process d’intégration complet (plateforme d’onboarding, parrain/marraine, matinée et soirée d’intégration).
-
-- Une montée en compétences facilitée avec un centre de formation interne (Almond Institute), un management de proximité et un accompagnement personnalisé.
-
-- Un équilibre vie pro/vie perso favorisé avec notre politique de télétravail
-
-- Un environnement convivial et une vie interne dynamique : afterworks, séminaires, week-end ski, activités CSE.
-
-- Un package salarial et des primes de cooptations attractifs.
-
-- Des opportunités d’évolutions dans un groupe en pleine croissance (mobilité interne, spécialisation, management, international).
-
-Process de recrutement
-
-- Entretien RH
-
-- Rencontre avec un Opérationnel de la Practice
-
-- Rencontre avec le Manager de la Practice
-
-- Proposition finale
-
-Qui sommes-nous ?
-
-Almond est un acteur majeur européen de la cybersécurité, doté des plus hauts niveaux de certifications et agréments (PASSI-LPM, CESTI, ANSSI, PCI QSA, Label France Cyber, etc.) et impliqué dans le développement de l’écosystème cyber.
-
-Fort de plus de 450 spécialistes, le groupe couvre l’ensemble de la chaîne de valeur cyber : conseil, audit, tests d’intrusion, intégration, SOC/CERT, GRC, sécurité cloud et évaluation de produits.
-
-Notre mission : protéger, innover et anticiper les menaces de demain, au service de la confiance numérique de nos clients publics et privés.
-
-Rejoindre nos équipes, c’est intégrer un collectif passionné, bénéficier d’un environnement stimulant et profiter de nombreuses opportunités d’évolution au sein du groupe.
-
-Localisation et accès durant la période de formation : Sèvres (92) - Tram 2 : musée de Sèvres, métro 9 : Pont de Sèvres
-
-Parking à disposition de nos collaborateurs
-
-Localisation VIE : Canada"
 3686191e-ad38-47a8-8deb-a4b3822fcd97,VIE SEOUL - Ingénieur de production systèmes et réseaux H/F,"Seoul, South Korea",,Resilience Operation Center,hybrid,2026-10-06,https://careers.almond.eu/jobs/8504303-vie-seoul-ingenieur-de-production-systemes-et-reseaux-h-f,"Almond est un acteur Cyber de référence en Europe.
 
 Rejoignez nos équipes spécialisées en cybersécurité, infrastructure et cloud qui sécurisent le monde numérique d’aujourd’hui et inventent celui de demain !

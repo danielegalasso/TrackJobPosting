@@ -243,7 +243,7 @@ We are building the leading software platform for AI-powered autonomous systems 
 At Auterion, we bring together the sharpest minds who love to solve the hardest problems.
 
 Join a vibrant team built on innovation, openness, and excellence, where you’ll be empowered to develop ideas, collaborate across all levels, and make an impact that matters."
-8725581002,,Forward Deployed Engineer,"Munich, Germany","Munich, Germany",,Engineering,2026-08-18,2026-08-19,,https://auterion.com/company/careers-open-position/8725581002?gh_jid=8725581002,"As a Forward Deployed Engineer at Auterion, you will play a pivotal role in the successful development, integration and deployment of Auterion-powered drone systems.
+8725581002,,Forward Deployed Engineer,"Munich, Germany","Munich, Germany",,Engineering,2026-08-18,2026-10-14,,https://auterion.com/company/careers-open-position/8725581002?gh_jid=8725581002,"As a Forward Deployed Engineer at Auterion, you will play a pivotal role in the successful development, integration and deployment of Auterion-powered drone systems.
 
 In this role, you will collaborate closely with the production, hardware engineering, and firmware/software teams, as well as operations, ensuring that every platform transitions smoothly from an airframe concept into a fully validated flying robot ready for deployment. You will serve as the primary technical interface for partners, work closely with them to understand their technical requirements, configure and adapt existing solutions, contribute to core software development, and ensure successful implementation.
 
@@ -269,33 +269,33 @@ Responsibilities and Duties
 
 Qualifications and Skills
 
-- Degree in Software, Aviation, Robotics, Electrical, Mechanical Engineering, or related field (M.Sc. optional).
+- Degree in Software, Electrical, Mechanical, Aerospace or Robotics Engineering, or a related field
 
-- Experience working with autopilots (ideally based on PX4), mission planning and navigation software, for example performing firmware flashing, vehicle configuration, and flight validation.
+- Working proficiency in C/C++ and Python: you can read, debug and patch existing code and write small tools and scripts
 
-- Familiarity with UAV flight testing, system validation, and troubleshooting in real-world operational environments is a plus.
+- Comfortable in Linux environments, including the command line, logs, Docker and basic networking (IP, TCP/UDP)
 
-- Understanding of control theory, flight control, plus manufacturing and QC best practices.
+- Hands-on hardware-software integration: system bring-up, wiring and connectors, and embedded interfaces (UART, CAN, I2C, SPI) at a practical level
 
-- Basic mechanical system and design experience as well as an understanding of fundamental electronics principles including wiring diagrams.
+- Structured troubleshooting: you can isolate whether a problem is software, hardware, configuration or RF, often under time pressure in the field
 
-- Solid understanding of embedded communication protocols (CAN, I2C, SPI, etc.) and computer networking principles, firmware debugging, and hardware-software integration.
+- Strong communicator: you can explain technical issues clearly to customers and operators, and report findings back to engineering in a way they can act on
 
-- Proficiency in C/C++ development and working knowledge of datalink protocols, experience with MAVLink and Python is a plus.
+- Willing to travel and work on-site with customers, including at test ranges and in field environments
 
-- Familiarity with Linux-based development and debugging environments, including Docker.
+- EU citizenship (required for security clearance and customer requirements)
 
-- Strong collaboration and communication skills when working with cross-functional engineering and operations teams.
+Nice-to-have
 
-- Proven ability to operate as a technical lead in front of customers, including live demonstrations and field troubleshooting.
+- Experience with PX4 or ArduPilot, MAVLink, QGroundControl or mission planning tools
 
-- Ability to work independently in fast-paced environments with evolving technical challenges, showing strong analytical, troubleshooting, and problem-solving skills.
+- UAV flight testing and validation in operational environments
 
-- Passion for drone technology and a hands-on engineering mindset focused on building reliable flying systems.
+- Experience with datalinks and radio systems
 
-- Willingness to travel for on-site integration, testing, and deployment activities.
+- Previous customer-facing or field engineering role, especially with defense or government customers
 
-- EU citizenship required.
+- German language skills
 
 Benefits
 
@@ -519,7 +519,60 @@ About Auterion
 We are building the leading software platform for AI-powered autonomous systems for enterprise and government customers. Our team is supporting the most important missions and solving the most challenging problems.
 
 At Auterion, we bring together the sharpest minds who love to solve the hardest problems. Join a vibrant team built on innovation, openness, and excellence, where you’ll be empowered to develop ideas, collaborate across all levels, and make an impact that matters."
-8658144002,303,IT Manager,"Munich, Germany ","Munich, Germany",,Global Operations ,2026-07-30,2026-10-07,,https://auterion.com/company/careers-open-position/8658144002?gh_jid=8658144002,"Overview
+8781495002,,Hardware Engineer,"Munich, Germany","Munich, Germany",,Engineering,2026-09-03,2026-10-14,,https://auterion.com/company/careers-open-position/8781495002?gh_jid=8781495002,"Our Munich engineering team develops advanced systems such as interceptors, launch platforms or reconnaissance drones, as well as quadcopters for military and defense applications. As a Hardware Engineer, you will own products and subsystems from proof of concept through production validation testing (PVT), combining mechatronic design, electronics integration, hands-on prototyping, and hardware validation.
+
+You will collaborate with the Munich Flight Operations, System Integration, and Supply Chain teams, as well as with Zurich’s engineering team, transforming our core technologies into specialized, manufacturing-ready tactical assets.
+
+Responsibilities and Duties
+
+- Independently own development of assigned products and subsystems for drone platforms and RF products from PoC through PVT, resolving evolving requirements and taking responsibility for quality, technical trade-offs, and delivery.
+
+- Design mechatronic assemblies and integrate electronics, balancing performance, weight, power, reliability, and manufacturability with input from specialist engineers.
+
+- Build and iterate prototypes using 3D printing and mechanical assembly; integrate electronics, bring up hardware, and troubleshoot faults using bench measurements, soldering, and PCB rework as needed.
+
+- Plan and execute bench, integration, and field tests with Flight Operations and System Integration; verify hardware–firmware interaction, record measurements, investigate failures, and verify fixes.
+
+- Evaluate and select components, modules, materials, and suppliers against system requirements; work directly with contract manufacturers on build readiness and pilot production.
+
+- Deliver manufacturing handover packages covering CAD and PCB files, BOMs, assembly instructions, and test procedures, enabling manufacturing partners to build and verify reliable hardware consistently.
+
+Qualifications and Skills
+
+- 3+ years developing robotic, mechatronic, or embedded hardware, with a relevant engineering or Computer Science degree, or equivalent practical experience.
+
+- Depth in one discipline and practical breadth across mechanics, electronics, and firmware, demonstrated through working prototypes, debugging, and hardware validation.
+
+- Ability to read schematics, understand circuit design choices, and navigate PCB layouts to debug and integrate hardware; proficiency with relevant CAD tools and laboratory instruments.
+
+- Working knowledge of C/C++ and Python to support firmware integration, driver testing, and test automation.
+
+- Independent problem-solving, clear technical documentation, and effective collaboration in English with engineering, operations, and manufacturing teams.
+
+- EU citizenship and willingness to work primarily on-site in Munich with 20% travel.
+
+Benefits
+
+- Flexible working hours
+
+- Stock Options
+
+- Generous holiday allowance
+
+- Pension plan
+
+- Extended social security package
+
+- Enhanced maternity & paternity leave
+
+- Wellpass membership
+
+About Auterion
+
+We are building the leading software platform for AI-powered autonomous systems for enterprise and government customers. Our team is supporting the most important missions and solving the most challenging problems.
+
+At Auterion, we bring together the sharpest minds who love to solve the hardest problems. Join a vibrant team built on innovation, openness, and excellence, where you’ll be empowered to develop ideas, collaborate across all levels, and make an impact that matters."
+8658144002,303,IT Manager,"Munich, Germany ","Munich, Germany",,Global Operations ,2026-07-30,2026-10-12,,https://auterion.com/company/careers-open-position/8658144002?gh_jid=8658144002,"Overview
 We are looking for an experienced, hands-on IT Manager to lead IT systems and infrastructure across our German operations, which now span multiple offices. You will own the security, reliability and compliance of our environment as the company scales quickly in Germany, and you will lead the local IT team, starting with one IT Support Engineer and growing as we expand.
 
 This is a technical leadership role, not a hands-off management role. You will make infrastructure decisions, not just execute them: choosing tooling, designing the network and identity setup across sites, and setting the standards the local team works to. At the same time you stay close to the systems and remain the senior technical escalation point. You will own network and systems administration, identity and access management, and cybersecurity operations, and you will drive the certifications and compliance work required to support our defense customers and joint venture.
@@ -891,67 +944,6 @@ About Auterion
 We are building the leading software platform for AI-powered autonomous systems for enterprise and government customers. Our team is supporting the most important missions and solving the most challenging problems.
 
 At Auterion, we bring together the sharpest minds who love to solve the hardest problems. Join a vibrant team built on innovation, openness, and excellence, where you’ll be empowered to develop ideas, collaborate across all levels, and make an impact that matters."
-8781495002,,Senior Electronics Engineer,"Munich, Germany","Munich, Germany",,Engineering,2026-09-03,2026-09-03,,https://auterion.com/company/careers-open-position/8781495002?gh_jid=8781495002,"At Auterion, we build a global platform for drones and autonomous robots. In the growing market of autonomous vehicles, we connect high-end software and hardware. Our Munich-based defense engineering team develops the technologies that form the foundation of current and future drone products.
-
-As a Senior Electronics Engineer, you will be a member of our interdisciplinary hardware engineering team, driving the design and development of cutting-edge electronics for our next-generation drone platforms. You’ll take ownership of electronic modules such as flight controllers, sensors, and vision systems, leading PCB development from concept to mass production.
-
-As part of a cross-functional team, you will develop advanced systems such as interceptor and reconnaissance drones with integrated visual navigation, as well as quadcopters for defense applications.
-
-Responsibilities and Duties
-
-- Design, prototype, and validate advanced avionics PCBs, sensors, and electronic modules for drone platforms, driving concepts from initial ideation through detailed design and manufacturing readiness
-
-- Plan and execute comprehensive PCB and product verification activities, including test strategy definition, execution, and documentation; perform electrical and mechanical validation such as EMI/EMC compliance testing, thermal cycling, mechanical shock testing, and HALT analysis
-
-- Produce and maintain technical documentation, including design concepts, schematics and CAD drawings, bills of materials (BOMs), assembly instructions, and repair manuals
-
-- Collaborate closely with test engineering, manufacturing, and production teams to ensure smooth transition of hardware designs from development to volume production
-
-- Work closely with product management and customer success teams to align system architecture and interfaces, define electronics requirements, and incorporate feedback from field deployments into design improvements
-
-- Coach and mentor junior engineers to achieve technical excellence and develop best practices within the team
-
-Qualifications and Skills
-
-- Bachelor’s or Master’s degree in Electrical or Electronics Engineering
-
-- 4+ years of experience in PCB design and electronic product development, including prototyping, layout, and driving products from concept through production
-
-- Proven expertise in high-density and mixed-signal PCB design, with broad understanding of signal and power integrity
-
-- Hands-on experience with PCB verification and testing processes, covering signal integrity analysis and EMC troubleshooting
-
-- Proficiency with Altium Designer is highly desirable
-
-- Experience with high power applications, ESCs and lithium batteries is an advantage
-
-- Hands-on, solution-oriented mindset with a proactive approach to problem-solving and the ability to address technical challenges independently
-
-- Experience collaborating in cross-functional hardware/software teams
-
-- Excellent problem-solving, communication (English), and project management skills
-
-Benefits
-
-- Flexible working hours
-
-- Stock Options
-
-- Generous holiday allowance
-
-- Pension plan
-
-- Extended social security package
-
-- Enhanced maternity & paternity leave
-
-- Wellpass membership
-
-About Auterion
-
-We are building the leading software platform for AI-powered autonomous systems for enterprise and government customers. Our team is supporting the most important missions and solving the most challenging problems.
-
-At Auterion, we bring together the sharpest minds who love to solve the hardest problems. Join a vibrant team built on innovation, openness, and excellence, where you’ll be empowered to develop ideas, collaborate across all levels, and make an impact that matters."
 8593903002,286,Senior Embedded Linux Software Engineer,"Munich, Germany","Munich, Germany",,Engineering,2026-06-16,2026-08-25,,https://auterion.com/company/careers-open-position/8593903002?gh_jid=8593903002,"Auterion builds a cutting-edge operating system for autonomous robotic systems that empower a diverse range of platforms to perform surveillance, reconnaissance, inspection, mapping and logistics tasks. Our industry-leading software drives the adoption of robotic fleets and is recognized by the U.S. government as the future standard for its drone programs.
 
 We are looking for a Senior Embedded Linux Software Engineer taking on tasks within the AuterionOS ecosystem, from writing applications to adding driver support for new peripherals, maintaining system services and optimizing performance on embedded platforms. You will be working closely with:
@@ -1128,6 +1120,65 @@ About Auterion
 We are building the leading software platform for AI-powered autonomous systems for enterprise and government customers. Our team is supporting the most important missions and solving the most challenging problems.
 
 At Auterion, we bring together the sharpest minds who love to solve the hardest problems. Join a vibrant team built on innovation, openness, and excellence, where you’ll be empowered to develop ideas, collaborate across all levels, and make an impact that matters."
+8857626002,,Senior Software Engineer,"Munich, Germany","Munich, Germany",,Engineering,2026-09-30,2026-10-14,,https://auterion.com/company/careers-open-position/8857626002?gh_jid=8857626002,"We are looking for a hands-on Autonomous Drone Software Engineer to join a swarming programme. As an engineer on a lean, high-impact team, you will have the opportunity to drive development of new features, have a say in architecture and design decisions and have real impact across all the team’s projects.
+
+You will not be siloed; this role spans the entire autonomy lifecycle, from developing autonomy capabilities to investigating real-world flight-test data.
+
+The ideal candidate is someone who’s a self-starter, can work independently, can work with ambiguity, can take decisions on their own and not be afraid to drive and push towards getting the project across the finish line.
+
+Responsibilities and Duties
+
+- Take ownership and drive the development of new features across the autonomy stack and partner integrations
+
+- Collaborate closely with hardware engineers, product managers, and external partners to define system requirements and translate them into robust software architecture
+
+- Design and implement robust distributed state machines, leader election protocols, and fault-tolerant architectures.
+
+- Deliver clean, readable and maintainable code while confidently managing complex concurrency and contention scenarios
+
+- Develop and run rigorous tests utilizing SITL/HITL simulation environments to validate code prior to physical deployment
+
+- Actively participate in code reviews, architectural discussions, and technical documentation to elevate the team's engineering standards
+
+- Act decisively during flight-test investigations, applying strong engineering judgment to physical failure modes and release safety
+
+Qualifications and Skills
+
+- 3+ years of professional engineering experience in robotics, embedded systems, or distributed systems.
+
+- Deep proficiency in modern C++, with practical experience designing, reasoning about, and debugging highly concurrent systems.
+
+- Embedded systems experience working close to hardware on real-time or safety-critical platforms (e.g., avionics, automotive, robotics).
+
+- Strong architectural understanding of distributed systems, with the ability to deliberately evaluate and select consensus designs.
+
+- Familiarity with robust release management, versioned artifacts, and pinned dependencies.
+
+- Experience with PX4, MAVLink, and related drone software ecosystems is a plus
+
+- EU citizenship required
+
+Benefits
+
+- Flexible working hours
+
+- Stock Options
+
+- Generous holiday allowance
+
+- Pension plan
+
+- Extended social security package
+
+- Enhanced maternity & paternity leave
+
+- Wellpass membership
+
+About Auterion
+
+We are building the leading software platform for AI-powered autonomous systems for enterprise and government customers. Our team is supporting the most important missions and solving the most challenging problems.
+
+At Auterion, we bring together the sharpest minds who love to solve the hardest problems. Join a vibrant team built on innovation, openness, and excellence, where you’ll be empowered to develop ideas, collaborate across all levels, and make an impact that matters."
 8613568002,271,Senior Software Engineer (Radio Systems),Zurich,"Zurich, Switzerland",Switzerland,Engineering,2026-06-30,2026-08-24,,https://auterion.com/company/careers-open-position/8613568002?gh_jid=8613568002,"Overview
 
 As a Senior Software Engineer in the Radio Systems team you will architect the Linux-based software framework that powers our next-generation communications and RF sensing technologies. You will bridge the gap between raw RF hardware and high-level autonomous systems, developing the high-performance user-space applications and kernel modules that bring reliable RF comms and insights to unmanned systems. Your expertise in Modern C++ and Linux internals will be the backbone of a scalable RF technology framework. You will collaborate with developers across Auterion's full technology stack to deliver tactical solutions to the air, ground, and sea, working closely with global OEMs and government agencies to ensure operational excellence in evolving environments.
@@ -1276,47 +1327,49 @@ About Auterion
 We are building the leading software platform for AI-powered autonomous systems for enterprise and government customers. Our team is supporting the most important missions and solving the most challenging problems.
 
 At Auterion, we bring together the sharpest minds who love to solve the hardest problems. Join a vibrant team built on innovation, openness, and excellence, where you’ll be empowered to develop ideas, collaborate across all levels, and make an impact that matters."
-8470060002,240,Technical Program Manager,"Munich, Germany","Munich, Germany",,Global Operations ,2026-03-19,2026-09-14,,https://auterion.com/company/careers-open-position/8470060002?gh_jid=8470060002,"To drive our growth strategy in the dynamic market of autonomous robotic systems in defense we’re looking for a Technical Program Manager who will be responsible for the delivery of customer program deliverables to include hardware, software, and all product demonstrations. In this position you will have a significant contribution to the growth of the company. You will manage a portfolio of projects and will be accountable for delivering customer projects on-time, in-cost and to full customer satisfaction. This requires a holistic approach to project management covering all major disciplines tailored to the respective project sizes. In this role you will be customer facing and lead internal, cross-organizational project teams.
+8470060002,240,Technical Program Manager,"Munich, Germany","Munich, Germany",,Global Operations ,2026-03-19,2026-10-14,,https://auterion.com/company/careers-open-position/8470060002?gh_jid=8470060002,"To drive our growth strategy in the dynamic market of autonomous robotic systems in defense we’re looking for a Technical Program Manager who will be responsible for the delivery of customer program deliverables to include hardware, software, and all product demonstrations. In this position you will have a significant contribution to the growth of the company. You will manage a portfolio of projects and will be accountable for delivering customer projects on-time, in-cost and to full customer satisfaction. This requires a holistic approach to project management covering all major disciplines tailored to the respective project sizes. In this role you will be customer facing and lead internal, cross-organizational project teams.
 
 Responsibilities and Duties
 
-- Manage a portfolio of medium to large customer programs focused on autonomous robotic systems, from contract award through delivery and sustainment.
+- Lead the execution of customer programs for autonomous robotic systems, taking ownership from initial planning through integration, delivery and deployment.
 
-- Lead cross-functional teams across engineering, integration, manufacturing, and testing to deliver complex HW/SW systems on time and within budget.
+- Drive engineering teams towards clear milestones and deadlines, aligning priorities, managing dependencies and removing blockers to keep delivery on track.
 
-- Develop and maintain detailed project plans, schedules, budgets, and risk registers using agile and traditional PM methodologies.
+- Lead through influence rather than hierarchy, building trust with engineers, customers and cross-functional stakeholders to maintain momentum and achieve shared outcomes.
 
-- Coordinate with internal teams, OEM partners, and customers to align program goals, resolve issues, and ensure high-quality outcomes.
+- Manage customer expectations through clear communication, realistic commitments and proactive resolution of technical or delivery challenges.
 
-- Oversee program financials including cost estimation, budgeting, forecasting, and tracking of financial performance.
+- Work closely with engineering, hardware, manufacturing and operations teams to translate customer requirements into practical execution plans and delivered capabilities.
 
-- Support proposal responses to customer RFIs and RFPs, ensuring technical accuracy, strategic alignment, and competitive positioning.
+- Make pragmatic decisions in a fast-moving environment, balancing technical trade-offs, delivery timelines and customer needs without waiting for perfect information or established processes.
 
-- Ensure compliance with defense and aerospace standards, including export controls and cybersecurity requirements.
+- Own program plans, schedules, budgets, risks and delivery outcomes, introducing the structure needed to support execution without creating unnecessary bureaucracy.
 
-- Drive continuous improvement and contribute to the product and technology roadmap with feedback from program execution.
+- Support customer proposals and contribute insights from program execution to product development and technology roadmaps.
 
-- Support logistics planning for hardware deliveries, field trials, and system deployments
+- Coordinate hardware deliveries, integration activities, field trials and system deployments, ensuring a smooth transition from development to operational use.
 
 Qualifications and Skills
 
-- 5+ years of product and program management experience, with at least 2 years in a startup or scale-up environment where you owned outcomes, not just coordination
+- 5+ years of experience in engineering, technical project management or program management, including experience in a startup or scale-up environment.
 
-- Track record of shipping a product or major capability from kickoff to customer hands in under 6 months. You will be asked for specifics: what, how long, what you cut to make the date
+- Demonstrated ownership of complex technical projects or product delivery, with the ability to drive execution from planning through to customer delivery.
 
-- Experience managing development of complex hardware/software systems (robotics, automotive, aerospace, industrial, consumer electronics)
+- Experience leading or coordinating engineers against deadlines, resolving competing priorities and maintaining accountability across technical teams.
 
-- Customer-facing experience with demanding enterprise or government customers
+- Strong interpersonal and communication skills, with the ability to build trust, influence decisions and manage challenging customer and stakeholder relationships.
 
-- Demonstrated ability to make decisions with incomplete information and own the consequences. Examples of calls you made without escalation, including ones that went wrong
+- Technical fluency in complex hardware/software systems, with the confidence to engage directly with engineers, understand technical trade-offs and challenge estimates constructively.
 
-- Comfort operating without established process: you build the minimum structure a program needs and delete process that slows delivery
+- A pragmatic, hands-on approach to problem-solving, comfortable making decisions with incomplete information and building lightweight processes where needed.
 
-- Hands-on technical fluency: you can read an architecture diagram, sit in an engineering standup, and challenge an estimate without a translator
+- Experience in robotics, embedded systems, automotive, aerospace or another complex engineering environment is advantageous.
 
-- Fluency in English; German strongly preferred
+- An engineering background, particularly in embedded software, systems engineering or a related discipline, is highly desirable.
 
-- German or EU citizenship required
+- Fluent in German and English.
+
+- German or EU citizenship is required for the position.
 
 Benefits
 

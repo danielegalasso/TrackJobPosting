@@ -1,0 +1,43 @@
+{
+  "source": "https://jobs.exail.com/en/annonces?q=cyber,security",
+  "company": "Exail",
+  "query": "",
+  "extracted_at": "2026-10-15T08:17:24",
+  "site_total": 3,
+  "extracted": 3,
+  "postings": [
+    {
+      "job_id": "4500057-administrateurtrice-systemes-reseaux-hf-78100-saint-germain-en-laye",
+      "title": "Administrateur(trice) Systèmes & Réseaux - H/F",
+      "url": "https://jobs.exail.com/en/annonce/4500057-administrateurtrice-systemes-reseaux-hf-78100-saint-germain-en-laye",
+      "location": "Saint-Germain-en-Laye",
+      "country": "France",
+      "contract": "['FULL_TIME']",
+      "published": "2026-07-15",
+      "deadline": "",
+      "description": "Rattaché(e)\nà la Direction des Systèmes d'Information, vous rejoignez l’équipe dynamique du\nPôle Infrastructures Systèmes & Réseaux, pour piloter, optimiser et\nsécuriser nos infrastructures critiques.\n\nSous la responsabilité du Responsable\nInfrastructures, vous gérez un périmètre international franco-belge, combinant\nla gestion de notre siège à Saint-Germain en Laye et de nos sites industriels\nen Belgique, Oostende et Mouscron.\n\nMissions :\n\n- Gestion de l'infrastructure & Maintien en Condition\nOpérationnelle (MCO) : Garantir la disponibilité, la performance et la sécurité\ndes serveurs, des sauvegardes, du stockage et du réseau sur l’ensemble des\nsites de votre périmètre.\n- Gestion des vulnérabilités : Garantir la mise en conformité des équipements de\nl’ensemble des sites de votre périmètre\n- Évolution & Projets : Participer activement aux\nprojets portés par l’équipe et à la mise en place des standards du Pôle.\n- Pilotage d’une thématique, la VOIP : Dans le cadre de l’homogénéisation de nos solutions de\nVOIP, vous pilotez cette thématique et vous déterminez un standard adapté à\ntous les sites du groupe."
+    },
+    {
+      "job_id": "4443047-autorite-technique-defense-hf-78100-saint-germain-en-laye",
+      "title": "Autorité Technique – Défense - H/F",
+      "url": "https://jobs.exail.com/en/annonce/4443047-autorite-technique-defense-hf-78100-saint-germain-en-laye",
+      "location": "Saint-Germain-en-Laye",
+      "country": "France",
+      "contract": "['FULL_TIME']",
+      "published": "2026-06-10",
+      "deadline": "",
+      "description": "Votre mission principale sera la responsabilité des choix techniques et de l’architecture des produits NetANS, garantir sa conformité aux exigences fonctionnelles, normatives et de sécurité, et piloter la maîtrise technique du produit depuis les phases d’étude jusqu’au maintien en condition opérationnelle. Vous supporterez également les équipes auprès de nos clients pour les sujets les plus complexes. Vous serez rattaché(e) au Responsable Technique.\n\nAutorité technique et architecture\n\n- Définir, maintenir et faire évoluer l’architecture système (HW / SW / réseau)\n- Arbitrer les choix techniques structurants (technologies réseau, protocoles, sécurité, redondance)\n- Garantir la cohérence entre exigences client, exigences internes et solutions techniques\n\nSpécifications et exigences\n\n- Contribuer à la rédaction et à la validation des spécifications système (SyRS) et spécifications produit / architecture\n- S’assurer de la traçabilité des exigences (CodeBeamer ou équivalent)\n- Veiller à la testabilité des exigences selon les méthodes IVVQ (Inspection, Analyse, Démonstration, Test – IADT)\n\nPilotage technique du développement\n\n- Piloter techniquement les équipes : Logiciel embarqué / applicatif, Électronique (cartes réseau, calculateurs), Cybersécurité\n- Participer aux revues de conception (SRR, PDR, CDR)\n- Apporter un support technique en phase de développement et d’intégration\n\nIntégration, validation et qualification\n\n- Définir les stratégies de validation et qualification fonctionnelle et environnementale\n- Participer à la définition des plans d’essais (FAT, qualification)\n- Analyser les résultats d’essais et statuer sur la conformité technique\n- Contribuer aux dossiers de justification et PIVV\n\nSupport à l’industrialisation et au cycle de vie\n\n- Support technique à l’industrialisation et à la mise en production\n- Instruction des non-conformités et évolutions produit (Change Requests, FSM)\n- Analyse d’impact technique des modifications matérielles et logicielles\n- Support à la gestion d’obsolescence\n\nCybersécurité et sûreté de fonctionnement\n\n- Intégrer les exigences de : Cybersécurité (confidentialité, intégrité, disponibilité), Robustesse réseau et tolérance aux pannes\n- Participer aux analyses de risques techniques et cyber\n\nEnvironnement et enjeux :\n\n- Environnement technologique à forte valeur ajoutée\n- Responsabilité technique forte sans management hiérarchique direct\n- Rôle clé dans les décisions d’architecture et la crédibilité technique du produit\n- Enjeux de performance produit et de time‑to‑market"
+    },
+    {
+      "job_id": "4623093-responsable-de-la-securite-des-systemes-d-information-rssi-hf-78100-saint-germain-en-laye",
+      "title": "Responsable de la sécurité des systèmes d’information - RSSI - H/F",
+      "url": "https://jobs.exail.com/en/annonce/4623093-responsable-de-la-securite-des-systemes-d-information-rssi-hf-78100-saint-germain-en-laye",
+      "location": "Saint-Germain-en-Laye",
+      "country": "France",
+      "contract": "['FULL_TIME']",
+      "published": "2026-09-30",
+      "deadline": "",
+      "description": "Pour\nsoutenir la croissance d’Exail, Exail recherche sa ou son futur(e) Responsable\nde la sécurité des systèmes d’information, capable de conjuguer expertise\ntechnique et sens du conseil.\n\nVéritable\npersonne de confiance et business partner, vous aurez la charge de piloter\nla gestion des risques liés à la cybersécurité, de proposer des mesures\nadaptées aux enjeux du groupe, et de conseiller sur les meilleures\ndécisions à prendre en matière de sécurité.\n\nLe\nposte sera basé à Saint-Germain-en-Laye et vous serez rattaché directement\nau DSI.\n\nDes\ndéplacements réguliers en France et à l’étranger sont à prévoir.\n\nVos\nmissions :\n\nAnalyse & gestion\ndes risques\n\n- Maintenir la cartographie des actifs essentiels,\ndes risques associés et des mesures de réduction;\n- Proposer des mesures de sécurité proportionnées à\nl'impact et à la probabilité des menaces.\n\nGouvernance et pilotage\n\n- Organiser et animer le Comité Cyber, avec\npréparation de l’ordre du jour : revue des risques, incidents, indicateurs,\nplan d’actions et ressources allouées;\n- Mettre en place des outils et des indicateurs pour\nmesurer l'application des exigences et l'atteinte des objectifs;\n- Évaluer la maturité cyber de nos fournisseurs\ncritiques;\n- Répondre aux enquêtes de maturité cyber de nos\nfournisseurs;\n- Veiller à l’application de la PSSI et piloter son\névolution.\n\nFormation &\nsensibilisation\n\n- Sensibiliser à la SSI la DSI mais aussi les\nutilisateurs du groupe;\n- Accompagner les équipes projets dans l’intégration\nde la sécurité dès la conception (approche “Security by Design”).\n\nGestion des incidents\n& veille\n\n- Définir et maintenir les procédures de gestion\nd’incidents (qualification, confinement, communication);\n- Préparer et piloter l'organisation en cas\nd'incident de sécurité majeur;\n- Assurer un retour d’expérience post-incident\n(registre, analyse causale);\n- Piloter les activités de veille de vulnérabilités\net coordonner avec le SOC.\n\nConformité & audits\n\n- Assurer la conformité aux réglementations;\n- Piloter les audits internes/externes SSI et\nformaliser les recommandations.\n\nPourquoi ce poste ?\n\n- Rejoindre une société technologique en pleine\ncroissance où la sécurité des systèmes d’information est au centre de la\nstratégie de développement;\n- Voir l’impact de son travail sur la vie\nquotidienne de l’entreprise;\n- Evoluer dans un contexte dynamique et\ninternational avec de beaux projets à mener."
+    }
+  ]
+}

@@ -84,6 +84,17 @@ _OG_TITLE_RE = re.compile(r'<meta[^>]+property="og:title"[^>]+content="([^"]*)"'
 
 
 def html_list(cfg: dict[str, Any]) -> Collected:
+    """A list page and its posting pages, described in the board's entry
+    (see _html_list). With `stealth` or `stealth_detail` one hidden browser
+    (StealthBrowser) serves the run: the operator asked (2026-10-12) for the
+    sites behind a bot check to be read that way."""
+    if not (cfg.get("stealth") or cfg.get("stealth_detail")):
+        return _html_list(cfg, None)
+    with StealthBrowser() as browser:
+        return _html_list(cfg, browser)
+
+
+def _html_list(cfg: dict[str, Any], browser: StealthBrowser | None) -> Collected:
     """A list page and its posting pages, described in the board's entry.
 
     `list`: the list page URL (or a list of them).
@@ -111,6 +122,9 @@ def html_list(cfg: dict[str, Any]) -> Collected:
         notice holding the advert the page itself leaves out.
     `render`: true when the list is built by the page's scripts: the page is
         loaded in headless Chrome first. `render_detail` likewise for postings.
+    `stealth`: true when the list is behind a bot check: it is read with
+        StealthBrowser, waiting for `link` to appear. `stealth_detail`
+        likewise for postings, waiting for `detail_ready` when given.
     """
     lists = cfg["list"] if isinstance(cfg["list"], list) else [cfg["list"]]
     link_re = re.compile(cfg.get("link", r'href="([^"]*(?:job|vacanc|career|position|offer)[^"]*)"'), re.I | re.S)
@@ -128,7 +142,10 @@ def html_list(cfg: dict[str, Any]) -> Collected:
         if url in seen_pages:
             continue
         seen_pages.add(url)
-        page = render_page(url) if cfg.get("render") else request_text(url)
+        if browser is not None and cfg.get("stealth"):
+            page = browser.get(url, ready=link_re.pattern)
+        else:
+            page = render_page(url) if cfg.get("render") else request_text(url)
         if cfg.get("render") and not link_re.search(page):
             # Scripts sometimes finish after the first wait; once more, longer.
             page = render_page(url, wait_ms=40000)
@@ -179,7 +196,10 @@ def html_list(cfg: dict[str, Any]) -> Collected:
                 record["title"] = " ".join(head)[:140]
             return {**record, "description": text}
         try:
-            page = render_page(url) if cfg.get("render_detail") else request_text(url)
+            if browser is not None and cfg.get("stealth_detail"):
+                page = browser.get(url, ready=cfg.get("detail_ready"))
+            else:
+                page = render_page(url) if cfg.get("render_detail") else request_text(url)
         except RuntimeError as exc:
             print(f"  ! no detail for {url}: {exc}", file=sys.stderr)
             return {**record, "description": ""}
@@ -226,7 +246,9 @@ def html_list(cfg: dict[str, Any]) -> Collected:
             "description": advert,
         }
 
-    records = [record for record in _pool(detail, list(links.items())) if record.get("title")]
+    # One browser, one page at a time; plain requests side by side.
+    fetch_all = (lambda f, items: list(map(f, items))) if cfg.get("stealth_detail") else _pool
+    records = [record for record in fetch_all(detail, list(links.items())) if record.get("title")]
     if cfg.get("title_strip"):
         for record in records:
             record["title"] = re.sub(cfg["title_strip"], "", record["title"]).strip()

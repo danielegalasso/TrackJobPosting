@@ -2,9 +2,9 @@
   "source": "https://www.okapiorbits.space/en/careers#open-positions",
   "company": "OKAPI:Orbits",
   "query": "",
-  "extracted_at": "2026-10-10T10:52:25",
-  "site_total": 11,
-  "extracted": 11,
+  "extracted_at": "2026-10-15T08:17:38",
+  "site_total": 10,
+  "extracted": 10,
   "postings": [
     {
       "job_id": "junior-aerospace-engineer-space-safety-ssa-m-w-d-2533959",
@@ -115,17 +115,6 @@
       "published": "2026-03-10",
       "deadline": "",
       "description": "Your mission is to support the team in developing and maintaining intuitive and high performance web applications and APIs. You will contribute to enabling seamless access to OKAPI:Orbits end to end solutions across Mission Design, Space Situational Awareness (SSA), Space Traffic Management (STM), Flight Dynamics (FD) and Space Traffic Coordination (STC), while gaining insights into the full lifecycle of satellite operations.\n\nStudies show that women are less likely to apply if they do not meet every requirement. We strongly encourage you to apply even if you do not tick every box, as long as you are passionate about space technology and software development.\n\nOKAPI:Orbits actively fosters a diverse team, as different perspectives drive innovation and better outcomes."
-    },
-    {
-      "job_id": "working-student-recruiting-m-f-d-2767012",
-      "title": "Working Student Recruiting (m/f/d)",
-      "url": "https://www.okapiorbits.space/en/careers/working-student-recruiting-m-f-d-2767012",
-      "location": "Brunswick",
-      "country": "Germany",
-      "contract": "['PART_TIME']",
-      "published": "2026-08-25",
-      "deadline": "",
-      "description": "As a Working Student in talent acquisition at OKAPI:Orbits, you play an active role in finding the right talent for our team, which builds SaaS solutions covering the entire satellite lifecycle. You support our Operations team in day-to-day operations, help keep the application process running smoothly, and make sure new colleagues get the best possible start with us. This includes maintaining an overview of all open positions, ensuring a smooth handover of candidates between stages and coordinating interview slots with different departments."
     }
   ]
 }

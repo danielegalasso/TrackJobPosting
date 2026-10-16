@@ -1969,76 +1969,6 @@ Process de recrutement
 - Une offre !
 
 Pasqal est un employeur garantissant l'égalité des chances. Nous nous engageons à créer un lieu de travail diversifié et inclusif, car l'inclusion et la diversité sont essentielles à la réalisation de notre mission. Nous encourageons les candidatures de tous les candidats qualifiés, quels que soient leur sexe, leur race, leur origine ethnique, leur âge, leur religion ou leur orientation sexuelle"
-4a8c8ca6-c7d9-4eb4-93a0-f13505492dd6,Quantum Solutions Engineer - H/F,"Thuwal, Saudi Arabia",,Software,none,2026-08-10,https://careers.pasqal.com/jobs/8197782-quantum-solutions-engineer-h-f,"We are looking for a Mid-Senior Application Engineer in Quantum Optimization with background in Operations Research and/or in Quantum Computing to strengthen our team.
-
-What you’ll do :
-
-- Execute quantum optimization-related client projects from early technical discussions and problem framing to project delivery.
-
-- Support the Commercial team on the execution of feasibility studies and on the definition the state of work for future client projects
-
-- Translate real-world problems into optimization formulations and evaluate solution strategies using a mix of analytical reasoning and numerical experimentation.
-
-- Investigate and synthesize the state of the art (academic and industrial literature) to identify relevant directions, assess feasibility, and propose impactful research paths.
-
-- Develop and scale quantum optimization solutions for clients’ use cases on Pasqal quantum processors. Also, improve and extend existing use cases;
-
-- Design and run benchmarking and feasibility studies, including assessing the limitations of classical approaches and identifying realistic pathways toward quantum utility.
-
-- Develop solutions and experiment pipelines in close collaboration with the software engineering team, using emulation backends locally and on HPC when relevant.
-
-- Work hardware-aware: investigate realistic implementations on neutral-atom hardware (mainly using analog paradigms)
-
-- Define blueprints of quantum utility for clients’ use-cases and collaborate closely with R&D hardware teams to bring them to fruition.
-
-- Collaborate with internal and external stakeholders (Engineering, R&D, academic and industrial partners, and clients) throughout all phases of projects, ensuring alignment on technical scope, success criteria, and deliverables.
-
-- Support team-wide execution and knowledge sharing, including helping on code/components outside your direct ownership when needed and contributing to ongoing scientific watch activities.
-
-About you
-With a MSc or PhD in Combinatorial Optimization, Quantum Computing or in a related field with at least 3 years of experience in a similar role, you have most of the following assets:
-
-- Proven experience in combinatorial optimization: familiar with classical problems, linear programming, constrained programming, heuristics, metaheuristics, complexity theory, graph theory
-
-- Proven experience in quantum computing: understanding of quantum algorithms, Hamiltonian-based optimization, Ising formulations, adiabatic and variational approaches, noise mechanisms, state preparation errors, measurement statistics, and hardware constraints of neutral-atom QPUs;
-
-- Methodological: ability to connect theoretical concepts with practical applications on current and future quantum hardware
-
-- Delivery mindset: ability to explore, prototype, benchmark, and iterate on new approaches. Write clear technical reports
-
-- Programming skills (Python): good software engineering practices such as version control, testing, and documentation
-
-- Solid experience on algorithm evaluation & benchmarking: experiment design, reproducibility, performance analysis
-
-- Able to collaborate with Engineering and R&D teams across different disciplines
-
-- Project ownership : execute projects end-to-end, respecting milestones and and managing risks
-
-- Client-facing skills: relationship skills for interacting with clients and partners
-
-What we offer
-
-- Contract type: Permanent contract based in Saudi Arabia
-
-- A dynamic and close-knit international team
-
-- A key role in a fast-growing start-up
-
-- Time allocated for training and attending conferences and meetups
-
-Process de recrutement
-
-- A 30-minute interview with our talent acquisition team
-
-- A conversation with Wesley, the hiring manager
-
-- A technical assessment
-
-- Meet the team in the office
-
-- Job offer!
-
-Pasqal est un employeur garantissant l'égalité des chances. Nous nous engageons à créer un lieu de travail diversifié et inclusif, car l'inclusion et la diversité sont essentielles à la réalisation de notre mission. Nous encourageons les candidatures de tous les candidats qualifiés, quels que soient leur sexe, leur race, leur origine ethnique, leur âge, leur religion ou leur orientation sexuelle."
 5d514a4f-9788-42f1-a425-4cef24430f63,Quantum system performance engineer  - Hardware H/F,"Palaiseau, France",,Hardware (Research & Development),none,2026-06-24,https://careers.pasqal.com/jobs/7966100-quantum-system-performance-engineer-hardware-h-f,"A propos de Pasqal
 
 Pasqal conçoit et développe des processeurs quantiques (QPUs : Quantum Processing Units) et les outils logiciels associés.
@@ -2299,97 +2229,83 @@ Recruitment process
 - 45min VP Software platform interview
 
 PASQAL is an equal opportunity employer. We are committed to creating a diverse and inclusive workplace, as inclusion and diversity are essential to achieving our mission. We encourage applications from all qualified candidates, regardless of gender, ethnicity, age, religion or sexual orientation."
-bb820d04-efb8-4d7d-b77f-1fe27f6b31e9,Senior FP&A  H/F,"Palaiseau, France",,Administration & Finance,none,2026-02-25,https://careers.pasqal.com/jobs/7294263-senior-fp-a-h-f,"A propos de Pasqal
+fd1a5488-0f3b-4a7f-bb31-2989c8f36e64,Senior Quantum Developer - Quantum Circuits (x/m/f),"Palaiseau, France",,Software,none,2026-10-12,https://careers.pasqal.com/jobs/8533938-senior-quantum-developer-quantum-circuits-x-m-f,"About us
 
-Pasqal conçoit et développe des processeurs quantiques (QPU – Quantum Processing Units) et les outils logiciels associés. Notre technologie permet d’adresser des cas d’usage aujourd’hui hors de portée des supercalculateurs, avec une efficacité énergétique majeure qui contribuera à réduire l’empreinte carbone du calcul intensif.
+The Quantum Circuit team is seeking a Senior Quantum Developer to take on key tasks in Pasqalʼs software stack, contributing to the logical computing architecture and implement key subroutines, interfacing internally and with external customers to investigate future quantum applications, and how to run them in digital hardware tailored to neutral atom architectures, in turn informing crucial developments of the latter.
 
-Description du poste - FP&A Manager
+The Quantum Circuit team is a cutting edge, R&D team focused on matching emerging digital HW capabilities from our devices to quantum protocols targeting the solution to some of the most complex problems in industry today.
 
-Dans le cadre de notre forte croissance et de notre nouvelle étape en tant que société cotée, nous recrutons un·e FP&A Manager pour renforcer l’équipe de gestion et accompagner la structuration et la montée en puissance de notre fonction Finance.
+We seek an enthusiastic, independent and knowledgeable colleague to expand our team, initially onboarding and contributing to existing projects, with the perspective of becoming a main point of contact in new ones.
 
-Le poste est très opérationnel (hands‑on), avec une forte exposition aux équipes Production, R&D et Commercial, et un rôle clé dans la fiabilisation des chiffres, la lecture business et la mise sous contrôle des sujets complexes (WIP, coûts de production, revenus).
+Job description
 
-Vos missions principales
+- Design quantum computers and compare various architectures for fault-tolerant execution of very large circuits on neutral atoms quantum computers, accounting for neutral atom hardware. technological constraints, and updating them with the latest scientific developments of QEC.
 
-1) Business Partnering (Production / R&D / Commercial)
+- Maintain resource estimates for target applications of quantum computing.
 
-Devenir le/la référent·e Finance des départements Production, R&D et Commercial (routines, analyses, arbitrages).
+- Optimise fault-tolerant execution of key subroutines of quantum algorithms, balancing contributions from circuit compilation, architectural decisions and hardware considerations.
 
-Animer et améliorer le processus budgétaire bottom‑up (construction, challenge, consolidation).
+- Help steer the development of the software stack for efficient execution of encoded circuits.
 
-Mettre à disposition des équipes des outils de pilotage simples et actionnables (indicateurs, dashboards, analyses ad hoc).
+- Work with academic collaborators to develop new ideas for fault-tolerant circuit execution.
 
-Contribuer à la conduite du changement avec une approche pédagogue
+- Prepare publications and contribute to our intellectual property portfolio.
 
-2) Monthly reporting à destination de la Direction & du COMEX
+- Present results and innovations in technical discussions internally and in related conferences and outreach events.
 
-Piloter le reporting mensuel (closing pack / performance review) : préparation, analyses, messages clés, “so what”.
+- Keep a regular technological watch.
 
-Produire des analyses de variances (vs budget, vs forecast, vs N‑1) et des drivers opérationnels (industrie/R&D).
+- Have an inventive activity in the scientific and technical fields related to the Company's research, products, technologies and markets; filing patents.
 
-Assurer une restitution “executive ready” : synthèse, recommandations, points d’attention et plans d’actions.
+We look for candidates with a PhD in a technical field (primarily Computer Science, Physics or Mathematics), who have been involved in relevant research projects in their academic career (or via industry internships), are good team players with a proactive, autonomous attitude.
 
-3) Expertise business (industrie, coûts,revenue)
+You should satisfy these fundamental requirements:
 
-Acquérir une connaissance fine des inducteurs de coûts (production, supply, qualité, R&D) et des mécanismes de valorisation.
+- Good familiarity with quantum algorithms & quantum information, and a related programming language (e.g. qadence, qiskit, pennylane, cirq)
 
-Éclairer les décisions stratégiques à partir de données opérationnelles fiables (capex/opex, make vs buy, ramp‑up, etc.).
+- Strong code development skills, preferentially in Python (though equivalent languages will be considered)
 
-Contribuer à la robustesse des analyses et positions en lien avec les besoins d’audit (sans être l’équipe compta).
+- Experience working in multi-disciplinary teams
 
-4) Documentation & “Finance playbook”
+- Fluency in English
 
-Construire et maintenir un FP&A playbook : définitions des KPIs, règles de calcul, dictionnaire de données, hypothèses de forecast.
+Strong preference will be given to candidates with familiarity (even better know-how proven by publication or code repository records) about one or more among:
 
-Formaliser des processus scalables (calendrier, responsabilités, contrôles, templates) pour sécuriser qualité et délais.
+- Fault-tolerant algorithms, eventually applied to entire workflows
 
-Transformer les analyses en assets réutilisables : one‑pagers, guides, modèles, checklists (transmission + onboarding).
+- Quantum error-correction protocols (inclusive of digital simulation, compilation on any hardware platform, and their resource estimation when deployed protocols)
 
-Contribuer au cadrage des besoins outillage (ERP/EPM/BI) et à la roadmap FP&A.
+- Neutral atom architectures
 
-Projets prioritaires
+Knowledge in the following topics is also appreciated:
 
-Suivi des encours de production (Work in Process – WIP).
+- Quantum machine learning topics, particularly at the interface of scientific modelling and machine learning (physics-informed frameworks, neural operators, ...)
 
-Calcul et analyse des coûts de production / COGS.
+- Machine learning packages (e.g. torch, tensorflow, ...)
 
-Fiabilisation de la reconnaissance du revenu (interfaces Sales/Delivery/Finance, cohérence des données).
+What we offer
 
-Cette liste n’est pas exhaustive et évoluera avec la croissance et la structuration de l’organisation Finance.
+- Contract type: Permanent contract based in Europe
 
-A propos de vous
+- A dynamic and close-knit international team
 
-Master en Finance d’entreprise (ou équivalent).
+- A key role in a fast-growing start-up
 
-5+ ans d’expérience en contrôle de gestion / FP&A, idéalement en environnement industrie / hardware / R&D ou scale‑up.
+- Time allocated for training and attending conferences and meetups
 
-Profil proactif, autonome, orienté delivery : vous aimez faire avancer les sujets, clarifier, décider, exécuter.
+Recruitment process
 
-Capacité à naviguer entre analyse fine et synthèse COMEX (storytelling financier).
+- Talent acquisition interview 30’
 
-À l’aise avec les systèmes (ERP/EPM/BI), excellent niveau Excel ; appétence pour l’automatisation et l’IA.
+- Technical interview with Louis (30') & Manager interview with Andrea (30')
 
-Anglais courant, écrit et oral.
+- Presentation of a work you have done (onsite team fit)
 
-Bonus apprécié : expérience startup/scale‑up, audit/IPO readiness, structuration de process, mise en place de reporting.
+- Chat with Mourad C-level
 
-Pourquoi postuler ?
+- Offer!
 
-Un rôle clé au cœur de la transformation Finance dans une scale‑up deeptech.
-
-Une forte exposition Direction / COMEX et un impact direct sur les décisions.
-
-Un terrain de jeu très concret (industrie, WIP/COGS, revenue), avec beaucoup d’autonomie
-
-Process de recrutement
-
-Entretien 45 min avec Talent Acquisition
-
-Entretien avec Baptiste, Head of FP&A
-
-Entretien avec Antoine, VP Finance + visite sur site
-
-Pasqal est un employeur garantissant l'égalité des chances. Nous nous engageons à créer un lieu de travail diversifié et inclusif, car l'inclusion et la diversité sont essentielles à la réalisation de notre mission. Nous encourageons les candidatures de tous les candidats qualifiés, quels que soient leur sexe, leur race, leur origine ethnique, leur âge, leur religion ou leur orientation sexuelle"
+PASQAL is an equal opportunity employer. We are committed to creating a diverse and inclusive workplace, as inclusion and diversity are essential to achieving our mission. We encourage applications from all qualified candidates, regardless of gender, ethnicity, age, religion or sexual orientation."
 d739ebed-45dc-47ec-aaf6-1da593bc22dd,Senior Quantum Solutions Engineer - ML,"Thuwal, Saudi Arabia",,Software,none,2026-08-10,https://careers.pasqal.com/jobs/8196695-senior-quantum-solutions-engineer-ml,"About Pasqal
 
 Pasqal designs and develops Quantum Processing Units (QPUs) and associated software tools.
@@ -2987,109 +2903,6 @@ Process de recrutement
 - Un échange avec Annah, Juriste
 
 - Une rencontre avec l’équipe dans nos magnifiques bureaux
-
-- Une offre !
-
-Pasqal est un employeur garantissant l'égalité des chances. Nous nous engageons à créer un lieu de travail diversifié et inclusif, car l'inclusion et la diversité sont essentielles à la réalisation de notre mission. Nous encourageons les candidatures de tous les candidats qualifiés, quels que soient leur sexe, leur race, leur origine ethnique, leur âge, leur religion ou leur orientation sexuelle"
-0968a1f7-3f8e-4f31-8e93-c9b2ac43f8d6,Strategic Finance Director  H/F,"Paris, France",,Administration & Finance,none,2026-10-08,https://careers.pasqal.com/jobs/8517758-strategic-finance-director-h-f,"A propos de Pasqal
-
-Pasqal conçoit et développe des processeurs quantiques (QPUs : Quantum Processing Units) et les outils logiciels associés.
-
-Notre technologie innovante permet de traiter des cas d’usage qui sont à ce jour hors de portée des plus puissants des supercalculateurs ; ces cas peuvent concerner des défis industriels applicatifs aussi bien que les besoins des sciences fondamentales.
-
-Au-delà de la puissance de calcul exceptionnelle qu’ils apportent, les QPUs sont d’une très grande efficacité énergétique et contribueront à réduire fortement l’empreinte carbone de l’industrie du calcul intensif.
-
-Description du poste
-
-Dans un contexte de forte croissance post-IPO, la fonction Finance de Pasqal doit conjuguer les exigences de rigueur et de gouvernance d’une société cotée au NASDAQ avec l’agilité d’une entreprise technologique en hypercroissance.
-
-Rattaché(e) directement au CFO, le/la Strategic Finance Director joue un rôle clé dans la définition et la mise en œuvre de l’agenda de finance stratégique de Pasqal. À la croisée de la finance, de la stratégie, et du développement de l’entreprise, le poste combine réflexion stratégique, analyse financière et forte capacité d’exécution.
-
-En étroite collaboration avec le CFO, les équipes Finance — notamment FP&A et Investor Relations — ainsi qu’avec les différentes fonctions de l’entreprise, vous contribuerez aux décisions financières et stratégiques les plus structurantes et piloterez plusieurs projets à fort impact.
-
-Principales responsabilités
-
-En lien direct avec le CFO, vous contribuerez à la définition et au déploiement de la stratégie financière autour de trois grands axes :
-
-1. Stratégie financière & structure de capital
-
-- Contribuer à la définition de la stratégie financière de Pasqal et à ses priorités d’allocation du capital.
-
-- Analyser les différentes options de financement et opportunités de marché, notamment en matière de financement en dette et en fonds propres.
-
-- Participer à l’évolution de la structure de capital en cohérence avec les ambitions de croissance de l’entreprise.
-
-- Contribuer aux projets financiers structurants liés au développement de l’entreprise.
-
-2. Corporate Development
-
-- Participer à l’identification et à l’évaluation des opportunités de développement stratégique.
-
-- Contribuer aux opérations de partenariats, joint-ventures, M&A et autres transactions stratégiques, de l’analyse initiale jusqu’à leur exécution.
-
-- Construire les analyses financières, business cases, valorisations et supports d’aide à la décision pour le management.
-
-- Coordonner les différents interlocuteurs internes et externes impliqués dans les opérations stratégiques.
-
-3. Gouvernance, Conseil d’administration & Comité d’audit
-
-- Accompagner le CFO dans la préparation des sujets et supports, notamment pour le Conseil d’administration et le Comité d’audit.
-
-- Contribuer à la qualité de la gouvernance sur les sujets de finance stratégique.
-
-- Préparer des analyses, présentations et recommandations de haut niveau à destination des instances dirigeantes.
-
-- Garantir la robustesse et la cohérence des informations financières utilisées dans les processus de gouvernance.
-
-Cette liste de tâches n'est pas exhaustive.
-
-A propos de vous
-
-- Vous disposez d’au moins 5 ans d’expérience dans un environnement financier exigeant, avec une forte capacité d’analyse, une réelle appétence pour les sujets stratégiques, et une expérience de contact au niveau dirigeant.
-
-Les parcours suivants sont particulièrement pertinents :
-
-- Investment banking (M&A, ECM) ou Transaction Services avec une forte exposition à l’analyse financière, à la valorisation et à l’exécution de transactions.
-
-- Ou un profil senior FP&A / Contrôle de gestion ou Corporate Development, avec une solide expérience en finance d’entreprise et en prise de décision stratégique.
-
-- Une expérience au sein d’une société cotée ou dans un environnement pré-IPO constitue un réel atout.
-
-Vous disposez également de :
-
-- Solides compétences en modélisation financière, valorisation et corporate finance.
-
-- Excellentes capacités d’analyse, de synthèse et de structuration, avec la capacité à transformer des sujets complexes en recommandations claires.
-
-- Excellentes qualités de communication écrite et orale, notamment avec des interlocuteurs de niveau dirigeant et des parties prenantes externes.
-
-- Un fort sens des responsabilités et la capacité à gérer simultanément plusieurs sujets prioritaires.
-
-- Une posture humble et constructive, un fort esprit de collaboration et un excellent sens politique, permettant d’évoluer efficacement dans un environnement transverse et à forte visibilité.
-
-- Un anglais courant
-
-Ce que nous offrons
-
-- De magnifiques bureaux flambants neufs sur Massy/Paris
-
-- Un rythme flexible de présentiel
-
-- Type de contrat : CDI
-
-- Une équipe internationale dynamique et soudée
-
-- Un rôle clé dans une start-up en pleine croissance
-
-- Du temps libre pour vous former et aller à des conférences/meetups
-
-Process de recrutement
-
-- Un entretien avec notre talent acquisition de 45 ’
-
-- Un entretien avec Stéphane, Chief Finanical Officer
-
-- Un échange avec Florence, Chief Legal Officer
 
 - Une offre !
 

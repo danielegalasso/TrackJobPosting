@@ -19,6 +19,8 @@ def isolated_state(tmp_path: Path, monkeypatch: pytest.MonkeyPatch):
     monkeypatch.setattr(paths, "DB_PATH", data_dir / "acide_storage.db")
     monkeypatch.setattr(paths, "RESUME_DIR", data_dir / "resume")
     monkeypatch.setattr(paths, "RANKING_BRIEF_PATH", data_dir / "ranking-brief.md")
+    monkeypatch.setattr(paths, "RANKING_FILTERS_PATH", data_dir / "ranking-filters.json")
+    monkeypatch.setattr(paths, "RANKING_CALIBRATION_PATH", data_dir / "ranking-calibration.json")
     # The portal imports the extractors' results on startup and on every
     # listing; without this a test would see whatever is on the developer's disk.
     monkeypatch.setattr(paths, "EXTRACTS_DIR", data_dir / "extracts")

@@ -1,7 +1,7 @@
 {
   "source": "https://www.enisa.europa.eu/careers",
   "query": "open,ongoing",
-  "extracted_at": "2026-10-10T10:47:56",
+  "extracted_at": "2026-10-15T08:12:36",
   "site_total": 7,
   "extracted": 7,
   "postings": [
@@ -104,7 +104,7 @@
     {
       "job_id": "ENISA-TA-AD8-2026-14",
       "title": "Senior Cybersecurity Expert",
-      "status": "Open",
+      "status": "Ongoing",
       "contract": "Temp Agent",
       "grade": "AD8",
       "area": "Policy Monitoring and Analyses Unit (PMA)",

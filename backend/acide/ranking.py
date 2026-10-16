@@ -24,6 +24,12 @@ It comes in two passes.
   eligibility blocker); a search run reviews the new postings, and a change
   of brief makes the earlier reviews stale until they are run again.
 
+The operator adds two things of their own. Filters (exclusions.py) exclude
+a posting whose title, company or location has a word they never want to
+see, before any of this. And the stars and removals they make teach the
+review (calibration.py): every fifty, the model turns them into guidelines
+that ride in the prompt between the brief and the instructions.
+
 The fit vectors are left alone: priority neither reads nor writes them.
 """
 
@@ -40,12 +46,12 @@ from dataclasses import dataclass, field
 from datetime import date
 from typing import Any
 
-from . import db, geo, paths
+from . import db, exclusions, geo, paths
 
 logger = logging.getLogger(__name__)
 
 #: Bump when the rules change, so every posting is ranked again.
-RULES_VERSION = "6"
+RULES_VERSION = "7"
 
 # ---------------------------------------------------------------------------
 # Organizations
@@ -595,6 +601,9 @@ class Verdict:
                 "criteria": self.criteria,
                 "reasons": self.reasons,
                 "flags": [{"text": f.text, "level": f.level} for f in self.flags],
+                # The rules' own reason, kept apart from the column, which the
+                # operator's filters may override (exclusions.py).
+                "excluded": self.excluded,
             },
             ensure_ascii=False,
         )
@@ -858,6 +867,8 @@ def refresh(force: bool = False) -> int:
 
 def _refresh(force: bool) -> int:
     today = date.today()
+    filters = exclusions.load()
+    matcher = exclusions.Matcher(filters)
     with db.connect() as conn:
         query = """
             SELECT id, title, company, location, description, seniority, deadline
@@ -881,11 +892,15 @@ def _refresh(force: bool) -> int:
                 deadline=row["deadline"],
                 today=today,
             )
+            excluded = (
+                matcher.reason(title=row["title"], company=row["company"], location=row["location"])
+                or verdict.excluded
+            )
             updates.append(
                 (
                     verdict.score,
                     verdict.as_json(),
-                    verdict.excluded,
+                    excluded,
                     geo.encode(geo.countries(row["location"] or "")),
                     RULES_VERSION,
                     row["id"],
@@ -901,9 +916,49 @@ def _refresh(force: bool) -> int:
         )
         if updates:
             _fill_countries_from_company(conn)
+        _apply_filters_if_changed(conn, filters, matcher)
     if updates:
         logger.info("ranking: %d postings ranked", len(updates))
     return len(updates)
+
+
+def _apply_filters_if_changed(
+    conn: Any, filters: exclusions.Filters, matcher: exclusions.Matcher
+) -> None:
+    """Re-apply the operator's filters to every posting when they changed.
+
+    The postings just ranked already have them; the others carry whatever
+    the filters were at their own ranking. Only the three fields the filters
+    read are needed, and the rules' own reason is in their stored verdict, so
+    this takes a second where ranking again would take half a minute.
+    """
+    digest = filters.digest()
+    stored = conn.execute("SELECT value FROM meta WHERE key = 'exclusions_digest'").fetchone()
+    if stored and stored["value"] == digest:
+        return
+    rows = conn.execute(
+        "SELECT id, title, company, location, priority_rules, priority_excluded FROM jobs "
+        "WHERE priority_rules IS NOT NULL"
+    ).fetchall()
+    updates = []
+    for row in rows:
+        rules = json.loads(row["priority_rules"])
+        current = row["priority_excluded"] or ""
+        own = rules.get("excluded")
+        if own is None:  # ranked before the rules kept their reason apart
+            own = "" if current.startswith(exclusions.REASON_PREFIX) else current
+        posting = {key: row[key] or "" for key in ("title", "company", "location")}
+        excluded = matcher.reason(**posting) or own
+        if excluded != current:
+            updates.append((excluded, row["id"]))
+    conn.executemany("UPDATE jobs SET priority_excluded = ? WHERE id = ?", updates)
+    conn.execute(
+        "INSERT INTO meta (key, value) VALUES ('exclusions_digest', ?) "
+        "ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+        (digest,),
+    )
+    if updates:
+        logger.info("ranking: filters changed the exclusion of %d postings", len(updates))
 
 
 def _fill_countries_from_company(conn: Any) -> None:
@@ -963,6 +1018,7 @@ REVIEW_PROPERTIES: dict[str, Any] = {
     "criteria": {"type": "array", "items": _CRITERION},
     "adjustments": {"type": "array", "items": _ADJUSTMENT},
     "total": {"type": "integer"},
+    "cap": {"type": "integer"},
     "eligible": {"type": "boolean"},
     "justification": {"type": "string"},
     "issues": {"type": "array", "items": {"type": "string"}},
@@ -997,6 +1053,9 @@ brief.
   (negative for a malus, 0 if it does not apply); an empty list if the brief
   defines none.
 - total: the final score, the criteria plus the adjustments.
+- cap: the highest total the brief's caps or ceilings allow for this offer
+  (by category, internship, enrolment, ...), the lowest if several apply; 0
+  if the brief sets none for it. The total is held to it.
 - eligible: false only if I cannot apply at all: a citizenship, clearance or
   residence I do not have, or a requirement the brief calls a total blocker.
 - justification: at most two lines on why this score.
@@ -1095,6 +1154,17 @@ def review_prompt(row: dict[str, Any]) -> str:
     )
 
 
+def review_system_prompt(brief: str, calibration_section: str = "") -> str:
+    """The prompt every review of a run opens with, identical across calls.
+
+    The calibration sits between the brief and the instructions: it refines
+    the one, and the other must stay last, where the model reads what to
+    answer.
+    """
+    parts = [brief.strip(), calibration_section.strip(), REVIEW_INSTRUCTIONS.strip()]
+    return "\n\n".join(part for part in parts if part) + "\n"
+
+
 def _int(value: Any, low: int, high: int, default: int = 0) -> int:
     try:
         return max(low, min(high, int(round(float(value)))))
@@ -1123,6 +1193,13 @@ def parse_review(payload: dict[str, Any]) -> dict[str, Any]:
     stated = _int(payload.get("total"), -1000, 1000)
     computed = sum(c["points"] for c in criteria) + sum(a["points"] for a in adjustments)
     score = computed if criteria else stated
+    # The brief's caps (a GRC role at most 65, an internship at most 40) are
+    # the model's to judge and the code's to apply: left to the model's own
+    # addition, a trainee role it had capped at 40 still came out at 113.
+    cap = _int(payload.get("cap"), 0, 1000)
+    if cap and score > cap:
+        adjustments.append({"name": f"Tetto {cap}", "points": cap - score})
+        score = cap
     eligible = bool(payload.get("eligible", True))
     if not eligible:
         score = min(score, NOT_ELIGIBLE_CAP)
@@ -1131,6 +1208,7 @@ def parse_review(payload: dict[str, Any]) -> dict[str, Any]:
         "stated_total": stated,
         "criteria": criteria,
         "adjustments": adjustments,
+        "cap": cap,
         "eligible": eligible,
         "issues": [str(p).strip() for p in payload.get("issues") or [] if str(p).strip()],
     }
@@ -1142,6 +1220,9 @@ def parse_review(payload: dict[str, Any]) -> dict[str, Any]:
 _PENDING = {
     "new": "AND priority_llm IS NULL",
     "stale": "AND (priority_llm IS NULL OR json_extract(priority_llm, '$.brief') IS NOT :digest)",
+    # Reviewed against this brief, before the latest calibration (calibration.py).
+    "calibration": "AND json_extract(priority_llm, '$.brief') IS :digest "
+    "AND COALESCE(json_extract(priority_llm, '$.calibration'), 0) < :calibration",
     "all": "",
 }
 
@@ -1152,9 +1233,13 @@ def candidates_for_review(
     """Open postings worth a review, best by rules first.
 
     `mode` "new": never reviewed (what a search run just found); "stale": not
-    reviewed against this brief (after the brief changed). `again` takes them
-    whatever their review. Postings the rules exclude are never candidates.
+    reviewed against this brief (after the brief changed); "calibration":
+    reviewed against it, but before the latest calibration. `again` takes
+    them whatever their review. Postings the rules or the operator's filters
+    exclude are never candidates.
     """
+    from . import calibration
+
     pending = _PENDING["all" if again else mode]
     with db.connect() as conn:
         rows = conn.execute(
@@ -1167,13 +1252,19 @@ def candidates_for_review(
             ORDER BY priority_score DESC, deadline IS NULL, deadline
             LIMIT :limit
             """,
-            {"digest": digest, "limit": -1 if limit is None else limit},
+            {
+                "digest": digest,
+                "calibration": calibration.version(),
+                "limit": -1 if limit is None else limit,
+            },
         ).fetchall()
     return [dict(row) for row in rows]
 
 
 def review_counts(digest: str) -> dict[str, int]:
     """How the open postings stand against the brief, for the panel."""
+    from . import calibration
+
     with db.connect() as conn:
         row = conn.execute(
             """
@@ -1184,10 +1275,14 @@ def review_counts(digest: str) -> dict[str, int]:
               SUM(COALESCE(priority_excluded, '') = '' AND priority_llm IS NOT NULL
                   AND json_extract(priority_llm, '$.brief') IS NOT :digest) AS stale,
               SUM(COALESCE(priority_excluded, '') = ''
-                  AND json_extract(priority_llm, '$.brief') IS :digest) AS current
+                  AND json_extract(priority_llm, '$.brief') IS :digest) AS current,
+              SUM(COALESCE(priority_excluded, '') = ''
+                  AND json_extract(priority_llm, '$.brief') IS :digest
+                  AND COALESCE(json_extract(priority_llm, '$.calibration'), 0) < :calibration)
+                  AS older_calibration
             FROM jobs WHERE closed_at IS NULL AND dismissed = 0
             """,
-            {"digest": digest},
+            {"digest": digest, "calibration": calibration.version()},
         ).fetchone()
         reasons = conn.execute(
             """
@@ -1196,7 +1291,10 @@ def review_counts(digest: str) -> dict[str, int]:
             GROUP BY 1 ORDER BY 2 DESC
             """
         ).fetchall()
-    counts = {key: int(row[key] or 0) for key in ("open", "excluded", "never", "stale", "current")}
+    counts = {
+        key: int(row[key] or 0)
+        for key in ("open", "excluded", "never", "stale", "current", "older_calibration")
+    }
     counts["excluded_by_reason"] = {r["reason"]: r["n"] for r in reasons}  # type: ignore[assignment]
     return counts
 
@@ -1243,6 +1341,11 @@ class ReviewRun:
     reviewed: int = 0
     failed: int = 0
     cost: float = 0.0
+    #: The calibration the prompt carried (calibration.py), 0 for none.
+    calibration: int = 0
+    #: Prompt tokens sent, and how many of them the provider read from its cache.
+    prompt_tokens: int = 0
+    cached_tokens: int = 0
     errors: list[str] = field(default_factory=list)
     #: Why the run stopped before the end, if it did.
     stopped: str = ""
@@ -1282,6 +1385,7 @@ def review_top(
 ) -> ReviewRun:
     """Review the `limit` best candidates (all of them with None) against the brief."""
     global review_state
+    from . import calibration
     from . import config as config_module
     from .llm import OpenRouterClient, parse_response
 
@@ -1294,10 +1398,12 @@ def review_top(
         refresh()
         rows = candidates_for_review(limit, digest, again=again, mode=mode)
         settings = config_module.load()
+        calibrated = calibration.load_state()["current"]
         run = ReviewRun(
             mode=mode,
             model=settings.openrouter.model,
             effort=settings.openrouter.reasoning_effort,
+            calibration=int(calibrated["version"]) if calibrated else 0,
             total=len(rows),
             running=bool(rows),
             started_at=_now(),
@@ -1308,7 +1414,7 @@ def review_top(
             run.finished_at = _now()
             return run
 
-        system = f"{brief}\n{REVIEW_INSTRUCTIONS}"
+        system = review_system_prompt(brief, calibration.prompt_section(calibrated))
         response_format = {
             "type": "json_schema",
             "json_schema": {"name": "priority_review", "strict": True, "schema": REVIEW_SCHEMA},
@@ -1324,6 +1430,15 @@ def review_top(
             )
             client._owns_client = True  # closed with it at the end of the run
 
+        # Every call of the run opens with the same system prompt (the brief,
+        # the calibration, the instructions) and the same schema; only the
+        # offer after it differs. Providers cache that prefix, and bill it at
+        # a fifth of the price when read back — but only on the endpoint that
+        # cached it. OpenRouter keeps a session on one endpoint; without a
+        # session it keys stickiness on the first user message too, which is
+        # a different offer each time, so nothing would stick.
+        session = f"acide-review-{digest}-c{run.calibration}"
+
         def ask(row: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
             payload = client.complete_raw(
                 [
@@ -1331,6 +1446,7 @@ def review_top(
                     {"role": "user", "content": review_prompt(row)},
                 ],
                 response_format=response_format,
+                session_id=session,
             )
             try:
                 content = payload["choices"][0]["message"]["content"]
@@ -1353,12 +1469,14 @@ def review_top(
             cost = float(usage.get("cost") or 0.0)
             result.update(
                 brief=digest,
+                calibration=run.calibration,
                 model=run.model,
                 effort=run.effort,
                 cost=cost,
                 # What the cost is made of, for comparing models and efforts.
                 tokens={
                     "prompt": usage.get("prompt_tokens"),
+                    "cached": (usage.get("prompt_tokens_details") or {}).get("cached_tokens"),
                     "completion": usage.get("completion_tokens"),
                     "reasoning": (usage.get("completion_tokens_details") or {}).get("reasoning_tokens"),
                 },
@@ -1368,35 +1486,46 @@ def review_top(
             return result, cost
 
         effort = "" if run.effort == "none" else f", reasoning {run.effort}"
-        say(f"reviewing {len(rows)} postings with {run.model}{effort}")
+        calibrated_note = f", calibration {run.calibration}" if run.calibration else ""
+        say(f"reviewing {len(rows)} postings with {run.model}{effort}{calibrated_note}")
         try:
             with ThreadPoolExecutor(max_workers=settings.openrouter.max_concurrency) as pool:
-                futures = {pool.submit(review, row): row for row in rows}
-                in_a_row = 0
-                for done, future in enumerate(as_completed(futures), start=1):
-                    row = futures[future]
-                    if future.cancelled():
-                        continue
-                    try:
-                        result, cost = future.result()
-                    except _Stopped:
-                        continue
-                    except Exception as exc:  # noqa: BLE001 — one bad reply, not the run
-                        run.failed += 1
-                        in_a_row += 1
-                        run.errors = [*run.errors[-19:], f"{row['company']} — {row['title']}: {exc}"]
-                        say(f"[{done}/{len(rows)}] FAILED {row['company']} — {row['title']}: {exc}")
-                        if in_a_row >= GIVE_UP_AFTER and not run.stopped:
-                            # What was not reviewed is picked up by the next run.
-                            run.stopped = f"{in_a_row} failures in a row, last: {exc}"
-                            say(f"stopping: {run.stopped}")
-                            _stop_review.set()
-                        continue
-                    in_a_row = 0
-                    store_review(row["id"], result)
-                    run.reviewed += 1
-                    run.cost += cost
-                    say(f"[{done}/{len(rows)}] {result['score']:4d}  {row['company']} — {row['title']}")
+                # The first call alone, then the rest in parallel: the first
+                # writes the shared prefix to the provider's cache, and those
+                # sent together after it read it instead of each paying for it.
+                batches = [rows[:1], rows[1:]] if len(rows) > 1 else [rows]
+                done = in_a_row = 0
+                for batch in batches:
+                    if _stop_review.is_set():
+                        break
+                    futures = {pool.submit(review, row): row for row in batch}
+                    for future in as_completed(futures):
+                        done += 1
+                        row = futures[future]
+                        if future.cancelled():
+                            continue
+                        try:
+                            result, cost = future.result()
+                        except _Stopped:
+                            continue
+                        except Exception as exc:  # noqa: BLE001 — one bad reply, not the run
+                            run.failed += 1
+                            in_a_row += 1
+                            run.errors = [*run.errors[-19:], f"{row['company']} — {row['title']}: {exc}"]
+                            say(f"[{done}/{len(rows)}] FAILED {row['company']} — {row['title']}: {exc}")
+                            if in_a_row >= GIVE_UP_AFTER and not run.stopped:
+                                # What was not reviewed is picked up by the next run.
+                                run.stopped = f"{in_a_row} failures in a row, last: {exc}"
+                                say(f"stopping: {run.stopped}")
+                                _stop_review.set()
+                            continue
+                        in_a_row = 0
+                        store_review(row["id"], result)
+                        run.reviewed += 1
+                        run.cost += cost
+                        run.prompt_tokens += int(result["tokens"]["prompt"] or 0)
+                        run.cached_tokens += int(result["tokens"]["cached"] or 0)
+                        say(f"[{done}/{len(rows)}] {result['score']:4d}  {row['company']} — {row['title']}")
                 if _stop_review.is_set() and not run.stopped:
                     run.stopped = "stopped on request"
         finally:
@@ -1404,8 +1533,13 @@ def review_top(
                 client.close()
         run.running = False
         run.finished_at = _now()
+        cached = (
+            f", {run.cached_tokens / run.prompt_tokens:.0%} of the prompt from cache"
+            if run.prompt_tokens
+            else ""
+        )
         say(
-            f"reviewed {run.reviewed}, failed {run.failed}, cost ${run.cost:.4f}"
+            f"reviewed {run.reviewed}, failed {run.failed}, cost ${run.cost:.4f}{cached}"
             + (f" — {run.stopped}" if run.stopped else "")
         )
         return run

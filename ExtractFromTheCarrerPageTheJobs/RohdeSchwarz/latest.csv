@@ -1,121 +1,159 @@
 job_id,title,url,location,country,contract,published,deadline,description
-buyer-coppell-tx_251563-1699136.html,"Buyer - Coppell, TX",https://www.rohde-schwarz.com/it/carriere/offerte/buyer-coppell-tx_251563-1699136.html,Coppell,US,,2026-10-10,,"- Process purchasing requests into purchase orders, maintaining communication with suppliers and internal customers, from order placement to receipt, to ensure vendor quality and schedules are met
-- Expedite orders where necessary and update ERP system to reflect order status
-- Locate new sources of supply and maintain good working relationships with vendors and manufacturers
-- Review and set up new suppliers
-- Identify opportunities to reduce cost through negotiations and supplier selection
-- Participate in procurement projects and in some cases, management of sub-projects within a defined framework
-- Cooperate and coordinate, within the scope of task, with suppliers, managers and internal customers
-- Support and act as backup for other team members in their tasks
-- Maintain and enhance operational procedures to increase efficiency and productivity
-- Perform other duties as assigned by manager"
-detection-engineer-cdc-security-specialist-with-siem-skills-m-w-d_251563-1640200.html,Detection Engineer CDC / Security Specialist with SIEM Skills (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/detection-engineer-cdc-security-specialist-with-siem-skills-m-w-d_251563-1640200.html,Leipzig,DE,0001,2026-07-16,,"Introduction
+ai-ml-engineer-agentic-ai-m-f-d_251563-1701187.html,AI / ML Engineer - Agentic AI ( m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/ai-ml-engineer-agentic-ai-m-f-d_251563-1701187.html,Dresden,DE,0001,2026-10-14,2027-10-14,"Introduction
 
-To further expand our operations staff for the R&S Cyber Defense Center, we are looking for an experienced Senior CDC Engineer to support our global team.
+You design agent-based AI systems that make a real difference from the idea stage to actual implementation.
 
 Tasks
 
-- In the role of CDC Detection Engineer, you take technical responsibility for the CDC Detection Engineering process and further develop it.
+- You design agent architectures, model harnesses, prompt strategies, and context management for agent-based AI systems.
 
-- In a global team, you continuously improve detection & response capabilities (workflows and toolchain).
+- You implement retrieval-augmented generation, vector search, and multi-stage orchestration with tool calling and MCP integrations.
 
-- You implement and improve alerting and detection rules.
+- You evaluate generative behavior, security, and failure modes such as hallucinations, and establish monitoring and countermeasures.
 
-- If necessary, you provide operational support to our analysts (real-time monitoring, analysis and triage of events/alarms, coaching).
+- You build reproducible evaluation pipelines and conduct metric-driven experiments.
 
-- You work closely with our global infrastructure operations teams (e.g., Malware Defense, Vulnerability Management).
+- You transition solutions into production using MLOps and software engineering practices while remaining closely aligned with users and stakeholders.
 
-- You create and maintain documentation (e.g., SOPs, standards, architecture diagrams).
+- You stay up to date with the state of the art in foundation models and agentic AI and evaluate their potential for use on the platform."
+bachelorand-masterand-m-w-d-modellierung-von-fertigungsprozessen-mit-bayesian-belief-networks_251563-1700032.html,Bachelorand / Masterand (m/w/d) Modellierung von Fertigungsprozessen mit Bayesian Belief Networks,https://www.rohde-schwarz.com/it/carriere/offerte/bachelorand-masterand-m-w-d-modellierung-von-fertigungsprozessen-mit-bayesian-belief-networks_251563-1700032.html,Teisnach,DE,0002,2026-10-13,,"Einleitung
 
-- In projects, you provide consultancy on the use of existing solutions and the integration of new tools according to security standards & best practices."
-director-electrical-and-mechanical-design-signal-generators-power-meters-m-w-d_251563-1697672.html,Director Electrical and Mechanical Design Signal Generators & Power Meters (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/director-electrical-and-mechanical-design-signal-generators-power-meters-m-w-d_251563-1697672.html,Munich,DE,0001,2026-10-07,2027-10-06,"Einleitung
-
-Sie führen Ihr Team zu Konstruktionen, die Signalgeneratoren und Power Meter weltweit präziser machen.
+Karrierestart bei Rohde & Schwarz – einem sicheren und globalen Familienunternehmen mit über 90 Jahren Erfahrung. Eine attraktive Vergütung nach dem Tarifvertrag der bayerischen Metall- und Elektroindustrie, langfristige Jobsicherheit, vielfältige Weiterbildungsmöglichkeiten sowie ein modernes Arbeitsumfeld mit Betriebsrestaurant bieten optimale Rahmenbedingungen. Werde Teil eines starken Teams und arbeite an innovativen Projekten für die Technologien von morgen.
 
 Aufgaben
 
-- Sie führen fachlich und disziplinarisch ein Team aus mechanischen und elektrischen Konstrukteuren.
+- Unterstützung eines internen Forschungsprojekts im Rahmen einer Masterarbeit
 
-- Sie planen und steuern Kapazitäten, Termine und Budgets und priorisieren Arbeitspakete über mehrere Produktprojekte hinweg.
+- Untersuchung und Entwicklung von Machine Learning Algorithmen und Data Analytics Methoden im Umfeld einer digitalen Produktion
 
-- Sie verantworten die mechanische und elektrische Konstruktion von Geräten und Standardbaugruppen vom Konzept über Stromlauf- und Layout-Umsetzung bis zur Fertigungsfreigabe.
+- Fokus auf erweiterte Analyse von offenen Fragen zum Einsatz von Bayesian Belief Networks im Kontext von kausalen Modelle
 
-- Sie steuern die Entwicklung HF-gerechter Konstruktions- und innovativer Entwärmungskonzepte für EMV, Schirmung und Thermik.
+Qualifikationen
 
-- Sie verantworten die entwicklungsbegleitende Kalkulation und steuern die Herstellkosten über den gesamten Produktlebenszyklus im Sinne von Design-to-Cost.
+- Studium im Bereich Informatik oder vergleichbar
 
-- Sie gestalten aktiv die Schnittstellen zu HW-Entwicklung, Common R&D, Fertigung und Qualitätssicherung und stellen klare Übergaben entlang der Quality Gates sicher."
-director-rd-of-hardware-analog-and-rf-development-m-w-d_251563-1697673.html,Director R&D of Hardware Analog and RF Development (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/director-rd-of-hardware-analog-and-rf-development-m-w-d_251563-1697673.html,Stuttgart,DE,0001,2026-10-07,,"Einleitung
+- Vorkenntnisse in Python und Jupyter Notebooks
 
-Führen Sie unser R&D‑Hardwareteam für analoge Systeme und Analog‑Kits in Stuttgart — disziplinarisch, fachlich und nachhaltig.
+- Vorkenntnisse und Interesse am Umfeld statistischer und kausaler Analyse, sowie Machine Learning
 
-Aufgaben
+- Selbständige Arbeitsweise
 
-- Sie führen disziplinarisch und fachlich das analoge R&D Hardware-Entwicklungsteam und fördern dessen nachhaltige Weiterentwicklung.
+Kontakt und weitere Informationen
 
-- Sie planen und steuern die Weiterentwicklung der Hardware über den gesamten Produktlebenszyklus hinweg – von Roadmap, Spezifikation und Konzeption bis zum Rollout.
+Bewerben Sie sich bitte vorzugsweise online bei Rohde & Schwarz GmbH & Co. KG, Frau Elisa Doppelhammer. Fragen beantwortet Ihnen unser Recrutingteam gerne unter: +49 9923 85 72108.
 
-- Sie definieren die Hardware-Strategie für kommende Produktgenerationen und arbeiten eng mit internationalen Entwicklungsteams sowie relevanten Stakeholdern zusammen.
+Wir fördern Chancengleichheit und begrüßen Bewerbungen von Menschen mit und ohne Behinderung. Wir bieten eine inklusive Arbeitsumgebung, in der alle Menschen ihre Fähigkeiten und Talente entfalten können, unabhängig von Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion, Weltanschauung, Alter, sexueller Orientierung, Identität und anderen Merkmalen."
+chemielaborant-m-w-d-fuer-den-bereich-labor-leiterplatte_251563-1700548.html,Chemielaborant (m/w/d) für den Bereich Labor Leiterplatte,https://www.rohde-schwarz.com/it/carriere/offerte/chemielaborant-m-w-d-fuer-den-bereich-labor-leiterplatte_251563-1700548.html,Teisnach,DE,0001,2026-10-13,,"Einleitung
 
-- Sie gestalten und koordinieren die Zusammenarbeit mit Hardware- und Systemabteilungen der Produktlinien und sorgen für effiziente Schnittstellenprozesse.
-
-- Sie etablieren und betreuen interne sowie externe Partnerkooperationen und treiben Innovationen durch die Weiterentwicklung von Methoden, Tools und Prozessen voran.
-
-- Sie verantworten Design, Implementierung und kontinuierliche Optimierung funktionsübergreifender Plattform-Bausteine."
-director-rd-of-hardware-digital-development-m-w-d_251563-1697674.html,Director R&D of Hardware Digital Development (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/director-rd-of-hardware-digital-development-m-w-d_251563-1697674.html,Stuttgart,DE,0001,2026-10-07,,"Einleitung
-
-Führen Sie unser R&D‑Hardwareteam in Stuttgart — digitale Hardware von Roadmap bis Rollout, strategisch und hands‑on.
+Karrierestart bei Rohde & Schwarz – einem sicheren und globalen Familienunternehmen mit über 90 Jahren Erfahrung. Eine attraktive Vergütung nach dem Tarifvertrag der bayerischen Metall- und Elektroindustrie, langfristige Jobsicherheit, vielfältige Weiterbildungsmöglichkeiten sowie ein modernes Arbeitsumfeld mit Betriebsrestaurant bieten optimale Rahmenbedingungen. Werde Teil eines starken Teams und arbeite an innovativen Projekten für die Technologien von morgen.
 
 Aufgaben
 
-- Sie führen disziplinarisch und fachlich das R&D Hardware-Entwicklungsteam und fördern dessen kontinuierliche Weiterentwicklung.
+- Durchführung von komplexen Analysen für die Bereiche Leiterplattenfertigung, Metall- und Alugalvanik sowie für die betriebliche Abwasseranlage
 
-- Sie planen und steuern die Hardware-Weiterentwicklung entlang der gesamten Produktentstehung – von Roadmap, Spezifikation und Konzeption bis hin zum Rollout.
+- Probenentnahme, Probenvorbereitung und Analytik entsprechend den Analyseplänen
 
-- Sie definieren die Hardware-Strategie für kommende Produktgenerationen und stimmen sich dabei eng mit relevanten Stakeholdern sowie internationalen Entwicklungsteams ab.
+- Dokumentation der Ergebnisse mittels eines Labormanagementsystems
 
-- Sie gestalten und pflegen die Schnittstellen zu Hardware- und Systemabteilungen der Produktlinien und sorgen für eine effiziente bereichsübergreifende Zusammenarbeit.
+- Eigenständige Störungsbehebung bei komplexeren Fehlern
 
-- Sie etablieren und betreuen interne sowie externe Partnerkooperationen und treiben Innovationen durch die Weiterentwicklung von Methoden, Tools und Prozessen voran.
+- Ursachenanalyse und Dokumentation bei Fehlermeldungen sowie Definition von Abstellmaßnahmen mit Schnittstellen
 
-- Sie verantworten Design, Implementierung und kontinuierliche Optimierung funktionsübergreifender Plattform-Bausteine."
-embedded-software-engineer-c-signalanalyse-messtechnik-m-w-d_251563-1690307.html,Embedded Software Engineer C++ Signalanalyse Messtechnik (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/embedded-software-engineer-c-signalanalyse-messtechnik-m-w-d_251563-1690307.html,Meckenheim,DE,0001,2026-09-25,,"Einleitung
+- Einhaltung der Vorgaben und Unterstützung in den Bereich Arbeitssicherheit und Umweltschutz
 
-High-End-Spektrumanalysatoren brauchen Software auf höchstem Niveau. Entwickle mit uns intelligente Algorithmen und leistungsfähige C++-Software für modernste Messtechnik. Dabei arbeitest du interdisziplinär an der Schnittstelle von Software, Hardware und Signalverarbeitung.
+- Eigenständige Erstellung und Prüfung von Leiterplattenquerschliffen
 
-Aufgaben
+Qualifikationen
 
-- Du wirkst bei der Entwicklung modernster Signal- und Spektrumanalysatoren mit, von der Anforderungsanalyse über den Entwurf bis zur Umsetzung.
+- Abgeschlossene Ausbildung zum Chemielaborant, Oberflächenbeschichter oder vergleichbar
 
-- Du entwirfst und realisierst Konzepte zur Gerätebedienung und Ansteuerung der Baugruppen.
+- Einschlägige Berufserfahrung im Bereich Labor und im Umgang mit Chemie bzw. Gefahrstoffen
 
-- Du entwickelst intelligente Algorithmen zur Messdatenverarbeitung.
+- MS-Office und SAP-Kenntnisse wünschenswert
 
-- Du implementierst die Software in C++ unter Einsatz moderner, KI-gestützter Entwicklungswerkzeuge für Windows und Linux.
+- Überdurchschnittliche Einsatzbereitschaft
 
-- Du stimmst Gerätefunktionen und deren Realisierung mit der Hardwareentwicklung ab.
+- Selbständige, zielorientierte Arbeitsweise
 
-- Du nimmst neue Funktionen gemeinsam mit der Hardwareentwicklung und der Fertigung in Betrieb"
-full-stack-software-engineer-m-f-d_251563-1695361.html,Full-Stack Software Engineer (m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/full-stack-software-engineer-m-f-d_251563-1695361.html,Munich,DE,0001,2026-10-01,2027-10-07,"Introduction
+- Schichtbereitschaft sowie praxisnahe Flexibilität
 
-You design full-stack solutions that make test and measurement technology usable - from the interface to the API.
+- Hohes Maß an Teamfähigkeit mit entsprechender kommunikativer Arbeitsweise
+
+Kontakt und weitere Informationen
+
+Bewerben Sie sich bitte vorzugsweise online bei Rohde & Schwarz GmbH & Co. KG, Frau Sabrina Kuchler. Fragen beantwortet Ihnen unser Recrutingteam gerne unter: +49 9923 85 72108.
+
+Wir fördern Chancengleichheit und begrüßen Bewerbungen von Menschen mit und ohne Behinderung. Wir bieten eine inklusive Arbeitsumgebung, in der alle Menschen ihre Fähigkeiten und Talente entfalten können, unabhängig von Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion, Weltanschauung, Alter, sexueller Orientierung, Identität und anderen Merkmalen."
+data-engineer-ai-m-f-d_251563-1701185.html,Data Engineer AI (m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/data-engineer-ai-m-f-d_251563-1701185.html,Dresden,DE,0001,2026-10-14,2027-10-14,"Introduction
+
+You build the data pipelines that AI systems for a safe, connected world are built on.
 
 Tasks
 
-- You implement and continuously develop full-stack HMI solutions for test and measurement applications.
+- You design and implement scalable data pipelines for ingestion, ETL/ELT, as well as batch and streaming use cases.
 
-- You develop across the entire stack: frontend, backend and remote interfaces (SCPI).
+- You develop and maintain data models, schemas, catalogs, and feature stores for reliable and discoverable data access.
 
-- You work closely with another frontend developer in an agile tandem model.
+- You ensure data quality, validation, lineage, and observability for high-performance real-time sources.
 
-- You implement requirements independently, efficiently and with a solution-oriented approach, conducting analyses and effort estimations along the way.
+- You integrate and operate storage solutions such as object stores, SQL/NoSQL and vector databases, and optimize access patterns for product systems.
 
-- You regularly coordinate with the application team on interfaces, data management and UI/UX design.
+- You ensure reproducibility and metadata tracking in ML workflows through experiment and feature lineage tracking.
 
-- You actively contribute to API design, from conception through specification to review.
+- You automate CI/CD, monitoring, alerting, and capacity planning for pipelines, thereby ensuring operational reliability."
+director-rd-systems-engineering-emso-systems-m-w-d_251563-1628165.html,Director R&D Systems Engineering EMSO Systems (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/director-rd-systems-engineering-emso-systems-m-w-d_251563-1628165.html,Munich,DE,0001,2026-06-11,,"Einleitung
 
-- You ensure software quality through structured code reviews, unit tests and adherence to development standards."
-global-scm-projektmanager-prozessmanagement-sap-m-w-d_251563-1643137.html,Global SCM Projektmanager - Prozessmanagement & SAP (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/global-scm-projektmanager-prozessmanagement-sap-m-w-d_251563-1643137.html,Memmingen,DE,0001,2026-07-21,,"Aufgaben
+Unsere Systeme machen den Unterschied. Bei Rohde & Schwarz arbeiten Sie an Lösungen mit echtem Impact – im Spannungsfeld aus über 90 Jahren Erfahrung, hoher Innovationskraft und außergewöhnlicher technologischer Bandbreite. Sie erwartet ein Umfeld mit Gestaltungsspielraum, Flexibilität und echten Entwicklungsmöglichkeiten.
+
+Aufgaben
+
+- Als Teamleiter (w/m/d) übernehmen Sie die fachliche und disziplinarische Führung eines wachsenden Entwicklungsteams in der Domäne Kommunikationsaufklärung und -störung (COMINT/CESM, CECM)
+
+- Sie sind verantwortlich für Projektleitung, Requirements Engineering, Architekturdefinition sowie Integration, Verifikation und Validierung auf Systemebene
+
+- Sie definieren eine nachhaltige und zukunftsgerichtete Entwicklungsstrategie zu Inhalten, Ressourcen und Zeit in enger Abstimmung mit Ihren internen Stakeholdern
+
+- Sie gestalten linienübergreifend die Weiterentwicklung von Prozessen und Methoden zur Architekturdefinition, insbesondere ModelBased Systems Engineering (MBSE)
+
+- Sie fördern die organisationsübergreifende Zusammenarbeit
+
+- Sie entwickeln und fördern Ihre Mitarbeiter im Rahmen des R&S Führungsverständnisses"
+full-stack-angular-java-cloud-developer_251563-1701440.html,"Full Stack Angular, Java Cloud Developer",https://www.rohde-schwarz.com/it/carriere/offerte/full-stack-angular-java-cloud-developer_251563-1701440.html,New Delhi,IN,0001,2026-10-15,,"Introduction
+
+Shape the future of cloud networking by building innovative, scalable software solutions that seamlessly integrate network management, automation, and modern web technologies. From architecture and development to deployment and optimization, you'll work with diverse teams to deliver impactful products that solve real-world customer challenges.
+
+Tasks
+
+- Network and Device Configuration | Cloud Feature Development
+
+- Development of the front-end and back-end of our web applications, with a focus on a modularized overall architecture.
+
+- Design and development of cloud-based networking management solutions in collaboration with interdisciplinary teams.
+
+- A view of the entire software: from design to development to customer acceptance testing.
+
+- Define RESTful APIs using OpenAPI 3.0 .
+
+- Understand problems from a broad technical domain, propose solutions, and evaluate and implement them.
+
+- Review code and ensure compliance with project standards.
+
+- Support CI/CD pipelines and automated deployments.
+
+- E2E testing (automated and manual) of new features.
+
+- Coordinate application concepts with stakeholders and experts.
+
+- Evaluate and integrate new frameworks and technologies."
+global-scm-projektmanager-prozessmanagement-sap-m-w-d_251563-1643137.html,Global SCM Projektmanager - Prozessmanagement & SAP (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/global-scm-projektmanager-prozessmanagement-sap-m-w-d_251563-1643137.html,Memmingen,DE,0001,2026-07-21,,"Einleitung
+
+Karriere bei Rohde & Schwarz in Memmingen
+
+Rohde & Schwarz steht seit über 90 Jahren für innovative Technologien, Qualität und nachhaltigen Erfolg. Der Standort Memmingen ist das zentrale Technologie- und Fertigungszentrum des Konzerns. Mit mehr als 2100 Mitarbeitenden vereint der Standort Entwicklung, Produktion, Prüfmitteltechnologie und Auslieferung und begleitet elektronische Produkte über ihren gesamten Lebenszyklus – von der Prototypenfertigung bis hin zum Service.
+
+Als international erfolgreiches Familienunternehmen bietet Rohde & Schwarz einen sicheren Arbeitsplatz und attraktive Rahmenbedingungen. Eine Vergütung nach dem Tarifvertrag der bayerischen Metall- und Elektroindustrie, eine 35-Stunden-Woche, vielfältige Weiterbildungsangebote und attraktive Zusatzleistungen bieten beste Voraussetzungen für eine langfristige berufliche Perspektive. Ergänzt wird das Angebot durch ein modernes Betriebsrestaurant und ein modernes Arbeitsumfeld, in dem technologische Innovation und Teamarbeit im Mittelpunkt stehen.
+
+Aufgaben
 
 - Leitung internationaler Projekte zur Standardisierung und Harmonisierung von SCM-Prozessen (End-to-End)
 
@@ -132,382 +170,428 @@ global-scm-projektmanager-prozessmanagement-sap-m-w-d_251563-1643137.html,Global
 - Monitoring und Reporting der Projektfortschritte mittels definierter KPIs sowie Einleitung von Corrective Actions
 
 - Unterstützung bei der Integration neuer Standorte sowie bei M&A-Projekten mit Fokus auf SCM-Prozesse"
-hausmeister-schreiner-m-w-d_251563-1698626.html,Hausmeister / Schreiner (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/hausmeister-schreiner-m-w-d_251563-1698626.html,Munich,DE,0001,2026-10-09,2026-12-31,"Einleitung
+hardware-engineer-synthesizer-rf-and-microwave-modules-m-f-d_251563-1646721.html,"Hardware Engineer Synthesizer, RF and Microwave Modules (m/f/d)",https://www.rohde-schwarz.com/it/carriere/offerte/hardware-engineer-synthesizer-rf-and-microwave-modules-m-f-d_251563-1646721.html,Munich,DE,0001,2026-07-24,2027-07-23,"Introduction
 
-Für unser Hausmeister-Team, das sich Tag für Tag um die operative Bewirtschaftung unserer Immobilien am Rohde & Schwarz Standort in München kümmert, suchen wir Verstärkung.
-
-Aufgaben
-
-- Durchführen von Kleinreparaturen
-
-- Montage und Reparatur von Küchen und Möbel
-
-- Unterstützung beim Auf- und Abbau für Veranstaltungen im Gebäude und im Außengelände sowie bei Umzügen
-
-- Begleitung und Einweisung von Fremdfirmen
-
-- Leistungsabnahme und Überwachung von Mängelbeseitigungen
-
-- Kundenorientierte Servicebetreuung"
-inside-sales-test-and-measurement-business-engagement-pre-sales_251563-1697408.html,"Inside Sales (Test and Measurement, Business Engagement, Pre-Sales)",https://www.rohde-schwarz.com/it/carriere/offerte/inside-sales-test-and-measurement-business-engagement-pre-sales_251563-1697408.html,Tokyo,JP,FULL_TIME,2026-10-07,,"- Engage with leads generated through marketing activities and various channels, and use phone calls, email, and online meetings to understand customer needs and create new business opportunities. In this role, you will contribute to expanding the sales pipeline and achieving revenue targets, while providing proactive support and outreach to drive customer success. We are therefore looking for someone with strong execution skills and the ability to learn products quickly.
-- Making initial contact with leads acquired through marketing activities and reaching out to prospective customers by phone, email, and other communication channels
-- Identifying customer needs and challenges through active listening
-- Generating sales opportunities and scheduling appointments
-- Identifying and re-engaging dormant customers
-- Inputting and managing data in CRM/SFA systems
-- Transferring qualified leads and opportunities to the field sales team
-- Following up with attendees of seminars and webinars
-- Managing KPIs and forecasts, including call volume, connection rate, and
-opportunity conversion rate
-- Sales process improvement"
-it-service-continuity-manager-itscm-it-security-auditor-m-w-d_251563-1684096.html,IT Service Continuity Manager (ITSCM) & IT Security Auditor (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/it-service-continuity-manager-itscm-it-security-auditor-m-w-d_251563-1684096.html,Munich,DE,0001,2026-09-17,,"Einleitung
-
-Stärke die Resilienz unserer IT-Landschaft und übernimm eine Schlüsselrolle bei IT-Notfallvorsorge, Service Continuity und Security Audits in einem internationalen High-Tech-Umfeld!
-
-Aufgaben
-
-- Du bist innerhalb von Rohde & Schwarz verantwortlich für den IT Service Continuity Management Prozess und entwickelst diesen kontinuierlich weiter.
-
-- IT-Notfallpläne und Wiederanlaufstrategien entwickelst du auf Basis relevanter Standards wie ISO/IEC 27031 oder BSI-Vorgaben und optimierst diese fortlaufend.
-
-- Im Rahmen von Business Impact Analysen identifizierst du kritische Systeme und definierst Anforderungen an Wiederherstellungszeiten sowie zulässige Datenverlustgrenzen.
-
-- Notfall- und Failover-Tests planst und koordinierst du, um die Wirksamkeit der Wiederherstellungsprozesse regelmäßig zu überprüfen.
-
-- In dieser Rolle arbeitest du eng mit dem Business Continuity Management, dem Informationssicherheitsmanagement sowie den verantwortlichen Service Ownern zusammen.
-
-- Die Einhaltung gesetzlicher, regulatorischer und vertraglicher Vorgaben, zum Beispiel NIS2, BSI-Grundschutz und ISO 27001, stellst du sicher.
-
-- Regelmäßig berichtest du an das Management über den Reifegrad der IT-Notfallvorsorge, erkennbare Risiken und notwendige Maßnahmen."
-koch-m-w-d_251563-1698054.html,Koch (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/koch-m-w-d_251563-1698054.html,Memmingen,DE,0001,2026-10-08,2027-01-31,"Einleitung
-
-Arbeitszeit von Montag bis Freitag von 6.00 bis 14.30 Uhr
-
-Aufgaben
-
-- Sie bereiten Speisen fachgerecht zu
-
-- Sie verpacken Speisen für den Verkauf außer Haus
-
-- Sie bestücken die Ausgabe mit warmen Speisen und halten diese auf Temperatur
-
-- Sie achten auf die Einhaltung von Hygiene- und Qualitätsstandards in der Küche
-
-- Sie wirken bei der Vor- und Zubereitung von Zutaten mit
-
-- Sie arbeiten eng mit dem Küchenteam zusammen, um einen reibungslosen Ablauf während der Ausgabezeiten sicherzustellen"
-ma-specialist-m-w-d_251563-1698944.html,M&A Specialist (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/ma-specialist-m-w-d_251563-1698944.html,Munich,DE,0001,2026-10-09,2027-10-18,"Einleitung
-
-Identifiziere die Wachstumsmärkte von morgen und präge unsere strategische Expansion in der Messtechnik.
-
-Aufgaben
-
-- Du identifizierst und bewertest systematisch potenzielle M&A-Targets auf Basis strategischer Inputs und analysierst Lücken im Produkt- und Technologieportfolio.
-
-- Du treibst tiefgehende Technologie-Analysen gemeinsam mit Experten voran, um die Innovationskraft und strategische Passgenauigkeit potenzieller Targets zu validieren.
-
-- Du entwickelst fundierte Business Cases und Unternehmensbewertungen und analysierst die wesentlichen Kaufpreistreiber und Synergiepotentiale.
-
-- Du erstellst präzise Entscheidungsvorlagen für das Management, in denen Du die strategische Logik, das Wettbewerbsumfeld und die Integrationsplanung zusammenfasst.
-
-- Du steuerst das Projektmanagement für M&A-Initiativen und koordinierst die funktionsübergreifenden Beiträge aus den Bereichen R&D, Finance und Sales während der Due Diligence und arbeitest dabei eng mit der zentralen Corporate-M&A-Abteilung zusammen.
-
-- Du begleitest die Post-Merger-Integration und stellst die Realisierung der definierten Business-Plan-Ziele sicher."
-microsoft-application-developer_251563-1699072.html,Microsoft Application Developer,https://www.rohde-schwarz.com/it/carriere/offerte/microsoft-application-developer_251563-1699072.html,Bangalore,IN,FULL_TIME,2026-10-09,,"- Design and implement applications within Microsoft Technology Stack preferably C# (DotNet), React / Angular, LowCode Power Platform
-- Resolve incidents and implement change requests using ServiceNow
-- Document application development process, including design specifications, test cases and user guides
-- Perform quality testing and maintain quality control
-- Perform deployments and release management - regularly meet/align with IT PM/PO and DevOps Team"
-procesni-inzenyr-senior-specialista-smt-m-z_251563-1696833.html,Procesní inženýr senior / Specialista SMT (m/ž),https://www.rohde-schwarz.com/it/carriere/offerte/procesni-inzenyr-senior-specialista-smt-m-z_251563-1696833.html,Vimperk,CZ,0001,2026-10-06,2027-12-31,"Úvod
-
-Technologický koncern Rohde & Schwarz patří se svými špičkovými řešeními v oblasti testování a měření, technologických systémů, sítí a kybernetické bezpečnosti mezi průkopníky v budování bezpečnějšího a propojenějšího světa. Společnost byla založena před 90 lety a je celosvětově spolehlivým partnerem pro zajištění průmyslových i vládních zakázek.
-
-ROHDE & SCHWARZ závod Vimperk s.r.o. je součástí celosvětového koncernu R&S, nachází se v jižních Čechách a v současné době má více než 1000 zaměstnanců, čímž se řadí mezi nejvýznamnější zaměstnavatele regionu.
-
-Pozice vhodná pro absolventy VŠ se zaměřením na elektro.
-
-Úkoly
-
-- Technologický dohled nad SMD/THT procesy
-
-- Zavádění nových technologií, metod a materiálů
-
-- Spolupráce s technickými univerzitami
-
-- Spolupráce s týmy R&D a kvality na náběhu nových produktů
-
-- Práce s nejmodernějšími SMD součástkami a pájecími technologiemi SMT a THT
-
-Kvalifikace
-
-- Prokazatelnou praxi s technologiemi osazování SMT a THT
-
-- Výbornou znalost reflow, wave a selective soldering procesů
-
-- Znalost měkkého pájení, mechanismů tvorby intermetalických vrstev a degradace spojů
-
-- Schopnost optimalizovat výrobní procesy a řešit komplexní technologické problémy
-
-- Schopnost vést technologické projekty a nastavovat nové procesy
-
-- Minimálně jeden cizí jazyk (AJ/NJ) na komunikativní úrovni (samostatné prezentace technických témat a aktivní účast v mezinárodních týmech)
-
-Kontakt a další informace
-
-Atraktivní finanční ohodnocení, průměrný měsíční plat 70.000 - 100.000 Kč / měsíc.
-
-Perspektivní a zajímavá práce ve stabilní společnosti s možností kariérního růstu.
-
-Bonusy/prémie; dovolená 5 týdnů; firemní akce; firemní školka; flexibilní začátek/konec pracovní doby; možnost občasné práce z domova; nadstandardní lékařská péče; příspěvek na dopravu; příspěvek na penzijní/životní připojištění; sleva na firemní výrobky/služby; stravenky/příspěvek na stravování; vzdělávací kurzy; školení; zahraniční pracovní cesty; zdravotní volno/sickdays; zvýhodněné půjčky zaměstnancům; závodní stravování
-
-BENEFITY
-
-*5 týdnů dovolené * mimořádná volna (zdravotní dny, dodatečné volno pro rodiče s dětmi do 15 let, na svatbu, stěhování aj.) * flexibilní pracovní doba a možnost částečné práce z domova (home office) u vybraných profesí * podpora bydlení * stravování ve firemní restauraci, obědy od 30 Kč * firemní školka * kulturní, sportovní a zdravotní akce dary při životních výročích
-
-Pokud se chcete dozvědět více, pak se těšíme na zaslání Vašeho životopisu!
-
-Máte-li jakékoli dotazy, vždy se můžete obrátit na personalistu naší společnosti, paní Kateřina Koubovou.
-
-Kontakt: Kateřina Koubová, tel. 388 452 693, katerina.koubova@rohde-schwarz.com"
-production-lead-frederick-md_251563-1697729.html,"Production Lead - Frederick, MD",https://www.rohde-schwarz.com/it/carriere/offerte/production-lead-frederick-md_251563-1697729.html,Frederick,US,,2026-10-08,,"- Lead, support a team of technicians.
-- Coordinate daily workflows to meet production deadlines.
-- Provide support to staff.
-- Ensure all items delivered to production are labeled and sub-assemblies are properly built per wiring schematics.
-- Enforce a rigorous Quality Assurance (QA) checklist for final inspection eliminating errors or hardware misplacements.
-- Coordinate with the warehouse to ensure all necessary components are available for scheduled builds.
-- Provide regular progress reports to the Production Supervisor regarding throughput and bottleneck issues.
-- Utilize LEAN practices to support continuous improvement throughout the process."
-projektmanager-global-order-management-internationale-kundenprojekte-m-w-d_251563-1631850.html,Projektmanager Global Order Management - internationale Kundenprojekte (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/projektmanager-global-order-management-internationale-kundenprojekte-m-w-d_251563-1631850.html,Memmingen,DE,0001,2026-07-06,,"Einleitung
-
-Karriere bei Rohde & Schwarz in Memmingen
-
-Rohde & Schwarz steht seit über 90 Jahren für innovative Technologien, Qualität und nachhaltigen Erfolg. Der Standort Memmingen ist das zentrale Technologie- und Fertigungszentrum des Konzerns. Mit mehr als 2100 Mitarbeitenden vereint der Standort Entwicklung, Produktion, Prüfmitteltechnologie und Auslieferung und begleitet elektronische Produkte über ihren gesamten Lebenszyklus – von der Prototypenfertigung bis hin zum Service.
-
-Als international erfolgreiches Familienunternehmen bietet Rohde & Schwarz einen sicheren Arbeitsplatz und attraktive Rahmenbedingungen. Eine Vergütung nach dem Tarifvertrag der bayerischen Metall- und Elektroindustrie, eine 35-Stunden-Woche, vielfältige Weiterbildungsangebote und attraktive Zusatzleistungen bieten beste Voraussetzungen für eine langfristige berufliche Perspektive. Ergänzt wird das Angebot durch ein modernes Betriebsrestaurant und ein modernes Arbeitsumfeld, in dem technologische Innovation und Teamarbeit im Mittelpunkt stehen.
-
-Aufgaben
-
-- Leitung von Projekten im Supply Chain Management mit Fokus auf Order Management, inklusive strukturierter Ergebnispräsentation auf Managementebene
-
-- Gestaltung, Einführung und Weiterentwicklung von kaufmännischen Prozessen auf globaler Ebene anhand von Lean-Prinzipien
-
-- Durchführung von Prozessanalysen sowie Identifikation von Optimierungsbedarfen und -maßnahmen
-
-- Definition von Anforderungen an IT-Tools (z. B. SAP, KI-Agenten) sowie Koordination von Tests und Anwenderschulungen in enger Abstimmung mit Fachbereichen, internationalen Niederlassungen und Prinzipalen
-
-- Steuerung und Umsetzung von End-to-End-Rollouts neuer Prozesse und Systeme in Zusammenarbeit mit internen und externen Kunden
-
-- Methodische Begleitung des Störungs- und Abweichungsmanagements der Wertströme"
-qualifizierte-fachkraft-mikroelektronik-fertigung-m-w-d_251563-1698055.html,Qualifizierte Fachkraft Mikroelektronik-Fertigung (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/qualifizierte-fachkraft-mikroelektronik-fertigung-m-w-d_251563-1698055.html,Memmingen,DE,0001,2026-10-08,2027-10-07,"Einleitung
-
-Karriere bei Rohde & Schwarz in Memmingen
-
-Rohde & Schwarz steht seit über 90 Jahren für innovative Technologien, Qualität und nachhaltigen Erfolg. Der Standort Memmingen ist das zentrale Technologie- und Fertigungszentrum des Konzerns. Mit mehr als 2100 Mitarbeitenden vereint der Standort Entwicklung, Produktion, Prüfmitteltechnologie und Auslieferung und begleitet elektronische Produkte über ihren gesamten Lebenszyklus – von der Prototypenfertigung bis hin zum Service.
-
-Als international erfolgreiches Familienunternehmen bietet Rohde & Schwarz einen sicheren Arbeitsplatz und attraktive Rahmenbedingungen. Eine Vergütung nach dem Tarifvertrag der bayerischen Metall- und Elektroindustrie, eine 35-Stunden-Woche, vielfältige Weiterbildungsangebote und attraktive Zusatzleistungen bieten beste Voraussetzungen für eine langfristige berufliche Perspektive. Ergänzt wird das Angebot durch ein modernes Betriebsrestaurant und ein modernes Arbeitsumfeld, in dem technologische Innovation und Teamarbeit im Mittelpunkt stehen.
-
-Aufgaben
-
-- Fertigung von hochpräzisen Mikroelektronik-Komponenten unter dem Mikroskop
-
-- Bedienung von hochgenauen Fertigungsmaschinen und Montage von Komponenten zu komplexen Hochfrequenz-Baugruppen
-
-- Sehr hohe Qualitäts- und Prozessverantwortung in den jeweiligen Montageprozessen
-
-- Enge Zusammenarbeit und gegenseitige Unterstützung im Team zur Sicherstellung eines reibungslosen Fertigungsablaufs"
-senior-platform-and-test-infrastructure-engineer-columbia-md_251563-1698368.html,"Senior Platform and Test Infrastructure Engineer - Columbia, MD",https://www.rohde-schwarz.com/it/carriere/offerte/senior-platform-and-test-infrastructure-engineer-columbia-md_251563-1698368.html,Columbia,US,,2026-10-09,,"- Integration / Verification & Validation / DevOps – Senior individual contributor providing key functions and insights in the ATL organization focusing on systems integration and continuous verification.
-- Cross functional Engineering – Supporting HW, SW, Project engineering, product management, and engineering leadership
-- Building integration, test, deployment and verification models
-- Hands-on development – Building automated hardware-orchestration, lab infrastructure, HIL, and deployment pipelines that bridge the gab- between code commits and physical hardware verification, observability and testability
-- Operate across HW/SW boundaries rather than function as a traditional IT or cloud DevOps engineer"
-senior-rf-device-development-engineer-subproject-lead-m-w-d_251563-1696832.html,Senior RF Device Development Engineer & Subproject Lead (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/senior-rf-device-development-engineer-subproject-lead-m-w-d_251563-1696832.html,Munich,DE,0001,2026-10-06,,"Einleitung
-
-Entwickle mit deiner HF-Expertise die vektoriellen Netzwerkanalysatoren der nächsten Generation.
-
-Aufgaben
-
-- In einem interdisziplinären Team arbeitest du an der Entwicklung vektorieller Netzwerkanalysatoren der nächsten Generation.
-
-- Zu deinen zentralen Aufgaben gehören die Konzepterstellung, Entwicklung, Integration, Performance-Optimierung und Qualifikationsprüfung der VNA-Geräte.
-
-- Neue Hardware- und Softwaremodule begleitest du während der Entwicklung und übernimmst deren Integration ins Gerät.
-
-- Dabei arbeitest du eng und standortübergreifend mit Kolleginnen und Kollegen aus Hardware, Software, FPGA-Entwicklung und Konstruktion zusammen.
-
-- Den gesamten Produktentstehungsprozess begleitest du von der Konzeptphase über den Prototypenaufbau bis zur Überführung in die Serienfertigung und arbeitest dabei eng mit NPI und Fertigung zusammen.
-
-- Bei Bedarf übernimmst du Teilprojektleitungen, koordinierst die Zusammenarbeit mit Fachdisziplinen wie Applikationsengineering und Produktmanagement und bringst eigene Ideen aktiv in den Innovationsprozess ein."
-smd-produktionsbetreuer-m-w-d_251563-1697920.html,SMD Produktionsbetreuer (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/smd-produktionsbetreuer-m-w-d_251563-1697920.html,Memmingen,DE,0001,2026-10-08,2027-10-31,"Einleitung
-
-Aufgaben
-
-- Erstellen, Anlegen und Optimieren von Programmen für das 3D-AOI / SPI Prüfsystem und ggf. für die SMD-Linien
-
-- Betreuen des Bedienpersonals an den 3D Prüfsystemen
-
-- Bewerten von Prüfergebnissen, Ableiten von Qualitätsmaßnahmen und Erstellen von Auswertungen zur Fehlerursachenanalyse
-
-- Selbständiges Einstellen von Maschinen und Anlagen, d.h. Fertigungsfähigkeit herstellen unter Berücksichtigung bzw. Einstellung der notwendigen Parameter
-
-- Beheben von Störungen und Problemen bei der Fertigung, Ermittlung der Ursachen und Verfassen einer Störungsbeschreibung
-
-- Mitwirkung bei Prozessoptimierung im Rahmen von KVP und Shopfloormanagement
-
-- Durchführung von autonomen Wartungstätigkeiten"
-testjob-apac_251563-1697601.html,Testjob APAC,https://www.rohde-schwarz.com/it/carriere/offerte/testjob-apac_251563-1697601.html,New Delhi,IN,0001,2026-10-07,,"Introduction
-
-Please note: This is a test job, please do not apply!
-
-You will be contributing to leading-edge, real-life projects. You will experience the full software lifecycle in a dynamic, fast-paced and supportive work environment, including previous placement students and industry experts. What our previous placement students say: “My placement experience was nothing short of transformative, thanks to the incredible connectivity team. From day one, they welcomed me with open arms, creating an environment that felt like a second home. Their expertise and passion for teaching not only elevated my knowledge but also inspired me to push my boundaries. Each interaction was filled with warmth and encouragement, making learning not just effective but genuinely enjoyable. I am profoundly grateful for the amazing people I had the privilege to work alongside, as they turned what could have been a daunting experience into an unforgettable journey of growth and camaraderie.”
+Develop synthesizers and microwave assemblies that form the heart of precise signal generators - from concept to series production.
 
 Tasks
 
-As a member of our Connectivity development team, your key responsibilities will include:
+- You design and develop synthesizer and microwave modules for use in signal generators
 
-- Supporting the design and implementation of specific measurement applications running on various R&S instruments and development of test procedures to ensure proper operation of those features.
+- You perform system simulations and create circuit designs with simulation tools such as AWR-MWO, CST and Spice
 
-- Working with cutting edge communication standards with focus on Bluetooth and WLAN.
+- You support the layout creation, put modules and verify specifications through measurement
 
-- Engaging in the full product lifecycle, from initial requirements gathering through to product release and customer support.
+- You define software algorithms for the operation of modules within the device as well as test algorithms for series production
 
-- Assisting in the architecture development for future projects and standards.
+- You integrate the developed hardware into the overall device and ensure functionality within the system environment
 
-- Collaborating with industry experts in the UK and Germany to gain knowledge of the latest and upcoming wireless and telecommunication technologies.
+- You work closely with supporting development departments, for example in FPGA implementations, microwave substrates or ASIC developments"
+hardware-teilprojektleiter-m-w-d_251563-1699776.html,Hardware Teilprojektleiter (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/hardware-teilprojektleiter-m-w-d_251563-1699776.html,Stuttgart,DE,0001,2026-10-12,,"Einleitung
 
-- Working independently or collaboratively in a dynamic environment as part of a larger team, depending on your current tasks.
-
-- Participating in ongoing improvement and innovation initiatives within the team."
-vice-president-marketing-brand-m-w-d_251563-1697921.html,Vice President Marketing & Brand (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/vice-president-marketing-brand-m-w-d_251563-1697921.html,Munich,DE,0001,2026-10-08,,"Einleitung
-
-Als Vice President Marketing & Brand übernehmen Sie die unternehmensweite Verantwortung für Marke, Media sowie Messen und Events. Sie legen die strategische Richtung fest und setzen sie gemeinsam mit den Geschäftsbereichen konsequent um.
+Übernimm als Teilprojektleiter Hardware Verantwortung für innovative Lösungen und führe dein Team von der ersten Idee bis zur erfolgreichen Umsetzung.
 
 Aufgaben
 
-- In dieser Rolle leiten Sie die Marken- und Marketingstrategie aus den Unternehmenszielen ab, stimmen sie mit den Geschäftsbereichen ab und sorgen für eine konsequente Umsetzung.
+• Du steuerst fachlich Hardware-Teilprojekten für softwarebasierte Funkgeräte von der Konzeption bis zur Serienfertigung in einem verteilten Entwicklungsteam.
 
-- Sie verantworten Markenarchitektur, Corporate Design, Regelwerke und Freigaben und entwickeln eine gemeinsame Positionierung mit überzeugenden Narrativen über alle Geschäftsfelder hinweg.
+• Du wendest agile Entwicklungsmethoden zur Teilprojektsteuerung an und bereitest technische Entscheidungsvorlagen sowie Make-or-Buy-Entscheidungen vor.
 
-- Sie steuern die Mediastrategie über Paid, Owned und Earned Media, etablieren einheitliche Standards und KPIs und verantworten Agenturen und Budgets.
+• Du wirkst bei der Hardware-Konzeptionierung von softwarebasierten Funkgeräten mit.
 
-- Ebenso steuern Sie das unternehmensweite Messe- und Eventportfolio und gestalten die strategischen Leitauftritte.
+• Du optimierst Herstell- und Fertigungskosten und legst Schnittstellen fest und erstellst deren Spezifikation.
 
-- Sie bauen datenbasiertes Marketing, Datengrundlage und KPI-Logik aus und setzen KI dort ein, wo sie Qualität, Geschwindigkeit oder Reichweite messbar verbessert.
+• Du unterstützt die Integrations- und Qualifikationsplanung von Baugruppen und Gesamtgerät.
 
-- Sie stärken die Marketingteams der Geschäftsbereiche und etablieren gemeinsame Standards und Planungsprozesse.
+• Du begleitest die Fertigungsüberführung und die Fertigungsbetreuung bis zur Produktpflege."
+ideenmanager-m-w-d_251563-1700550.html,Ideenmanager (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/ideenmanager-m-w-d_251563-1700550.html,Teisnach,DE,0001,2026-10-13,,"Einleitung
 
-- Sie beraten Geschäftsführung, Divisionen und Geschäftsbereichen auf Augenhöhe und führen Ihre Teams mit Klarheit, Fachkompetenz und Vertrauen."
-vice-president-talent-acquisition-m-w-d_251563-1663936.html,Vice President Talent Acquisition (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/vice-president-talent-acquisition-m-w-d_251563-1663936.html,Munich,DE,0001,2026-08-20,,"Einleitung
-
-Gestalten Sie die Zukunft unserer globalen Talent Acquisition: Als Vice President Talent Acquisition (m/w/d) entwickeln Sie unsere globale Talent-Strategie weiter und skalieren erfolgreiche Ansätze international – im Einklang mit den Wachstumszielen von Rohde & Schwarz.
+Karrierestart bei Rohde & Schwarz – einem sicheren und globalen Familienunternehmen mit über 90 Jahren Erfahrung. Eine attraktive Vergütung nach dem Tarifvertrag der bayerischen Metall- und Elektroindustrie, langfristige Jobsicherheit, vielfältige Weiterbildungsmöglichkeiten sowie ein modernes Arbeitsumfeld mit Betriebsrestaurant bieten optimale Rahmenbedingungen. Werde Teil eines starken Teams und arbeite an innovativen Projekten für die Technologien von morgen.
 
 Aufgaben
 
-- In dieser Rolle übernehmen Sie die fachliche und disziplinarische Leitung unseres global ausgerichteten HR Centers of Competence – mit vier Führungskräften und rund 50 Mitarbeitenden in den Bereichen Employer Branding, Talent Relationship Management, Recruiting, University Marketing & Recruiting, Onboarding und Talent Acquisition Operations.
+- Bearbeitung von Ideen im Rahmen des R&S Ideenmanagements
 
-- Sie entwickeln die globale Talent-Acquisition-Strategie kontinuierlich weiter und stellen sicher, dass das Employer Branding, Talent Relationship Management, Recruiting und Onboarding national wie international konsistent, modern und zielgruppengerecht ausgerichtet sind.
+- Erstbewertung der Ideen von der Priorisierung bis zur Unterstützung bei der Umsetzung von Vorschlägen
 
-- Gemeinsam mit Ihrem Team entwickeln Sie unsere Arbeitgeberpositionierung weiter und bauen nachhaltige Talent Pipelines für unterschiedliche Zielgruppen, Regionen und strategische Kompetenzfelder auf.
+- Durchführung von umfangreichen kaufmännischen und teils technischen Klärungen hinsichtlich der Umsetzbarkeit von Ideen
 
-- Sie treiben die Weiterentwicklung und globale Implementierung skalierbarer Talent-Acquisition-Prozesse, Standards und Tools voran und stellen deren erfolgreiche Anwendung in unseren internationalen, dezentralen Strukturen sicher – unter Berücksichtigung lokaler und kultureller Besonderheiten sowie rechtlicher und mitbestimmungsrechtlicher Anforderungen.
+- Organisation und Moderation der Bewertungssitzungen bzw. Kreativworkshops zur Analyse und Diskussion eingereichter Ideen, inklusive der Dokumentation der Ergebnisse
 
-- Sie prägen eine inklusive Führungskultur, entwickeln Ihre Führungskräfte und Mitarbeitende gezielt weiter und stärken Eigenverantwortung, globale Vernetzung sowie den Austausch bewährter Lösungen über Länder- und Organisationsgrenzen hinweg.
+- Durchführung von Berechnungen zur Identifizierung der Einsparungspotenziale
 
-- Sie beobachten internationale Trends im Talent-Acquisition-Umfeld und leiten daraus strategische Handlungsfelder für Rohde & Schwarz ab.
+- Entwicklung, Priorisierung und eigenverantwortliche Umsetzung von Konzepten im Ideenmanagement z.B. Weihnachtsaktion
 
-- Ebenso arbeiten Sie eng mit der HR-Business-Partner-Organisation, weiteren HR Centers of Competence und dem internationalen HR Management Team zusammen, gestalten gemeinsam die Umsetzung der globalen HR-Roadmap mit und bringen relevante Themen mit dem Senior Management voran – stets mit dem Ziel, unsere Talent-Acquisition-Strategie konsequent mit den internationalen Geschäfts- und Wachstumszielen zu verknüpfen."
-warehouse-associate-coppell-tx_251563-1697728.html,"Warehouse Associate - Coppell, TX",https://www.rohde-schwarz.com/it/carriere/offerte/warehouse-associate-coppell-tx_251563-1697728.html,Coppell,US,,2026-10-08,,"- Inventory Picking: Accurately pull inventory items (raw materials, components, etc.) from designated warehouse locations according to production job travelers (pick list).
-- SAP Transactions: Perform all required transactions in SAP to accurately record the movement of inventory, including issuing materials to production orders.
-- Accuracy & Verification: Double-check all picked items against the job traveler to ensure accuracy and completeness before delivery to the production floor.
-- Stand-Up Forklift Operation: Safely and efficiently operate a stand-up forklift to move and locate inventory within the warehouse (certification required or provided).
-- Warehouse Organization: Maintain a clean, organized, and safe warehouse environment.
-- Inventory Control: Assist with cycle counts and physical inventory audits as needed.
-- Material Handling: Properly handle and package materials to prevent damage during transport.
-- Adherence to Safety Procedures: Strictly adhere to all safety guidelines and procedures.
-- Communication: Communicate effectively with team members and supervisors regarding any inventory discrepancies or issues."
-werkstudent-av-media-m-w-d_251563-1696834.html,Werkstudent AV-Media (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/werkstudent-av-media-m-w-d_251563-1696834.html,Munich,DE,0002,2026-10-06,,"Einleitung
+- Unterstützung bei der strategischen Weiterentwicklung des Ideenmanagements
 
-Verstärke unseren Bereich Marketing & Kommunikation in München (Deutschland) zum nächstmöglichen Zeitpunkt.
+- Auswertung von Kennzahlen sowie Erstellung übergreifender Berichte zur Kommunikation von umgesetzten Ideen
 
-Aufgaben
+- Ansprechpartner und Supportfunktion gegenüber Schnittstellenpartnern
 
-- Du unterstützt die Produktion unserer AV-Kommunikationsmedien wie Produkt- und Applikationsvideos, Werbevideos sowie Veranstaltungs- und Messereportagen im hauseigenen Videostudio
+Qualifikationen
 
-- Du wirkst eigenständig an Schnittarbeiten und der Postproduktion verschiedener Videoformate mit
+- Abgeschlossene Ausbildung als Industriekauffrau/-mann oder vergleichbar
 
-- Du trägst zur Durchführung einfacher Studiosendungen bei, einschließlich Aufzeichnungen und ggf. Livesendungen der genannten AV-Medien
+- Berufserfahrung im Bereich Ideenmanagement oder in verwandten Bereichen
 
-- Du unterstützt die Kameraarbeit und Kameraführung im Videostudio
+- Ausgeprägte Kommunikations- und Moderationsfähigkeiten
 
-- Du beteiligst dich an allgemeinen, unterstützenden Tätigkeiten im Videostudio wie der Vorbereitung und Pflege des Equipments"
-werkstudent-corporate-strategy-m-w-d_251563-1697671.html,Werkstudent Corporate Strategy (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/werkstudent-corporate-strategy-m-w-d_251563-1697671.html,Munich,DE,0002,2026-10-07,,"Einleitung
+- Kreativität und ein hohes Maß an Teamfähigkeit
 
-Verstärke unseren Bereich Strategie und Projektmanagement in München (Deutschland) ab 01.12.2026.
+- Routinierter Umgang mit MS Office und Präsentationstools
 
-Aufgaben
+- Gute Deutsch- und Englischkenntnisse in Wort und Schrift
 
-- Du wirkst an strategischen Fragestellungen auf Konzern-, Business- und Funktionsebene mit, z.B. bei strategischer Neuausrichtung, Szenarioplanung, Performance-Verbesserung, Growth-Strategien oder strategischen Partnerschaften
+- Selbstständige, zielorientierte Arbeitsweise sowie überdurchschnittliche Einsatzbereitschaft
 
-- Du unterstützt das Team bei der Bearbeitung von Arbeitspaketen, einschließlich Analyse, Strukturierung und Aufbereitung von Ergebnissen
+Kontakt und weitere Informationen
 
-- Du arbeitest an der Erstellung von Entscheidungsvorlagen, Strategiepapers, Szenarien und Management-Präsentationen mit
+Bewerben Sie sich bitte vorzugsweise online bei Rohde & Schwarz GmbH & Co. KG, Frau Sabrina Kuchler. Fragen beantwortet Ihnen unser Recruitingteam gerne unter: +49 9923 85 72108.
 
-- Du trägst zur Erstellung datenbasierter Analysen als Grundlage für Management-Entscheidungen bei
+Wir fördern Chancengleichheit und begrüßen Bewerbungen von Menschen mit und ohne Behinderung. Wir bieten eine inklusive Arbeitsumgebung, in der alle Menschen ihre Fähigkeiten und Talente entfalten können, unabhängig von Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion, Weltanschauung, Alter, sexueller Orientierung, Identität und anderen Merkmalen."
+intern-near-field-antenna-measurement-algorithms-m-f-d_251563-1699777.html,Intern near field antenna measurement algorithms (m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/intern-near-field-antenna-measurement-algorithms-m-f-d_251563-1699777.html,Munich,DE,0002,2026-10-12,,"Introduction
 
-- Du wirkst bei der Vorbereitung und Durchführung von Strategie-Workshops, Entscheidungsformaten und regelmäßigen Management-Jour-fixes mit
-
-- Du arbeitest eng mit dem Strategie-Team in einem analytisch geprägten, ex-beratertypischen Arbeitsumfeld zusammen
-
-- Du unterstützt das Team durch die Co-Präsentation von Ergebnissen gegenüber Senior Strategy und Top-Management
-
-- Du unterstützt bei PMO-Aufgaben wie Organisation, Terminsteuerung, Dokumentation und administrativen Tätigkeiten"
-werkstudent-softwareentwicklung-cad-automatisierung-m-w-d_251563-1696896.html,Werkstudent Softwareentwicklung & CAD-Automatisierung (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/werkstudent-softwareentwicklung-cad-automatisierung-m-w-d_251563-1696896.html,Munich,DE,0002,2026-10-06,,"Einleitung
-
-Verstärke unseren Bereich Information- und Business Technology in München (Deutschland) zum nächstmöglichen Zeitpunkt.
-
-Aufgaben
-
-- Du wirkst mit C# und NXOpen an der Entwicklung leistungsstarker API-Tools mit, die unser Siemens Designcenter (NX) auf das nächste Level heben
-
-- Du unterstützt durch intelligente Automatisierung die Weiterentwicklung unseres CAD-Systems und trägst dazu bei, Konstruktions- sowie Fertigungsprozesse effizienter zu gestalten
-
-- Du arbeitest mit modernen GitLab CI/CD-Pipelines an der automatisierten Prüfung sowie Bereitstellung unserer Software mit
-
-- Du beteiligst dich an der Erforschung und Implementierung KI-gestützter PMI-Erzeugung und unterstützt so die Integration Künstlicher Intelligenz in den CAD-Alltag
-
-- Du trägst zur Erstellung kleinerer Tools, Skripte und Automatisierungsworkflows bei, die den Alltag der Konstrukteure erleichtern
-
-- Du unterstützt bei der Aufbereitung, Strukturierung und Validierung technischer Informationen für die Nutzung von KI-Agenten"
-working-student-full-stack-web-developer-m-f-d_251563-1697472.html,Working Student Full-Stack Web Developer (m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/working-student-full-stack-web-developer-m-f-d_251563-1697472.html,Munich,DE,0002,2026-10-07,,"Introduction
-
-Join our Customer Application Division in Munich (Germany) at the earliest possible date.
+Join our Test and Measurement Division in München (Germany) at the earliest possible date.
 
 Tasks
 
-- You contribute to the development of frontend components using HTML, CSS, and JavaScript libraries and frameworks such as React and Angular
+- Creation of electromagnetic simulations using CST Microwave Studio
 
-- You collaborate with colleagues in an international agile team and work with tools such as GitLab, Jira, and Confluence
+- Programming of a flexible Matlab-environment to study the uncertainty of near-field to far-field transformations
 
-- You help create client-side web components that can be easily integrated into other applications
+- Evaluation of different near-field to far-field algorithms and ground effects (PEC, dielectric)
 
-- You take part in the design and implementation of new cloud solutions
+- Reconstruction of the power density"
+junior-professional-m-w-d-obsoleszenzmanagement_251563-1701056.html,Junior Professional (m/w/d) Obsoleszenzmanagement,https://www.rohde-schwarz.com/it/carriere/offerte/junior-professional-m-w-d-obsoleszenzmanagement_251563-1701056.html,Teisnach,DE,0001,2026-10-14,,"Einleitung
 
-- You use Storybook to develop, test, and document UI components in isolation, helping to ensure consistency and reusability across the application
+Karrierestart bei Rohde & Schwarz – einem sicheren und globalen Familienunternehmen mit über 90 Jahren Erfahrung. Eine attraktive Vergütung nach dem Tarifvertrag der bayerischen Metall- und Elektroindustrie, langfristige Jobsicherheit, vielfältige Weiterbildungsmöglichkeiten sowie ein modernes Arbeitsumfeld mit Betriebsrestaurant bieten optimale Rahmenbedingungen. Werde Teil eines starken Teams und arbeite an innovativen Projekten für die Technologien von morgen.
 
-- You contribute to the ongoing development of web and cloud applications by implementing technical concepts, feature requests, and new customer requirements"
-working-student-simulation-tools-m-f-d_251563-1697603.html,Working Student Simulation Tools (m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/working-student-simulation-tools-m-f-d_251563-1697603.html,Munich,DE,0002,2026-10-07,,"Introduction
+Aufgaben
 
-Join our Information and Business Technology Division in Munich (Germany) at the earliest possible date.
+- Planung und Erstellung von komplexen Obsoleszenzkonzepten für Service-Projekte (""advanced""/""complex"") inkl. Qualitätssicherung und Lieferung
+
+- Schaffung der Rahmenbedingungen zur Ableistung der Kundenanforderungen
+
+- Beratung der Kunden und internen Partner im Bereich Obsoleszenzmanagement
+
+- Mitarbeit in den Kundenprojekten unter Nutzung der Schnittstellen zu Integrated Logistic Support (ILS), Kundenprojektleitung, Engineering und Design-Abteilungen
+
+- Schnittstellenfunktion zu Einkauf, Engineering, Kundenprojektleitung, Systemintegration und Produktmanagement
+
+- Planung von Arbeitspaketen hinsichtlich Zeit und Aufwand in enger Abstimmung mit dem Workpackage Management, sowie Sicherstellung der Qualität der einzelnen Arbeitspakete
+
+- Mitarbeit in internen Projekten zur Verbesserung der Prozesse und der angewendeten Werkzeuge"
+lean-expert-im-bereich-hr-m-w-d_251563-1700865.html,Lean Expert im Bereich HR (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/lean-expert-im-bereich-hr-m-w-d_251563-1700865.html,Munich,DE,0001,2026-10-14,,"Einleitung
+
+Du willst Veränderung nicht nur begleiten, sondern nachhaltig verankern? Dann gestalte mit uns eine starke Lean-Kultur im HR-Bereich und entwickle Prozesse, Strukturen und Arbeitsweisen kontinuierlich weiter.
+
+Aufgaben
+
+- Du machst mit den Menschen vor Ort Ist-Zustand, Kundenbedarf, Abweichungen und Ursachen sichtbar.
+
+- Du coachst Führung und Teams dabei, Zielzustände zu formulieren und Probleme strukturiert selbst zu bearbeiten.
+
+- Du gestaltest Experimente, Reviews und Lernroutinen so, dass Erkenntnisse in den Arbeitsalltag zurückfließen.
+
+- Du entwickelst Standards mit den Prozessverantwortlichen und stärkst ihre Fähigkeit, diese weiterzuentwickeln.
+
+- Du überträgst Moderation und Steuerung schrittweise an Führung und Teams und prüfst die Wirkung nach dem Vorhaben.
+
+- Du bringst Erfahrungen in die Lean Community ein und entwickelst mit ihr Framework, Methoden, Tools, Standards und Trainings weiter."
+senior-business-development-manager-sigint-and-ew-for-the-danish-market_251563-1700867.html,Senior Business Development Manager - SIGINT and EW for the Danish Market,https://www.rohde-schwarz.com/it/carriere/offerte/senior-business-development-manager-sigint-and-ew-for-the-danish-market_251563-1700867.html,Herlev,DK,0001,2026-10-14,,"Introduction
+
+About the job
+
+In the fast-paced and ever-changing landscape of modern warfare, control over the electromagnetic spectrum (EMS) is critical to mission success. Your job is to accelerate the Danish Defence transformation into a fighting force fully utilizing Signals Intelligence (SIGINT) and Electronic Warfare (EW) both at the strategic and tactical level – and turn that expertise into real commercial impact. This is a rare opportunity to bridge the world of military operations and cutting-edge defence technology, working with solutions that are already trusted by armed forces across the world.
 
 Tasks
 
-- You support the further development and automation of internal software solutions
+The job: Drive growth in the Danish defence market
 
-- You help with the integration and operation of container-based environments
+As Senior Business Development Manager for the Danish market, you are responsible for driving revenue growth and expanding Rohde & Schwarz’s footprint within the Danish Defence and relevant government stakeholders. You own key accounts and opportunities, identify, pursue and support sales opportunities for SIGINT and EW solutions, and execute sales strategies in close collaboration with the Nordic sales organisation.
 
-- You contribute to the provision and maintenance of services and applications
+Key Responsibilities
 
-- You collaborate on the development of helper programs and converters for technical workflows
+- Own and develop a portfolio of defence and government accounts in Denmark, with responsibility for achieving sales targets and contributing to Nordic growth objectives
 
-- You take part in the use of modern development and collaboration tools such as Git and Jira
+- Identify, pursue and support sales opportunities for SIGINT and EW solutions across Danish Defence and relevant government sectors
 
-- You support the team with documentation and testing activities"
+- Build and maintain strong, trusted relationships with the Danish Armed Forces, the Danish Defence Acquisition and Logistics Organisation (DALO), government stakeholders and industry partners
+
+- Execute account plans, sales activities, presentations and negotiations in close collaboration with MD Denmark and local market colleagues
+
+- Represent Rohde & Schwarz at customer meetings, exercises and exhibitions, while feeding market insights and customer requirements back to product and delivery teams"
+senior-lean-manager-m-w-d_251563-1643265.html,Senior Lean Manager (m-w-d),https://www.rohde-schwarz.com/it/carriere/offerte/senior-lean-manager-m-w-d_251563-1643265.html,Munich,DE,0001,2026-07-21,2027-10-14,"Einleitung
+
+Aufgaben
+
+- Sie sind für die strategische Weiterentwicklung und Implementierung des Lean Managements an allen Standorten im Bereich Messtechnik zuständig.
+
+- Sie führen und gestalten die Etablierung einer zukunftsweisenden Lean R&D/PM Kultur und sorgen für die Adaption sowie Standardisierung von Methoden und Werkzeugen auf höchstem Niveau.
+
+- Als Mentor und Coach inspirieren Sie Teams und Führungskräfte, Lean-Prinzipien erfolgreich in ihren Arbeitsalltag zu integrieren und nachhaltige Veränderungen zu bewirken.
+
+- Sie übernehmen eine proaktive Rolle bei komplexen Change Prozessen, umfangreichen, cross-funktionalen Prozess-Design und Kaizen-Workshops und gewährleisten dabei umfassende Transparenz und effektive Kommunikation im Bereich Messtechnik.
+
+- Sie etablieren messbare KPIs und führen regelmäßige Reviews durch, um den Fortschritt der Lean-Implementierung zu evaluieren und kontinuierlich zu optimieren.
+
+- Sie sind Ansprechpartner und Wissensvermittler innerhalb unserer internen Lean-Community und fördern den Austausch von Best Practice."
+senior-systemarchitekt-fuehrungsfunk-technical-design-authority-m-w-d_251563-1700868.html,Senior Systemarchitekt Führungsfunk / Technical Design Authority (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/senior-systemarchitekt-fuehrungsfunk-technical-design-authority-m-w-d_251563-1700868.html,Munich,DE,0001,2026-10-14,,"Einleitung
+
+Du möchtest leistungsfähige und zuverlässige Führungsfunksysteme mitgestalten? Als Systemarchitekt Führungsfunk und Technical Design Authority verbindest du technisches Systemverständnis mit Erfahrung in der Anforderungsanalyse, Systemarchitektur und Umsetzung kundenspezifischer Lösungen.
+
+Wenn du komplexe technische Zusammenhänge strukturieren und die erfolgreiche Umsetzung leistungsfähiger Führungsfunklösungen sicherstellen möchtest, freuen wir uns auf Dich.
+
+Aufgaben
+
+- Du führst und koordinierst Anforderungsanalysen mit Kunden und Stakeholdern, definierst Systemanforderungen und verantwortest das Anforderungsmanagement.
+
+- Du erarbeitest und präsentierst Anwendungsfälle und daraus abgeleitete Systemkonzepte. Dabei bewertest Du Lösungsalternativen, optimierst das Systemdesign und begleitest Änderungen.
+
+- Du übernimmst als Technical Design Authority die technische Designverantwortung und koordinierst technische Themen sowie interne und externe Schnittstellen – von Entwicklung und Konstruktion bis zu Integration, Inbetriebnahme, Training und Integrated Logistics Support.
+
+- Du erstellst und koordinierst Systemarchitekturen, unterstützt Make-or-Buy-Entscheidungen und wirkst bei der Auswahl und Spezifikation von Hardware-, Software- und 3rd-Party-Komponenten mit.
+
+- Du koordinierst systembezogene Analysen und Konzeptionen, beispielsweise zu Informationssicherheit, RAM, Produktsicherheit, Link Budget, Netzwerken oder Domain Controllern. Zudem nutzt Du Synergieeffekte durch die Wiederverwendung von Anforderungen, Konzepten, Komponenten und Methoden.
+
+- Du unterstützt Angebote und Service Level Agreements durch technische Koordination und Aufwandsschätzungen, koordinierst System- und As-Built-Dokumentationen und führst technische Abstimmungen, Site Surveys, Fehleranalysen, Nachbetreuungen sowie Schulungen durch."
+senior-systems-engineer-test-measurement-instruments-m-f-d_251563-1677763.html,Senior Systems Engineer Test & Measurement Instruments (m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/senior-systems-engineer-test-measurement-instruments-m-f-d_251563-1677763.html,Munich,DE,0001,2026-09-09,,"Introduction
+
+At our Chemnitz site, Rohde & Schwarz develops innovative software and system solutions for test and measurement applications. Together with our teams in software development, signal processing and electrical engineering, we create high-performance instruments and applications that enable our customers to develop, test and analyze sophisticated electronic systems. As part of an international technology company with more than 16000 employees, we collaborate across locations to develop solutions that meet the highest standards of precision, performance and quality.
+
+Tasks
+
+- As a Senior Systems Engineer, you shape our measurement instruments from the very first requirement through to series production and feed them into our product roadmap.
+
+- You make sure hardware, FPGA and software work together seamlessly, and you translate requirements into clear, measurable specifications.
+
+- You develop the verification and test strategy across the entire chain (MIL → SIL → PIL → HIL → production) and champion testing early.
+
+- You support the integration, verification and validation of our instruments, working closely with development, test and production.
+
+- You advance our systems engineering methods, including AI-assisted approaches for test generation and data analysis.
+
+- You share your knowledge with colleagues and connect our teams in Chemnitz and Munich."
+software-engineer-ai-solutions-m-f-d_251563-1701186.html,Software Engineer - AI Solutions (m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/software-engineer-ai-solutions-m-f-d_251563-1701186.html,Dresden,DE,0001,2026-10-14,2027-10-14,"Introduction
+
+You design the architecture for AI integration into our products and bring intelligent solutions from concept to global deployment.
+
+Tasks
+
+- You are responsible for the architecture for integrating AI into product software, taking scalability, security and operational requirements into account.
+
+- You implement central integration layers, APIs and SDKs in Python.
+
+- You optimize inference and middleware for cloud, edge and embedded target systems.
+
+- You diagnose complex production issues and are responsible for monitoring, A/B testing and lifecycle management of productive AI features.
+
+- You raise the standard in testing, CI/CD/GitOps and release practices, and review designs and code as a technical reference for junior engineers.
+
+- You coordinate with AI, MLOps and engineering teams and translate product and project requirements into technical solutions."
+systems-engineer-fuehrungsfunk-ki-enablement-m-w-d_251563-1700866.html,Systems Engineer Führungsfunk / KI-Enablement (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/systems-engineer-fuehrungsfunk-ki-enablement-m-w-d_251563-1700866.html,Munich,DE,0001,2026-10-14,,"Einleitung
+
+Du möchtest moderne KI-Lösungen zu einem festen Bestandteil des Entwicklungsworkflows für taktische Funksysteme machen.
+
+Als Systems Engineer Führungsfunk entwickelst und erprobst du KI-gestützte Methoden für Systems Engineering und Requirements Engineering und überführst sie gemeinsam mit dem Team in sichere, praxistaugliche und langfristig etablierte Arbeitsabläufe.
+
+Aufgaben
+
+- Du entwickelst und erprobst gemeinsam mit dem Team KI-Konzepte und konkrete Anwendungsfälle für das Systems Engineering und Requirements Engineering – beispielsweise zur Anforderungsanalyse, Klassifikation, Konsistenzprüfung, Dokumentation und Wissensbereitstellung.
+
+- Du unterstützt die Analyse, Strukturierung und Verwaltung von Kunden-, Anwender- und Systemanforderungen für taktische Funkgeräte und Führungsfunksysteme und arbeitest dabei mit Tools wie DOORS und JAMA.
+
+- Du modellierst und pflegst Systemarchitekturen sowie technische Zusammenhänge mit Sparx Enterprise Architect, Cameo oder vergleichbaren Werkzeugen und entwickelst Ansätze für deren KI-gestützte Bearbeitung und Qualitätssicherung.
+
+- Du analysierst bestehende Systems-Engineering- und Entwicklungsprozesse, identifizierst Potenziale für KI und Automatisierung und überführst geeignete Lösungen in standardisierte, langfristig nutzbare Workflows.
+
+- Du unterstützt die Erstellung, Abstimmung und Pflege von Technical Agreements und Schnittstellendokumenten und entwickelst Ansätze für deren KI-gestützte Erstellung, Prüfung und Weiterentwicklung.
+
+- Du bringst dein Wissen zu SDR-basierten taktischen Funkgeräten in Systems-Engineering-Aktivitäten ein und befähigst das Team als KI-Multiplikator durch Best Practices und praxisnahe Schulungen zur nachhaltigen Nutzung der entwickelten Lösungen."
+systems-engineering-manager-frederick-md_251563-1700608.html,"Systems Engineering Manager - Frederick, MD",https://www.rohde-schwarz.com/it/carriere/offerte/systems-engineering-manager-frederick-md_251563-1700608.html,Frederick,US,,2026-10-14,,"- Manage and lead a high functioning systems engineering team across multiple product segments
+- Collaborate closely with Sales, Program Management, and Production
+- Align Sale opportunities with engineering support priorities
+- Manage the presales, design, integration, and deployment systems / subsystems for R&S Spectrum Monitoring, Mobile Network Testing and IP Analysis)
+- Lead efforts for creating and maintaining technical documentation according to customer requirements.
+- Translate customer needs into requirements and competitive solutions maximizing R&S content.
+- Prepare regular reports on project progress, issues encountered, and resolutions implemented.
+- Participate in communication with customers and R&S product design team.
+- Work closely with the product engineering teams based in Europe and North America."
+techniker-m-w-d-fertigungsprogrammierung-fuer-den-bereich-leiterplatte_251563-1700549.html,Techniker (m/w/d) Fertigungsprogrammierung für den Bereich Leiterplatte,https://www.rohde-schwarz.com/it/carriere/offerte/techniker-m-w-d-fertigungsprogrammierung-fuer-den-bereich-leiterplatte_251563-1700549.html,Teisnach,DE,0001,2026-10-13,,"Einleitung
+
+Karrierestart bei Rohde & Schwarz – einem sicheren und globalen Familienunternehmen mit über 90 Jahren Erfahrung. Eine attraktive Vergütung nach dem Tarifvertrag der bayerischen Metall- und Elektroindustrie, langfristige Jobsicherheit, vielfältige Weiterbildungsmöglichkeiten sowie ein modernes Arbeitsumfeld mit Betriebsrestaurant bieten optimale Rahmenbedingungen. Werde Teil eines starken Teams und arbeite an innovativen Projekten für die Technologien von morgen.
+
+Aufgaben
+
+- Erstellung und Optimierung von komplexen Fertigungsprogrammen, Layoutdaten und Prüfprogrammen sowie Prüfung und Optimierung von Fertigungsabläufen
+
+- Durchführung von komplexen technischen und betriebswirtschaftlichen Klärungen
+
+- Hauptansprechpartner Qualität im Bereich Programmierung inkl. Reporting, 8D-Monitoring und Bearbeitung
+
+- Weiterentwicklung und Automatisierung der abteilungsspezifischen CAM-Software
+
+- (Teil-)Projektleitung von internen und externen Kundenprojekten oder umfangreichen, technisch komplexen Projekten mit übergreifenden Schnittstellen auch nach extern (z.B. Einführung neuer Prozesse und Richtlinien, Softwaretools, Automatisierungslösungen und Anlagen/Ramp-Up)
+
+- Spezialisierung auf Programmierung, Automatisierung und Prozessapplikationen in einem ausgewiesenen Wertstrombereich (z.B. Prüfprozesse, mechanische Prozesse oder Fotoprozesse)
+
+- Umsetzung von Maßnahmen zur Fertigungskostenreduzierung bzw. Durchführung von Herstellkostenanalysen
+
+Qualifikationen
+
+- Abgeschlossene Weiterbildung zum Techniker, Betriebswirt oder vergleichbar
+
+- Berufserfahrung in der Fertigungsprogrammierung sowie fertigungstechnisches Know-how im Produktionsumfeld
+
+- Routinierter Umgang mit SAP und Microsoft Office
+
+- Vertiefte Kenntnisse im Umgang mit CAM-Software wünschenswert
+
+- Gute Deutsch- und Englischkenntnisse, insbesondere fachspezifisch
+
+- Selbständige, zielorientierte Arbeitsweise
+
+- Kommunikationsgeschick und überdurchschnittliche Einsatzbereitschaft
+
+- Selbständige und kundenorientierte Vorgehensweise
+
+- Hohes Maß an Teamfähigkeit mit entsprechender kommunikativer Arbeitsweise
+
+Kontakt und weitere Informationen
+
+Bewerben Sie sich bitte vorzugsweise online bei Rohde & Schwarz GmbH & Co. KG, Frau Sabrina Kuchler. Fragen beantwortet Ihnen unser Recruitingteam gerne unter: +49 9923 85 72108.
+
+Wir fördern Chancengleichheit und begrüßen Bewerbungen von Menschen mit und ohne Behinderung. Wir bieten eine inklusive Arbeitsumgebung, in der alle Menschen ihre Fähigkeiten und Talente entfalten können, unabhängig von Geschlecht, Nationalität, ethnischer und sozialer Herkunft, Religion, Weltanschauung, Alter, sexueller Orientierung, Identität und anderen Merkmalen"
+technology-systems-sales-account-manager_251563-1700992.html,Technology Systems Sales Account Manager,https://www.rohde-schwarz.com/it/carriere/offerte/technology-systems-sales-account-manager_251563-1700992.html,Seoul,KR,FULL_TIME,2026-10-14,,"- Execute technical sales for the full Rohde & Schwarz Signal Intelligence & Electronic Warfare (EW) product portfolio (Location: Seoul)
+- Manage key accounts and conduct technical sales activities for major defense authorities, including the Defense Security Agency (DSA), ROK Defense Communication Command (DCC), Joint Chiefs of Staff, ROK Army/Navy/Air Force, and National Intelligence Service (NIS), serving as the primary liaison for defense programs
+- Drive account management and technical sales efforts with major defense industries
+- Support market positioning by securing key acquisition programs and expanding market share
+- Identify customer requirements and technical challenges, proposing Rohde & Schwarz solutions
+- Acquire new customers and develop them into long-term strategic partners
+- Strengthen relationships with existing customers to create additional business opportunities
+- Expand market share and exceed sales targets
+- Manage sales pipelines systematically, including opportunity tracking and revenue forecasting
+- Maintain CRM to systematically manage opportunities, customer interactions, and order status
+- Collaborate cross-functionally with other Account Management, Business Development, Program Management, Product Management, and Engineering teams to deliver optimal solutions to customers."
+testingenieur-systemintegration-und-testautomatisierung-m-w-d_251563-1699904.html,Testingenieur Systemintegration und Testautomatisierung (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/testingenieur-systemintegration-und-testautomatisierung-m-w-d_251563-1699904.html,Stuttgart,DE,0001,2026-10-12,,"Einleitung
+
+Du schlägst die Brücke zwischen Anforderungen, Systemintegration und automatisierter Verifikation.
+
+Aufgaben
+
+- Du integrierst komplexe Systeme und stellst ihre fehlerfreie Funktion sowie hohe Stabilität sicher.
+
+- Du entwickelst und implementierst automatisierte Testprozesse mit Python und modernen Test-Frameworks.
+
+- Du erhöhst die Testabdeckung und beschleunigst Testzyklen durch den gezielten Einsatz von Testautomatisierung.
+
+- Du leitest aus funktionalen und nicht-funktionalen Anforderungen passende Testszenarien und Testfälle ab.
+
+- Du überprüfst, ob entwickelte Lösungen alle definierten Anforderungen zuverlässig erfüllen, und dokumentierst die Ergebnisse.
+
+- Du arbeitest eng mit Entwickelnden, Projektmanagern und weiteren Stakeholdern zusammen, um Anforderungen zu klären, Testergebnisse zu kommunizieren und gemeinsame Lösungen voranzutreiben."
+werkstudent-hardware-entwicklung-digital-fuer-funkkommunikation-m-w-d_251563-1640194.html,Werkstudent Hardware Entwicklung Digital für Funkkommunikation (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/werkstudent-hardware-entwicklung-digital-fuer-funkkommunikation-m-w-d_251563-1640194.html,Berlin,DE,0002,2026-07-16,,"Einleitung
+
+Verstärke unseren Bereich Hardware Entwicklung in Berlin (Deutschland) zum nächstmöglichen Zeitpunkt.
+
+Aufgaben
+
+- Hardware-Entwicklung: Unterstützung bei der Entwicklung und Integration von innovativen Baugruppen für hochleistungsfähige, gerichtete Funkkommunikationssysteme
+
+- Digitaldesign: Mithilfe bei der Konzipierung und Entwicklung digitaler Anteile der Funkgeräte
+
+- Design & Simulation: Mitarbeit bei der Simulation, Schaltplanerstellung und Betreuung des Layouts
+
+- Verifizierung: Unterstützung bei der Durchführung von Messungen und Tests zur Verifizierung
+
+- Interdisziplinäre Zusammenarbeit: Enge Abstimmung mit Experten aus System Engineering, SW-Entwicklung sowie elektrischer und mechanischer Konstruktion zur Sicherstellung einer erfolgreichen Systemintegration"
+werkstudent-it-vendor-management-m-w-d_251563-1701184.html,Werkstudent IT Vendor Management (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/werkstudent-it-vendor-management-m-w-d_251563-1701184.html,Munich,DE,0002,2026-10-14,,"Einleitung
+
+Verstärke unseren Bereich Strategy & Transformation in München (Deutschland) zum nächstmöglichen Zeitpunkt.
+
+Aufgaben
+
+- Du wirkst im IT Vendor Management und Software Asset Management mit und bringst dich aktiv in deren Weiterentwicklung ein
+
+- Du führst monatliche Reportings zum Status laufender Verhandlungen eigenständig durch und bereitest diese auf
+
+- Du pflegst Daten im PowerBI-Reporting zur Lizenzkosten-Transparenz und unterstützt bei der Budgetplanung hinsichtlich Datenqualität und Visualisierung
+
+- Du trägst zur Weiterentwicklung des Confluence-Auftritts bei, indem du Inhalte strukturierst, Dokumentationen und Templates erstellst und bei der Seiten-Administration mitwirkst
+
+- Du erstellst Entscheidungs- und Ergebnispräsentationen in enger Abstimmung mit dem Team
+
+- Du unterstützt bei der Vorbereitung, Organisation und Nachbereitung von Workshops und Meetings"
+werkstudent-lean-management-pmo-m-w-d_251563-1700551.html,Werkstudent Lean Management & PMO (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/werkstudent-lean-management-pmo-m-w-d_251563-1700551.html,Kiel,DE,0002,2026-10-13,,"Einleitung
+
+Verstärke unseren Bereich Strategisches Management in Kiel (Deutschland) zum nächstmöglichen Zeitpunkt.
+
+Aufgaben
+
+- Du unterstützt bei der Einführung und Weiterentwicklung von Lean-Management-Methoden sowie im Shopfloor-Management.
+
+- Du arbeitest an Projekten zur Optimierung von Prozessen, Abläufen und der Kollaboration mit.
+
+- Du bereitest Team-Workshops, Schulungen und weitere Formate vor, organisierst diese und dokumentierst die Ergebnisse.
+
+- Du hilfst bei der Erstellung von Präsentationen, Auswertungen, Prozessdokumentationen und Entscheidungsgrundlagen.
+
+- Du unterstützt bei der Anwendung und Weiterentwicklung von Projektmanagement-Tools wie Jira und Confluence sowie bei organisatorischen und koordinativen Aufgaben im PMO."
+werkstudent-personalentwicklung-learning-training-m-w-d_251563-1700485.html,Werkstudent Personalentwicklung Learning / Training (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/werkstudent-personalentwicklung-learning-training-m-w-d_251563-1700485.html,Munich,DE,0002,2026-10-13,,"Einleitung
+
+Verstärke unseren Bereich Learning & Development in München (Deutschland) zum nächstmöglichen Zeitpunkt.
+
+Aufgaben
+
+- Du unterstützt das Team bei der Konzeption, Planung und Durchführung von Personalentwicklungsmaßnahmen mit dem Schwerpunkt internationale Trainingsprogramme
+
+- Du wirkst bei der Produktion von E-Learnings mit Articulate Rise mit
+
+- Du trägst zur Kommunikation von Trainingsangeboten bei, zum Beispiel durch das Schreiben von Intranet-Artikeln
+
+- Du beteiligst dich an der Durchführung von Recherchen zu Trainingsthemen
+
+- Du unterstützt bei der Erstellung von Übersichten und Präsentationen für das Trainingsportfolio"
+werkstudent-softwareentwicklung-signal-und-spektrumanalysatoren-m-w-d_251563-1683072.html,Werkstudent Softwareentwicklung Signal- und Spektrumanalysatoren (m/w/d),https://www.rohde-schwarz.com/it/carriere/offerte/werkstudent-softwareentwicklung-signal-und-spektrumanalysatoren-m-w-d_251563-1683072.html,Meckenheim,DE,0002,2026-09-16,,"Einleitung
+
+Verstärke unsere Softwareentwicklung für Signal- und Spektrumanalysatoren in Meckenheim (Deutschland) zum nächstmöglichen Zeitpunkt.
+
+Aufgaben
+
+- Du unterstützt bei der Entwicklung und Integration von Softwarekomponenten für Signal- und Spektrumanalysatoren
+
+- Du testest und verifizierst die implementierten Funktionen systematisch
+
+- Du erweiterst und pflegst bestehende Softwarelösungen und hältst die Dokumentation aktuell
+
+- Du arbeitest eng mit dem Entwicklungsteam zusammen"
+working-student-for-software-support-m-f-d_251563-1701057.html,Working Student for Software Support (m/f/d),https://www.rohde-schwarz.com/it/carriere/offerte/working-student-for-software-support-m-f-d_251563-1701057.html,Munich,DE,0002,2026-10-14,,"Introduction
+
+Join our Software Support Division in Munich (Germany) at the earliest possible date.
+
+Tasks
+
+- As part of the project team, you support SW Support projects by contributing to the analysis of the current state and collaborating with the project team and internal stakeholders on the software support concept
+
+- You contribute to the further development of the internal project management tool in Jira and support the development of routines for automating data extractions
+
+- You contribute to the creation of advanced reporting based on the automated data extractions
+
+- You participate in building the Knowledge Base by helping to document and describe processes and project status in the department's knowledge database
+
+- You contribute to establishing periodic reporting in the sense of visual management"
+working-student-software-development-m-f-d-1-1_251563-1700552.html,Working Student Software Development (m/f/d) 1 1,https://www.rohde-schwarz.com/it/carriere/offerte/working-student-software-development-m-f-d-1-1_251563-1700552.html,Munich,DE,0002,2026-10-13,,"Introduction
+
+Join our Software Development Division in Munich (Germany) at the earliest possible date.
+
+Tasks
+
+• You support the team in maintaining the CI/CD pipeline to ensure smooth integration and deployment processes.
+
+• You help with the modernization and further development of our C++/C# codebases.
+
+• You assist in the maintenance of existing C++/C# codebases.
+
+• You contribute to the implementation of smaller features to meet user requirements and improve functionality.
+
+• You participate in expanding and maintaining the internal developer documentation to facilitate knowledge sharing and the onboarding of new team members."

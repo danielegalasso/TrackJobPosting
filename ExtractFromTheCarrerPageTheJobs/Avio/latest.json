@@ -2,7 +2,7 @@
   "source": "https://zinrec.intervieweb.it/avio/it/career",
   "company": "Avio",
   "query": "",
-  "extracted_at": "2026-10-10T10:52:01",
+  "extracted_at": "2026-10-15T08:17:10",
   "site_total": 15,
   "extracted": 15,
   "postings": [
@@ -161,15 +161,15 @@
       "description": "Within the Engineering Department, Avio is seeking a Senior GNC/AOCS Engineer to join the Control and Orbital Systems team. The selected candidate will contribute to the design, validation, and qualification of GNC/AOCS systems for orbital platforms, service modules, and space missions.\n\nWorking in a multidisciplinary environment, the candidate will collaborate with System Engineering, Flight Software, Propulsion, and Operations teams to support all phases of the system development and qualification cycle.\n\nThe position will be classified as Senior AOCS Engineer, in recognition of the candidate’s previous experience in internationally relevant satellite and orbital programmes.\n\nThe successful candidate will be assigned the following responsibilities:\n\n·Architectural Design: Define and optimize the architecture of GNC/AOCS systems for satellites and space platforms.\n\n·Algorithms and Control: Design, analyse, and implement attitude control algorithms, including Kalman filters, robust control approaches, and Safe Mode logic.\n\n·Modelling and Simulation: Develop and maintain high-fidelity mathematical simulators (FES) in MATLAB/Simulink.\n\n·Hardware Selection: Define technical requirements and manage trade-offs for the selection of sensors, such as Star Trackers, Sun Sensors, and IMUs, and actuators, such as reaction wheels, magnetorquers, and thrusters.\n\n·Verification and Testing: Plan and execute software and hardware test campaigns, including experience with MIL, SIL, and HIL cycles.\n\n·Operational Support: Contribute to the definition of flight procedures for LEOP and in-orbit commissioning phases.\n\n·Mentorship: Provide technical guidance and training support to Junior and Mid-level engineers within the team."
     },
     {
-      "job_id": "quality-management-system-specialist-151400",
-      "title": "Senior Manager – Quality Management System",
-      "url": "https://zinrec.intervieweb.it/avio/jobs/quality-management-system-specialist-151400/it/",
+      "job_id": "spacebalb-sviluppatoretrice-banchi-di-test-140292",
+      "title": "SPACELAB - SVILUPPATORE/TRICE BANCHI DI TEST",
+      "url": "https://zinrec.intervieweb.it/avio/jobs/spacebalb-sviluppatoretrice-banchi-di-test-140292/it/",
       "location": "Colleferro",
       "country": "IT",
       "contract": "",
-      "published": "2026-09-21",
-      "deadline": "2026-11-30",
-      "description": "Siamo alla ricerca di un/una Senior Manager – Quality Management System da inserire all’interno dell’area Qualità, con riporto diretto al Chief Quality Officer.\n\nLa risorsa guiderà la governance e l’evoluzione del Sistema di Gestione Qualità aziendale, assicurando conformità agli standard internazionali, efficacia dei processi e miglioramento continuo.\n\nIl ruolo prevede un’interazione costante con il top management e con le principali funzioni aziendali, con l’obiettivo di rafforzare una cultura della qualità orientata alla prevenzione, alla performance e alla gestione del rischio.\n\nResponsabilità principali\n\n- Guidare lo sviluppo, il mantenimento e il miglioramento del Sistema di Gestione Qualità aziendale secondo gli standard ISO 9001, EN 9100 ed ECSS\n- Assicurare la governance dei processi qualità, garantendo coerenza tra procedure, requisiti normativi, contrattuali e organizzativi\n- Coordinare i processi di certificazione, audit interni, audit cliente e audit presso fornitori e partner della supply chain\n- Supervisionare la gestione di non conformità, azioni correttive e preventive, promuovendo iniziative di miglioramento continuo\n- Monitorare KPI e performance del Sistema Qualità, predisponendo analisi e reporting a supporto del Chief Quality Officer e del management\n- Favorire l’allineamento del Sistema Qualità tra le diverse aree aziendali e diffondere best practice e cultura della qualità"
+      "published": "2026-07-13",
+      "deadline": "2026-10-31",
+      "description": "La persona che stiamo ricercando per la società Spacelab si occuperà di:\n\n- progettare e sviluppare banchi di prova elettrici finalizzati al collaudo di motori (Unit Under Test) soprattutto con focus sulla parte Software;\n- gestire e mantenere il sistema di banchi motore già esistente;\n- analizzare e comprendere il diagramma delle tubazioni e della strumentazione (P&ID);\n- gestire i segnali dei sensori per controllare e acquisire dati dall’impianto e dall'UUT al fine di concedere la qualifica del banco motore;\n- preparare e definire la procedura, il programma ed il piano di test;\n- preparare gli input e raccogliere i dati di output dall'esecuzione dei test;\n- preparare i rapporti di prova;\n- redigere documenti tecnici quali manuale utente, software release note."
     }
   ]
 }

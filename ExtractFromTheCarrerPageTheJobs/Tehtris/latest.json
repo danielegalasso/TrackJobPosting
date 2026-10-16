@@ -2,10 +2,20 @@
   "source": "https://tehtris.taleez.com/",
   "company": "TEHTRIS",
   "query": "",
-  "extracted_at": "2026-10-10T10:52:10",
-  "site_total": 3,
-  "extracted": 3,
+  "extracted_at": "2026-10-15T08:17:16",
+  "site_total": 4,
+  "extracted": 4,
   "postings": [
+    {
+      "job_id": "601804",
+      "title": "Développeur Backend Python - F/M/X",
+      "location": "Bordeaux",
+      "contract": "CDI",
+      "remote_type": "",
+      "published": "2026-10-14",
+      "url": "https://taleez.com/apply/developpeur-backend-python-f-m-x-bordeaux-tehtris-cdi",
+      "description": "À propos de TEHTRIS\nTEHTRIS est un éditeur européen de cybersécurité spécialisé dans la détection et la réponse aux menaces (EDR). TEHTRIS protège les organisations contre les cybermenaces les plus avancées grâce à une technologie souveraine, développée et hébergée en Europe.\nLe poste\nContexte\nTEHTRIS, éditeur de logiciels de cybersécurité (EDR) recrute un·e Développeur Backend Python pour garantir la fiabilité de sa solution en production. Le poste est rattaché à l’Engineering Manager.\nMissions\nGarantir la stabilité de la production : support technique, prise en charge des incidents et résolution des tickets de bug y compris les demandes clients remontées par les équipes Support et TAM, avec réactivité et rigueur;\nAnalyser les causes profondes des incidents pour apporter des correctifs durables et éviter qu'ils ne se reproduisent;\nCollaborer étroitement avec les équipes Produit, CTI, Detection Engineering et QA, comprendre les besoins clients et y apporter des réponses techniques pertinentes;\nMaintenir le socle technique à jour : mises à jour de dépendances et correctifs de sécurité;\nDocumenter les incidents, les procédures de résolution et le fonctionnement de l'application pour capitaliser les connaissances et faciliter le support au quotidien;\nFaire évoluer ponctuellement la solution (APIs, politiques de sécurité, règles de détection).\nProfil recherché\nMust have\nMaîtrise de Python, notamment de la programmation asynchrone (asyncio) et des frameworks FastAPI et Pydantic;\nAisance avec PostgreSQL et l’écriture de requêtes SQL (sans ORM);\nBonne connaissance des protocoles HTTP et WebSocket;\nUsage quotidien de Git et maîtrise de ses bonnes pratiques;\nTests automatisés avec pytest.\nNice to have\nConteneurisation avec Docker ou Podman;\nConnaissances en sécurité défensive : règles YARA, framework MITRE ATT&CK;\nConnaissances en cryptographie et en gestion des secrets;\nAisance sur les environnements Windows (services, pywin32), Linux et macOS;\nMise en place ou utilisation de pipelines GitLab CI/CD;\nExpérience de développement sous Windows (Windows API);\nExpérience chez un éditeur de cybersécurité (EDR, XDR, SIEM);\nA compétences égales, toutes les offres proposées par TEHTRIS sont ouvertes aux personnes en situation de handicap."
+    },
     {
       "job_id": "590451",
       "title": "Head of People - F/M/X",

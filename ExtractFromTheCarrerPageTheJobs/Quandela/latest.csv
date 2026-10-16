@@ -1,78 +1,4 @@
 job_id,title,location,additional_locations,country,department,contract,remote_type,published,url,description
-F1AC80AB01,AI scientist for Quantum Computing (Massy),"Massy, France",,France,Research,Full-time,,2026-08-25,https://apply.workable.com/j/F1AC80AB01,"About Quandela:
-
-Quandela is a European deeptech company building modular, scalable and energy-efficient spin-photonic quantum computers.
-
-We develop the full quantum computing stack, from semiconductor quantum emitters and photonic processors to control systems, software and applications. Our platforms are available through the cloud and as on-premises systems.
-
-Our ambition is to build fault-tolerant quantum computers capable of solving problems beyond the reach of classical computation.
-
-The role:
-
-We are looking for an AI Scientist to join Quandela’s AI and Quantum Machine Learning team in Massy (near Paris)
-
-You will develop and evaluate machine-learning approaches for quantum computing, covering both:
-
-- AI for quantum systems, including calibration, control, decoding for quantum error correction;
-- quantum and hybrid machine learning, including rigorous comparisons with state-of-the-art classical methods, using MerLin, Quandela's framework for quantum machine learning.
-
-You will work on research with colleagues across AI, quantum algorithms, software, product and hardware.
-
-The Massy team is a central part of Quandela’s AI activities. This role therefore offers significant ownership and the opportunity to help shape and grow the team over time.
-
-What You'll Do:
-
-- Design, implement and train machine-learning and quantum machine-learning models.
-- Develop AI methods to improve the calibration, control and performance of quantum systems.
-- Benchmark classical, quantum and hybrid methods using meaningful baselines and evaluation metrics.
-- Contribute actively to the development of the MerLin framework.
-- Contribute to publications and collaborations with academic partners, including research ecosystem.
-- Present your work internally and at scientific conferences and technical events.
-- Help define Quandela’s future AI research directions and mentor junior researchers as the team grows.
-
-Requirements
-
-What we are looking for:
-
-We are looking for an AI scientist, or an experienced industry practitioner with an equivalent background, who is eager to apply state-of-the-art classical machine-learning methods to scientific and engineering challenges in quantum computing. The role is primarily focused on using AI to improve quantum technologies, while also providing opportunities to develop and investigate quantum and hybrid machine-learning models.
-
-- PhD + 3 years of experience or equivalent industrial R&D experience in machine learning.
-- Strong foundations in modern machine learning, experimental methodology and model evaluation.
-- Excellent scientific programming skills, particularly in Python and common machine-learning frameworks.
-- Experience taking research ideas from initial exploration to robust implementation.
-- Interest in working on both longer term research and concrete product problems.
-- Strong communication skills and the ability to work autonomously within a focused, multidisciplinary team.
-- Professional fluency in English.
-
-Bonus Points
-
-- Previous experience applying AI to physical systems, scientific computing, hardware control or experimental data.
-- Knowledge of quantum computing, quantum machine learning or photonic quantum technologies.
-- Experience mentoring junior researchers or helping define technical research directions.
-
-Benefits
-
-- Competitive salary, flexible based on your experience and expectations
-
-- Profit-sharing & company savings plan
-- 100% health coverage (Alan)
-- 50% transport reimbursement or sustainable mobility bonus
-- Meal vouchers (Swile), Gymlib fitness support
-- Childcare assistance & referral bonuses (€1,000–€2,000)
-
-Process:
-
-- Talent Acquisition Interview (30' - 45')
-- Hiring Manager Interview (45' - 60')
-- Reference checks
-- Technical discussion and presentation of previous research work
-- Meeting with the team
-- Offer
-
-Beyond That:
-At Quandela, we value scientific curiosity, experimentation and collaboration. If you're passionate about quantum optics, spin physics and quantum technologies, we'd love to hear from you, even if you don't meet every listed requirement.
-
-If you're excited by the challenge of turning scientific ideas into demonstrations, advancing the building blocks of future quantum computing systems and working alongside physicists, engineers and theorists, let's talk."
 BA4AD210B6,Chief of Staff - Schwerpunkt Fördermittel & Akademische Partnerschaften,"Munich, Germany",,Germany,,Full-time,,2026-08-15,https://apply.workable.com/j/BA4AD210B6,"Quandela ist ein weltweit führendes Unternehmen im Bereich Quantencomputing, das durch bahnbrechende Technologien und eine klare Vision für die Skalierung von Quantenlösungen überzeugt. Mit seiner einzigartigen Fähigkeit, sowohl Hardware- als auch Softwarelösungen anzubieten, sowie seinem Engagement für den Aufbau energieeffizienter Rechenzentren und hochskalierbarer Technologien, ist Quandela bestens positioniert, eine Schlüsselrolle in der nächsten Innovationswelle sowie in zahlreichen strategischen und souveränen Industriezweigen zu übernehmen.
 
 Werden Sie Teil der Zukunft des Quantencomputings! 🚀
@@ -407,45 +333,43 @@ Process
 (This process is provided for guidance only and may evolve depending on the roles)
 
 At Quandela, we believe that the strength of our team is the plurality of experiences, perspectives, and journeys. We are committed to building a respectful, inclusive, and welcoming work environment. All applications are welcome."
-8757541DA6,FP&A Team Lead,"Massy, France",,France,General & Administration,Full-time,,2026-09-09,https://apply.workable.com/j/8757541DA6,"Quandela is a global leader in quantum computing, designing, building, and delivering cutting-edge quantum solutions for research and industry. Its offerings include the most energy-efficient quantum computers for data centers, full-stack quantum computing solutions accessible via the cloud, and algorithm access services for academic and industrial customers. Following a pragmatic, step-by-step roadmap, Quandela has been deploying industrial-grade systems since 2023 while developing future generations of fault-tolerant quantum computers capable of scaling through the integration of thousands of photonic components. Quandela is committed to making quantum computing accessible to all in order to address the most complex industrial and societal challenges.
+D51ED8B842,Industrial Facilities & Equipment Manager,"Massy, France",,France,Industrialization,Full-time,,2026-10-12,https://apply.workable.com/j/D51ED8B842,"Quandela is a global leader in quantum computing, designing, building, and delivering cutting-edge quantum solutions for research and industry. Its offerings include the most energy-efficient quantum computers for data centers, full-stack quantum computing solutions accessible via the cloud, and algorithm access services for academic and industrial customers. Following a pragmatic, step-by-step roadmap, Quandela has been deploying industrial-grade systems since 2023 while developing future generations of fault-tolerant quantum computers capable of scaling through the integration of thousands of photonic components. Quandela is committed to making quantum computing accessible to all in order to address the most complex industrial and societal challenges.
 
 Join Us at the Forefront of Quantum Computing Innovation 🚀
 
-The FP&A Team Lead will take the lead in developing financial plans, budget models, and forecasts to guide the company's future performance. You will work closely with department heads to analyze business performance and present actionable insights that drive financial efficiency and growth.
+At Quandela, we're scaling up the industrial production of our semiconductor, photonic and quantum products. Reporting to the VP Industrial Operations, you'll lead the technical management of our sites, cleanrooms, utilities and production equipment, and ensure our industrial environment is safe, reliable and ready to support production growth. A hands-on, rigorous role at the crossroads of technical, operational and management levels. You will be responsible for the Massy, Palaiseau, and Munich sites, and you will manage a team of 5 people.
 
-Your Key Responsibilities:
+Your Key Responsibilities
 
-- Lead the financial planning and analysis process, including budget development and monthly forecasting.
-
-- Collaborate with department leaders to build and refine financial models that accurately represent operational performance
-- Prepare presentations and materials for executive meetings regarding budget performance and financial outlook.
-- Analyze financial data and prepare reports, ensuring consistency and transparency in reporting.
-- Identify trends, variances, and areas for improvement; provide meaningful insights to stakeholders at all levels of the organization.
-- Support strategic initiatives by developing financial scenarios and conducting models for potential projects and investments.
-- Enhance FP&A processes by implementing automation tools and best practices.
-- Participate in the implementation of an ERP system to streamline financial reporting and operational processes.
+- Manage our buildings, cleanrooms and technical installations, ensuring stable environmental conditions (temperature, humidity, particle control) for Front-End, Back-End and other industrial activities
+- Supervise space planning as the company grows, defining needs and coordinating office moves, layout changes and new workspace openings with internal teams and external providers.
+- Oversee office services and workplace policies (access, mail, supplies, meeting rooms), working with the Office team and service providers, and use employee feedback to drive continuous improvement of the workplace experience.
+- Oversee access to sensitive areas and define business continuity measures to protect production in case of infrastructure failure
+- Ensure the capacity, reliability and compliance of all industrial utilities: electrical power, process gases, vacuum, water and cooling, HVAC and cryogenic systems
+- Anticipate utility needs as production grows, and identify capacity limits before they become constraints
+- Own the production equipment base from a technical-availability perspective, from installation and hook-up to relocation, commissioning, upgrades and obsolescence management
+- Lead preventive, corrective and regulatory maintenance, structure and manage the CMMS, and secure critical spare parts and maintenance contracts
+- Manage technical suppliers and service providers, ensuring quality, responsiveness and cost control
+- Own operational HSE across our sites: risk assessments, DUERP, safety rules and training, covering cleanrooms, chemicals and gases, lasers, cryogenics, high voltage, pressure systems, confined spaces and ATEX where applicable
+- Investigate incidents, lead corrective actions and build a strong safety culture with operational teams
+- Lead or coordinate cleanroom, laboratory, utility and facility-extension projects, from requirements and design through construction, commissioning and handover to Production
+- Coordinate calibration, regulatory inspections and technical records to ensure full compliance of facilities and equipment
+- Translate production and industrialization roadmaps into infrastructure, equipment and CAPEX plans, including future capacity and automation needs
+- Plan interventions and shutdowns with Production to minimize impact, and ensure equipment is technically validated before release back to service
+- Define and track key KPIs: equipment and utility availability, MTBF/MTTR, preventive maintenance completion, maintenance backlog, critical spare availability, infrastructure incidents and HSE action closure
 
 Requirements
 
-- Master's degree in Finance, Accounting, Economics, or a related field ; MBA or relevant professional qualification preferred.
-
-- At least 10 years of experience in financial planning and analysis roles, preferably within high-tech or deeptech industries, specializing in both software and hardware solutions.
-
-- Strong expertise in financial forecasting, budgeting, and variance analysis.
-
-- Proficient in financial modeling and analysis software ; experience with ERP and EPM systems is a plus.
-
-- Advanced proficiency in Excel, financial modeling, and data visualization tools (e.g., Power BI, Tableau)
-
-- Exceptional analytical and problem-solving skills, with the ability to present complex financial data clearly.
-
-- Excellent communication and interpersonal skills ; ability to collaborate with stakeholders across various functions.
-
-- Strong attention to detail and a results-driven mindset.
-
-- Fluent English to effectively operate in our international environment.
-
-- Passion for technology and an interest in quantum computing is highly desirable.
+- Engineering degree or Master's in Facilities, Electrical, Mechanical, Industrial Engineering, HSE or a related field
+- Minimum 6 years of experience in industrial facilities, production equipment, maintenance and/or HSE, ideally in semiconductor, photonics, deeptech or cleanroom environments
+- Proven experience managing technical projects, from requirements to commissioning, within budget and schedule
+- Solid track record in managing technical suppliers, service providers and maintenance contracts
+- Hands-on experience with maintenance organization (preventive, corrective, regulatory) and equipment availability KPIs
+- Strong technical knowledge of industrial utilities and building systems (electrical, HVAC, gases, vacuum, cooling)
+- Good command of industrial risk management and HSE regulations, with the ability to lead risk assessments and corrective actions
+- Strong organizational and problem-solving skills, with a structured and data-driven approach
+- Hands-on and rigorous, comfortable working across technical, operational and management levels
+- Fluent in French and English
 
 Benefits
 
@@ -460,7 +384,7 @@ What we offer:
 
 - A meaningful role with real ownership, from day one
 - A team eager to collaborate and grow with you
-- A hybrid work model (3 days/week onsite in Massy, 1 day in Paris, 1 to 2 days remotely)
+- A hybrid work model (4 days/week onsite in Massy, 1 day remotely/month depends on the activity)
 - Daily exposure to the entire quantum stack — from high-level APIs to low-level firmware, and everything in between.
 
 Process
@@ -468,8 +392,8 @@ Process
 - Talent Acquisition Interview (45')
 - Hiring Manager Interview (45')
 - Use Case (a live use case or one to be prepared at home and presented afterward)
-- Meeting with the team
-- 2 reference check (managers)
+- Meeting with the teams
+- 2 reference check
 - Offer
 
 (This process is provided for guidance only and may evolve depending on the roles)
@@ -504,7 +428,7 @@ Requirements
 - Solid understanding of ERP manufacturing processes and MES principles
 - Good command of manufacturing flows, BOM/mBOM, routings, traceability and production data
 - Strong analytical, communication and stakeholder-management skills
-- Fluent French and English
+- Fluent in French and English
 
 Nice to have
 
@@ -542,57 +466,7 @@ Process
 (This process is provided for guidance only and may evolve depending on the roles)
 
 At Quandela, we believe that the strength of our team is the plurality of experiences, perspectives, and journeys. We are committed to building a respectful, inclusive, and welcoming work environment. All applications are welcome."
-DC142C6CEC,Internship: Experimental Scientist junior - optics & electronics (H2/2026),"Massy, France",,France,Products,Full-time,,2026-05-11,https://apply.workable.com/j/DC142C6CEC,"About Quandela:​
-
-Quandela stands as a global leader in quantum computing, driven by groundbreaking technology and a strategic vision for scaling quantum solutions. The company’s unique ability to offer both hardware and software solutions, along with its commitment to build energy efficient datacentres and scalability, positions it to play a key role in the next wave of innovation, and in many strategic and sovereign industrial sectors.​
-
-Join Us at the Forefront of Quantum Computing Innovation 🚀​
-
-Description of the Project
-
-In photonic quantum information processing, feedforward refers to real-time operations performed on a quantum system based on the measurement outcomes of previous operations.
-
-We are developping a module that will be included in our quantum processing units (QPU) to enhance their computing capabilities.
-
-You will work closely with our lead researchers to participate in the development of this module in our state-of-the-art quantum computing laboratory.
-
-Requirements
-
-o Proficient in Python programming.
-
-o Master of Science in mathematics, quantum technologies or physics and available for a 6-montn internship. This position is only valid with an Internship Agreement.
-
-o Demonstrated interest in experimental quantum optics
-
-o Ability to propose creative solutions to complex problems.
-
-o Not required, but a plus: Basic knowledge of quantum mechanics
-
-o Eagerness to learn and adapt to new challenges.
-
-o Strong communication skills in English. French is a plus.
-
-Benefits
-
-- Swile Card (meal vouchers) 🍴🛒
-
-- 50% participation in transportation costs 🚆
-
-- Possibility of remote work 💻
-- Internship Allowance between €1,200 and €1,400 per month 💰
-
-- 1,5 days off per month, cumulative 🧳
-
-What we also offer
-
-A challenging and innovative work environment at the heart of quantum computing.
-
-A diverse and collaborative company culture.
-
-Opportunities for professional growth and skill development.
-
-At Quandela, we believe that the strength of our team is the plurality of experiences, perspectives, and journeys. We are committed to building a respectful, inclusive, and welcoming work environment. All applications are welcome."
-548AD2248B,IT Manager,"Massy, France",,France,IT & Software,Full-time,,2026-08-25,https://apply.workable.com/j/548AD2248B,"Quandela stands as a global leader in quantum computing, driven by groundbreaking technology and a strategic vision for scaling quantum solutions. The company’s unique ability to offer both hardware and software solutions, along with its commitment to build energy efficient quantum processing units that scale, positions it to play a key role in the next wave of innovation, and in many strategic and sovereign industrial sectors.
+548AD2248B,IT & Information Sytems Manager,"Massy, France",,France,IT & Software,Full-time,,2026-08-25,https://apply.workable.com/j/548AD2248B,"Quandela stands as a global leader in quantum computing, driven by groundbreaking technology and a strategic vision for scaling quantum solutions. The company’s unique ability to offer both hardware and software solutions, along with its commitment to build energy efficient quantum processing units that scale, positions it to play a key role in the next wave of innovation, and in many strategic and sovereign industrial sectors.
 
 With a team of more than 140 people, we develop our own hardware and software stack, from semiconductor quantum emitters and photonic processors to quantum control systems and quantum algorithms.
 
@@ -602,59 +476,64 @@ Achieving this vision requires not only advances in photonic quantum computing, 
 
 Join Us at the Forefront of Quantum Computing Innovation 🚀
 
-About this position:
+You will be leading the team in charge of Quandela's foundational IT systems (identities, devices, network, common applications) across the Group.
 
-You will be leading the team (4 people) in charge of Quandela's foundational IT systems (identities, devices, network, common applications) across the Group.
+You will lead a four-person team and take ownership of Quandela’s internal IT and information systems, spanning infrastructure, business applications, data governance and cybersecurity.
 
-Your Key Responsibilities:
+Your mission will be to ensure reliable day-to-day operations while building the systems and organisation needed to support our growth towards 250 employees, five international subsidiaries, two production sites and research laboratories. Your scope will cover corporate IT and internal operational environments, excluding product cloud infrastructure.
 
-- Support people across the company, including directly supported foreign subsidiaries, on their everyday IT issues and requests;
+Combining hands-on leadership with a strong understanding of business needs, you will help shape how our information systems support the company’s development. This role offers the opportunity to grow towards a Group position over approximately 18 months, depending on your contribution, demonstrated readiness and the company’s evolving needs.
 
-- Ensure consistent IT service delivery across HQ and international subsidiaries, adapting support models, processes, tools, and governance to local needs while maintaining group-wide standards;
+Your key responsibilities
 
-- Deploy and manage hardware and virtual foundational solutions, including user devices, identity, network, domain services, monitoring, cloud-hosted software, and collaboration tools, while continuously improving reliability and security;
+- IT strategy and governance: Define and own the Group’s information systems roadmap. Work with business leaders to prioritise projects and investments, clarify ownership and report on progress, service quality and key risks.
 
-- Select, develop, integrate, deploy, and maintain cross-company and domain-specific applications, acting as a digital and information systems expert partner to business owners and company management;
+- Team leadership : Manage and develop the IT team, organize responsibilities and build the right balance of internal expertise, external providers and local support.
 
-- Support the structuring of IT operations for new or growing subsidiaries, including onboarding, equipment, access management, local infrastructure needs, vendor coordination, and alignment with HQ IT and security policies;
+- IT operations and international support: Ensure reliable infrastructure and responsive user support across HQ and subsidiaries. Oversee devices, identities, access management, networks, collaboration tools and internal cloud-hosted services, applying shared standards while accommodating local needs.
 
-- Contribute to the adoption of AI tools and practices across the company, in partnership with the different teams, by identifying relevant use cases, supporting tool selection and deployment, ensuring secure and compliant usage, and helping each function integrate AI into its ways of working.
+- Business applications and integration: Partner with Finance, HR, Procurement, Supply Chain, Production and R&D to translate operational needs into appropriate solutions. Oversee application selection, integration and lifecycle management, ensuring clear ownership and coherent information flows.
 
-As to strategic improvements, the team currently focuses on:
+- Production and laboratory IT: Work with Industrialisation, Engineering and Science teams to support equipment connectivity, dedicated workstations and experimental and production data environments. Agree responsibilities for equipment interfaces, maintenance and changes, taking operational constraints into account.
 
-- Improving IT-business processes to manage the service catalog and associated epic-level efforts;
+- Cybersecurity and resilience: Lead the implementation of IT security policies, access controls, monitoring and incident response. Maintain and test backup, restoration and disaster recovery arrangements, with recovery priorities agreed with the relevant teams.
 
-- Strengthening IT governance across HQ and subsidiaries, ensuring clear ownership, standardized processes, reliable reporting, and scalable support for international growth;
+- Data governance: Establish practical rules with business owners for data access, quality, storage, retention and sharing, in coordination with the relevant privacy and security stakeholders.
 
-- Hardening user devices, network, and service configurations to match security standards: GHI, then NIS2 and ISO 27001. In particular, reframing traffic management following a zero-trust approach;
+- Budget and supplier management: Own the IT budget, investment planning, contracts and licences. Assess costs, risks and expected benefits, and manage supplier performance.
 
-- Adding appropriate sensitive segments for regulated activities, with a creative surface-minimal approach to security;
+- Support changes to systems and ways of working through communication, training and documentation.
 
-- Industrializing business application deployment to sovereign cloud solutions;
+Your priorities for the first 12–18 months
 
-- Improving infrastructure, application, and security monitoring;
+- Establish a shared roadmap: Assess the existing infrastructure, applications and critical data flows, and agree a prioritised transformation plan with management and business owners.
 
-- Structuring and migrating our legacy collection of collaboration applications to a consistent, sovereignty-conscious, open source-first suite;
+- Structure scalable IT services: Formalise the service catalogue, support processes, onboarding and offboarding, and service indicators. Define a consistent deployment and support model for subsidiaries, production sites and laboratories.
 
-- Defining and supporting a pragmatic AI adoption framework across functions such as HR, Finance, Operations, Engineering, Science, Sales, Marketing & Communication, ensuring that AI initiatives are useful, secure, compliant, and aligned with business priorities;
+- Strengthen security and continuity: Advance device and network hardening, zero-trust access principles and segmentation for sensitive activities. Clarify the roadmap against relevant security requirements and frameworks, including GHI, NIS2 and ISO 27001, and test recovery capabilities.
 
-- Promoting responsible AI usage by helping teams understand opportunities, risks, data protection constraints, and best practices.
+- Simplify and connect the application landscape: Rationalise collaboration tools and priority business applications, improve integrations and reduce duplication. Develop a sovereignty-conscious, open source-first approach where compatible with security, usability and operational requirements.
 
 Requirements
 
-- Experience in Microsoft infrastructure management cloud-based solutions (Intune, Entra, Defender, M365) and Windows OS security;
+- Experience leading an IT or information systems function, or a substantial part of one, with responsibility for team management, budgets, suppliers and operational delivery.
 
-- Experience in network design & administration
+- A track record of delivering cross-functional systems projects, from business requirements and solution selection through integration, deployment and user adoption.
 
-- Experience in cloud resource management, container workload configuration and deployment pipeline management;
+- Ability to translate business priorities into an actionable roadmap, explain technical choices clearly and support investment decisions with senior management.
 
-- Good knowledge and experience in cybersecurity (risk models and paths, security assessment methods, security monitoring solutions, user/device/application/data hardening principles and technologies).
+- Strong technical grounding in Microsoft environments, including Intune, Entra, Defender, M365 and Windows security, alongside network administration and cloud infrastructure. Familiarity with containerised workloads and deployment automation would be valuable.
 
-- Ability to work in an international team, particularly French & English, English communication skills, both verbal and written;
+- Practical cybersecurity expertise, including risk assessment, identity and access management, infrastructure hardening, monitoring and business continuity.
 
-- Willingness to combine technical insight leadership, field-level contribution, and business-oriented posture to improve both organization around IT interests including and cybersecurity, and business domain processes;
+- Experience with business applications, system integration and data governance. Exposure to international, multisite organisations and industrial or research environments would be a strong advantage.
 
-- On-site presence at least 3 days/week, with some regular inter-site travel.
+- A collaborative leadership style, combining the ability to delegate and develop others with a willingness to contribute directly. Comfortable working with scientists, engineers and business teams.
+
+- Strong communication skills in French and English, both spoken and written.
+
+- Working arrangements
+- On-site presence at least three days per week, with regular travel between sites and occasional international travel as required.
 
 Benefits
 
@@ -715,7 +594,7 @@ Requirements
 - Hands-on expertise in VSM, Standardized Work, 5S, OEE, and cycle-time and WIP reduction
 - Strong data-driven, analytical mindset
 - Ability to lead cross-functional initiatives and drive change
-- Fluent French and professional English
+- Fluent in French and professional English
 
 Nice to have
 
@@ -779,7 +658,7 @@ Requirements
 - Analytical, data-driven mindset with strong problem-solving skills
 - Pragmatic approach and ability to work directly with operators and technical teams
 - Comfortable in a fast-evolving industrial environment
-- Fluent French and English
+- Fluent in French and English
 
 Nice to have
 
@@ -1278,7 +1157,7 @@ What we offer:
 
 - A meaningful role with real ownership, from day one
 - A team eager to collaborate and grow with you
-- A hybrid work model (3 days/week onsite in Massy, 1 day in Paris, 1 to 2 days remotely)
+- A hybrid work model (3 days/week onsite in Massy, 1 day in Paris, 1 day remotely)
 - Daily exposure to the entire quantum stack — from high-level APIs to low-level firmware, and everything in between.
 
 Process
@@ -1451,6 +1330,75 @@ Process
 - Talent Acquisition Interview (30' - 45')
 - Hiring Manager Interview (45')
 - Use Case / Practical Assessment : The use case will consist of a simple practical exercise focused on the alignment of an optical bench. The assessment will take place in the cleanroom, they are not considered PPE for this exercise.
+- Meeting with the teams
+- 2 reference check
+- Offer
+
+(This process is provided for guidance only and may evolve depending on the roles)
+
+At Quandela, we believe that the strength of our team is the plurality of experiences, perspectives, and journeys. We are committed to building a respectful, inclusive, and welcoming work environment. All applications are welcome."
+B3F25A39FB,Quality & Knowledge Specialist,"Massy, France",,France,General & Administration,Full-time,,2026-10-13,https://apply.workable.com/j/B3F25A39FB,"Quandela is a global leader in quantum computing, designing, building, and delivering cutting-edge quantum solutions for research and industry. Its offerings include the most energy-efficient quantum computers for data centers, full-stack quantum computing solutions accessible via the cloud, and algorithm access services for academic and industrial customers. Following a pragmatic, step-by-step roadmap, Quandela has been deploying industrial-grade systems since 2023 while developing future generations of fault-tolerant quantum computers capable of scaling through the integration of thousands of photonic components. Quandela is committed to making quantum computing accessible to all in order to address the most complex industrial and societal challenges.
+
+Join Us at the Forefront of Quantum Computing Innovation 🚀
+
+As Quandela delivers quantum computers to industrial, public and sovereign customers, structured quality processes and well-governed knowledge have become strategic. We are creating a Quality & Knowledge Specialist role to help build these foundations.
+
+Reporting to the COO, you will work on two complementary topics. First, you will help design and deploy the processes and methodology needed to achieve our target certifications. Second, you will structure, organize and bring to life the company's knowledge, so that information is reliable, easy to find, and securely shared. You will work with all teams: R&D, engineering, manufacturing, software, operations, business functions...
+
+Your Key Responsibilities
+
+Quality management & certification
+
+- Contribute to building and deploying the quality management framework required for certification (ISO 9001, ISO/IEC 27001 or equivalent frameworks)
+- Map, formalize and document key processes with the teams, and help make them practical and adopted
+- Drive the certification project with your manager: gap analysis, action plan follow-up, internal audits, and preparation of external audits
+- Monitor quality KPIs, non-conformities and corrective actions, and contribute to continuous improvement
+
+Knowledge management
+
+- Help define and implement the knowledge management approach: information architecture, taxonomy, naming conventions and documentation standard
+- Structure and organize data and documentation across teams so that knowledge is reliable, up to date and easy to find
+- Animate the knowledge community: train and support teams, share good practices and encourage knowledge sharing
+
+Tools & access governance
+
+- Administer the knowledge and documentation tools (e.g. Confluence, Notion, SharePoint), and benchmark new solutions when relevant
+- Implement and maintain access rights governance: roles, permissions and regular reviews, in line with security and confidentiality requirements
+- Work with IT and Security teams to ensure tools and practices meet certification and customer requirements
+
+Requirements
+
+- Master's degree in engineering, quality management, information management or equivalent
+- 3 + years of experience in quality management, process improvement or knowledge management
+- Hands-on involvement in at least one certification project (ISO 9001, ISO 27001 or similar)
+- Good knowledge of ISO standards and quality management systems
+- Process mapping and documentation skills
+- Hands-on experience with collaborative or knowledge management tools (Confluence, Sharepoint...)
+- Structured and rigorous, with a pragmatic approach: processes must help teams, not slow them down
+- Strong pedagogy and ability to work with scientific and technical profiles
+- Autonomous and proactive, eager to take on ownership in a fast-growing scale-up
+
+Benefits
+
+- Competitive salary, flexible based on your experience
+- Profit-sharing & company savings plan
+- 100% health coverage (Alan)
+- 50% transport reimbursement or sustainable mobility bonus
+- Meal vouchers (Swile), Gymlib fitness support
+- Childcare assistance & referral bonuses (€1,000–€2,000)
+
+What we offer:
+
+- A meaningful role with real ownership, from day one
+- A team eager to collaborate and grow with you
+- A hybrid work model (3 days/week onsite in Massy, 1 day in Paris, 1 to 2 days remotely)
+- Daily exposure to the entire quantum stack — from high-level APIs to low-level firmware, and everything in between.
+
+Process
+
+- Talent Acquisition Interview (30')
+- Hiring Manager Interview (45')
+- Use Case (a live use case or one to be prepared at home and presented afterward)
 - Meeting with the teams
 - 2 reference check
 - Offer
@@ -2426,184 +2374,205 @@ Learn more at: Quandela | Leading Photonic Quantum Computing Solutions
 
 About this position:
 
-You will join the QPU Prototyping team, the group that builds the optical heart of Quandela’s quantum processors.
-They design and stabilize photon-based modules, from interferometers and correlation benches to single-photon sources, that make scalable quantum computing possible.
-You’ll work where precision meets performance: at the intersection of quantum optics research and operational hardware.
+You will join the QPU Prototyping team, responsible for developing and integrating the optical systems at the heart of Quandela's quantum processors.
 
-We are opening a Quantum Optics Scientist position to accelerate the transition from advanced quantum optics experiments to stable, integrated hardware within our QPUs. You’ll help the team scale our systems from research prototypes to operational processors - pushing performance, reproducibility, and stability across the stack.
+Working alongside experimental scientists and engineers across optics, electronics and semiconductor technologies, you will develop quantum optical modules for current and next-generation QPUs.
+
+We are looking for a Quantum Optics Scientist with strong experimental expertise, capable of designing, operating and optimising complex photon-based systems.
+
+This is a hands-on R&D position, combining experimental quantum optics, practical problem-solving and system integration.
 
 Why This Role Matters?
 
-Your experiments don’t end at the bench : they run inside real quantum computers.
-You’ll translate quantum optics into stable, cloud-ready QPU modules.
-Every setup you stabilize, every drift you eliminate, every fidelity gain you achieve moves the roadmap forward: from 6 → 12 → 24+ qubit systems.
+Your experiments won't stop at the laboratory bench. They will become part of operational quantum processors.
 
-You’ll help us cross the bridge from experimental setups to robust processors that support feedforward and error correction.
-This role defines how quantum theory becomes quantum reality - one module at a time.
+By improving optical performance, stability and reproducibility, you will help turn advanced quantum optics experiments into reliable QPU modules.
 
-What will you do?
+Your work will also contribute to Quandela's next-generation systems, including developments towards logical qubits and fault-tolerant quantum computing.
 
-> Build & improve QPU modules:
+What you'll do:
 
-- Prototype and operate quantum optics modules
-Design, assemble, align, measure, and stabilize complex free-space and fibered optical systems.
-- Integrate into the QPU
-Bring modules online, debug, optimize, and validate against spec. Hand over with clear procedures and test plans.
-- Improve performance
-Once integrated, track loss and drift, isolate noise sources, and implement fixes that hold - pushing qubit fidelity and system stability forward, while contributing to next-generation QPUs with new features.
+Develop and operate quantum optical systems
 
-> Tools & knowledge sharing:
+- Design, assemble and align complex free-space and fibre-based optical setups.
+- Operate single-photon systems, interferometers and correlation experiments.
+- Characterise interference, indistinguishability and related quantum optical properties.
+- Stabilise experimental setups and troubleshoot performance limitations.
 
-- Code for the lab
-Develop pragmatic Python tools for acquisition, calibration, and analysis (scripts, utilities, quick plots) - tools your teammates actually reuse.
-- Document & collaborate
-Work full-stack with peers (optics, electronics, semiconductors, software). Leave behind clear lab notes and protocols so others can run the system without you.
+Optimise and integrate QPU modules
 
----
+- Prototype, characterise and qualify quantum optical modules.
+- Measure optical losses, noise, drift and system stability.
+- Improve performance, reproducibility and long-term reliability.
+- Integrate modules into QPUs and validate against specifications.
 
-How You’ll Grow?
+Develop experimental tools and collaborate
 
-- 0–3 months: own a bench; deliver your first doc pack (procedure + checklist + Python tools), complete a characterization.
-- 3–6 months: own one module from V0 to QPU integration; hit targets on loss/stability, standardize tests.
-- 6-12 months: own multiple modules or a QPU area, contribute to planning, and trade-offs (Quality/Cost/Schedule).
---> Next steps ? mentor juniors, lead projects, step into Optics Lead.
+- Build Python tools for acquisition, calibration and data analysis.
+- Document experiments, test protocols and integration procedures.
+- Collaborate with semiconductor optics, electronics and system integration teams.
+- Contribute to new experimental approaches and next-generation QPU developments.
+
+How you'll grow:
+
+First 3 months: Become familiar with Quandela's quantum optical systems, experimental infrastructure and QPU requirements. Take ownership of your first setup.
+
+Within 6 months: Develop and qualify a quantum optical module, contributing to its integration into an operational QPU.
+
+Within 12 months: Take ownership of multiple modules or a QPU subsystem, with increasing responsibility for performance and stability.
+
+Longer term: Mentor junior engineers, contribute to new QPU architectures and potentially progress towards technical leadership.
 
 Requirements
 
-What We’re Looking For ?
+What we're looking for:
 
-Must-Have:
+We are looking for an experimental quantum optics scientist with strong hands-on expertise and the ability to turn complex optical experiments into reliable hardware.
 
-- Quantum optics experiments: demonstrated experience in photon-based quantum systems — e.g. correlations, Hong–Ou–Mandel interference, indistinguishability, or related setups.
-- Hands-on experimental optics: complex design, alignment, metrology, stabilization of free-space or fibered optical systems.
-- Python for the lab: acquisition, calibration, analysis, quick plotting (scripts that accelerate experimental work).
-- Documentation discipline: feedback, procedures, and reproducible test protocols.
+We welcome PhD graduates, postdoctoral researchers and experimental scientists with experience in photon-based quantum systems. Experience across different research environments is particularly valued.
 
-Important (can grow here):
+Must-have:
 
-- Basic electronics for the bench: safe operation, light soldering, DAQ, drivers.
-- Semiconductor awareness: quantum-dot sources, couplings, packaging.
+- PhD in Quantum Optics, Experimental Physics, Photonics or a related field.
+- Direct experimental experience with photon-based quantum systems.
+- Hands-on expertise in single-photon interference, correlations or HOM measurements.
+- Experience designing, aligning and stabilising complex optical setups.
+- Ability to characterise optical performance and troubleshoot experimental challenges.
+- Python for experimental acquisition, calibration and data analysis.
+- Experimental autonomy, documentation discipline and collaborative mindset.
+- Professional English. French is not required.
+
+Important, but you can grow here:
+
+Technical & system integration
+
+- QPU module qualification and integration into larger hardware systems.
+- Semiconductor quantum-dot sources and spin-photon technologies.
+- Experimental electronics, DAQ systems and instrument control.
+
+Operational ownership
+
+- Developing reproducible test procedures and integration documentation.
+- Coordinating experiments across multidisciplinary technical teams.
 
 Bonus:
 
-- Experience with PICs, cryogenics, optimal control, or firmware/FPGA.
+- Experience with photonic integrated circuits or cryogenic systems.
+- Familiarity with spin-photon interfaces or spin-based quantum systems.
+- FPGA, firmware or advanced experimental control techniques.
+- Experience transferring R&D experiments into operational hardware.
 
-*Languages:
-
-- English professional level required.
-
----
-
-Examples of backgrounds we value:
-For this role, we’re looking for a PhD-level scientist experienced in quantum optics and complex optical systems, capable of turning experimental setups into stable, operational hardware modules within quantum computing systems.
-
-- Experimental quantum optics scientist (PhD) with hands-on experience in photon correlations, interference (HOM), or indistinguishability measurements, eager to turn lab experiments into product-grade hardware.
-- Photonic or laser systems engineer with robust bench skills and pragmatic Python, having worked on quantum or single-photon optical systems.
-- Research-trained experimentalist who has transitioned quantum optics modules from laboratory prototype to operational handover within larger systems.
+Direct spin expertise is not required. What matters is your quantum optics background, experimental autonomy and ability to learn new technologies.
 
 Benefits
 
-- Profit-sharing & company savings plan
-- Competitive salary, flexible based on your experience
-- 100% health coverage (Alan)
-- Meal vouchers (Swile), Gymlib fitness support
-- Childcare assistance & referral bonuses (€1,000–€2,000)
+Join a multidisciplinary team developing quantum optical systems for next-generation processors, with direct experimental ownership and opportunities for technical progression.
 
-What we offer:
-
-- A meaningful role with real ownership, from day one
-- A team eager to collaborate and grow with you
-- Daily exposure to the entire quantum stack — from high-level APIs to low-level firmware, and everything in between.
+- Competitive compensation aligned with experience.
+- Company savings plan and profit-sharing.
+- 100% health coverage through Alan.
+- Transport reimbursement or sustainable mobility bonus.
+- Swile meal vouchers.
+- Gymlib and childcare support.
+- Referral programme.
 
 Process
 
-- Talent Acquisition Interview (30' - 45')
-- Hiring Manager Interviews (45')
-- Use Case (a live use case or one to be prepared at home and presented afterward)
-- 2 reference check
-- Meeting with the teams
+- Talent Acquisition interview (30–45 min)
+- Hiring Manager interview (45 min)
+- Technical case study or experimental discussion
+- Two reference checks
+- Meeting with the team
 - Offer
 
-(This process is provided for guidance only and may evolve depending on the roles)
+Beyond that: At Quandela, we value diverse scientific backgrounds, curiosity and practical experimental skills.
 
-At Quandela, we believe that the strength of our team is the plurality of experiences, perspectives, and journeys. We are committed to building a respectful, inclusive, and welcoming work environment. All applications are welcome."
-9828CFFEFD,Quantum Optics Scientist - Spin-Based Quantum Systems,"Palaiseau, France",,France,Research,Full-time,,2026-06-10,https://apply.workable.com/j/9828CFFEFD,"- About Quandela:
+Whether you are completing your PhD, working as a postdoctoral researcher or exploring opportunities beyond academia, we'd love to hear from you if you enjoy building complex quantum optical experiments and turning research into working technology."
+9828CFFEFD,Quantum Optics Scientist - Spin-Based Quantum Systems,"Palaiseau, France",,France,Research,Full-time,,2026-10-14,https://apply.workable.com/j/9828CFFEFD,"- About Quandela:
 
-Quandela is a European deeptech scale-up building modular, scalable and energy-efficient photonic and spin-optical quantum computers.
+Quandela is a European deeptech scale-up developing modular, scalable and energy-efficient photonic and spin-optical quantum computers, accessible through the cloud and on-premises.
 
-Our quantum computing platform is accessible both through the cloud and on-premises.
+With over 140 employees, we develop our own hardware and software stack, from semiconductor quantum emitters and photonic processors to quantum control systems and algorithms.
 
-With a team of more than 140 people, we develop our own hardware and software stack, from semiconductor quantum emitters and photonic processors to quantum control systems and quantum algorithms.
-
-Our ambition is to build large-scale fault-tolerant quantum computers capable of solving problems beyond the reach of classical computation using Quandela's cutting-edge quantum dot technology.
-
-Achieving this vision requires not only advances in photonic quantum computing, but also the development of scalable spin-photon interfaces, distributed entanglement capabilities and future SPOQC (Spin-Optical Quantum Computing) architectures that will enable modular and fault-tolerant quantum systems.
+Our ambition is to build large-scale, fault-tolerant quantum computers, combining quantum dot technologies, scalable spin-photon interfaces and distributed entanglement within future Spin-Optical Quantum Computing (SPOQC) architectures.
 
 - About this position:
 
-You will join Quandela's Semiconductor Optics Team, a multidisciplinary group combining expertise in quantum optics, spin physics, semiconductor technologies, electronics and quantum information.
+You will join Quandela's Semiconductor Optics Team, bringing together expertise in quantum optics, spin physics, semiconductor technologies and quantum information.
 
-The team develops the building blocks required for future hybrid spin-photon quantum computing architectures, bridging quantum science, technology development and product-oriented demonstrators.
+Your focus will be to develop and validate photon-mediated spin-spin entanglement protocols, improve spin coherence and operation fidelity, and advance optical control techniques for future hybrid quantum computing architectures.
 
-In this role, you will contribute to the development and validation of photon-mediated spin–spin entanglement protocols while improving the performance of spin-based quantum systems.
+We are looking for an experienced experimental scientist who can independently drive complex experimental activities, shape technical directions and translate scientific results into reliable technological building blocks, working closely with our research and engineering teams.
 
-Current challenges include enhancing spin coherence against decoherence, validating high-fidelity spin qubit operations, developing advanced optical control techniques and strengthening theory-to-experiment feedback loops for future multi-spin architectures.
-
-Beyond the scientific challenges, you will contribute to building demonstrators that will directly become part of future quantum computing platforms. Success in this role relies on combining scientific rigor, collaboration across Quandelas production and research departments.
+With several experimental building blocks still under development, you'll have room to shape technical choices, tackle open scientific challenges and directly influence our technology roadmap.
 
 - What you'll do:
 
-As a Quantum Optics Scientist, you will contribute to the development of spin-based quantum technologies supporting Quandela's longterm quantum computing roadmap.
+Spin-based quantum experiments
 
-Your work will include:
+- Design, develop and optimize optical experiments involving spin-photon sources.
+- Implement optical control schemes for spin initialization, readout and manipulation.
+- Characterize spin coherence, operation fidelity and entanglement quality.
 
-- Design, develop and improve optical experiments involving spin-photon sources.
-- Develop and implement optical control schemes for spin initialization, readout and characterization.
-- Characterize key spin properties including coherence, operation fidelity and entanglement quality.
-- Collaborate with theory, electronics and semiconductor technology teams to improve device performance and accelerate experimental progress.
-- Contributing to the development and validation of photon-mediated spin–spin entanglement protocols and future multi-spin architectures.
-- Validate and translate scientific advances into robust technological building blocks for future hybrid quantum computing systems.
+Scientific and experimental ownership
+
+- Independently drive experimental investigations, from design to validation.
+- Structure and prioritize scientific activities, milestones and technical challenges.
+- Troubleshoot complex experimental systems and propose technical improvements.
+- Share expertise and support less experienced colleagues when relevant.
+
+Technology development and integration
+
+- Develop and validate photon-mediated spin-spin entanglement protocols.
+- Collaborate with theory, electronics and semiconductor technology teams.
+- Improve experimental robustness, reproducibility and system performance.
+- Translate scientific results into demonstrators and technological building blocks for future multi-spin architectures.
 
 - How You Will Grow:
 
 During your first 3 months
-You will become familiar with Quandela's experimental platforms, spin-control techniques and ongoing demonstrator programs while contributing to existing projects.
+You will become familiar with Quandela's experimental platforms and ongoing demonstrators, contributing your expertise to current technical challenges.
 
 Within 6 months
-You will take ownership of specific scientific and experimental activities, contribute to protocol development and actively participate in theory-to-experiment feedback loops.
+You will drive dedicated experimental workstreams, contribute to key technical decisions and strengthen theory-to-experiment feedback loops.
 
 Within 1 year
-You will play a key role in advancing distributed entanglement demonstrations, contribute original ideas and help shape future developments within the team.
+You will help shape the team's experimental direction, advance distributed entanglement demonstrations and contribute to future spin-based architectures.
 
 Requirements
 
-- Ideal Profile:
+- What we're looking for
 
-- PhD in Spin Physics, Quantum Optics, Spin-Photon interfaces in the solid state or related fields.
-- Hands-on experimental research experience in spin physics, quantum optics, semiconductor quantum systems, quantum emitters, or closely related areas.
-- Experience developing, optimizing, and troubleshooting experimental quantum systems in a laboratory environment.
-- Familiarity with techniques such as spincontrol, optical manipulation, coherence measurements, single-photon characterization or related experimental methods.
-- Comfortable working alongside physicists, engineers and theorists in a multidisciplinary environment.
-- Curious, collaborative and motivated by challenging scientific and technological problems.
+We are looking for an experienced experimental researcher combining strong scientific expertise, technical autonomy and the ability to drive complex research activities.
 
-Bonus Points
+Must-have
 
-Experience in one or more of the following areas is highly appreciated:
+- PhD in Spin Physics, Quantum Optics or a related field.
+- Hands-on experience with spin-based quantum systems (control, readout or coherence measurements).
+- Proven autonomy in designing, optimizing and troubleshooting complex quantum experiments.
+- Strong understanding of quantum optics, spin coherence and experimental measurement techniques.
+- Ability to lead scientific activities and make independent technical decisions.
+- Comfortable collaborating across experimental, theory and engineering teams
 
-- Spin-photon interfaces
-- Semiconductor quantum emitters and quantum dots
-- Ultrafast optics and advanced optical control
-- Fast control electronics, cryogenic experimental platforms, and advanced laboratory instrumentation.
+Important, but you can grow here
 
-If relevant, we encourage you to highlight your level of experience with these topics in your CV, publications or application materials.
+- Photon-mediated entanglement protocols and multi-spin architectures.
+- Semiconductor quantum emitters, quantum dots and spin-photon interfaces.
+- Advanced optical control, cryogenic platforms and fast electronics.
+- Experimental qualification, system integration and technology transfer.
+
+Bonus points
+
+- Experience bridging academic research and industrial R&D.
+- Experience coordinating scientific projects or mentoring researchers.
 
 - Career Stage & Team Contribution:
 
-We welcome applications from candidates with a PHD in a relevant field, including recent PhD graduates and researchers with up to approximately three years of postodctoral or equivalent R&D experience.
+We primarily target candidates with a PhD and 4+ years of postdoctoral or equivalent R&D experience, combining scientific expertise with strong experimental autonomy.
 
-Expereience candidates will take a leading role in shaping technical directions, accelerating key developments, and mentoring younger team members. Strong early-carrer candidates will be suported in developing technical independant though pressive ownership of experimental activities.
+Researchers completing a substantial postdoc are also welcome if they demonstrate scientific maturity, technical ownership and readiness for broader responsibilities.
 
-Beyond technical expertise, we value curiosity, rigor, collaboration, and a willingness to share knowledge within a multidisciplinary team.
+People management experience is not required. What matters is your ability to drive scientific activities, tackle complex technical challenges and share your expertise with the team.
 
 Benefits
 
@@ -2620,17 +2589,20 @@ Localisation of the position : Based at the IPVF campus in Palaiseau, within the
 
 Process:
 
-- Talent Acquisition Interview (30' - 45')
-- Hiring Manager Interview (45' - 60')
-- Reference checks
+- Talent Acquisition Interview (30–45 min)
+- Hiring Manager Interview (45–60 min)
 - Technical discussion and presentation of previous research work
-- Meeting with the team and scientific discussion around fault-tolerant quantum algorithms and applications
+- Meeting with the team and scientific discussion
+- Reference checks
 - Offer
 
-Beyond That:
-At Quandela, we value scientific curiosity, experimentation and collaboration. If you're passionate about quantum optics, spin physics and quantum technologies, we'd love to hear from you, even if you don't meet every listed requirement.
+- Beyond That
 
-If you're excited by the challenge of turning scientific ideas into demonstrations, advancing the building blocks of future quantum computing systems and working alongside physicists, engineers and theorists, let's talk."
+At Quandela, you'll work on challenging scientific questions while helping turn experimental advances into technologies for future quantum computers.
+
+Our spin-based platforms are still evolving, leaving room to explore new approaches, influence technical directions and take real ownership of experimental challenges.
+
+If you're excited by the idea of combining ambitious quantum research with tangible technological impact, we'd love to hear from you, even if your background doesn't match every requirement."
 0519A0C9C5,R&D Engineer - Optical Systems & Single-Photon Source Lithography,"Palaiseau, France",,France,Research,Full-time,,2026-09-28,https://apply.workable.com/j/0519A0C9C5,"Quandela is a global leader in quantum computing, designing, building, and delivering cutting-edge quantum solutions for research and industry. Its offerings include the most energy-efficient quantum computers for data centers, full-stack quantum computing solutions accessible via the cloud, and algorithm access services for academic and industrial customers. Following a pragmatic, step-by-step roadmap, Quandela has been deploying industrial-grade systems since 2023 while developing future generations of fault-tolerant quantum computers capable of scaling through the integration of thousands of photonic components. Quandela is committed to making quantum computing accessible to all in order to address the most complex industrial and societal challenges.
 Learn more at: Quandela | Leading Photonic Quantum Computing Solutions
 
@@ -2695,9 +2667,6 @@ Requirements
 Required Qualifications & Experience :
 
 - Master's degree or PhD in Optics, Materials Science, Physics, Micro/Nanotechnology, Electrical Engineering, or a related field.
-
-- Hands-on experience with semiconductor or photonic device fabrication in a cleanroom environment.
-
 - Hands-on experience in design, assembling, and alignment of optical systems.
 
 - Hands-on experience in design, assembling, and operation of electronic devices
@@ -2833,53 +2802,43 @@ Process
 (This process is provided for guidance only and may evolve depending on the roles)
 
 At Quandela, we believe that the strength of our team is the plurality of experiences, perspectives, and journeys. We are committed to building a respectful, inclusive, and welcoming work environment. All applications are welcome."
-73184E7D93,Senior Procurement Manager,"Massy, France",,France,General & Administration,Full-time,,2026-10-02,https://apply.workable.com/j/73184E7D93,"Quandela is a global leader in quantum computing, designing, building, and delivering cutting-edge quantum solutions for research and industry. Its offerings include the most energy-efficient quantum computers for data centers, full-stack quantum computing solutions accessible via the cloud, and algorithm access services for academic and industrial customers. Following a pragmatic, step-by-step roadmap, Quandela has been deploying industrial-grade systems since 2023 while developing future generations of fault-tolerant quantum computers capable of scaling through the integration of thousands of photonic components. Quandela is committed to making quantum computing accessible to all in order to address the most complex industrial and societal challenges.
+1FDD4AD6F0,Scientific Engagement Specialist,"Massy, France",,France,Business & Marketing,Full-time,,2026-10-12,https://apply.workable.com/j/1FDD4AD6F0,"Quandela is a global leader in quantum computing, designing, building, and delivering cutting-edge quantum solutions for research and industry. Its offerings include the most energy-efficient quantum computers for data centers, full-stack quantum computing solutions accessible via the cloud, and algorithm access services for academic and industrial customers. Following a pragmatic, step-by-step roadmap, Quandela has been deploying industrial-grade systems since 2023 while developing future generations of fault-tolerant quantum computers capable of scaling through the integration of thousands of photonic components. Quandela is committed to making quantum computing accessible to all in order to address the most complex industrial and societal challenges.
 
 Join Us at the Forefront of Quantum Computing Innovation 🚀
 
-As Quandela scales its production and development capabilities, we are building a dedicated Procurement function. As the first Senior Procurement Manager, you will create the procurement department from the ground up—establishing processes, building a supplier panel, and acting as the strategic bridge between Quandela’s engineers and its supply chain. This is a high-impact role with clear evolution towards leading the full procurement department.
+We're looking for a Scientific Engagement Specialist to build deep relationships with Quandela's academic and scientific users, and help researchers successfully use our quantum computing technology for meaningful research. You'll act as the bridge between external researchers and Quandela's internal scientific and technical expertise, while also owning technical learning content and research-oriented community development.
 
 Your Key Responsibilities
 
-Own and manage all direct procurement activities (hardware electronics, microelectronics, and related equipment),
-
-- Establish and negotiate contracts with key suppliers (T&Cs, pricing, payment terms, deadlines, quality requirements), reviewed by the Legal department
-
-- Build and maintain a qualified supplier panel to secure the supply chain
-
-- Define procurement specifications with operational teams prior to supplier selection, and act as owner across TQRCDE criteria (Technology, Quality, Responsibility, Compliance, Delay, Environment)
-
-- Manage supplier relationships and conduct regular performance reviews and benchmarks
-
-- Define and implement procurement processes (direct & indirect) and internal communication frameworks
-
-- Build forecasts and a strategic procurement plan aligned with production and development roadmaps
-
-- Manage supplier risk, including export control compliance (mainly Europe)
-
-- Ensure best practices across all procurement activities, in close collaboration with Production, Development, Finance, and Legal teams
+- Build and maintain trusted, long-term relationships with strategically relevant academic researchers and research groups.
+- Understand researchers' objectives, algorithms, and workflows; provide first-level scientific guidance and connect them with Quandela experts when deeper expertise is needed.
+- Track research activity (projects, QPU usage, publications) and help researchers progress from experimentation to substantive projects and advocacy.
+- Capture emerging scientific needs and translate research-community feedback into recommendations for Product and R&D teams.
+- Create technically accurate learning content for the Quandela Hub Training Centre (tutorials, courses, notebooks, demos).
+- Organise and contribute to research workshops, technical webinars and scientific community events, including at academic conferences.
 
 Requirements
 
-- Master’s degree or equivalent experience in a relevant field
+- Master's degree or PhD in quantum computing, quantum information, physics, computer science, mathematics or a related discipline (PhD preferred but not required).
+- + 3 years of relevant experience, including meaningful research experience in quantum computing, quantum information, quantum physics, quantum algorithms or a closely related field.
+- Strong understanding of quantum computing fundamentals, with the ability to read scientific papers and engage in technical discussions.
+- Experience conducting research in an academic, industrial or applied R&D environment.
+- Experience creating technical documentation, tutorials, presentations or educational content.
+- Ability to communicate complex technical concepts clearly to users with different levels of expertise.
+- Strong interpersonal skills and genuine interest in building long-term relationships with researchers.
+- Excellent written and spoken English.
 
-- 5 to 10 years’ experience in direct procurement, with a focus on hardware electronics, microelectronics, or equipment for the microelectronics industry
+Nice to have
 
-- International experience and exposure to cross-border supplier management
+- Hands-on experience with quantum software frameworks and quantum hardware/cloud platforms.
 
-- Mastery of direct procurement processes and negotiation techniques
+- Experience with photonic quantum computing or developing/applying quantum algorithms.
 
-- ERP proficiency and understanding of procurement process flows
+- Publication record or experience contributing to academic research projects.
 
-- Fluent English (written and spoken), essential for international supplier management
+- Experience running workshops, hackathons or scientific community programmes.
 
-- Active listening and ability to translate engineering needs into procurement specifications
-
-- Strong transversal relationship skills – comfortable managing 10+ internal stakeholders simultaneously
-
-- Adaptability and ability to thrive in a fast-paced, innovative environment
-
-- Rigorous, structured, and comfortable with workload management across multiple priorities
+- Familiarity with developer or open-source communities.
 
 Benefits
 
@@ -2894,12 +2853,12 @@ What we offer:
 
 - A meaningful role with real ownership, from day one
 - A team eager to collaborate and grow with you
-- A hybrid and flexible work model (3 days/week onsite in Massy)
+- A hybrid work model (3 days/week onsite in Massy, 1 day in Paris, 1 to 2 days remotely)
 - Daily exposure to the entire quantum stack — from high-level APIs to low-level firmware, and everything in between.
 
 Process
 
-- Talent Acquisition Interview (30' - 45')
+- Talent Acquisition Interview (30')
 - Hiring Manager Interview (45')
 - Use Case (a live use case or one to be prepared at home and presented afterward)
 - Meeting with the teams
@@ -3457,6 +3416,251 @@ Joining Quandela means contributing to the development of one of Europe’s lead
 As part of the Office of the CTO & CSO, this role offers a unique opportunity to work at the center of the company’s scientific and technical leadership, gaining direct exposure to strategic decisions and helping shape the execution of cutting-edge research and engineering programs.
 
 You will collaborate with world-class scientists and engineers while helping scale a fast-growing deeptech organization tackling some of the most challenging technological problems of our time."
+5EF4515F30,Technical Support & Operations Engineer,"Massy, France",,France,Industrialization,Full-time,,2026-10-14,https://apply.workable.com/j/5EF4515F30,"Quandela is a global leader in quantum computing, designing, building, and delivering cutting-edge quantum solutions for research and industry. Its offerings include the most energy-efficient quantum computers for data centers, full-stack quantum computing solutions accessible via the cloud, and algorithm access services for academic and industrial customers. Following a pragmatic, step-by-step roadmap, Quandela has been deploying industrial-grade systems since 2023 while developing future generations of fault-tolerant quantum computers capable of scaling through the integration of thousands of photonic components. Quandela is committed to making quantum computing accessible to all in order to address the most complex industrial and societal challenges.
+
+Learn more at: Quandela | Leading Photonic Quantum Computing Solutions
+
+Join Us at the Forefront of Quantum Computing Innovation 🚀
+
+About the Role
+
+As part of the continued growth of our activities and the deployment of our photonic Quantum Processing Units (QPUs) to international customers, we are looking for a Technical Support & Operations Technician / Engineer to join our team.
+
+You will contribute to the operational monitoring of Quandela's QPUs and other hardware products deployed at customer sites, ensuring their proper operation and supporting maintenance activities, both remotely and on site.
+
+Working at the interface between Quandela's technical teams and system users, you will develop a broad understanding of our products, particularly the interactions between hardware equipment and software control interfaces. You will perform initial technical investigations when issues arise and involve the relevant technical experts when required.
+
+The role combines technical support, maintenance, field interventions, training and continuous improvement in a complex and international technological environment.
+
+Internal training will provide you with the specific knowledge required to understand our technology and systems. No previous experience in quantum computing is required.
+
+As our support and maintenance activities are still being structured, you will also contribute to improving our processes, tools and operational methods.
+
+Your Key Responsibilities:
+
+System operations & technical support
+
+You will contribute to maintaining the operational performance and availability of QPUs and other hardware products deployed at customer sites.
+
+- Monitor the operation and performance of installed systems.
+- Analyse operational data and identify anomalies or performance degradation.
+- Perform initial technical investigations to characterise issues and help determine the appropriate resolution path.
+- Follow up on technical incidents and corrective actions with the relevant teams.
+- Maintain accurate technical records of systems and interventions.
+- Provide remote technical support to customers and trained personnel working on the systems.
+
+Maintenance & customer-site interventions
+
+You will contribute to the preparation and follow-up of preventive and corrective maintenance activities.
+
+- Track maintenance schedules and anticipate upcoming interventions.
+- Identify the resources, equipment, spare parts and technical expertise required for each intervention.
+- Perform diagnostic, maintenance and system recovery operations according to established procedures.
+- Support technicians and technical experts remotely or on site during interventions.
+- Perform functional checks and testing following maintenance activities.
+- Track completed actions, outstanding issues and upcoming maintenance requirements.
+
+The role involves business travel within France and internationally, with frequency and duration depending on the needs of our installed systems.
+
+User training & technical guidance
+
+You will help customers and technical operators become increasingly autonomous in operating and maintaining our QPUs.
+
+- Train users and technical operators on routine QPU operation and maintenance activities.
+- Support users in operating the systems and their control interfaces.
+- Share best practices for operation, troubleshooting and maintenance.
+- Contribute to the creation and improvement of training materials and technical documentation.
+
+Documentation & continuous improvement
+
+You will ensure the traceability of technical operations and contribute to structuring our support and maintenance activities.
+
+- Prepare technical monitoring, intervention and maintenance reports.
+- Maintain up-to-date technical documentation for installed systems.
+- Contribute to writing and improving diagnostic, maintenance and operating procedures.
+- Capitalise on field experience to improve reliability and facilitate future interventions.
+- Contribute to implementing tools and methods for the structured monitoring of our installed systems.
+
+Requirements
+
+Education & experience
+
+- Associate's, Bachelor's or Master's degree in instrumentation, applied physics, optoelectronics or a related technical field.
+- The position is open to both experienced technicians and engineers with a strong interest in hands-on, operational activities.
+- Previous experience in operations, system integration, maintenance or technical support for complex systems is preferred.
+- Experience working in a multidisciplinary hardware/software environment is highly valued.
+- Experience supporting or maintaining technical equipment installed at customer sites would be an advantage.
+
+Technical skills Required
+
+- Good understanding of complex technical systems combining hardware and software.
+- Knowledge of electronics, instrumentation and/or control systems.
+- Ability to analyse operational data and characterise technical issues.
+- Ability to perform diagnostic and maintenance operations according to established procedures.
+- Ability to identify and involve the appropriate technical experts when required.
+- Strong organisational skills and ability to rigorously track interventions, deadlines and outstanding actions.
+- Ability to follow, write and improve technical procedures.
+- Professional fluency in English, both written and spoken, as you will interact directly with international customers and colleagues, deliver training sessions and produce technical documentation.
+- Willingness and ability to travel internationally.
+
+Nice to have
+
+- Knowledge of optics, photonics and/or cryogenics.
+- Hands-on experience with optical systems, including basic optical alignment.
+- Experience operating or maintaining cryogenic systems.
+- Basic programming or scripting skills, particularly Python.
+- Experience maintaining scientific or industrial equipment.
+- Experience delivering technical training to users or operators.
+
+Benefits
+
+- Competitive salary, flexible based on your experience
+
+- Profit-sharing & company savings plan
+- 100% health coverage (Alan)
+- 50% transport reimbursement or sustainable mobility bonus
+- Meal vouchers (Swile), Gymlib fitness support
+- Childcare assistance & referral bonuses (€1,000–€2,000)
+
+What we offer
+
+- A meaningful role with real ownership, from day one
+- A team eager to collaborate and grow with you
+- A hybrid work model (3 days/week onsite in Massy, 1 day in Paris, 1 to 2 days remotely)
+- Daily exposure to the entire quantum stack — from high-level APIs to low-level firmware, and everything in between.
+
+Process
+
+- Talent Acquisition Interview (30' - 45')
+- Hiring Manager Interview (45')
+- Use Case (a live use case or one to be prepared at home and presented afterward)
+- Meeting with the teams
+- 2 reference check
+- Offer
+
+(This process is provided for guidance only and may evolve depending on the roles)
+
+At Quandela, we believe that the strength of our team is the plurality of experiences, perspectives, and journeys. We are committed to building a respectful, inclusive, and welcoming work environment. All applications are welcome."
+31B0E051AF,Technicien Montage Mécanique & Intégration (F/H),"Massy, France",,France,Industrialization,Full-time,,2026-10-14,https://apply.workable.com/j/31B0E051AF,"Quandela est un leader mondial de l’informatique quantique, qui conçoit, développe et déploie des solutions quantiques de pointe à destination de la recherche et de l’industrie.
+
+Son offre comprend notamment les ordinateurs quantiques les plus économes en énergie pour les data centers, des solutions complètes de calcul quantique accessibles via le cloud, ainsi que des services d’accès à des algorithmes pour les acteurs académiques et industriels.
+
+Avec une feuille de route pragmatique et progressive, Quandela déploie depuis 2023 des systèmes de niveau industriel, tout en développant les futures générations d’ordinateurs quantiques tolérants aux pannes, capables de passer à l’échelle grâce à l’intégration de milliers de composants photoniques.
+
+Quandela ambitionne de rendre l’informatique quantique accessible au plus grand nombre afin de contribuer à résoudre les défis industriels et sociétaux les plus complexes.
+
+En savoir plus : Quandela | Leading Photonic Quantum Computing Solutions
+
+Rejoignez-nous à la pointe de l’innovation en informatique quantique 🚀
+
+A propos du poste
+
+Dans le cadre du développement de nos systèmes et de la montée en puissance de nos activités de production, nous recherchons un(e) Technicien(ne) Montage Mécanique & Intégration pour rejoindre notre équipe Assemblage & Production.
+
+Vous interviendrez principalement sur le montage, l’intégration et l’adaptation mécanique de nos équipements, depuis la préparation des sous-ensembles jusqu’à leur intégration dans nos systèmes complets.
+
+Vous évoluerez dans un environnement de production en petite série, sur des équipements technologiques complexes combinant notamment mécanique, électronique et optique.
+
+Notre production monte progressivement en volume et nos méthodes continuent de se structurer. Au-delà du montage, vous contribuerez donc à rendre nos processus plus robustes, documentés et reproductibles, en apportant votre retour d’expérience terrain et en proposant des améliorations concrètes.
+
+Missions principales:
+
+Montage et intégration mécanique
+
+- Réaliser le montage mécanique de sous-ensembles, modules et équipements.
+- Intégrer des composants et équipements dans des baies et structures mécaniques.
+- Réaliser les adaptations nécessaires : perçage, fixation, modification ou ajout de supports, ajustements mécaniques, etc.
+- Assembler des modules mécaniques et électromécaniques.
+- Réaliser les opérations d’ajustement, d’alignement et de fixation nécessaires à l’intégration des équipements.
+- Participer à l’intégration globale des systèmes en collaboration avec les équipes mécanique, électronique, optique et intégration.
+- Identifier les difficultés rencontrées lors du montage et proposer des solutions concrètes.
+
+Structuration et amélioration des processus
+
+- Contribuer à la définition et à l’amélioration des processus de montage et d’intégration.
+- Participer à la création et à la mise à jour des instructions de montage, gammes et procédures.
+- Identifier les améliorations possibles en matière de méthode, d’ergonomie, de qualité et de répétabilité.
+- Participer à la standardisation des solutions de montage afin d’accompagner la montée en volume de la production.
+
+Conception et modification mécanique
+
+- Réaliser des modifications simples sur les pièces et ensembles mécaniques existants.
+- Utiliser Fusion 360 pour consulter et exploiter les modèles 3D et plans mécaniques.
+- Selon les besoins, participer à la modification ou à la conception de pièces, supports et solutions mécaniques simples.
+- Mettre à jour les modèles 3D et plans nécessaires à la fabrication et à l’intégration.
+
+Documentation et traçabilité
+
+- Renseigner et maintenir la documentation associée aux opérations de montage et d’intégration.
+- Documenter les modifications apportées aux équipements et aux systèmes.
+- Assurer la traçabilité des opérations réalisées et des configurations assemblées.
+- Contribuer à la rédaction et à l’amélioration des documents nécessaires à la production.
+
+Approvisionnement et organisation
+
+- Identifier les besoins en composants, pièces mécaniques, consommables et équipements nécessaires aux activités de montage.
+- Contribuer aux demandes de devis et au suivi des approvisionnements.
+- Signaler les éventuels problèmes de disponibilité, de conformité ou de délai.
+- Participer à l’organisation du stock de composants et de pièces mécaniques.
+
+Requirements
+
+Vous êtes issu(e) d’une formation technique en mécanique, électromécanique, industrialisation ou dans un domaine équivalent.
+
+Vous disposez idéalement d’une première expérience en montage mécanique, assemblage ou intégration d’équipements techniques.
+
+Une expérience dans un environnement de petite série, prototypage, machines spéciales ou intégration de systèmes complexes constitue un véritable atout.
+
+Compétences techniques indispensables
+
+- Bonnes connaissances en mécanique et assemblage mécanique.
+- Lecture et compréhension de plans mécaniques et de modèles 3D.
+- Maîtrise des techniques et outils de montage, d’ajustement et d’intégration.
+- Capacité à réaliser des adaptations mécaniques simples sur des équipements et structures existants.
+- Capacité à documenter les opérations réalisées et à travailler à partir d’instructions et de procédures de montage.
+- Utilisation d’un outil de CAO 3D ; la connaissance de Fusion 360 est particulièrement appréciée.
+
+Compétences appréciées
+
+- Conception 3D et modification de pièces mécaniques simples.
+- Expérience en intégration d’équipements électromécaniques.
+- Montage et intégration d’équipements dans des racks, baies ou structures mécaniques.
+- Connaissances de base en électricité et électronique.
+- Expérience en environnement de production, prototypage ou petite série.
+- Sensibilité aux problématiques d’industrialisation, de standardisation et de répétabilité.
+- Anglais permettant d’échanger avec nos équipes internationales.
+
+Qualités recherchées
+
+- Autonomie et esprit d’initiative : vous êtes capable d’avancer et de proposer des solutions même lorsque les processus ne sont pas encore totalement définis.
+- Pragmatisme et sens pratique : vous aimez résoudre concrètement les problèmes rencontrés lors du montage et de l’intégration.
+- Rigueur : vous accordez de l’importance à la qualité du montage, à la documentation et à la traçabilité.
+- Esprit d’amélioration continue : vous cherchez à comprendre les difficultés rencontrées et à rendre les méthodes plus efficaces et reproductibles.
+- Organisation : vous savez gérer plusieurs activités et priorités en parallèle.
+- Esprit d’équipe : vous appréciez de travailler avec des profils techniques variés.
+- Curiosité technique : vous cherchez à comprendre le fonctionnement global des systèmes sur lesquels vous intervenez.
+
+Benefits
+
+Ce que nous offrons :
+
+- Un rôle à fort impact, avec de réelles responsabilités dès votre arrivée
+- Une équipe qui a envie de collaborer, de partager et de grandir avec vous
+- Un modèle de travail hybride : 3 jours par semaine sur site à Massy, 1 jour à Paris et 1 à 2 jours en télétravail
+- Une exposition quotidienne à l’ensemble de la stack quantique : des API haut niveau jusqu’au firmware bas niveau, et tout ce qui se trouve entre les deux
+
+Processus de recrutement :
+
+- Entretien avec l’équipe Talent Acquisition (30 à 45 min)
+- Entretien avec le Hiring Manager (45 min)
+- Étude de cas : en direct ou à préparer chez vous puis à présenter
+- Rencontre avec les équipes
+- 2 prises de références
+- Offre
+
+Ce processus est donné à titre indicatif et peut évoluer en fonction du poste.
+
+Chez Quandela, nous sommes convaincus que la richesse de notre équipe repose sur la diversité des expériences, des perspectives et des parcours. Nous nous engageons à construire un environnement de travail respectueux, inclusif et accueillant. Toutes les candidatures sont les bienvenues."
 94DF4846ED,"Technicien Polyvalent Maintenance, Logistique & Services Généraux","Massy, France",,France,General & Administration,Part-time,,2026-09-21,https://apply.workable.com/j/94DF4846ED,"Quandela est un leader mondial de l'informatique quantique : l'entreprise conçoit, fabrique et fournit des solutions quantiques de pointe pour la recherche et l'industrie. Son offre comprend les ordinateurs quantiques les plus économes en énergie pour les centres de données, des solutions d'informatique quantique full-stack accessibles via le cloud, ainsi que des services d'accès à des algorithmes pour les clients académiques et industriels. Suivant une feuille de route pragmatique et progressive, Quandela déploie depuis 2023 des systèmes de qualité industrielle, tout en développant les futures générations d'ordinateurs quantiques tolérants aux fautes, capables de passer à l'échelle grâce à l'intégration de milliers de composants photoniques. Quandela s'engage à rendre l'informatique quantique accessible à tous afin de relever les défis industriels et sociétaux les plus complexes.
 
 Rejoignez-nous à l'avant-garde de l'innovation en informatique quantique 🚀

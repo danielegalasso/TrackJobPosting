@@ -244,12 +244,21 @@ describe('JobCard', () => {
     expect(screen.getByText('No longer listed')).toBeInTheDocument();
   });
 
-  it('offers to restore rather than dismiss in the Removed view', async () => {
+  it('offers to restore rather than dismiss a removed posting', async () => {
     const onDismiss = vi.fn();
-    render(<JobCard job={makeJob()} onToggleSave={noop} onDismiss={onDismiss} removedView />);
+    const job = makeJob({ dismissed: true });
+    render(<JobCard job={job} onToggleSave={noop} onDismiss={onDismiss} removedView />);
+    expect(screen.queryByText('Removed')).not.toBeInTheDocument();
     expect(screen.queryByRole('button', { name: /^Dismiss / })).not.toBeInTheDocument();
     await userEvent.click(screen.getByRole('button', { name: /^Restore / }));
     expect(onDismiss).toHaveBeenCalledTimes(1);
+  });
+
+  it('marks a removed posting outside the Removed view', () => {
+    const job = makeJob({ saved: true, dismissed: true });
+    render(<JobCard job={job} onToggleSave={noop} onDismiss={noop} />);
+    expect(screen.getByText('Removed')).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: /^Restore / })).toBeInTheDocument();
   });
 });
 

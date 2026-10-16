@@ -1,0 +1,770 @@
+job_id,requisition_id,title,location,offices,country,department,start_date,updated,deadline,url,description
+4935405101,56,Business Development Lead - Germany (m/f/d),Germany,Karlsruhe; München,Germany,"Sales, Business Development, Marketing",2026-07-22,2026-07-22,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4935405101,"At Alpine Eagle, we are experts in defence, aerospace engineering, and machine learning, pioneering the first airborne, swarm-based counter-drone system. Recent conflicts underline drones' increasing threat, emphasizing the need for sophisticated air-to-air defence solutions. We strive to equip governments and institutions dedicated to freedom and the rule of law with groundbreaking capabilities to counter emerging drone threats.
+
+We are seeking an experienced and strategically-minded Business Development Lead to spearhead our growth and penetration within the Germany defence sector. This role demands deep knowledge of the Germany's defence procurement landscape, an extensive network of defence-sector relationships, and the strategic vision to navigate complex procurement processes effectively.
+
+🎯 How you will make an impact:
+
+- Lead the creation and execution of Alpine Eagle’s strategic business development plan specifically tailored for Germany's defence market.
+
+- Identify, cultivate, and maintain critical relationships within key ministries, defence procurement bodies, armed forces stakeholders, major primes, OEMs, and relevant system integrators in Germany.
+
+- Navigate and influence Germany's defence procurement frameworks and policies, ensuring Alpine Eagle's alignment and compliance with local procurement regulations and practices.
+
+- Proactively anticipate and strategically respond to shifts in Germany's geopolitical and regulatory landscape, advising internal stakeholders accordingly.
+
+- Drive and oversee capture strategies for critical procurement opportunities, including bid strategies, teaming arrangements, and proposal development.
+
+- Act as Alpine Eagle’s primary representative at national industry events, defence expos, and governmental engagements, serving as a trusted advisor and brand ambassador.
+
+✅ What you need to be successful:
+
+- 8+ years of proven success in business development or capture management roles within the German defence sector, ideally with experience in aerospace or defence technologies.
+
+- Extensive understanding and hands-on experience navigating Germany's defence procurement frameworks and processes.
+
+- An established network within key defence and governmental institutions in Germany.
+
+- Proven ability to develop and execute strategic growth initiatives, driving meaningful engagement and long-term business partnerships.
+
+- Exceptional negotiation, communication, and relationship-building skills.
+
+- Fluency in English and German is essential.
+
+- Entrepreneurial mindset and ability to thrive in a dynamic scale-up environment.
+
+- Availability and willingness to travel frequently within Germany and occasionally internationally.
+
+Above all, we value strategic insight, defence-sector expertise, and passion for delivering innovative solutions that bolster national and global security.
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+4714147101,30,Chief of Staff (m/w/d),"Karlsruhe, Baden-Württemberg, Germany, München, Bavaria, Germany",Karlsruhe; München,Germany,Management,2025-11-20,2026-05-04,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4714147101,"At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system.
+
+Modern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that.
+
+Alpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.
+
+The Chief of Staff will be the CEO’s trusted partner across strategy and operations, driving high-impact strategic and operational initiatives across our defence drone-tech startup.
+
+🎯 How you will make an impact:
+
+- Drive high-priority strategic and operational projects directly with the founder and CEO, from planning through execution.
+
+- Prepare materials for investors, partners, and government stakeholders, including briefs, analyses, and funding-related documents.
+
+- Conduct market, competitor, and regulatory research within the defence, aerospace, and dual-use technology sectors.
+
+- Support fundraising activities by coordinating documents, financial models, and timelines.
+
+- Coordinate cross-team communication and ensure smooth execution between engineering, operations, and external partners.
+
+- Work closely with founders on strategic decision-making, data-driven prioritization, and KPI tracking.
+
+- Assist in preparing pitches, demos, and presentations for customers in defence, security, and government agencies.
+
+- Manage special projects that require technical curiosity, operational discipline, and discretion.
+
+✅ What you need to be successful:
+
+- Fluency in German and English.
+
+- Min. 3 years of experience in a start-up tech company, defence-consulting, VC, or a similarly fast-paced environment.
+
+- Experience with financial analysis, fundraising support, or investor materials is a strong plus.
+
+- Strong interest and prior experience in defence, security, aerospace, robotics, or dual-use technologies.
+
+- Ability to navigate sensitive or confidential information with absolute professionalism.
+
+- Highly structured working style, strong analytical and problem-solving skills, and an ability to “figure things out” without perfect guidance.
+
+- Comfortable working in an early-stage environment with shifting priorities and hands-on tasks.
+
+- Excellent communication skills internally and externally.
+
+At Alpine Eagle, you're not just taking a job - you're joining a mission."
+4789058101,51,Flight Physics & Flight Controls Engineer (m/w/d),"Karlsruhe, Baden-Württemberg, Germany, München, Bavaria, Germany",Karlsruhe; München,Germany,Engineering,2026-02-24,2026-02-24,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4789058101,"At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system.
+
+Modern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that.
+
+Alpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.
+
+🎯 How you will make an impact:
+
+- Design and implement flight control laws (attitude, rate, position, and advanced control modes)
+
+- Model aircraft dynamics including aerodynamics, propulsion, and actuator behavior
+
+- Maximize flight performance through controller tuning and stability analysis
+
+- Build high-fidelity simulations (SITL/HITL) and validate them against flight test data
+
+- Analyze real flight logs to identify instability, coupling effects, and performance limitations
+
+- Bridge simulation and reality by improving model accuracy and parameter identification
+
+- Collaborate with navigation, perception, and hardware teams to ensure safe and predictable flight behavior
+
+- Contribute to flight test campaigns and iterate quickly from experimental results
+
+✅ What you need to be successful:
+
+- Strong background in flight mechanics, dynamics, and control theory
+
+- Experience with classical and modern control methods (PID, LQR, MPC, observers, filtering)
+
+- Ability to analyze stability and performance in nonlinear systems
+
+- Degree (MSc/PhD preferred) in Aerospace Engineering, Robotics, Control Engineering, or related field
+
+- Experience working with flight control firmware (PX4 / Ardupilot or similar)
+
+- Comfortable working with Python-based modeling tools
+
+- Practical mindset — capable of turning theory into working controllers on real aircraft
+
+- Enjoy debugging physical systems and validating them experimentally
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity.
+
+Apply now!"
+4586037101,12,Flight Test Engineer - Drones (m/f/d),"Karlsruhe, Baden-Württemberg",Karlsruhe,Germany,Engineering,2025-05-08,2026-07-22,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4586037101,"At Alpine Eagle, we are a team of specialists with backgrounds in defence, aerospace engineering and machine learning, building the first airborne, swarm-based system to provide protection against the rising drone threat. We believe that recent conflicts have shown the malicious and disruptive potential of drones in both civilian and defense scenarios. In addition, we are convinced that the next step in counter-drone is air-to-air. We want to ensure that all governments and institutions that believe in personal freedom and the rule of law have cutting edge solutions to protect against this rising threat.
+
+We offer a work environment that is inclusive and open, with a flat hierarchy, and a purpose-driven team. We want to reinforce a culture where great ideas can flourish, and great people collaborate.
+
+We are seeking a hands-on and motivated Flight Test Engineer to support unmanned aerial vehicle (UAV) flight testing in support of our Counter-UAS systems. You will be at the front lines of system validation - working closely with hardware, software, and mission teams to plan, execute, and evaluate test flights of drone systems and their intercept capabilities.
+
+🎯 How you will make an impact:
+
+- Develop, plan, conduct and report on comprehensive flight test campaigns for UAV and counter-UAS systems, from concept validation through operational evaluation.
+
+- Define test objectives, methodologies, procedures, and success criteria to verify system performance, reliability, and safety.
+
+- Analyze flight test data to assess performance, identify root causes of anomalies, and drive corrective actions in collaboration with engineering teams.
+
+- Produce clear test documentation, maintaining configuration control and traceability throughout the test campaign.
+
+- Ensure compliance with applicable aviation regulations, safety standards, and company flight test processes.
+
+- Support operational evaluation, product acceptance testing and customer demonstrations.
+
+- Occasionally travel to remote test ranges as required.
+
+✅ What you need to be successful:
+
+- Experience in flight test engineering, flight operations, systems validation, or verification and testing of UAV, aerospace, robotics, or autonomous systems.
+
+- Demonstrated experience designing and executing structured test programs and translating requirements into test procedures and acceptance criteria.
+
+- Strong understanding of flight control systems, avionics, autonomy, navigation, and vehicle performance evaluation.
+
+- Experience analyzing flight data, telemetry, and test results using engineering tools and methodologies.
+
+- Working knowledge of UAV integration, including sensors, payloads, communications systems, and mission equipment.
+
+- Familiarity with risk management, flight safety processes, and aviation regulatory frameworks.
+
+- Ability to work effectively in hands-on field environments while maintaining engineering rigor and attention to detail.
+
+- Excellent technical communication and reporting skills.
+
+Preferred Qualifications
+
+- EASA remote pilot competency certificate or equivalent drone operations qualification.
+
+- Experience with RF communications, telemetry systems, electronic warfare, counter-UAS technologies, or related mission systems.
+
+- Experience supporting government or defense programs.
+
+- Military service or operational military experience.
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+4935533101,57,Flight Test Pilot - Drones (m/f/d),"Karlsruhe, Baden-Württemberg",Karlsruhe,Germany,Engineering,2026-07-27,2026-07-27,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4935533101,"At Alpine Eagle, we are a team of specialists with backgrounds in defence, aerospace engineering and machine learning, building the first airborne, swarm-based system to provide protection against the rising drone threat. We believe that recent conflicts have shown the malicious and disruptive potential of drones in both civilian and defense scenarios. In addition, we are convinced that the next step in counter-drone is air-to-air. We want to ensure that all governments and institutions that believe in personal freedom and the rule of law have cutting edge solutions to protect against this rising threat.
+
+We offer a work environment that is inclusive and open, with a flat hierarchy, and a purpose-driven team. We want to reinforce a culture where great ideas can flourish, and great people collaborate.
+
+We are seeking a hands-on and motivated Flight Test Pilot to support unmanned aerial vehicle (UAV) flight testing in support of our Counter-UAS systems. You will be at the front lines of system validation - working closely with hardware, software, and mission teams to plan, execute, and evaluate test flights of drone systems and their intercept capabilities.
+
+🎯 How you will make an impact:
+
+- Execute UAV flight test missions in accordance with approved test plans, procedures, and safety requirements.
+
+- Safely operate multicopter and fixed-wing UAVs across manual, assisted, and autonomous flight modes.
+
+- Work closely with Flight Test Engineers and System Matter Experts during test preparation, mission execution, and post-flight debriefs.
+
+- Perform pre-flight inspections, system checks, and flight readiness reviews.
+
+- Monitor aircraft behaviour during testing and provide clear, timely feedback on vehicle performance and anomalies.
+
+- Analyze flight test data to assess performance, identify root causes of anomalies, and drive corrective actions in collaboration with engineering teams.
+
+- Support operational evaluation, product acceptance testing and customer demonstrations.
+
+- Occasionally travel to remote test ranges as required.
+
+✅ What you need to be successful:
+
+- Proven experience piloting both multicopter and fixed-wing UAVs.
+
+- Exceptional manual flying skills beyond highly automated commercial drone platforms.
+
+- Strong discipline in following flight procedures, test cards, and briefing instructions.
+
+- Demonstrated ability to make sound decisions under pressure and maintain composure during complex flight test scenarios.
+
+- Solid understanding of UAV flight operations, airspace, and flight safety principles.
+
+- Strong communication skills and ability to work effectively within a multidisciplinary test team.
+
+- High level of professionalism, situational awareness, and attention to detail.
+
+Preferred Qualifications
+
+- EASA remote pilot competency certificate or equivalent drone operations qualification.
+
+- Experience with PX4, ArduPilot, or similar flight control systems.
+
+- Previous experience supporting UAV development or flight test programs.
+
+- Experience with VTOL and high-performance fixed-wing platforms.
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+4966334101,60,Full Stack Engineer – Frontend Focus (m/f/d),"Karlsruhe, Baden-Württemberg, Germany, München, Bavaria, Germany",Karlsruhe; München,Germany,Engineering,2026-09-02,2026-10-07,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4966334101,"At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system.
+
+Modern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that.
+
+Alpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.
+
+We are looking for a Full Stack Engineer with a strong frontend focus and a proven background in human-machine interfaces for complex operational systems. You will turn complex sensor, agent, and mission data into an intuitive operational picture and effective control interfaces.
+
+🎯 How you will make an impact:
+
+- Develop high-performance frontend applications using TypeScript and React
+
+- Take ownership of frontend architecture and establish reusable patterns for complex visualization and operator workflows
+
+- Develop intuitive and ergonomic operator workflows for real-time, information-dense environments
+
+- Build interfaces for monitoring system state, sensor information, agent activities, effector status, tracks, and mission data
+
+- Develop interactive maps, GIS-based interfaces, and 2D/3D visualizations
+
+- Build real-time interfaces for monitoring and controlling multiple agents and system components
+
+- Contribute across the full stack, including Python, Redis, APIs, and databases
+
+- Work closely with systems, backend, and domain engineers to translate operational concepts and system capabilities into effective operator workflows
+
+- Contribute to software architecture, code reviews, testing, and continuous improvement
+
+✅ What you need to be successful:
+
+- Strong professional experience in frontend or full-stack software engineering
+
+- Excellent TypeScript and React skills
+
+- Professional experience developing software for cockpits, mission control, operator stations, HMI, or comparable complex operational systems
+
+- Strong understanding of UX, ergonomics, and human-machine interaction
+
+- Experience designing interfaces for real-time, information-dense environments where situational awareness and efficient decision-making are critical
+
+- Experience with real-time applications and distributed systems
+
+- Strong analytical and problem-solving skills with a pragmatic engineering mindset
+
+- Ability to work effectively with systems, backend, and domain engineering teams
+
+Ideally, also :
+
+- Solid Python skills and experience working across the full stack
+
+- Experience with Redis and databases
+
+- Experience with GIS, mapping, and geospatial applications
+
+- Experience with 2D/3D graphics, WebGL, or graphics engines
+
+- Experience with autonomous systems, robotics, aerospace, defense, C-UAS, or other mission-critical systems
+
+- Experience with sensor/effector integration or multi-agent systems
+
+- Fluent in English; German is a plus
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+4807744101,54,Head of C-UAS Mission Management System (m/f/d),München ,München,Germany,Engineering,2026-03-12,2026-03-12,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4807744101,"At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system.
+
+Modern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that.
+
+Alpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.
+
+🎯 How you will make an impact:
+
+The C-UAS Mission Management System Team is designing the user interface for our airborne and ground-based products which include both sensor networks and effectors. The user interface offers a unique capability to control a multi agent based fleet of assets. It allows for mission planning and simulation, mission operation and control, situational awareness and damage assessment. You will run a team of software developers to further improve and develop the existing product, its features and interfaces. You will be hands-on, develop and optimize, drive the architecture, and collaborate with other teams to deliver next-generation drone solutions.
+
+In particular, you will:
+
+- Lead and mentor a cross‑functional engineering team, fostering strong performance, growth, and a high‑quality engineering culture.
+
+- Own the full lifecycle of the Mission Management System UI, from requirements and design to implementation, testing, deployment, and maintenance.
+
+- Define and evolve the system architecture to ensure scalability, modularity, resilience, and seamless integration with sensors, effectors, C2 systems, and third‑party assets.
+
+- Collaborate with product, systems engineering, UX, and hardware teams to translate operational needs into intuitive and reliable user interfaces.
+
+- Ensure engineering excellence through clean coding standards, automated testing, CI/CD, and efficient development workflows.
+
+- Shape the product roadmap by identifying new features, improvements, and technology opportunities that enhance mission effectiveness and operator experience.
+
+- Conduct technical reviews, develop proof‑of‑concepts, and guide decisions on frameworks, libraries, and tools.
+
+- Support integration and field testing, validating performance in realistic operational environments and participating in flight operations.
+
+- Champion usability, safety, and reliability in mission‑critical scenarios.Drive continuous improvement and foster a culture of innovation, transparency, and collaboration.
+
+✅ What you need to be successful:
+
+- Strong background in software engineering (5+ years), including technical leadership and modern UI + backend development.
+
+- Experience in UAS mission planning, drone operations, or related domains such as robotics, autonomous systems, or C2/C4ISR.
+
+- Solid understanding of distributed systems, real‑time data processing, and high‑availability architectures.
+
+- Familiarity with defence‑related standards and tools (e.g., Sapient, STANAG 4586, ATAK, SitaWare).
+
+- Ability to translate mission and user requirements into intuitive UI/UX and guide teams through complex technical decisions.
+
+- Excellent communication skills and fluent English; defence‑system integration experience is a strong plus
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity.
+
+Apply now!"
+4584007101,6,Head of Computer Vision Engineering (m/f/d),"Karlsruhe, Baden-Württemberg",Karlsruhe,Germany,Engineering,2025-05-21,2026-02-17,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4584007101,"At Alpine Eagle, we are a team of specialists with backgrounds in defence, aerospace engineering and machine learning, building the first airborne, swarm-based system to provide protection against the rising drone threat. We believe that recent conflicts have shown the malicious and disruptive potential of drones in both civilian and defense scenarios. In addition, we are convinced that the next step in counter-drone is air-to-air. We want to ensure that all governments and institutions that believe in personal freedom and the rule of law have cutting edge solutions to protect against this rising threat.
+
+We offer a work environment that is inclusive and open, with a flat hierarchy, and a purpose-driven team. We want to reinforce a culture where great ideas can flourish, and great people collaborate.
+
+As the Head of Computer Vision Engineering, you will play a pivotal role in advancing Alpine Eagle’s drone technology. You will lead and inspire our computer vision and perception team, shaping the future of our UAV solutions. This is a hands-on leadership role where you will develop and optimize computer vision algorithms, drive perception architecture, and collaborate across teams to deliver next-generation drone capabilities.
+
+🎯 How you will make an impact:
+
+- Lead the computer vision strategy and roadmap
+Define milestones aligned with company goals, establish systematic development processes, and ensure timely delivery of innovative computer vision capabilities.
+
+- Design, implement, and optimize computer vision algorithms for visual navigation
+Develop real-time object detection and classification, multi-object tracking across frames and scenes, and visual SLAM for outdoor navigation.
+
+- Integrate vision systems with robotic platforms and edge devices
+Collaborate with cross-functional teams to deploy robust solutions in production environments.
+
+- Design and optimize algorithms and architectures
+Develop advanced computer vision algorithms for drone applications such as object detection, tracking, segmentation, and scene understanding.
+Evaluate and benchmark models using real-world datasets and simulations.
+
+- Build and develop a high-performing team
+Lead by example, mentor engineers, and foster a culture of growth, collaboration, and technical excellence.
+
+- Stay at the forefront of technology
+Continuously research and implement state-of-the-art computer vision techniques, with a focus on aerial and C-UAS applications.
+
+- Champion code quality and documentation
+Promote best practices through code reviews, maintain high code quality, and ensure clear, consistent documentation.
+
+✅ What you need to be successful:
+
+- Bachelor’s or Master’s degree in Computer Science, Robotics, or a related field; PhD is a plus
+
+- Strong experience with deep learning frameworks (TensorFlow, PyTorch) and architectures such as CNNs, object detectors, and tracking algorithms
+
+- Proficiency in object detection models (YOLO, Faster R-CNN, SSD, etc.)
+
+- Solid understanding of visual SLAM, structure-from-motion, and navigation techniques
+
+- Programming skills in Python and C++ (ROS experience is a plus)
+
+- Familiarity with OpenCV, CUDA, and real-time video processing
+
+- Proven ability to lead and build high-performing teams in fast-paced, innovative environments
+
+- Hands-on approach with strong ownership and accountability
+
+- Systematic problem-solving skills and excellent documentation habits
+
+- Collaborative mindset with a team-first attitude
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+4988486101,64,HR Business Partner (m/f/d),Aschheim,München,Germany,People,2026-09-28,2026-09-28,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4988486101,"At Alpine Eagle, we are a team of specialists with backgrounds in defence, aerospace engineering and machine learning, building innovative counter-UAV technology.
+
+As we continue to scale, we're looking for an experienced HR Business Partner to help shape and support our growing organization. In this role, you'll work closely with leaders and employees across the business, providing strategic and operational HR support that enables high performance, strong engagement, and sustainable growth.
+
+If you're a trusted advisor, pragmatic problem solver, and experienced HR professional who enjoys building people processes in a fast-paced environment, we'd love to hear from you.
+
+🎯 How you will make an impact:
+
+- Partner closely with managers and leadership on organizational development, workforce planning, performance management, and employee relations
+
+- Advise employees and managers on HR policies, German labor law, and people-related matters throughout the employee lifecycle
+
+- Support and coach leaders on team effectiveness, talent development, feedback, and performance conversations
+
+- Drive key People initiatives and projects, including employee engagement, talent management, compensation reviews, and organizational changes
+
+- Analyze people data and trends, providing insights and recommendations to support business decisions
+
+✅ What you need to be successful:
+
+- Completed university studies in Business, Human Resources, Psychology, or a related field
+
+- Minimum 8 years of progressive HR experience, including at least 4 years in an HR Business Partner role
+
+- Strong expertise in German labor law and hands-on experience advising managers and employees on complex employee relations matters
+
+- Proven experience partnering with and coaching leaders across different organizational levels
+
+- Experience managing disciplinary procedures, performance management processes, organizational change, and conflict resolution
+
+- Experience designing and implementing Learning & Development and talent management initiatives
+
+- Strong stakeholder management, communication, and problem-solving skills
+
+- Pragmatic, business-oriented, and solution-focused approach
+
+- Experience in a fast-growing, dynamic, or technology-driven environment is a plus
+
+- Business-fluent German and English is required
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+4633714101,16,HR Specialist / Personalsachbearbeiter (m/f/d),Aschheim,München,Germany,People,2025-07-08,2026-06-29,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4633714101,"At Alpine Eagle, we are a team of specialists with backgrounds in defence, aerospace engineering and machine learning, building innovative counter-UAV technology.
+
+We're growing fast and are looking for a team member to keep our People Operations running smoothly.
+From onboarding to offboarding and everything in between - you'll handle the details that keep our team supported and compliant, especially with German labor law.
+
+If you're organized, pro-active, discreet, and know your way around People Operations in Germany, we’d love to hear from you.
+
+🎯 How you will make an impact:
+
+- Maintain and improve our HR system - not just data entry, but ensuring we’re compliant, efficient, and audit-ready
+
+- Draft, manage, and store contracts, agreements, and official documents
+
+- Organize onboarding and offboarding - communication, checklists, welcome kits and exit info
+
+- Be the go-to person for daily employee questions - time off, policies, legal regulations
+
+- Support with insights - tracking headcount, absences, and people trends
+
+- Take ownership of HR projects - yearly feedback cycle, employee benefits, employee engagement, etc.
+
+✅ What you need to be successful:
+
+- Completed university studies in Business, HR, Psychology, or a similar vocational training
+
+- Minimum 3 years of experience in a People Operations role in Germany
+
+- Solid knowledge and hands-on experience working with German labor law
+
+- Familiar with digital HR tools (Personio, LinkedIn, Greenhouse)
+
+- Reliable, discreet, organized, pro-active
+
+- Business-fluent German and English is required
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+4989897101,65,Marketing & Communications Coordinator (m/w/d),Munich or Karlsruhe,Karlsruhe; München,Germany,"Sales, Business Development, Marketing",2026-09-29,2026-09-29,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4989897101,"At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system. Modern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that.
+
+Alpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.
+
+Therefore, we are looking for a Marketing Coordinator to support our communications and marketing activities across multiple channels. Working closely with the Head of Communications & Marketing, you will help coordinate campaigns, create content, support events, and maintain marketing assets that strengthen our brand, engage stakeholders, and support company growth.
+
+🎯 How you will make an impact:
+
+- Campaign Coordination: Plan, execute, and monitor marketing campaigns across digital, social media, and traditional channels to promote products or services.
+
+- Content Creation: Develop marketing materials, including promotional content (brochures, solution briefs), newsletters, social media posts, and presentations.
+
+- Event and Project Support: Organize trade shows, meetings, and promotional events, ensuring all logistics and materials are prepared.
+
+- Data Analysis and Reporting: Track campaign performance, sales data, and marketing metrics, preparing reports to guide decision-making.
+
+- Collaboration: Work closely with internal teams, including sales, design, and communications, to ensure marketing initiatives align with company goals.
+
+- Marketing Operations & Content Management: Maintaining the Asset Library, making sure our website is always up to date and content in information is accessible for internal and external stakeholders.
+
+✅ What you need to be successful:
+
+- Initial professional experience in marketing, communications, business, public relations, or a related field.
+
+- Strong written and verbal communication skills.
+
+- Excellent organizational and project coordination skills with strong attention to detail.
+
+- Ability to manage multiple tasks and priorities in a fast-paced environment.
+
+- Experience creating content for digital channels, social media, or marketing materials.
+
+- Proficiency with Microsoft Office and common marketing and communication tools.
+
+- Strong collaborative mindset and ability to work effectively with diverse stakeholders.
+
+- Experience supporting events, trade shows, or conferences.
+
+- Familiarity with website content management systems (CMS).
+
+- Experience with social media management and marketing analytics tools.
+
+- Experience with graphic design, video editing, or content creation tools.
+
+- Knowledge of CRM or marketing automation platforms.
+
+- Fluent in German and English.
+
+At Alpine Eagle, you're not just taking a job — you're joining a mission.
+
+We are building a team of exceptional people who are mission-driven, working on breakthrough technology with real-world impact.
+
+Don’t hesitate. Apply now and become part of something bigger."
+4699459101,29,Project Manager (m/f/d),"Karlsruhe, Baden-Württemberg, Germany, München, Bavaria, Germany",Karlsruhe; München,Germany,Operations,2025-10-24,2026-06-02,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4699459101,"At Alpine Eagle, we are building the future of counter-drone defence. As a fast-growing and internationally successful deep tech company, we specialise in aerospace engineering, defence systems, and machine learning - developing the world’s first swarm-based, airborne counter-drone system.
+
+Modern conflicts have made one thing clear: drones are changing the face of warfare. From critical infrastructure to frontline defence, the threats are escalating and current solutions are falling behind: Our mission is to change that effectively.
+
+Alpine Eagle is more than a defence company - it's a call to action. With an international team of experts, a strong financial foundation, and a bold vision for the future, we’re looking for people who want to help shape the next generation of aerial security systems and build something that truly matters.
+
+🎯 How you will make an impact:
+
+We’re looking for an assertive and results-driven Project Manager to lead complex engineering projects from concept to delivery. You will oversee timelines, budgets, and stakeholder alignment - ensuring mission-critical solutions are executed with precision and speed.
+
+This role demands a strong personality, a resilient mindset, and the ability to negotiate under pressure while keeping strategic objectives in focus. If you thrive in high-stakes environments and can balance structure with agility, you’ll feel at home here.
+
+- Lead end-to-end project management across cross-functional teams (engineering, procurement, testing, and customer success).
+
+- Manage multiple defence-related programs, ensuring compliance with contractual, technical, and security requirements.
+
+- Serve as the primary point of contact for military and government clients as well as our product development teams - maintaining trust, accountability, and transparent communication.
+
+- Oversee project timelines, milestones, and budgets; anticipate risks and apply corrective actions early.
+
+- Drive negotiations with suppliers, subcontractors, and partners to secure optimal terms and maintain project momentum.
+
+- Prepare detailed project documentation, reports, and presentations for internal and external stakeholders.
+
+- Ensure full adherence to defense standards, export control, and security protocols.
+
+✅ What you need to be successful:
+
+- Proven track record (5+ years) in project management, ideally within the defence sector.
+
+- Solid experience in claim management.
+
+- Exceptional leadership, communication, and conflict-resolution skills.
+
+- A strategic thinker who maintains authority in negotiations.
+
+- Solid understanding of technical program delivery.
+
+- Fluent in English and German.
+
+- PMP or similar project management certification is a plus, but real-world experience in defence operations is valued most.
+
+At Alpine Eagle, you're not just taking a job - you're joining a mission.
+
+We are building a team of exceptional people who are mission-driven, working on breakthrough technology with real-world impact."
+4999743101,66,Sensor Fusion Engineer – Multi-Sensor Integration (m/f/d),"Karlsruhe, Baden-Württemberg, Germany, München, Bavaria, Germany",Karlsruhe; München,Germany,Engineering,2026-10-07,2026-10-07,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4999743101,"We are developing a next-generation C-UAS Multi-Agent System that integrates sensors, effectors, and multiple agents into a coherent system for monitoring, coordination, and control. Our system combines data from radar, EO/IR cameras, passive RF sensors, OSINT, and other sources to detect, track, and understand objects and activities in real time.
+
+We are looking for a Sensor Fusion Engineer who enjoys working hands-on with real sensor data and takes ownership from sensor integration through algorithms, testing, and deployment. You will turn heterogeneous and imperfect sensor data into reliable tracks and actionable situational awareness.
+
+Tasks
+
+- Develop and implement multi-sensor fusion and tracking algorithms
+
+- Integrate data from radar, cameras, passive RF, OSINT, and other sensors
+
+- Develop methods for sensor registration, calibration, synchronization, data association, and track fusion
+
+- Work with real-world sensor data, including recording, replay, visualization, and analysis
+
+- Investigate sensor and tracking problems and identify their root causes
+
+- Develop tools and processes to evaluate and improve fusion performance
+
+- Integrate fusion components with the wider C-UAS system and downstream applications
+
+- Take ownership of components from concept through implementation, integration, testing, and deployment
+
+Requirements
+
+Essential
+
+- Professional experience with C++
+
+- Practical experience in sensor fusion, perception, tracking, or multi-sensor integration
+
+- Hands-on experience working with real sensor data
+
+- Experience with multi-object tracking and methods such as Kalman filters, EKF/UKF, or related approaches
+
+- Pragmatic engineering mindset and ability to solve problems independently
+
+- Strong sense of ownership and initiative
+
+- Ability to work effectively across disciplines
+
+- Fluent in English; German is a plus
+
+Valuable
+
+- Experience with radar, EO/IR, passive RF, ADS-B, or OSINT
+
+- Experience with track-to-track and measurement-level fusion
+
+- Experience with geospatial data and coordinate transformations
+
+- Experience with ROS2
+
+- Skills for data analysis and visualization
+
+- Experience with Linux, Docker, Git, and CI/CD
+
+- Experience with autonomous systems, robotics, aerospace, defense, C-UAS, or other mission-critical systems
+
+- Experience with simulation, hardware-in-the-loop, and field testing
+
+What we are looking for
+
+You like getting close to the actual data and the actual system. You enjoy investigating unexpected sensor behavior, debugging complex problems, and turning experiments into robust production software.
+
+You are proactive and take ownership. When something does not work, you investigate it, identify the problem, drive the solution, and verify that it works in the real world.
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+5004565101,67,Technical Recruiter (m/f/d),"Karlsruhe, Baden-Württemberg, Germany, München, Bavaria, Germany",Karlsruhe; München,Germany,People,2026-10-13,2026-10-13,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/5004565101,"At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system.
+
+Modern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that.
+
+Alpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.
+
+🎯How you will make an impact:
+
+- Drive end-to-end recruitment for technical roles, with a particular focus on software engineering, AI/ML, robotics, and other deep-tech positions
+
+- Proactively identify, approach, and engage talent through LinkedIn, referrals, networking, and direct search
+
+- Build and maintain talent pipelines for current and future hiring needs
+
+- Conduct initial candidate outreach, screening interviews, and manage candidates throughout the hiring process
+
+- Coordinate interviews and ensure a positive candidate experience from first contact to offer stage
+
+- Support hiring managers with candidate sourcing, market insights, and recruiting best practices
+
+- Help strengthen Alpine Eagle's employer brand within the engineering, defense-tech, and startup communities
+
+- Maintain accurate recruiting data and contribute to efficient hiring processes
+
+✅ What you need to be successful:
+
+- 3+ years of recruiting experience, either in-house or agency-side
+
+- Experience sourcing and recruiting technical talent, particularly Software Engineers, AI/ML Engineers, Embedded Engineers, or comparable profiles
+
+- Strong direct-sourcing and candidate engagement skills
+
+- Ability to understand technical skill sets and assess candidate fit at an initial screening level
+
+- Excellent organizational and communication skills
+
+- Fluent in English and German
+
+- Comfortable working in a fast-paced startup environment
+
+- Experience recruiting within defense, aerospace, national security, or other highly regulated industries is a plus
+
+At Alpine Eagle, you're not just taking a job - you're joining a mission."
+4728960101,32,Working Student Mechanical Engineering - Drone Defense (m/w/d),"Karlsruhe, Baden-Württemberg, Germany",Karlsruhe,Germany,Engineering,2025-12-20,2026-02-19,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4728960101,"At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system.
+
+Modern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that.
+
+Alpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.
+
+🎯 How you will make an impact:
+
+- Set up and support lab and onboard test measurements (vibration, temperature, motors, structures)
+
+- Research and prepare DAQs, sensors, and test instrumentation
+
+- Improve prototyping lab tools, layout, and workflows
+
+- Optimize 3D printing processes and part quality
+
+- Support prototyping, assembly, and test activities
+
+- Manage 3D printing operations and part post-processing
+
+- Assist with component selection and engineering documentation (ISO 9001/9100)
+
+- Provide hands-on support during peak workload phases
+
+✅ What you need to be successful:
+
+- Valid work permit (citizenship or visa) for Germany
+
+- Currently enrolled in a university within Germany
+
+- Aerospace, mechanical engineering, or similar background
+
+- CAD and 3D printing experience
+
+- Knowledge of electronics and embedded systems (Arduino, Raspberry Pi, sensors, DAQs)
+
+- Understanding of drone/aircraft design and development cycles
+
+- Hands-on, proactive, and organized team player
+
+- Comfortable working autonomously in lab and workshop environments
+
+- Driving license is a plus, not required
+
+At Alpine Eagle, you're not just taking a job - you're joining a mission."
+4935543101,58,Working Student Prototyping - Drones (m/w/d),München,München,Germany,Engineering,2026-07-27,2026-07-27,,https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4935543101,"At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system.
+
+Modern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that. Alpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.
+
+As a Working Student in Prototyping, you will support the development and integration of hardware components for our drone platforms and counter-UAS systems. You will work closely with our flight test team and engineering leads, helping to design, build, modify, and test prototypes. This is a highly practical role for someone who loves building things!
+
+🎯 How you will make an impact:
+
+- Support the mechanical and electrical prototyping of drone systems
+
+- Assist in CAD design of components and assemblies
+
+- Manufacture and modify parts using 3D printing and workshop tools
+
+- Perform cable harnessing and wiring work
+
+- Integrate electronic components, radio links, and communication modules
+
+- Support hardware integration and preparation for flight testing
+
+- Assist during field and flight test activities
+
+- Document prototypes, iterations, and improvements
+
+✅ What you need to be successful:
+
+- Currently enrolled student in Engineering (Aerospace, Mechanical, Electrical, Mechatronics or similar)
+
+- Strong hands-on experience in building and tinkering (e.g., model aircraft clubs, university design teams, personal projects)
+
+- Experience with CAD software
+
+- Familiar with 3D printing and basic workshop tools
+
+- Practical knowledge of electronics integration and wiring
+
+- Interest in drones, UAV systems, and counter-UAS technologies
+
+- Structured, independent, and proactive working style
+
+- Comfortable working in a fast-paced startup environment
+
+At Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity.
+
+Apply now!"

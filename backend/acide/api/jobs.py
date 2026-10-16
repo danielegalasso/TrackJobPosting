@@ -2,9 +2,12 @@
 
 from __future__ import annotations
 
+import contextlib
+
 from fastapi import APIRouter, HTTPException, Query
 
-from .. import db, extracts, ranking
+from .. import calibration, db, extracts, ranking
+from ..logbus import bus
 from ..models import Job, JobFacets, JobPage
 
 router = APIRouter(prefix="/api/jobs", tags=["jobs"])
@@ -98,6 +101,7 @@ def toggle_bookmark(job_id: str, saved: bool | None = None) -> Job:
     job = db.set_job_flag(job_id, "saved", saved)
     if job is None:
         raise HTTPException(status_code=404, detail="job not found")
+    _learn()
     return job
 
 
@@ -106,4 +110,12 @@ def toggle_dismiss(job_id: str, dismissed: bool | None = None) -> Job:
     job = db.set_job_flag(job_id, "dismissed", dismissed)
     if job is None:
         raise HTTPException(status_code=404, detail="job not found")
+    _learn()
     return job
+
+
+def _learn() -> None:
+    """Every so many stars and removals, the review learns from them."""
+    # A star must not fail because of it.
+    with contextlib.suppress(Exception):
+        calibration.maybe_start(say=lambda line: bus.publish(line, "info"))

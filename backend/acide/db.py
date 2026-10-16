@@ -26,7 +26,7 @@ from .models import (
     RawPosting,
 )
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 _SCHEMA = """
 CREATE TABLE IF NOT EXISTS jobs (
@@ -112,6 +112,17 @@ CREATE TABLE IF NOT EXISTS meta (
     key   TEXT PRIMARY KEY,
     value TEXT NOT NULL
 );
+
+-- Every star and removal the operator makes, and their undoing: what the
+-- review learns from (calibration.py), counted to know when to learn again.
+CREATE TABLE IF NOT EXISTS feedback_events (
+    id      INTEGER PRIMARY KEY AUTOINCREMENT,
+    job_id  TEXT NOT NULL,
+    kind    TEXT NOT NULL,      -- saved | dismissed
+    value   INTEGER NOT NULL,   -- 1 set, 0 undone
+    at      TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE INDEX IF NOT EXISTS idx_feedback_job ON feedback_events (job_id);
 """
 
 _local = threading.local()
@@ -533,9 +544,11 @@ def build_job_query(
     clauses: list[str] = ["1=1"]
     params: list[Any] = []
 
+    # A starred posting stays in Starred even once removed: the two choices
+    # are independent, so it shows up under both.
     if dismissed_only:
         clauses.append("dismissed = 1")
-    elif not include_dismissed:
+    elif not (include_dismissed or saved_only):
         clauses.append("dismissed = 0")
     if saved_only:
         clauses.append("saved = 1")
@@ -693,10 +706,16 @@ def set_job_flag(job_id: str, field: str, value: bool | None) -> Job | None:
     if field not in {"saved", "dismissed"}:
         raise ValueError(f"unsupported flag: {field}")
     with connect() as conn:
-        if value is None:
-            conn.execute(f"UPDATE jobs SET {field} = NOT {field} WHERE id = ?", (job_id,))
-        else:
-            conn.execute(f"UPDATE jobs SET {field} = ? WHERE id = ?", (int(value), job_id))
+        row = conn.execute(f"SELECT {field} FROM jobs WHERE id = ?", (job_id,)).fetchone()
+        if row is None:
+            return None
+        new = (not row[field]) if value is None else bool(value)
+        if new != bool(row[field]):
+            conn.execute(f"UPDATE jobs SET {field} = ? WHERE id = ?", (int(new), job_id))
+            conn.execute(
+                "INSERT INTO feedback_events (job_id, kind, value) VALUES (?, ?, ?)",
+                (job_id, field, int(new)),
+            )
     return get_job(job_id)
 
 

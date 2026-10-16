@@ -1,0 +1,86 @@
+job_id,title,location,additional_locations,department,remote_type,published,url,description
+1e0fcc6f-8d1b-40b0-add4-907b31fd3bf4,FinOps Lead Technology & Product,"Paris, France","Rennes, France; France, France; Europe, Germany",Finance,fully,2026-08-27,https://careers.sekoia.com/jobs/8281602-finops-lead-technology-product,"The FinOps Lead is responsible for making Sekoia’s cloud and Technology & Product economics visible, actionable, and governable.
+
+Reporting to the CFO and working in close functional partnership with the CTPO, you will act as a Finance Business Partner for the Technology & Product (T&P) organization. Your role will be to connect infrastructure costs, product usage, resource allocation, and business growth to support better financial and operational decisions.
+
+In our high-growth environment, you will work at the intersection of Finance, Product, Engineering, Data, and HR. You will bring financial discipline and modelling capabilities while earning the trust of technical teams through your understanding of cloud infrastructure, engineering trade-offs, and platform economics.
+
+📍 The position can be based in Paris, Rennes, or fully remote. Professional trips paid for by the company might be required.
+
+Your missions:
+
+1. Cloud infrastructure costs and platform economics
+
+- Inform — structure the tagging strategy, cost allocation models, and dashboards that attribute cloud spend to specific teams, products, and features
+
+- Optimize — own spend anomaly detection and drive optimization levers (rightsizing, reservations/commitments, waste elimination)
+
+- Operate — anchor governance over time: alerts, regular reviews with the T&P teams, continuous improvement of the allocation model
+
+- Connect infrastructure costs to revenue and cost of revenue to give Finance a reliable read on gross margin and unit economics, in coordination with the Data team
+
+- Own the rolling infrastructure cost forecast, linking expected customer growth, usage, product adoption and architectural changes to future cloud and infrastructure spend
+
+2. Cost impact of new products and offerings
+
+- Work upstream with Product and Tech to anticipate the impact of new products, features, and architectures on the cost structure
+
+- Identify the economic scaling factor of new products: what happens to infrastructure cost at 2x, 10x and 100x usage
+
+- Build pre-launch cost models (unit costs and scaling costs) and periodically reconcile them against actual production economics after launch
+
+- Feed product business cases: cost simulation, pricing scenarios, expected profitability
+
+3. T&P resource allocation and cost planning
+
+This section operates on a dotted line to the CTPO. The CTPO is the primary internal client of the output: allocation data, KPI cockpit, and R&D ROI analysis are built to serve T&P steering.
+
+- Provide the CTPO with a reliable view of T&P resource allocation across Major Initiatives, including capacity, fully loaded cost and evolution over time, to support prioritization and R&D investment decisions
+
+- Maintain reliable time tracking on subsidized R&D projects (CIR/CII, France 2030, BPI grants) — securing the audit trail required for tax credit justification and grant reporting
+
+- Track and model the cost ramp tied to the T&P hiring plan (future payroll, recruitment costs), in coordination with HR and the Finance team
+
+- Give Finance a clear view of the fully loaded cost of a T&P hire and its P&L impact, to support annual budgeting and scenario planning
+
+Your profile:
+
+🤩 We are excited to meet you if :
+
+- You have hands-on experience understanding and optimizing infrastructure spend across public cloud and/or large-scale hosted environments, such as AWS, Azure, GCP, or OVH, including billing, cost allocation, rightsizing, and commitments.
+
+- You have genuine technical credibility and are comfortable challenging Engineering teams as a peer on architecture and cost trade-offs. This is where you create value.
+
+- You have a strong command of FinOps concepts, including tagging, cost allocation, unit economics, and gross margin.
+
+- You are comfortable working with data, including SQL and/or cloud cost-management tools, and you are able to build relevant financial and operational models.
+
+- You are fluent in English, both written and spoken.
+
+🍀 Nice-to-have:
+
+- You hold a FinOps certification, such as the FinOps Foundation certification, or an equivalent qualification.
+
+- You have a good understanding of Finance and management control, or the appetite to build this knowledge on the job with the support of the CFO and Finance team.
+
+- You have experience working in a B2B SaaS or scale-up environment.
+
+- You understand the importance of gross margin in a fundraising context.
+
+👀 Are you interested in this job but feel you haven't ticked all the boxes? Don't hesitate to apply, and tell us in the cover letter section why we absolutely must meet!
+
+Recruitment Process:
+
+📝 Here's what's in store for you if you apply :
+
+- HR Interview with Clémentine, Talent Acquisition Manager (30')
+
+- Use case to prepare at home
+
+- Technical interview and use case restitution with Thérèse, Chief Financial Officer (60')
+
+- Final interview with Georges, CTPO (60’)
+
+Our process usually takes about 3 weeks, depending on availability; it includes reference calls. The program: discussions rather than trick questions! These discussions will help you understand how Sekoia works and what it stands for. But they are also (and above all) an opportunity for you to tell us about your career path and your expectations for your next job!
+
+⭐ Sekoia is an equal opportunity employer for any minority, disability, gender identity, or sexual orientation. We are committed to hiring and supporting diverse teams of people from all backgrounds, experiences, and perspectives."

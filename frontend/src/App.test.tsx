@@ -28,8 +28,10 @@ function stubBackend(initial = [WATCH, CLOUD]) {
   let store = initial.map((job) => ({ ...job }));
 
   const jobsSpy = vi.spyOn(api, 'jobs').mockImplementation(async (filters: Filters) => {
-    let matching = store.filter((job) => job.dismissed === Boolean(filters.dismissed_only));
-    if (filters.saved_only) matching = matching.filter((job) => job.saved);
+    // Starred lists removed postings too, as the server does.
+    let matching = filters.saved_only
+      ? store.filter((job) => job.saved)
+      : store.filter((job) => job.dismissed === Boolean(filters.dismissed_only));
     if (filters.search) {
       matching = matching.filter((job) =>
         job.title.toLowerCase().includes(filters.search.toLowerCase()),
@@ -157,6 +159,22 @@ describe('App', () => {
     await userEvent.click(within(screen.getByRole('banner')).getByRole('button', { name: /Starred/ }));
     await waitFor(() => expect(cards()).toHaveLength(1));
     expect(screen.getByText('Watch Software Engineer')).toBeInTheDocument();
+  });
+
+  it('keeps a removed starred posting in both Starred and Removed', async () => {
+    stubBackend([{ ...WATCH, saved: true }, CLOUD]);
+    renderWithQuery(<App />);
+    const nav = within(screen.getByRole('banner'));
+    await userEvent.click(nav.getByRole('button', { name: /Starred/ }));
+    await waitFor(() => expect(cards()).toHaveLength(1));
+
+    const card = screen.getByText('Watch Software Engineer').closest('article')!;
+    await userEvent.click(within(card).getByRole('button', { name: /^Dismiss / }));
+    await waitFor(() => expect(within(card).getByText('Removed')).toBeInTheDocument());
+    expect(cards()).toHaveLength(1);
+
+    await userEvent.click(nav.getByRole('button', { name: /Removed/ }));
+    await waitFor(() => expect(screen.getByText('Watch Software Engineer')).toBeInTheDocument());
   });
 
   it('points at Run the Search when nothing matches', async () => {

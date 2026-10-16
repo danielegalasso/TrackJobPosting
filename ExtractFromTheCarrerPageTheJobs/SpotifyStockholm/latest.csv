@@ -1,66 +1,4 @@
 job_id,title,location,department,contract,url,description
-android-engineer-experience,"Android Engineer, Experience",London; Stockholm,Engineering / Mobile,Permanent,https://www.lifeatspotify.com/jobs/android-engineer-experience,"Android Engineer
-Experience
-Link copied to clipboard.
-Apply now
-Apply
-Engineering
-Mobile
-Permanent
-We design Spotify’s consumer experience—end to end, moment to moment, across every screen, platform, and partner integration. Our mission is to make listening feel effortless, personal, and joyful for billions of users around the world. That means turning complexity into clarity across hundreds of touchpoints—from our mobile and desktop apps to the smart speakers, TVs, cars, and integrations where Spotify shows up every day. If it touches a consumer, we shape it. We bring deep insight into human behavior, design, and technology to craft experiences that feel intuitive, expressive, and unmistakably Spotify.
-The Stream Reporting team is responsible for capturing and processing the consumption signals that power some of Spotify’s most important experiences and business functions. Our systems help ensure accurate royalty reporting, support experimentation and analytics, and provide trusted data that informs recommendations and personalization across Spotify.
-We’re looking for an Android Engineer to join a highly collaborative team working at the intersection of mobile development, data, and platform systems. This is an opportunity to build software that operates at Spotify scale and helps power experiences used by millions of listeners every day. You’ll help shape how listening and engagement signals are captured across Spotify’s mobile experiences and transformed into trusted datasets used throughout the company.
-What You'll Do
-Develop and maintain mobile client components that capture and report listening and user behavior signals across Spotify.
-Build high-quality, well-tested, and well-documented Kotlin code that contributes to business-critical datasets used for royalty reporting, analytics, experimentation, and personalization.
-Collaborate with engineers across Android, iOS, backend, and data teams to deliver end-to-end solutions.
-Help improve the architecture, reliability, and quality of the systems used to collect and process user behavior signals.
-Contribute to new capabilities that enable Spotify to capture richer listening and engagement signals across evolving product experiences.
-Drive technical improvements that make it easier for teams across Spotify to add, validate, and maintain event reporting integrations.
-Use modern AI-assisted engineering tools and workflows to improve productivity and software quality.
-Contribute to a culture of continuous learning, knowledge sharing, and technical excellence.
-Who You Are
-You have experience developing Android and iOS applications using Kotlin using Swift or Objective-C
-You have solid experience as a Engingeer I
-You know how to build maintainable, scalable, and well-tested software systems.
-You are comfortable working within large codebases and can quickly learn unfamiliar domains and technologies.
-You have experience collaborating with engineers and stakeholders across multiple teams.
-You care about code quality, testing, documentation, and long-term maintainability.
-You demonstrate curiosity, ownership, and a willingness to step outside your immediate area of expertise when needed.
-You are comfortable using modern development tooling, including AI-assisted coding solutions.
-You thrive in environments where learning and long-term growth are valued.
-You might have experience with C++ and understand how native code integrates with Android and iOS applications.
-You might have familiarity with SQL, analytics systems, or data engineering concepts.
-You have experience with instrumentation, telemetry, event collection, or large-scale client-side data systems.
-You have worked on mobile applications that operate at significant scale and reliability requirements.
-Where You'll Be
-This role is based in London or Stockholm.
-We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home.
-Learn about life at Spotify
-Our global benefits
-Similar jobs
-AV Engineer, Platform
-Stockholm
-Engineering
-Network Engineering & IT
-Permanent
-Senior Machine Learning Engineering Manager
-London or Stockholm
-Engineering
-Engineering Leadership
-Permanent
-Backend Engineer, Platform Security
-London or Stockholm
-Engineering
-Backend
-Permanent
-Quick clicks
-More about Engineering
-Engineering category
-See our London office
-London office
-Find out about Start Your Journey
-Start Your Journey"
 av-engineer-platform,"AV Engineer, Platform",Stockholm,Engineering / Network Engineering & IT,Permanent,https://www.lifeatspotify.com/jobs/av-engineer-platform,"AV Engineer
 Platform
 Link copied to clipboard.
@@ -227,60 +165,6 @@ See our London office
 London office
 Find out about Start Your Journey
 Start Your Journey"
-c-engineer-experience,"C++ Engineer, Experience",London; Stockholm,Engineering / ,Permanent,https://www.lifeatspotify.com/jobs/c-engineer-experience,"C++ Engineer
-Experience
-Link copied to clipboard.
-Apply now
-Apply
-Engineering
-Permanent
-We design Spotify’s consumer experience—end to end, moment to moment, across every screen, platform, and partner integration. Our mission is to make listening feel effortless, personal, and joyful for billions of users around the world. That means turning complexity into clarity across hundreds of touchpoints—from our mobile and desktop apps to the smart speakers, TVs, cars, and integrations where Spotify shows up every day. If it touches a consumer, we shape it. We bring deep insight into human behavior, design, and technology to craft experiences that feel intuitive, expressive, and unmistakably Spotify.
-The Desktop Natives squad, part of the Platform & Partner Experience (PPX) Studio, builds and maintains the native layer of the Spotify Desktop app across Windows, macOS, and Linux. We work across the systems outside the shared UI layer, from packaging and delivery to operating system integrations, backend services, release tooling, and the native C++ desktop shell that brings together Client-Core, Chromium Embedded Framework (CEF), and Spotify’s Web Player. Our work sits at the intersection of systems engineering, performance, and user experience, helping Spotify feel seamless and truly native on desktop.
-What You'll Do
-Contribute to and maintain Spotify’s Desktop C++ application across macOS and Windows.
-Develop native container capabilities that enable UI teams to build new experiences and take advantage of evolving platform capabilities.
-Improve platform systems, CI configurations, build pipelines, packaging, and application delivery.
-Develop and maintain backend services supporting content delivery, update infrastructure, and release tooling.
-Build and improve operating system integrations, including features that connect Spotify with partner platforms.
-Collaborate with external partners such as Microsoft to make use of the latest platform capabilities.
-Contribute to cutting-edge work exploring AI agent integrations within the Spotify Desktop experience.
-Work closely with a distributed group of engineers and partners to solve complex problems across systems, platforms, and technologies.
-Who You Are
-You have strong C++ development skills and are comfortable working on production software with a large user base.
-You have experience navigating complex codebases that span multiple programming languages, technologies, and systems.
-You’re comfortable taking ownership of systems through development, maintenance, and continuous improvement.
-You enjoy solving complex technical problems and can work through ambiguity to find practical solutions.
-You’re curious about how things work and motivated to learn new technologies, platforms, and areas of the codebase.
-You collaborate effectively across teams and communicate your thinking clearly.
-You’re comfortable working with colleagues across a fully distributed team.
-Where You'll Be
-This role is based in Stockholm or London.
-We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home.
-Learn about life at Spotify
-Our global benefits
-Similar jobs
-AV Engineer, Platform
-Stockholm
-Engineering
-Network Engineering & IT
-Permanent
-Senior Machine Learning Engineering Manager
-London or Stockholm
-Engineering
-Engineering Leadership
-Permanent
-Backend Engineer, Platform Security
-London or Stockholm
-Engineering
-Backend
-Permanent
-Quick clicks
-More about Engineering
-Engineering category
-See our Stockholm office
-Stockholm office
-Find out about Start Your Journey
-Start Your Journey"
 data-scientist-company-planning-execution,"Data Scientist, Company Planning &amp; Execution",London; Stockholm,"Data, Research & Insights / Data Science",Permanent,https://www.lifeatspotify.com/jobs/data-scientist-company-planning-execution,"Data Scientist
 Company Planning & Execution
 Link copied to clipboard.
@@ -390,60 +274,6 @@ More about Engineering
 Engineering category
 See our London office
 London office
-Find out about Start Your Journey
-Start Your Journey"
-director-portfolio-monetization-architecture,"Director, Portfolio &amp; Monetization Architecture",London; New York; Stockholm,Product / Subscriptions,Permanent,https://www.lifeatspotify.com/jobs/director-portfolio-monetization-architecture,"Director
-Portfolio & Monetization Architecture
-Link copied to clipboard.
-Apply now
-Apply
-Product
-Subscriptions
-Permanent
-Spotify's growth depends on offering the right thing to the right listener at the right price, moving beyond one-size-fits-all packaging toward a portfolio where listeners can mix and match what they value most. The evolution of our subscription portfolio, and how we monetize it, is one of Spotify’s most important strategic opportunities in the years ahead.
-We’re looking for a Director to lead the strategic design of that portfolio end to end, shaping the architecture of tiers, add-ons, bundles, and the broader pricing ecosystem. This role will help define how the portfolio works today and how it evolves over the coming years to better serve listeners while driving sustainable growth.
-As the strategic engine behind our portfolio architecture, you’ll combine commercial intuition, consumer understanding, behavioral data, and real-world market signals to build conviction behind critical decisions. Working closely with cross-functional partners and senior leaders, you’ll help determine what belongs in Premium, what moves into new monetization layers, and how Spotify’s subscription offering continues to evolve for millions of listeners around the world.
-What You'll Do
-Own the architecture of Spotify’s subscription portfolio, including tier structure, add-ons, bundles, and how features are allocated across them.
-Set the logic of the price ladder, including relative pricing, upgrade paths, and how regional ladders work across developed and emerging markets.
-Drive the insight agenda with Consumer Insights and Analytics, shaping hypotheses, sequencing research, and translating findings into clear portfolio strategy recommendations.
-Partner with GTM Enablement and cross-functional teams to design, read, and apply in-market tests that connect consumer research with real behavior.
-Build the business case for portfolio decisions, including sizing, contribution logic, trade-offs, and long-term commercial impact.
-Drive alignment across Product, Finance, Pricing, Legal, Licensing, and senior leadership on key architecture decisions.
-Influence the product roadmap so what gets built reflects willingness-to-pay signals, consumer needs, and portfolio strategy.
-Own the multi-year evolution of Spotify’s subscription portfolio, including where the portfolio should sit two-to-three years out and the sequence of moves to get there.
-Who You Are
-You have deep commercial strategy experience in pricing, packaging, monetization, subscriptions, or consumer businesses.
-You think structurally and can reason across an entire packaging-and-pricing system, not just a single product, feature, or number.
-You have strong intuition for consumer behavior and behavioral economics, including how people perceive value, compare tiers, and make purchase decisions.
-You have a track record of influencing senior stakeholders and building cross-functional consensus without direct authority.
-You can move fluently between consumer language and commercial logic, and you are comfortable being the voice of the consumer in strategic discussions.
-You have experience with Good-Better-Best architectures, feature gating, add-ons, bundles, or regional price laddering.
-You may bring experience from strategy consulting, product strategy, corporate strategy, pricing, consumer tech, media, or subscription businesses.
-Familiarity with content or rights licensing, and how it shapes product packaging, would be valuable.
-Where You'll Be
-This role is based in New York or Stockholm.
-We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home.
-Learn about life at Spotify
-Our global benefits
-Similar jobs
-Principal Product Manager, Format Foundations
-London or Stockholm
-Product
-Permanent
-Principal Product Manager, Personalization
-London or Stockholm
-Product
-Permanent
-Head of Product Management, Artist Products
-New York
-Product
-Permanent
-Quick clicks
-More about Product
-Product category
-See our New York office
-New York office
 Find out about Start Your Journey
 Start Your Journey"
 engineering-manager-experimentation,"Engineering Manager, Experimentation",Stockholm,Engineering / Engineering Leadership,Permanent,https://www.lifeatspotify.com/jobs/engineering-manager-experimentation,"Engineering Manager
@@ -1184,7 +1014,7 @@ See our London office
 London office
 Find out about Start Your Journey
 Start Your Journey"
-senior-machine-learning-engineering-manager,Senior Machine Learning Engineering Manager,London; Stockholm,Engineering / Engineering Leadership,Permanent,https://www.lifeatspotify.com/jobs/senior-machine-learning-engineering-manager,"Senior Machine Learning Engineering Manager
+senior-machine-learning-engineering-manager,"Senior Machine Learning Engineering Manager, Content Platform",London; Stockholm,Engineering / Engineering Leadership,Permanent,https://www.lifeatspotify.com/jobs/senior-machine-learning-engineering-manager,"Senior Machine Learning Engineering Manager
 Link copied to clipboard.
 Apply now
 Apply
@@ -1280,6 +1110,57 @@ Director, Portfolio & Monetization Architecture
 London, New York or Stockholm
 Product
 Subscriptions
+Permanent
+Quick clicks
+More about Product
+Product category
+See our London office
+London office
+Find out about Start Your Journey
+Start Your Journey"
+senior-product-manager-consumer-audiobooks,"Senior Product Manager, Consumer, Audiobooks",London; Stockholm,Product / ,Permanent,https://www.lifeatspotify.com/jobs/senior-product-manager-consumer-audiobooks,"Senior Product Manager
+Consumer - Audiobooks
+Link copied to clipboard.
+Apply now
+Apply
+Product
+Permanent
+We're looking for a strategic, detail-oriented Senior Product Manager to join the Books Vertical and lead end-to-end book experiences on Spotify: from discovery and conversion through to listening, and from the creator pipeline through to the consumer shelf. This role is about connecting the dots across our core experiences, conversion flows, content pipeline, and creator tooling to make books work seamlessly on Spotify.
+Books are a major focus for Spotify, and we need someone who can look holistically across the book ecosystem to identify gaps, reduce friction, and make sure our experiences are coherent end-to-end. You'll focus on making the full books journey work better for listeners, creators, and rights-holders, not just shipping new features. You'll partner closely with Personalization, Subscriptions, Experience, and creator-facing teams to strengthen and evolve book experiences across surfaces, and help shape a product strategy that directly improves how listeners discover and enjoy books.
+What You'll Do
+Shape and execute product strategy across core book experiences, conversion flows, content pipeline, and creator tooling.
+Partner with teams across Spotify to identify and close gaps across book surfaces, creating a coherent end-to-end experience from content pipeline through to the consumer experience.
+Collaborate with Design, Engineering, Product Insights, and Program Management to lead improvements across discovery, conversion, listening, and creator-facing surfaces.
+Conduct, commission, and use research to understand listener behavior, creator needs, book consumption patterns, and market trends.
+Use qualitative and quantitative insights to identify the most impactful opportunities across the book ecosystem and prioritize accordingly.
+Define and track success metrics across the book experience, connecting upstream pipeline health with downstream listener outcomes.
+Identify systemic friction points and opportunities across the book ecosystem, and advocate for improvements that strengthen the end-to-end experience.
+Who You Are
+You have 4+ years of experience in product management, ideally working across complex product ecosystems with multiple surfaces, partners, and dependencies.
+You have a track record of improving multi-surface product experiences, not just launching new features but making existing systems work better together.
+You use analytics, A/B testing, and user research to guide product decisions.
+You're comfortable working across both consumer-facing and platform or tooling surfaces, and can move between listener needs and creator needs.
+You communicate clearly and build shared understanding across teams that don't always see each other's work, translating between consumer, pipeline, and creator perspectives.
+You're comfortable with ambiguity and managing complexity across multiple teams and partners.
+You think in systems and map how changes in one part of the ecosystem (content pipeline, creator tooling, conversion flows, consumer surfaces) affect the rest.
+You look for the most impactful fix rather than optimizing surfaces in isolation.
+Where You'll Be
+This role is based in London or Stockholm
+We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home.
+Learn about life at Spotify
+Our global benefits
+Similar jobs
+Principal Product Manager, Format Foundations
+London or Stockholm
+Product
+Permanent
+Principal Product Manager, Personalization
+London or Stockholm
+Product
+Permanent
+Principal Product Manager, Audio and Media Playback
+London or Stockholm
+Product
 Permanent
 Quick clicks
 More about Product
@@ -1501,47 +1382,6 @@ Permanent
 Quick clicks
 More about Engineering
 Engineering category
-See our London office
-London office
-Find out about Start Your Journey
-Start Your Journey"
-staff-product-designer-agentic-experiences,"Staff Product Designer, Agentic Experiences",London; Stockholm,Design / Product Design,Permanent,https://www.lifeatspotify.com/jobs/staff-product-designer-agentic-experiences,"Staff Product Designer
-Agentic Experiences
-Link copied to clipboard.
-Apply now
-Apply
-Design
-Product Design
-Permanent
-We design Spotify’s consumer experience end to end, moment to moment, across every screen, platform, and partner integration. Our mission is to make listening feel effortless, personal, and joyful for billions of users around the world. That means turning complexity into clarity across hundreds of touchpoints, from our mobile and desktop apps to the smart speakers, TVs, cars, and integrations where Spotify shows up every day. If it touches a consumer, we shape it. We bring deep insight into human behavior, design, and technology to craft experiences that feel intuitive, expressive, and unmistakably Spotify.
-Spotify's Core Experience (CoreX) team is shaping how listeners interact with Spotify through conversation, voice, and AI-powered experiences. We're building new ways for Premium subscribers to discover content, create playlists, control playback, and explore what they're listening to, using natural language.
-We're looking for a Staff Product Designer to help shape the future of these experiences. You'll lead the design direction for our conversational agent while staying close to the craft, designing and prototyping experiences that make AI feel useful, intuitive, and trustworthy. Working with product, engineering, machine learning, and design partners, you'll help create experiences that bring listeners closer to the audio and creators they love.
-What You'll Do
-Shape the experience strategy for Spotify's conversational agent, partnering with product, engineering, and data teams to create a shared design direction across multiple teams.
-Lead end-to-end product design for the core chat experience, from early exploration and prototyping through testing, refinement, and delivery.
-Define how conversational interactions work across Spotify, including when the agent responds, asks questions, offers choices, or helps listeners take action.
-Explore how conversation fits alongside familiar browsing and playback experiences across Home, Now Playing, and other key Spotify surfaces.
-Design intuitive voice and text interactions that support different listening contexts, including hands-free experiences, headphones, connected devices, and in-car listening.
-Create reusable interaction patterns and design guidance that help other teams bring conversational and AI-powered capabilities into their products.
-Partner with research, data science, and conversation design teams to evaluate experiences, understand listener behavior, and improve the product through evidence and experimentation.
-Build interactive prototypes to explore ideas, test assumptions, and make complex AI behaviors easier to understand and evaluate.
-Support and mentor designers across the program, share knowledge, and help teams make thoughtful design decisions that balance user needs, technical possibilities, and business goals.
-Who You Are
-You have experience leading product design for complex digital products, shaping design strategy, and bringing multiple teams together around a shared direction.
-You have worked on conversational, voice, or AI-powered experiences and understand how to design interactions that help people feel informed, confident, and in control.
-You bring strong interaction and visual design skills, with the ability to create consistent experiences across mobile, voice, and connected devices.
-You enjoy hands-on design and prototyping, using AI-enabled tools and emerging technologies to explore ideas, learn quickly, and communicate how an experience should work.
-You can turn complex or ambiguous challenges into clear design opportunities, using research, experimentation, and thoughtful judgment to guide decisions.
-You communicate ideas clearly, welcome different perspectives, and build collaborative relationships with designers, engineers, product partners, and senior stakeholders.
-You enjoy supporting other designers, sharing what you learn, and contributing to a team culture built on curiosity, creativity, and inclusion.
-Where You'll Be
-We offer you the flexibility to work where you work best! For this role, you can be within the Europe region as long as we have a work location.
-This team operates within the BST and CET time zone for collaboration.
-Learn about life at Spotify
-Our global benefits
-Quick clicks
-More about Design
-Design category
 See our London office
 London office
 Find out about Start Your Journey

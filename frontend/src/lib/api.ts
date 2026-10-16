@@ -11,6 +11,9 @@ import type {
   LogLine,
   ModelInfo,
   Brief,
+  CalibrationStatus,
+  ExclusionFilters,
+  ExclusionFiltersState,
   ReviewCounts,
   ReviewEstimate,
   ReviewMode,
@@ -146,6 +149,13 @@ export const api = {
       body: JSON.stringify({ mode, limit: limit ?? null }),
     }),
   stopReview: () => request<{ stopping: boolean }>('/api/search/review/stop', { method: 'POST' }),
+  filters: () => request<ExclusionFiltersState>('/api/search/filters'),
+  saveFilters: (filters: ExclusionFilters) =>
+    request<ExclusionFiltersState>('/api/search/filters', { method: 'PUT', body: JSON.stringify(filters) }),
+  saveCalibration: (settings: CalibrationStatus['settings']) =>
+    request<CalibrationStatus>('/api/search/calibration', { method: 'PUT', body: JSON.stringify(settings) }),
+  calibrate: () => request<{ started: boolean }>('/api/search/calibration/run', { method: 'POST' }),
+  resetCalibration: () => request<CalibrationStatus>('/api/search/calibration', { method: 'DELETE' }),
 
   spiderStatus: () => request<SpiderStatus>('/api/spider/status'),
   runSpider: () => request<{ started: boolean; detail: string }>('/api/spider/run', { method: 'POST' }),

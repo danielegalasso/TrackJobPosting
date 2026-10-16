@@ -1,5 +1,5 @@
 job_id,requisition_id,title,location,offices,country,department,start_date,updated,deadline,url,description
-4990112101,298,2 x Full stack Software Engineer - JavaScript Environment,"Wollongong, New South Wales, Australia",Wollongong,Australia,Engineering,2026-10-08,2026-10-08,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4990112101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
+4990112101,298,2 x Full Stack Software Engineer - JavaScript Environment,"Wollongong, New South Wales, Australia",Wollongong,Australia,Engineering,2026-10-08,2026-10-14,,https://job-boards.eu.greenhouse.io/scalapaysrl/jobs/4990112101,"At Scalapay, we’re shaping a culture with high standards, independent and critical thought, innovation, ownership, and continuous learning. We operate in a fast-moving, tech-driven environment, and we’re looking for people who thrive in change, think boldly, and take initiative.
 
 If you’re ready to put your potential to the test in a hiring process designed to spotlight exceptional talent, this is your chance to stand out and grow with one of Europe’s most ambitious fintech teams.
 
@@ -7,9 +7,19 @@ If you’re ready to put your potential to the test in a hiring process designed
 
 The Mission
 
-We are seeking an experienced and passionate Full-Stack Software Engineer with a minimum of 5 years of development experience to join our dynamic Experiences & B2B Platform teams. The ideal candidate will have a strong background in Node.js, TypeScript, and React.js, and a deep understanding of both relational and non-relational databases. This role will be integral in designing, developing, and maintaining scalable and efficient applications.
+While most teams are still talking about AI-first engineering. We're doing it.
+
+We're growing, and we're hiring two experienced Full-Stack Software Engineers to join our Experiences and B2B Platform teams. Wherever you land, you won't be a small cog in a big machine. You'll take features from idea to production and see your work make a real difference.
+
+About the role
+
+At Scalapay, AI-first is how we work every day, not a slide in a strategy deck. You'll write sharp specs and technical designs, AI coding agents like Claude Code take on the heavy lifting, and you direct, review and test what they produce. You spend less time on boilerplate and more on what great engineers do best: architecture, tricky problems, and making things fast, robust and scalable.
+
+This role will be integral in designing, developing, and maintaining scalable and efficient applications leveraging AI.
 
 What You'll Do
+
+- AI Spec-Driven Development: Write clear specifications and technical design documents that AI coding agents implement from, then direct, review and test what the agents produce.
 
 - Application Development: Design, develop, and maintain high-quality web applications using Node.js, TypeScript, and React.js.
 
@@ -29,11 +39,11 @@ What You'll Do
 
 - Collaboration & Communication: Work closely with product managers, designers, and other engineers to understand requirements, share knowledge, and deliver high-quality software
 
-- AI Spec-Driven Development: Write clear specifications and technical design documents that AI coding agents implement from, then direct, review and test what the agents produce.
-
 What We're Looking For:
 
-- Experience: Minimum 5 years of professional development experience.
+- Experience: Minimum 5 years of professional development experience ideally within a high volume financial transactional environment (payments, e-commerce)
+
+- AI-Assisted Development: Hands-on experience with AI coding tools such as Claude Code, and a spec-driven way of working: writing clear specifications and technical designs first, then directing, reviewing and testing what the agents produce.
 
 - Proficiency: Strong knowledge and hands-on experience with Node.js, TypeScript, and React.js.
 
@@ -53,8 +63,6 @@ What We're Looking For:
 
 - Team Player: Ability to work well in a team-oriented, collaborative environment.
 
-- AI-Assisted Development: Hands-on experience with AI coding tools such as Claude Code, and a spec-driven way of working: writing clear specifications and technical designs first, then directing, reviewing and testing what the agents produce.
-
 Preferred Qualifications:
 
 - Cloud Experience: Experience with cloud platforms like AWS or similar is a plus.
@@ -67,7 +75,7 @@ Preferred Qualifications:
 
 Why you should join Scalapay:
 
-- International environment with significant challenges to be met every day
+- International Fintech with AI First approach raising the bar daily on how we build software and solve complex problems
 
 - Direct impact on how thousands of European merchants offer BNPL solutions
 

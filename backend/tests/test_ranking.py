@@ -317,6 +317,7 @@ def _review_payload(**fields) -> dict:
         ],
         "adjustments": [{"name": "Location", "points": 5}, {"name": "Salary", "points": -2}],
         "total": 101,
+        "cap": 0,
         "eligible": True,
         "justification": "Molto allineata a IRIS².",
         "issues": ["Verificare la clearance"],
@@ -420,6 +421,20 @@ def test_the_score_is_the_sum_of_criteria_and_adjustments():
     assert job.priority == 101
     assert job.priority_adjustments == [{"name": "Location", "points": 5}, {"name": "Salary", "points": -2}]
     assert [c["name"] for c in job.priority_criteria][0] == "Feasibility"
+
+
+def test_the_brief_cap_holds_the_score_and_shows_on_the_card():
+    _brief()
+    _insert("a", "Security Trainee", "ENISA")
+    ranking.review_top(1, client=FakeClient(cap=40), say=lambda _: None)
+    job = db.get_job("a")
+    assert job.priority == 40
+    # The card adds up: criteria 98, +3 of adjustments, then the cap.
+    assert job.priority_adjustments[-1] == {"name": "Tetto 40", "points": -61}
+
+    _insert("b", "Security Analyst", "ENISA")
+    ranking.review_top(1, client=FakeClient(cap=0), say=lambda _: None)
+    assert db.get_job("b").priority == 101  # no cap for it in the brief
 
 
 def test_excluded_postings_are_never_sent_for_review():

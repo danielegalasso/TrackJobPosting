@@ -2,9 +2,9 @@
   "source": "https://alpineeagle.com/join-us/",
   "company": "Alpine Eagle",
   "query": "",
-  "extracted_at": "2026-10-10T10:49:34",
-  "site_total": 15,
-  "extracted": 15,
+  "extracted_at": "2026-10-15T08:14:22",
+  "site_total": 16,
+  "extracted": 16,
   "postings": [
     {
       "job_id": "4935405101",
@@ -187,6 +187,20 @@
       "deadline": "",
       "url": "https://job-boards.eu.greenhouse.io/alpineeagle/jobs/4999743101",
       "description": "We are developing a next-generation C-UAS Multi-Agent System that integrates sensors, effectors, and multiple agents into a coherent system for monitoring, coordination, and control. Our system combines data from radar, EO/IR cameras, passive RF sensors, OSINT, and other sources to detect, track, and understand objects and activities in real time.\n\nWe are looking for a Sensor Fusion Engineer who enjoys working hands-on with real sensor data and takes ownership from sensor integration through algorithms, testing, and deployment. You will turn heterogeneous and imperfect sensor data into reliable tracks and actionable situational awareness.\n\nTasks\n\n- Develop and implement multi-sensor fusion and tracking algorithms\n\n- Integrate data from radar, cameras, passive RF, OSINT, and other sensors\n\n- Develop methods for sensor registration, calibration, synchronization, data association, and track fusion\n\n- Work with real-world sensor data, including recording, replay, visualization, and analysis\n\n- Investigate sensor and tracking problems and identify their root causes\n\n- Develop tools and processes to evaluate and improve fusion performance\n\n- Integrate fusion components with the wider C-UAS system and downstream applications\n\n- Take ownership of components from concept through implementation, integration, testing, and deployment\n\nRequirements\n\nEssential\n\n- Professional experience with C++\n\n- Practical experience in sensor fusion, perception, tracking, or multi-sensor integration\n\n- Hands-on experience working with real sensor data\n\n- Experience with multi-object tracking and methods such as Kalman filters, EKF/UKF, or related approaches\n\n- Pragmatic engineering mindset and ability to solve problems independently\n\n- Strong sense of ownership and initiative\n\n- Ability to work effectively across disciplines\n\n- Fluent in English; German is a plus\n\nValuable\n\n- Experience with radar, EO/IR, passive RF, ADS-B, or OSINT\n\n- Experience with track-to-track and measurement-level fusion\n\n- Experience with geospatial data and coordinate transformations\n\n- Experience with ROS2\n\n- Skills for data analysis and visualization\n\n- Experience with Linux, Docker, Git, and CI/CD\n\n- Experience with autonomous systems, robotics, aerospace, defense, C-UAS, or other mission-critical systems\n\n- Experience with simulation, hardware-in-the-loop, and field testing\n\nWhat we are looking for\n\nYou like getting close to the actual data and the actual system. You enjoy investigating unexpected sensor behavior, debugging complex problems, and turning experiments into robust production software.\n\nYou are proactive and take ownership. When something does not work, you investigate it, identify the problem, drive the solution, and verify that it works in the real world.\n\nAt Alpine Eagle, we are committed to diversity and equal opportunity. We welcome applications from all individuals regardless of ethnic origin, gender, religion, disability, age, or sexual identity."
+    },
+    {
+      "job_id": "5004565101",
+      "requisition_id": "67",
+      "title": "Technical Recruiter (m/f/d)",
+      "location": "Karlsruhe, Baden-Württemberg, Germany, München, Bavaria, Germany",
+      "offices": "Karlsruhe; München",
+      "country": "Germany",
+      "department": "People",
+      "start_date": "2026-10-13",
+      "updated": "2026-10-13",
+      "deadline": "",
+      "url": "https://job-boards.eu.greenhouse.io/alpineeagle/jobs/5004565101",
+      "description": "At Alpine Eagle, we’re building the future of counter-drone defence. We’re a fast-growing, international deep-tech company working at the intersection of aerospace engineering, defence systems, and machine learning. Our goal: create the world’s first swarm-based, airborne counter-drone system.\n\nModern conflicts show how quickly drones are reshaping the battlefield. Threats are rising, and today’s solutions aren’t keeping pace. We’re here to change that.\n\nAlpine Eagle isn’t just a defence company. It’s a mission. Backed by an international team, strong funding, and a bold vision, we’re looking for people who want to shape the next generation of aerial security and build something that truly matters.\n\n🎯How you will make an impact:\n\n- Drive end-to-end recruitment for technical roles, with a particular focus on software engineering, AI/ML, robotics, and other deep-tech positions\n\n- Proactively identify, approach, and engage talent through LinkedIn, referrals, networking, and direct search\n\n- Build and maintain talent pipelines for current and future hiring needs\n\n- Conduct initial candidate outreach, screening interviews, and manage candidates throughout the hiring process\n\n- Coordinate interviews and ensure a positive candidate experience from first contact to offer stage\n\n- Support hiring managers with candidate sourcing, market insights, and recruiting best practices\n\n- Help strengthen Alpine Eagle's employer brand within the engineering, defense-tech, and startup communities\n\n- Maintain accurate recruiting data and contribute to efficient hiring processes\n\n✅ What you need to be successful:\n\n- 3+ years of recruiting experience, either in-house or agency-side\n\n- Experience sourcing and recruiting technical talent, particularly Software Engineers, AI/ML Engineers, Embedded Engineers, or comparable profiles\n\n- Strong direct-sourcing and candidate engagement skills\n\n- Ability to understand technical skill sets and assess candidate fit at an initial screening level\n\n- Excellent organizational and communication skills\n\n- Fluent in English and German\n\n- Comfortable working in a fast-paced startup environment\n\n- Experience recruiting within defense, aerospace, national security, or other highly regulated industries is a plus\n\nAt Alpine Eagle, you're not just taking a job - you're joining a mission."
     },
     {
       "job_id": "4728960101",

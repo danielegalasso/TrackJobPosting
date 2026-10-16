@@ -2,9 +2,9 @@
   "source": "https://www.rheinmetall.com/en/career/vacancies?9dc11c304b4c06c2f71c48cc6574e7e5term=cyber",
   "company": "Rheinmetall",
   "query": "",
-  "extracted_at": "2026-10-10T10:51:53",
-  "site_total": 5,
-  "extracted": 5,
+  "extracted_at": "2026-10-15T08:16:58",
+  "site_total": 6,
+  "extracted": 6,
   "postings": [
     {
       "job_id": "1100666",
@@ -60,6 +60,17 @@
       "published": "2026-04-08",
       "deadline": "",
       "description": "Als Systemingenieur Cybersecurity (m/w/d) arbeiten Sie in einem interdisziplinären Team an der Informationssicherheit unseres aktuellen und zukünftigen Produktportfolios. Hierbei erarbeiten Sie anhand der ISO 21434 und des IT-Grundschutz Informationssicherheits- und Risikoanalysen sowie Anforderungen auf verschiedenen Systemebenen während der Entwicklungsphase unserer Fahrzeugsysteme. Dies erledigen Sie entweder gemeinsam im Team oder durch die Herausgabe an von Ihnen geführte Unterauftragnehmer.\nIhre Aufgaben:\n\nBetreuung und Koordination von Unterauftragnehmern\nDurchführung von Sicherheitsanalysen (z.B. TARA)\nErstellung von Informationssicherheitskonzepten\nDefinition und Überwachung von Cybersecurity Anforderungen\nPlanung von Sicherheitsüberprüfungen (Penetrationstests)"
+    },
+    {
+      "job_id": "1188590",
+      "title": "Werkstudent Safety, Quality, Cybersecurity Management (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/werkstudent_safety__quality__cybersecurity_management__m_w_d_/1188590",
+      "location": "Düsseldorf",
+      "country": "Germany",
+      "contract": "Teilzeit",
+      "published": "2026-10-12",
+      "deadline": "",
+      "description": "Unterstützung des Bereichs Safety, Qualits und Cybersecurity in operativen und administrativen Aufgaben\nMitgestalten und Überwachen von Prozessen in Confluence und Jira\nMitarbeit bei der Erstellung von Präsentationen, Statusberichten und Entscheidungsunterlagen\nUnterstützung bei der Koordination von Meetings, inklusive Protokollierung und Nachverfolgung von To-Dos"
     }
   ]
 }

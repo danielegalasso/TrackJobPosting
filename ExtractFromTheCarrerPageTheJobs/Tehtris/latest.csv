@@ -1,4 +1,32 @@
 job_id,title,location,contract,remote_type,published,url,description
+601804,Développeur Backend Python - F/M/X,Bordeaux,CDI,,2026-10-14,https://taleez.com/apply/developpeur-backend-python-f-m-x-bordeaux-tehtris-cdi,"À propos de TEHTRIS
+TEHTRIS est un éditeur européen de cybersécurité spécialisé dans la détection et la réponse aux menaces (EDR). TEHTRIS protège les organisations contre les cybermenaces les plus avancées grâce à une technologie souveraine, développée et hébergée en Europe.
+Le poste
+Contexte
+TEHTRIS, éditeur de logiciels de cybersécurité (EDR) recrute un·e Développeur Backend Python pour garantir la fiabilité de sa solution en production. Le poste est rattaché à l’Engineering Manager.
+Missions
+Garantir la stabilité de la production : support technique, prise en charge des incidents et résolution des tickets de bug y compris les demandes clients remontées par les équipes Support et TAM, avec réactivité et rigueur;
+Analyser les causes profondes des incidents pour apporter des correctifs durables et éviter qu'ils ne se reproduisent;
+Collaborer étroitement avec les équipes Produit, CTI, Detection Engineering et QA, comprendre les besoins clients et y apporter des réponses techniques pertinentes;
+Maintenir le socle technique à jour : mises à jour de dépendances et correctifs de sécurité;
+Documenter les incidents, les procédures de résolution et le fonctionnement de l'application pour capitaliser les connaissances et faciliter le support au quotidien;
+Faire évoluer ponctuellement la solution (APIs, politiques de sécurité, règles de détection).
+Profil recherché
+Must have
+Maîtrise de Python, notamment de la programmation asynchrone (asyncio) et des frameworks FastAPI et Pydantic;
+Aisance avec PostgreSQL et l’écriture de requêtes SQL (sans ORM);
+Bonne connaissance des protocoles HTTP et WebSocket;
+Usage quotidien de Git et maîtrise de ses bonnes pratiques;
+Tests automatisés avec pytest.
+Nice to have
+Conteneurisation avec Docker ou Podman;
+Connaissances en sécurité défensive : règles YARA, framework MITRE ATT&CK;
+Connaissances en cryptographie et en gestion des secrets;
+Aisance sur les environnements Windows (services, pywin32), Linux et macOS;
+Mise en place ou utilisation de pipelines GitLab CI/CD;
+Expérience de développement sous Windows (Windows API);
+Expérience chez un éditeur de cybersécurité (EDR, XDR, SIEM);
+A compétences égales, toutes les offres proposées par TEHTRIS sont ouvertes aux personnes en situation de handicap."
 590451,Head of People - F/M/X,Bordeaux,CDI,,2026-09-10,https://taleez.com/apply/head-of-people-f-m-x-bordeaux-tehtris-cdi,"À propos de TEHTRIS
 TEHTRIS est un éditeur français de cybersécurité, spécialisé dans la détection et la réponse aux menaces (EDR), et reconnu comme un acteur de référence de la souveraineté numérique européenne.
 Adossée depuis peu au fonds d'investissement Jolt Capital, l'entreprise amorce une nouvelle phase de croissance et de transformation, portée par une équipe resserrée, engagée et déterminée à construire la prochaine génération de sa plateforme et de son organisation.

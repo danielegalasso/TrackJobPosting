@@ -1,4 +1,121 @@
 job_id,title,location,additional_locations,department,remote_type,published,url,description
+9af47008-1dd5-4ad8-acda-a5103f758298,AI Engineer,"Uppsala, Sweden",,"Teknik, utveckling & moln",onsite,2026-10-12,https://jobb.omegapoint.se/jobs/8531489-ai-engineer,"Som AI Engineer hos oss arbetar du i en miljö där långsiktighet, kvalitet och säkerhet går hand i hand. Vi hjälper kunder inom läkemedel, hälso- och sjukvård samt Life Science att omsätta verksamhetsbehov till AI-lösningar som fungerar i praktiken och skapar värde över tid. Du får vara med genom hela resan, från att förstå verksamhetens utmaningar till att utveckla, driftsätta och vidareutveckla lösningar som används i vardagen.
+
+Är du den vi söker?
+
+Du trivs i uppdrag där du får:
+
+- förstå verksamhetens behov och utmaningar på djupet
+
+- omsätta behov och idéer till konkreta AI-lösningar
+
+- utveckla, testa och driftsätta lösningar som skapar verkligt värde
+
+- bidra till tekniska vägval inom arkitektur, integration och säkerhet
+
+- följa lösningar från idé till förvaltning och vidareutveckling
+
+Vi söker dig som vill ta en aktiv roll i att forma hur AI används för att skapa värde hos våra kunder.
+
+Vad du kan arbeta med hos oss
+
+Arbetsuppgifterna kan se olika ut beroende på kund, uppdrag och din profil. Du kan till exempel få arbeta med:
+
+AI-assistenter och AI-agenter
+
+- utveckla AI-assistenter och agenter som hämtar information, använder verktyg och utför uppgifter
+
+- integrera språkmodeller med API:er, verksamhetssystem och interna datakällor
+
+- bygga lösningar som stödjer eller automatiserar arbetsflöden
+
+Integrationer och tekniska plattformar
+
+- utveckla och förvalta API-integrationer
+
+- arbeta med autentisering, behörighetsstyrning och säker åtkomst
+
+- bidra till systemarkitektur och tekniska plattformar för AI-lösningar
+
+- arbeta med infrastruktur, säkerhet och förvaltning
+
+Utvärdering och kvalitet i AI-system
+
+- testa och utvärdera AI-lösningars kvalitet och tillförlitlighet
+
+- följa upp, felsöka och förbättra lösningar efter att de tagits i bruk
+
+- hantera problem som felaktiga svar, misslyckade verktygsanrop och andra begränsningar i AI-system
+
+Vi ser gärna att du har
+
+- några års arbetslivserfarenhet av mjukvaruutveckling och av att bygga lösningar som kan driftsättas och förvaltas, exempelvis i Python, .NET, Java eller liknande
+
+- praktisk erfarenhet av AI-utveckling, exempelvis med språkmodeller, AI-integrationer eller agentbaserade lösningar
+
+- förståelse för hur API:er, systemarkitektur och tekniska plattformar samverkar
+
+- förmåga att felsöka och utveckla robusta lösningar med fokus på kvalitet och säkerhet
+
+- förmåga att omsätta behov till fungerande lösningar i samarbete med kunder och andra tekniska roller
+
+- god kommunikativ förmåga på svenska och engelska, både muntligt och skriftligt
+
+Det är meriterande om du har erfarenhet av
+
+- RAG, kunskapsbaserade AI-tjänster och informationssökning
+
+- utvärdering och kvalitetssäkring av AI-system, exempelvis av svar, verktygsanrop och tillförlitlighet
+
+- MCP och andra tekniker för att koppla samman AI-modeller, verktyg och system
+
+- säkerhetsarbete kopplat till AI-lösningar och integrationer
+
+- att införa nya tekniska verktyg och arbetssätt
+
+Du behöver inte kunna allt eller ha arbetat med alla tekniker vi använder. Vi är intresserade av din tekniska grund, dina erfarenheter och din förmåga att utvecklas vidare tillsammans med oss.
+
+Uppdrag där du gör skillnad och får utvecklas
+
+Hos oss hamnar du i uppdrag som är:
+
+- affärs- och verksamhetskritiska där din kompetens behövs på riktigt
+
+- långsiktiga med tid att bygga hållbara lösningar
+
+- utvecklande där du får växa genom nya typer av tekniska och verksamhetsmässiga utmaningar
+
+- stabila med team som står stadigt och kunder som litar på oss
+
+Vi matchar inte konsulter slumpmässigt. Vi matchar rätt personer med rätt uppdrag.
+
+Vi satsar på dig
+
+Omegapoint är byggt för lärande. Här får du:
+
+- kontinuerlig kompetensutveckling
+
+- gemenskap och kunskapsdelning genom interna forum, kompetensdagar och konferenser
+
+- möjlighet att certifiera dig, föreläsa och driva initiativ
+
+- stöd från kollegor som gärna delar med sig av sina erfarenheter
+
+- en kultur där vi är både vassa och snälla
+
+Tillsammans bygger vi säkra digitala lösningar som skapar långsiktigt värde.
+
+💚 Om oss
+
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 900 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
+
+Varmt välkommen med din ansökan!"
 57ea8cc7-5404-4ce6-a925-174ad8e60df0,Applikation och Business Central-utvecklare,"Örebro, Sweden","Västerås, Sweden","Teknik, utveckling & moln",hybrid,2026-02-03,https://jobb.omegapoint.se/jobs/7164922-applikation-och-business-central-utvecklare,"Utveckla framtiden med oss
 
 Omegapoint är ett ledande cybersäkerhetsföretag som arbetar med cybersäker digitalisering. Här får du möjligheten att arbeta med branchens mest erfarna experter och utveckla samhällskritiska lösningar.
@@ -72,6 +189,11 @@ Tillsammans med vassa och snälla kollegor formar du framtidens säkra digitala 
 💚 Om oss
 
 Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
 
 Varmt välkommen med din ansökan!
 
@@ -306,7 +428,14 @@ Tillsammans med vassa och snälla kollegor formar du framtidens säkra digitala 
 
 💚 Om oss
 
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
+
+Varmt välkommen med din ansökan!"
 4aa7ff3e-81ef-4bdf-a7d0-1c7cebd916bd,Cloud and Security Architect,"Stockholm, Sweden",,"Teknik, utveckling & moln",none,2026-04-01,https://jobb.omegapoint.se/jobs/7503888-cloud-and-security-architect,"Vi söker fler Cloud & Security‑arkitekter som vill arbeta nära kund, affär och teknik - i uppdrag där säkerhet och skalbarhet är lika viktiga som användarupplevelse och värdeskapande. Hos oss får du tid, förtroende och rätt förutsättningar att bygga lösningar som håller över tid.
 
 Vi erbjuder en trygg och långsiktig miljö där teamarbete, kvalitet och gemensamt ansvar står i fokus.
@@ -474,7 +603,14 @@ Men viktigast av allt – vi har en kultur där vi utvecklas tillsammans, delar 
 
 💚 Om oss
 
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
+
+Varmt välkommen med din ansökan!"
 c34c73bc-3ceb-45fe-962d-3beb3f9fadc2,Cybersecurity Management Consultant,"Stockholm, Sweden",,Säkerhetsrådgivning & risk,hybrid,2025-05-14,https://jobb.omegapoint.se/jobs/5930129-cybersecurity-management-consultant,"Som ledande konsultbolag inom säker digitalisering och cybersäkerhet säkrar vi utvecklingen hos våra kunder varje dag. Vi erbjuder allt från strategisk rådgivning vid komplexa utmaningar till helhetsåtaganden inom cybersäkerhet och digitalisering. Vårt uppdrag är att skapa säkra IT-system och lösningar, effektivisera processer, skydda mot cyberhot, hantera lagkrav och bli mer hållbara i en digital värld.
 
 Vill du göra skillnad på riktigt och hjälpa organisationer att hantera digitala affärsrisker genom att skapa en röd tråd mellan affärsstrategier, lagar och regler samt teknikimplementationer? Då är du den vi söker!
@@ -616,374 +752,15 @@ Tillsammans med vassa och snälla kollegor formar du framtidens säkra digitala 
 
 Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
 
-Varmt välkommen med din ansökan!
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
 
-Har några frågor kring tjänsten är du välkommen att kontakta agneta.lindqvist@omegapoint.se"
-0eacf145-5d83-43cc-a65b-8e54948d36e4,Data Analyst,"Stockholm, Sweden",,"Teknik, utveckling & moln",hybrid,2026-10-06,https://jobb.omegapoint.se/jobs/8503383-data-analyst,"Vi söker fler konsulter som vill hjälpa våra kunder att skapa affärsvärde genom ett datadrivet arbetssätt där analys, teknik och verksamhetsförståelse möts.
-
-Hos oss arbetar du i en trygg miljö där långsiktighet, kvalitet och samarbete är viktigare än snabba leveranser. Vi arbetar nära våra kunder, i roller där du är med och omsätter data till beslut, insikter och konkreta förbättringar. Här får du möjlighet att påverka både hur organisationer arbetar med data och hur de utvecklar sin datadrivna förmåga över tid.
-
-Är du den vi söker?
-
-Som Data Analyst-konsult hos oss hjälper du våra kunder att förstå sin verksamhet bättre genom data. Du trivs i uppdrag där du får:
-
-- förstå verksamhetens behov på djupet
-
-- identifiera mönster, trender och förbättringsmöjligheter i data
-
-- omsätta komplex information till tydliga insikter och rekommendationer
-
-- bygga rapporter, dashboards och beslutsunderlag
-
-- säkerställa att analyser baseras på tillförlitlig data av hög kvalitet
-
-- arbeta nära både verksamhet, produktteam och tekniska specialister
-
-Du behöver inte vara expert på allt. Vi söker dig som är trygg i din kompetens, nyfiken på helheten och trivs med att ta ansvar i dina uppdrag.
-
-Vad du kan arbeta med hos oss
-
-Rollen kan se olika ut beroende på kund, uppdrag och din profil. Till exempel:
-
-- Explorativ analys och datadriven problemlösning
-
-- Framtagning av KPI:er, nyckeltal och beslutsunderlag
-
-- Visualisering och rapportering i Power BI, Tableau eller liknande verktyg
-
-- Analys av kundbeteenden, affärsprocesser eller digitala tjänster
-
-- Modellering och kvalitetssäkring av data
-
-- Hypotesdriven analys och experimentering
-
-- Analyslösningar i moderna data- och molnplattformar
-
-- AI-stödd analys och arbete med moderna analysverktyg
-
-- Samarbete med data engineers, data scientists, utvecklare och verksamhetsrepresentanter
-
-Du kan arbeta nära verksamheten, tekniken eller röra dig mellan båda världarna. Många av våra konsulter rör sig obehindrat mellan teknik och affär.
-
-Vem vi tror att du är
-
-Du är en person som:
-
-- gillar att samarbeta och skapa förtroende hos kunder och kollegor
-
-- är nyfiken på data, teknik och nya arbetssätt
-
-- drivs av att lösa problem och skapa värde genom insikter
-
-- har ett strukturerat och datadrivet arbetssätt
-
-- värderar kvalitet och långsiktighet
-
-- är prestigelös och trivs i team
-
-- vill dela med dig av din kunskap och lära av andra
-
-- kommunicerar obehindrat på svenska och engelska, både muntligt och skriftligt
-
-Vi tror på olika erfarenheter och perspektiv, och på att du utvecklas bäst i en miljö där du får vara dig själv.
-
-Vi ser att du har
-
-- minst tre års erfarenhet som Data Analyst eller i en liknande analytisk roll
-
-- erfarenhet av att omvandla data till affärsmässiga insikter och rekommendationer
-
-- goda kunskaper i SQL och Python
-
-- erfarenhet av visualisering och rapportering i Power BI, Tableau eller liknande verktyg
-
-- erfarenhet av någon eller några moderna data- och analysplattformar, exempelvis Snowflake, BigQuery, Databricks, Airflow, Jupyter Notebooks, Azure ML eller SageMaker
-
-- förståelse för datamodellering, datakvalitet och datadrivna arbetssätt
-
-- förståelse för AI och moderna analysverktyg och ser det som en naturlig del av analysarbetet
-
-- förmåga att kommunicera insikter och rekommendationer på ett tydligt sätt
-
-Det är starkt meriterande om du har erfarenhet av molnplattformar som Azure, AWS eller Google Cloud samt har arbetat med AI/ML-verktyg, experimentdriven analys eller produkt- och kundanalys.
-
-Uppdrag med kvalitet, förtroende och långsiktighet
-
-Vi tror att de bästa resultaten skapas när det finns tid att förstå verksamheten på djupet. Därför arbetar vi ofta i långsiktiga uppdrag där våra kunder ser oss som en strategisk partner snarare än en tillfällig resurs.
-
-Som Data Analyst hos oss får du arbeta med analys i miljöer där data är affärskritiskt och där krav på kvalitet, säkerhet och tillförlitlighet är höga. Samtidigt har du alltid nära till kollegor som gärna delar med sig av sin kunskap och stöttar dig i din utveckling.
-
-Vi satsar på dig
-
-Omegapoint är byggt för lärande. Här får du:
-
-- gemenskap, kontinuerlig kompetensutveckling och kunskapsdelning
-
-- möjlighet att föreläsa, certifiera dig och leda initiativ
-
-- en kultur där vi är både vassa och snälla
-
-- kollegor som gärna delar med sig, stöttar och inspirerar
-
-Tillsammans bygger vi säkra digitala lösningar som skapar långsiktigt värde.
-
-💚 Om oss
-
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
-978ba555-6517-4e62-8318-4ec0a6f5f2ee,Data Engineer / Data Platform Consultant,"Örebro, Sweden","Västerås, Sweden; Uppsala, Sweden; Stockholm, Sweden; Umeå, Sweden","Teknik, utveckling & moln",hybrid,2026-07-09,https://jobb.omegapoint.se/jobs/8046079-data-engineer-data-platform-consultant,"Vi söker fler konsulter som vill hjälpa våra kunder att skapa affärsvärde genom ett datadrivet arbetssätt, där teknik och säkerhet går hand i hand.
-
-Hos oss arbetar du i en trygg miljö där långsiktighet, kvalitet och samarbete är viktigare än snabba leveranser. Vi arbetar nära våra kunder, i roller där du är med och formar lösningar från behov till färdig implementation och där din erfarenhet bidrar till att skapa långsiktigt värde.
-
-Är du den vi söker?
-
-Som Data Engineer / Data Platform-konsult hos oss arbetar du med att bygga grunden för våra kunders datadrivna förmåga. Du trivs i uppdrag där du får:
-
-- förstå kundens behov på djupet
-
-- omsätta krav och vision till en konkret teknisk lösning
-
-- designa och bygga moderna dataplattformar
-
-- säkerställa att dataflöden är robusta, skalbara och långsiktigt hållbara
-
-- arbeta nära både teknik och verksamhet
-
-Du behöver inte vara expert på allt. Vi söker dig som är trygg i din kompetens, nyfiken på helheten och trivs med att ta ansvar i dina uppdrag.
-
-Vad du kan arbeta med hos oss
-
-Rollen kan se olika ut beroende på kund, uppdrag och din profil. Till exempel:
-
-- Design och implementation av dataplattformar i Microsoft Fabric och Databricks
-
-- Utveckling av data pipelines och ETL/ELT-flöden
-
-- Datamodellering och semantiska lager
-
-- Integrationer och dataflöden mellan system
-
-- Moderna arbetssätt kring datautveckling, t.ex. CI/CD, automatisering och kvalitetssäkring av dataflöden
-
-- Realtidsdata och eventdriven arkitektur
-
-- Visualisering och analys i Power BI
-
-- AI- och ML-relaterade lösningar - där dataplattformen är grunden
-
-Du kan arbeta kodnära eller mer rådgivande. Många av våra konsulter rör sig obehindrat mellan teknik och affär.
-
-Vilka vi tror att du är
-
-Du är en person som:
-
-- gillar att samarbeta och skapa förtroende hos kunder och kollegor
-
-- är nyfiken på nya arbetssätt och tekniker
-
-- värderar kvalitet och långsiktighet
-
-- är prestigelös och trivs i team
-
-- vill dela med dig av din kunskap - precis som vi gör
-
-- kommunicerar obehindrat på svenska och engelska, både muntligt och skriftligt
-
-Vi tror på olika erfarenheter och perspektiv, och på att du utvecklas bäst i en miljö där du får vara dig själv.
-
-Vi ser att du har
-
-- minst tre års erfarenhet som Data Engineer eller inom dataplattformar
-
-- arbetat i Azure-, AWS- eller liknande molnmiljö
-
-- erfarenhet av verktyg som Microsoft Fabric, Databricks, Snowflake eller liknande dataplattformar
-
-- erfarenhet av SQL och databaser
-
-- programmeringsvana i Python eller motsvarande
-
-- vana av moderna utvecklingsmetoder, exempelvis CI/CD och versionshantering
-
-Det är starkt meriterande om du även har arbetat med BI/visualisering (t.ex. Power BI), eller har arbetat med analys- eller AI/ML-relaterade lösningar.
-
-Trygga uppdrag där du får utvecklas
-
-Hos oss hamnar du i uppdrag som är:
-
-- affärskritiska – där din kompetens behövs på riktigt
-
-- långsiktiga – med tid att göra rätt, inte bara snabbt
-
-- moderna – med teknik och miljöer som utmanar och utvecklar
-
-- stabila – med team som står stadigt och kunder som litar på oss
-
-Vi matchar rätt personer med rätt uppdrag.
-
-Vi satsar på dig
-
-Omegapoint är byggt för lärande. Här får du:
-
-- gemenskap, kontinuerlig kompetensutveckling och kunskapsdelning
-
-- möjlighet att föreläsa, certifiera dig och leda initiativ
-
-- en kultur där vi är både vassa och snälla
-
-- kollegor som gärna delar med sig, stöttar och inspirerar
-
-Tillsammans bygger vi säkra digitala lösningar som skapar långsiktigt värde.
-
-💚 Om oss
-
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
-237d01af-4fb0-4475-bd86-e602842f590d,DevSecOps Engineer,"Örebro, Sweden","Västerås, Sweden","Teknik, utveckling & moln",hybrid,2025-03-25,https://jobb.omegapoint.se/jobs/5729374-devsecops-engineer,"Utveckla framtiden med oss
-
-Vi på Omegapoint Örebro söker en passionerad och driven DevSecOps Engineer för att stärka vårt team och driva utvecklingen av våra tekniska plattformar. Du kommer att spela en nyckelroll i att säkerställa smidiga och effektiva arbetsflöden för utveckling, testning och produktionssättning av våra system. Med fokus på Azure, Kafka och Kubernetes kommer du att få arbeta med moderna teknologier i en innovativ och dynamisk miljö.
-
-Vad du kan arbeta med hos oss:
-
-- Bygga och underhålla CI/CD-pipelines för att möjliggöra snabb och säker leverans av kod.
-
-- Implementera och optimera molnbaserade lösningar och infrastrukturtjänster i Azure.
-
-- Arbeta med Kubernetes för containerisering och orkestrering av applikationer.
-
-- Integrera och hantera Kafka för realtidsdatabehandling och event-driven arkitektur.
-
-- Säkerställa hög tillgänglighet, skalbarhet och prestanda för system och applikationer.
-
-- Automatisera drift, övervakning och incidenthantering genom skript och verktyg.
-
-- Säkerställa säkerheten i hela utvecklingscykeln genom att implementera best practices och verktyg för säker kod och infrastruktur.
-
-- Arbeta tillsammans med utvecklingsteam för att förbättra och optimera arbetsflöden och processer.
-
-- Följa och implementera DevOps-kultur och metodik för att stödja snabb utveckling och leverans.
-
-Är du den vi söker?
-
-Som DevOps Engineer kommer du att vara ansvarig för att optimera och automatisera våra processer och pipelines för kontinuerlig integration och leverans (CI/CD). Du kommer att arbeta nära utvecklingsteamet för att säkerställa att våra lösningar och plattformar är robusta, skalbara och säkra. Du kommer att använda dina kunskaper inom Azure, Kafka och Kubernetes för att implementera lösningar som stödjer företagets långsiktiga tekniska mål.
-
-Vi söker dig som:
-
-- Har minst 3 års erfarenhet som DevOps Engineer eller i en liknande roll.
-
-- Minst 3 års erfarenhet av att arbeta med CI/CD-pipelines och DevSecOps-principer.
-
-- Har djup erfarenhet av Azure och har arbetat med molnbaserade tjänster och lösningar.
-
-- Har erfarenhet av att arbeta med Kafka och realtidsdatabehandling.
-
-- Är van att arbeta med Kubernetes och containerteknologier som Docker.
-
-- Har erfarenhet av att sätta upp och underhålla CI/CD-pipelines med verktyg som Jenkins, Azure DevOps eller GitLab CI.
-
-- Är bekväm med att arbeta med infrastruktur som kod (IaC) med verktyg som Terraform eller Bicep.
-
-- Har erfarenhet av att arbeta med versionshantering, helst Git.
-
-- Har ett agilt tankesätt och erfarenhet av att arbeta i tvärfunktionella team.
-
-- Har god kommunikationsförmåga och gillar att samarbeta med olika tekniska funktioner.
-
-- Flytande svenska i tal och skrift är ett krav.
-
-Meriterande:
-
-- Certifieringar inom Azure, Kubernetes eller Kafka.
-
-- Erfarenhet av automatisering och orkestrering av molntjänster och infrastrukturtjänster.
-
-- Erfarenhet av säkerhetsprotokoll och verktyg för säkerhetsautomatisering.
-
-- Kunskap om andra DevOps-verktyg som Prometheus, Grafana eller ELK-stack.
-
-- Erfarenhet av hotbildsmodellering
-
-🚀 Vi satsar på dig
-
-Hos oss får du:
-
-- kontinuerlig kompetensutveckling inom både teknik och ledarskap
-
-- interna forum för arkitektur, säkerhet, AI och best practices
-
-- kollegor som gärna delar med sig, sparrar och inspirerar
-
-- möjlighet att påverka hur vi jobbar, lär oss och utvecklas
-
-- en kultur där vi är både vassa och snälla
-
-Vi tror att de bästa lösningarna byggs när människor får vara trygga, nyfikna och engagerade.
-
-Utveckla med AI i praktiken
-
-På Omegapoint ser vi AI som en naturlig del av modern systemutveckling. Vi tror att framtidens digitala lösningar skapas när mänsklig kompetens, erfarenhet och omdöme möter artificiell intelligens.
-
-Hos oss får du tillgång till moderna AI-verktyg som hjälper dig att skapa smartare, säkrare och mer värdeskapande lösningar. Vi uppmuntrar nyfikenhet, lärande och kunskapsdelning och värdesätter alltid säkerhet och kvalitet. I uppdrag med särskilda säkerhetskrav arbetar vi med lösningar och miljöer som ger den kontroll och trygghet som krävs.
-
-Tillsammans med vassa och snälla kollegor formar du framtidens säkra digitala lösningar och bidrar till en framtid där människor kan lita på tekniken.
-
-💚 Om oss
-
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
 
 Varmt välkommen med din ansökan!
 
 Har några frågor kring tjänsten är du välkommen att kontakta agneta.lindqvist@omegapoint.se"
-3f143406-a1a5-448b-a4de-8761a9a2920b,Information Security Consultant,"Stockholm, Sweden",,Säkerhetsrådgivning & risk,hybrid,2024-11-14,https://jobb.omegapoint.se/jobs/5199094-information-security-consultant,"Som ledande konsultbolag inom säker digitalisering och cybersäkerhet säkrar vi utvecklingen hos våra kunder varje dag. Vi erbjuder allt från strategisk rådgivning vid komplexa utmaningar till helhetsåtaganden inom cybersäkerhet och digitalisering. Vårt uppdrag är att skapa säkra IT-system och lösningar, effektivisera processer, skydda mot cyberhot, hantera lagkrav och bli mer hållbara i en digital värld.
-
-Vill du utvecklas och dela med dig av din expertis inom cybersecurity management & resilience? Då kan du vara den vi söker!
-
-🔐 Om rollen
-
-Vi söker dig med erfarenhet och intresse för IT- och informationssäkerhet som vill arbeta med spännande uppdrag inom olika branscher och tillsammans med ett härligt gäng kollegor. Din roll kommer att vara central för våra kunder, där ditt engagemang, din lyhördhet och nyfikenhet är av stor vikt.
-
-Vi ser gärna att du:
-
-- idag och sedan minst 3 år tillbaka arbetar med säkerhet, kanske i en linjeroll eller att du redan idag arbetar som konsult
-
-- har erfarenhet av att arbeta med operativt, systematiskt- och riskbaserat IT- och informationssäkerhetsarbete
-
-- har en god förståelse för organisationers styrning, riskhantering och regelefterlevnadsarbete
-
-- har erfarenhet av säkerhetsrådgivning och granskning inom organisationer
-
-- känner dig bekväm med att delta i projekt för införande av ledningssystem för informationssäkerhet, inklusive certifieringsprocessen
-
-- har god teknisk kunskap samt förståelse för verksamhetens möjligheter och utmaningar inom området
-
-- har akademisk examen eller motsvarande med inriktning mot IT- och informationssäkerhet
-
-- behärskar svenska och engelska i både tal och skrift
-
-Det är även meriterande om du har:
-
-- relevanta certifieringar som t.ex. CC, CISM, CISSP, CISA, CRISC
-
-- erfarenhet av lagar och regelverk som t.ex. PCI DSS, GDPR, OSL och NIS
-
-- erfarenhet av standarder som t.ex. MSB metodstöd, ISO 27001 och NIST samt CIS controls
-
-Är det någon certifiering du vill ta men ännu inte har? Inga problem! Vi står för certifieringen och uppmuntrar alltid våra kollegor till fortsatt kompetensutveckling.
-
-🚀 Vi satsar på dig - skapa framtiden tillsammans med oss!
-
-Hos oss får du möjlighet att arbeta i teknikens och cybersäkerhetens framkant – tillsammans med några av branschens mest kompetenta kollegor. Vi tror på att erfarenhet och nyfikenhet går hand i hand, och vi söker dig som vill vara med och utveckla framtidens säkra digitala lösningar.
-
-- Vi utforskar AI tillsammans: Genom moderna verktyg och kunskapsdelning får du möjlighet att utveckla din AI-kompetens och utforska nya sätt att arbeta. Vi kombinerar nyfikenhet på ny teknik med ett starkt fokus på säkerhet, kvalitet och ansvar. På så sätt utvecklar vi både våra arbetssätt och vår förmåga att skapa nytta för våra kunder.
-
-- Meningsfulla uppdrag: Du arbetar med uppdrag som gör skillnad – där din insats bidrar till tryggare, mer hållbara och robusta digitala samhällen.
-
-- Växla upp din kompetens: Din utveckling är viktig för oss. Därför investerar vi löpande i utbildningar, certifieringar och mentorskap som ger dig möjlighet att fördjupa din expertis och utvecklas i den riktning du vill.
-
-- Samarbete och gemenskap: Hos oss råder en kultur av öppenhet och prestigelöshet. Vi lär av varandra, utmanar varandra och delar en gemensam vilja att alltid bli bättre.
-
-Vill du vara en del av ett team som kombinerar teknik, samhällsnytta och kollegial värme – och där din kompetens verkligen gör skillnad? Då är Omegapoint platsen för dig!
-
-Varmt välkommen med din ansökan! ⤵️"
-aced01b7-a286-439b-9b47-a2af97a6c40c,Integration and Data Architect,"Stockholm, Sweden",,"Teknik, utveckling & moln",none,2026-04-01,https://jobb.omegapoint.se/jobs/7504039-integration-and-data-architect,"Vi söker fler Integration & Data‑arkitekter som vill arbeta i miljöer där teknik, verksamhet och säkerhet möts. Hos oss får du arbeta långsiktigt, nära kundens kärnverksamhet - i uppdrag där din expertis gör stor skillnad för både affären och helheten.
+aced01b7-a286-439b-9b47-a2af97a6c40c,Data & Integration Architect,"Stockholm, Sweden",,"Teknik, utveckling & moln",none,2026-04-01,https://jobb.omegapoint.se/jobs/7504039-data-integration-architect,"Vi söker fler Data och Integrationsarkitekter som vill arbeta i miljöer där teknik, verksamhet och säkerhet möts. Hos oss får du arbeta långsiktigt, nära kundens kärnverksamhet - i uppdrag där din expertis gör stor skillnad för både affären och helheten.
 
 Vi erbjuder en trygg och professionell miljö där samarbete, kvalitet och hållbara arbetssätt står i centrum.
 
@@ -1097,6 +874,340 @@ Hos oss får du tillgång till moderna AI-verktyg som hjälper dig att skapa sma
 
 Tillsammans med vassa och snälla kollegor formar du framtidens säkra digitala lösningar och bidrar till en framtid där människor kan lita på tekniken.
 
+💚 Om oss
+
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
+
+Varmt välkommen med din ansökan!"
+0eacf145-5d83-43cc-a65b-8e54948d36e4,Data Analyst,"Stockholm, Sweden",,"Teknik, utveckling & moln",hybrid,2026-10-06,https://jobb.omegapoint.se/jobs/8503383-data-analyst,"Vi söker fler konsulter som vill hjälpa våra kunder att skapa affärsvärde genom ett datadrivet arbetssätt där analys, teknik och verksamhetsförståelse möts.
+
+Hos oss arbetar du i en trygg miljö där långsiktighet, kvalitet och samarbete är viktigare än snabba leveranser. Vi arbetar nära våra kunder, i roller där du är med och omsätter data till beslut, insikter och konkreta förbättringar. Här får du möjlighet att påverka både hur organisationer arbetar med data och hur de utvecklar sin datadrivna förmåga över tid.
+
+Är du den vi söker?
+
+Som Data Analyst-konsult hos oss hjälper du våra kunder att förstå sin verksamhet bättre genom data. Du trivs i uppdrag där du får:
+
+- förstå verksamhetens behov på djupet
+
+- identifiera mönster, trender och förbättringsmöjligheter i data
+
+- omsätta komplex information till tydliga insikter och rekommendationer
+
+- bygga rapporter, dashboards och beslutsunderlag
+
+- säkerställa att analyser baseras på tillförlitlig data av hög kvalitet
+
+- arbeta nära både verksamhet, produktteam och tekniska specialister
+
+Du behöver inte vara expert på allt. Vi söker dig som är trygg i din kompetens, nyfiken på helheten och trivs med att ta ansvar i dina uppdrag.
+
+Vad du kan arbeta med hos oss
+
+Rollen kan se olika ut beroende på kund, uppdrag och din profil. Till exempel:
+
+- Explorativ analys och datadriven problemlösning
+
+- Framtagning av KPI:er, nyckeltal och beslutsunderlag
+
+- Visualisering och rapportering i Power BI, Tableau eller liknande verktyg
+
+- Analys av kundbeteenden, affärsprocesser eller digitala tjänster
+
+- Modellering och kvalitetssäkring av data
+
+- Hypotesdriven analys och experimentering
+
+- Analyslösningar i moderna data- och molnplattformar
+
+- AI-stödd analys och arbete med moderna analysverktyg
+
+- Samarbete med data engineers, data scientists, utvecklare och verksamhetsrepresentanter
+
+Du kan arbeta nära verksamheten, tekniken eller röra dig mellan båda världarna. Många av våra konsulter rör sig obehindrat mellan teknik och affär.
+
+Vem vi tror att du är
+
+Du är en person som:
+
+- gillar att samarbeta och skapa förtroende hos kunder och kollegor
+
+- är nyfiken på data, teknik och nya arbetssätt
+
+- drivs av att lösa problem och skapa värde genom insikter
+
+- har ett strukturerat och datadrivet arbetssätt
+
+- värderar kvalitet och långsiktighet
+
+- är prestigelös och trivs i team
+
+- vill dela med dig av din kunskap och lära av andra
+
+- kommunicerar obehindrat på svenska och engelska, både muntligt och skriftligt
+
+Vi tror på olika erfarenheter och perspektiv, och på att du utvecklas bäst i en miljö där du får vara dig själv.
+
+Vi ser att du har
+
+- minst tre års erfarenhet som Data Analyst eller i en liknande analytisk roll
+
+- erfarenhet av att omvandla data till affärsmässiga insikter och rekommendationer
+
+- goda kunskaper i SQL och Python
+
+- erfarenhet av visualisering och rapportering i Power BI, Tableau eller liknande verktyg
+
+- erfarenhet av någon eller några moderna data- och analysplattformar, exempelvis Snowflake, BigQuery, Databricks, Airflow, Jupyter Notebooks, Azure ML eller SageMaker
+
+- förståelse för datamodellering, datakvalitet och datadrivna arbetssätt
+
+- förståelse för AI och moderna analysverktyg och ser det som en naturlig del av analysarbetet
+
+- förmåga att kommunicera insikter och rekommendationer på ett tydligt sätt
+
+Det är starkt meriterande om du har erfarenhet av molnplattformar som Azure, AWS eller Google Cloud samt har arbetat med AI/ML-verktyg, experimentdriven analys eller produkt- och kundanalys.
+
+Uppdrag med kvalitet, förtroende och långsiktighet
+
+Vi tror att de bästa resultaten skapas när det finns tid att förstå verksamheten på djupet. Därför arbetar vi ofta i långsiktiga uppdrag där våra kunder ser oss som en strategisk partner snarare än en tillfällig resurs.
+
+Som Data Analyst hos oss får du arbeta med analys i miljöer där data är affärskritiskt och där krav på kvalitet, säkerhet och tillförlitlighet är höga. Samtidigt har du alltid nära till kollegor som gärna delar med sig av sin kunskap och stöttar dig i din utveckling.
+
+Vi satsar på dig
+
+Omegapoint är byggt för lärande. Här får du:
+
+- gemenskap, kontinuerlig kompetensutveckling och kunskapsdelning
+
+- möjlighet att föreläsa, certifiera dig och leda initiativ
+
+- en kultur där vi är både vassa och snälla
+
+- kollegor som gärna delar med sig, stöttar och inspirerar
+
+Tillsammans bygger vi säkra digitala lösningar som skapar långsiktigt värde.
+
+💚 Om oss
+
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
+
+Varmt välkommen med din ansökan!"
+978ba555-6517-4e62-8318-4ec0a6f5f2ee,Data Engineer / Data Platform Consultant,"Örebro, Sweden","Västerås, Sweden; Uppsala, Sweden; Stockholm, Sweden; Umeå, Sweden; Göteborg, Sweden","Teknik, utveckling & moln",hybrid,2026-07-09,https://jobb.omegapoint.se/jobs/8046079-data-engineer-data-platform-consultant,"Vi söker fler konsulter som vill hjälpa våra kunder att skapa affärsvärde genom ett datadrivet arbetssätt, där teknik och säkerhet går hand i hand.
+
+Hos oss arbetar du i en trygg miljö där långsiktighet, kvalitet och samarbete är viktigare än snabba leveranser. Vi arbetar nära våra kunder, i roller där du är med och formar lösningar från behov till färdig implementation och där din erfarenhet bidrar till att skapa långsiktigt värde.
+
+Är du den vi söker?
+
+Som Data Engineer / Data Platform-konsult hos oss arbetar du med att bygga grunden för våra kunders datadrivna förmåga. Du trivs i uppdrag där du får:
+
+- förstå kundens behov på djupet
+
+- omsätta krav och vision till en konkret teknisk lösning
+
+- designa och bygga moderna dataplattformar
+
+- säkerställa att dataflöden är robusta, skalbara och långsiktigt hållbara
+
+- arbeta nära både teknik och verksamhet
+
+Du behöver inte vara expert på allt. Vi söker dig som är trygg i din kompetens, nyfiken på helheten och trivs med att ta ansvar i dina uppdrag.
+
+Vad du kan arbeta med hos oss
+
+Rollen kan se olika ut beroende på kund, uppdrag och din profil. Till exempel:
+
+- Design och implementation av dataplattformar i Microsoft Fabric och Databricks
+
+- Utveckling av data pipelines och ETL/ELT-flöden
+
+- Datamodellering och semantiska lager
+
+- Integrationer och dataflöden mellan system
+
+- Moderna arbetssätt kring datautveckling, t.ex. CI/CD, automatisering och kvalitetssäkring av dataflöden
+
+- Realtidsdata och eventdriven arkitektur
+
+- Visualisering och analys i Power BI
+
+- AI- och ML-relaterade lösningar - där dataplattformen är grunden
+
+Du kan arbeta kodnära eller mer rådgivande. Många av våra konsulter rör sig obehindrat mellan teknik och affär.
+
+Vem vi tror att du är
+
+Du är en person som:
+
+- gillar att samarbeta och skapa förtroende hos kunder och kollegor
+
+- är nyfiken på nya arbetssätt och tekniker
+
+- värderar kvalitet och långsiktighet
+
+- är prestigelös och trivs i team
+
+- vill dela med dig av din kunskap - precis som vi gör
+
+- kommunicerar obehindrat på svenska och engelska, både muntligt och skriftligt
+
+Vi tror på olika erfarenheter och perspektiv, och på att du utvecklas bäst i en miljö där du får vara dig själv.
+
+Vi ser att du har
+
+- minst tre års erfarenhet som Data Engineer eller inom dataplattformar
+
+- arbetat i Azure-, AWS- eller liknande molnmiljö
+
+- erfarenhet av verktyg som Microsoft Fabric, Databricks, Snowflake eller liknande dataplattformar
+
+- erfarenhet av SQL och databaser
+
+- programmeringsvana i Python eller motsvarande
+
+- vana av moderna utvecklingsmetoder, exempelvis CI/CD och versionshantering
+
+Det är starkt meriterande om du även har arbetat med BI/visualisering (t.ex. Power BI), eller har arbetat med analys- eller AI/ML-relaterade lösningar.
+
+Trygga uppdrag där du får utvecklas
+
+Hos oss hamnar du i uppdrag som är:
+
+- affärskritiska – där din kompetens behövs på riktigt
+
+- långsiktiga – med tid att göra rätt, inte bara snabbt
+
+- moderna – med teknik och miljöer som utmanar och utvecklar
+
+- stabila – med team som står stadigt och kunder som litar på oss
+
+Vi matchar rätt personer med rätt uppdrag.
+
+Vi satsar på dig
+
+Omegapoint är byggt för lärande. Här får du:
+
+- gemenskap, kontinuerlig kompetensutveckling och kunskapsdelning
+
+- möjlighet att föreläsa, certifiera dig och leda initiativ
+
+- en kultur där vi är både vassa och snälla
+
+- kollegor som gärna delar med sig, stöttar och inspirerar
+
+Tillsammans bygger vi säkra digitala lösningar som skapar långsiktigt värde.
+
+💚 Om oss
+
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
+
+Varmt välkommen med din ansökan!"
+237d01af-4fb0-4475-bd86-e602842f590d,DevSecOps Engineer,"Örebro, Sweden","Västerås, Sweden","Teknik, utveckling & moln",hybrid,2025-03-25,https://jobb.omegapoint.se/jobs/5729374-devsecops-engineer,"Utveckla framtiden med oss
+
+Vi på Omegapoint Örebro söker en passionerad och driven DevSecOps Engineer för att stärka vårt team och driva utvecklingen av våra tekniska plattformar. Du kommer att spela en nyckelroll i att säkerställa smidiga och effektiva arbetsflöden för utveckling, testning och produktionssättning av våra system. Med fokus på Azure, Kafka och Kubernetes kommer du att få arbeta med moderna teknologier i en innovativ och dynamisk miljö.
+
+Vad du kan arbeta med hos oss:
+
+- Bygga och underhålla CI/CD-pipelines för att möjliggöra snabb och säker leverans av kod.
+
+- Implementera och optimera molnbaserade lösningar och infrastrukturtjänster i Azure.
+
+- Arbeta med Kubernetes för containerisering och orkestrering av applikationer.
+
+- Integrera och hantera Kafka för realtidsdatabehandling och event-driven arkitektur.
+
+- Säkerställa hög tillgänglighet, skalbarhet och prestanda för system och applikationer.
+
+- Automatisera drift, övervakning och incidenthantering genom skript och verktyg.
+
+- Säkerställa säkerheten i hela utvecklingscykeln genom att implementera best practices och verktyg för säker kod och infrastruktur.
+
+- Arbeta tillsammans med utvecklingsteam för att förbättra och optimera arbetsflöden och processer.
+
+- Följa och implementera DevOps-kultur och metodik för att stödja snabb utveckling och leverans.
+
+Är du den vi söker?
+
+Som DevOps Engineer kommer du att vara ansvarig för att optimera och automatisera våra processer och pipelines för kontinuerlig integration och leverans (CI/CD). Du kommer att arbeta nära utvecklingsteamet för att säkerställa att våra lösningar och plattformar är robusta, skalbara och säkra. Du kommer att använda dina kunskaper inom Azure, Kafka och Kubernetes för att implementera lösningar som stödjer företagets långsiktiga tekniska mål.
+
+Vi söker dig som:
+
+- Har minst 3 års erfarenhet som DevOps Engineer eller i en liknande roll.
+
+- Minst 3 års erfarenhet av att arbeta med CI/CD-pipelines och DevSecOps-principer.
+
+- Har djup erfarenhet av Azure och har arbetat med molnbaserade tjänster och lösningar.
+
+- Har erfarenhet av att arbeta med Kafka och realtidsdatabehandling.
+
+- Är van att arbeta med Kubernetes och containerteknologier som Docker.
+
+- Har erfarenhet av att sätta upp och underhålla CI/CD-pipelines med verktyg som Jenkins, Azure DevOps eller GitLab CI.
+
+- Är bekväm med att arbeta med infrastruktur som kod (IaC) med verktyg som Terraform eller Bicep.
+
+- Har erfarenhet av att arbeta med versionshantering, helst Git.
+
+- Har ett agilt tankesätt och erfarenhet av att arbeta i tvärfunktionella team.
+
+- Har god kommunikationsförmåga och gillar att samarbeta med olika tekniska funktioner.
+
+- Flytande svenska i tal och skrift är ett krav.
+
+Meriterande:
+
+- Certifieringar inom Azure, Kubernetes eller Kafka.
+
+- Erfarenhet av automatisering och orkestrering av molntjänster och infrastrukturtjänster.
+
+- Erfarenhet av säkerhetsprotokoll och verktyg för säkerhetsautomatisering.
+
+- Kunskap om andra DevOps-verktyg som Prometheus, Grafana eller ELK-stack.
+
+- Erfarenhet av hotbildsmodellering
+
+🚀 Vi satsar på dig
+
+Hos oss får du:
+
+- kontinuerlig kompetensutveckling inom både teknik och ledarskap
+
+- interna forum för arkitektur, säkerhet, AI och best practices
+
+- kollegor som gärna delar med sig, sparrar och inspirerar
+
+- möjlighet att påverka hur vi jobbar, lär oss och utvecklas
+
+- en kultur där vi är både vassa och snälla
+
+Vi tror att de bästa lösningarna byggs när människor får vara trygga, nyfikna och engagerade.
+
+Utveckla med AI i praktiken
+
+På Omegapoint ser vi AI som en naturlig del av modern systemutveckling. Vi tror att framtidens digitala lösningar skapas när mänsklig kompetens, erfarenhet och omdöme möter artificiell intelligens.
+
+Hos oss får du tillgång till moderna AI-verktyg som hjälper dig att skapa smartare, säkrare och mer värdeskapande lösningar. Vi uppmuntrar nyfikenhet, lärande och kunskapsdelning och värdesätter alltid säkerhet och kvalitet. I uppdrag med särskilda säkerhetskrav arbetar vi med lösningar och miljöer som ger den kontroll och trygghet som krävs.
+
+Tillsammans med vassa och snälla kollegor formar du framtidens säkra digitala lösningar och bidrar till en framtid där människor kan lita på tekniken.
+
+💚 Om oss
+
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
 Ett tips innan du söker:
 Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
 
@@ -1104,9 +1215,58 @@ Fokusera i stället på att beskriva vad du har gjort, vilka problem du har lös
 
 Varmt välkommen med din ansökan!
 
-💚 Om oss
+Har några frågor kring tjänsten är du välkommen att kontakta agneta.lindqvist@omegapoint.se"
+3f143406-a1a5-448b-a4de-8761a9a2920b,Information Security Consultant,"Stockholm, Sweden",,Säkerhetsrådgivning & risk,hybrid,2024-11-14,https://jobb.omegapoint.se/jobs/5199094-information-security-consultant,"Som ledande konsultbolag inom säker digitalisering och cybersäkerhet säkrar vi utvecklingen hos våra kunder varje dag. Vi erbjuder allt från strategisk rådgivning vid komplexa utmaningar till helhetsåtaganden inom cybersäkerhet och digitalisering. Vårt uppdrag är att skapa säkra IT-system och lösningar, effektivisera processer, skydda mot cyberhot, hantera lagkrav och bli mer hållbara i en digital värld.
 
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
+Vill du utvecklas och dela med dig av din expertis inom cybersecurity management & resilience? Då kan du vara den vi söker!
+
+🔐 Om rollen
+
+Vi söker dig med erfarenhet och intresse för IT- och informationssäkerhet som vill arbeta med spännande uppdrag inom olika branscher och tillsammans med ett härligt gäng kollegor. Din roll kommer att vara central för våra kunder, där ditt engagemang, din lyhördhet och nyfikenhet är av stor vikt.
+
+Vi ser gärna att du:
+
+- idag och sedan minst 3 år tillbaka arbetar med säkerhet, kanske i en linjeroll eller att du redan idag arbetar som konsult
+
+- har erfarenhet av att arbeta med operativt, systematiskt- och riskbaserat IT- och informationssäkerhetsarbete
+
+- har en god förståelse för organisationers styrning, riskhantering och regelefterlevnadsarbete
+
+- har erfarenhet av säkerhetsrådgivning och granskning inom organisationer
+
+- känner dig bekväm med att delta i projekt för införande av ledningssystem för informationssäkerhet, inklusive certifieringsprocessen
+
+- har god teknisk kunskap samt förståelse för verksamhetens möjligheter och utmaningar inom området
+
+- har akademisk examen eller motsvarande med inriktning mot IT- och informationssäkerhet
+
+- behärskar svenska och engelska i både tal och skrift
+
+Det är även meriterande om du har:
+
+- relevanta certifieringar som t.ex. CC, CISM, CISSP, CISA, CRISC
+
+- erfarenhet av lagar och regelverk som t.ex. PCI DSS, GDPR, OSL och NIS
+
+- erfarenhet av standarder som t.ex. MSB metodstöd, ISO 27001 och NIST samt CIS controls
+
+Är det någon certifiering du vill ta men ännu inte har? Inga problem! Vi står för certifieringen och uppmuntrar alltid våra kollegor till fortsatt kompetensutveckling.
+
+🚀 Vi satsar på dig - skapa framtiden tillsammans med oss!
+
+Hos oss får du möjlighet att arbeta i teknikens och cybersäkerhetens framkant – tillsammans med några av branschens mest kompetenta kollegor. Vi tror på att erfarenhet och nyfikenhet går hand i hand, och vi söker dig som vill vara med och utveckla framtidens säkra digitala lösningar.
+
+- Vi utforskar AI tillsammans: Genom moderna verktyg och kunskapsdelning får du möjlighet att utveckla din AI-kompetens och utforska nya sätt att arbeta. Vi kombinerar nyfikenhet på ny teknik med ett starkt fokus på säkerhet, kvalitet och ansvar. På så sätt utvecklar vi både våra arbetssätt och vår förmåga att skapa nytta för våra kunder.
+
+- Meningsfulla uppdrag: Du arbetar med uppdrag som gör skillnad – där din insats bidrar till tryggare, mer hållbara och robusta digitala samhällen.
+
+- Växla upp din kompetens: Din utveckling är viktig för oss. Därför investerar vi löpande i utbildningar, certifieringar och mentorskap som ger dig möjlighet att fördjupa din expertis och utvecklas i den riktning du vill.
+
+- Samarbete och gemenskap: Hos oss råder en kultur av öppenhet och prestigelöshet. Vi lär av varandra, utmanar varandra och delar en gemensam vilja att alltid bli bättre.
+
+Vill du vara en del av ett team som kombinerar teknik, samhällsnytta och kollegial värme – och där din kompetens verkligen gör skillnad? Då är Omegapoint platsen för dig!
+
+Varmt välkommen med din ansökan! ⤵️"
 cc0cfe85-6a4e-4692-b797-5d9c26d610da,Integration Architect,"Örebro, Sweden","Västerås, Sweden","Teknik, utveckling & moln",hybrid,2026-07-09,https://jobb.omegapoint.se/jobs/8048066-integration-architect,"Vi söker fler integrationsarkitekter som vill hjälpa våra kunder att utveckla och modernisera komplexa IT-landskap.
 
 Hos oss arbetar du i uppdrag där integration, arkitektur och säkerhet spelar en avgörande roll för verksamhetens utveckling. Det kan handla om att ta fram integrationsstrategier, etablera API-plattformar, designa målarkitekturer eller stötta kunder i resan från äldre integrationslösningar till moderna och molnbaserade plattformar.
@@ -1233,7 +1393,14 @@ Tillsammans med vassa och snälla kollegor formar du framtidens säkra digitala 
 
 💚 Om oss
 
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
+
+Varmt välkommen med din ansökan!"
 1112710c-bf16-4932-8c9f-d84d34b5a80f,IT Architect,"Stockholm, Sweden",,"Teknik, utveckling & moln",none,2026-04-01,https://jobb.omegapoint.se/jobs/7503470-it-architect,"Vi söker fler arkitekter som vill kombinera teknik, affär och säkerhet i uppdrag där du får tid, förtroende och utrymme att göra ett riktigt bra jobb. Hos oss arbetar du i en trygg miljö där långsiktighet, kvalitet och samarbete är viktigare än kortsiktiga hopp mellan projekt.
 
 Omegapoint är inte ett traditionellt konsultbolag. Vi arbetar nära våra kunder, i roller där teknik möter verksamhet - och där din erfarenhet verkligen betyder något.
@@ -1790,7 +1957,7 @@ Vi erbjuder
 
 - Konkurrenskraftig ersättning och förmåner
 
-🚀 Vi satsar på dig
+Vi satsar på dig
 
 Hos oss får du:
 
@@ -1806,7 +1973,7 @@ Tillsammans bygger vi hållbara digitala lösningar som skapar värde – för k
 
 💚 Om oss
 
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 900 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
 8120a4d5-cd96-44a0-b9c8-9caa8ef8ed57,Senior Python utvecklare,"Malmö, Sweden",,"Teknik, utveckling & moln",hybrid,2026-04-09,https://jobb.omegapoint.se/jobs/7533503-senior-python-utvecklare,"Utveckla framtiden med oss
 
 Vill du arbeta i teknologins framkant och säkra både din och våra kunders utveckling? Omegapoint är ett konsultföretag som skapar framtidens digitala tjänster. Vi växer och letar nu efter marknadens vassaste Python utvecklare.
@@ -2356,7 +2523,14 @@ Men viktigast av allt – vi har en kultur där vi utvecklas tillsammans, delar 
 
 💚 Om oss
 
-Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå."
+Omegapoint är norra Europas ledande konsultbolag inom säker digital innovation. Vi är över 800 medarbetare i Stockholm, Göteborg, Malmö, Örebro, Västerås, Enköping, Uppsala och Umeå.
+
+Ett tips innan du söker:
+Du behöver inte optimera ditt CV för något automatiskt urvalssystem. Vi använder inte AI för att fatta rekryteringsbeslut och läser alla ansökningar själva.
+
+Fokusera i stället på att beskriva vad du har gjort, vilka problem du har löst och vad du vill utvecklas vidare inom - vi vill lära känna dig.
+
+Varmt välkommen med din ansökan!"
 481dc137-c7d5-4fb3-a168-bc02cbbbbd80,Traineeprogram Stockholm - Vår 2027,"Stockholm, Sweden",,Student & talangprogram,none,2026-09-24,https://jobb.omegapoint.se/jobs/8450208-traineeprogram-stockholm-var-2027,"Kickstarta din karriär inom säker digital innovation
 
 Genom Omegapoints traineeprogram får du en unik möjlighet att utvecklas inom AI, cybersäkerhet, applikationsutveckling och strategisk rådgivning.

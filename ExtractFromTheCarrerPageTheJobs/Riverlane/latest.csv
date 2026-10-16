@@ -2047,89 +2047,6 @@ Women and other underrepresented groups may be less likely to apply for a role u
 If you need any adjustments made to the application or selection process so you can do your best, please let us know. We will be happy to help.
 
 GDPR notice: Riverlane collects and processes personal data in accordance with applicable data protection laws. If you are a European Job Applicant see the privacy notice for further details."
-4775882101,406,Senior Embedded Software Engineer  (Firmware),"Cambridge, UK",Cambridge,,Engineering,2026-02-06,2026-09-28,,https://job-boards.eu.greenhouse.io/riverlane/jobs/4775882101,"Senior Embedded Software Engineer
-
-Cambridge, UK | Full-time | Permanent | Hybrid
-
-Salary: £70,000 to £90,000 DOE
-
-The salary range for this role is broad, as we are able to consider varying levels of experience. Any offer made will carefully take into account level of experience (including relevant industry experience), transferable relevant skills and previous relevant achievements.
-
-Please indicate your preferred working schedule in your cover letter.
-
-About us
-
-Riverlane’s mission is to master quantum error correction (QEC) and unlock a new age of human progress. From advances in material and climate science, to complex chemistry simulation for new drug design, quantum computers will help humanity solve some of its most important challenges. But without QEC, the industry’s defining technical challenge, such breakthroughs can never be achieved. Riverlane is the world leader in QEC technology. QEC is a complex problem that requires a range of skills, talent and passion.
-
-Having raised more than $125M in funding to date to accelerate our cutting-edge R&D in quantum error correction (QEC), Riverlane partners with many of the world’s leading quantum hardware providers and government agencies to make fault-tolerant quantum computing a reality. We’re making remarkable progress and growing fast.
-
-About the role
-
-At Riverlane, we build new and advanced solutions to solve one of the hardest problems in quantum computing: quantum error correction (QEC). As a Senior Embedded Software Engineer at Riverlane, you will help build the world’s first quantum error correction stack - Deltaflow. This cutting-edge work will involve collaborating with our world-class engineering, product and quantum physics teams to design, build and deliver this stack.
-
-At Riverlane, we are creating something truly unique, complex and large-scale, so being comfortable with engineering to evolving specs is key. As such, you will be happy and excited to get hands-on quickly in areas outside your own expertise. You will also work well with different people and be team-oriented.
-
-Prior quantum computing knowledge is not necessary - you will learn this along the way!
-
-What you will do:
-
-- Design and build embedded software components for our quantum error correction stack, specifically targeting features that aid with seamless deployment of our product to partners
-
-- Integrate our QEC stack into world-class quantum computing systems
-
-- Develop test infrastructure to verify and benchmark whole-system correctness and performance
-
-- Work alongside our Product and Quantum Science teams to understand the requirements and constraints for this cutting-edge system
-
-What we need
-
-- A Bachelor's degree (or equivalent) in Computer Science, Electronic Engineering, Physics, Maths or a related discipline
-
-- Great communication skills and an ability to work with a diverse range of people are essential
-
-- Strong C++ skills
-
-- Proficiency with a scripting language, such as Python
-
-- Curiosity to learn about new technologies, including quantum computing and error correction
-
-- A deep understanding of how hardware implements software
-
-- Experience with standard development practises, such as source control, continuous integration and unit testing
-
-Even better if you have…
-
-- Hands-on experience of working alongside hardware design
-
-- Experience writing embedded software in high-performance applications
-
-What can you expect from us
-
-- A comprehensive benefits package that includes an annual bonus plan, private medical insurance, life insurance, and a contributory pension scheme
-
-- Equity, so that our team can share in the long-term success of Riverlane
-
-- 28 days annual leave, plus bank holidays and enhanced family leave
-
-- A diverse work environment that brings together experts in many fields (including software and hardware development, quantum information theory, physics and maths) and over 20 different nationalities
-
-- A learning environment that encourages individual, team and company growth and development, including a regular programme of learning events and training and conference budgets
-
-How to apply
-
-Please upload a CV and covering letter by clicking 'Apply'. Your covering letter should explain why you are applying for the job and what skills and experience you can bring to the role.
-
-We review CVs as we receive them and interview as soon as we have applications that look like a good match. We do not use closing dates. So, please apply as soon as possible to avoid missing out on this role.
-
-If you have any queries, please contact jobs@riverlane.com.
-
-Everyone is welcome at Riverlane. We are an equal opportunities employer and encourage applications from eligible and suitably qualified candidates regardless of age, disability, ethnicity, gender, gender reassignment, religion or belief, sexual orientation, marital or civil partnership status, or pregnancy and maternity/paternity.
-
-Women and other underrepresented groups may be less likely to apply for a role unless they meet all or nearly all of the requirements. If this applies to you, we still encourage you to apply - you may be a great fit, even if you don’t meet every single qualification. We’d love to hear from you.
-
-If you need any adjustments made to the application or selection process so you can do your best, please let us know. We will be happy to help.
-
-GDPR notice: Riverlane collects and processes personal data in accordance with applicable data protection laws. If you are a European Job Applicant see the privacy notice for further details."
 4875725101,389,Senior Embedded Software Engineer - Systems Team,"Boston, MA, US",Boston,United States,Engineering,2026-06-05,2026-09-28,,https://job-boards.eu.greenhouse.io/riverlane/jobs/4875725101,"Senior Embedded Software Engineer - Systems Team
 Boston, MA, US | Full-time | Permanent | Hybrid
 Salary: $145,000 to $205,000 DOE
@@ -2235,6 +2152,106 @@ If you need any adjustments made to the application or selection process so you 
 GDPR notice: Riverlane collects and processes personal data in accordance with applicable data protection laws. If you are a European Job Applicant see the privacy notice for further details.
 
 #LI-CA1"
+5003778101,390,Senior Embedded Software Engineer - Systems Team,"Cambridge, UK",Cambridge,,Engineering,2026-10-13,2026-10-13,,https://job-boards.eu.greenhouse.io/riverlane/jobs/5003778101,"Cambridge, UK | Full-time or Part-time | Permanent (or Temporary) | Hybrid
+
+Salary: £80,000 - £100,000 DOE
+
+The salary range for this role is broad, as we are able to consider varying levels of experience. Any offer made will carefully take into account level of experience (including relevant industry experience), transferable relevant skills and previous relevant achievements.
+
+About us
+
+Riverlane’s mission is to master quantum error correction (QEC) and unlock a new age of human progress. From advances in material and climate science, to complex chemistry simulation for new drug design, quantum computers will help humanity solve some of its most important challenges. But without QEC, the industry’s defining technical challenge, such breakthroughs can never be achieved. Riverlane is the world leader in QEC technology. QEC is a complex problem that requires a range of skills, talent and passion.
+
+Having raised more than $125M in funding to date to accelerate our cutting-edge R&D in quantum error correction (QEC), Riverlane partners with many of the world’s leading quantum hardware providers and government agencies to make fault-tolerant quantum computing a reality. We’re making remarkable progress and growing fast.
+
+About the role
+
+The Senior Embedded Systems Software Engineer bridges the gap between Riverlane and its customers. They act as the primary technical interface for customer’s engineers and guide them through product integration and help with trouble shooting complex quantum systems.
+
+As an Embedded Software Engineer on the Systems Team, you will configure our Deltaflow Hardware to connect to the Quantum Computer allowing it to provide a low-latency, high throughput system that performs complex operations in a predictable and guaranteed way. You will develop our software stack to work with customers quantum computers. You will ensure our customers can run quantum experiments, implement Riverlane’s quantum errors correction algorithm and debug any issues that arise.
+
+This is a fantastic opportunity to join a team that is developing the world’s most advanced quantum error correcting algorithms and QEC Hardware. The Riverlane team is a mix of mathematicians, physicists and engineers, working together on a range of exciting and cutting-edge QEC projects.
+
+What you will do:
+
+- Technical Pre / Post-Sales:
+-Host Technical Workshops on Riverlane’s QEC Stack and DeltaKit.
+-Evaluate Customers Software and data communication systems.
+
+- Integration On-Site: End-to-End System Deployment.
+-Integrate our Software Stack into Customer’s Quantum Computer Systems.
+-Work with Riverlane’s Quantum Application Team to design experiments to test the compiled software.
+-Benchmark and discover system limitations.
+
+- Troubleshooting and Debugging: Managing Customer Issues
+-Report issues and help replicate the setup with the QA team in Riverlane.
+-Writing scripts to help debug the complete system
+-Update test environment and document the experiments that were conducted.
+
+- Customer Advocacy: Voice of the Customer to River Lane Product Team
+-Highlight the success, issues and trends on customer’s Quantum Systems
+-Feedback key features that will be needed to win current and next generation products
+-Create Dashboard that would allow better understanding of the complete quantum computing system.
+
+What we need:
+
+- A Bachelor's degree (or equivalent) in Computer Science, Electronic Engineering, Physics, Math or a related discipline.
+
+- Great communication skills (written and verbal) and an ability to work with a diverse range of people are essential.
+
+- Strong experience of at least one Embedded Software programming language (C, C++, Python, etc.)
+
+- Proven experience in SoC design, Embedded Systems Design, or Computer Architecture
+
+- Proficiency with a scripting language, such as Python (preferred)
+
+- Working knowledge of Verilog, VHDL or System Verilog preferred
+
+- Curiosity to learn about new technologies, including quantum computing and error correction
+
+- A deep understanding of how hardware implements with software
+
+- Experience with standard development practices, such as source control, continuous integration, unit testing, and standard debug methodologies
+
+- Ability to work well within a team and independently
+
+- Experience mentoring junior embedded Software Engineers (this is not a people manager role)
+
+Even better if you have:
+
+- Experience working on scientific instrumentation
+
+- Good knowledge of Quantum Mechanics
+
+- Technical pre / post sales, professional services or field application engineering experience
+
+What can you expect from us
+
+- A comprehensive benefits package that includes an annual bonus plan, private medical insurance, life insurance, and a contributory pension scheme
+
+- Equity, so that our team can share in the long-term success of Riverlane
+
+- 28 days annual leave, plus bank holidays and enhanced family leave
+
+- A diverse work environment that brings together experts in many fields (including software and hardware development, quantum information theory, physics and maths) and over 20 different nationalities
+
+- A learning environment that encourages individual, team and company growth and development, including a regular programme of learning events and training and conference budgets
+
+How to apply
+
+Please upload a CV and covering letter by clicking 'Apply'. Your covering letter should explain why you are applying for the job and what skills and experience you can bring to the role.
+
+We review CVs as we receive them and interview as soon as we have applications that look like a good match. We do not use closing dates. So, please apply as soon as possible to avoid missing out on this role.
+
+If you have any queries, please contact jobs@riverlane.com.
+
+Everyone is welcome at Riverlane. We are an equal opportunities employer and encourage applications from eligible and suitably qualified candidates regardless of age, disability, ethnicity, gender, gender reassignment, religion or belief, sexual orientation, marital or civil partnership status, or pregnancy and maternity/paternity.
+
+Women and other underrepresented groups may be less likely to apply for a role unless they meet all or nearly all of the requirements. If this applies to you, we still encourage you to apply - you may be a great fit, even if you don’t meet every single qualification. We’d love to hear from you.
+
+If you need any adjustments made to the application or selection process so you can do your best, please let us know. We will be happy to help.
+
+GDPR notice: Riverlane collects and processes personal data in accordance with applicable data protection laws. If you are a European Job Applicant see the privacy notice for further details."
 4885219101,396,Senior FPGA Engineer - Systems Team,"Cambridge, UK",Cambridge,,Engineering,2026-06-05,2026-09-28,,https://job-boards.eu.greenhouse.io/riverlane/jobs/4885219101,"Senior FPGA Engineer – Systems Team
 
 Cambridge, UK | Full-time | Permanent | Hybrid

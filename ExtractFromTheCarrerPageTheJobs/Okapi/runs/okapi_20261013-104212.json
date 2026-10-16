@@ -1,0 +1,131 @@
+{
+  "source": "https://www.okapiorbits.space/en/careers#open-positions",
+  "company": "OKAPI:Orbits",
+  "query": "",
+  "extracted_at": "2026-10-13T10:42:12",
+  "site_total": 11,
+  "extracted": 11,
+  "postings": [
+    {
+      "job_id": "junior-aerospace-engineer-space-safety-ssa-m-w-d-2533959",
+      "title": "(Junior) Aerospace Engineer - Space Safety & SSA (m/w/d)",
+      "url": "https://www.okapiorbits.space/en/careers/junior-aerospace-engineer-space-safety-ssa-m-w-d-2533959",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['FULL_TIME']",
+      "published": "2026-02-17",
+      "deadline": "",
+      "description": "(Junior) Aerospace Engineer - Space Safety & SSA (m/w/d)\nJoin us in building solutions that keep space safe and sustainable . As part of our team, you’ll work on varied projects and products across Space Flight Dynamics (FD) , Space Situational Awareness (SSA) , Space Traffic Management (STM) , and Space Surveillance & Tracking (SST) .\nAbout the role\nJoin us in building solutions that keep space safe and sustainable. As part of our team, you’ll work on varied projects and products across Space Flight Dynamics (FD), Space Situational Awareness (SSA), Space Traffic Management (STM), and Space Surveillance & Tracking (SST).\nKey responsibilities\nIn this role, you will contribute to projects that support Europe’s future space‑safety infrastructure. Your work will include developing and coding key algorithms, integrating data sources, preparing technical documentation, and coordinating project deliverables to meet agency standards.\nYou will work closely with institutional partners, support proposal preparation, and contribute to long‑term programmes that ensure safe and sustainable access to space. If you enjoy complex, multi‑stakeholder projects and creating solutions with real impact on space operations, this role is a great fit.\nWhat you bring\nMust have\nBSc or MSc in Aerospace Engineering, Space Engineering, Applied Physics, Applied Mathematics, Computer Science, or related\nExperience through full-time work, internships, research projects, or thesis work in astrodynamics, SSA/SST, or flight dynamics\nBasic understanding of orbital mechanics and astrodynamics\nAbility to write clean, maintainable code in Python, Java, FORTRAN, or a similar language\nInterest in satellite safety, conjunction assessment, or flight operations\nNice to have\nExperience with SST systems, orbit catalogs, mission analysis, sensor data or tracking systems\nFamiliarity with space operations workflows or maneuver planning\nCuriosity about space policy, standards, and responsible space traffic management\nWhat we offer\nA permanent contract, a real budget to learn, and a team that reviews its own benefits with the people who use them. Flexible core hours, 30 days of holiday, a subsidized pension, Hansefit, a BahnCard, and workation for more than a month a year.\nWho you’ll work with\nHow we work\n01\n\nReality over abstraction\n\nReal catalogues, real physics, real orbital data. Demos run on the same engine that flies for customers.\n02\n\nClarity over decoration\n\nOperational tools earn their place by what they let you decide, not by what they look like at trade shows.\n03\n\nAudit by default\n\nEvery decision is stamped, versioned, and exportable. There is no undocumented path.\n04\n\nNo conflict of interest\n\nWe do not operate satellites. Our only incentive is the accuracy of the assessment.\n05\n\nCalm in the room\n\nOperations work is high-stakes. The platform lowers the stress level, not amplifies it.\nAbout OKAPI:Orbits\nSpace Situational Awareness, built for operations\nOKAPI:Orbits is a Braunschweig-based Space Situational Awareness (SSA) company. We build the operational layer that satellite operators, governments, and institutions rely on to keep spacecraft safe in increasingly congested orbits.\nApply for (Junior) Aerospace Engineer - Space Safety & SSA (m/w/d).\nSend us your CV and anything else you want us to read. No cover letter required. You will always know which step of the process you are on and who you will meet next."
+    },
+    {
+      "job_id": "backend-developer-java-python-microservices-2740321",
+      "title": "Backend Developer (Java & Python, Microservices)",
+      "url": "https://www.okapiorbits.space/en/careers/backend-developer-java-python-microservices-2740321",
+      "location": "Munich",
+      "country": "Germany",
+      "contract": "['FULL_TIME']",
+      "published": "2026-08-04",
+      "deadline": "",
+      "description": "Your mission is to design and maintain a scalable, asynchronous backend that powers OKAPI:Orbits' end-to-end solutions across mission design, Space Situational Awareness (SSA), Space Traffic Management (STM), Flight Dynamics (FD), and Space Traffic Coordination (STC), supporting satellite operators throughout their entire mission lifecycle.\n\nYou'll work primarily on external customer projects with a Python-based tech stack, while also contributing in parallel to our products built on Java Spring Boot. You design and implement robust microservices that process and distribute large volumes of orbital and telemetry data to deliver reliable APIs and automation processes. You already bring solid experience and take independent ownership of parts of the backend architecture across both environments.\n\nYou'll work on the systems that enable satellite operators and space agencies to analyze, coordinate, and protect their missions in an increasingly crowded space environment.\n\nStudies show that women are less likely to apply for a position if they don't meet 100% of the requirements. Please know that we explicitly encourage you to apply if this applies to you, as long as you bring a passion for space technology, reliable software development, and sustainable use of space.\nOKAPI:Orbits already brings together a highly diverse team and is actively committed to growing that diversity further, since studies show that heterogeneous teams achieve better results and drive innovation."
+    },
+    {
+      "job_id": "it-admin-system-administrator-m-f-d-778550",
+      "title": "IT Admin / System Administrator (m/f/d)",
+      "url": "https://www.okapiorbits.space/en/careers/it-admin-system-administrator-m-f-d-778550",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['FULL_TIME']",
+      "published": "2022-08-08",
+      "deadline": "",
+      "description": "Our infrastructure is the backbone of everything we do at OKAPI:Orbits. As IT Administrator, you are the go-to technical expert for all IT matters in the company. No senior above you, no escalation path upward. You make independent decisions about how our infrastructure runs today and what it should look like tomorrow.\n\nYou take full ownership of our IT landscape: from on-premise servers and Docker infrastructure to laptops across all operating systems, Microsoft 365, network security, and long-term hardware and server planning. You'll be supported by a trainee (Auszubildender) who you mentor and develop as part of the role."
+    },
+    {
+      "job_id": "sales-development-representative-for-space-applications-m-w-d-2748089",
+      "title": "Sales Development Representative for Space Applications (m/w/d)",
+      "url": "https://www.okapiorbits.space/en/careers/sales-development-representative-for-space-applications-m-w-d-2748089",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['FULL_TIME']",
+      "published": "2026-08-10",
+      "deadline": "",
+      "description": "As Sales Development Representative at OKAPI:Orbits, your mission is to fuel the growth of space-traffic-coordination and space-safety adoption worldwide. You turn OKAPI:Orbits' vision of a safer, more sustainable space environment into commercial momentum by identifying promising prospects, opening new conversations, and building the foundation of trusted relationships across the global space industry.\n\nThrough sharp market research, persistent outreach, and a genuine curiosity for the space sector, you connect with satellite operators, launch providers, insurers, defence and governmental organizations to spark their interest in navigating space more safely and efficiently. Your work ensures that OKAPI:Orbits' cutting-edge technologies reach the right people at the right time, generating the qualified pipeline that powers our growth in the expanding space economy."
+    },
+    {
+      "job_id": "sales-manager-for-space-applications-m-w-d-2570783",
+      "title": "Sales Manager for Space Applications (m/w/d)",
+      "url": "https://www.okapiorbits.space/en/careers/sales-manager-for-space-applications-m-w-d-2570783",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['FULL_TIME']",
+      "published": "2026-03-19",
+      "deadline": "",
+      "description": "As Sales Manager at OKAPI:Orbits, your mission is to accelerate the adoption of space‑traffic‑management and space‑safety solutions worldwide. You turn OKAPI:Orbits’ vision of a safer, more sustainable space environment into commercial reality by building trusted partnerships, expanding our global customer base, and championing the value of responsible operations in orbit.\nThrough strategic leadership, deep market insight, and a passion for innovation, you empower satellite operators, launch providers, insurers, defence and governmental organizations to navigate space more safely and efficiently. Your work ensures that OKAPI:Orbits’ cutting‑edge technologies become an essential foundation for the growing space economy, protecting assets, reducing collision risks, and enabling humanity’s continued access to space."
+    },
+    {
+      "job_id": "senior-satellite-systems-engineer-2778084",
+      "title": "Senior Satellite Systems Engineer",
+      "url": "https://www.okapiorbits.space/en/careers/senior-satellite-systems-engineer-2778084",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['FULL_TIME']",
+      "published": "2026-09-02",
+      "deadline": "",
+      "description": "Join us in safeguarding the sustainability of space operations through advanced space situational awareness (SSA) technologies. As part of our team, you will develop cutting-edge collision avoidance algorithms, enhance space situational awareness, and innovate tools for satellite operators. Your expertise in data science and physics will help us detect, predict, and mitigate orbital risks, ensuring safe and sustainable space exploration."
+    },
+    {
+      "job_id": "space-situational-awareness-engineer-1929498",
+      "title": "Space Situational Awareness Engineer",
+      "url": "https://www.okapiorbits.space/en/careers/space-situational-awareness-engineer-1929498",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['FULL_TIME']",
+      "published": "2025-01-22",
+      "deadline": "",
+      "description": "Join us in safeguarding the sustainability of space operations through advanced space situational awareness (SSA) technologies. As part of our team, you will develop cutting-edge collision avoidance algorithms, enhance space situational awareness, and innovate tools for satellite operators. Your expertise in data science and physics will help us detect, predict, and mitigate orbital risks, ensuring safe and sustainable space exploration."
+    },
+    {
+      "job_id": "space-situational-awareness-internship-master-thesis-m-w-d-2171043",
+      "title": "Space Situational Awareness Internship / Master Thesis (m/w/d)",
+      "url": "https://www.okapiorbits.space/en/careers/space-situational-awareness-internship-master-thesis-m-w-d-2171043",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['FULL_TIME', 'INTERN']",
+      "published": "2025-06-18",
+      "deadline": "",
+      "description": "Join us in shaping the future of safe and sustainable space operations. At OKAPI Orbits, we develop innovative technologies and data-driven solutions to protect the space environment and empower decision-makers across the space industry. Whether you're building intelligent software, analyzing orbital dynamics, or designing user-friendly tools, your work will contribute to minimizing risks, enhancing operational safety, and enabling responsible space exploration for generations to come.\n\nPlease note that the internship needs to be part of your university curriculum."
+    },
+    {
+      "job_id": "team-lead-java-development-m-f-d-2573721",
+      "title": "Team Lead Java Development (m/f/d)",
+      "url": "https://www.okapiorbits.space/en/careers/team-lead-java-development-m-f-d-2573721",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['FULL_TIME']",
+      "published": "2026-03-23",
+      "deadline": "",
+      "description": "Your mission is to lead our Java Development team within the Software Engineering department, both technically and as a disciplinary manager, and to build scalable, reliable, and maintainable software together with your team as part of OKAPI:Orbits' end-to-end solutions. You will support a team of currently five Java developers in designing, implementing, and sustainably operating modern services and event-driven systems.\n\nIn this role, you combine genuine technical contribution with strong people leadership. You write and review code alongside your team, create clarity in priorities, actively invest in the growth of your team members, and ensure that technical decisions align with company goals and customer needs. In doing so, you directly contribute to enabling satellite operators and space agencies to efficiently plan, monitor, and control their missions in an increasingly dynamic orbital environment.\n\nStudies show that women are less likely to apply for a role if they do not meet 100 percent of the requirements. Please know that we still strongly encourage you to apply if you bring leadership potential, enthusiasm for software development, and a genuine interest in space technology. OKAPI:Orbits already brings together a highly diverse team and is actively committed to expanding this diversity further, as diverse teams consistently achieve better results and foster innovation."
+    },
+    {
+      "job_id": "working-student-full-stack-development-angular-java-m-f-d-2559436",
+      "title": "Working Student Full-Stack Development (Angular/Java) (m/f/d)",
+      "url": "https://www.okapiorbits.space/en/careers/working-student-full-stack-development-angular-java-m-f-d-2559436",
+      "location": "Munich",
+      "country": "Germany",
+      "contract": "['PART_TIME', 'INTERN']",
+      "published": "2026-03-10",
+      "deadline": "",
+      "description": "Your mission is to support the team in developing and maintaining intuitive and high performance web applications and APIs. You will contribute to enabling seamless access to OKAPI:Orbits end to end solutions across Mission Design, Space Situational Awareness (SSA), Space Traffic Management (STM), Flight Dynamics (FD) and Space Traffic Coordination (STC), while gaining insights into the full lifecycle of satellite operations.\n\nStudies show that women are less likely to apply if they do not meet every requirement. We strongly encourage you to apply even if you do not tick every box, as long as you are passionate about space technology and software development.\n\nOKAPI:Orbits actively fosters a diverse team, as different perspectives drive innovation and better outcomes."
+    },
+    {
+      "job_id": "working-student-recruiting-m-f-d-2767012",
+      "title": "Working Student Recruiting (m/f/d)",
+      "url": "https://www.okapiorbits.space/en/careers/working-student-recruiting-m-f-d-2767012",
+      "location": "Brunswick",
+      "country": "Germany",
+      "contract": "['PART_TIME']",
+      "published": "2026-08-25",
+      "deadline": "",
+      "description": "As a Working Student in talent acquisition at OKAPI:Orbits, you play an active role in finding the right talent for our team, which builds SaaS solutions covering the entire satellite lifecycle. You support our Operations team in day-to-day operations, help keep the application process running smoothly, and make sure new colleagues get the best possible start with us. This includes maintaining an overview of all open positions, ensuring a smooth handover of candidates between stages and coordinating interview slots with different departments."
+    }
+  ]
+}

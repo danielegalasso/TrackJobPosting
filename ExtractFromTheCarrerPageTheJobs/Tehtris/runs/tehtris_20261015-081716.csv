@@ -1,0 +1,145 @@
+job_id,title,location,contract,remote_type,published,url,description
+601804,Développeur Backend Python - F/M/X,Bordeaux,CDI,,2026-10-14,https://taleez.com/apply/developpeur-backend-python-f-m-x-bordeaux-tehtris-cdi,"À propos de TEHTRIS
+TEHTRIS est un éditeur européen de cybersécurité spécialisé dans la détection et la réponse aux menaces (EDR). TEHTRIS protège les organisations contre les cybermenaces les plus avancées grâce à une technologie souveraine, développée et hébergée en Europe.
+Le poste
+Contexte
+TEHTRIS, éditeur de logiciels de cybersécurité (EDR) recrute un·e Développeur Backend Python pour garantir la fiabilité de sa solution en production. Le poste est rattaché à l’Engineering Manager.
+Missions
+Garantir la stabilité de la production : support technique, prise en charge des incidents et résolution des tickets de bug y compris les demandes clients remontées par les équipes Support et TAM, avec réactivité et rigueur;
+Analyser les causes profondes des incidents pour apporter des correctifs durables et éviter qu'ils ne se reproduisent;
+Collaborer étroitement avec les équipes Produit, CTI, Detection Engineering et QA, comprendre les besoins clients et y apporter des réponses techniques pertinentes;
+Maintenir le socle technique à jour : mises à jour de dépendances et correctifs de sécurité;
+Documenter les incidents, les procédures de résolution et le fonctionnement de l'application pour capitaliser les connaissances et faciliter le support au quotidien;
+Faire évoluer ponctuellement la solution (APIs, politiques de sécurité, règles de détection).
+Profil recherché
+Must have
+Maîtrise de Python, notamment de la programmation asynchrone (asyncio) et des frameworks FastAPI et Pydantic;
+Aisance avec PostgreSQL et l’écriture de requêtes SQL (sans ORM);
+Bonne connaissance des protocoles HTTP et WebSocket;
+Usage quotidien de Git et maîtrise de ses bonnes pratiques;
+Tests automatisés avec pytest.
+Nice to have
+Conteneurisation avec Docker ou Podman;
+Connaissances en sécurité défensive : règles YARA, framework MITRE ATT&CK;
+Connaissances en cryptographie et en gestion des secrets;
+Aisance sur les environnements Windows (services, pywin32), Linux et macOS;
+Mise en place ou utilisation de pipelines GitLab CI/CD;
+Expérience de développement sous Windows (Windows API);
+Expérience chez un éditeur de cybersécurité (EDR, XDR, SIEM);
+A compétences égales, toutes les offres proposées par TEHTRIS sont ouvertes aux personnes en situation de handicap."
+590451,Head of People - F/M/X,Bordeaux,CDI,,2026-09-10,https://taleez.com/apply/head-of-people-f-m-x-bordeaux-tehtris-cdi,"À propos de TEHTRIS
+TEHTRIS est un éditeur français de cybersécurité, spécialisé dans la détection et la réponse aux menaces (EDR), et reconnu comme un acteur de référence de la souveraineté numérique européenne.
+Adossée depuis peu au fonds d'investissement Jolt Capital, l'entreprise amorce une nouvelle phase de croissance et de transformation, portée par une équipe resserrée, engagée et déterminée à construire la prochaine génération de sa plateforme et de son organisation.
+Le poste
+CONTEXTE
+Le/la Head of People élabore, met en œuvre et pilote la stratégie RH de TEHTRIS pour accompagner la transformation et le développement de l'entreprise. Membre du COMEX, il/elle construit une organisation capable de soutenir la croissance et les transformations, tout en consolidant une culture forte, cohérente et performante.
+MISSIONS
+Stratégie RH & Organisation
+Définir et déployer la stratégie RH en cohérence avec les priorités business et les objectifs de transformation et de croissance.
+Anticiper les besoins en effectifs et piloter les projets d'organisation.
+Accompagner le COMEX dans les décisions structurantes sur l'organisation et les successions clés.
+Assurer la scalabilité et l'agilité du modèle RH, adapté à une organisation hybride (moitié on-site, moitié full-remote).
+Culture, engagement & expérience collaborateur
+Promouvoir une culture collaborative et orientée performance.
+Piloter et développer les initiatives d'engagement people, de bien-être au travail et d'écoute (ex : plan d'actions engagement, eNPS, baromètres internes) en appui du projet Culture porté au niveau COMEX.
+Mettre en œuvre des programmes de développement du leadership et accompagner les managers dans la conduite du changement.
+Superviser le suivi de la vie du site principal (Bordeaux).
+Acquisition & développement des talents
+Définir la stratégie de recrutement et la marque employeur, et superviser le processus de recrutement (fiches de poste, sourcing, entretiens, suivi, négociation).
+Garantir une expérience candidat fluide et une intégration réussie.
+Piloter les entretiens de performance en relation avec les managers, les plans de développement et la gestion des carrières.
+Faire vivre et retravailler régulièrement le processus d'évaluation de la performance (évaluation des skills annuelle, 9 box, etc.), en proximité avec les managers et leurs attentes.
+Identifier les talents à haut potentiel et mettre en œuvre des plans de succession pour les rôles critiques.
+Structurer le parcours collaborateur de l'onboarding à l'offboarding.
+Relations sociales & conformité légale
+Superviser la paie et l'administration du personnel (contrats de travail, dossiers personnels), avec l'appui de la gestionnaire admin et HR Manager.
+Piloter et suivre les obligations et les relations avec les instances représentatives du personnel (CSE).
+Garantir la conformité légale et conventionnelle, ainsi que la conformité RGPD pour la partie RH.
+Mettre en place et maintenir les politiques RH et standards internes.
+Data, reporting & performance RH
+Définir et suivre les indicateurs RH clés.
+Produire les tableaux de bord et le reporting à destination du COMEX et du Conseil d'administration.
+Piloter le déploiement et la performance des outils digitaux RH (ex. SI RH Lucca, ATS).
+Profil recherché
+10 à 15 ans d'expérience en tant que HRBP et/ou Head of People, idéalement dans la tech.
+Hands-on, agile et pragmatique : capacité à opérer aussi bien en stratégique qu'en opérationnel.
+Business partner avant tout : proximité terrain avec le COMEX et les managers, orientation résultats.
+Expérience de contextes de transformation et de construction culturelle.
+Pragmatique et opérationnel : à l'aise dans une petite équipe RH (HR Manager + apprentie).
+Stabilité et calme, avec une vraie capacité à incarner un cap clair dans un contexte de transformation.
+Anglais courant indispensable (bilingue non requis) pour les échanges avec les filiales internationales.
+Basé(e) à Bordeaux ou prêt(e) à s'y installer.
+💬 Le process de recrutement:
+- Premier call de préqualification avec notre HR Manager
+- 1er entretien avec notre Head Of People actuelle
+- 2ème entretien avec notre CEO
+- Entretiens Catch-up avec les membres du COMEX"
+572598,Program Manager - Cybersecurity Software,Bordeaux,CDI,Remote,2026-09-07,https://taleez.com/apply/program-manager-cybersecurity-software-bordeaux-tehtris-cdi,"À propos de TEHTRIS
+TEHTRIS est un éditeur européen de cybersécurité spécialisé dans la détection et la réponse aux menaces (EDR). TEHTRIS protège les organisations contre les cybermenaces les plus avancées grâce à une technologie souveraine, développée et hébergée en Europe.
+Le poste
+Contexte
+TEHTRIS, éditeur de logiciels de cybersécurité (EDR) crée un poste de Program Manager pour structurer l'exécution de sa roadmap et garantir la coordination entre les équipes R&D et Produit. Le poste est rattaché au VP Engineering.
+Missions
+Animer la core team new generation product : organisation des rituels, suivi des décisions, maintien de la cadence d'exécution
+Assurer le suivi des jalons et de l'avancement de la roadmap, en lien étroit avec le VP Engineering et la Head of Product
+Coordonner les ressources entre R&D et Produit pour garantir l'alignement entre les priorités produit et la capacité de livraison
+Suivre les livrables et les indicateurs de santé du programme (avancement, risques, dette, dépendances)
+Anticiper les glissements de planning, identifier les signaux faibles et alerter proactivement les parties prenantes
+Préparer et animer les instances de reporting (revues de roadmap, comités de pilotage)
+Documenter les décisions et assurer la traçabilité des engagements
+Profil recherché
+10+ ans d'expérience en gestion de programme ou de projet dans un environnement éditeur logiciel ou tech B2B
+À l'aise dans les environnements complexes et mouvants, avec plusieurs équipes et dépendances à coordonner
+Solide en communication et en facilitation : capable de tenir une salle et de faire avancer des décisions sans autorité hiérarchique
+Une expérience en cybersécurité est un plus, mais n'est pas indispensable
+Rigueur, sens des priorités et des délais, proactivité
+Poste ouvert en CDI ou Freelance (Bordeaux ou France entière - avec quelques déplacements à Bordeaux à prévoir)
+Le process de recrutement
+Premier échange RH (≈ 30 min)
+Rencontre avec le VP Engineering et la Head of People (≈ 1h)
+Echange avec le CEO (≈ 30 min à 45 min)
+Prise des références professionnelles
+A compétences égales, toutes les offres proposées par TEHTRIS sont ouvertes aux personnes en situation de handicap."
+569235,Technical Account Manager (m/w/d) – mit Entwicklungspfad zum Presales Engineer,Francfort-sur-le-Main,CDI,Remote,2026-06-30,https://taleez.com/apply/cybersecurity-presales-engineer-dach-frankfurt-tehtris-cdi,"About TEHTRIS
+TEHTRIS ist ein europäischer Hersteller von Cybersecurity-Lösungen mit Fokus auf EDR, MDR und SIEM. Wir schützen Unternehmen und öffentliche Einrichtungen vor Cyberangriffen – mit Technologie, die in Europa entwickelt wird und hohe Anforderungen an digitale Souveränität erfüllt. In der DACH-Region bauen wir unser Team und unser Partnernetzwerk weiter aus.
+Job description
+Du wirst die technische Hauptansprechperson unserer Kunden in Deutschland: Du verstehst ihre Herausforderungen, übersetzt ihre Anforderungen in konkrete Empfehlungen und begleitest sie langfristig.
+Die Position ist bewusst als Entwicklungsrolle angelegt. Du startest in der Kundenbetreuung und wächst zügig in den Presales hinein. Dabei bist du nicht allein: Zwei in Deutschland ansässige Kollegen aus dem Vertrieb und dem Partnervertrieb arbeiten dich ein, unser Presales-Team vermittelt dir das technische Handwerkszeug für Demos und POCs. Du berichtest an den Head of Customer Services, der die TAM-Community unternehmensweit koordiniert.
+Dein Entwicklungspfad
+Monate 1–2: Einarbeitung ins Produkt und Übernahme deines eigenen Kundenstamms
+Ab Monat 3: Presales im Tandem mit dem Vertrieb – Demos, Workshops, Beiträge zu Ausschreibungen
+Mittelfristig: eigenständige Verantwortung für Presales-Themen, von der Erstdemo bis zum POC
+Deine Aufgaben – Kundenbetreuung
+Du bist vertrauensvolle technische Ansprechperson deiner Kunden und verstehst, wie sich ihre Prioritäten entwickeln
+Du vertrittst die Kundenperspektive gegenüber Produktmanagement und Produktentwicklung und gibst Feedback strukturiert weiter
+Du präsentierst Produkt- und Roadmap-Updates
+Du begleitest Onboarding- und Professional-Services-Phasen
+Bei Bedarf unterstützt du den Support als technische Eskalationsstufe (L2)
+Du vertrittst TEHTRIS bei Partnerschulungen und Branchenevents
+Deine Aufgaben – Presales
+Gemeinsam mit dem Vertrieb analysierst du Kundenanforderungen und entwickelst passende Lösungsvorschläge
+Du führst Produktdemos für Interessenten und Partner durch – remote und vor Ort
+Du leitest technische Workshops und Proof of Concepts
+Du verantwortest die technischen Antworten auf Ausschreibungen (RFI/RFP)
+Du hältst Webinare und technische Präsentationen
+Du behältst den Wettbewerb im Blick und bringst dein Wissen in interne und externe Schulungen ein
+Profile
+Das bringst du mit:
+
+- Rund 3 Jahre Erfahrung in einer kundennahen Cybersecurity-Rolle, z. B. im technischen Support, Presales oder Consulting
+Solides Verständnis von Endpoint Security, EDR/XDR oder SIEM sowie von Windows- und Linux-Umgebungen und Netzwerkgrundlagen
+Sicheres Auftreten gegenüber technischen und geschäftlichen Ansprechpartnern, souverän im Erwartungsmanagement
+Lust, Produkte in der Tiefe zu verstehen und zu präsentieren – und echte Motivation für den Weg in Richtung Presales
+Eine organisierte, eigenständige Arbeitsweise, auch bei mehreren parallelen Themen
+Verhandlungssicheres Deutsch und Englisch
+Ein Plus:
+Erfahrung mit SOC-Prozessen, MITRE ATT&CK oder Threat Hunting
+Erfahrung im Bereich der Regulatorischen Anforderungen (ISO27001, KRITIS, IT-Grundschutz, etc.)
+Französischkenntnisse
+Was wir dir bieten
+100 % Remote-Arbeit innerhalb Deutschlands
+Ein attraktives Vergütungspaket
+Moderne Ausstattung für dein Homeoffice
+Eine strukturierte, kompakte Einarbeitung mit persönlichem Mentoring und klarem Entwicklungspfad
+Regelmäßige Produkttrainings und Weiterbildung
+Einen europäischen Cybersecurity-Hersteller mit kurzen Entscheidungswegen und internationalem Team"

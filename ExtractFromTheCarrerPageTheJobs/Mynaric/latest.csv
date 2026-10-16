@@ -92,55 +92,36 @@ We are looking for a strong collaborator with a solid technical foundation. We d
 What we offer you
 
 Have you always wanted to wear your favorite space outfit to work? Then you are exactly the right fit for us! Forget the office politics and come and work with inspiring colleagues from all over the world as you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity. We offer you permanent employment, varied areas of responsibility, and attractive employee benefits. Mynaric is absolutely committed to being an equal opportunity employer so we welcome applications from all qualified individuals regardless of ethnicity, sex, gender, disability, religion/belief, sexual orientation or age. So if this sounds like the kind of place where you would like to work then apply today and be part of the company that is changing the world!"
-2816812,Hardware Design Engineer – Radiation Testing (m/f/d),München,Vollzeit · Festanstellung,https://mynaric.jobs.personio.de/job/2816812,"Your way into the future
+2842929,Hardware Development Engineer (m/f/d),München,Full-time · Permanent employee,https://mynaric.jobs.personio.de/job/2842929,"Your way into the future
 
-Do you have a passion for electronics? Do you want to bring your multi-year experience to a dynamic company? Then you are exactly right for us! For our headquarters in Munich we are looking for you to start as soon as possible as a Hardware Design Engineer – Radiation Testing (m/f/d) full time.
+Join us as Hardware Development Engineer (m/f/d) and work with us on changing the future!
 
 What awaits you at Mynaric
 
-Role Overview:
-
-As a Hardware Design Engineer in the Radiation Team, you will assist with setting up and running tests on electronic components used in our optical communications terminal, helping us make sure everything works well even in the extreme conditions of space. You'll have the chance to advance your understanding of space technology, test hardware, and get hands-on experience with automation and programming. You’ll also make sure everything is built to meet industry standards.
-
-Key Responsibilities:
-
-Radiation Testing of Electronics: Work alongside radiation experts, senior electronic engineers, software developers and other team members to get familiar with the full detail of our cutting edge electronic designs for satellites. Use your knowledge to:
-
-- Prepare for radiation test campaigns. Develop test strategies, methodology, setups and scripts to test components and subsystems under realistic operational conditions while they are exposed to radiation.
-- Use test results to strongly influence improvement of our current designs to increase their resilience in radiation effects and meet our customer’s expectations. Use your knowledge and imagination to achieve such improvements in a cost effective way that aligns with Mynaric’s business plan.
-
-Test Board Design: Design radiation test boards across a wide range of cutting edge electronics for radiation testing. Additionally, design support electronics that will assist in providing stimulus and in collecting measurements.
-
-Automation Software:
-
-- Python or LabView to automate bench instruments via SCPI (Standard Commands for Programmable Instruments) to control hardware and gather data.
-- C programming for control of microcontroller development boards for test inputs and data collection.
-
-Data Collection & Analysis: Further develop current methodologies for clear test data collection aiding easy analysis of the results.
-
-Standards Compliance: Ensure all work follows IPC (Institute for Printed Circuits) standards and ECSS (European Cooperation for Space Standardization) guidelines.
-
-Logistics: In collaboration with our current team manage the test campaign logistics, including final verification of setups, booking radiation facilities, travel and shipping of equipment.
-
-Learning & Growth: Take part in training and development to build your skills and knowledge in radiation hardness and assurance.
-
-Travel: Prepared to travel several times a year to facilities throughout Europe and the US.
+- Design of analog, digital, mixed-signal, RF and power electronic circuits for our products.
+- Development of system architectures and hardware specifications.
+- Creation of schematics, BOMs and manufacturing documentation, including selection and qualification of electronic components.
+- Circuit simulation and signal integrity analysis. Support of PCB layout reviews, including high-speed design considerations.
+- Development of test plans and execution of hardware verification and validation testing.
+- Bring-up and qualification testing of prototype hardware, bench work to debug prototype and production hardware using laboratory instruments (oscilloscopes, spectrum analyzers, logic analyzers, network analyzers).
+- Support of Non-Conformance Dispositions and root cause analysis in production. Investigation and resolution of nonconformances and field failures.
+- Close collaboration with firmware, software, mechanical, supply chain, manufacturing and quality teams.
+- Support of design reviews, risk assessments and technical documentation.
+- Ensuring compliance with regulatory and customer requirements.
 
 What you bring with you
 
-- BS or MS degree in Electrical Engineering, Electronics or similar.
-- Minimum 3 years of experience in electronic hardware design. Brilliant candidates with less or no experience will be considered.
-- Strong curiosity and willingness to expand in new fields of knowledge.
-- Proficiency with schematic capture, PCB layout, circuit simulation. Experience in ECAD tools (preferable Altium Designer).
-- Familiarity with bench instruments (oscilloscopes, various analyzers and power supplies) is a must.
-- Knowledge of SCPI scripting language used in automation of tests: Python, LabView or equivalent.
-- Basic statistics knowledge and ability to analyze captured data and derive conclusions.
-- Driving personality that enjoys taking responsibility, exceeding expectations, working outside of one’s own comfort zone and brings a “can do” attitude.
-- Ability to interface across disciplines to resolve technical, schedule and organizational matters.
-- Pragmatic approach in tackling issues, ability to effectively create your own momentum and make things happen.
-- Willingness to travel within Europe at least once a month, and in the US two or three times a year.
-- Optional: Basic knowledge of C++ and FPGA programming workflow.
-- Language Skills: Fluency in English, both written and spoken. German is a bonus,but not required.
+- Bachelor’s or Master’s degree in Electrical Engineering, Electronics Engineering or similar.
+- Experience in designing electronic hardware products.
+- Proficiency with schematic capture and PCB design tools (preferably Altium or KiCad).
+- Strong understanding of analog and digital circuit design, power supplies (especially isolated and non-isolated DC/DC converters), signal integrity and EMC/EMI principles.
+- Knowledge of microprocessors, FPGAs and communication interfaces.
+- Experience with laboratory equipment such as oscilloscopes, spectrum analyzers, logic analyzers and network analyzers.
+- Strong troubleshooting and root cause analysis skills.
+- A structured, collaborative way of working with colleagues from different disciplines.
+- Fluent written and spoken English communication skills, German is a plus.
+- A plus for us would be experience with high-speed interfaces such as Ethernet, PCIe, DDR or LVDS.
+- A plus for us would be experience in aerospace, defense, automotive, medical or telecommunications, including standards such as ECSS, MIL-STD-461G or IPC.
 
 What we offer you
 
@@ -259,6 +240,109 @@ We offer you permanent employment, varied areas of responsibility, and attractiv
 Mynaric is absolutely committed to being an equal opportunity employer so we welcome applications from all qualified individuals regardless of ethnicity, sex, gender, disability, religion/belief, sexual orientation or age.
 
 So if this sounds like the kind of place where you would like to work then apply today and be part of the company that is changing the world!"
+2841005,PCBA /Soldering Technician (m/f/x),München,Full-time · Permanent employee,https://mynaric.jobs.personio.de/job/2841005,"Your way into the future
+
+Join us as PCBA /Soldering Technician (m/f/x) and work with us on changing the future!
+
+What awaits you at Mynaric
+
+- Support in the introduction of new products to the SMT line, by executing engineering provided work instructions
+- Assist with developing initial process programs including reflow, pick and place and inspection processes
+- Program, load, and operate automated equipment
+- Triage non-conforming product and process issues and work with engineering to drive resolution and preventative actions
+- Resolve production issues while ensuring design integrity, product quality, and delivery timelines
+- Enable the successful transition of a product’s development from engineering to production
+- Identify continuous improvement opportunities for your area and products
+- Support assigned maintenance activities on machines and traceability
+
+What you bring with you
+
+- 2-3 Years experience in a production with high standards (Aero/space or automotive)
+- Experience with machines including SMT Line, Mechanical, Test Equipment, etc.
+- Ability to deliver high quality hardware in a fast paced NPI environment
+- Ability to adapt and process change quickly
+- Computer skills (email, Microsoft Windows)
+- Good English Skills (written and verbal)
+
+Nice to Haves:
+
+- Experience programming, loading and operating the following automated equipment: paste printer, solder paste inspection (SPI), pick and place, reflow oven, automated optical inspection (AOI)
+- Experience producing J-STD-001, IPC-A-610 or equivalent hardware
+- electronic background would be a nice to have (otherwise dental technician or machine operators)
+- Basic knowledge and understanding about ESD
+- Experience with hand soldering a fine pitch (best case IPC 610 Certified)
+
+Additional Requirements:
+
+- Extended hours and weekend work may be required to support critical project and mission milestones
+- Standing for long periods of time, climbing up and down ladders, bending, grasping, sitting, pulling, pushing, stooping, and stretching may be required to perform the functions of this position
+- Able to lift up to 25lbs
+
+What we offer you
+
+Become part of the company that is changing the world!Have you always wanted to come to work in your favorite space outfit? Then you’ve come to the right place! Forget office politics and work with inspiring colleagues from all over the world, while embarking on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity.We offer flexible working hours, time off in lieu, a wide range of diverse tasks, as well as additional benefits such as a mobility budget (public transport ticket, business bike, fuel voucher), non-cash benefits in the form of shopping vouchers, and company events.Mynaric is an equal opportunity employer. We welcome applications from all qualified individuals, regardless of ethnic origin, gender, disability, religion/belief, sexual orientation, or age.If this sounds like the kind of place where you would like to work, then apply today and become part of a company that is changing the world!"
+2840179,Principal Electronics Engineer (m/f/d),München,Full-time · Permanent employee,https://mynaric.jobs.personio.de/job/2840179,"Your way into the future
+
+Join us as Principal Electronics Engineer (m/f/d) and work with us on changing the future!
+
+What awaits you at Mynaric
+
+- Own the electronics architecture of next-generation multi-waveform optical communication terminals, from requirements to verified design.
+- Define electrical interfaces, power architecture, grounding and shielding concepts, and partitioning between controller, modem and optical head electronics.
+- Set the high-speed design strategy for multi-gigabit links, high-pin-count FPGAs and advanced packages, including SI/PI analysis and design rules.
+- Own EMI/EMC from design for compliance through test planning, pre-compliance testing and issue resolution.
+- Lead electronics content in design reviews (SRR, PDR, CDR) and represent electronics toward customers and technology partners.
+- Work with mechanical, thermal, optical, embedded software and production teams on trades for performance, reliability, radiation tolerance and manufacturability.
+- Guide and mentor electronics engineers and set standards for design quality, verification and documentation.
+
+What you bring with you
+
+- Required experience: Minimum 10 years of hands-on professional experience in the field, including technical leadership.
+- M.Sc. or PhD in Electrical Engineering or a comparable field.
+- Minimum 10 years of hands-on professional experience in electronics development, including at least 3 years as architect or technical lead for complex systems, ideally in space, aerospace or defense.
+- Hands-on design experience in high-speed digital design and SI/PI simulation tools; not only a reviewing or management role.
+- Hands-on EMI/EMC experience, from design through testing, including standards such as MIL-STD-461 or ECSS-E-ST-20-07.
+- Knowledge of space electronics: component selection, derating and radiation effects.
+- Hands-on use of Altium Designer and advanced laboratory instruments for bring-up and debugging.
+
+What we offer you
+
+Have you always wanted to wear your favorite space outfit to work? Then you are exactly the right fit for us! Forget the office politics and come and work with inspiring colleagues from all over the world as you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity.
+
+We offer you permanent employment, varied areas of responsibility, and attractive employee benefits. Mynaric is absolutely committed to being an equal opportunity employer so we welcome applications from all qualified individuals regardless of ethnicity, sex, gender, disability, religion/belief, sexual orientation or age.
+
+So if this sounds like the kind of place where you would like to work then apply today and be part of the company that is changing the world!"
+2839205,Principal Embedded Software Engineer (m/f/d),München,Vollzeit · Festanstellung,https://mynaric.jobs.personio.de/job/2839205,"Your way into the future
+
+Join us as Principal Embedded Software Engineer (m/f/d) and work with us on changing the future!
+
+What awaits you at Mynaric
+
+- Own the embedded software architecture of laser communication terminal controllers and lead its evolution toward multi-waveform operation.
+- Define and maintain interface control documents (ICDs) between terminal software and external modem hardware, and drive alignment with technology partners.
+- Design and implement new Pointing, Acquisition and Tracking (PAT) modes and operational state machines together with control systems engineers.
+- Set the technical direction, coding standards, review process and verification strategy for embedded software.
+- Lead hands-on bring-up and integration on target hardware with electronics, FPGA and control teams.
+- Represent embedded software in design reviews and in technical meetings with customers and partners.
+- Mentor engineers and build a strong embedded software capability in the team.
+
+What you bring with you
+
+Required experience: Minimum 10 years of hands-on professional experience in the field, including technical leadership.
+
+- University degree in Computer Science, Electrical Engineering, Control Engineering or a related field.
+- Minimum 10 years of hands-on professional experience in real-time embedded C/C++, including at least 3 years with architecture responsibility for complex multiprocessor systems.
+- Actively writes code and works on target hardware; not only a reviewing or management role.
+- In-depth knowledge of real-time systems (RTOS, interrupts, DMA, caches, timers) and communication protocols (UART, SPI, CAN, Ethernet).
+- Practical experience writing and negotiating ICDs and integrating software with third-party hardware and FPGAs.
+- Experience with control loops, pointing/tracking or sensor-actuator systems; laser communication or PAT experience is a strong plus.
+- Familiarity with software standards for space or safety-critical systems (e.g., ECSS-E-ST-40C, DO-178C) is a plus.
+- Hands-on lab skills with logic analyzers, oscilloscopes and protocol analyzers.
+- Ability to lead, mentor and communicate complex topics clearly in multidisciplinary teams.
+
+What we offer you
+
+Have you always wanted to wear your favorite space outfit to work? Then you are exactly the right fit for us! Forget the office politics and come and work with inspiring colleagues from all over the world as you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity. We offer you permanent employment, varied areas of responsibility, and attractive employee benefits. Mynaric is absolutely committed to being an equal opportunity employer so we welcome applications from all qualified individuals regardless of ethnicity, sex, gender, disability, religion/belief, sexual orientation or age. So if this sounds like the kind of place where you would like to work then apply today and be part of the company that is changing the world!"
 2569738,Production Controller (m/w/d),München,Vollzeit · Festanstellung,https://mynaric.jobs.personio.de/job/2569738,"Your way into the future
 
 Als Production Controller (m/f/d) agierst du als Finance Business Partner für Operations und Supply Chain. Mit deinem Verständnis für Produktkosten, COGS, BOM und Profitabilität identifizierst du Optimierungspotenziale und gestaltest die Kostentransparenz für unsere High-Tech-Produkte aktiv mit
@@ -289,6 +373,100 @@ Wolltest du schon immer einmal in einem Lieblings-Weltraum-Outfit zur Arbeit kom
 
 Wir bieten dir flexible Arbeitszeiten sowie Freizeitausgleich, abwechslungsreiche Aufgabenbereiche und attraktives Gehaltspaket sowie zusätzliche Leistungen wie z.B.: ein Mobilitätsbudget (Jobticket, Business Bike, Tankgutschein), Sachzuwendung im Rahmen eines Einkaufsgutscheines, Teilnahme an unternehmensinternen Aktienprogramm, Mitarbeiterevents oder auch ein subventioniertes Mittagessen in unseren Hauseigenen Kantine.
 Mynaric ist ein Arbeitgeber, der sich der Chancengleichheit verschrieben hat. Daher begrüßen wir Bewerbungen von allen qualifizierten Personen, unabhängig von ethnischer Zugehörigkeit, Geschlecht, Behinderung, Religion/Weltanschauung, sexueller Orientierung oder Alter."
+2840113,Senior Electronics Engineer (m/f/d),München,Full-time · Permanent employee,https://mynaric.jobs.personio.de/job/2840113,"Your way into the future
+
+Join us as Senior Electronics Engineer (m/f/d) and work with us on changing the future!
+
+What awaits you at Mynaric
+
+- Design complex high-speed boards hosting high-performance FPGA/SoC devices and multi-chip packages for optical communication terminals.
+- Own schematic capture, constraint definition and PCB layout, applying device-vendor design guidelines for fan-out, stack-up, power delivery and high-speed serial links.
+- Perform or coordinate SI/PI and thermal analyses, and close the design together with mechanical and thermal teams.
+- Work with PCB manufacturers and assembly suppliers on stack-up, DFM and fabrication.
+- Bring up, test and debug boards in the lab and verify them against requirements.
+- Prepare design documentation, support design reviews and hand over to production.
+
+What you bring with you
+
+- Required experience: Minimum 6 years of hands-on professional experience in the field.
+- B.Sc. or M.Sc. in Electrical Engineering or a comparable field.
+- Minimum 6 years of hands-on professional experience designing and laying out complex multilayer high-speed PCBs, ideally with high-ball-count FPGAs/BGAs.
+- Expert, hands-on use of Altium Designer, including layout.
+- Strong knowledge of high-speed design: controlled impedance, multi-gigabit SerDes, DDR memory interfaces and PDN design.
+- Hands-on experience with SI/PI simulation tools.
+- Hands-on board bring-up and lab debugging experience.
+- Experience in space, airborne or defense applications and knowledge of IPC standards are a plus.
+- High attention to quality combined with a practical mindset.
+
+What we offer you
+
+Have you always wanted to wear your favorite space outfit to work? Then you are exactly the right fit for us! Forget the office politics and come and work with inspiring colleagues from all over the world as you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity.
+
+We offer you permanent employment, varied areas of responsibility, and attractive employee benefits. Mynaric is absolutely committed to being an equal opportunity employer so we welcome applications from all qualified individuals regardless of ethnicity, sex, gender, disability, religion/belief, sexual orientation or age.
+
+So if this sounds like the kind of place where you would like to work then apply today and be part of the company that is changing the world!"
+2839206,Senior Embedded Software Engineer (m/f/d),München,Vollzeit · Festanstellung,https://mynaric.jobs.personio.de/job/2839206,"Your way into the future
+
+Join us as Senior Embedded Software Engineer (m/f/d) and work with us on changing the future!
+
+What awaits you at Mynaric
+
+- Develop, document and maintain embedded software for laser communication terminal controllers, including drivers, platform software and application functions.
+- Implement new Pointing, Acquisition and Tracking (PAT) modes and operational functions together with the Principal Embedded Software Engineer and control systems engineers.
+- Test your own and the team's software from unit to system level, including automated, hardware-in-the-loop and benchtop test setups.
+- Perform hands-on bring-up, integration and debugging on target hardware with electronics, FPGA and control teams.
+- Develop test tools, simulators and data analysis scripts to speed up development and verification.
+- Support terminal-level test campaigns and demonstrations, and drive issues to closure.
+- Take on development or testing tasks flexibly, depending on project needs.
+
+What you bring with you
+
+Required Experience: Minimum 6 years of hands-on professional experience in the field.
+
+- University degree in Computer Science, Electrical Engineering or a related field.
+- Minimum 6 years of hands-on professional experience in embedded software development for real-time systems, including testing and integration on target hardware.
+- Strong hands-on C/C++ skills; Python for test automation and tooling.
+- In-depth knowledge of real-time embedded systems (RTOS, interrupts, DMA, timers, peripherals) and communication protocols (UART, SPI, CAN, Ethernet).
+- Hands-on experience with hardware-in-the-loop testing and lab instruments (oscilloscopes, logic and protocol analyzers).
+- Experience with test frameworks, CI pipelines and requirements-based testing.
+- Understanding of control systems or pointing/tracking functions is a plus; knowledge of space or aerospace standards is a plus.
+- Flexible, hands-on mindset: comfortable switching between development, integration and testing within a multidisciplinary team.
+
+What we offer you
+
+Have you always wanted to wear your favorite space outfit to work? Then you are exactly the right fit for us! Forget the office politics and come and work with inspiring colleagues from all over the world as you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity. We offer you permanent employment, varied areas of responsibility, and attractive employee benefits. Mynaric is absolutely committed to being an equal opportunity employer so we welcome applications from all qualified individuals regardless of ethnicity, sex, gender, disability, religion/belief, sexual orientation or age. So if this sounds like the kind of place where you would like to work then apply today and be part of the company that is changing the world!"
+2840151,Senior Optical Engineer (m/f/d),München,Full-time · Permanent employee,https://mynaric.jobs.personio.de/job/2840151,"Your way into the future
+
+Join us as Senior Optical Engineer (m/f/d) and work with us on changing the future!
+
+What awaits you at Mynaric
+
+- Own optical system simulation and analysis for free-space laser communication terminals, from concept to detailed design, using ZEMAX OpticStudio.
+- Model and verify optical performance, including beam propagation, polarization behavior, optical losses and tolerance budgets.
+- Plan and support optical verification in the lab: define test setups, perform measurements and correlate results with simulations.
+- Define technical requirements for optical systems, sub-systems and components, and support procurement with review and release of optical drawings.
+- Support qualification of optical components and prototype systems, partly under clean room conditions.
+- Drive design trades with opto-mechanics, thermal, electronics and control teams to meet performance, size, cost and manufacturability targets.
+- Optional: Optimize optical systems for stray and false light using FRED or ASAP.
+
+What you bring with you
+
+- Required experience: Minimum 6 years of hands-on professional experience in the field.
+- University degree in Physics, Optics/Photonics, or a related discipline.
+- Minimum 6 years of hands-on professional experience in optical design, simulation and lab verification, ideally for space or airborne systems.
+- Proven hands-on proficiency in ZEMAX OpticStudio; experience with COMSOL Multiphysics or STOP analysis is a plus.
+- Hands-on lab experience aligning (infrared) optical systems, building test setups and operating optical measurement equipment.
+- Practical experience with fiber optics, laser beam propagation and polarization optics.
+- Structured and well-documented way of working.
+- Team spirit and eagerness to learn and share knowledge.
+
+What we offer you
+
+Have you always wanted to wear your favorite space outfit to work? Then you are exactly the right fit for us! Forget the office politics and come and work with inspiring colleagues from all over the world as you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity.
+
+We offer you permanent employment, varied areas of responsibility, and attractive employee benefits. Mynaric is absolutely committed to being an equal opportunity employer so we welcome applications from all qualified individuals regardless of ethnicity, sex, gender, disability, religion/belief, sexual orientation or age.
+
+So if this sounds like the kind of place where you would like to work then apply today and be part of the company that is changing the world!"
 2793314,"Senior Sales & Business Development Manager, Asia-Pacific (m/f/x)",München,Full-time · Permanent employee,https://mynaric.jobs.personio.de/job/2793314,"Your way into the future
 
 Shape the Future of Global Connectivity
@@ -445,77 +623,30 @@ We offer flexible working hours as well as time off in lieu, diverse areas of re
 Mynaric is an employer committed to equal opportunity. Therefore, we welcome applications from all qualified individuals, regardless of ethnic origin, gender, disability, religion/belief, sexual orientation, or age.
 
 If this sounds like the place where you would like to work, then apply today and become part of a company that is changing the world!"
-2803133,Working Student (m/f/d) for Planning & Procurement,München,Part-time · Working Student,https://mynaric.jobs.personio.de/job/2803133,"Your way into the future
+2842010,Test Operator (m/f/w),München,Vollzeit · Festanstellung,https://mynaric.jobs.personio.de/job/2842010,"Your way into the future
 
-As a Working Student in Purchasing, you'll help keep our SAP master data clean, accurate, and reliable — supporting the planning and procurement decisions that depend on it every day.
-
-What awaits you at Mynaric
-
-- Clean and maintain SAP master data (material master, source lists, info records, purchasing views).
-- Identify and resolve incorrect, incomplete, or inconsistent data entries in coordination with Buyers and Planning.
-- Support standardization of master data fields and naming conventions across categories.
-- Help build and maintain data governance routines to keep master data consistent over time.
-- Build simple reports/dashboards (Excel, SAP queries) to track data quality and flag recurring errors.
-- Reduce manual effort by identifying repetitive data-cleanup tasks and proposing lightweight fixes or automation.
-- Support the rollout of new data standards as they're defined by the Purchasing team.
-- Collaborate with Buyers, Planners, and IT/ERP to trace data issues back to their source.
-
-What you bring with you
-
-- Currently enrolled in a degree program in industrial engineering, supply chain, business administration, information systems, or similar.
-- First exposure to SAP (or a comparable ERP) through coursework, internships, or working student experience is a plus — willingness to learn SAP in depth is essential.
-- Strong attention to detail and comfort working through large, messy datasets.
-- Solid Excel skills; basic familiarity with Power Automate, Power BI, or similar tools is a plus.
-- Structured, methodical way of working.
-- Curiosity about manufacturing/procurement processes and how clean data drives planning accuracy.
-- Fluency in English; German skills are a plus.
-
-What we offer you
-
-Be part of the company that is changing the world!
-
-Have you always wanted to come to work in your favorite space outfit? Then you are exactly right with us! Forget bureaucracy and work together with inspiring colleagues from all over the world while you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity.
-
-We offer flexible working hours as well as time off in lieu, diverse areas of responsibility, and an attractive compensation package as well as additional benefits such as: a mobility budget (public transport ticket, business bike, fuel voucher), non-cash benefits in the form of a shopping voucher, and company events.
-
-Mynaric is an employer committed to equal opportunity. Therefore, we welcome applications from all qualified individuals, regardless of ethnic origin, gender, disability, religion/belief, sexual orientation, or age.
-
-If this sounds like the place where you would like to work, then apply today and become part of a company that is changing the world!"
-2814765,Working Student (m/f/d) for Warehouse & Logistics,München,Part-time · Working Student,https://mynaric.jobs.personio.de/job/2814765,"Your way into the future
-
-As a Working Student in Warehouse & Logistics you will contribute to the seamless flow of materials that help turn innovative technology into reality.
+Join us as Test Operator (m/f/x) and work with us on changing the future!
 
 What awaits you at Mynaric
 
-- Support inventory management activities by conducting stock checks and contributing to accurate inventory records
-
-- Assist with the receipt, inspection, and organization of incoming materials and components
-
-- Contribute to the preparation and handling of hardware components for production and logistics processes
-
-- Support the efficient movement and availability of materials across warehouse and operational areas
-
-- Collaborate with the Logistics team on day-to-day warehouse operations and continuous improvement initiatives
-
-- Help maintain a safe, organized, and efficient working environment in accordance with operational standards
+- As part of our Testing team, you operate our test beds (shaker, thermal chambers, optical test beds and functional testing) to test high-tech, bleeding-edge laser communication terminals rolling off our assembly line.
+- You support the maintenance and calibration of various test equipment and handle the associated documentation.
+- In close cooperation with our Test Engineers, you prepare, execute, and document tests in the areas of structural mechanics, thermal, optics and electronics.
+- You assist in the preparation and improvement of testing procedures and setups.
+- You bring your creativity and experience to an innovative high-tech company.
+- You provide feedback to our engineers, production, and project teams regarding the practical aspects of test design and execution.
 
 What you bring with you
 
-- Currently enrolled in a degree program in business administration, supply chain, logistics or a related field
-- High level of reliability, accuracy, and ownership in day-to-day work
-- Enjoy working in a practical environment and are comfortable with physical and hands-on activities
-- Positive, collaborative team player who thrives in a dynamic setting
-- Previous warehouse or logistics experience is an advantage but not required
-- Fluency in English; German skills are a plus
+- Successfully completed vocational training in a technical field or relevant experience working with multi-disciplinary systems. Work experience in the field of testing is a plus.
+- You have a passion to work at the cutting edge of technology.
+- Ideally, you are proficient in test planning, execution, and documentation.
+- You are a team player, eager to learn and share knowledge.
+- You have a hands-on mindset for practical solutions and a distinct can-do-attitude.
+- The ability to communicate in German or English is necessary.
+- You are creative, proactive, and can independently find optimum solutions to complex technological problems.
+- The willingness to learn and expand your skillset continually.
 
 What we offer you
 
-Be part of the company that is changing the world!
-
-Have you always wanted to come to work in your favorite space outfit? Then you are exactly right with us! Forget bureaucracy and work together with inspiring colleagues from all over the world while you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity.
-
-We offer flexible working hours as well as time off in lieu, diverse areas of responsibility, and an attractive compensation package as well as additional benefits such as: a mobility budget (public transport ticket, business bike, fuel voucher), non-cash benefits in the form of a shopping voucher, and company events.
-
-Mynaric is an employer committed to equal opportunity. Therefore, we welcome applications from all qualified individuals, regardless of ethnic origin, gender, disability, religion/belief, sexual orientation, or age.
-
-If this sounds like the place where you would like to work, then apply today and become part of a company that is changing the world!"
+Be part of the company that is changing the world!Have you always wanted to wear your favourite space outfit to work? Then you are exactly the right fit for us! Forget the office politics and come and work with inspiring colleagues from all over the world as you embark on an incredible journey with Mynaric to work on unique and challenging projects and make a real contribution to the future of connectivity. We offer you permanent employment, varied areas of responsibility, and attractive employee benefits. Mynaric is absolutely committed to being an equal opportunity employer so we welcome applications from all qualified individuals regardless of ethnicity, sex, gender, disability, religion/belief, sexual orientation or age."

@@ -1,145 +1,163 @@
 job_id,title,location,additional_locations,department,remote_type,published,url,description
-079d04ad-04bd-4431-b987-cacfd668454a,Architecte Mécanique-Thermique (H/F),"Toulouse, France",,In-Orbit Services,hybrid,2025-09-05,https://careers.exotrail.com/jobs/6410735-architecte-mecanique-thermique-h-f,"A propos d'Exotrail 🚀
+c695be9a-2041-4477-be2b-5bdb5c19cced,AIT Specialist [H/F],"Massy, France",,Propulsion,hybrid,2026-08-19,https://careers.exotrail.com/jobs/8239818-ait-specialist-h-f,"À propos d’Exotrail 🚀
 
-L'espace n'a jamais été aussi stratégique, ni aussi disputé. Demain, la conquête spatiale ne se gagnera plus seulement en mettant des objets en orbite, mais en leur donnant une seconde vie là-haut, en apprenant à les guider, les repositionner, prolonger leur course, avec agilité et précision.
+L’espace devient plus stratégique et concurrentiel que jamais. Les leaders spatiaux de demain ne se contenteront pas de lancer des satellites en orbite : ils seront capables de les déplacer, de les repositionner, de prolonger leur durée de vie et d’optimiser leurs performances dans l’espace.
 
-Depuis 2017, nous concevons et exploitons la flotte de services sur laquelle s'appuient les opérateurs commerciaux, les institutions et les armées qui nous font confiance.
+Depuis 2017, Exotrail développe et exploite des solutions de mobilité spatiale de pointe destinées aux clients commerciaux, institutionnels et de la défense. De notre système de propulsion haute performance spaceware™ à notre véhicule de transfert orbital spacevan™, nous permettons aux satellites d’aller plus loin, de rester opérationnels plus longtemps et d’accomplir davantage de missions.
 
-Des systèmes propulsifs (spaceware™) haute performance pour petits satellites aux véhicules de transfert orbital (spacevan™) multi-missions et multi-orbites, nous déployons, exploitons et maintenons en service l'infrastructure spatiale dont dépendent les acteurs privés, publics et de défense pour mener leurs missions de télécommunications, d'observation de la Terre ou d'exploration à leur terme, plus vite, plus loin, et plus longtemps.
+Aujourd’hui, plus de 200 Exotrailers, répartis entre Massy et Toulouse, travaillent ensemble pour rendre les opérations spatiales plus efficaces et plus durables.
 
-En quelques années, nous sommes passés d'une poignée d'ingénieurs convaincus à une équipe de plus de 200 Exotrailers, répartis entre Massy et Toulouse.
+Soutenue par plus de 75 millions d’euros de financement, notre entreprise poursuit une mission claire :
 
-Plus de 75 millions d'euros levés auprès de fonds de capital-risque prestigieux et d'acteurs publics nous permettent aujourd'hui d'accélérer notre mission: rendre l’espace plus durable.
+Faire de l’espace une frontière durable pour les générations futures. 🚀
 
-Job Description 👨‍💻
+Votre mission
 
-Au sein des équipes In-Orbit Services, vous jouerez un rôle clé dans la définition et la cohérence des architectures mécaniques et thermiques de nos systèmes spatiaux.
+Au sein de l'équipe Production, vous jouez un rôle clé dans la fabrication et la qualification de nos équipements spatiaux. De l'assemblage des sous-ensembles jusqu'aux tests fonctionnels finaux, vous garantissez la conformité, la qualité et la fiabilité des produits livrés à nos clients.
 
-À l’interface entre les disciplines mécanique, thermique, système, AIT, propulsion et logiciels embarqués, vous serez responsable des choix d’architecture garantissant les performances, la robustesse et la conformité des plateformes développées par Exotrail.
+En tant qu'AIT Specialist, vous intervenez sur l'ensemble du processus d'intégration des systèmes. Vous réalisez les opérations mécaniques, électriques et fonctionnelles selon les procédures établies, tout en veillant au respect des exigences qualité, sécurité et traçabilité propres au secteur spatial.
 
-Vous interviendrez sur l’ensemble du cycle de développement, depuis les phases de conception jusqu’aux campagnes d’essais et de qualification.
+Véritable acteur du terrain, vous travaillez en étroite collaboration avec les équipes Méthodes, Qualité et Industrialisation afin d'assurer une production robuste et performante.
 
-Au-delà de votre expertise technique, nous recherchons un profil structurant, capable de piloter des compromis complexes, d’accompagner les équipes techniques et de contribuer activement à la montée en maturité des activités méca-thermiques au sein de l’entreprise.
+Vos responsabilités
 
-Vos missions 🚀
+Assemblage et intégration des équipements
 
-- Définir l'architecture mécanique et thermique des produits
+- Assembler les sous-ensembles mécaniques, électromécaniques et électroniques conformément aux plans et procédures.
 
-- Réaliser et piloter les analyses mécaniques et thermiques.
+- Intégrer cartes électroniques, harnais, capteurs et équipements dans les systèmes finaux.
 
-- Participer aux choix de conception et aux arbitrages techniques.
+- Réaliser les opérations de câblage, sertissage, collage et vissage selon les standards définis.
 
-- Définir les spécifications et justifier les solutions retenues.
+- Garantir la conformité des opérations réalisées et remonter les éventuels écarts.
 
-- Piloter les activités de validation et qualification (vibration, TVAC, essais mécaniques et thermiques).
+Réalisation des tests et contrôles
 
-- Contribuer aux revues de conception et de qualification.
+- Effectuer les vérifications et essais fonctionnels à l'aide des bancs de test.
 
-- Identifier et gérer les risques techniques.
+- Réaliser les mesures, contrôles et inspections nécessaires à la validation des équipements.
 
-- Assurer l’interface avec les équipes internes et les fournisseurs.
+- Analyser les résultats obtenus et signaler toute anomalie détectée.
 
-- Participer à l’amélioration continue des méthodes et outils d’ingénierie.
+- Assurer la traçabilité des opérations et renseigner la documentation associée.
 
-Profil recherché 💁‍♀️
+Qualité et amélioration continue
+
+- Respecter les exigences qualité, sécurité et traçabilité applicables aux activités de production.
+
+- Participer aux investigations en cas de non-conformité.
+
+- Contribuer à l'amélioration des processus, méthodes et outillages.
+
+- Participer au maintien des standards 5S et à la bonne tenue des espaces de production.
+
+Support aux activités d'essais
+
+- Contribuer à la préparation et à la réalisation d'essais environnementaux lorsque nécessaire.
+
+- Participer aux campagnes de validation des équipements et systèmes.
+
+- Assister les équipes essais lors des opérations de qualification.
+
+Votre profil
 
 Formation
 
-- Diplôme d’Ingénieur ou Master en mécanique, thermique ou aérospatial.
+- Bac professionnel à Bac+2 en mécanique, électronique, électrotechnique, mesures physiques ou production industrielle.
 
 Expérience
 
-- 8 ans d’expérience minimum dans le spatial, l’aéronautique, la défense ou un environnement industriel complexe.
+- Première expérience en assemblage, intégration ou test de produits techniques.
 
-- Expérience en conception et architecture méca-thermique.
-
-- Expérience des phases de développement et de qualification produit.
+- Une expérience dans les secteurs spatial, aéronautique, défense ou électronique est un véritable atout.
 
 Compétences techniques
 
-- Mécanique des structures et thermique.
+- Lecture de plans mécaniques, schémas électriques et nomenclatures.
 
-- Simulation et dimensionnement méca-thermique.
+- Maîtrise des opérations d'assemblage et d'intégration de précision.
 
-- Analyses FEM.
+- Réalisation de tests fonctionnels et contrôles qualité.
 
-- Environnement spatial et standards ECSS.
+- Utilisation des instruments de mesure (multimètre, oscilloscope, pied à coulisse, etc.).
 
-- Essais mécaniques et thermiques.
+- Connaissance des procédés de câblage, sertissage, collage et assemblage mécanique.
 
-- Anglais professionnel.
+- Respect des exigences de qualité, traçabilité et sécurité.
 
-Soft Skills
+- Utilisation d'ERP ou d'outils de suivi de production.
 
-- Leadership technique.
+Les qualités qui feront la différence
 
-- Vision système.
+- Rigueur et souci du détail.
 
-- Esprit d’analyse et de synthèse.
+- Dextérité et goût pour le travail de précision.
 
-- Autonomie et rigueur.
+- Esprit d'équipe et sens de la collaboration.
 
-- Capacité à travailler en transverse.
+- Autonomie et sens des responsabilités.
 
-- Communication et collaboration.
+- Curiosité technique et envie d'apprendre.
+
+- Capacité à identifier et résoudre les problèmes de manière pragmatique.
+
+- Culture qualité forte.
 
 Pourquoi rejoindre Exotrail ?
 
-Rejoindre Exotrail, c’est contribuer à des missions ambitieuses qui redéfinissent la logistique spatiale et l’exploitation des satellites.
+Rejoindre Exotrail, c’est contribuer à des missions ambitieuses qui redéfinissent la logistique spatiale et les opérations satellitaires.
 
-Vous travaillerez sur des technologies de pointe au service des futures missions spatiales, tout en collaborant avec des experts passionnés au sein d’une entreprise internationale en pleine croissance, à la pointe du secteur du « New Space ».
+Vous évoluerez aux côtés d’experts passionnés au sein d’une entreprise internationale en forte croissance, à la pointe du New Space, qui développe la prochaine génération de solutions de mobilité en orbite.
 
-Ce que nous proposons
+Ce que nous offrons
 
-• 🏥 Assurance santé d’entreprise prise en charge à 70 % par Exotrail
+- 🏥 Une mutuelle d’entreprise prise en charge à 70 % par Exotrail
 
-• 🚆 Remboursement à hauteur de 50 % des frais de transports en commun
+- 🚆 Le remboursement de 50 % des frais de transport en commun
 
-• 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
+- 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
 
-• 👶 Couverture étendue des congés maternité et paternité, sans condition d’ancienneté
+- 👶 Une couverture renforcée du congé maternité et paternité, sans condition d’ancienneté
 
-• 📚 Opportunités d’apprentissage et de développement
+- 📚 Des opportunités de formation et de développement professionnel
 
-• 🧘 Avantages liés au bien-être, notamment Moka Care, des conférences dédiées et notre programme ExoCare pour les moments qui comptent
+- 🧘 Des avantages dédiés au bien-être : Moka Care, conférences thématiques et programme ExoCare pour les moments importants de la vie
 
-• ⏳ 35 jours de congés payés par an (congés annuels et RTT)
+- ⏳ 35 jours de congés payés par an (congés annuels et RTT)
 
 Environnement de travail
 
-• 📍 Bureaux situés au cœur de Toulouse
+- 🏭 Des installations industrielles modernes à Massy
 
-• 🏭 Installations industrielles modernes à Massy
+- ☕ Café, thé et fruits frais mis gratuitement à disposition
 
-• ☕ Café, thé et fruits frais gratuits disponibles sur place
+- 🌍 Des équipes internationales et multiculturelles
 
-• 🌍 Équipes internationales et multiculturelles
-
-• 🚀 Entreprise spatiale dynamique et en pleine croissance
+- 🚀 Une entreprise spatiale dynamique en pleine croissance
 
 Qualité de vie au travail
 
-• 🎉 Événements d’équipe et apéros après le travail
+- 🎉 Des événements d’équipe et afterworks réguliers
 
-• 💆 Séances d’ostéopathie sur place sur les deux sites
+- 💆 Des séances d’ostéopathie sur site dans nos deux implantations
 
-• 🤝 Culture d’entreprise collaborative et solidaire
+- 🤝 Une culture de travail collaborative et bienveillante
 
-Notre processus de recrutement
+Processus de recrutement
 
-Notre processus de recrutement est conçu pour être efficace tout en vous offrant la possibilité de rencontrer les principaux acteurs impliqués dans le poste :
+Notre processus de recrutement est conçu pour être à la fois efficace et transparent, tout en vous permettant de rencontrer les principaux interlocuteurs du poste :
 
-1. Entretien RH avec notre équipe de recrutement afin de discuter de votre parcours, de vos motivations et de vos aspirations professionnelles.
+- Entretien RH avec notre équipe Talent Acquisition afin d’échanger sur votre parcours, vos motivations et vos aspirations professionnelles.
 
-2. Entretien avec le manager afin d’évaluer votre expérience, vos compétences et votre adéquation avec l’équipe et les projets.
+- Entretien Manager pour approfondir votre expérience, vos compétences et votre adéquation avec l’équipe et les projets.
 
-3. Entretien technique avec nos experts afin d’évaluer votre expertise technique et votre approche de la résolution de problèmes.
+- Entretien Technique avec nos experts afin d’évaluer vos connaissances techniques et votre approche de résolution de problèmes.
 
-4. Entretien final pour discuter du poste, des attentes et répondre à toutes vos questions restantes.
+- Entretien Final pour échanger sur le poste, les attentes associées et répondre à vos dernières questions.
 
-Nous nous efforçons de vous fournir un retour d’information tout au long du processus et de garantir une expérience candidat positive.
+Nous nous engageons à vous fournir des retours tout au long du processus et à vous offrir une expérience candidat positive.
 
-🚀 Nous avons hâte de faire votre connaissance et de découvrir comment vous pouvez contribuer à la mission d’Exotrail."
+🚀 Nous avons hâte de faire votre connaissance et d’explorer ensemble la manière dont vous pourrez contribuer à la mission d’Exotrail."
 30e330f8-7137-4afb-94c2-62612de1eeff,Assemby Integration Test Technician F/M,"Massy, France",,In-Orbit Services,hybrid,2026-03-24,https://careers.exotrail.com/jobs/7450889-assemby-integration-test-technician-f-m,"About Exotrail 🚀
 
 Space is becoming more strategic and competitive than ever. Tomorrow’s space leaders will not simply launch satellites into orbit, they will be able to move them, reposition them, extend their lifetime, and maximize their performance in space.
@@ -736,65 +754,197 @@ Nous nous efforçons de vous fournir un retour d’information tout au long du p
 🚀 Nous avons hâte de faire votre connaissance et de découvrir comment vous pouvez contribuer à la mission d’Exotrail."
 b300c9a1-286f-4609-9a8f-ae9ae2a742f0,Customer Project Manager F/M,"Massy, France",,Propulsion,hybrid,2024-10-09,https://careers.exotrail.com/jobs/5064845-customer-project-manager-f-m,"About Exotrail 🚀
 
-Born from a strong ambition to reach for the stars, Exotrail is a fast-growing scale-up founded in 2017. Its mission: to develop and commercialize propulsion systems for small satellites on a global scale.
+Space is becoming more strategic and competitive than ever. Tomorrow’s space leaders will not simply launch satellites into orbit, they will be able to move them, reposition them, extend their lifetime, and maximize their performance in space.
 
-We design products focused on impact, fast delivery, and continuous improvement. Inspired by the digital world, we are firmly customer-oriented and driven by an entrepreneurial spirit.
+Since 2017, Exotrail has been developing and operating cutting-edge in-space mobility solutions for commercial, institutional, and defense customers. From our high-performance propulsion system spaceware™ to our orbital transfer vehicle spacevan™, we enable satellites to go farther, stay operational longer, and achieve more.
 
-We manage risks to push boundaries and achieve results that would not be possible within a traditional space model.
+Today, more than 200 Exotrailers across Massy and Toulouse are working together to make space operations more efficient and sustainable.
 
-We deploy every necessary resource to support the development of our products, whether in propulsion or in-orbit services. Strengthened by an innovative mindset inherited from our early days, we are preparing to grow into an ambitious industrial company.
+Backed by over €75 million in funding, we are pursuing a clear mission:
 
-Job Description 👨‍💻
+Making space a sustainable frontier for future generations. 🚀
 
-We are looking for a Customer Project Manager at our Massy site, to support our rapid growth.
+Job Description
 
-Attached to the Customer project department, the Customer Project Manager is responsible for managing propulsion projects, from systems’ specific accommodation fitting the platform, to delivery to customers :
+We are looking for a Customer Project Manager to join our team in Massy and support Exotrail's rapid growth.
 
-- Leading and managing electric propulsion customer projects from initiation to completion. Developing and driving detailed project plans, schedules, and budgets to meet deadlines and objectives.
+As part of the Customer Projects Department, you will be responsible for delivering customer propulsion programs from project kick-off through system integration and final delivery. You will coordinate multidisciplinary teams, manage customer relationships, and ensure successful project execution in line with contractual commitments.
 
-- Coordinating cross-functional teams to ensure project milestones (internal and external) are achieved on time, on quality, and on cost.
+As the primary interface between customers and Exotrail, you will play a key role in aligning technical, operational, and business objectives while ensuring a high level of customer satisfaction throughout the project lifecycle.
 
-You will be at the interface between the customer and the Exotrail business and technical teams, as a primary contact, ensuring that contractual obligations and customer expectations are met throughout the project lifecycle.
+Your Responsibilities
 
-Your main tasks and responsibilities will be:
-📌 Overseeing the execution of the Statement of Work (SOW) and contracts, ensuring adherence to scope. Coordinating with Sales for any additional charges due to scope changes and proposing contract waivers or deviations when necessary to maintain flexibility while staying compliant with project requirements.
-📌 Planning/monitoring resources for the successful completion of the projects,
-📌 Writing and/or organising technical documentation,
-📌 Achievement of project objectives in terms of scope, time, costs, quality and customer satisfaction,
-📌 Implementing proactive risk and opportunity management within the projects,
+Project Leadership & Delivery
 
-📌 Coordination and tracking of customer requirements vs. contractual scope of works,
-📌 Managing daily operations of the technical multifunctional project teams,
-📌 Management of relationships with customers, suppliers, subcontractors and with all internal stakeholders (including reporting and analysis),
-📌Organising presentations, workshops, and project reviews (internally and with customers),
-📌 Feeding of the company product roadmap with projects and customers feedbacks,
-📌 Resolving possible conflicts (internally and with customers),
-📌 Promoting Exotrail’s development culture to customers.
+- Lead electric propulsion customer projects from initiation to completion.
 
-Preferred Experience 💁‍♀️
+- Define and maintain project plans, schedules, budgets, milestones and deliverables.
 
-📌 At least, 8 years in project management, ideally in space industry. Hands-on experience in space/propulsion subjects is a plus.
+- Drive project execution to achieve objectives related to scope, schedule, cost, quality and customer satisfaction.
 
-📌 Startup experience is a plus.
+- Monitor project performance and implement corrective actions when required.
 
-📌 Highly motivated and capable to work in a challenging field, and that excels in a collaborative environment.
+- Ensure successful delivery according to contractual commitments.
 
-📌 Proactive, dynamic, hands-on, success and solution oriented.
+Customer Relationship Management
 
-📌 Willing to devote time and effort to documentation, planning tasks, managing the customer relationship while coordinating teams internally.
+- Act as the primary point of contact for customers throughout the project lifecycle.
 
-📌Rigorous and structured, strong planification skills, high degree of autonomy.
+- Build trusted relationships with customers and represent Exotrail externally.
 
-📌 Strong communication skills, leadership
+- Coordinate customer requirements and ensure alignment with the contractual statement of work.
 
-About our recruitment process🤝
+- Organize project reviews, progress meetings, workshops and customer presentations.
 
-We are committed to recruiting the right people for the right job regardless of your private backround.
+- Manage customer expectations and facilitate resolution of technical, contractual or operational issues.
 
-We meet at least three times in order to give you a better idea of what it's like to work at Exotrail:
-1. Technical interview with your future manager: You will learn more about the position and the required qualifications
-2. On-site interview with HR and VP: You will discover your work environment and learn more about our culture
-3. Interview with a founder: You can make sure that you share the same vision and values of the company"
+Contract & Scope Management
+
+- Oversee the execution of Statements of Work (SOW), contracts and contractual obligations.
+
+- Ensure project activities remain aligned with agreed scope and deliverables.
+
+- Coordinate scope changes with Sales and contribute to contract amendments when required.
+
+- Propose waivers, deviations or alternative solutions when necessary while maintaining compliance with project requirements.
+
+Cross-Functional Coordination
+
+- Coordinate multidisciplinary teams across Engineering, Product, Operations, Manufacturing, Supply Chain and Quality.
+
+- Ensure internal and external milestones are achieved on time and within budget.
+
+- Facilitate communication and decision-making between stakeholders.
+
+- Resolve conflicts and remove roadblocks impacting project delivery.
+
+Risk & Opportunity Management
+
+- Identify, assess and mitigate project risks.
+
+- Proactively manage opportunities to improve project outcomes.
+
+- Maintain visibility on technical, operational, financial and schedule-related risks.
+
+- Escalate critical issues when necessary and drive recovery plans.
+
+Reporting & Continuous Improvement
+
+- Track project progress and provide regular reporting to management and customers.
+
+- Ensure high-quality project documentation and deliverables.
+
+- Capture lessons learned and customer feedback.
+
+- Contribute to the company's product roadmap by relaying customer needs, market insights and project feedback.
+
+Preferred Experience
+
+Education & Experience
+
+- At least 8 years of experience in project management, ideally within the space industry.
+
+- Experience managing complex technical or industrial projects.
+
+- Knowledge of spacecraft, satellite systems or electric propulsion technologies is a strong advantage.
+
+- Previous experience in a startup or fast-growing environment is a plus.
+
+Skills & Competencies
+
+- Strong project planning, scheduling and resource management capabilities.
+
+- Excellent stakeholder management and customer-facing skills.
+
+- Experience managing contractual commitments and project scope.
+
+- Ability to coordinate multidisciplinary technical teams.
+
+- Strong risk management and problem-solving abilities.
+
+- Excellent written and verbal communication skills.
+
+- Comfortable working in an international environment.
+
+What Will Make You Successful
+
+- Collaborative leadership style and ability to influence without direct authority.
+
+- Strong sense of ownership and accountability.
+
+- Autonomous, structured and highly organized.
+
+- Hands-on mindset with a pragmatic approach to problem-solving.
+
+- Customer-focused and results-oriented.
+
+- Ability to thrive in a fast-paced and evolving environment.
+
+- Strong negotiation, communication and presentation skills.
+
+- High level of resilience and adaptability.
+
+Languages
+
+- Fluent English (written and spoken).
+
+- French is a strong advantage.
+
+Why Join Exotrail?
+
+Joining Exotrail means contributing to ambitious missions that are redefining space logistics and satellite operations.
+
+You will work on cutting-edge technologies supporting future space missions while collaborating with passionate experts in a fast-growing international company at the forefront of the New Space industry.
+
+What We Offer
+
+- 🏥 Company health insurance with 70% covered by Exotrail
+
+- 🚆 50% reimbursement of public transportation costs
+
+- 🏡 Up to 2 days of remote work per week, depending on the position
+
+- 👶 Enhanced maternity and paternity leave coverage with no seniority requirement
+
+- 📚 Learning and development opportunities
+
+- 🧘 Well-being benefits including Moka Care, dedicated conferences, and our ExoCare Program for Moments That Matter
+
+- ⏳ 35 days of paid leave per year (Annual Leave & RTT)
+
+Working Environment
+
+- 🏭 Modern industrial facilities in Massy
+
+- ☕ Free coffee, tea, and fresh fruit available on site
+
+- 🌍 International and multicultural teams
+
+- 🚀 Dynamic and rapidly growing space company
+
+Quality of Life at Work
+
+- 🎉 Team events and afterworks
+
+- 💆 On-site osteopathy sessions on both sites
+
+- 🤝 Collaborative and supportive work culture
+
+Recruitment Process
+
+Our recruitment process is designed to be efficient while giving you the opportunity to meet the key stakeholders involved in the role:
+
+- HR Interview with our Talent Acquisition team to discuss your background, motivations, and career aspirations.
+
+- Hiring Manager Interview to explore your experience, skills, and fit with the team and projects.
+
+- Technical Interview with our experts to assess your technical expertise and problem-solving approach.
+
+- Final Interview to discuss the role, expectations, and answer any remaining questions.
+
+We strive to provide feedback throughout the process and ensure a positive candidate experience.
+
+🚀 We look forward to getting to know you and exploring how you can contribute to Exotrail's mission."
 1c37bfce-8d49-47c0-ab04-959a3cfef703,Electronic & Electrical Architect (M/F),"Toulouse, France","Massy, France",In-Orbit Services,hybrid,2026-10-08,https://careers.exotrail.com/jobs/8516593-electronic-electrical-architect-m-f,"About Exotrail 🚀
 
 Space is becoming more strategic and competitive than ever. Tomorrow’s space leaders will not simply launch satellites into orbit, they will be able to move them, reposition them, extend their lifetime, and maximize their performance in space.
@@ -1429,7 +1579,7 @@ Our recruitment process is designed to be efficient while giving you the opportu
 We strive to provide feedback throughout the process and ensure a positive candidate experience.
 
 🚀 We look forward to getting to know you and exploring how you can contribute to Exotrail's mission."
-875ac19d-8c50-451d-ad29-15c9e77e58b5,Ground Software Engineer (M/F),"Toulouse, France","Massy, France",In-Orbit Services,hybrid,2026-10-08,https://careers.exotrail.com/jobs/8517640-ground-software-engineer-m-f,"About Exotrail 🚀
+875ac19d-8c50-451d-ad29-15c9e77e58b5,Ground Software Engineer (M/F),"Toulouse, France",,In-Orbit Services,hybrid,2026-10-08,https://careers.exotrail.com/jobs/8517640-ground-software-engineer-m-f,"About Exotrail 🚀
 
 Space is becoming more strategic and competitive than ever. Tomorrow’s space leaders will not simply launch satellites into orbit, they will be able to move them, reposition them, extend their lifetime, and maximize their performance in space.
 
@@ -1574,8 +1724,6 @@ What We Offer
 Working Environment
 
 - 📍 Offices located in the heart of Toulouse
-
-- 🏭 Modern industrial facilities in Massy
 
 - ☕ Free coffee, tea, and fresh fruit available on site
 
@@ -2417,39 +2565,37 @@ Vous travaillerez sur des technologies de pointe au service des futures missions
 
 Ce que nous proposons
 
-• 🏥 Assurance santé d’entreprise prise en charge à 70 % par Exotrail
+- 🏥 Assurance santé d’entreprise prise en charge à 70 % par Exotrail
 
-• 🚆 Remboursement à hauteur de 50 % des frais de transports en commun
+- 🚆 Remboursement à hauteur de 50 % des frais de transports en commun
 
-• 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
+- 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
 
-• 👶 Couverture étendue des congés maternité et paternité, sans condition d’ancienneté
+- 👶 Couverture étendue des congés maternité et paternité, sans condition d’ancienneté
 
-• 📚 Opportunités d’apprentissage et de développement
+- 📚 Opportunités d’apprentissage et de développement
 
-• 🧘 Avantages liés au bien-être, notamment Moka Care, des conférences dédiées et notre programme ExoCare pour les moments qui comptent
+- 🧘 Avantages liés au bien-être, notamment Moka Care, des conférences dédiées et notre programme ExoCare pour les moments qui comptent
 
-• ⏳ 35 jours de congés payés par an (congés annuels et RTT)
+- • ⏳ 35 jours de congés payés par an (congés annuels et RTT)
 
 Environnement de travail
 
-• 📍 Bureaux situés au cœur de Toulouse
+- 📍 Bureaux situés au cœur de Toulouse
 
-• 🏭 Installations industrielles modernes à Massy
+- ☕ Café, thé et fruits frais gratuits disponibles sur place
 
-• ☕ Café, thé et fruits frais gratuits disponibles sur place
+- 🌍 Équipes internationales et multiculturelles
 
-• 🌍 Équipes internationales et multiculturelles
-
-• 🚀 Entreprise spatiale dynamique et en pleine croissance
+- 🚀 Entreprise spatiale dynamique et en pleine croissance
 
 Qualité de vie au travail
 
-• 🎉 Événements d’équipe et apéros après le travail
+- 🎉 Événements d’équipe et apéros après le travail
 
-• 💆 Séances d’ostéopathie sur place sur les deux sites
+- 💆 Séances d’ostéopathie sur place sur les deux sites
 
-• 🤝 Culture d’entreprise collaborative et solidaire
+- 🤝 Culture d’entreprise collaborative et solidaire
 
 Notre processus de recrutement
 
@@ -3259,111 +3405,6 @@ Our recruitment process is designed to be efficient while giving you the opportu
 We strive to provide feedback throughout the process and ensure a positive candidate experience.
 
 🚀 We look forward to getting to know you and exploring how you can contribute to Exotrail's mission."
-e9178f51-c6f1-4078-a68f-fb7b137c4d20,Plasma Physics Expert (F/M),"Massy, France",,,hybrid,2026-06-24,https://careers.exotrail.com/jobs/7965650-plasma-physics-expert-f-m,"About Exotrail 🚀
-
-Space is becoming more strategic and competitive than ever. Tomorrow’s space leaders will not simply launch satellites into orbit, they will be able to move them, reposition them, extend their lifetime, and maximize their performance in space.
-
-Since 2017, Exotrail has been developing and operating cutting-edge in-space mobility solutions for commercial, institutional, and defense customers. From our high-performance propulsion system spaceware™ to our orbital transfer vehicle spacevan™, we enable satellites to go farther, stay operational longer, and achieve more.
-
-Today, more than 200 Exotrailers across Massy and Toulouse are working together to make space operations more efficient and sustainable.
-
-Backed by over €75 million in funding, we are pursuing a clear mission:
-
-Making space a sustainable frontier for future generations. 🚀
-
-Job Description 👨‍💻
-
-We are looking for a Plasma Physics Expert at our Massy site, to support the rapid growth.
-
-Attached to the R&D Team, you will be responsible for:
-
-Main responsibilities:
-
-- Reviewing and approving technical documents, both generated internally and with suppliers and customers,
-
-- Leading specific activities linked with research activities on plasma science.
-
-- Help develop the technical expertise of the team through the writing of best practices and design guidelines.
-
-- Be the reference to define test plans, validation strategies and technological roadmap on plasma science
-
-- Identifying innovative technologies (material, manufacturing, product, …) or methodologies to be further studied
-
-- Mobilising resources for exploration of innovative technologies and methodologies
-
-Preferred Experience 💁‍♀️
-
-- Education: Master’s or PhD (preferred) in plasma science, electric propulsion, materials science, aerospace engineering.
-
-- Strong experience (> 10 yr) in plasma science and plasma thruster design, from concepts to design reviews and assembly and testing activities, including proficiency in designing tests for thruster assemblies
-
-- Strong knowledge of the design of a complete propulsion system based on a plasma thruster
-
-- Strong experience in thruster assembly test systems development, test preparation, data processing
-
-- Strong experience in magnetics design tools (FEMM, Comsol)
-
-- Experience with CAD software is preferred (Solidworks)
-
-- Strong technical leadership in multi-team technical meetings
-
-- Strong verbal and written communication skills, with colleagues and external stakeholders
-
-Why Join Exotrail?
-
-Joining Exotrail means contributing to ambitious missions that are redefining space logistics and satellite operations.
-
-You will work on cutting-edge technologies supporting future space missions while collaborating with passionate experts in a fast-growing international company at the forefront of the New Space industry.
-
-What We Offer
-
-- 🏥 Company health insurance with 70% covered by Exotrail
-
-- 🚆 50% reimbursement of public transportation costs
-
-- 🏡 Up to 2 days of remote work per week, depending on the position
-
-- 👶 Enhanced maternity and paternity leave coverage with no seniority requirement
-
-- 📚 Learning and development opportunities
-
-- 🧘 Well-being benefits including Moka Care, dedicated conferences, and our ExoCare Program for Moments That Matter
-
-- ⏳ 35 days of paid leave per year (Annual Leave & RTT)
-
-Working Environment
-
-- 🏭 Modern industrial facilities in Massy
-
-- ☕ Free coffee, tea, and fresh fruit available on site
-
-- 🌍 International and multicultural teams
-
-- 🚀 Dynamic and rapidly growing space company
-
-Quality of Life at Work
-
-- 🎉 Team events and afterworks
-
-- 💆 On-site osteopathy sessions on both sites
-
-- 🤝 Collaborative and supportive work culture
-
-Recruitment Process
-
-Our recruitment process is designed to be efficient while giving you the opportunity to meet the key stakeholders involved in the role:
-
-- HR Interview with our Talent Acquisition team to discuss your background, motivations, and career aspirations.
-
-- Hiring Manager Interview to explore your experience, skills, and fit with the team and projects.
-
-- Technical Interview with our experts to assess your technical expertise and problem-solving approach.
-
-- Final Interview to discuss the role, expectations, and answer any remaining questions.
-
-We strive to provide feedback throughout the process and ensure a positive candidate experience.
-
-🚀 We look forward to getting to know you and exploring how you can contribute to Exotrail's mission."
 3d132d6d-1b57-4b15-9824-60e643df326f,Power Electronics Expert (F/M),"Massy, France",,Propulsion,hybrid,2026-07-02,https://careers.exotrail.com/jobs/8008754-power-electronics-expert-f-m,"About Exotrail 🚀
 
 Space is becoming more strategic and competitive than ever. Tomorrow’s space leaders will not simply launch satellites into orbit, they will be able to move them, reposition them, extend their lifetime, and maximize their performance in space.
@@ -3767,220 +3808,183 @@ Nous nous rencontrons au moins trois fois afin de vous donner une meilleure idé
 1. Entretien technique avec votre futur manager : vous en apprendrez plus sur le poste et les qualifications requises.
 2. Entretien par appel vidéo avec notre Talent Acquisition Team: vous découvrirez votre environnement de travail et en apprendrez davantage sur notre culture.
 3. Entretien sur place avec d'autres membres de l'équipe : vous pourrez vous assurer que vous partagez la même vision et les mêmes valeurs de l'entreprise."
-fc3ac9d1-0081-4a7f-b118-5e9dff586caf,Project Manager (H/F),"Toulouse, France",,In-Orbit Services,hybrid,2026-05-18,https://careers.exotrail.com/jobs/7747037-project-manager-h-f,"A propos d'Exotrail 🚀
+34b8e758-7c5b-4bd4-9352-239ab04e9ad9,Project Manager Officer [H/F],"Massy, France",,Propulsion,hybrid,2026-07-15,https://careers.exotrail.com/jobs/8070009-project-manager-officer-h-f,"À propos d’Exotrail 🚀
 
-L'espace n'a jamais été aussi stratégique, ni aussi disputé. Demain, la conquête spatiale ne se gagnera plus seulement en mettant des objets en orbite, mais en leur donnant une seconde vie là-haut, en apprenant à les guider, les repositionner, prolonger leur course, avec agilité et précision.
+L’espace devient plus stratégique et concurrentiel que jamais. Les leaders spatiaux de demain ne se contenteront pas de lancer des satellites en orbite : ils seront capables de les déplacer, de les repositionner, de prolonger leur durée de vie et d’optimiser leurs performances dans l’espace.
 
-Depuis 2017, nous concevons et exploitons la flotte de services sur laquelle s'appuient les opérateurs commerciaux, les institutions et les armées qui nous font confiance.
+Depuis 2017, Exotrail développe et exploite des solutions de mobilité spatiale de pointe destinées aux clients commerciaux, institutionnels et de la défense. De notre système de propulsion haute performance spaceware™ à notre véhicule de transfert orbital spacevan™, nous permettons aux satellites d’aller plus loin, de rester opérationnels plus longtemps et d’accomplir davantage de missions.
 
-Des systèmes propulsifs (spaceware™) haute performance pour petits satellites aux véhicules de transfert orbital (spacevan™) multi-missions et multi-orbites, nous déployons, exploitons et maintenons en service l'infrastructure spatiale dont dépendent les acteurs privés, publics et de défense pour mener leurs missions de télécommunications, d'observation de la Terre ou d'exploration à leur terme, plus vite, plus loin, et plus longtemps.
+Aujourd’hui, plus de 200 Exotrailers, répartis entre Massy et Toulouse, travaillent ensemble pour rendre les opérations spatiales plus efficaces et plus durables.
 
-En quelques années, nous sommes passés d'une poignée d'ingénieurs convaincus à une équipe de plus de 200 Exotrailers, répartis entre Massy et Toulouse.
+Soutenue par plus de 75 millions d’euros de financement, notre entreprise poursuit une mission claire :
 
-Plus de 75 millions d'euros levés auprès de fonds de capital-risque prestigieux et d'acteurs publics nous permettent aujourd'hui d'accélérer notre mission: rendre l’espace plus durable.
+Faire de l’espace une frontière durable pour les générations futures. 🚀
 
-Description du poste 👨‍💻
+Votre mission
 
-En tant que Program Manager, vous pilotez des programmes stratégiques de bout en bout afin de garantir leur réussite en termes de coûts, qualité, planning et performance.
+En tant que PMO, vous jouez un rôle central dans le pilotage et la gouvernance du portefeuille de projets d'Exotrail.
 
-Vous évoluez dans un environnement spatial complexe et hautement technique, en coordination avec des équipes multidisciplinaires et des partenaires externes. Vous êtes au cœur des interactions entre ingénierie, qualité, finance, achats, fournisseurs et clients.
+À l'interface des équipes Projet, Engineering, Product Management, Industrialisation, Production, Supply Chain, Qualité et Finance, vous apportez une vision consolidée de l'avancement des projets et accompagnez les équipes dans l'application des meilleures pratiques de gestion de projet.
 
-Vos missions 🚀
+Vous contribuez à la mise en place et à l'amélioration continue de notre modèle de gouvernance, de nos outils de pilotage et de nos standards de gestion de projet dans le cadre de notre démarche Project Management Excellence.
 
-- Définir et piloter les objectifs du programme : planning, budget, performance technique et livrables
+Grâce à votre capacité d'analyse, votre rigueur et votre sens de la coordination, vous permettez aux équipes et à la direction de prendre des décisions éclairées en s'appuyant sur des données fiables et pertinentes.
 
-- Assurer l’alignement entre les engagements contractuels et l’exécution opérationnelle
+Vos responsabilités
 
-- Structurer et animer la gouvernance du programme : KPIs, comités de pilotage, reporting et suivi des actions
+Gouvernance et pilotage du portefeuille projets
 
-- Coordonner les équipes transverses (ingénierie, qualité, supply chain, finance, production…)
+- Participer à la mise en place et à l'animation des instances de gouvernance projets.
 
-- Piloter les relations avec les clients et partenaires externes
+- Préparer les Portfolio Reviews, Project Reviews, Risk Reviews, Action Reviews et Gate Reviews.
 
-- Gérer les changements de périmètre, les risques et les escalades potentielles
+- Assurer le suivi des décisions, arbitrages et plans d'actions jusqu'à leur clôture.
 
-- Superviser les fournisseurs et suivre leur performance dans le cadre du programme
+- Garantir l'application des standards de gestion de projet à l'échelle de l'entreprise.
 
-- Piloter les aspects financiers : budget, CAPEX/OPEX, prévisions et suivi des marges
+Reporting et indicateurs de performance
 
-- Identifier, anticiper et traiter les risques techniques, calendaires ou contractuels
+- Définir et améliorer les standards de reporting projets et portefeuille.
 
-- Veiller au respect des exigences qualité et réglementaires du secteur spatial
+- Collecter, consolider et analyser les données provenant des équipes projets.
 
-Profil recherché 💁‍♀️
+- Produire des tableaux de bord permettant le suivi des coûts, délais, jalons, risques et indicateurs clés.
 
-- Diplôme Bac+5 / Master en ingénierie ou équivalent
+- Fournir aux équipes de direction une vision claire et fiable de la performance des projets.
 
-- Minimum 12 ans d’expérience dont au moins 5 à 7 ans dans la gestion de programmes complexes
+Planning et gestion des jalons
 
-- Expérience dans le secteur spatial, aéronautique ou environnement industriel complexe fortement appréciée
+- Maintenir le référentiel consolidé des jalons projets.
 
-- Bonne compréhension des environnements réglementaires (ITAR, UIT, droit spatial…)
+- Identifier les dérives de planning, dépendances critiques et points de blocage.
 
-- Excellente communication en français et en anglais
+- Accompagner les chefs de projet dans le suivi des engagements et des échéances.
 
-Compétences clés 🛠️
+- Assurer la cohérence des plannings et leur alignement avec les objectifs du portefeuille.
 
-- Pilotage de programmes complexes
+Gestion des risques et des escalades
 
-- Gestion budgétaire et suivi financier
+- Consolider les risques, problématiques et points d'escalade de l'ensemble du portefeuille.
 
-- Gestion des risques et résolution de problèmes
+- Assurer le suivi des plans de mitigation.
 
-- Coordination d’équipes transverses dans un environnement matriciel
+- Identifier les risques transverses pouvant affecter plusieurs projets.
 
-- Compréhension des systèmes complexes et des enjeux techniques
+- Faciliter la prise de décision grâce à une vision structurée des risques.
 
-- Gestion des parties prenantes internes et externes
+Excellence opérationnelle et amélioration continue
 
-- Capacité à prendre des décisions dans des environnements évolutifs
+- Participer à la construction et à l'évolution du Project Management Playbook.
 
-- Leadership transverse et influence
+- Harmoniser les méthodes, processus et outils de gestion de projet.
 
-- Autonomie et sens des priorités
+- Contribuer à l'automatisation du reporting et à l'amélioration de la qualité des données.
 
-- Orientation résultats et satisfaction client
+- Capitaliser sur les retours d'expérience et diffuser les bonnes pratiques.
 
-Pourquoi rejoindre Exotrail ?
+- Accompagner la montée en maturité de la fonction projet au sein d'Exotrail.
 
-Rejoindre Exotrail, c’est contribuer à des missions ambitieuses qui redéfinissent la logistique spatiale et l’exploitation des satellites.
+Votre profil
 
-Vous travaillerez sur des technologies de pointe au service des futures missions spatiales, tout en collaborant avec des experts passionnés au sein d’une entreprise internationale en pleine croissance, à la pointe du secteur du « New Space ».
+Formation
 
-Ce que nous proposons
+- Diplôme d'ingénieur ou formation supérieure en gestion de projet, management industriel, business ou équivalent.
 
-• 🏥 Assurance santé d’entreprise prise en charge à 70 % par Exotrail
+Expérience
 
-• 🚆 Remboursement à hauteur de 50 % des frais de transports en commun
+- Au moins 7 ans d'expérience en PMO, Project Controls, Program Management ou gestion de projets dans un environnement industriel complexe.
 
-• 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
+- Solide expérience en gouvernance projet, reporting, gestion des risques et pilotage de portefeuille.
 
-• 👶 Couverture étendue des congés maternité et paternité, sans condition d’ancienneté
+- Une expérience préalable en tant que chef de projet constitue un réel atout.
 
-• 📚 Opportunités d’apprentissage et de développement
-
-• 🧘 Avantages liés au bien-être, notamment Moka Care, des conférences dédiées et notre programme ExoCare pour les moments qui comptent
-
-• ⏳ 35 jours de congés payés par an (congés annuels et RTT)
-
-Environnement de travail
-
-• 📍 Bureaux situés au cœur de Toulouse
-
-• 🏭 Installations industrielles modernes à Massy
-
-• ☕ Café, thé et fruits frais gratuits disponibles sur place
-
-• 🌍 Équipes internationales et multiculturelles
-
-• 🚀 Entreprise spatiale dynamique et en pleine croissance
-
-Qualité de vie au travail
-
-• 🎉 Événements d’équipe et apéros après le travail
-
-• 💆 Séances d’ostéopathie sur place sur les deux sites
-
-• 🤝 Culture d’entreprise collaborative et solidaire
-
-Notre processus de recrutement
-
-Notre processus de recrutement est conçu pour être efficace tout en vous offrant la possibilité de rencontrer les principaux acteurs impliqués dans le poste :
-
-1. Entretien RH avec notre équipe de recrutement afin de discuter de votre parcours, de vos motivations et de vos aspirations professionnelles.
-
-2. Entretien avec le manager afin d’évaluer votre expérience, vos compétences et votre adéquation avec l’équipe et les projets.
-
-3. Entretien technique avec nos experts afin d’évaluer votre expertise technique et votre approche de la résolution de problèmes.
-
-4. Entretien final pour discuter du poste, des attentes et répondre à toutes vos questions restantes.
-
-Nous nous efforçons de vous fournir un retour d’information tout au long du processus et de garantir une expérience candidat positive.
-
-🚀 Nous avons hâte de faire votre connaissance et de découvrir comment vous pouvez contribuer à la mission d’Exotrail."
-34b8e758-7c5b-4bd4-9352-239ab04e9ad9,Project Manager Officer [H/F],"Massy, France","Toulouse, France",Propulsion,hybrid,2026-07-15,https://careers.exotrail.com/jobs/8070009-project-manager-officer-h-f,"À propos d'Exotrail 🚀
-
-Exotrail est une scale-up fondée en 2017 avec une ambition claire : fournir des solutions de mobilité pour un espace durable, sûr et accessible.
-
-Nous développons des technologies innovantes au service des infrastructures spatiales de demain, en combinant logiciels, propulsion et services en orbite.
-
-Chez Exotrail, nous concevons des produits à fort impact, avec une culture orientée innovation, excellence technique et amélioration continue.
-
-Rejoindre Exotrail, c’est participer au développement des systèmes spatiaux qui accompagneront les futures missions en orbite.
-
-Descriptif du poste 👨‍💻
-
-En tant que PMO, vous contribuerez à la structuration, au déploiement et à l’amélioration continue de notre système de gouvernance et de pilotage des projets.
-
-Vous interviendrez sur l’ensemble des dimensions liées au pilotage du portefeuille : gouvernance, reporting, planning, jalons, risques, actions, KPIs et préparation des instances de décision.
-
-En interface étroite avec les Customer Project Managers, Technical Project Managers, Engineering, System Engineering, Product Management, Quality, Industrialisation, Production, Supply Chain et Finance, vous contribuerez à garantir une vision consolidée et fiable de l’avancement des projets.
-
-Vous contribuerez également au déploiement de notre démarche Project Management Excellence 2026, notamment à travers la construction et l’amélioration continue du Project Management Playbook, qui rassemble les standards, méthodes, outils et bonnes pratiques de gestion de projet.
-
-Ce poste requiert rigueur, esprit analytique, capacité de synthèse, autonomie et sens de la collaboration.
-
-Vos missions 🚀
-
-- Participer à la structuration et à l’animation des rituels de gouvernance projets : portfolio reviews, project reviews, risk reviews, action reviews et gate reviews.
-
-- Préparer les instances de pilotage et assurer le suivi des décisions et actions jusqu’à leur clôture.
-
-- Définir, maintenir et améliorer les standards de reporting projets et portefeuille.
-
-- Collecter, consolider et challenger les données auprès des équipes projets et construire les dashboards de pilotage : avancement, coûts, délais, jalons, risques, actions, escalades et points bloquants.
-
-- Structurer et maintenir dans Odoo le référentiel consolidé des jalons projets.
-
-- Identifier les dérives de planning, chemins critiques, dépendances et points de blocage nécessitant un arbitrage.
-
-- Accompagner les Project Managers dans le suivi des jalons, engagements et plans d’actions.
-
-- Préparer les Gate Reviews, suivre la maturité des livrables attendus et assurer le suivi des actions associées.
-
-- Consolider les risques, issues et escalades du portefeuille, suivre les plans de mitigation et identifier les risques transverses.
-
-- Contribuer à la construction et à l’évolution du Project Management Playbook ainsi qu’à l’harmonisation des méthodes et outils de gestion de projet.
-
-- Contribuer à l’automatisation du reporting, à l’amélioration de la qualité des données projets et à la mise en place d’une source fiable pour le pilotage du portefeuille.
-
-- Capitaliser sur les lessons learned et contribuer à l’amélioration continue des processus et pratiques de gestion de projet.
-
-Profil recherché 👩‍💻
-
-- Diplôme d’ingénieur ou équivalent, avec une formation en management de projet, gestion industrielle, business ou domaine connexe.
-
-- 7 ans d’expérience minimum en PMO, Project Controls, Program Management ou Project Management dans un environnement industriel complexe.
-
-- Expérience significative en gouvernance projets, planning, reporting, KPIs, gestion des risques et gate reviews.
-
-- Expérience dans un environnement industriel.
-
-- Une expérience en gestion de projet / chef de projet est un plus.
-
-- Une expérience dans le spatial, l’aéronautique, la défense, l’automobile ou les environnements hardware/software complexes est appréciée.
+- Une connaissance des secteurs spatial, aéronautique, défense, automobile ou des environnements combinant hardware et software est appréciée.
 
 - Une expérience en start-up ou scale-up est un plus.
 
-- Maîtrise des outils de planification et de reporting : Odoo, Microsoft Project, Smartsheet, Primavera P6 ou équivalent.
+Compétences techniques
 
-- Très bonne maîtrise d’Excel ; Power BI est un plus.
+- Excellente maîtrise des méthodologies de gouvernance et de gestion de portefeuille projets.
 
-- Bonne compréhension des cycles de développement hardware/software, des jalons techniques et des processus de validation.
+- Maîtrise des outils de planification et de reporting (Odoo, Microsoft Project, Smartsheet, Primavera P6 ou équivalent).
 
-- Maîtrise du français et de l’anglais technique, à l’écrit comme à l’oral.
+- Très bonne maîtrise d'Excel ; Power BI est un plus.
 
-Notre process de recrutement 🤝
+- Solides compétences en analyse de données, suivi d'indicateurs et gestion des risques.
 
-Nous nous engageons à recruter la bonne personne pour le bon poste, quel que soit votre parcours.
+- Bonne compréhension des cycles de développement matériels et logiciels.
 
-Nous nous rencontrons au moins trois fois afin de vous donner une meilleure idée de ce que c’est que de travailler chez Exotrail :
+- Connaissance des processus de validation, des jalons techniques et des revues de projet.
 
-- Entretien avec votre futur manager : vous en apprendrez plus sur le poste, ses enjeux et votre future équipe.
+Les qualités qui feront la différence
 
-- Entretien avec notre Talent Acquisition Team : vous découvrirez davantage notre environnement de travail et notre culture.
+- Excellente capacité d'analyse et de synthèse.
 
-- Rencontre avec l’équipe et découverte de votre futur environnement de travail."
+- Rigueur et sens de l'organisation.
+
+- Vision transverse et capacité à prendre de la hauteur.
+
+- Esprit critique et aptitude à challenger les données.
+
+- Aisance relationnelle et communication avec des interlocuteurs variés.
+
+- Autonomie et proactivité.
+
+- Goût pour l'amélioration continue et la structuration des processus.
+
+Langues
+
+- Français et anglais professionnels, à l'écrit comme à l'oral.
+
+Ce que nous offrons
+
+- 🏥 Une mutuelle d’entreprise prise en charge à 70 % par Exotrail
+
+- 🚆 Le remboursement de 50 % des frais de transport en commun
+
+- 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
+
+- 👶 Une couverture renforcée du congé maternité et paternité, sans condition d’ancienneté
+
+- 📚 Des opportunités de formation et de développement professionnel
+
+- 🧘 Des avantages dédiés au bien-être : Moka Care, conférences thématiques et programme ExoCare pour les moments importants de la vie
+
+- ⏳ 35 jours de congés payés par an (congés annuels et RTT)
+
+Environnement de travail
+
+- 🏭 Des installations industrielles modernes à Massy
+
+- ☕ Café, thé et fruits frais mis gratuitement à disposition
+
+- 🌍 Des équipes internationales et multiculturelles
+
+- 🚀 Une entreprise spatiale dynamique en pleine croissance
+
+Qualité de vie au travail
+
+- 🎉 Des événements d’équipe et afterworks réguliers
+
+- 💆 Des séances d’ostéopathie sur site dans nos deux implantations
+
+- 🤝 Une culture de travail collaborative et bienveillante
+
+Processus de recrutement
+
+Notre processus de recrutement est conçu pour être à la fois efficace et transparent, tout en vous permettant de rencontrer les principaux interlocuteurs du poste :
+
+- Entretien RH avec notre équipe Talent Acquisition afin d’échanger sur votre parcours, vos motivations et vos aspirations professionnelles.
+
+- Entretien Manager pour approfondir votre expérience, vos compétences et votre adéquation avec l’équipe et les projets.
+
+- Entretien Technique avec nos experts afin d’évaluer vos connaissances techniques et votre approche de résolution de problèmes.
+
+- Entretien Final pour échanger sur le poste, les attentes associées et répondre à vos dernières questions.
+
+Nous nous engageons à vous fournir des retours tout au long du processus et à vous offrir une expérience candidat positive.
+
+🚀 Nous avons hâte de faire votre connaissance et d’explorer ensemble la manière dont vous pourrez contribuer à la mission d’Exotrail."
 74c151e9-69a4-472e-ae0d-239ee424126d,Responsable sous système électronique / Electronics Module Leader (H/F),"Massy, France",,Propulsion,hybrid,2025-07-29,https://careers.exotrail.com/jobs/6238837-responsable-sous-systeme-electronique-electronics-module-leader-h-f,"About Exotrail 🚀
 
 Space is becoming more strategic and competitive than ever. Tomorrow’s space leaders will not simply launch satellites into orbit, they will be able to move them, reposition them, extend their lifetime, and maximize their performance in space.
@@ -4168,123 +4172,197 @@ Our recruitment process is designed to be efficient while giving you the opportu
 We strive to provide feedback throughout the process and ensure a positive candidate experience.
 
 🚀 We look forward to getting to know you and exploring how you can contribute to Exotrail's mission."
-6a4415ec-441f-4f25-98d0-7e24359c3d86,Satellite Control Center Software Technical Lead H/F,"Toulouse, France",,In-Orbit Services,hybrid,2026-07-27,https://careers.exotrail.com/jobs/8129329-satellite-control-center-software-technical-lead-h-f,"Job Description 👨‍💻
+6a4415ec-441f-4f25-98d0-7e24359c3d86,Satellite Control Center Software Technical Lead H/F,"Toulouse, France",,In-Orbit Services,hybrid,2026-07-27,https://careers.exotrail.com/jobs/8129329-satellite-control-center-software-technical-lead-h-f,"À propos d’Exotrail 🚀
 
-Le Technical Lead Logiciel SCC (Centre de Control Satellite) est responsable de la coordination technique des systèmes logiciels sol permettant la supervision, le pilotage et le contrôle de satellites en orbite.
+L’espace devient plus stratégique et concurrentiel que jamais. Les leaders spatiaux de demain ne se contenteront pas de lancer des satellites en orbite : ils seront capables de les déplacer, de les repositionner, de prolonger leur durée de vie et d’optimiser leurs performances dans l’espace.
 
-Il joue un rôle clé à l'interface entre les équipes d'exploitation (ops & flight dynamics), d'ingénierie, , de cybersécurité et les clients afin de garantir la disponibilité, la performance et l'évolution des systèmes logiciels SCC critiques de mission.
+Depuis 2017, Exotrail développe et exploite des solutions de mobilité spatiale de pointe destinées aux clients commerciaux, institutionnels et de la défense. De notre système de propulsion haute performance spaceware™ à notre véhicule de transfert orbital spacevan™, nous permettons aux satellites d’aller plus loin, de rester opérationnels plus longtemps et d’accomplir davantage de missions.
 
-Il travaille en étroite collaboration avec l’architecte logiciel, proposant des alternatives techniques et met en œuvre les choix d’architecture.
+Aujourd’hui, plus de 200 Exotrailers, répartis entre Massy et Toulouse, travaillent ensemble pour rendre les opérations spatiales plus efficaces et plus durables.
 
-Il joue un rôle central dans l’encadrement technique des projets logiciels du SCC et agit en tant que Work Package Leader (WPL) sur les périmètres confiés. Il contribue à la mise en place des chaînes de développement, à l’automatisation de l’intégration continue et à l’évolution des outils logiciels internes du SCC. Il anime la communauté de développeurs autour des bonnes pratiques, de la qualité de code et de la documentation technique.
+Soutenue par plus de 75 millions d’euros de financement, notre entreprise poursuit une mission claire :
 
-Relations fonctionnelles : In-Orbit Services (équipes Mission, Engineering et AIT), Infrastructure & Quality
+Faire de l’espace une frontière durable pour les générations futures. 🚀
 
-Relations externes : Fournisseurs, contractants, clients, auditeurs
+Votre mission
+
+Au sein de l'équipe In-Orbit Services, vous êtes le référent technique des logiciels du Satellite Control Center (SCC), plateforme stratégique permettant la supervision, le pilotage et le contrôle de nos satellites en orbite.
+
+À la croisée du développement logiciel, des opérations spatiales et de l'architecture système, vous assurez la cohérence technique, la performance et la fiabilité des solutions logicielles supportant les missions de nos clients.
+
+En collaboration étroite avec les architectes, ingénieurs système, équipes opérations et cybersécurité, vous pilotez les choix techniques, accompagnez les développeurs dans leur montée en compétence et garantissez la bonne exécution des projets logiciels critiques.
+
+Vous contribuez également à l'évolution de notre plateforme en intégrant les meilleures pratiques DevOps, en modernisant les outils existants et en préparant les futures générations de centres de contrôle satellite.
+
+Vos responsabilités
 
 Leadership technique
 
-- Définir et porter la vision technique
+- Être le référent technique des logiciels du Centre de Contrôle Satellite.
 
-- Encadrer techniquement une équipe d'ingénieurs logiciels.
+- Définir les orientations techniques en collaboration avec les architectes logiciels et systèmes.
 
-- Assurer les revues d'architecture et les choix technologiques.
+- Garantir la cohérence globale des développements et des choix technologiques.
 
-- Promouvoir les bonnes pratiques de développement, de qualité et d'exploitation.
+- Accompagner les équipes dans la résolution des problématiques techniques complexes.
 
-Développement et Exploitation
+- Promouvoir les bonnes pratiques de développement logiciel et d'ingénierie.
 
-- Concevoir et faire évoluer les applications de supervision et de contrôle mission.
+Développement et évolution des systèmes SCC
 
-- Maintenir les interfaces avec les systèmes de télémesure, télécommande et traitement de données.
+- Concevoir et développer les applications de supervision, de contrôle et d'exploitation des satellites.
 
-- Concevoir et implémenter les logiciels répondant aux besoins des nouvelles missions satellites.
+- Maintenir et faire évoluer les interfaces avec les systèmes de télémesure, télécommande et traitement de données.
 
-- Garantir la performance, la résilience et la disponibilité des systèmes critiques.
+- Participer à la définition et à la mise en œuvre des nouvelles fonctionnalités destinées aux futures missions.
 
-- Participer aux analyses d'incidents et à l'amélioration continue.
+- Garantir la fiabilité, la disponibilité et les performances des applications critiques.
 
-- Mettre en œuvre des solutions de monitoring, reportinget d'automatisation.
+- Participer aux analyses d'incidents et aux actions correctives.
 
-- Contribuer aux plans de continuité et de reprise d'activité.
+DevOps et intégration continue
 
-Mise en œuvre DevOps et intégration continue
+- Concevoir, maintenir et améliorer les pipelines CI/CD.
 
-- Concevoir, maintenir et faire évoluer les chaînes CI/CD (Continuous Integration / Continuous Deployment)
+- Automatiser les processus de développement, de validation et de déploiement.
 
-- Collaborer avec les équipes d’intégration et d’administration système pour garantir la stabilité des environnements de test et de production
+- Collaborer avec les équipes Infrastructure afin de garantir la stabilité des environnements.
 
-Innovation
+- Contribuer à l'amélioration des pratiques de monitoring, observabilité et exploitation logicielle.
 
-- Évaluer les nouvelles technologies (Cloud, IA, Data Analytics, Digital Twin).
+Pilotage de projets techniques
 
-- Participer aux programmes de modernisation et amélioration continues du centre de contrôle.
+- Assurer le rôle de Work Package Leader sur les périmètres confiés.
 
-- Contribuer aux feuilles de route techniques à moyen et long terme.
+- Définir les objectifs, le planning, les ressources et les risques associés.
 
-Accompagnement et mentorat technique
+- Suivre l'avancement technique et coordonner les différentes parties prenantes.
 
-- Encadrer techniquement les développeurs : relectures de code, pair programming, formation continue
+- Participer aux revues de conception et aux jalons projets.
 
-- Diffuser les bonnes pratiques de codage (Clean Code, Test Driven Development, Software Craftsmanship)
+Innovation et amélioration continue
 
-- Superviser la gestion de la dette technique et l’amélioration continue de la base code
+- Identifier les opportunités d'évolution technologique.
 
-Communication et coordination inter-métiers
+- Évaluer et intégrer de nouvelles solutions dans les domaines du cloud, de l'automatisation, de la donnée ou de l'intelligence artificielle.
 
-- Travailler en étroite collaboration avec les équipes système, logiciel, AIT, GNC et électronique
+- Contribuer à la roadmap technique du Centre de Contrôle Satellite.
 
-- Participer aux revues techniques (PDR – Preliminary Design Review, CDR – Critical Design Review ,..)
+- Participer à la réduction de la dette technique et à l'amélioration de la maintenabilité des logiciels.
 
-Pilotage de Work Packages (WPL)
+Mentorat et accompagnement des développeurs
 
-- Assumer le rôle de Work Package Leader sur les périmètres logiciels confiés
+- Réaliser des revues de code et accompagner les développeurs dans leurs choix techniques.
 
-- Définir le contenu, les ressources, le planning, les risques et les jalons du work package
+- Promouvoir les principes de Clean Code, Software Craftsmanship et qualité logicielle.
 
-- Assurer le suivi d’avancement technique, la gestion des points ouverts
+- Participer à la montée en compétence de l'équipe.
 
-Responsabilités exercées et champ d’actions
+- Favoriser le partage de connaissances et l'amélioration continue des pratiques.
 
-Le SCC Software Technical Lead coordonne au sein de l’équipe les développements et la maintenance des fonctionnalités logicielles du Centre de Contrôle Satellite. Il s’assure du maintien en condition opérationnelle des logiciels SCC. Il encadre les équipes de développement, et peut être amené à piloter des Work Packages. Il veille au respect des exigences, des plannings et des livrables. Il assure la cohérence technique des logiciels SCC et son interopérabilité avec les logiciels Sol, les systèmes avioniques Bord et le segment Sol. Par son expertise, il sécurise l’ensemble du cycle de vie logiciel, de la conception amont jusqu’à l’intégration finale.
+Votre profil
 
-Compétences professionnelles requises
+Formation
 
-- Expertise reconnue en développement et en encadrement technique
+- Diplôme d'ingénieur ou Master en informatique, génie logiciel, systèmes embarqués ou domaine connexe.
 
-- Capacité à structurer l’évolution technique et à piloter l’innovation
+Expérience
 
-- Langages & Frameworks : Typescript, Node.js, NestJS, Angular
+- Expérience significative en développement logiciel complexe.
 
-- Pratiques de développement : Clean Code, gestion de la dette technique
+- Expérience en leadership technique ou en pilotage d'équipes de développement.
 
-- Rigueur méthodologique et capacité à structurer une solution complexe
+- Une expérience dans les secteurs spatial, défense, aéronautique ou systèmes critiques est particulièrement appréciée.
 
-- Esprit d’analyse et capacité à anticiper les dérives techniques
+Compétences techniques
 
-Softskills
+- Solide expertise en conception et développement logiciel.
 
-- Capacité d’organisation et de synthèse
+- Excellente maîtrise de TypeScript.
 
-- Leadership technique, esprit d’équipe, coordination interdisciplinaire, capacité à communiquer efficacement
+- Expérience approfondie avec Node.js, NestJS et Angular.
 
-- Communication technique claire (FR/EN) ; documentation rigoureuse à l’écrit et à l’oral
+- Maîtrise des architectures distribuées et des systèmes critiques.
 
-- Orienté solutions
+- Expérience des environnements DevOps et CI/CD.
 
-Langues : Français (courant, C1), Anglais (professionnel, B1/B2)
+- Connaissance des problématiques de disponibilité, résilience et cybersécurité.
 
-Notre process de recrutement 🤝
+- Maîtrise des pratiques de qualité logicielle et de gestion de la dette technique.
 
-Nous nous engageons à recruter la bonne personne pour le bon poste, quel que soit votre parcours personnel.
+- Expérience des méthodes Agile et du pilotage technique de projets.
 
-Nous organisons au moins trois rencontres pour vous donner une meilleure idée de ce que c’est de travailler chez Exotrail :
+Les qualités qui feront la différence
 
-1. Entretien par appel vidéo avec notre Talent Acquisition Team: vous découvrirez votre environnement de travail et en apprendrez davantage sur notre culture.
+- Leadership technique reconnu.
 
-2. Entretien technique avec votre futur manager : vous en apprendrez plus sur le poste et les qualifications requises.
+- Capacité à prendre du recul sur des systèmes complexes.
 
-3. Entretien sur place avec d'autres membres de l'équipe : vous pourrez vous assurer que vous partagez la même vision et les mêmes valeurs de l'entreprise."
+- Excellent esprit d'analyse et de résolution de problèmes.
+
+- Capacité à fédérer et faire grandir une équipe.
+
+- Communication claire avec des interlocuteurs techniques et non techniques.
+
+- Curiosité, pragmatisme et orientation résultats.
+
+- Goût pour les environnements innovants et exigeants.
+
+Pourquoi rejoindre Exotrail ?
+
+Rejoindre Exotrail, c’est contribuer à des missions ambitieuses qui redéfinissent la logistique spatiale et les opérations satellitaires.
+
+Vous évoluerez aux côtés d’experts passionnés au sein d’une entreprise internationale en forte croissance, à la pointe du New Space, qui développe la prochaine génération de solutions de mobilité en orbite.
+
+Ce que nous offrons
+
+- 🏥 Une mutuelle d’entreprise prise en charge à 70 % par Exotrail
+
+- 🚆 Le remboursement de 50 % des frais de transport en commun
+
+- 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
+
+- 👶 Une couverture renforcée du congé maternité et paternité, sans condition d’ancienneté
+
+- 📚 Des opportunités de formation et de développement professionnel
+
+- 🧘 Des avantages dédiés au bien-être : Moka Care, conférences thématiques et programme ExoCare pour les moments importants de la vie
+
+- ⏳ 35 jours de congés payés par an (congés annuels et RTT)
+
+Environnement de travail
+
+- 📍 Des bureaux idéalement situés en plein cœur de Toulouse.
+
+- ☕ Café, thé et fruits frais mis gratuitement à disposition
+
+- 🌍 Des équipes internationales et multiculturelles
+
+- 🚀 Une entreprise spatiale dynamique en pleine croissance
+
+Qualité de vie au travail
+
+- 🎉 Des événements d’équipe et afterworks réguliers
+
+- 💆 Des séances d’ostéopathie sur site dans nos deux implantations
+
+- 🤝 Une culture de travail collaborative et bienveillante
+
+Processus de recrutement
+
+Notre processus de recrutement est conçu pour être à la fois efficace et transparent, tout en vous permettant de rencontrer les principaux interlocuteurs du poste :
+
+- Entretien RH avec notre équipe Talent Acquisition afin d’échanger sur votre parcours, vos motivations et vos aspirations professionnelles.
+
+- Entretien Manager pour approfondir votre expérience, vos compétences et votre adéquation avec l’équipe et les projets.
+
+- Entretien Technique avec nos experts afin d’évaluer vos connaissances techniques et votre approche de résolution de problèmes.
+
+- Entretien Final pour échanger sur le poste, les attentes associées et répondre à vos dernières questions.
+
+Nous nous engageons à vous fournir des retours tout au long du processus et à vous offrir une expérience candidat positive.
+
+🚀 Nous avons hâte de faire votre connaissance et d’explorer ensemble la manière dont vous pourrez contribuer à la mission d’Exotrail."
 653dcad7-adda-4471-9d92-fbef9710cd52,Satellite Operations Engineer [H/F],"Massy, France","Toulouse, France",In-Orbit Services,hybrid,2026-06-22,https://careers.exotrail.com/jobs/7951483-satellite-operations-engineer-h-f,"À propos d'Exotrail 🚀
 
 L’espace devient plus stratégique et concurrentiel que jamais. Les leaders spatiaux de demain ne se contenteront pas de lancer des satellites en orbite : ils seront capables de les déplacer, de les repositionner, de prolonger leur durée de vie et d’optimiser leurs performances dans l’espace.
@@ -5690,285 +5768,381 @@ Notre processus de recrutement est conçu pour être efficace tout en vous offra
 Nous nous efforçons de vous fournir un retour d’information tout au long du processus et de garantir une expérience candidat positive.
 
 🚀 Nous avons hâte de faire votre connaissance et de découvrir comment vous pouvez contribuer à la mission d’Exotrail."
-1cb62400-3b4b-412b-abac-08cd170c5587,Technicien méthodes et amélioration continue (H/F),"Massy, France",,Propulsion,hybrid,2026-07-27,https://careers.exotrail.com/jobs/8130757-technicien-methodes-et-amelioration-continue-h-f,"Job Description 👨‍💻
+1cb62400-3b4b-412b-abac-08cd170c5587,Technicien méthodes et amélioration continue (H/F),"Massy, France",,Propulsion,hybrid,2026-07-27,https://careers.exotrail.com/jobs/8130757-technicien-methodes-et-amelioration-continue-h-f,"À propos d’Exotrail 🚀
 
-En tant que Technicien Méthodes, vous serez représentant du département Méthodes et Industrialisation en production et garant de l’efficacité des processus de fabrication. En support quotidien aux équipes de production, vous agirez comme pilote technique entre le service Méthodes, l’équipe Qualité et le personnel de production, en veillant à ce que les produits soient fabriqués dans les meilleures conditions de qualité, de coût et de délai.
+L’espace devient plus stratégique et concurrentiel que jamais. Les leaders spatiaux de demain ne se contenteront pas de lancer des satellites en orbite : ils seront capables de les déplacer, de les repositionner, de prolonger leur durée de vie et d’optimiser leurs performances dans l’espace.
 
-Le technicien méthodes garanti t que les procédures définies sont applicables, efficaces et correctement mises en œuvre sur le terrain, tout en faisant remonter les difficultés afin d’améliorer en permanence les procédés de fabrication. Véritable relais opérationnel du département Méthodes au sein de l'atelier, votre responsabilité sera d’identifier les opportunités d'amélioration continue tout en pilotant leur mise en œuvre sur le terrain. Vous serez également sollicité pour la rédaction et la mise à jour de la documentation de production (fiches de rework, procédures d'assemblage, instructions de travail, etc.), garantissant ainsi la fiabilité et l'amélioration continue des standards de fabrication.
+Depuis 2017, Exotrail développe et exploite des solutions de mobilité spatiale de pointe destinées aux clients commerciaux, institutionnels et de la défense. De notre système de propulsion haute performance spaceware™ à notre véhicule de transfert orbital spacevan™, nous permettons aux satellites d’aller plus loin, de rester opérationnels plus longtemps et d’accomplir davantage de missions.
 
-Ce poste requiert une combinaison solide d'expertise technique, de compétences en résolution de problèmes et d'un état d'esprit orienté amélioration continue afin d'optimiser les performances des opérations de fabrication.
+Aujourd’hui, plus de 200 Exotrailers, répartis entre Massy et Toulouse, travaillent ensemble pour rendre les opérations spatiales plus efficaces et plus durables.
 
-Rattaché hiérarchiquement au Responsable Production, vous travaillerez en lien fonctionnel étroit avec le département Industrialisation/Méthodes.
+Soutenue par plus de 75 millions d’euros de financement, notre entreprise poursuit une mission claire :
 
-Relation de travail
+Faire de l’espace une frontière durable pour les générations futures. 🚀
 
-Relations fonctionnelles : Ingénieur s Méthodes, ingénieurs industrialisation, les départements Moyens Industriels et de tests, Engineering, Mécanique, Achats, Production , Qualité.
+Votre mission
 
-Support à la production
+Au sein de l'équipe Production, vous êtes le référent Méthodes sur le terrain et le point de contact privilégié entre les équipes de fabrication, Qualité et Industrialisation.
 
-- Contribuer et assister les équipes (AIT, support, production) dans la résolution des problèmes techniques.
+Votre rôle est de garantir l'efficacité, la robustesse et l'amélioration continue des processus de production. Présent au plus près des opérations, vous accompagnez les équipes dans la résolution des problématiques techniques, veillez à l'application des standards de fabrication et contribuez à l'optimisation permanente des méthodes de travail.
 
-- Participer aux réunions de suivi de production et d’analyse de performance.
+Véritable acteur de terrain, vous identifiez les opportunités d'amélioration, pilotez leur mise en œuvre et participez activement à la montée en maturité industrielle des activités de production d'Exotrail.
 
-- Identifier les causes de dysfonctionnements et proposer des actions correctives et piloter la mise en œuvre
+Vos responsabilités
 
-Analyse des non - conformités et fiabilité process
+Support technique à la production
 
-- Contribuer à l’analyse des défauts et cas de défaillance (PFMEA).
+- Accompagner les équipes de production dans la résolution des problématiques techniques quotidiennes.
 
-- Proposer et mettre en œuvre des solutions pour éliminer les causes racines et prévenir les récidives.
+- Identifier les causes de dysfonctionnement et mettre en œuvre les actions correctives adaptées.
+
+- Participer aux réunions de suivi de production et aux analyses de performance.
+
+- Assurer le lien entre les équipes Production, Qualité, Méthodes et Industrialisation.
+
+Amélioration continue des procédés
+
+- Analyser les performances des processus de fabrication et identifier les axes d'amélioration.
+
+- Déployer des actions d'optimisation visant à améliorer la qualité, la productivité et la répétabilité des opérations.
+
+- Participer aux démarches Lean Manufacturing (5S, Kaizen, PDCA, 8D...).
+
+- Accompagner la standardisation des bonnes pratiques au sein des ateliers.
+
+Analyse des non-conformités et fiabilisation des process
+
+- Participer aux analyses de causes racines et aux investigations techniques.
+
+- Contribuer aux AMDEC Process (PFMEA) et aux plans d'actions associés.
+
+- Mettre en place des solutions visant à réduire les défauts, rebuts et retouches.
 
 - Participer aux audits et revues qualité.
 
-Création et mise à jour de la documentation technique
+Documentation industrielle
 
-- Rédiger et mettre à jour les modes opératoires, instructions de travail et fiches de procédé.
+- Rédiger, mettre à jour et améliorer les instructions de travail, modes opératoires et dossiers de fabrication.
 
-- Standardiser la documentation pour améliorer qualité, sécurité et productivité.
+- Assurer la cohérence entre les gammes de fabrication, nomenclatures, plans et procédures.
 
-- Modifier les documents lors des changements de process ou introduction de nouveaux produit
+- Garantir la bonne prise en compte des évolutions produit ou process dans la documentation.
 
-- Garantir la cohérence entre dossier de fabrication, nomenclatures, plans et procédures.
+- Contribuer à la capitalisation du savoir-faire industriel.
 
-Suivi des performances de production
+Suivi de la performance industrielle
 
-- Collecter et analyser les indicateurs clés (TRS, rebuts, retouches, temps d’arrêt).
+- Collecter et analyser les indicateurs de performance de production.
 
-- Identifier les écarts et proposer des plans d’action correctifs ou préventifs.
+- Identifier les écarts et proposer des plans d'action adaptés.
 
-- Assurer le reporting régulier auprès des équipes concernées.
+- Assurer le suivi et le reporting des actions mises en œuvre.
 
-Amélioration continue et formation
+- Participer à l'amélioration des flux et de l'organisation des ateliers.
 
-- Déployer les actions d’optimisation des process et méthodes de travail.
+Accompagnement et formation des équipes
 
-- Réduire la variabilité des opérations par standardisation et bonnes pratiques.
+- Former et accompagner les opérateurs lors de la mise en place de nouveaux procédés ou équipements.
 
-- Former et accompagner les équipes lors de l’introduction de nouvelles méthodes ou produits .
+- Soutenir les équipes dans l'application des standards et procédures.
 
-- Participer à la démarche Qualité de l’entreprise dans son domaine de compétence, notamment à travers le traitement et la prévention des écarts, la mise à jour des pratiques et l’application des actions d’amélioration continue .
+- Favoriser la montée en compétences des équipes de production.
 
-Présence terrain
+Votre profil
 
-- Assurer une présence quotidienne dans l’atelier afin d’observer les opérations et d’identifier les opportunités d’amélioration.
+Formation
 
-- Être l’interlocuteur privilégié des opérateurs pour les problématiques méthodes .
+- Bac+2 à Bac+3 en industrialisation, génie mécanique, génie électrique, productique, robotique ou équivalent.
 
-- Veiller au respect des standards de fabrication et proposer leur évolution .
+- Une licence professionnelle en méthodes ou industrialisation est un plus.
 
-Diplômes requis
+Expérience
 
-Bac +2 minimum (BTS/DUT en génie mécanique , génie électrique , productique, industrialisation , robotique, fluidique...)
+- Expérience dans un environnement industriel de fabrication, d'assemblage ou d'intégration.
 
-Licence professionnelle en méthodes, industrialisation ou électronique
+- Une expérience dans les secteurs spatial, aéronautique, défense, médical ou électronique est particulièrement appréciée.
 
-Compétences professionnelles requises
+- Une expérience en environnement contrôlé (salle blanche ou salle grise) constitue un atout supplémentaire.
 
-- Expérience dans un environnement industriel de production sur des pièces mécaniques et électroniques .
+Compétences techniques
 
-- Expérience souhaitée dans un des domaines industriels suivants : Spatial / Aéro / Médical .
+- Lecture de plans mécaniques et électriques.
 
-- Une expérience dans un environnement salle blanche ou grise appréciée.
+- Connaissance des méthodes industrielles et des processus de fabrication.
 
-Notre process de recrutement 🤝
+- Expérience dans la rédaction de procédures, gammes opératoires et dossiers techniques.
 
-Nous nous engageons à recruter la bonne personne pour le bon poste, quel que soit votre parcours.
+- Maîtrise des outils d'amélioration continue et de résolution de problèmes.
 
-- Échange avec notre Talent Acquisition Team.
+- Réalisation d'analyses de risques type AMDEC / PFMEA.
 
-- Entretien technique avec votre futur manager.
+- Connaissances de procédés industriels tels que l'intégration mécanique, le câblage, le brasage ou la soudure laser.
 
-- Rencontre avec l'équipe et découverte de votre futur environnement de travail.
+- Utilisation d'outils CAO et lecture de modèles techniques.
 
-- Lecture de plans mécaniques et électriques .
+- Maîtrise des outils bureautiques, notamment Excel.
 
-- Maitrise de la cotation GPS .
+- Familiarité avec les environnements ERP et PLM.
 
-- Analyses de risque (AMDEC / PFMEA) .
+Les qualités qui feront la différence
 
-- Lean Manufacturing (5S, Kaizen, 8D, PDCA…) .
+- Forte présence terrain.
 
-- Expérience dans la mise en place de procédures de fabrication, de tests électroniques, de gammes opératoires et de dossiers techniques .
+- Esprit d'analyse et de résolution de problèmes.
 
-- Solides compétences sur des procédés tels que la soudure laser, le brasage, le câblage , l’intégration mécanique .
-
-- Solides compétences en matière d'analyse et de résolution de problèmes .
-
-- Solide connaissance d’un logiciel CAO/FAO .
-
-- Connaissance des normes de sécurité et des principes d’ergonomie .
-
-- Familiarité avec les principes et méthodologies d’amélioration continue .
-
-- Familiarité avec les outils PLM et ERP .
-
-- Maitrise des outils de bureautique ( Excel) .
-
-Soft skills
-
--Capacité à travailler dans un environnement évolutif avec des équipes inter fonctionnelles .
-
-- Bon relationnel et capacité de communication transverse.
-
-- Esprit d’analyse et résolution de problèmes.
+- Excellentes capacités de communication transverse.
 
 - Rigueur et sens du détail.
 
-- Proactif et force de proposition ."
-401711e4-6e39-45ae-9355-37e937f3ae20,Test Engineer [H/F],"Massy, France",,Propulsion,hybrid,2026-09-29,https://careers.exotrail.com/jobs/8471061-test-engineer-h-f,"Job Description 👨‍💻
+- Curiosité technique.
 
-En tant qu’ingénieur test production, vous serez responsable du pilotage et de la coordination de l’ensemble des activités d’essais nécessaires à la qualification et à la validation des produits assemblés chez Exotrail. Vous assurerez l’organisation, la planification, et le suivi des campagnes d’essais, en veillant à leur bonne réalisation dans le respect des exigences de qualité de coût et de délai.
+- Force de proposition.
 
-Véritable pilote d’activité, vous serez l’interface entre les équipes de production, les équipes d’ingénierie, les équipes d’essai et les prestataires externes. Vous aurez la responsabilité de définir les priorités, d’allouer les ressources et de garantir la disponibilité des moyens d’essais en fonction des besoins industriels.
+- Capacité à fédérer et accompagner le changement.
 
-Vous animez fonctionnellement une équipe de techniciens et d’ingénieurs d’essais, sans responsabilité hiérarchique directe. Vous aurez notamment la charge de structurer les méthodes de travail, de répartir la charge et de garantir la bonne coordination des activités.
+- Goût pour l'amélioration continue et l'optimisation des performances industrielles.
 
-Vous serez également responsable du pilotage des fournisseurs et sous-traitants intervenant dans les campagnes d’essais. À ce titre, vous assurerez le suivi de leur performance, challengerez les coûts et les délais et participerez à la contractualisation et à la négociation des prestations. Vous contribuerez également à la définition et au déploiement d’une stratégie de sous-traitance adaptée aux besoins de l’activité.
+Pourquoi rejoindre Exotrail ?
 
-En complément de cette dimension pilotage, vous devrez disposer d’une solide expérience opérationnelle des essais environnementaux propres au domaine du spatial (vibration, TVAC, etc.) et être capable de préparer et réaliser des campagnes d’essais en autonomie en interne et chez nos sous-traitants. Vous serez capable de préparer les configurations de test, réaliser les setups, dérouler les essais conformément aux procédures, analyser la cohérence des données acquises et assurer la traçabilité des résultats et des éventuelles anomalies.
+Rejoindre Exotrail, c’est contribuer à des missions ambitieuses qui redéfinissent la logistique spatiale et les opérations satellitaires.
 
-Enfin, vous serez responsable de la rédaction, de la relecture et de la validation des rapports d’essais. Vous veillerez à la qualité, à la cohérence et à la complétude des résultats documentés, ainsi qu’à leur conformité avec les exigences applicables et les procédures d’essais. Vous assurerez la consolidation des données issues des campagnes, l’analyse des éventuels écarts et anomalies, et la formalisation des conclusions permettant de statuer sur la conformité du produit testé.
+Vous évoluerez aux côtés d’experts passionnés au sein d’une entreprise internationale en forte croissance, à la pointe du New Space, qui développe la prochaine génération de solutions de mobilité en orbite.
 
-Ce poste requiert donc une double compétence de pilotage d’activité et d’expertise opérationnelle. Vous devrez être capable de prendre de la hauteur pour piloter l’activité dans son ensemble tout en étant suffisamment autonome techniquement pour intervenir directement sur les campagnes d’essais lorsque nécessaire.
+Ce que nous offrons
 
-Rattaché hiérarchiquement au manager de l’unité de production, vous travaillerez en lien fonctionnel étroit avec les départements Engineering, Industrialisation/Méthodes, Qualité, Production, Achats et Moyens d’Essais.
+- 🏥 Une mutuelle d’entreprise prise en charge à 70 % par Exotrail
 
-Relation de travail
+- 🚆 Le remboursement de 50 % des frais de transport en commun
 
-Relations fonctionnelles : Ingénieurs essais (engineering team), ingénieurs industrialisation, Facilities, Engineering, Achats, Production, Qualité.
+- 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
 
-Relations externes : Sous-traitance pour la réalisation de tests externes
+- 👶 Une couverture renforcée du congé maternité et paternité, sans condition d’ancienneté
 
-Activités significatives
+- 📚 Des opportunités de formation et de développement professionnel
 
-Pilotage de l’activité essai
+- 🧘 Des avantages dédiés au bien-être : Moka Care, conférences thématiques et programme ExoCare pour les moments importants de la vie
 
-- Planifier et coordonner les activités et campagnes d’essais.
+- ⏳ 35 jours de congés payés par an (congés annuels et RTT)
 
-- Définir les priorités et allouer les ressources nécessaires.
+Environnement de travail
 
-- Coordonner les équipes internes impliquées dans les essais.
+- 🏭 Des installations industrielles modernes à Massy
 
-- Animer fonctionnellement les équipes de techniciens et ingénieurs d’essais.
+- ☕ Café, thé et fruits frais mis gratuitement à disposition
 
-- Suivre l’avancement, les coûts, les délais et les risques associés aux activités.
+- 🌍 Des équipes internationales et multiculturelles
 
-Relation fournisseurs et sous-traitants
+- 🚀 Une entreprise spatiale dynamique en pleine croissance
 
-- Piloter les fournisseurs et sous-traitants intervenant dans les campagnes d’essais.
+Qualité de vie au travail
 
-- Définir les besoins et exigences techniques des prestations.
+- 🎉 Des événements d’équipe et afterworks réguliers
 
-- Suivre et challenger les coûts, délais et performances des prestataires.
+- 💆 Des séances d’ostéopathie sur site dans nos deux implantations
 
-- Participer à la contractualisation et à la négociation des prestations.
+- 🤝 Une culture de travail collaborative et bienveillante
 
-- Contribuer à la définition et au déploiement de la stratégie de sous-traitance.
+Processus de recrutement
 
-Préparation et réalisation des campagnes d’essai
+Notre processus de recrutement est conçu pour être à la fois efficace et transparent, tout en vous permettant de rencontrer les principaux interlocuteurs du poste :
 
-- Préparer les configurations, moyens et setups d’essais.
+- Entretien RH avec notre équipe Talent Acquisition afin d’échanger sur votre parcours, vos motivations et vos aspirations professionnelles.
 
-- Préparer et réaliser les campagnes d’essais environnementaux (vibration, TVAC, etc.).
+- Entretien Manager pour approfondir votre expérience, vos compétences et votre adéquation avec l’équipe et les projets.
 
-- Dérouler les essais conformément aux procédures et exigences applicables
+- Entretien Technique avec nos experts afin d’évaluer vos connaissances techniques et votre approche de résolution de problèmes.
 
-- Analyser la cohérence des données acquises et identifier les éventuelles anomalies.
+- Entretien Final pour échanger sur le poste, les attentes associées et répondre à vos dernières questions.
 
-- Assurer la traçabilité des configurations, résultats et écarts.
+Nous nous engageons à vous fournir des retours tout au long du processus et à vous offrir une expérience candidat positive.
 
-Rédaction et validation des rapports d’essai
+🚀 Nous avons hâte de faire votre connaissance et d’explorer ensemble la manière dont vous pourrez contribuer à la mission d’Exotrail."
+401711e4-6e39-45ae-9355-37e937f3ae20,Test Engineer [H/F],"Massy, France",,Propulsion,hybrid,2026-09-29,https://careers.exotrail.com/jobs/8471061-test-engineer-h-f,"À propos d’Exotrail 🚀
 
-- Consolider et analyser les données issues des campagnes d’essais.
+L’espace devient plus stratégique et concurrentiel que jamais. Les leaders spatiaux de demain ne se contenteront pas de lancer des satellites en orbite : ils seront capables de les déplacer, de les repositionner, de prolonger leur durée de vie et d’optimiser leurs performances dans l’espace.
 
-- Rédiger les rapports d’essais destinés aux clients et formaliser les conclusions.
+Depuis 2017, Exotrail développe et exploite des solutions de mobilité spatiale de pointe destinées aux clients commerciaux, institutionnels et de la défense. De notre système de propulsion haute performance spaceware™ à notre véhicule de transfert orbital spacevan™, nous permettons aux satellites d’aller plus loin, de rester opérationnels plus longtemps et d’accomplir davantage de missions.
 
-- Relire et valider les rapports produits en interne ou par les prestataires.
+Aujourd’hui, plus de 200 Exotrailers, répartis entre Massy et Toulouse, travaillent ensemble pour rendre les opérations spatiales plus efficaces et plus durables.
 
-- Valider la conformité des résultats et des rapports aux exigences applicables.
+Soutenue par plus de 75 millions d’euros de financement, notre entreprise poursuit une mission claire :
 
-Diplômes requis
+Faire de l’espace une frontière durable pour les générations futures. 🚀
 
-Bac +2 minimum (BTS/DUT en génie mécanique, génie électrique, productique, industrialisation, robotique, fluidique...)
+Job Description
 
-Compétences professionnelles requises
+Votre mission
 
-Techniques
+Au sein de l'équipe Production, vous êtes le référent des activités d'essais permettant de qualifier et valider les produits assemblés chez Exotrail avant leur livraison.
 
-- Minimum 5 ans d’expérience dans un environnement industriel exigeant, idéalement dans les secteurs spatial ou aéronautique.
+Véritable coordinateur des essais, vous pilotez l'ensemble du cycle de validation, de la préparation des campagnes jusqu'à l'analyse des résultats. Vous assurez la bonne exécution des essais dans le respect des exigences techniques, qualité, coûts et délais.
 
-- Expérience concrète dans la préparation et la réalisation de campagnes d’essais.
+À l'interface entre les équipes Production, Engineering, Qualité, Industrialisation et les laboratoires externes, vous coordonnez les ressources, définissez les priorités et garantissez la disponibilité des moyens nécessaires au bon déroulement des campagnes d'essais.
 
-- Capacité à préparer et réaliser en autonomie un set-up d’essai et à dérouler une procédure de test.
+Ce poste combine une forte dimension de pilotage et une expertise terrain. Vous êtes capable de prendre de la hauteur pour organiser l'activité tout en intervenant directement sur les campagnes d'essais lorsque nécessaire.
 
-- Bonne connaissance des essais environnementaux et des contraintes associées.
+Vos responsabilités
 
-- Maîtrise ou bonne connaissance des essais de vibration : sinus et aléatoire.
+Piloter les activités d'essais
 
-- Maîtrise ou bonne connaissance des essais de cyclage thermique (TVAC)
+- Planifier et coordonner les campagnes d'essais des équipements et systèmes.
 
-- Connaissance des contraintes environnementales liées aux essais : ESD, thermique et environnement sous vide.
+- Définir les priorités et assurer l'allocation des ressources nécessaires.
 
-- Capacité à effectuer des relevés de mesures et à vérifier la cohérence des données acquises.
+- Suivre l'avancement, les risques, les coûts et les délais.
 
-- Capacité à détecter, analyser et documenter les anomalies rencontrées lors des essais.
+- Animer fonctionnellement une équipe de techniciens et d'ingénieurs essais.
 
-- Maîtrise des équipements de mesure courants, notamment multimètre et mégohmmètre.
+- Structurer les méthodes de travail et contribuer à l'amélioration continue de l'activité.
 
-- Expérience dans le pilotage de fournisseurs et sous-traitants industriels.
+Préparer et réaliser les campagnes d'essais
 
-- Expérience en contractualisation et négociation de prestations techniques.
+- Préparer les configurations et moyens d'essais.
 
-- Maîtrise des méthodes de planification et de pilotage d’activité.
+- Réaliser les setups et conduire les essais conformément aux procédures.
 
-- Connaissance des normes de sécurité et des principes d’ergonomie.
+- Mener des campagnes d'essais environnementaux (vibrations, thermovacuum, cyclage thermique, etc.).
 
-- Maîtrise des enjeux et règles d’exigence qualité, traçabilité, etc.
+- Vérifier la cohérence des mesures et analyser les résultats obtenus.
 
-- Capacité à définir et suivre des indicateurs de performance.
+- Identifier, documenter et suivre les anomalies détectées.
 
-- Maîtrise d’Excel pour l’exploitation et l’analyse des données d’essais.
+- Garantir la traçabilité des essais et des configurations testées.
 
-- Bonne compréhension des enjeux industriels de production, de qualité, de coût et de délai.
+Piloter les partenaires externes
 
-- Familier avec les normes MIL-STD ou ECSS
+- Définir les besoins et exigences techniques des prestations d'essais.
 
-- Niveau B2 minimum en anglais et en français.
+- Coordonner les laboratoires externes et sous-traitants.
 
-Soft skills
+- Suivre la performance des prestataires en termes de qualité, coûts et délais.
 
-- Grande autonomie, notamment lors des interventions sur sites externes.
+- Participer aux consultations, négociations et contractualisations.
 
-- Leadership et capacité à fédérer sans lien hiérarchique.
+- Contribuer à la stratégie de sous-traitance des activités d'essais.
 
-- Rigueur et méthode.
+Garantir la qualité des résultats
 
-- Excellentes capacités d’organisation et de planification.
+- Consolider et analyser les données issues des campagnes.
 
-- Esprit d’analyse et capacité à résoudre des problèmes techniques.
+- Rédiger, relire et valider les rapports d'essais.
 
-- Capacité à prendre du recul et à structurer une activité.
+- Vérifier la conformité des résultats vis-à-vis des exigences applicables.
 
-- Bon relationnel et aisance dans les échanges avec des interlocuteurs techniques et opérationnels.
+- Formaliser les conclusions permettant de statuer sur l'acceptation des produits testés.
 
-- Capacité à travailler dans un environnement évolutif et avec des équipes interfonctionnelles.
+Votre profil
 
-- Force de proposition et orientation amélioration continue.
+Formation
 
-- Contraintes spécifiques du poste
+Formation Bac+2 à Bac+5 en mécanique, électronique, mesures physiques, génie industriel ou équivalent.
 
-- Déplacements réguliers sur des sites d’essais externes, généralement dans un rayon d’environ 1 heure.
+Expérience
 
-- Permis B obligatoire.
+- Minimum 5 ans d'expérience dans un environnement industriel exigeant.
 
-Notre process de recrutement 🤝
+- Expérience significative dans la préparation et la réalisation de campagnes d'essais.
 
-Nous nous engageons à recruter les bonnes personnes pour le bon poste, indépendamment de vos antécédents privés.
+- Une expérience dans les secteurs spatial, aéronautique, défense ou high-tech est fortement appréciée.
 
-Nous nous rencontrons plusieurs fois afin de vous donner une meilleure idée d’une expérience professionnelle chez Exotrail :
+- Expérience du pilotage d'activités et de prestataires techniques.
 
-1. Entretien par appel vidéo avec notre Talent Acquisition Team: vous découvrirez votre environnement de travail et en apprendrez davantage sur notre culture.
+Compétences techniques
 
-2. Entretien de présentation du poste avec votre futur manager : vous en apprendrez plus sur le poste et les qualifications requises.
+- Bonne maîtrise des essais environnementaux : vibrations sinus et aléatoires, TVAC, cyclages thermiques.
 
-3. Entretien approfondi avec votre futur manager. Des tests techniques vous seront proposés."
+- Capacité à préparer et exécuter des essais en autonomie.
+
+- Lecture et application de procédures de test.
+
+- Analyse de mesures et interprétation de résultats.
+
+- Investigation d'anomalies et rédaction de rapports techniques.
+
+- Utilisation des instruments de mesure (multimètre, mégohmmètre, etc.).
+
+- Bonne compréhension des exigences qualité, traçabilité et sûreté.
+
+- Maîtrise d'Excel pour le traitement et l'analyse de données.
+
+- Connaissance des standards ECSS et/ou MIL-STD.
+
+- Anglais professionnel (B2 minimum).
+
+Les qualités qui feront la différence
+
+- Leadership naturel et capacité à fédérer sans lien hiérarchique.
+
+- Excellente organisation et sens des priorités.
+
+- Rigueur et esprit méthodique.
+
+- Autonomie et capacité à prendre des décisions.
+
+- Forte orientation terrain et résolution de problèmes.
+
+- Bon relationnel avec des interlocuteurs variés.
+
+- Esprit d'amélioration continue.
+
+Environnement de travail
+
+Rattaché(e) au Manager de l'unité Production, vous interagissez quotidiennement avec les équipes Engineering, Industrialisation, Qualité, Achats, Production et Moyens d'Essais.
+
+Des déplacements réguliers sont à prévoir auprès des laboratoires d'essais et partenaires externes.
+
+Permis B requis.
+
+Pourquoi rejoindre Exotrail ?
+
+Rejoindre Exotrail, c’est contribuer à des missions ambitieuses qui redéfinissent la logistique spatiale et les opérations satellitaires.
+
+Vous évoluerez aux côtés d’experts passionnés au sein d’une entreprise internationale en forte croissance, à la pointe du New Space, qui développe la prochaine génération de solutions de mobilité en orbite.
+
+Ce que nous offrons
+
+- 🏥 Une mutuelle d’entreprise prise en charge à 70 % par Exotrail
+
+- 🚆 Le remboursement de 50 % des frais de transport en commun
+
+- 🏡 Jusqu’à 2 jours de télétravail par semaine, selon le poste
+
+- 👶 Une couverture renforcée du congé maternité et paternité, sans condition d’ancienneté
+
+- 📚 Des opportunités de formation et de développement professionnel
+
+- 🧘 Des avantages dédiés au bien-être : Moka Care, conférences thématiques et programme ExoCare pour les moments importants de la vie
+
+- ⏳ 35 jours de congés payés par an (congés annuels et RTT)
+
+Environnement de travail
+
+- 🏭 Des installations industrielles modernes à Massy
+
+- ☕ Café, thé et fruits frais mis gratuitement à disposition
+
+- 🌍 Des équipes internationales et multiculturelles
+
+- 🚀 Une entreprise spatiale dynamique en pleine croissance
+
+Qualité de vie au travail
+
+- 🎉 Des événements d’équipe et afterworks réguliers
+
+- 💆 Des séances d’ostéopathie sur site dans nos deux implantations
+
+- 🤝 Une culture de travail collaborative et bienveillante
+
+Processus de recrutement
+
+Notre processus de recrutement est conçu pour être à la fois efficace et transparent, tout en vous permettant de rencontrer les principaux interlocuteurs du poste :
+
+- Entretien RH avec notre équipe Talent Acquisition afin d’échanger sur votre parcours, vos motivations et vos aspirations professionnelles.
+
+- Entretien Manager pour approfondir votre expérience, vos compétences et votre adéquation avec l’équipe et les projets.
+
+- Entretien Technique avec nos experts afin d’évaluer vos connaissances techniques et votre approche de résolution de problèmes.
+
+- Entretien Final pour échanger sur le poste, les attentes associées et répondre à vos dernières questions.
+
+Nous nous engageons à vous fournir des retours tout au long du processus et à vous offrir une expérience candidat positive."

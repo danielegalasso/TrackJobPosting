@@ -1,0 +1,76 @@
+{
+  "source": "https://www.rheinmetall.com/en/career/vacancies?9dc11c304b4c06c2f71c48cc6574e7e5term=cyber",
+  "company": "Rheinmetall",
+  "query": "",
+  "extracted_at": "2026-10-15T08:16:58",
+  "site_total": 6,
+  "extracted": 6,
+  "postings": [
+    {
+      "job_id": "1100666",
+      "title": "Cyber Security Architect (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/cyber_security_architect__m_w_d_/1100666",
+      "location": "Wien",
+      "country": "Austria",
+      "contract": "Vollzeit",
+      "published": "2026-07-14",
+      "deadline": "",
+      "description": "Analyse und Bearbeitung der Cybersicherheits- und Software-Updateanforderungen in Kundenprojekten\nErstellung von Nachweisen zur Cybersicherheit (CS-Plan, CS-Konzept, TaRa)\nErstellung von Konzepten und Prozessen für die Identifikation, Durchführung, Handhabung und Dokumentation von Fahrzeug-Software Updates entlang UNECE R156 / ISO 24089\nDurchführung von Schwachstellenanalysen\nPlanung, Durchführung und Verfolgung von Cyber Security-bezogenen V&V (z.B. Testungen)"
+    },
+    {
+      "job_id": "1180340",
+      "title": "Cyber Security Engineer - Platform & DevSecOps (m/f/d)",
+      "url": "https://www.rheinmetall.com/en/job/cyber_security_engineer_platform___devsecops__m_f_d_/1180340",
+      "location": "Bremen",
+      "country": "Germany",
+      "contract": "Full Time",
+      "published": "2026-10-02",
+      "deadline": "",
+      "description": "Design, implementation, and continuous development of the technical security architecture for large Kubernetes-based platform, software, and data infrastructures\nHands-on analysis, hardening, and security validation of Linux, container, and Kubernetes infrastructures—from the host through the cluster to the application\nConducting technical security assessments, penetration tests, and adversarial security tests against our own platforms and components to practically demonstrate vulnerabilities and realistic attack vectors\nSecurity review and hardening of Infrastructure as Code, as well as integration of automated security checks, security gates, and Policy-as-Code mechanisms into CI/CD and DevSecOps processes\nSecuring Kubernetes environments, including RBAC, workload isolation, admission policies, network policies, secrets management, and runtime security\nHelping to shape a secure software supply chain, including for dependencies, container images, artifacts, SBOM, signing, provenance, and trusted build and deployment processes\nAnalyzing and securing network connections and communication paths between platforms, data centers, external networks, and connected systems, including segmentation, firewalls, gateways, TLS/PKI, APIs, and machine-to-machine communication\nDesign and technical validation of identity, authentication, and authorization concepts for users, services, and workloads, as well as secrets, credentials, certificates, and key management\nEnsuring the protection of data at rest, in transit, and during processing in close collaboration with platform and data engineering teams\nConducting threat modeling, vulnerability analysis, and technical validation of findings; deriving and implementing effective countermeasures\nFurther development of security monitoring, audit logging, and detection capabilities, as well as support for the technical analysis and resolution of security incidents\nParticipate in the security assessment of AI/machine learning infrastructures and AI-based applications, and implement security proofs of concept through to production-ready solutions"
+    },
+    {
+      "job_id": "1180331",
+      "title": "Cyber Security Engineer - Platform & DevSecOps (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/cyber_security_engineer_platform___devsecops__m_w_d_/1180331",
+      "location": "Bremen",
+      "country": "Germany",
+      "contract": "Vollzeit",
+      "published": "2026-10-02",
+      "deadline": "",
+      "description": "Konzeption, Implementierung und kontinuierliche Weiterentwicklung der technischen Security Architecture für große Kubernetes-basierte Plattform-, Software- und Dateninfrastrukturen\nHands-on-Analyse, Härtung und Sicherheitsvalidierung von Linux-, Container- und Kubernetes-Infrastrukturen vom Host über den Cluster bis zur Anwendung\nDurchführung technischer Security Assessments, Penetration Tests und adversarial Security Tests gegen eigene Plattformen und Komponenten, um Schwachstellen und realistische Angriffspfade praktisch nachzuweisen\nSecurity Review und Härtung von Infrastructure as Code sowie Integration automatisierter Sicherheitsprüfungen, Security Gates und Policy-as-Code-Mechanismen in CI/CD- und DevSecOps-Prozesse\nAbsicherung von Kubernetes-Umgebungen einschließlich RBAC, Workload Isolation, Admission Policies, Network Policies, Secrets Management und Runtime Security\nMitgestaltung einer sicheren Software Supply Chain, u. a. für Abhängigkeiten, Container Images, Artefakte, SBOM, Signierung, Provenance und vertrauenswürdige Build- und Deployment-Prozesse\nAnalyse und Absicherung von Netzwerkverbindungen und Kommunikationspfaden zwischen Plattformen, Rechenzentren, externen Netzen und angebundenen Systemen, einschließlich Segmentierung, Firewalls, Gateways, TLS/PKI, APIs und Machine-to-Machine-Kommunikation\nKonzeption und technische Validierung von Identity-, Authentication- und Authorization-Konzepten für Benutzer, Services und Workloads sowie von Secrets-, Credential-, Certificate- und Key-Management\nSicherstellung des Schutzes von Daten at rest, in transit und während der Verarbeitung in enger Zusammenarbeit mit Plattform- und Data-Engineering-Teams\nDurchführung von Threat Modeling, Schwachstellenanalyse und technischer Validierung von Findings; Ableitung und Umsetzung wirksamer Gegenmaßnahmen\nWeiterentwicklung von Security Monitoring, Audit Logging und Detection-Fähigkeiten sowie Unterstützung bei der technischen Analyse und Behebung von Security Incidents\nMitwirkung an der Sicherheitsbewertung von AI-/Machine-Learning-Infrastrukturen und AI-basierten Anwendungen sowie Umsetzung von Security Proofs of Concept bis in produktionsreife Lösungen"
+    },
+    {
+      "job_id": "895514",
+      "title": "Solution Designer -  Cyber Security Products (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/solution_designer_cyber_security_products__m_w_d_/895514",
+      "location": "Bremen",
+      "country": "Germany",
+      "contract": "Vollzeit",
+      "published": "2025-11-25",
+      "deadline": "",
+      "description": "Die Durchsetzungsfähigkeit von Streitkräften auf dem Gefechtsfeld der Zukunft wird maßgeblich durch softwarebasierte Anpassungsfähigkeit und Fähigkeitsentwicklung bestimmt. Digitalisierung und zukunftsorientierte Softwareprodukte sind der wesentliche Enabler für moderne militärische Operationen. Maximale Sicherheit zum Schutz vernetzter Einsatzsysteme und kritischer Infrastruktur sind essentiell um Stabilität und Kontrolle in kritischen Missionen bei stetig wachsender Gefährdungslage im Cyberraum zu gewährleisten.\nSorgen Sie dafür, dass Streitkräfte früher, schneller, autonomer und präziser handeln können um Demokratien zu schützen. Sie übernehmen Verantwortung als Solution Designer (m/w/d) der Produktlinie mit dem Schwerpunkt Cyber Resilience & Security von der technologischen Produktplanung bis zur Abwicklung komplexer Softwareentwicklungsvorhaben.\nWeitere Aufgaben:\n\nTechnische Verantwortung für die Entwicklung von Software Produkten über den gesamten Produktlebenszyklus (PLC)\nVerantwortung für die technologische Planung und Ausrichtungen einer Produktlinie, sodass Produktfeatures zu angestrebten Technologien und Kundenbedarfen passen\nTechnischer Ansprechpartner (m/w/d) und Schnittstelle zu Projekten, Programmen und angrenzenden Fachbereichen\nSicherstellen, dass Produkte plattformübergreifend eingesetzt werden können und im Zusammenspiel ein technischer Kundenmehrwert entsteht\nVerantwortung für die Erstellung und Pflege von Referenzarchitekturen & -spezifikationen\nAnalyse von Kundenanforderungen sowie Initiierung und technische Bewertung von Make-or-Buy Entscheidungen\nZuständigkeit für die Erfüllung sämtlicher Produktanforderungen\nAufbau und Pflege der Geschäftsbeziehungen zu Technologiepartnern"
+    },
+    {
+      "job_id": "1016846",
+      "title": "Systemingenieur Cyber Security (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/systemingenieur_cyber_security__m_w_d_/1016846",
+      "location": "Kassel",
+      "country": "Germany",
+      "contract": "Vollzeit",
+      "published": "2026-04-08",
+      "deadline": "",
+      "description": "Als Systemingenieur Cybersecurity (m/w/d) arbeiten Sie in einem interdisziplinären Team an der Informationssicherheit unseres aktuellen und zukünftigen Produktportfolios. Hierbei erarbeiten Sie anhand der ISO 21434 und des IT-Grundschutz Informationssicherheits- und Risikoanalysen sowie Anforderungen auf verschiedenen Systemebenen während der Entwicklungsphase unserer Fahrzeugsysteme. Dies erledigen Sie entweder gemeinsam im Team oder durch die Herausgabe an von Ihnen geführte Unterauftragnehmer.\nIhre Aufgaben:\n\nBetreuung und Koordination von Unterauftragnehmern\nDurchführung von Sicherheitsanalysen (z.B. TARA)\nErstellung von Informationssicherheitskonzepten\nDefinition und Überwachung von Cybersecurity Anforderungen\nPlanung von Sicherheitsüberprüfungen (Penetrationstests)"
+    },
+    {
+      "job_id": "1188590",
+      "title": "Werkstudent Safety, Quality, Cybersecurity Management (m/w/d)",
+      "url": "https://www.rheinmetall.com/en/job/werkstudent_safety__quality__cybersecurity_management__m_w_d_/1188590",
+      "location": "Düsseldorf",
+      "country": "Germany",
+      "contract": "Teilzeit",
+      "published": "2026-10-12",
+      "deadline": "",
+      "description": "Unterstützung des Bereichs Safety, Qualits und Cybersecurity in operativen und administrativen Aufgaben\nMitgestalten und Überwachen von Prozessen in Confluence und Jira\nMitarbeit bei der Erstellung von Präsentationen, Statusberichten und Entscheidungsunterlagen\nUnterstützung bei der Koordination von Meetings, inklusive Protokollierung und Nachverfolgung von To-Dos"
+    }
+  ]
+}
